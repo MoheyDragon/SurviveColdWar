@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1ADECE53-9FBC-41BE-90F4-A460BEF93C01}" SchemaVersion="97">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{1ADECE53-9FBC-41BE-90F4-A460BEF93C01}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="NukeDanger" ID="{4CEC13C6-398C-4BF9-B452-2D4D1DE6D8B3}"/>
+				<GameParameter Name="MonthEndAccelartor" ID="{B32A6EC4-76A4-461F-BCBF-17907001CFC9}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-100"/>
+						<Property Name="Max" Type="Real64" Value="10000"/>
+						<Property Name="Min" Type="Real64" Value="-100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="MusicRTPC" ID="{2AF2DC35-9B08-4F0C-BCBA-3BD408160D12}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="SFXRTPC" ID="{A37B8FC1-357B-486A-BBCE-191A65A84A30}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

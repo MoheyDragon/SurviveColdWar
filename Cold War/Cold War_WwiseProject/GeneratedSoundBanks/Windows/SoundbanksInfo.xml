@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>C:\Users\hopes\OneDrive\Documents\Unity\Cold War\Cold War_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\hopes\OneDrive\Documents\Unity\Cold War\Cold War_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\hopes\OneDrive\Documents\Unity\Cold War\Cold War_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\hopes\OneDrive\Documents\Unity\Cold War\Cold War_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="270908044" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Windows</ObjectPath>
+			<ShortName>Windows</ShortName>
+			<Path>Windows.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1486053686" Name="Assassin" ObjectPath="\Events\Default Work Unit\Assassin" DurationType="OneShot" DurationMin="2.545186" DurationMax="3.987747">
+					<IncludedMemoryFiles>
+						<File Id="125217356" Language="SFX">
+							<ShortName>smartsound_WEAPONS_BULLET_Small_Impact_Body_01.wav</ShortName>
+							<Path>SFX\smartsound_WEAPONS_BULLET_Small_Impact_Body_01_6FD2EBD6.wem</Path>
+						</File>
+						<File Id="378138695" Language="SFX">
+							<ShortName>Blastwave_FX_HumanCrowdStudio_S08HU.193.wav</ShortName>
+							<Path>SFX\Blastwave_FX_HumanCrowdStudio_S08HU.193_31C3DDD0.wem</Path>
+						</File>
+						<File Id="448665159" Language="SFX">
+							<ShortName>warfare_gun_cock_then_shoot.wav</ShortName>
+							<Path>SFX\warfare_gun_cock_then_shoot_D951AD54.wem</Path>
+						</File>
+						<File Id="490797689" Language="SFX">
+							<ShortName>smartsound_WEAPONS_BULLET_Small_Impact_Body_01.wav</ShortName>
+							<Path>SFX\smartsound_WEAPONS_BULLET_Small_Impact_Body_01_EB22F779.wem</Path>
+						</File>
+						<File Id="803064229" Language="SFX">
+							<ShortName>smartsound_WEAPONS_BULLET_Small_Impact_Body_01.wav</ShortName>
+							<Path>SFX\smartsound_WEAPONS_BULLET_Small_Impact_Body_01_32321A80.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1584507803" Name="Click" ObjectPath="\Events\Default Work Unit\Click" DurationType="OneShot" DurationMin="0.254846" DurationMax="0.340179">
+					<IncludedMemoryFiles>
+						<File Id="583160970" Language="SFX">
+							<ShortName>zapsplat_multimedia_game_sound_tone_wooden_mallet_generic_015_38417.wav</ShortName>
+							<Path>SFX\zapsplat_multimedia_game_sound_tone_wooden_mallet_generic_015_38417_D951AD54.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4232587031" Name="ElectionEnd" ObjectPath="\Events\Default Work Unit\ElectionEnd" DurationType="OneShot" DurationMin="5.734074" DurationMax="5.734074">
+					<IncludedMemoryFiles>
+						<File Id="803340645" Language="SFX">
+							<ShortName>smartsound_HUMAN_CROWD_Applause_Short.wav</ShortName>
+							<Path>SFX\smartsound_HUMAN_CROWD_Applause_Short_1F92BF6D.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="626984708" Name="ElectionStart" ObjectPath="\Events\Default Work Unit\ElectionStart" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="957416993" Language="SFX">
+							<ShortName>music_zapsplat_seedy_city.wav</ShortName>
+							<Path>SFX\music_zapsplat_seedy_city_49266039.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2899296827" Name="FactoryBuild" ObjectPath="\Events\Default Work Unit\FactoryBuild" DurationType="OneShot" DurationMin="6.841828" DurationMax="6.841828">
+					<IncludedMemoryFiles>
+						<File Id="813879734" Language="SFX">
+							<ShortName>audio_hero_IndustryBrewery+TL04_51.wav</ShortName>
+							<Path>SFX\audio_hero_IndustryBrewery+TL04_51_C3F12194.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3753593413" Name="Hover" ObjectPath="\Events\Default Work Unit\Hover" DurationType="OneShot" DurationMin="0.371699" DurationMax="1.180070">
+					<IncludedMemoryFiles>
+						<File Id="209932888" Language="SFX">
+							<ShortName>tspt_game_button_04_040.wav</ShortName>
+							<Path>SFX\tspt_game_button_04_040_D951AD54.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="221232726" Name="Lose" ObjectPath="\Events\Default Work Unit\Lose" DurationType="OneShot" DurationMin="18.348000" DurationMax="18.348000">
+					<IncludedMemoryFiles>
+						<File Id="736816316" Language="SFX">
+							<ShortName>zapsplat_emergency_nuclear_power_station_meltdown_alarm_42849.wav</ShortName>
+							<Path>SFX\zapsplat_emergency_nuclear_power_station_meltdown_alarm_42849_D951AD54.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3604647259" Name="MainMenu" ObjectPath="\Events\Default Work Unit\MainMenu" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="798073065" Language="SFX">
+							<ShortName>4-Dramatic War Tension Background Instrumental - Royalty Free Music.wav</ShortName>
+							<Path>SFX\4-Dramatic War Tension Background Instrumental - Royalty Free Music_CF7AFEF9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2400831024" Name="MonthEnding" ObjectPath="\Events\Default Work Unit\MonthEnding" DurationType="OneShot" DurationMin="3.222367" DurationMax="3.222367">
+					<IncludedMemoryFiles>
+						<File Id="243572024" Language="SFX">
+							<ShortName>zapsplat_multimedia_alert_bright_warm_system_negative_error_001_57861.wav</ShortName>
+							<Path>SFX\zapsplat_multimedia_alert_bright_warm_system_negative_error_001_57861_D951AD54.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Default Work Unit\Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="91091254" Language="SFX">
+							<ShortName>3-Dramatic Intense Rescue Background Instrumental - Royalty Free Music.wav</ShortName>
+							<Path>SFX\3-Dramatic Intense Rescue Background Instrumental - Royalty Free Music_2CBC2F9F.wem</Path>
+						</File>
+						<File Id="402158815" Language="SFX">
+							<ShortName>3-Dramatic Intense Rescue Background Instrumental - Royalty Free Music.wav</ShortName>
+							<Path>SFX\3-Dramatic Intense Rescue Background Instrumental - Royalty Free Music_28A52B98.wem</Path>
+						</File>
+						<File Id="478462194" Language="SFX">
+							<ShortName>2-Dramatic Chase Theme Instrumental - Royalty Free Music.wav</ShortName>
+							<Path>SFX\2-Dramatic Chase Theme Instrumental - Royalty Free Music_51DE0A61.wem</Path>
+						</File>
+						<File Id="959822171" Language="SFX">
+							<ShortName>2-Dramatic Chase Theme Instrumental - Royalty Free Music.wav</ShortName>
+							<Path>SFX\2-Dramatic Chase Theme Instrumental - Royalty Free Music_71F25F84.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{E057A2A2-8086-4B61-AA55-762FC0973213}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{E057A2A2-8086-4B61-AA55-762FC0973213}">
+							<Media>
+								<File Id="959822171"/>
+								<File Id="478462194"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{C3500A38-AA98-4E17-9BA5-3271E0497BF7}">
+							<Media>
+								<File Id="91091254"/>
+								<File Id="402158815"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3864097025" Name="Pause_All" ObjectPath="\Events\Default Work Unit\Pause_All" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3667381417" Name="PorxyWar" ObjectPath="\Events\Default Work Unit\PorxyWar" DurationType="OneShot" DurationMin="2.533500" DurationMax="3.284792">
+					<IncludedMemoryFiles>
+						<File Id="85764390" Language="SFX">
+							<ShortName>zapsplat_warfare_machine_gun_burst_short_61527.wav</ShortName>
+							<Path>SFX\zapsplat_warfare_machine_gun_burst_short_61527_D951AD54.wem</Path>
+						</File>
+						<File Id="179461112" Language="SFX">
+							<ShortName>zapsplat_warfare_bomb_whizz_in_hit_close_by_explosion_med_002_48059.wav</ShortName>
+							<Path>SFX\zapsplat_warfare_bomb_whizz_in_hit_close_by_explosion_med_002_48059_369B0A7E.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1626144019" Name="Quotes01Factory" ObjectPath="\Events\Default Work Unit\Quotes01Factory" DurationType="OneShot" DurationMin="8.717343" DurationMax="8.717343">
+					<IncludedMemoryFiles>
+						<File Id="679708864" Language="SFX">
+							<ShortName>Factory3.wav</ShortName>
+							<Path>SFX\Factory3_A561B1AD.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="658248847" Name="Quotes02Research" ObjectPath="\Events\Default Work Unit\Quotes02Research" DurationType="OneShot" DurationMin="8.097000" DurationMax="8.097000">
+					<IncludedMemoryFiles>
+						<File Id="381896295" Language="SFX">
+							<ShortName>research3.wav</ShortName>
+							<Path>SFX\research3_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2973387804" Name="Quotes03Proxy_war" ObjectPath="\Events\Default Work Unit\Quotes03Proxy_war" DurationType="OneShot" DurationMin="8.606002" DurationMax="8.606002">
+					<IncludedMemoryFiles>
+						<File Id="610340851" Language="SFX">
+							<ShortName>proxy war3.wav</ShortName>
+							<Path>SFX\proxy war3_C7ACF67B.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="421158184" Name="Quotes04Spy" ObjectPath="\Events\Default Work Unit\Quotes04Spy" DurationType="OneShot" DurationMin="5.091083" DurationMax="5.091083">
+					<IncludedMemoryFiles>
+						<File Id="941664908" Language="SFX">
+							<ShortName>spy4.wav</ShortName>
+							<Path>SFX\spy4_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2134322740" Name="Quotes05Assassin" ObjectPath="\Events\Default Work Unit\Quotes05Assassin" DurationType="OneShot" DurationMin="10.160322" DurationMax="10.160322">
+					<IncludedMemoryFiles>
+						<File Id="798353415" Language="SFX">
+							<ShortName>assassin3.wav</ShortName>
+							<Path>SFX\assassin3_9636F5A3.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3895945778" Name="Research" ObjectPath="\Events\Default Work Unit\Research" DurationType="OneShot" DurationMin="4.553083" DurationMax="4.553083">
+					<IncludedMemoryFiles>
+						<File Id="152716298" Language="SFX">
+							<ShortName>PM_BlurryDreams_169_254.wav</ShortName>
+							<Path>SFX\PM_BlurryDreams_169_254_D951AD54.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3679762312" Name="Resume_All" ObjectPath="\Events\Default Work Unit\Resume_All" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="695237093" Name="Spy" ObjectPath="\Events\Default Work Unit\Spy" DurationType="OneShot" DurationMin="7.597871" DurationMax="7.597871">
+					<IncludedMemoryFiles>
+						<File Id="942777620" Language="SFX">
+							<ShortName>audio_hero_Gothic_SIPML_J-0203.wav</ShortName>
+							<Path>SFX\audio_hero_Gothic_SIPML_J-0203_B923BB29.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="979765101" Name="Win" ObjectPath="\Events\Default Work Unit\Win" DurationType="OneShot" DurationMin="13.315720" DurationMax="13.315720">
+					<IncludedMemoryFiles>
+						<File Id="1001214785" Language="SFX">
+							<ShortName>music_zapsplat_dawn_102.wav</ShortName>
+							<Path>SFX\music_zapsplat_dawn_102_222F114F.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2280219192" Name="YouCant" ObjectPath="\Events\Default Work Unit\YouCant" DurationType="OneShot" DurationMin="1.139587" DurationMax="1.521167">
+					<IncludedMemoryFiles>
+						<File Id="72698329" Language="SFX">
+							<ShortName>zapsplat_multimedia_game_digital_hard_notify_002_52997.wav</ShortName>
+							<Path>SFX\zapsplat_multimedia_game_digital_hard_notify_002_52997_D951AD54.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="113899324" Name="MonthEndAccelartor" ObjectPath="\Game Parameters\Default Work Unit\MonthEndAccelartor"/>
+				<GameParameter Id="2169369779" Name="NukeDanger" ObjectPath="\Game Parameters\Default Work Unit\NukeDanger"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="1316067302" Name="DangerLevel" ObjectPath="\Switches\Default Work Unit\DangerLevel">
+					<Switches>
+						<Switch Id="103389341" Name="Peace" ObjectPath="\Switches\Default Work Unit\DangerLevel\Peace"/>
+						<Switch Id="4174463524" Name="Danger" ObjectPath="\Switches\Default Work Unit\DangerLevel\Danger"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<GameParameters>
+				<GameParameter Id="2038898903" Name="MusicRTPC" ObjectPath="\Game Parameters\Default Work Unit\MusicRTPC"/>
+				<GameParameter Id="4002213855" Name="SFXRTPC" ObjectPath="\Game Parameters\Default Work Unit\SFXRTPC"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

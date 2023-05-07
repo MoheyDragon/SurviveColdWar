@@ -1,0 +1,465 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b904fc83879c140b9c30f2e0008366, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: f2aa0712c22ea54ca9309a19b79ec4f9
+    GuidInternal: 
+    m_lastTime: -8585891501793066863
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: ca55b706b358414dbad2a70872d59a96
+    GuidInternal: 
+    m_lastTime: -8585891501791092129
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus
+    - name: Music
+      guid: 1f4b4b8874b1b549975ce5f6b00f132f
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Music
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\Music
+    - name: SFX
+      guid: e1bbce484374bd4cbbc367e55313717b
+      id: 393239870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: SFX
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\SFX
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 49a7f33e55aa2e4a9879f1d493d8572e
+    GuidInternal: 
+    m_lastTime: -8585886528751810026
+    List:
+    - name: Windows
+      guid: e0c0f17b81acb9449258d126c88638a4
+      id: 270908044
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Windows
+        ObjectType: 7
+      Path: Default Work Unit\Windows
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 01436ad6b7743149b7abfeea16ca4ade
+    GuidInternal: 
+    m_lastTime: -8585891501791022330
+    List:
+    - name: Assassin
+      guid: 4e38bb7826635d4d9b8b9025cddd3615
+      id: 1486053686
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Assassin
+        ObjectType: 3
+      Path: Default Work Unit\Assassin
+      maxAttenuation: 0
+      maxDuration: 3.987747
+      minDuration: 2.545186
+    - name: Click
+      guid: 10c32c981e03324684f74e1c2e549d17
+      id: 1584507803
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Click
+        ObjectType: 3
+      Path: Default Work Unit\Click
+      maxAttenuation: 0
+      maxDuration: 0.340179
+      minDuration: 0.254846
+    - name: ElectionEnd
+      guid: 0c82598c03942f4ea7a3bbe64e45c7f8
+      id: 4232587031
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: ElectionEnd
+        ObjectType: 3
+      Path: Default Work Unit\ElectionEnd
+      maxAttenuation: 0
+      maxDuration: 5.734074
+      minDuration: 5.734074
+    - name: ElectionStart
+      guid: 1660ccde18f1e746aa39f46482235643
+      id: 626984708
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: ElectionStart
+        ObjectType: 3
+      Path: Default Work Unit\ElectionStart
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: FactoryBuild
+      guid: 0b1777fbc84dfb4da943af943a21ae06
+      id: 2899296827
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: FactoryBuild
+        ObjectType: 3
+      Path: Default Work Unit\FactoryBuild
+      maxAttenuation: 0
+      maxDuration: 6.841828
+      minDuration: 6.841828
+    - name: Hover
+      guid: b927fd3e97269140af247eb7f492216a
+      id: 3753593413
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Hover
+        ObjectType: 3
+      Path: Default Work Unit\Hover
+      maxAttenuation: 0
+      maxDuration: 1.18007
+      minDuration: 0.371699
+    - name: Lose
+      guid: 3e5922f181331e4d9e0a7c1d1a91f903
+      id: 221232726
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Lose
+        ObjectType: 3
+      Path: Default Work Unit\Lose
+      maxAttenuation: 0
+      maxDuration: 18.348
+      minDuration: 18.348
+    - name: MainMenu
+      guid: 04e269ef8472fa4b95c19f09bcc2328c
+      id: 3604647259
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MainMenu
+        ObjectType: 3
+      Path: Default Work Unit\MainMenu
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: MonthEnding
+      guid: a1b184a663814f4ebd943a8422942fa2
+      id: 2400831024
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MonthEnding
+        ObjectType: 3
+      Path: Default Work Unit\MonthEnding
+      maxAttenuation: 0
+      maxDuration: 3.222367
+      minDuration: 3.222367
+    - name: Music
+      guid: 5fb3bc6d5d7f8a4e883b1dabe2e45b70
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 3
+      Path: Default Work Unit\Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Pause_All
+      guid: d5750246d396a642a8eb374b6af19f1d
+      id: 3864097025
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Pause_All
+        ObjectType: 3
+      Path: Default Work Unit\Pause_All
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: PorxyWar
+      guid: e4fc9e83b81d8546a29472a00e92668e
+      id: 3667381417
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PorxyWar
+        ObjectType: 3
+      Path: Default Work Unit\PorxyWar
+      maxAttenuation: 0
+      maxDuration: 3.284792
+      minDuration: 2.5335
+    - name: Quotes01Factory
+      guid: 24525cebb7dddb438b5bcb7e0684b0e0
+      id: 1626144019
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Quotes01Factory
+        ObjectType: 3
+      Path: Default Work Unit\Quotes01Factory
+      maxAttenuation: 0
+      maxDuration: 8.717343
+      minDuration: 8.717343
+    - name: Quotes02Research
+      guid: 3fc1fbf407c1d14a914d9d28ba387655
+      id: 658248847
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Quotes02Research
+        ObjectType: 3
+      Path: Default Work Unit\Quotes02Research
+      maxAttenuation: 0
+      maxDuration: 8.097
+      minDuration: 8.097
+    - name: Quotes03Proxy_war
+      guid: b883fc98fee327498cf04a09683bd9fa
+      id: 2973387804
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Quotes03Proxy_war
+        ObjectType: 3
+      Path: Default Work Unit\Quotes03Proxy_war
+      maxAttenuation: 0
+      maxDuration: 8.606002
+      minDuration: 8.606002
+    - name: Quotes04Spy
+      guid: 0d3cae0f31e6d441bfae6f3e8ce896ee
+      id: 421158184
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Quotes04Spy
+        ObjectType: 3
+      Path: Default Work Unit\Quotes04Spy
+      maxAttenuation: 0
+      maxDuration: 5.091083
+      minDuration: 5.091083
+    - name: Quotes05Assassin
+      guid: d212570e6663d6429c8639b943600397
+      id: 2134322740
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Quotes05Assassin
+        ObjectType: 3
+      Path: Default Work Unit\Quotes05Assassin
+      maxAttenuation: 0
+      maxDuration: 10.160322
+      minDuration: 10.160322
+    - name: Research
+      guid: 29546dd2ce6ca542b9731df4dbf6bbee
+      id: 3895945778
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Research
+        ObjectType: 3
+      Path: Default Work Unit\Research
+      maxAttenuation: 0
+      maxDuration: 4.553083
+      minDuration: 4.553083
+    - name: Resume_All
+      guid: f3f7b27ef0aa9649833a22566c1bf54e
+      id: 3679762312
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Resume_All
+        ObjectType: 3
+      Path: Default Work Unit\Resume_All
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Spy
+      guid: bf539d61bd478241a4a437c770fbb1ec
+      id: 695237093
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Spy
+        ObjectType: 3
+      Path: Default Work Unit\Spy
+      maxAttenuation: 0
+      maxDuration: 7.597871
+      minDuration: 7.597871
+    - name: Win
+      guid: 7215991663dca64ca6bfd34841bc9284
+      id: 979765101
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Win
+        ObjectType: 3
+      Path: Default Work Unit\Win
+      maxAttenuation: 0
+      maxDuration: 13.31572
+      minDuration: 13.31572
+    - name: YouCant
+      guid: 707a065289c2484b8a7755bb6df5a369
+      id: 2280219192
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: YouCant
+        ObjectType: 3
+      Path: Default Work Unit\YouCant
+      maxAttenuation: 0
+      maxDuration: 1.521167
+      minDuration: 1.139587
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 53cede1abc9fbe4190f4a460bef93c01
+    GuidInternal: 
+    m_lastTime: -8585891501790663268
+    List:
+    - name: MonthEndAccelartor
+      guid: c46e2ab3a4761f46bcbf17907001cfc9
+      id: 113899324
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MonthEndAccelartor
+        ObjectType: 13
+      Path: Default Work Unit\MonthEndAccelartor
+    - name: MusicRTPC
+      guid: 35dcf22a089b0c4fbcba3bd408160d12
+      id: 2038898903
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MusicRTPC
+        ObjectType: 13
+      Path: Default Work Unit\MusicRTPC
+    - name: NukeDanger
+      guid: c613ec4c8c39f94bb4522d4d1de6d8b3
+      id: 2169369779
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: NukeDanger
+        ObjectType: 13
+      Path: Default Work Unit\NukeDanger
+    - name: SFXRTPC
+      guid: c18f7ba37b356a48bbce191a65a84a30
+      id: 4002213855
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFXRTPC
+        ObjectType: 13
+      Path: Default Work Unit\SFXRTPC
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 8413bb270b467b41a9e0ae5ff0016efe
+    GuidInternal: 
+    m_lastTime: -8585891501790852774
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 831ca6d1d04fcb408ecbde8d3bb34f75
+    GuidInternal: 
+    m_lastTime: -8585891501791880037
+    List:
+    - name: DangerLevel
+      guid: ca156e101c8b214481e87e7aa866d24d
+      id: 1316067302
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: DangerLevel
+        ObjectType: 11
+      Path: Default Work Unit\DangerLevel
+      values:
+      - name: Danger
+        guid: 380a50c398aa174e9ba53271e0497bf7
+        id: 4174463524
+        PathAndIcons:
+        - ElementName: Danger
+          ObjectType: 10
+      - name: Peace
+        guid: a2a257e08680614baa55762fc0973213
+        id: 103389341
+        PathAndIcons:
+        - ElementName: Peace
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 5e9678e56a7b0643ac7e56b25e1c8b35
+    GuidInternal: 
+    m_lastTime: -8585891501792747716
+    List: []
+  ExpandedItems:
+  - /Cold War_WwiseProject
+  - /Cold War_WwiseProject/SoundBanks
+  - /Cold War_WwiseProject/SoundBanks/Default Work Unit
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 

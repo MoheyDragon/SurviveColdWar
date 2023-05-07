@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D1A61C83-4FD0-40CB-8ECB-DE8D3BB34F75}" SchemaVersion="97">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{D1A61C83-4FD0-40CB-8ECB-DE8D3BB34F75}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="DangerLevel" ID="{106E15CA-8B1C-4421-81E8-7E7AA866D24D}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Peace" ID="{E057A2A2-8086-4B61-AA55-762FC0973213}"/>
+						<Switch Name="Danger" ID="{C3500A38-AA98-4E17-9BA5-3271E0497BF7}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="NukeDanger" ID="{4CEC13C6-398C-4BF9-B452-2D4D1DE6D8B3}"/>
+						<Curve Name="" ID="{CDC6565E-5E12-459A-B2A3-A7E49FD46CC8}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>1</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>58.97511</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>99.7071742313324</XPos>
+									<YPos>0</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>100</XPos>
+									<YPos>0</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

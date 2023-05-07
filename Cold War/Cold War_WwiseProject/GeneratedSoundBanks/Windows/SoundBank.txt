@@ -1,0 +1,68 @@
+Event	ID	Name			Wwise Object Path	Notes
+	221232726	Lose			\Default Work Unit\Lose	
+	421158184	Quotes04Spy			\Default Work Unit\Quotes04Spy	
+	626984708	ElectionStart			\Default Work Unit\ElectionStart	
+	658248847	Quotes02Research			\Default Work Unit\Quotes02Research	
+	695237093	Spy			\Default Work Unit\Spy	
+	979765101	Win			\Default Work Unit\Win	
+	1486053686	Assassin			\Default Work Unit\Assassin	
+	1584507803	Click			\Default Work Unit\Click	
+	1626144019	Quotes01Factory			\Default Work Unit\Quotes01Factory	
+	2134322740	Quotes05Assassin			\Default Work Unit\Quotes05Assassin	
+	2280219192	YouCant			\Default Work Unit\YouCant	
+	2400831024	MonthEnding			\Default Work Unit\MonthEnding	
+	2899296827	FactoryBuild			\Default Work Unit\FactoryBuild	
+	2973387804	Quotes03Proxy_war			\Default Work Unit\Quotes03Proxy_war	
+	3604647259	MainMenu			\Default Work Unit\MainMenu	
+	3667381417	PorxyWar			\Default Work Unit\PorxyWar	
+	3679762312	Resume_All			\Default Work Unit\Resume_All	
+	3753593413	Hover			\Default Work Unit\Hover	
+	3864097025	Pause_All			\Default Work Unit\Pause_All	
+	3895945778	Research			\Default Work Unit\Research	
+	3991942870	Music			\Default Work Unit\Music	
+	4232587031	ElectionEnd			\Default Work Unit\ElectionEnd	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1316067302	DangerLevel			\Default Work Unit\DangerLevel	
+
+Switch	ID	Name	Switch Group			Notes
+	103389341	Peace	DangerLevel			
+	4174463524	Danger	DangerLevel			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	113899324	MonthEndAccelartor			\Default Work Unit\MonthEndAccelartor	
+	2169369779	NukeDanger			\Default Work Unit\NukeDanger	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	90374080	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Main\Bomb\New Sound SFX_01\Wwise Silence	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	72698329	YouCant	C:\Users\hopes\OneDrive\Documents\Unity\Cold War\Cold War_WwiseProject\.cache\Windows\SFX\zapsplat_multimedia_game_digital_hard_notify_002_52997_D951AD54.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\YouCant		12955
+	85764390	zapsplat_warfare_machine_gun_burst_short_61527	C:\Users\hopes\OneDrive\Documents\Unity\Cold War\Cold War_WwiseProject\.cache\Windows\SFX\zapsplat_warfare_machine_gun_burst_short_61527_D951AD54.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\zapsplat_warfare_machine_gun_burst_short_61527		22103
+	91091254	2-Dramatic Intense Rescue Background Instrumental - Royalty Free Music	C:\Users\hopes\OneDrive\Documents\Unity\Cold War\Cold War_WwiseProject\.cache\Windows\SFX\3-Dramatic Intense Rescue Background Instrumental - Royalty Free Music_2CBC2F9F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Danger\2-Dramatic Intense Rescue Background Instrumental - Royalty Free Music		153173
+	125217356	smartsound_WEAPONS_BULLET_Small_Impact_Body_02	C:\Users\hopes\OneDrive\Documents\Unity\Cold War\Cold War_WwiseProject\.cache\Windows\SFX\smartsound_WEAPONS_BULLET_Small_Impact_Body_01_6FD2EBD6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Shot\smartsound_WEAPONS_BULLET_Small_Impact_Body_02		6670
+	152716298	Resarch	C:\Users\hopes\OneDrive\Documents\Unity\Cold War\Cold War_WwiseProject\.cache\Windows\SFX\PM_BlurryDreams_169_254_D951AD54.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Resarch		47343
+	179461112	zapsplat_warfare_bomb_whizz_in_hit_close_by_explosion_med_002_48059	C:\Users\hopes\OneDrive\Documents\Unity\Cold War\Cold War_WwiseProject\.cache\Windows\SFX\zapsplat_warfare_bomb_whizz_in_hit_close_by_explosion_med_002_48059_369B0A7E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Bomb\zapsplat_warfare_bomb_whizz_in_hit_close_by_explosion_med_002_48059		20358
+	209932888	HoverMouse	C:\Users\hopes\OneDrive\Documents\Unity\Cold War\Cold War_WwiseProject\.cache\Windows\SFX\tspt_game_button_04_040_D951AD54.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\HoverMouse		2664
+	243572024	MonthEnded	C:\Users\hopes\OneDrive\Documents\Unity\Cold War\Cold War_WwiseProject\.cache\Windows\SFX\zapsplat_multimedia_alert_bright_warm_system_negative_error_001_57861_D951AD54.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\MonthEnded		27757
+	378138695	Blastwave_FX_HumanCrowdStudio_S08HU_193	C:\Users\hopes\OneDrive\Documents\Unity\Cold War\Cold War_WwiseProject\.cache\Windows\SFX\Blastwave_FX_HumanCrowdStudio_S08HU.193_31C3DDD0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Blastwave_FX_HumanCrowdStudio_S08HU_193		22567
+	381896295	02Researches	C:\Users\hopes\OneDrive\Documents\Unity\Cold War\Cold War_WwiseProject\.cache\Windows\SFX\research3_3CADDE39.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Quotes\02Researches		67334
+	402158815	2-Dramatic Intense Rescue Background Instrumental - Royalty Free Music_01	C:\Users\hopes\OneDrive\Documents\Unity\Cold War\Cold War_WwiseProject\.cache\Windows\SFX\3-Dramatic Intense Rescue Background Instrumental - Royalty Free Music_28A52B98.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Danger\2-Dramatic Intense Rescue Background Instrumental - Royalty Free Music_01		223891
+	448665159	warfare_gun_cock_then_shoot	C:\Users\hopes\OneDrive\Documents\Unity\Cold War\Cold War_WwiseProject\.cache\Windows\SFX\warfare_gun_cock_then_shoot_D951AD54.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\warfare_gun_cock_then_shoot		8440
+	478462194	1-Dramatic Chase Theme Instrumental - Royalty Free Music_01	C:\Users\hopes\OneDrive\Documents\Unity\Cold War\Cold War_WwiseProject\.cache\Windows\SFX\2-Dramatic Chase Theme Instrumental - Royalty Free Music_51DE0A61.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Safe\1-Dramatic Chase Theme Instrumental - Royalty Free Music_01		532562
+	490797689	smartsound_WEAPONS_BULLET_Small_Impact_Body_03	C:\Users\hopes\OneDrive\Documents\Unity\Cold War\Cold War_WwiseProject\.cache\Windows\SFX\smartsound_WEAPONS_BULLET_Small_Impact_Body_01_EB22F779.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Shot\smartsound_WEAPONS_BULLET_Small_Impact_Body_03		7918
+	583160970	Click	C:\Users\hopes\OneDrive\Documents\Unity\Cold War\Cold War_WwiseProject\.cache\Windows\SFX\zapsplat_multimedia_game_sound_tone_wooden_mallet_generic_015_38417_D951AD54.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Click		3271
+	610340851	03proxy war	C:\Users\hopes\OneDrive\Documents\Unity\Cold War\Cold War_WwiseProject\.cache\Windows\SFX\proxy war3_C7ACF67B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Quotes\03proxy war		69858
+	679708864	01Factories	C:\Users\hopes\OneDrive\Documents\Unity\Cold War\Cold War_WwiseProject\.cache\Windows\SFX\Factory3_A561B1AD.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Quotes\01Factories		54485
+	736816316	Lose	C:\Users\hopes\OneDrive\Documents\Unity\Cold War\Cold War_WwiseProject\.cache\Windows\SFX\zapsplat_emergency_nuclear_power_station_meltdown_alarm_42849_D951AD54.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Lose		170788
+	798073065	MainMenuMusic	C:\Users\hopes\OneDrive\Documents\Unity\Cold War\Cold War_WwiseProject\.cache\Windows\SFX\4-Dramatic War Tension Background Instrumental - Royalty Free Music_CF7AFEF9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\MainMenuMusic		797962
+	798353415	05assassin	C:\Users\hopes\OneDrive\Documents\Unity\Cold War\Cold War_WwiseProject\.cache\Windows\SFX\assassin3_9636F5A3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Quotes\05assassin		85320
+	803064229	smartsound_WEAPONS_BULLET_Small_Impact_Body_01	C:\Users\hopes\OneDrive\Documents\Unity\Cold War\Cold War_WwiseProject\.cache\Windows\SFX\smartsound_WEAPONS_BULLET_Small_Impact_Body_01_32321A80.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Shot\smartsound_WEAPONS_BULLET_Small_Impact_Body_01		7574
+	803340645	EndElections	C:\Users\hopes\OneDrive\Documents\Unity\Cold War\Cold War_WwiseProject\.cache\Windows\SFX\smartsound_HUMAN_CROWD_Applause_Short_1F92BF6D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\EndElections		53374
+	813879734	FactoryBuild	C:\Users\hopes\OneDrive\Documents\Unity\Cold War\Cold War_WwiseProject\.cache\Windows\SFX\audio_hero_IndustryBrewery+TL04_51_C3F12194.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\FactoryBuild		73095
+	941664908	04spy	C:\Users\hopes\OneDrive\Documents\Unity\Cold War\Cold War_WwiseProject\.cache\Windows\SFX\spy4_3CADDE39.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Quotes\04spy		42630
+	942777620	Spy	C:\Users\hopes\OneDrive\Documents\Unity\Cold War\Cold War_WwiseProject\.cache\Windows\SFX\audio_hero_Gothic_SIPML_J-0203_B923BB29.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Spy		68719
+	957416993	Election	C:\Users\hopes\OneDrive\Documents\Unity\Cold War\Cold War_WwiseProject\.cache\Windows\SFX\music_zapsplat_seedy_city_49266039.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Election		269545
+	959822171	1-Dramatic Chase Theme Instrumental - Royalty Free Music	C:\Users\hopes\OneDrive\Documents\Unity\Cold War\Cold War_WwiseProject\.cache\Windows\SFX\2-Dramatic Chase Theme Instrumental - Royalty Free Music_71F25F84.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Safe\1-Dramatic Chase Theme Instrumental - Royalty Free Music		163178
+	1001214785	Win	C:\Users\hopes\OneDrive\Documents\Unity\Cold War\Cold War_WwiseProject\.cache\Windows\SFX\music_zapsplat_dawn_102_222F114F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Win		126304
+

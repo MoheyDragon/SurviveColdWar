@@ -1,0 +1,200 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7304024454062552470
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1517527944395147592, guid: 869055fdfdc5eee4f96a8351b8152e2d,
+        type: 3}
+      propertyPath: m_Name
+      value: War
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517527944395147594, guid: 869055fdfdc5eee4f96a8351b8152e2d,
+        type: 3}
+      propertyPath: title
+      value: 'Start a proxy war :'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517527944395147594, guid: 869055fdfdc5eee4f96a8351b8152e2d,
+        type: 3}
+      propertyPath: breif
+      value: Gain a medium amount of Power each month.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517527944395147594, guid: 869055fdfdc5eee4f96a8351b8152e2d,
+        type: 3}
+      propertyPath: MoneyReq
+      value: 2e+9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517527944395147594, guid: 869055fdfdc5eee4f96a8351b8152e2d,
+        type: 3}
+      propertyPath: MoneyGain
+      value: 1000000
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517527944395147594, guid: 869055fdfdc5eee4f96a8351b8152e2d,
+        type: 3}
+      propertyPath: name
+      value: War
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517527944395147594, guid: 869055fdfdc5eee4f96a8351b8152e2d,
+        type: 3}
+      propertyPath: powerReq
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517527944395147594, guid: 869055fdfdc5eee4f96a8351b8152e2d,
+        type: 3}
+      propertyPath: PeopleReq
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517527944395147594, guid: 869055fdfdc5eee4f96a8351b8152e2d,
+        type: 3}
+      propertyPath: TimeReq
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517527944395147594, guid: 869055fdfdc5eee4f96a8351b8152e2d,
+        type: 3}
+      propertyPath: PowerGain
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517527944395147594, guid: 869055fdfdc5eee4f96a8351b8152e2d,
+        type: 3}
+      propertyPath: PeopleGain
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517527944395147594, guid: 869055fdfdc5eee4f96a8351b8152e2d,
+        type: 3}
+      propertyPath: doneMassage
+      value: Proxy war started.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517527944395147594, guid: 869055fdfdc5eee4f96a8351b8152e2d,
+        type: 3}
+      propertyPath: Monthly
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517527944395147594, guid: 869055fdfdc5eee4f96a8351b8152e2d,
+        type: 3}
+      propertyPath: TuorialSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: b3d351d0d3c13de4cb856dedbd1b553b,
+        type: 2}
+    - target: {fileID: 1517527944395147594, guid: 869055fdfdc5eee4f96a8351b8152e2d,
+        type: 3}
+      propertyPath: Quote
+      value: In the third world, the cold war wasn't cold. Millions had been killed.
+        It was a proxy war. (Ayaan Hirsi Ali)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517527944395147595, guid: 869055fdfdc5eee4f96a8351b8152e2d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517527944395147595, guid: 869055fdfdc5eee4f96a8351b8152e2d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517527944395147595, guid: 869055fdfdc5eee4f96a8351b8152e2d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517527944395147595, guid: 869055fdfdc5eee4f96a8351b8152e2d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517527944395147595, guid: 869055fdfdc5eee4f96a8351b8152e2d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517527944395147595, guid: 869055fdfdc5eee4f96a8351b8152e2d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517527944395147595, guid: 869055fdfdc5eee4f96a8351b8152e2d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517527944395147595, guid: 869055fdfdc5eee4f96a8351b8152e2d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517527944395147595, guid: 869055fdfdc5eee4f96a8351b8152e2d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517527944395147595, guid: 869055fdfdc5eee4f96a8351b8152e2d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517527944395147595, guid: 869055fdfdc5eee4f96a8351b8152e2d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517527944395147595, guid: 869055fdfdc5eee4f96a8351b8152e2d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 96
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517527944395147595, guid: 869055fdfdc5eee4f96a8351b8152e2d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -75
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517527944395147595, guid: 869055fdfdc5eee4f96a8351b8152e2d,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517527944395147595, guid: 869055fdfdc5eee4f96a8351b8152e2d,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517527944395147595, guid: 869055fdfdc5eee4f96a8351b8152e2d,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517527944395147595, guid: 869055fdfdc5eee4f96a8351b8152e2d,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517527944395147595, guid: 869055fdfdc5eee4f96a8351b8152e2d,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517527944395147595, guid: 869055fdfdc5eee4f96a8351b8152e2d,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517527944395147595, guid: 869055fdfdc5eee4f96a8351b8152e2d,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517527944395147595, guid: 869055fdfdc5eee4f96a8351b8152e2d,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517527944395147605, guid: 869055fdfdc5eee4f96a8351b8152e2d,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 5543941588292853863, guid: de52a9a467eb6a645a39d3255dbe0233,
+        type: 3}
+    m_RemovedComponents:
+    - {fileID: 2624196736319130400, guid: 869055fdfdc5eee4f96a8351b8152e2d, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 869055fdfdc5eee4f96a8351b8152e2d, type: 3}

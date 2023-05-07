@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2e61ce2fdc210a45ba3590d5999c426, type: 3}
+  m_Name: 839EFCE4-1DB8-4685-A294-72A00E92668E
+  m_EditorClassIdentifier: 
+  objectName: PorxyWar
+  id: 3667381417
+  guid: 839EFCE4-1DB8-4685-A294-72A00E92668E

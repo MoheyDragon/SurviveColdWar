@@ -1,0 +1,54 @@
+- ARABIC
+- web gl
+- i-phone
+- android
+- Tutorial last level : when danger = 70 ,then month count+3
+- screenshots
+- info com icon move to the right a bit
+- speed up press bigger ( Whole UX)
+- check win and lose bug mirlan
+- can text auto size , smaller ( 3 actions doesn't fit)
+- add win.stop to shutUp()
+- mainMenu press start ShutUp()
+- interent access requset?
+
+
+780=300
+650=250
+
+
+150 بيت
+
+200 -250 اكل لشخصين
+
+
+
+- Advertisment
+- 2 AD = Rewind 3 years
+- 4 AD = FastForward 3 years
+- 6 AD = Reset Score
+
+
+
+
+
+Cold War 2.0:
+
+- unlocking skills not all at start
+-nuke head ????
+- start a revolution in your country if the president effect is not good ( bad presidnt act bad acts on their own,or can do no act at all ) 
+-time of elections power reduced ( espaicly after assassitinon or the other way around)
+-some actions are not avalible even if the power is enough making you have to do it otherways
+-people satsfaction meter when higher than 50 additional power is produced , 100 power is doubled, below 25 power produced is by half,below zero power is so poor
+-revoluation meter when so much below -50 people will revolt losing a lot of power ( factories are close , scintefic discovers pause and war is lost immedilty )
+then two options appear to choose from (surpass the revolt with force making you lose 1000 power but everything rework and people sats meter is back to 50 positve , or lose a lot of money ( billons ) but gain power + people sats is 75 
+-war produce more land if won , loses people stas to start and loses more if lost , but gain more if won but reqire money+power  , ( money to buy arms and power to authorize it ) war is a very expinsve act and immeditly increases nuke danger by 25%
+-when a part start war , an act of defense war appaer to other part and it is much cheaper for them and produce people sats ( بعكس حرب الهجوم بتنزل رضى العالم ) not going to war loses people sats ,and war end immeditly and the land goes to the other part 
+-spies: they produce info every few months and any power req for war is reduced for each spy and so the arms, scintefic desc gain a boost also each month ( and new ones unlocked)
+land reqire cost show in info and code in country manger
+
+(wrong idea need fixing)tapping on region (a little amount of time each month is allowed - doing so will increase power a little bit )
+
+
+
+a;lisnd19p2i3-m)*WYD)(WHDn
