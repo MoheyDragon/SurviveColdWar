@@ -38,7 +38,7 @@ public class HoverInfo : MonoBehaviour
         }
         else
         ClickSound.Post(gameObject);
-        GameManager.nameOfAction = name;
+        ScenarioManager.Singletone.nameOfAction = name;
         CountryManager.title.text = title;
         CountryManager.doneMassage = doneMassage;
         CountryManager.breif.text = breif;
@@ -73,12 +73,12 @@ public class HoverInfo : MonoBehaviour
         CountryManager.PeopleGain.text = PeopleGain;
         CountryManager.monthly.gameObject.SetActive(Monthly);
         if (!manager.IsTutorial)
-            foreach (Button button in GameManager.Canvas.GetComponentsInChildren<Button>())
+            foreach (Button button in ScenarioManager.Singletone.Canvas.GetComponentsInChildren<Button>())
                 if (button.tag != "SpeedUp" && button.tag != "MapSector"&&button.tag!= "InfoCenter")
                     button.interactable = false;
         
 
-        GameManager.Info.SetActive(true);
+        ScenarioManager.Singletone.Info.SetActive(true);
     }
     public string MoneyTranslate(float mon)
     {
@@ -102,7 +102,7 @@ public class HoverInfo : MonoBehaviour
             {
                 manager.gameObject.GetComponent<Tutorial>().Next(false);
                 Time.timeScale = 0.0000000001f;
-                GameManager.Info.transform.GetChild(20).GetComponent<Button>().interactable = true;
+                ScenarioManager.Singletone.Info.transform.GetChild(20).GetComponent<Button>().interactable = true;
             }
             else if (name == "Assassin")
             { }

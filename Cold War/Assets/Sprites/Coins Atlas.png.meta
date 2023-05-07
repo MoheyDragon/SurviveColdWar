@@ -89,6 +89,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -97,12 +99,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -120,9 +122,12 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
@@ -285,7 +290,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 58aff01f5ed3226e0800000000000000
-      internalID: -1863859237976802683
+      internalID: -1893503600993559261
       vertices: []
       indices: 
       edges: []
@@ -636,6 +641,29 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Com_People: -1772244045117237821
+      Main_Money: 9151725625850188775
+      Cap_Center: 3220665290143086019
+      Icon_SFX: -3862903190024489479
+      Com_Center: 3434086634727231013
+      Com_Info: -8930018218856646630
+      Icon_Music: -7539582390867499684
+      Cap_Power: -8179040606652740800
+      Cap_Money: -6931339683150358059
+      Action_Assassin: 7576617242518483205
+      Action_Factory: 184950751378207249
+      Main_Power: 5681967267464321869
+      NukeMeter: 1161201145128540330
+      Cap_Info: -168777754515822616
+      Action_Revoluation: 1202984965197363600
+      Action_War: 5543941588292853863
+      Com_Money: 2514988542215765323
+      Action_Spy: -1893503600993559261
+      Cap_People: 7374845061861626600
+      Com_Power: 3052315535316524931
+      Main_People: -2319476694228375547
+      Action_Research: 2130535880278150251
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

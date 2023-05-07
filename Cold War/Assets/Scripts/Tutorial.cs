@@ -116,11 +116,11 @@ public class Tutorial : MonoBehaviour
         if (Level == 18)
             Activiting(Research);
 
-        if (Level == 18 && GameManager.nameOfAction == "Research")
+        if (Level == 18 && ScenarioManager.Singletone.nameOfAction == "Research")
         {
             Next(false);
-            GameManager.Info.transform.GetChild(21).GetComponent<Button>().interactable = true;
-            GameManager.Info.transform.GetChild(20).GetComponent<Button>().interactable = false;
+            ScenarioManager.Singletone.Info.transform.GetChild(21).GetComponent<Button>().interactable = true;
+            ScenarioManager.Singletone.Info.transform.GetChild(20).GetComponent<Button>().interactable = false;
         }
 
         if (Level == 19 && !WarLock)
@@ -134,11 +134,11 @@ public class Tutorial : MonoBehaviour
 
         if (Level == 20 && !FactoryLock)
         {
-            GameManager.Info.transform.GetChild(20).GetComponent<Button>().interactable = true;
-            GameManager.Info.transform.GetChild(21).GetComponent<Button>().interactable = false;
+            ScenarioManager.Singletone.Info.transform.GetChild(20).GetComponent<Button>().interactable = true;
+            ScenarioManager.Singletone.Info.transform.GetChild(21).GetComponent<Button>().interactable = false;
             DeActivitingArrows(CantRes, 0);
             FactoryLock= ActivitatingReturn(Factory);
-            GameManager.Info.SetActive(false);
+            ScenarioManager.Singletone.Info.SetActive(false);
             NextActiviting(false);
         }
         if (Level == 21 && countryManager.Capitalism.FactoryLevel < 3)
@@ -150,7 +150,7 @@ public class Tutorial : MonoBehaviour
         {
             FactoryLock = false;
             countryManager.ActionMenu.SetActive(false);
-            GameManager.Info.SetActive(false);
+            ScenarioManager.Singletone.Info.SetActive(false);
             InterActable(Blue);
             InterActable(Factory);
             DeActivitingArrows(Factory, 1);
@@ -161,7 +161,7 @@ public class Tutorial : MonoBehaviour
         {
             Time.timeScale = 0.00000001f;
             countryManager.ActionMenu.SetActive(false);
-            GameManager.Info.SetActive(false);
+            ScenarioManager.Singletone.Info.SetActive(false);
             speed[0].GetComponent<Button>().interactable = false;
             Next(false);
             Activiting(ComCenter);
@@ -257,7 +257,7 @@ public class Tutorial : MonoBehaviour
             NextActiviting(false);
             countryManager.Capitalism.Money = 10000500000;
             countryManager.ActionMenu.SetActive(false);
-            GameManager.Info.SetActive(false);
+            ScenarioManager.Singletone.Info.SetActive(false);
             countryManager.Capitalism.PresedncyPeriod = 100;
             if (countryManager.Communism.Actions[0] == null)
                 countryManager.Communism.Actions[0] = new ActionFunction("Spy", "Spy is in place", 500, 0, 12, 0, true);
@@ -271,7 +271,7 @@ public class Tutorial : MonoBehaviour
             Next(false);
             NextLock = false;
             countryManager.ActionMenu.SetActive(false);
-            GameManager.Info.SetActive(false);
+            ScenarioManager.Singletone.Info.SetActive(false);
             InterActable(speed, true);
             Time.timeScale = 1;
 
@@ -304,7 +304,7 @@ public class Tutorial : MonoBehaviour
             YannLock = false;
             Time.timeScale = 1;
             countryManager.ActionMenu.SetActive(false);
-            GameManager.Info.SetActive(false);
+            ScenarioManager.Singletone.Info.SetActive(false);
             InterActable(Blue);
             InterActable(ComCenter);
             InterActable(speed, true);
