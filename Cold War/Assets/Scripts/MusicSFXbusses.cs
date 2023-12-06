@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MusicSFXBusses : MonoBehaviour
+public class MusicSFXbusses : MonoBehaviour
 {
     public AK.Wwise.RTPC Music, Sfx;
     void Valuer(AK.Wwise.RTPC Bus)

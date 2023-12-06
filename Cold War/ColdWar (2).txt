@@ -1,7 +1,0 @@
-- use Singletons , remove refernces 
-- Orgnize SScripts in folders
-- User functions from insinde Singletones don't expose varibles
-- deal with bugs
-- Better UX
-- 3D
-- Show desprition less ,only one click to do action 

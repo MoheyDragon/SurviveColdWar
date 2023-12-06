@@ -17,7 +17,7 @@ public class MassageWindow : MonoBehaviour
     public void Quit()
     {
         ClickSound.Post(gameObject);
-        ScenarioManager.Singletone.Canvas.GetComponent<CountryManager>().Music.Stop(ScenarioManager.Singletone.Canvas.gameObject);
+        GameManager.Canvas.GetComponent<CountryManager>().Music.Stop(GameManager.Canvas.gameObject);
         Time.timeScale = 1;
         SceneManager.LoadScene(0);
     }
@@ -39,8 +39,8 @@ public class MassageWindow : MonoBehaviour
         transform.tag = "Untagged";
         if (GameObject.FindGameObjectsWithTag("Massage").Length == 0)
         {
-            if (!ScenarioManager.Singletone.Canvas.GetComponent<CountryManager>().IsTutorial)
-                foreach (Button button in ScenarioManager.Singletone.Canvas.GetComponentsInChildren<Button>())
+            if (!GameManager.Canvas.GetComponent<CountryManager>().IsTutorial)
+                foreach (Button button in GameManager.Canvas.GetComponentsInChildren<Button>())
                     button.interactable = true;
             if (!CountryManager.ElectionsLock)
             {
