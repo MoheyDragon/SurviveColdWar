@@ -10,7 +10,8 @@ namespace SurviveColdWar
         const int coldWarStartYear = 1945;
         const int coldWarEndYear = 1991;
 
-        public Action OnMonthEnd;
+        public Action<int,int> OnMonthEnd;
+
         public void EndMonth()
         {
             if (currentMonth == 12)
@@ -19,12 +20,13 @@ namespace SurviveColdWar
             }
             else
                 currentMonth++;
-            OnMonthEnd?.Invoke();
+            OnMonthEnd?.Invoke(currentYear,currentMonth);
         }
         private void Start()
         {
             currentMonth = 1;
             currentYear = coldWarStartYear;
+            OnMonthEnd?.Invoke(currentYear, currentMonth);
         }
         private void EndYear()
         {
