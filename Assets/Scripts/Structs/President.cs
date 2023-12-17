@@ -1,6 +1,6 @@
 ﻿namespace SurviveColdWar
 {
-    public class President
+    public struct President
     {
         string firstName;
         string lastName;

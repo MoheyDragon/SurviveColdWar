@@ -69,17 +69,17 @@ public class CountryManager : MonoBehaviour
         foreach (Transform item in ELectionWindow.transform)
             if (item.GetSiblingIndex() != 5)
                 ElectedPresidents[item.GetSiblingIndex()] = item;
-        title = GameManager.Info.transform.GetChild(0).GetComponent<Text>();
-        breif = GameManager.Info.transform.GetChild(1).GetComponent<Text>();
-        powerReq = GameManager.Info.transform.GetChild(2).GetComponent<Text>();
-        MoneyReq = GameManager.Info.transform.GetChild(3).GetComponent<Text>();
-        PeopleReq = GameManager.Info.transform.GetChild(4).GetComponent<Text>();
-        TimeReq = GameManager.Info.transform.GetChild(5).GetComponent<Text>();
-        PowerGain = GameManager.Info.transform.GetChild(6).GetComponent<Text>();
-        MoneyGain = GameManager.Info.transform.GetChild(7).GetComponent<Text>();
-        PeopleGain = GameManager.Info.transform.GetChild(8).GetComponent<Text>();
-        monthly = GameManager.Info.transform.GetChild(9).GetComponent<Text>();
-        Quote = GameManager.Info.transform.GetChild(10).GetComponent<Text>();
+        title = OldGameManager.Info.transform.GetChild(0).GetComponent<Text>();
+        breif = OldGameManager.Info.transform.GetChild(1).GetComponent<Text>();
+        powerReq = OldGameManager.Info.transform.GetChild(2).GetComponent<Text>();
+        MoneyReq = OldGameManager.Info.transform.GetChild(3).GetComponent<Text>();
+        PeopleReq = OldGameManager.Info.transform.GetChild(4).GetComponent<Text>();
+        TimeReq = OldGameManager.Info.transform.GetChild(5).GetComponent<Text>();
+        PowerGain = OldGameManager.Info.transform.GetChild(6).GetComponent<Text>();
+        MoneyGain = OldGameManager.Info.transform.GetChild(7).GetComponent<Text>();
+        PeopleGain = OldGameManager.Info.transform.GetChild(8).GetComponent<Text>();
+        monthly = OldGameManager.Info.transform.GetChild(9).GetComponent<Text>();
+        Quote = OldGameManager.Info.transform.GetChild(10).GetComponent<Text>();
     }
     private void Start()
     {
@@ -175,18 +175,18 @@ public class CountryManager : MonoBehaviour
         NotificationIndex = 0;
         MonthRevnue(Capitalism);
         MonthRevnue(Communism);
-        GameManager.Com += 0.0005f * (Communism.Power - Capitalism.Power) / 100;
-        if (GameManager.Com > 0.5f)
+        OldGameManager.Com += 0.0005f * (Communism.Power - Capitalism.Power) / 100;
+        if (OldGameManager.Com > 0.5f)
         {
-            Capitalism.Power -= (int)((1 - GameManager.Com) * 2);
-            Communism.Power+= (int)(GameManager.Com * 2);
+            Capitalism.Power -= (int)((1 - OldGameManager.Com) * 2);
+            Communism.Power+= (int)(OldGameManager.Com * 2);
         }
         else
         {
-            Capitalism.Power+= (int)((1 - GameManager.Com) * 2);
-            Communism.Power-= (int)(GameManager.Com * 2);
+            Capitalism.Power+= (int)((1 - OldGameManager.Com) * 2);
+            Communism.Power-= (int)(OldGameManager.Com * 2);
         }
-        NukeMeterUpdater.nukeDanger = Nuke.Evaluate(GameManager.Com);
+        NukeMeterUpdater.nukeDanger = Nuke.Evaluate(OldGameManager.Com);
     }
     public void MonthRevnue(Party party)
     {
@@ -268,7 +268,7 @@ public class CountryManager : MonoBehaviour
                         party.Power -= int.Parse(powerReq.text);
                         party.Money -= ReverseMoneyTranslate(MoneyReq.text);
                         party.PeoplSatsfaction -= int.Parse(PeopleReq.text);
-                        party.Actions[party.ActionIndex] = new ActionFunction(GameManager.nameOfAction,doneMassage, int.Parse(PowerGain.text), int.Parse(PeopleGain.text), int.Parse(TimeReq.text.Substring(6)), ReverseMoneyTranslate(MoneyGain.text), monthly.gameObject.activeSelf);
+                        party.Actions[party.ActionIndex] = new ActionFunction(OldGameManager.nameOfAction,doneMassage, int.Parse(PowerGain.text), int.Parse(PeopleGain.text), int.Parse(TimeReq.text.Substring(6)), ReverseMoneyTranslate(MoneyGain.text), monthly.gameObject.activeSelf);
                         if (doneMassage== "Factory Building Finished")
                             party.FactoryLevel++;
                         else if (doneMassage== "Proxy war started.")
@@ -277,7 +277,7 @@ public class CountryManager : MonoBehaviour
                         if (!IsTutorial)
                             foreach (Button button in this.GetComponentsInChildren<Button>())
                                 button.interactable = true;
-                        GameManager.Info.SetActive(false);
+                        OldGameManager.Info.SetActive(false);
                     }
                     else
                         CanText("You have three actions in progress you have to wait for one of them at least to finish", party,true);
@@ -323,7 +323,7 @@ public class CountryManager : MonoBehaviour
         else
             SelectedParty = Capitalism;
             ActionMenu.GetComponent<Image>().color = SelectedParty.color;
-            GameManager.Info.GetComponent<Image>().color = SelectedParty.color;
+            OldGameManager.Info.GetComponent<Image>().color = SelectedParty.color;
     }
     public string PresidentNameRandomizer(int ran, Party party)
     {
@@ -589,7 +589,7 @@ public class CountryManager : MonoBehaviour
             }
             else
             {
-                foreach (Button button in GameManager.Canvas.GetComponentsInChildren<Button>())
+                foreach (Button button in OldGameManager.Canvas.GetComponentsInChildren<Button>())
                     if (button.tag == "SpeedUp")
                         button.interactable = false;
             }
@@ -611,14 +611,14 @@ public class CountryManager : MonoBehaviour
         ClickSound.Post(gameObject);
         PresidentChoosing(SelectedParty, button.transform.parent.GetChild(0).GetComponent<Text>().text, int.Parse(button.transform.parent.GetChild(1).GetComponent<Text>().text), ReverseMoneyTranslate(button.transform.parent.GetChild(2).GetComponent<Text>().text), int.Parse(button.transform.parent.GetChild(3).GetComponent<Text>().text));
         ELectionWindow.SetActive(false);
-        GameManager.Info.SetActive(false);
+        OldGameManager.Info.SetActive(false);
         ActionMenu.SetActive(false);
         ElecEnd.Post(gameObject);
         ElectionsLock = false;
         Time.timeScale = NotificationLock?0.09f:1;
         NotificationLock = false;
         if (!IsTutorial)
-        foreach (Button speed in GameManager.Canvas.GetComponentsInChildren<Button>())
+        foreach (Button speed in OldGameManager.Canvas.GetComponentsInChildren<Button>())
             if (speed.tag == "SpeedUp")
                 speed.interactable = true;
     }
@@ -629,10 +629,10 @@ public class CountryManager : MonoBehaviour
             SelectParty(party);
             CountryInfo.SetActive(false);
             ActionMenu.SetActive(!ActionMenu.activeSelf);
-            GameManager.Info.SetActive(false);
+            OldGameManager.Info.SetActive(false);
             ClickSound.Post(gameObject);
             if (!IsTutorial)
-                foreach (Button button in GameManager.Canvas.GetComponentsInChildren<Button>())
+                foreach (Button button in OldGameManager.Canvas.GetComponentsInChildren<Button>())
                     button.interactable = true;
         }
     }
@@ -644,7 +644,7 @@ public class CountryManager : MonoBehaviour
                 ClickSound.Post(gameObject);
             ActionMenu.SetActive(false);
             CountryInfo.SetActive(false);
-            GameManager.Info.SetActive(false);
+            OldGameManager.Info.SetActive(false);
         }
     }
     public void win()

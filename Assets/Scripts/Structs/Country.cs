@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 namespace SurviveColdWar
 {
-    public class Country
+    public struct Country
     {
         President currentPresident;
         Value overallValue;
@@ -15,9 +15,5 @@ namespace SurviveColdWar
                 overallValue += factory.monthlyValue;
             }
         }
-    }
-    public class Entity
-    {
-        public Value monthlyValue;
     }
 }

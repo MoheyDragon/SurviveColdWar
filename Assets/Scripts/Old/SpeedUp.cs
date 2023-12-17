@@ -4,29 +4,29 @@ using UnityEngine;
 
 public class SpeedUp : Button
 {
-    GameManager manager;
+    OldGameManager manager;
     // Start is called before the first frame update
     protected override void Start()
     {
-        manager = transform.GetComponentInParent<GameManager>();
+        manager = transform.GetComponentInParent<OldGameManager>();
     }
 
     public override void OnPointerDown(PointerEventData eventData)
     {
         base.OnPointerDown(eventData);
-        GameManager.AccelLock = true;
-        if (Time.time < GameManager.DoubleGate)
+        OldGameManager.AccelLock = true;
+        if (Time.time < OldGameManager.DoubleGate)
             manager.Accelrator();
         manager.mainMonthCycle = 0.5f;
         if (Time.timeScale == 1)
             manager.MonthEnd();
-        GameManager.DoubleGate = Time.time + GameManager.MainDoubleGate;
+        OldGameManager.DoubleGate = Time.time + OldGameManager.MainDoubleGate;
     }
 
     public override void OnPointerUp(PointerEventData eventData)
     {
         base.OnPointerUp(eventData);
             manager.NormalFix();
-        GameManager.AccelLock = false;
+        OldGameManager.AccelLock = false;
     }
 }

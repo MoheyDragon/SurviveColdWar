@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class GameManager : MonoBehaviour
+public class OldGameManager : MonoBehaviour
 {
     public static float Com, DoubleGate,MainDoubleGate;
     public static GameObject Info,Canvas;

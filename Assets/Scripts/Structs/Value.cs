@@ -1,7 +1,7 @@
 ﻿using System;
 namespace SurviveColdWar
 {
-    public class Value : IEquatable<Value>
+    public struct Value : IEquatable<Value>
     {
         public int power;
         public float money;
