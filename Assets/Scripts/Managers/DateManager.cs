@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using MMG;
 namespace SurviveColdWar
 {
@@ -11,6 +12,7 @@ namespace SurviveColdWar
         const int coldWarEndYear = 1991;
 
         public Action<int,int> OnMonthEnd;
+        public Action OnMonthEndLate;
 
         public void EndMonth()
         {
@@ -21,6 +23,12 @@ namespace SurviveColdWar
             else
                 currentMonth++;
             OnMonthEnd?.Invoke(currentYear,currentMonth);
+            StartCoroutine(CO_LateEndMonth());
+        }
+        IEnumerator CO_LateEndMonth()
+        {
+            yield return null;
+            OnMonthEndLate?.Invoke();
         }
         private void Start()
         {
@@ -34,7 +42,7 @@ namespace SurviveColdWar
             currentYear++;
             if (currentYear == coldWarEndYear)
             {
-                GameManager.Instance.HandleWin();
+                WarManager.Instance.HandleWin();
             }
         }
 

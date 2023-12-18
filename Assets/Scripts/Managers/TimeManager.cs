@@ -26,22 +26,9 @@ namespace SurviveColdWar
             StopCoroutine(monthCycle);
             EndMonth();
         }
-        private void Update()
-        {
-            if (Input.GetKeyDown(KeyCode.Space))
-                PauseTime(true);
-
-            if (Input.GetKeyDown(KeyCode.LeftShift))
-                PauseTime(false);
-
-            if (Input.GetKeyDown(KeyCode.E))
-                ForceEndMonth();
-
-        }
-            float timeElapsed;
         IEnumerator CO_NewMonthCycle()
         {
-            timeElapsed = 0;
+            float timeElapsed=0;
             while(timeElapsed<=monthLengthInSeconds)
             {
                 if (isDateAdvancing)
