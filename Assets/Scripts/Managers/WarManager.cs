@@ -19,10 +19,8 @@ namespace SurviveColdWar
         public float GetMapsFillAmount()
         {
             float communismPowerPercent = (float)communism.GetPower()/(float)capitalism.GetPower();
-            float fillMapAmount  = GameDifficultyManager.Instance.GetDifficulty * Mathf.Log(communismPowerPercent) + 0.5f;
+            float fillMapAmount  = GameDifficultyManager.Instance.GetMapFillerDifficultyFactor() * Mathf.Log(communismPowerPercent) + 0.5f;
             return fillMapAmount;
-            //float com = (float)communism.GetPower();
-            //return com/ allPower;
         }
         public void HandleWin()
         {

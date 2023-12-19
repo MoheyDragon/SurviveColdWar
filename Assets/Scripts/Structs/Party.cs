@@ -17,8 +17,6 @@ namespace SurviveColdWar
         }
         public void OnMonthEnd(int year,int month)
         {
-            if(name== "COM")
-            overallValue.power += 10;
             //foreach (Entity factory in entities)
             //{
             //    overallValue += factory.monthlyValue;
