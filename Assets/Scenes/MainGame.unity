@@ -231,6 +231,64 @@ MonoBehaviour:
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
+--- !u!1 &298679140
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 298679142}
+  - component: {fileID: 298679141}
+  m_Layer: 0
+  m_Name: WwiseGlobal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &298679141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298679140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0237eb5e61c812c42bd02e008d0f895c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InitializationSettings: {fileID: 11400000, guid: b2d4a0f041f432449b667e805c510ea8,
+    type: 2}
+  basePath: 
+  language: 
+  defaultPoolSize: 0
+  lowerPoolSize: 0
+  streamingPoolSize: 0
+  memoryCutoffThreshold: 0
+  monitorPoolSize: 0
+  monitorQueuePoolSize: 0
+  callbackManagerBufferSize: 0
+  spatialAudioPoolSize: 0
+  maxSoundPropagationDepth: 0
+  diffractionFlags: 11
+  engineLogging: 0
+--- !u!4 &298679142
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298679140}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &356499003
 GameObject:
   m_ObjectHideFlags: 0
@@ -545,7 +603,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8570ac82f53e6a4fafb131a74a3b358, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  monthLengthInSeconds: 1
+  monthLengthInSeconds: 5
 --- !u!1 &568909511
 GameObject:
   m_ObjectHideFlags: 0
@@ -579,8 +637,9 @@ Transform:
   - {fileID: 1491297399}
   - {fileID: 798386659}
   - {fileID: 104399040}
+  - {fileID: 805428931}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &621036013
 GameObject:
@@ -672,6 +731,159 @@ MonoBehaviour:
   - {fileID: 865369370}
   - {fileID: 438087567}
   - {fileID: 490057284}
+--- !u!1 &805428930
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 805428931}
+  - component: {fileID: 805428932}
+  m_Layer: 0
+  m_Name: PresidentNamer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &805428931
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 805428930}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 568909512}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &805428932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 805428930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efdee07557b0557489ca88e4dfdb5f78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  communismNames:
+    FirstName:
+    - Alvin
+    - Eoin
+    - Yann
+    - Elias
+    - Vladimir
+    - Joseph
+    - Oriel
+    - Lennox
+    - Ryan
+    - Zibiah
+    - Mel
+    - Slavik
+    - Ivan
+    - Henrique
+    - Adam
+    - Shawn
+    - Dionte
+    - Oriel
+    - Stefan
+    - Vladimir
+    - Vadim
+    - Fyodor
+    - Maksimillian
+    - Connor
+    - Venus
+    - Stephen
+    LastName:
+    - Solovyov
+    - Kozlov
+    - Golubev
+    - Volkov
+    - Smirnov
+    - Rogers
+    - Ivanov
+    - Morozov
+    - Petrov
+    - Vinogradov
+    - Balliol
+    - York
+    - Alpin
+    - Bruce
+    - Hanover
+    - Sokolov
+    - Vinogradov
+    - Zaytsev
+    - Ivanov
+    - Dunkeld
+    - Balliol
+    - Oneill
+    - Kaufman
+    - Patrick
+    - Gaines
+    - Mendoza
+  capitalismNames:
+    FirstName:
+    - Thomas
+    - James
+    - Benjamin
+    - Philip
+    - Alexander
+    - Joseph
+    - Edward
+    - Henry
+    - William
+    - Harry
+    - George
+    - Robert
+    - Fred
+    - Albert
+    - Arthur
+    - Paul
+    - Clarence
+    - Leo
+    - Sam
+    - Charlie
+    - Louis
+    - Jack
+    - Jesse
+    - Richard
+    - Oscar
+    - Leon
+    LastName:
+    - Martinez
+    - Hughes
+    - Brown
+    - Myers
+    - Torres
+    - Rogers
+    - Adams
+    - Richardson
+    - Cook
+    - Jenkins
+    - Campbell
+    - Hill
+    - Gomez
+    - Bell
+    - Collins
+    - Lopez
+    - Cox
+    - Edwards
+    - Wood
+    - Perez
+    - Butler
+    - Moore
+    - Stewart
+    - Walsh
+    - Hopkins
+    - Williams
 --- !u!1 &853314625
 GameObject:
   m_ObjectHideFlags: 0
@@ -879,64 +1091,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 865369368}
   m_CullTransparentMesh: 0
---- !u!1 &1074447958
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1074447960}
-  - component: {fileID: 1074447959}
-  m_Layer: 0
-  m_Name: WwiseGlobal
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1074447959
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1074447958}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0237eb5e61c812c42bd02e008d0f895c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  InitializationSettings: {fileID: 11400000, guid: b2d4a0f041f432449b667e805c510ea8,
-    type: 2}
-  basePath: 
-  language: 
-  defaultPoolSize: 0
-  lowerPoolSize: 0
-  streamingPoolSize: 0
-  memoryCutoffThreshold: 0
-  monitorPoolSize: 0
-  monitorQueuePoolSize: 0
-  callbackManagerBufferSize: 0
-  spatialAudioPoolSize: 0
-  maxSoundPropagationDepth: 0
-  diffractionFlags: 11
-  engineLogging: 0
---- !u!4 &1074447960
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1074447958}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1158992899
 GameObject:
   m_ObjectHideFlags: 0

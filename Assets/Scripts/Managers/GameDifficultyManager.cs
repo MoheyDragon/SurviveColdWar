@@ -14,7 +14,6 @@ namespace SurviveColdWar
         }
         public float GetMapFillerDifficultyFactor()
         {
-            // 
             return 0.7892f * Mathf.Pow(actualGameDifficulty, -0.502f);
         }
         private void CalculateActualGameDifficulty()

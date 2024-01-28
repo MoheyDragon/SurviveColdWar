@@ -1,10 +1,14 @@
 ﻿namespace SurviveColdWar
 {
-    public struct President
+    public class President
     {
-        string firstName;
-        string lastName;
-        string fullName;
-        Value effects;
+        public string fullName;
+        public Value effects;
+
+        public President(string fullName, Value effects)
+        {
+            this.fullName = fullName;
+            this.effects = effects;
+        }
     }
 }

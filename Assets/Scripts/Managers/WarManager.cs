@@ -11,9 +11,9 @@ namespace SurviveColdWar
         private void Start()
         {
             communism = new Party();
-            communism.Initialize("COM");
+            communism.Initialize(Parties.Communism);
             capitalism = new Party();
-            capitalism.Initialize("CAP");
+            capitalism.Initialize(Parties.Capitalism);
         }
         
         public float GetMapsFillAmount()

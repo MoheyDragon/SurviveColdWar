@@ -27,6 +27,7 @@ namespace SurviveColdWar
         }
         IEnumerator CO_LateEndMonth()
         {
+            //This is mainly used to fill map after updating all values
             yield return null;
             OnMonthEndLate?.Invoke();
         }
