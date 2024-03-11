@@ -20,6 +20,10 @@ namespace SurviveColdWar
         }
         public void OnMonthEnd(int year,int month)
         {
+            if (partyName==Parties.Communism)
+            {
+                overallValue.power+=1;
+            }
             //foreach (Entity factory in entities)
             //{
             //    overallValue += factory.monthlyValue;
