@@ -1,0 +1,14 @@
+<?xml version='1.0'?>
+<WwiseSettings>
+    <CopySoundBanksAsPreBuildStep>true</CopySoundBanksAsPreBuildStep>
+    <CreatedPicker>true</CreatedPicker>
+    <CreateWwiseGlobal>true</CreateWwiseGlobal>
+    <CreateWwiseListener>true</CreateWwiseListener>
+    <GenerateSoundBanksAsPreBuildStep>false</GenerateSoundBanksAsPreBuildStep>
+    <ShowMissingRigidBodyWarning>true</ShowMissingRigidBodyWarning>
+    <ShowSpatialAudioWarningMsg>true</ShowSpatialAudioWarningMsg>
+    <SoundbankPath>Audio\GeneratedSoundBanks</SoundbankPath>
+    <WwiseInstallationPathMac></WwiseInstallationPathMac>
+    <WwiseInstallationPathWindows>C:\AudioKinetic\Wwise2019.2.9.7459</WwiseInstallationPathWindows>
+    <WwiseProjectPath>../../SurviveColdWar/Cold War_WwiseProject/Cold War_WwiseProject.wproj</WwiseProjectPath>
+</WwiseSettings>
