@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3EF3A749-AA55-4A2E-9879-F1D493D8572E}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{3EF3A749-AA55-4A2E-9879-F1D493D8572E}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Windows" ID="{7BF1C0E0-AC81-44B9-9258-D126C88638A4}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Hover" ID="{3EFD27B9-2697-4091-AF24-7EB7F492216A}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Spy" ID="{619D53BF-47BD-4182-A4A4-37C770FBB1EC}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Quotes04Spy" ID="{0FAE3C0D-E631-41D4-BFAE-6F3E8CE896EE}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Research" ID="{D26D5429-6CCE-42A5-B973-1DF4DBF6BBEE}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Pause_All" ID="{460275D5-96D3-42A6-A8EB-374B6AF19F1D}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Quotes05Assassin" ID="{0E5712D2-6366-42D6-9C86-39B943600397}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Quotes01Factory" ID="{EB5C5224-DDB7-43DB-8B5B-CB7E0684B0E0}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Click" ID="{982CC310-031E-4632-84F7-4E1C2E549D17}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PorxyWar" ID="{839EFCE4-1DB8-4685-A294-72A00E92668E}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ElectionStart" ID="{DECC6016-F118-46E7-AA39-F46482235643}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Quotes03Proxy_war" ID="{98FC83B8-E3FE-4927-8CF0-4A09683BD9FA}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Resume_All" ID="{7EB2F7F3-AAF0-4996-833A-22566C1BF54E}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Quotes02Research" ID="{F4FBC13F-C107-4AD1-914D-9D28BA387655}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="YouCant" ID="{52067A70-C289-4B48-8A77-55BB6DF5A369}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MainMenu" ID="{EF69E204-7284-4BFA-95C1-9F09BCC2328C}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Win" ID="{16991572-DC63-4CA6-A6BF-D34841BC9284}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Lose" ID="{F122593E-3381-4D1E-9E0A-7C1D1A91F903}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Assassin" ID="{78BB384E-6326-4D5D-9B8B-9025CDDD3615}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="FactoryBuild" ID="{FB77170B-4DC8-4DFB-A943-AF943A21AE06}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ElectionEnd" ID="{8C59820C-9403-4E2F-A7A3-BBE64E45C7F8}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MonthEnding" ID="{A684B1A1-8163-4E4F-BD94-3A8422942FA2}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music" ID="{6DBCB35F-7F5D-4E8A-883B-1DABE2E45B70}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

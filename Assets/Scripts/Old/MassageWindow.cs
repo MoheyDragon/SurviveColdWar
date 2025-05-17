@@ -6,24 +6,24 @@ using UnityEngine.SceneManagement;
 
 public class MassageWindow : MonoBehaviour
 {
-    public AK.Wwise.Event ClickSound;
+    //public AK.Wwise.Event ClickSound;
     public void Destroy(GameObject game)
     {
-        ClickSound.Post(gameObject);
+        //ClickSound.Post(gameObject);
         Time.timeScale = 0.09f;
         StartCoroutine(Wait(game));
         
     }
     public void Quit()
     {
-        ClickSound.Post(gameObject);
-        OldGameManager.Canvas.GetComponent<CountryManager>().Music.Stop(OldGameManager.Canvas.gameObject);
+        //ClickSound.Post(gameObject);
+        //OldGameManager.Canvas.GetComponent<CountryManager>().Music.Stop(OldGameManager.Canvas.gameObject);
         Time.timeScale = 1;
         SceneManager.LoadScene(0);
     }
     public void Restart()
     {
-        ClickSound.Post(gameObject);
+        //ClickSound.Post(gameObject);
         gameObject.SetActive(false);
         foreach (GameObject game in GameObject.FindGameObjectsWithTag("Massage"))
         {

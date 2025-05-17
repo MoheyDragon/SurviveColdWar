@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="270908044" Type="User" Language="SFX" Hash="{D07BADC8-AE97-CFDB-EED7-3CE3F1914ECA}">
+			<ShortName>Windows</ShortName>
+			<Path>Windows.bnk</Path>
+			<Media>
+				<File Id="72698329" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>zapsplat_multimedia_game_digital_hard_notify_002_52997.wav</ShortName>
+					<CachePath>SFX/zapsplat_multimedia_game_digital_hard_notify_002_52997_8E324C96.wem</CachePath>
+				</File>
+				<File Id="85764390" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>zapsplat_warfare_machine_gun_burst_short_61527.wav</ShortName>
+					<CachePath>SFX/zapsplat_warfare_machine_gun_burst_short_61527_8E324C96.wem</CachePath>
+				</File>
+				<File Id="91091254" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>3-Dramatic Intense Rescue Background Instrumental - Royalty Free Music.wav</ShortName>
+					<CachePath>SFX/3-Dramatic Intense Rescue Background Instrumental - Royalty Free Music_80CA42E9.wem</CachePath>
+				</File>
+				<File Id="125217356" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>smartsound_WEAPONS_BULLET_Small_Impact_Body_01.wav</ShortName>
+					<CachePath>SFX/smartsound_WEAPONS_BULLET_Small_Impact_Body_01_6F9C0D98.wem</CachePath>
+				</File>
+				<File Id="152716298" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PM_BlurryDreams_169_254.wav</ShortName>
+					<CachePath>SFX/PM_BlurryDreams_169_254_8E324C96.wem</CachePath>
+				</File>
+				<File Id="179461112" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>zapsplat_warfare_bomb_whizz_in_hit_close_by_explosion_med_002_48059.wav</ShortName>
+					<CachePath>SFX/zapsplat_warfare_bomb_whizz_in_hit_close_by_explosion_med_002_48059_764E71E0.wem</CachePath>
+				</File>
+				<File Id="209932888" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>tspt_game_button_04_040.wav</ShortName>
+					<CachePath>SFX/tspt_game_button_04_040_8E324C96.wem</CachePath>
+				</File>
+				<File Id="243572024" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>zapsplat_multimedia_alert_bright_warm_system_negative_error_001_57861.wav</ShortName>
+					<CachePath>SFX/zapsplat_multimedia_alert_bright_warm_system_negative_error_001_57861_8E324C96.wem</CachePath>
+				</File>
+				<File Id="378138695" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Blastwave_FX_HumanCrowdStudio_S08HU.193.wav</ShortName>
+					<CachePath>SFX/Blastwave_FX_HumanCrowdStudio_S08HU.193_E104B60E.wem</CachePath>
+				</File>
+				<File Id="381896295" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>research3.wav</ShortName>
+					<CachePath>SFX/research3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="402158815" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>3-Dramatic Intense Rescue Background Instrumental - Royalty Free Music.wav</ShortName>
+					<CachePath>SFX/3-Dramatic Intense Rescue Background Instrumental - Royalty Free Music_178A3286.wem</CachePath>
+				</File>
+				<File Id="448665159" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>warfare_gun_cock_then_shoot.wav</ShortName>
+					<CachePath>SFX/warfare_gun_cock_then_shoot_8E324C96.wem</CachePath>
+				</File>
+				<File Id="478462194" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>2-Dramatic Chase Theme Instrumental - Royalty Free Music.wav</ShortName>
+					<CachePath>SFX/2-Dramatic Chase Theme Instrumental - Royalty Free Music_4657E033.wem</CachePath>
+				</File>
+				<File Id="490797689" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>smartsound_WEAPONS_BULLET_Small_Impact_Body_01.wav</ShortName>
+					<CachePath>SFX/smartsound_WEAPONS_BULLET_Small_Impact_Body_01_7AA67E7F.wem</CachePath>
+				</File>
+				<File Id="583160970" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>zapsplat_multimedia_game_sound_tone_wooden_mallet_generic_015_38417.wav</ShortName>
+					<CachePath>SFX/zapsplat_multimedia_game_sound_tone_wooden_mallet_generic_015_38417_8E324C96.wem</CachePath>
+				</File>
+				<File Id="610340851" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>proxy war3.wav</ShortName>
+					<CachePath>SFX/proxy war3_D29114A0.wem</CachePath>
+				</File>
+				<File Id="679708864" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Factory3.wav</ShortName>
+					<CachePath>SFX/Factory3_32AED2A2.wem</CachePath>
+				</File>
+				<File Id="736816316" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>zapsplat_emergency_nuclear_power_station_meltdown_alarm_42849.wav</ShortName>
+					<CachePath>SFX/zapsplat_emergency_nuclear_power_station_meltdown_alarm_42849_8E324C96.wem</CachePath>
+				</File>
+				<File Id="798073065" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>4-Dramatic War Tension Background Instrumental - Royalty Free Music.wav</ShortName>
+					<CachePath>SFX/4-Dramatic War Tension Background Instrumental - Royalty Free Music_28E194F3.wem</CachePath>
+				</File>
+				<File Id="798353415" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>assassin3.wav</ShortName>
+					<CachePath>SFX/assassin3_0DAD78FC.wem</CachePath>
+				</File>
+				<File Id="803064229" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>smartsound_WEAPONS_BULLET_Small_Impact_Body_01.wav</ShortName>
+					<CachePath>SFX/smartsound_WEAPONS_BULLET_Small_Impact_Body_01_7BD5FB92.wem</CachePath>
+				</File>
+				<File Id="803340645" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>smartsound_HUMAN_CROWD_Applause_Short.wav</ShortName>
+					<CachePath>SFX/smartsound_HUMAN_CROWD_Applause_Short_F344BF8F.wem</CachePath>
+				</File>
+				<File Id="813879734" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>audio_hero_IndustryBrewery+TL04_51.wav</ShortName>
+					<CachePath>SFX/audio_hero_IndustryBrewery+TL04_51_2DAF5A02.wem</CachePath>
+				</File>
+				<File Id="941664908" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>spy4.wav</ShortName>
+					<CachePath>SFX/spy4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="942777620" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>audio_hero_Gothic_SIPML_J-0203.wav</ShortName>
+					<CachePath>SFX/audio_hero_Gothic_SIPML_J-0203_D0817027.wem</CachePath>
+				</File>
+				<File Id="957416993" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>music_zapsplat_seedy_city.wav</ShortName>
+					<CachePath>SFX/music_zapsplat_seedy_city_B8A562DB.wem</CachePath>
+				</File>
+				<File Id="959822171" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>2-Dramatic Chase Theme Instrumental - Royalty Free Music.wav</ShortName>
+					<CachePath>SFX/2-Dramatic Chase Theme Instrumental - Royalty Free Music_D97B7B86.wem</CachePath>
+				</File>
+				<File Id="1001214785" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>music_zapsplat_dawn_102.wav</ShortName>
+					<CachePath>SFX/music_zapsplat_dawn_102_58C95445.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="90374080" Name="Wwise Silence" LibName="Wwise Silence" LibId="6619138"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="1486053686" Name="Assassin" DurationType="OneShot" DurationMin="2.545186" DurationMax="3.9877474">
+					<MediaRefs>
+						<MediaRef Id="125217356"/>
+						<MediaRef Id="378138695"/>
+						<MediaRef Id="448665159"/>
+						<MediaRef Id="490797689"/>
+						<MediaRef Id="803064229"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1584507803" Name="Click" DurationType="OneShot" DurationMin="0.25484642" DurationMax="0.34017918">
+					<MediaRefs>
+						<MediaRef Id="583160970"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4232587031" Name="ElectionEnd" DurationType="OneShot" DurationMin="5.734074" DurationMax="5.734074">
+					<MediaRefs>
+						<MediaRef Id="803340645"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="626984708" Name="ElectionStart" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="957416993"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2899296827" Name="FactoryBuild" DurationType="OneShot" DurationMin="6.8418283" DurationMax="6.8418283">
+					<MediaRefs>
+						<MediaRef Id="813879734"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3753593413" Name="Hover" DurationType="OneShot" DurationMin="0.37169862" DurationMax="1.1800696">
+					<MediaRefs>
+						<MediaRef Id="209932888"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="221232726" Name="Lose" DurationType="OneShot" DurationMin="18.348" DurationMax="18.348">
+					<MediaRefs>
+						<MediaRef Id="736816316"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3604647259" Name="MainMenu" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="798073065"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2400831024" Name="MonthEnding" DurationType="OneShot" DurationMin="3.2223668" DurationMax="3.2223668">
+					<MediaRefs>
+						<MediaRef Id="243572024"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3991942870" Name="Music" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1316067302" Id="4174463524"/>
+							<MediaRefs>
+								<MediaRef Id="91091254"/>
+								<MediaRef Id="402158815"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1316067302" Id="103389341" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="478462194"/>
+								<MediaRef Id="959822171"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3864097025" Name="Pause_All" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3667381417" Name="PorxyWar" DurationType="OneShot" DurationMin="2.5335" DurationMax="3.2847924">
+					<MediaRefs>
+						<MediaRef Id="85764390"/>
+						<MediaRef Id="179461112"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="90374080"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="1626144019" Name="Quotes01Factory" DurationType="OneShot" DurationMin="8.717343" DurationMax="8.717343">
+					<MediaRefs>
+						<MediaRef Id="679708864"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="658248847" Name="Quotes02Research" DurationType="OneShot" DurationMin="8.097" DurationMax="8.097">
+					<MediaRefs>
+						<MediaRef Id="381896295"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2973387804" Name="Quotes03Proxy_war" DurationType="OneShot" DurationMin="8.606002" DurationMax="8.606002">
+					<MediaRefs>
+						<MediaRef Id="610340851"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="421158184" Name="Quotes04Spy" DurationType="OneShot" DurationMin="5.091083" DurationMax="5.091083">
+					<MediaRefs>
+						<MediaRef Id="941664908"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2134322740" Name="Quotes05Assassin" DurationType="OneShot" DurationMin="10.160322" DurationMax="10.160322">
+					<MediaRefs>
+						<MediaRef Id="798353415"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3895945778" Name="Research" DurationType="OneShot" DurationMin="4.5530834" DurationMax="4.5530834">
+					<MediaRefs>
+						<MediaRef Id="152716298"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3679762312" Name="Resume_All" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="695237093" Name="Spy" DurationType="OneShot" DurationMin="7.5978713" DurationMax="7.5978713">
+					<MediaRefs>
+						<MediaRef Id="942777620"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="979765101" Name="Win" DurationType="OneShot" DurationMin="13.31572" DurationMax="13.31572">
+					<MediaRefs>
+						<MediaRef Id="1001214785"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2280219192" Name="YouCant" DurationType="OneShot" DurationMin="1.1395874" DurationMax="1.5211667">
+					<MediaRefs>
+						<MediaRef Id="72698329"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="113899324" Name="MonthEndAccelartor"/>
+				<GameParameter Id="2169369779" Name="NukeDanger"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="1316067302" Name="DangerLevel">
+					<GameParameterRef Id="2169369779"/>
+					<Switches>
+						<Switch Id="103389341" Name="Peace"/>
+						<Switch Id="4174463524" Name="Danger"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{42D47FA3-E953-0631-0584-5E9F96BAB61E}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="393239870" Name="SFX"/>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="3991942870" Name="Music"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="113899324" Name="MonthEndAccelartor"/>
+				<GameParameter Id="2038898903" Name="MusicRTPC"/>
+				<GameParameter Id="2169369779" Name="NukeDanger"/>
+				<GameParameter Id="4002213855" Name="SFXRTPC"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="1316067302" Name="DangerLevel">
+					<GameParameterRef Id="2169369779"/>
+					<Switches>
+						<Switch Id="103389341" Name="Peace"/>
+						<Switch Id="4174463524" Name="Danger"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{1BE9F9A1-CE07-EE04-E661-07ACE9520383}</FileHash>
+</SoundBanksInfo>

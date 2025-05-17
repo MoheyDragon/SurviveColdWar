@@ -7,14 +7,14 @@ using UnityEngine.UI;
 public class Country_Info : MonoBehaviour
 {
     CountryManager country;
-    public AK.Wwise.Event Click;
+    //public AK.Wwise.Event Click;
     private void Awake()
     {
         country = transform.parent.GetComponentInParent<CountryManager>();
     }
     public void InfoClick()
     {
-        Click.Post(gameObject);
+        //Click.Post(gameObject);
         if (!CountryManager.CountryInfo.activeSelf)
         {
                 if (gameObject.name == "ComCenterInfo")

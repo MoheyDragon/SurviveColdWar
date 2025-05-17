@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B8EC6DFE-663D-400E-B2FE-94C98A14D3C2}" SchemaVersion="97">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{B8EC6DFE-663D-400E-B2FE-94C98A14D3C2}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{ED9A4D0D-D0EE-4D6C-8624-02ED0A8234A9}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Music" ID="{6DBCB35F-7F5D-4E8A-883B-1DABE2E45B70}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Lose" ID="{F122593E-3381-4D1E-9E0A-7C1D1A91F903}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Win" ID="{16991572-DC63-4CA6-A6BF-D34841BC9284}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Hover" ID="{3EFD27B9-2697-4091-AF24-7EB7F492216A}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Click" ID="{982CC310-031E-4632-84F7-4E1C2E549D17}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="YouCant" ID="{52067A70-C289-4B48-8A77-55BB6DF5A369}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="MonthEnding" ID="{A684B1A1-8163-4E4F-BD94-3A8422942FA2}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ElectionStart" ID="{DECC6016-F118-46E7-AA39-F46482235643}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ElectionEnd" ID="{8C59820C-9403-4E2F-A7A3-BBE64E45C7F8}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="FactoryBuild" ID="{FB77170B-4DC8-4DFB-A943-AF943A21AE06}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Research" ID="{D26D5429-6CCE-42A5-B973-1DF4DBF6BBEE}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Spy" ID="{619D53BF-47BD-4182-A4A4-37C770FBB1EC}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}"/>
+							<Position X="4" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Assassin" ID="{78BB384E-6326-4D5D-9B8B-9025CDDD3615}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}"/>
+							<Position X="4" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PorxyWar" ID="{839EFCE4-1DB8-4685-A294-72A00E92668E}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}"/>
+							<Position X="4" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Quotes01Factory" ID="{EB5C5224-DDB7-43DB-8B5B-CB7E0684B0E0}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}"/>
+							<Position X="5" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Quotes02Research" ID="{F4FBC13F-C107-4AD1-914D-9D28BA387655}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}"/>
+							<Position X="5" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Quotes03Proxy_war" ID="{98FC83B8-E3FE-4927-8CF0-4A09683BD9FA}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}"/>
+							<Position X="5" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Quotes04Spy" ID="{0FAE3C0D-E631-41D4-BFAE-6F3E8CE896EE}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}"/>
+							<Position X="5" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Quotes05Assassin" ID="{0E5712D2-6366-42D6-9C86-39B943600397}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}"/>
+							<Position X="5" Y="4"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="MonthEndAccelartor" ID="{B32A6EC4-76A4-461F-BCBF-17907001CFC9}"/>
+							<Value>-100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SFXRTPC" ID="{A37B8FC1-357B-486A-BBCE-191A65A84A30}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="NukeDanger" ID="{4CEC13C6-398C-4BF9-B452-2D4D1DE6D8B3}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MusicRTPC" ID="{2AF2DC35-9B08-4F0C-BCBA-3BD408160D12}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

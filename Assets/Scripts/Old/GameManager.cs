@@ -17,8 +17,8 @@ public class OldGameManager : MonoBehaviour
     CountryManager country;
     public static string nameOfAction;
     public static bool AccelLock = false;
-    public AK.Wwise.Event ClickSound, MonthEnded;
-    public AK.Wwise.RTPC MonthEndAccelerator;
+    //public AK.Wwise.Event ClickSound, MonthEnded;
+    //public AK.Wwise.RTPC MonthEndAccelerator;
     // Start is called before the first frame update
     private void Awake()
     {
@@ -63,7 +63,7 @@ public class OldGameManager : MonoBehaviour
         mainMonthCycle = 10;
         MonthCycle = mainMonthCycle + Time.time;
         Info.SetActive(false);
-        MonthEndAccelerator.SetGlobalValue(-100);
+        //MonthEndAccelerator.SetGlobalValue(-100);
     }
     public void LandsFill()
     {
@@ -74,8 +74,8 @@ public class OldGameManager : MonoBehaviour
     {
         if (Time.time>MonthCycle)
             MonthEnd();
-        if (Time.time > DoubleGate&&!AccelLock)
-            MonthEndAccelerator.SetGlobalValue(-100);
+        //if (Time.time > DoubleGate&&!AccelLock)
+        //    MonthEndAccelerator.SetGlobalValue(-100);
         if (Time.timeScale==1)
         {
             Date.color = Color.green;
@@ -90,7 +90,7 @@ public class OldGameManager : MonoBehaviour
     }
     public void InfoBack()
     {
-        ClickSound.Post(gameObject);
+        //ClickSound.Post(gameObject);
             Info.SetActive(false);
         if (!country.IsTutorial)
             foreach (Button button in this.GetComponentsInChildren<Button>())
@@ -100,7 +100,7 @@ public class OldGameManager : MonoBehaviour
     {
         if (AccelLock)
             Accelrator();
-        MonthEnded.Post(gameObject);
+        //MonthEnded.Post(gameObject);
         if (monthCount > months.Length - 2)
         {
             monthCount = 0;
@@ -141,7 +141,7 @@ public class OldGameManager : MonoBehaviour
     }
     public void Accelrator()
     {
-        MonthEndAccelerator.SetGlobalValue(MonthEndAccelerator.GetGlobalValue() + 50);
+        //MonthEndAccelerator.SetGlobalValue(MonthEndAccelerator.GetGlobalValue() + 50);
     }
     
 }

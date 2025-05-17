@@ -1,0 +1,68 @@
+Event	ID	Name			Wwise Object Path	Notes
+	221232726	Lose			\Default Work Unit\Lose	
+	421158184	Quotes04Spy			\Default Work Unit\Quotes04Spy	
+	626984708	ElectionStart			\Default Work Unit\ElectionStart	
+	658248847	Quotes02Research			\Default Work Unit\Quotes02Research	
+	695237093	Spy			\Default Work Unit\Spy	
+	979765101	Win			\Default Work Unit\Win	
+	1486053686	Assassin			\Default Work Unit\Assassin	
+	1584507803	Click			\Default Work Unit\Click	
+	1626144019	Quotes01Factory			\Default Work Unit\Quotes01Factory	
+	2134322740	Quotes05Assassin			\Default Work Unit\Quotes05Assassin	
+	2280219192	YouCant			\Default Work Unit\YouCant	
+	2400831024	MonthEnding			\Default Work Unit\MonthEnding	
+	2899296827	FactoryBuild			\Default Work Unit\FactoryBuild	
+	2973387804	Quotes03Proxy_war			\Default Work Unit\Quotes03Proxy_war	
+	3604647259	MainMenu			\Default Work Unit\MainMenu	
+	3667381417	PorxyWar			\Default Work Unit\PorxyWar	
+	3679762312	Resume_All			\Default Work Unit\Resume_All	
+	3753593413	Hover			\Default Work Unit\Hover	
+	3864097025	Pause_All			\Default Work Unit\Pause_All	
+	3895945778	Research			\Default Work Unit\Research	
+	3991942870	Music			\Default Work Unit\Music	
+	4232587031	ElectionEnd			\Default Work Unit\ElectionEnd	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1316067302	DangerLevel			\Default Work Unit\DangerLevel	
+
+Switch	ID	Name	Switch Group			Notes
+	103389341	Peace	DangerLevel			
+	4174463524	Danger	DangerLevel			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	113899324	MonthEndAccelartor			\Default Work Unit\MonthEndAccelartor	
+	2169369779	NukeDanger			\Default Work Unit\NukeDanger	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	90374080	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Main\Bomb\New Sound SFX_01\Wwise Silence	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	72698329	YouCant	C:\UnityProjects\Commercial\Cold War\Cold War_WwiseProject\.cache\Mac\SFX\zapsplat_multimedia_game_digital_hard_notify_002_52997_8E324C96.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\YouCant		20340
+	85764390	zapsplat_warfare_machine_gun_burst_short_61527	C:\UnityProjects\Commercial\Cold War\Cold War_WwiseProject\.cache\Mac\SFX\zapsplat_warfare_machine_gun_burst_short_61527_8E324C96.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\zapsplat_warfare_machine_gun_burst_short_61527		34714
+	91091254	2-Dramatic Intense Rescue Background Instrumental - Royalty Free Music	C:\UnityProjects\Commercial\Cold War\Cold War_WwiseProject\.cache\Mac\SFX\3-Dramatic Intense Rescue Background Instrumental - Royalty Free Music_80CA42E9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Danger\2-Dramatic Intense Rescue Background Instrumental - Royalty Free Music		244217
+	125217356	smartsound_WEAPONS_BULLET_Small_Impact_Body_02	C:\UnityProjects\Commercial\Cold War\Cold War_WwiseProject\.cache\Mac\SFX\smartsound_WEAPONS_BULLET_Small_Impact_Body_01_6F9C0D98.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Shot\smartsound_WEAPONS_BULLET_Small_Impact_Body_02		10587
+	152716298	Resarch	C:\UnityProjects\Commercial\Cold War\Cold War_WwiseProject\.cache\Mac\SFX\PM_BlurryDreams_169_254_8E324C96.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Resarch		77010
+	179461112	zapsplat_warfare_bomb_whizz_in_hit_close_by_explosion_med_002_48059	C:\UnityProjects\Commercial\Cold War\Cold War_WwiseProject\.cache\Mac\SFX\zapsplat_warfare_bomb_whizz_in_hit_close_by_explosion_med_002_48059_764E71E0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Bomb\zapsplat_warfare_bomb_whizz_in_hit_close_by_explosion_med_002_48059		30652
+	209932888	HoverMouse	C:\UnityProjects\Commercial\Cold War\Cold War_WwiseProject\.cache\Mac\SFX\tspt_game_button_04_040_8E324C96.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\HoverMouse		4493
+	243572024	MonthEnded	C:\UnityProjects\Commercial\Cold War\Cold War_WwiseProject\.cache\Mac\SFX\zapsplat_multimedia_alert_bright_warm_system_negative_error_001_57861_8E324C96.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\MonthEnded		44030
+	378138695	Blastwave_FX_HumanCrowdStudio_S08HU_193	C:\UnityProjects\Commercial\Cold War\Cold War_WwiseProject\.cache\Mac\SFX\Blastwave_FX_HumanCrowdStudio_S08HU.193_E104B60E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Blastwave_FX_HumanCrowdStudio_S08HU_193		35942
+	381896295	02Researches	C:\UnityProjects\Commercial\Cold War\Cold War_WwiseProject\.cache\Mac\SFX\research3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Quotes\02Researches		1554720
+	402158815	2-Dramatic Intense Rescue Background Instrumental - Royalty Free Music_01	C:\UnityProjects\Commercial\Cold War\Cold War_WwiseProject\.cache\Mac\SFX\3-Dramatic Intense Rescue Background Instrumental - Royalty Free Music_178A3286.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Danger\2-Dramatic Intense Rescue Background Instrumental - Royalty Free Music_01		378210
+	448665159	warfare_gun_cock_then_shoot	C:\UnityProjects\Commercial\Cold War\Cold War_WwiseProject\.cache\Mac\SFX\warfare_gun_cock_then_shoot_8E324C96.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\warfare_gun_cock_then_shoot		12630
+	478462194	1-Dramatic Chase Theme Instrumental - Royalty Free Music_01	C:\UnityProjects\Commercial\Cold War\Cold War_WwiseProject\.cache\Mac\SFX\2-Dramatic Chase Theme Instrumental - Royalty Free Music_4657E033.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Safe\1-Dramatic Chase Theme Instrumental - Royalty Free Music_01		948439
+	490797689	smartsound_WEAPONS_BULLET_Small_Impact_Body_03	C:\UnityProjects\Commercial\Cold War\Cold War_WwiseProject\.cache\Mac\SFX\smartsound_WEAPONS_BULLET_Small_Impact_Body_01_7AA67E7F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Shot\smartsound_WEAPONS_BULLET_Small_Impact_Body_03		12085
+	583160970	Click	C:\UnityProjects\Commercial\Cold War\Cold War_WwiseProject\.cache\Mac\SFX\zapsplat_multimedia_game_sound_tone_wooden_mallet_generic_015_38417_8E324C96.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Click		4681
+	610340851	03proxy war	C:\UnityProjects\Commercial\Cold War\Cold War_WwiseProject\.cache\Mac\SFX\proxy war3_D29114A0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Quotes\03proxy war		1652448
+	679708864	01Factories	C:\UnityProjects\Commercial\Cold War\Cold War_WwiseProject\.cache\Mac\SFX\Factory3_32AED2A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Quotes\01Factories		768966
+	736816316	Lose	C:\UnityProjects\Commercial\Cold War\Cold War_WwiseProject\.cache\Mac\SFX\zapsplat_emergency_nuclear_power_station_meltdown_alarm_42849_8E324C96.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Lose		353064
+	798073065	MainMenuMusic	C:\UnityProjects\Commercial\Cold War\Cold War_WwiseProject\.cache\Mac\SFX\4-Dramatic War Tension Background Instrumental - Royalty Free Music_28E194F3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\MainMenuMusic		1343667
+	798353415	05assassin	C:\UnityProjects\Commercial\Cold War\Cold War_WwiseProject\.cache\Mac\SFX\assassin3_0DAD78FC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Quotes\05assassin		2005852
+	803064229	smartsound_WEAPONS_BULLET_Small_Impact_Body_01	C:\UnityProjects\Commercial\Cold War\Cold War_WwiseProject\.cache\Mac\SFX\smartsound_WEAPONS_BULLET_Small_Impact_Body_01_7BD5FB92.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Shot\smartsound_WEAPONS_BULLET_Small_Impact_Body_01		10715
+	803340645	EndElections	C:\UnityProjects\Commercial\Cold War\Cold War_WwiseProject\.cache\Mac\SFX\smartsound_HUMAN_CROWD_Applause_Short_F344BF8F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\EndElections		71624
+	813879734	FactoryBuild	C:\UnityProjects\Commercial\Cold War\Cold War_WwiseProject\.cache\Mac\SFX\audio_hero_IndustryBrewery+TL04_51_2DAF5A02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\FactoryBuild		119788
+	941664908	04spy	C:\UnityProjects\Commercial\Cold War\Cold War_WwiseProject\.cache\Mac\SFX\spy4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Quotes\04spy		939184
+	942777620	Spy	C:\UnityProjects\Commercial\Cold War\Cold War_WwiseProject\.cache\Mac\SFX\audio_hero_Gothic_SIPML_J-0203_D0817027.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Spy		110989
+	957416993	Election	C:\UnityProjects\Commercial\Cold War\Cold War_WwiseProject\.cache\Mac\SFX\music_zapsplat_seedy_city_B8A562DB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Election		427879
+	959822171	1-Dramatic Chase Theme Instrumental - Royalty Free Music	C:\UnityProjects\Commercial\Cold War\Cold War_WwiseProject\.cache\Mac\SFX\2-Dramatic Chase Theme Instrumental - Royalty Free Music_D97B7B86.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Safe\1-Dramatic Chase Theme Instrumental - Royalty Free Music		269424
+	1001214785	Win	C:\UnityProjects\Commercial\Cold War\Cold War_WwiseProject\.cache\Mac\SFX\music_zapsplat_dawn_102_58C95445.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Win		222573
+

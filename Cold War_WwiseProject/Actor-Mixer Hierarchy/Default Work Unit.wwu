@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{9A13F2DB-ED19-4E58-9655-58B35438E29F}" SchemaVersion="97">
+<WwiseDocument Type="WorkUnit" ID="{9A13F2DB-ED19-4E58-9655-58B35438E29F}" SchemaVersion="119">
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{9A13F2DB-ED19-4E58-9655-58B35438E29F}" PersistMode="Standalone">
 			<ChildrenList>
@@ -241,32 +241,6 @@
 											</Modifier>
 										</ModifierInfo>
 									</ModifierList>
-									<RTPCList>
-										<RTPC Name="" ID="{E26539DA-BC88-44C7-85A3-2C987BFED128}" ShortID="1018773335">
-											<ReferenceList>
-												<Reference Name="ControlInput">
-													<ObjectRef Name="MonthEndAccelartor" ID="{B32A6EC4-76A4-461F-BCBF-17907001CFC9}" WorkUnitID="{1ADECE53-9FBC-41BE-90F4-A460BEF93C01}"/>
-												</Reference>
-											</ReferenceList>
-											<Curve Name="" ID="{60AB4AF8-F62A-45B0-9040-55D710AE2E35}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="65537"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>-100</XPos>
-														<YPos>-100</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>10000</XPos>
-														<YPos>4800</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</RTPC>
-									</RTPCList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
@@ -291,6 +265,45 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{E26539DA-BC88-44C7-85A3-2C987BFED128}" ShortID="1018773335">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Pitch"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="MonthEndAccelartor" ID="{B32A6EC4-76A4-461F-BCBF-17907001CFC9}" WorkUnitID="{1ADECE53-9FBC-41BE-90F4-A460BEF93C01}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{60AB4AF8-F62A-45B0-9040-55D710AE2E35}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-100</XPos>
+																		<YPos>-100</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>10000</XPos>
+																		<YPos>4800</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 							<ActiveSourceList>
 								<ActiveSource Name="zapsplat_multimedia_alert_bright_warm_system_negative_error_001_57861" ID="{35EB4947-8A0A-4986-8560-1771D2EC37E1}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -960,10 +973,16 @@
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-							<Playlist>
-								<ItemRef Name="1-Dramatic Chase Theme Instrumental - Royalty Free Music" ID="{953D157F-AC85-4BB0-8998-364EF786ACE5}"/>
-								<ItemRef Name="1-Dramatic Chase Theme Instrumental - Royalty Free Music_01" ID="{AC1CA2D9-A707-407B-83FB-32465BFBD31E}"/>
-							</Playlist>
+							<ObjectLists>
+								<ObjectList Name="Playlist">
+									<Reference>
+										<ObjectRef Name="1-Dramatic Chase Theme Instrumental - Royalty Free Music" ID="{953D157F-AC85-4BB0-8998-364EF786ACE5}" WorkUnitID="{9A13F2DB-ED19-4E58-9655-58B35438E29F}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="1-Dramatic Chase Theme Instrumental - Royalty Free Music_01" ID="{AC1CA2D9-A707-407B-83FB-32465BFBD31E}" WorkUnitID="{9A13F2DB-ED19-4E58-9655-58B35438E29F}"/>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Danger" ID="{52175100-D964-48EE-95E2-182AB9A37BEC}" ShortID="194270321">
 							<PropertyList>
@@ -1038,10 +1057,16 @@
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-							<Playlist>
-								<ItemRef Name="2-Dramatic Intense Rescue Background Instrumental - Royalty Free Music" ID="{DAEC47D0-24BB-4578-A46E-449318D231CA}"/>
-								<ItemRef Name="2-Dramatic Intense Rescue Background Instrumental - Royalty Free Music_01" ID="{2CDDF300-B2AB-4A81-8280-522D1CF32ACB}"/>
-							</Playlist>
+							<ObjectLists>
+								<ObjectList Name="Playlist">
+									<Reference>
+										<ObjectRef Name="2-Dramatic Intense Rescue Background Instrumental - Royalty Free Music" ID="{DAEC47D0-24BB-4578-A46E-449318D231CA}" WorkUnitID="{9A13F2DB-ED19-4E58-9655-58B35438E29F}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="2-Dramatic Intense Rescue Background Instrumental - Royalty Free Music_01" ID="{2CDDF300-B2AB-4A81-8280-522D1CF32ACB}" WorkUnitID="{9A13F2DB-ED19-4E58-9655-58B35438E29F}"/>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 						</RandomSequenceContainer>
 					</ChildrenList>
 					<GroupingInfo>

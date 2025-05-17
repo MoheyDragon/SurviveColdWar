@@ -8,7 +8,7 @@ public class NukeMeterUpdater : MonoBehaviour
     Text text;
     Image fill;
     public static float nukeDanger;
-    public AK.Wwise.RTPC Danger;
+    //public AK.Wwise.RTPC Danger;
     public void Awake()
     {
         text = gameObject.GetComponent<Text>();
@@ -31,7 +31,7 @@ public class NukeMeterUpdater : MonoBehaviour
         {
             fill.fillAmount = nukeDanger / 100;
             text.text = Mathf.RoundToInt(nukeDanger).ToString() + " %";
-            Danger.SetGlobalValue(nukeDanger);
+            //Danger.SetGlobalValue(nukeDanger);
         }
     }
 }

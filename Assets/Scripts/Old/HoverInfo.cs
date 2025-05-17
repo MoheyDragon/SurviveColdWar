@@ -11,7 +11,7 @@ public class HoverInfo : MonoBehaviour
     public float MoneyReq, MoneyGain;
     public bool Monthly;
     CountryManager manager;
-    public AK.Wwise.Event ClickSound,TuorialSound;
+    //public AK.Wwise.Event ClickSound,TuorialSound;
     private void Start()
     {
         manager = transform.parent.GetComponentInParent<CountryManager>();
@@ -37,7 +37,7 @@ public class HoverInfo : MonoBehaviour
 
         }
         else
-        ClickSound.Post(gameObject);
+        //ClickSound.Post(gameObject);
         OldGameManager.nameOfAction = name;
         CountryManager.title.text = title;
         CountryManager.doneMassage = doneMassage;
@@ -93,28 +93,28 @@ public class HoverInfo : MonoBehaviour
         else
             return (Mathf.Round(mon * 10 / 1000) / 10).ToString() + " K";
     }
-    void QuoteEnd(object in_cookie, AkCallbackType in_type, object in_info)
-    {
+    //void QuoteEnd(object in_cookie, AkCallbackType in_type, object in_info)
+    //{
 
-        if (in_type == AkCallbackType.AK_EndOfEvent)
-        {
-            if (name == "War")
-            {
-                manager.gameObject.GetComponent<Tutorial>().Next(false);
-                Time.timeScale = 0.0000000001f;
-                OldGameManager.Info.transform.GetChild(20).GetComponent<Button>().interactable = true;
-            }
-            else if (name == "Assassin")
-            { }
-            else
-                Time.timeScale = 1;
-        }
-    }
+    //    if (in_type == AkCallbackType.AK_EndOfEvent)
+    //    {
+    //        if (name == "War")
+    //        {
+    //            manager.gameObject.GetComponent<Tutorial>().Next(false);
+    //            Time.timeScale = 0.0000000001f;
+    //            OldGameManager.Info.transform.GetChild(20).GetComponent<Button>().interactable = true;
+    //        }
+    //        else if (name == "Assassin")
+    //        { }
+    //        else
+    //            Time.timeScale = 1;
+    //    }
+    //}
     void QuotePlay()
     {
         Time.timeScale = 0;
         if (name != "Research"&&name!="Assassin" && name != "War")
             manager.gameObject.GetComponent<Tutorial>().Next(false);
-        TuorialSound.Post(gameObject, (uint)AkCallbackType.AK_EndOfEvent, QuoteEnd);
+        //TuorialSound.Post(gameObject, (uint)AkCallbackType.AK_EndOfEvent, QuoteEnd);
     }
 }

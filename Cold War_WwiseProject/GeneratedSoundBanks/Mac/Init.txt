@@ -1,0 +1,20 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1316067302	DangerLevel			\Default Work Unit\DangerLevel	
+
+Switch	ID	Name	Switch Group			Notes
+	103389341	Peace	DangerLevel			
+	4174463524	Danger	DangerLevel			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2038898903	MusicRTPC			\Default Work Unit\MusicRTPC	
+	4002213855	SFXRTPC			\Default Work Unit\SFXRTPC	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

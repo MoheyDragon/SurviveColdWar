@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{06B755CA-58B3-4D41-BAD2-A70872D59A96}" SchemaVersion="97">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{06B755CA-58B3-4D41-BAD2-A70872D59A96}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{DF9F6488-9A88-467A-BA41-FE13BF340889}" WorkUnitID="{75011457-B15D-415A-B81D-B4AFA495E050}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Music" ID="{884B4B1F-B174-49B5-975C-E5F6B00F132F}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{4DC113CB-2ACC-4005-B837-DF745FC339BA}" ShortID="1006665826">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="MusicRTPC" ID="{2AF2DC35-9B08-4F0C-BCBA-3BD408160D12}" WorkUnitID="{1ADECE53-9FBC-41BE-90F4-A460BEF93C01}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{84DEE778-874A-47B8-A95B-351E6EE43B17}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+						</Bus>
+						<Bus Name="SFX" ID="{48CEBBE1-7443-4CBD-BBC3-67E55313717B}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{E041A01F-02F9-402B-B374-5A3B250AE36C}" ShortID="467864132">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SFXRTPC" ID="{A37B8FC1-357B-486A-BBCE-191A65A84A30}" WorkUnitID="{1ADECE53-9FBC-41BE-90F4-A460BEF93C01}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{0A5A37A2-C1C5-4672-B07C-54BB530C02AB}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

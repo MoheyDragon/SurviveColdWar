@@ -322,7 +322,7 @@ public class Tutorial : MonoBehaviour
         }
         if (Level == 39)
         {
-            this.gameObject.GetComponent<CountryManager>().Music.Stop(gameObject);
+            //this.gameObject.GetComponent<CountryManager>().Music.Stop(gameObject);
             Time.timeScale = 1;
             SceneManager.LoadScene(2);
         }
@@ -334,7 +334,7 @@ public class Tutorial : MonoBehaviour
     public void Next(bool IsButton)
     {
         if (IsButton)
-            this.GetComponent<CountryManager>().ClickSound.Post(gameObject);
+            //this.GetComponent<CountryManager>().ClickSound.Post(gameObject);
         Level++;
         TutWin.transform.GetChild(0).GetComponent<Text>().text = Texts[Level];
     }

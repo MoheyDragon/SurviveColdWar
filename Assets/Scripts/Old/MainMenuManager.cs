@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class MainMenuManager : MonoBehaviour
 {
-    public AK.Wwise.Event MainMusic, ClickSound;
+    //public AK.Wwise.Event MainMusic, ClickSound;
     float CoolStatic, CoolChange,PartyChange;
     public Text Date;
     float t;
@@ -24,7 +24,7 @@ public class MainMenuManager : MonoBehaviour
         ColorUnit = DateUnit= 1;
         PartyChange = 2;
         CoolStatic = CoolChange = 1.5f;
-        MainMusic.Post(gameObject);
+        //MainMusic.Post(gameObject);
         Date.material.color = Color.blue;
         party = Com;
         t = 0;
@@ -65,19 +65,19 @@ public class MainMenuManager : MonoBehaviour
     }
     public void Play()
     {
-        ClickSound.Post(gameObject);
-        MainMusic.Stop(gameObject);
+        //ClickSound.Post(gameObject);
+        //MainMusic.Stop(gameObject);
         SceneManager.LoadScene(2);
     }
     public void FirstPlay()
     {
-        ClickSound.Post(gameObject);
-        MainMusic.Stop(gameObject);
+        //ClickSound.Post(gameObject);
+        //MainMusic.Stop(gameObject);
         SceneManager.LoadScene(1);
     }
     public void CreditsClick()
     {
-        ClickSound.Post(gameObject);
+        //ClickSound.Post(gameObject);
         bool Condition = Credits.activeSelf ? false : true;
         Credits.SetActive(Condition);
         Date.gameObject.SetActive(!Condition);
@@ -86,7 +86,7 @@ public class MainMenuManager : MonoBehaviour
     }
     public void Exit()
     {
-        ClickSound.Post(gameObject);
+        //ClickSound.Post(gameObject);
         Application.Quit();
     }
     IEnumerator Wait(bool ForRed)

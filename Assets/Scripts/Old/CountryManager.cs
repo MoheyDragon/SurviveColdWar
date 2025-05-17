@@ -23,7 +23,7 @@ public class CountryManager : MonoBehaviour
     public static int NotificationIndex;
     [SerializeField] private AnimationCurve Nuke;
     float TimeHold=0;
-    public AK.Wwise.Event Music,Pause,Resume, ElecStart, ElecEnd,Research,Factory,Spy,Assassin,War,Win,Lose,ClickSound,Warning;
+    //public AK.Wwise.Event Music,Pause,Resume, ElecStart, ElecEnd,Research,Factory,Spy,Assassin,War,Win,Lose,ClickSound,Warning;
     // Start is called before the first frame update
     private void Awake()
     {
@@ -124,8 +124,8 @@ public class CountryManager : MonoBehaviour
         ActionMenu.SetActive(false);
         CountryInfo.SetActive(false);
         LoseLock = false;
-        Lose.Stop(gameObject);
-        Music.Post(gameObject);
+        //Lose.Stop(gameObject);
+        //Music.Post(gameObject);
     }
 
     // Update is called once per frame
@@ -252,7 +252,7 @@ public class CountryManager : MonoBehaviour
     }
     public void Do()
     {
-        ClickSound.Post(gameObject);
+        //ClickSound.Post(gameObject);
         DOInstansaite(SelectedParty);
     }
     public void DOInstansaite(Party party)
@@ -296,7 +296,7 @@ public class CountryManager : MonoBehaviour
     {
         if (IsWarning)
         {
-            Warning.Post(gameObject);
+            //Warning.Post(gameObject);
         }
         foreach (Button button in this.GetComponentsInChildren<Button>())
         {
@@ -568,7 +568,7 @@ public class CountryManager : MonoBehaviour
             ActionMenu.SetActive(false);
             ElectionsLock = true;
             ELectionWindow.GetComponent<Image>().color = party.color;
-            ElecStart.Post(gameObject);
+            //ElecStart.Post(gameObject);
             ELectionWindow.SetActive(true);
             
             foreach (Transform item in ElectedPresidents)
@@ -608,12 +608,12 @@ public class CountryManager : MonoBehaviour
     }
     public void PresidentPress(GameObject button)
     {
-        ClickSound.Post(gameObject);
+        //ClickSound.Post(gameObject);
         PresidentChoosing(SelectedParty, button.transform.parent.GetChild(0).GetComponent<Text>().text, int.Parse(button.transform.parent.GetChild(1).GetComponent<Text>().text), ReverseMoneyTranslate(button.transform.parent.GetChild(2).GetComponent<Text>().text), int.Parse(button.transform.parent.GetChild(3).GetComponent<Text>().text));
         ELectionWindow.SetActive(false);
         OldGameManager.Info.SetActive(false);
         ActionMenu.SetActive(false);
-        ElecEnd.Post(gameObject);
+        //ElecEnd.Post(gameObject);
         ElectionsLock = false;
         Time.timeScale = NotificationLock?0.09f:1;
         NotificationLock = false;
@@ -630,7 +630,7 @@ public class CountryManager : MonoBehaviour
             CountryInfo.SetActive(false);
             ActionMenu.SetActive(!ActionMenu.activeSelf);
             OldGameManager.Info.SetActive(false);
-            ClickSound.Post(gameObject);
+            //ClickSound.Post(gameObject);
             if (!IsTutorial)
                 foreach (Button button in OldGameManager.Canvas.GetComponentsInChildren<Button>())
                     button.interactable = true;
@@ -640,8 +640,8 @@ public class CountryManager : MonoBehaviour
     {
         if (Time.timeScale > 0)
         {
-            if (ActionMenu.activeSelf||CountryInfo.activeSelf)
-                ClickSound.Post(gameObject);
+            //if (ActionMenu.activeSelf||CountryInfo.activeSelf)
+            //    ClickSound.Post(gameObject);
             ActionMenu.SetActive(false);
             CountryInfo.SetActive(false);
             OldGameManager.Info.SetActive(false);
@@ -652,7 +652,7 @@ public class CountryManager : MonoBehaviour
         foreach (GameObject button in GameObject.FindGameObjectsWithTag("SpeedUp"))
             button.SetActive(false);
         Time.timeScale = 0;
-        Win.Post(gameObject);
+        //Win.Post(gameObject);
     }
     public void lose()
     {
@@ -661,13 +661,13 @@ public class CountryManager : MonoBehaviour
             button.SetActive(false);
         ActionMenu.SetActive(false);
         ELectionWindow.SetActive(false);
-        Lose.Post(gameObject);
+        //Lose.Post(gameObject);
         LoseMenu.SetActive(true);
         LoseLock = true;
     }
     public void ShutUp()
     {
-        Lose.Stop(gameObject);
+        //Lose.Stop(gameObject);
     }
     IEnumerator MultiElections(Party party)
     {
@@ -677,41 +677,41 @@ public class CountryManager : MonoBehaviour
     IEnumerator MultiActions(Party party,ActionFunction action,int WaitTime)
     {
         NotificationIndex++;
-        Pause.Post(gameObject);
+        //Pause.Post(gameObject);
         yield return new WaitForSeconds(0.01f * WaitTime);
         if (!LoseLock)
         {
             CanText(party.name + " : " + action.done, party, false);
-            Factory.Stop(gameObject);
-            Research.Stop(gameObject);
-            Spy.Stop(gameObject);
-            Assassin.Stop(gameObject);
-            War.Stop(gameObject);
+            //Factory.Stop(gameObject);
+            //Research.Stop(gameObject);
+            //Spy.Stop(gameObject);
+            //Assassin.Stop(gameObject);
+            //War.Stop(gameObject);
             if (action.done == "Factory Building Finished")
             {
-                Factory.Post(gameObject);
+                //Factory.Post(gameObject);
                 party.FactoriesNumber++;
                 party.FactoriesTotalPower += action.power;
                 party.FactoriesTotalMoney += action.money;
                 party.FactoriesTotalpeople += action.peoplSatsfaction;
             }
 
-            else if (action.done == "Research Completed")
-                Research.Post(gameObject);
+            //else if (action.done == "Research Completed")
+            //    Research.Post(gameObject);
             else if (action.done == "Spy is in place")
             {
-                Spy.Post(gameObject);
+                //Spy.Post(gameObject);
                 party.SpiesNumber++;
                 party.SpiesTotalPower += action.power;
             }
             else if (action.done == "Assassination completed")
             {
-                Assassin.Post(gameObject);
+                //Assassin.Post(gameObject);
                 GetEnemy(party).Power = (GetEnemy(party).Power / 10) * Random.RandomRange(3, 7);
             }
             else if (action.done == "Proxy war started.")
             {
-                War.Post(gameObject);
+                //War.Post(gameObject);
                 party.WarNumber++;
                 party.WarTotalPower += action.power;
                 party.WarTotalMoney += action.money;
@@ -764,19 +764,19 @@ public class CountryManager : MonoBehaviour
     }
     public void ResumeAll()
     {
-        Resume.Post(gameObject);
+        //Resume.Post(gameObject);
     }
     public void PauseFunction()
     {
         if (Time.timeScale!=0)
         {
-            Pause.Post(gameObject);
+            //Pause.Post(gameObject);
             TimeHold = Time.timeScale;
             Time.timeScale = 0;
         }
         else
         {
-            Resume.Post(gameObject);
+            //Resume.Post(gameObject);
             Time.timeScale = TimeHold;
         }
             

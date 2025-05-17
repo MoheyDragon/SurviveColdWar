@@ -5,7 +5,7 @@ using UnityEngine.EventSystems;
 
 public class Hover_Click_Sounds : MonoBehaviour,IPointerEnterHandler
 {
-    public AK.Wwise.Event Hover;
+    //public AK.Wwise.Event Hover;
     private void Awake()
     {
         if (Application.isMobilePlatform)
@@ -13,6 +13,6 @@ public class Hover_Click_Sounds : MonoBehaviour,IPointerEnterHandler
     }
     public void OnPointerEnter(PointerEventData eventData)
     {
-        Hover.Post(gameObject);
+        //Hover.Post(gameObject);
     }
 }

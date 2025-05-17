@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PluginInfo Project="Cold War_WwiseProject" Platform="Android" BasePlatform="Android">
-	<Plugins>
-		<Plugin Name="Wwise Silence" ID="6619138" DLL="AkSilenceGenerator"/>
-		<Plugin Name="System" ID="11403271" DLL="DefaultSink"/>
-		<Plugin Name="No Output" ID="11862023" DLL="DefaultSink"/>
-	</Plugins>
+<PluginInfo Platform="Android" BasePlatform="Android">
+	<PluginLibs>
+		<PluginLib LibName="Wwise Silence" LibId="6619138" Type="Source" DLL="AkSilenceGenerator" StaticLib="AkSilenceSource"/>
+		<PluginLib LibName="System" LibId="11403271" Type="AudioDevice"/>
+		<PluginLib LibName="No Output" LibId="11862023" Type="AudioDevice"/>
+	</PluginLibs>
+	<FileHash>{C1D23FB4-383D-4A7E-949B-1B25447AD1C9}</FileHash>
 </PluginInfo>
