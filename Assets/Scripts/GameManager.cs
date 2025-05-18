@@ -128,7 +128,7 @@ public class GameManager : MonoBehaviour
                 Tutorial.FirstYear = false;
             if (Tutorial.ThreeWARS &&Date.text=="1948"&&monthCount>4)
                 Tutorial.ThreeWARS = false;
-            if(Date.text=="1952"&&monthCount>4)
+            if(int.Parse(Date.text)>=1953)
                 Tutorial.ENDLOCK = false;
         }
     }

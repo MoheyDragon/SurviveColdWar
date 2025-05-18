@@ -88,28 +88,39 @@ public class HoverInfo : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         CountryManager.doneMassage = doneMassage;
         CountryManager.breif.text = breif;
         CountryManager.Quote.text = Quote;
-        if (title == "Build a new Factory :")
+        if (title == "Build a new Factory")
             CountryManager.powerReq.text = (int.Parse(powerReq) + CountryManager.SelectedParty.FactoryLevel * 25).ToString();
         else if (name == "War")
             CountryManager.powerReq.text = (int.Parse(powerReq) + CountryManager.SelectedParty.WarLevel * 25).ToString();
+        else if (name == "Research")
+            CountryManager.powerReq.text = (int.Parse(powerReq) + ((int.Parse(powerReq)*CountryManager.SelectedParty.researchLevel/5))).ToString();
+        else if (name == "Spy")
+            CountryManager.powerReq.text = (int.Parse(powerReq) +((int.Parse(powerReq))* CountryManager.SelectedParty.SpiesLevel)).ToString();
         else
             CountryManager.powerReq.text = powerReq;
-        if (title == "Build a new Factory :")
+        if (title == "Build a new Factory")
             CountryManager.MoneyReq.text = MoneyTranslate(MoneyReq + ((ulong)CountryManager.SelectedParty.FactoryLevel * 500000000ul));
         else if (name == "War")
             CountryManager.MoneyReq.text = MoneyTranslate(MoneyReq + (CountryManager.SelectedParty.WarLevel * 1000000));
+        else if (name == "Research")
+            CountryManager.MoneyReq.text = MoneyTranslate(MoneyReq +(MoneyReq* CountryManager.SelectedParty.researchLevel));
+        else if (name == "Spy")
+            CountryManager.MoneyReq.text = MoneyTranslate(MoneyReq + (CountryManager.SelectedParty.SpiesLevel * 1000000000));
         else
             CountryManager.MoneyReq.text = MoneyTranslate(MoneyReq);
         CountryManager.PeopleReq.text = PeopleReq;
-        CountryManager.PeopleReq.text = PeopleReq;
         CountryManager.TimeReq.text = "after " + TimeReq;
-        if (title == "Build a new Factory :")
+        if (title == "Build a new Factory")
             CountryManager.PowerGain.text = (int.Parse(PowerGain) + CountryManager.SelectedParty.FactoryLevel * 2).ToString();
         else if (name == "War")
             CountryManager.PowerGain.text = (int.Parse(PowerGain) + CountryManager.SelectedParty.WarLevel * 5).ToString();
+        else if (name == "Research")
+            CountryManager.PowerGain.text = (int.Parse(PowerGain)+(int.Parse(PowerGain) * CountryManager.SelectedParty.researchLevel)).ToString();
+        else if (name == "Spy")
+            CountryManager.PowerGain.text = (int.Parse(PowerGain) +((int.Parse(PowerGain) *CountryManager.SelectedParty.SpiesLevel /5))).ToString();
         else
             CountryManager.PowerGain.text = PowerGain;
-        if (title == "Build a new Factory :")
+        if (title == "Build a new Factory")
             CountryManager.MoneyGain.text = MoneyTranslate((ulong)MoneyGain * 10 * (ulong)CountryManager.SelectedParty.FactoryLevel);
         else if (name == "War")
             CountryManager.MoneyGain.text = MoneyTranslate(MoneyGain + ((ulong)CountryManager.SelectedParty.WarLevel * 100000ul));

@@ -254,65 +254,60 @@ public class CountryManager : MonoBehaviour
     }
     public void MonthRevnue(Party party)
     {
-        
-        if (party.Power!=0)
+
+        party.Power += party.powerSources;
+        party.Money += party.MoneySources;
+        party.PeoplSatsfaction += party.peopleSources;
+        if (party.PeoplSatsfaction < 0)
+            party.Power += party.PeoplSatsfaction;
+        party.Power = Mathf.Clamp(party.Power, 0, 1000000);
+        party.Money = Mathf.Clamp(party.Money, 0, 10000000000000000000);
+        party.PeoplSatsfaction = Mathf.Clamp(party.PeoplSatsfaction, 0, 100);
+        if (!LoseLock)
         {
-            party.Power += party.powerSources;
-            party.Money += party.MoneySources;
-            party.PeoplSatsfaction += party.peopleSources;
-            if (party.PeoplSatsfaction < 0)
-                party.Power += party.PeoplSatsfaction;
-            party.Power = Mathf.Clamp(party.Power, 0, 1000000);
-            party.Money = Mathf.Clamp(party.Money, 0, 10000000000000000000);
-            party.PeoplSatsfaction = Mathf.Clamp(party.PeoplSatsfaction, -100, 100);
-            if (!LoseLock)
+            party.ElectionIndex++;
+            if (party.ElectionIndex == party.PresedncyPeriod)
+                if (!ElectionsLock)
+                    Elections(party);
+                else
+                    StartCoroutine(MultiElections(party));
+
+
+            foreach (ActionFunction action in party.Actions)
             {
-                party.ElectionIndex++;
-                if (party.ElectionIndex == party.PresedncyPeriod)
-                    if (!ElectionsLock)
-                        Elections(party);
-                    else
-                        StartCoroutine(MultiElections(party));
-
-
-                foreach (ActionFunction action in party.Actions)
+                if (action != null)
                 {
-                    if (action != null)
+                    if (action.time > 0)
                     {
-                        if (action.time > 0)
+                        action.time--;
+                        if (action.time == 0)
                         {
-                            action.time--;
-                            if (action.time == 0)
+                            if (ElectionsLock && !NotificationLock)
                             {
-                                if (ElectionsLock&&!NotificationLock)
-                                {
-                                    NotificationIndex++;
-                                    NotificationLock = true;
-                                    StartCoroutine(MultiActions(party, action, NotificationIndex));
-                                }
-                                else
-                                {
-                                    StartCoroutine(MultiActions(party, action, NotificationIndex));
-                                }
-
-                                if (!action.Monthly)
-                                {
-                                    party.Power += action.power;
-                                    party.Money += action.money;
-                                    party.PeoplSatsfaction += action.peoplSatsfaction;
-                                }
-
+                                NotificationIndex++;
+                                NotificationLock = true;
+                                StartCoroutine(MultiActions(party, action, NotificationIndex));
                             }
+                            else
+                            {
+                                StartCoroutine(MultiActions(party, action, NotificationIndex));
+                            }
+
+                            if (!action.Monthly)
+                            {
+                                if (action.name == "Research")
+                                        party.Power += action.power + (action.power * party.researchLevel);
+                                    else
+                                        party.Power += action.power;
+                                party.Money += action.money;
+                                party.PeoplSatsfaction += action.peoplSatsfaction;
+                            }
+
                         }
                     }
                 }
             }
         }
-        else
-        {
-            lose();
-        }
-        
     }
     public void Do()
     {
@@ -321,11 +316,11 @@ public class CountryManager : MonoBehaviour
     }
     public void DOInstansaite(Party party)
     {
-        if (party.Power > int.Parse(powerReq.text))
+        if (party.Power >= int.Parse(powerReq.text))
         {
-            if (party.Money > ReverseMoneyTranslate(MoneyReq.text))
+            if (party.Money >= ReverseMoneyTranslate(MoneyReq.text))
             {
-                if (party.PeoplSatsfaction > int.Parse(PeopleReq.text))
+                if (party.PeoplSatsfaction >= int.Parse(PeopleReq.text))
                 {
                     if (party.ActionIndex < 3)
                     {
@@ -337,7 +332,11 @@ public class CountryManager : MonoBehaviour
                             party.FactoryLevel++;
                         else if (doneMassage== "Proxy war started.")
                             party.WarLevel++;
-                            party.ActionIndex++;
+                        else if (doneMassage == "Research Completed")
+                            party.researchLevel++;
+                        else if (doneMassage == "Spy is in place")
+                            party.SpiesLevel++;
+                        party.ActionIndex++;
                         if (!IsTutorial)
                             foreach (Button button in this.GetComponentsInChildren<Button>())
                                 button.interactable = true;
@@ -884,6 +883,7 @@ public class Party
     public float FactoriesTotalMoney = 0;
     public int FactoriesTotalpeople = 0;
 
+    public int SpiesLevel = 0;
     public int SpiesNumber = 0;
     public int SpiesTotalPower = 0;
 
@@ -893,6 +893,8 @@ public class Party
     public float WarTotalMoney = 0;
     public int WarTotalpeople = 0;
 
+    public int researchLevel;
+    public int researchNumber = 0;
 
 
     public Party(string _name,Text powerUI, Text moneyUI, Text peoplSatsfactionUI,Color _color, int _PresedncyPeriod)
