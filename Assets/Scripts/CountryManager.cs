@@ -15,6 +15,8 @@ public class CountryManager : MonoBehaviour
     public static Transform[] Actions = new Transform[3];
     public static string doneMassage;
     public GameObject MassageWindowPrefabe;
+    public Notification notifactionPrefab;
+    public Transform notifcationCenter;
     [HideInInspector]
     public GameObject ELectionWindow, LoseMenu, ActionMenu;
     public static GameObject CountryInfo;
@@ -209,12 +211,7 @@ public class CountryManager : MonoBehaviour
             {
                 Pause.Post(gameObject);
                 CanText(party.name + " : " + action.done, party, false);
-                Factory.Stop(gameObject);
-                Research.Stop(gameObject);
-                Spy.Stop(gameObject);
                 Assassin.Stop(gameObject);
-                War.Stop(gameObject);
-
                 Assassin.Post(gameObject);
                 GetEnemy(party).Power = (GetEnemy(party).Power / 10) * UnityEngine.Random.Range(3, 7);
                 if (System.Array.IndexOf(party.Actions, action) == 2)
@@ -377,7 +374,6 @@ public class CountryManager : MonoBehaviour
             game.transform.GetChild(2).gameObject.SetActive(false);
             game.GetComponent<Image>().color = party.color;
         }
-            
     }
     public void SelectParty(string party)
     {
@@ -737,21 +733,16 @@ public class CountryManager : MonoBehaviour
         yield return new WaitForSeconds(0.1f);
         Elections(party);
     }
-    IEnumerator MultiActions(Party party,ActionFunction action,int WaitTime)
+    IEnumerator MultiActions(Party party, ActionFunction action, int WaitTime)
     {
         NotificationIndex++;
-        Pause.Post(gameObject);
-        yield return new WaitForSeconds(0.01f * WaitTime);
+        yield return new WaitForSeconds(0.5f * WaitTime);
         if (!LoseLock)
         {
-            CanText(party.name + " : " + action.done, party, false);
-            Factory.Stop(gameObject);
-            Research.Stop(gameObject);
-            Spy.Stop(gameObject);
-            Assassin.Stop(gameObject);
-            War.Stop(gameObject);
+            InfoNotifaction(action, party);
             if (action.done == "Factory Building Finished")
             {
+                Factory.Stop(gameObject);
                 Factory.Post(gameObject);
                 party.FactoriesNumber++;
                 party.FactoriesTotalPower += action.power;
@@ -760,15 +751,20 @@ public class CountryManager : MonoBehaviour
             }
 
             else if (action.done == "Research Completed")
+            {
+                Research.Stop(gameObject);
                 Research.Post(gameObject);
+            }
             else if (action.done == "Spy is in place")
             {
+                Spy.Stop(gameObject);
                 Spy.Post(gameObject);
                 party.SpiesNumber++;
                 party.SpiesTotalPower += action.power;
             }
             else if (action.done == "Proxy war started.")
             {
+                War.Stop(gameObject);
                 War.Post(gameObject);
                 party.WarNumber++;
                 party.WarTotalPower += action.power;
@@ -812,6 +808,11 @@ public class CountryManager : MonoBehaviour
             party.ActionIndex--;
             party.sources();
         }
+    }
+    private void InfoNotifaction(ActionFunction action, Party party)
+    {
+        Notification notification = Instantiate(notifactionPrefab, notifcationCenter);
+        notification.InitiateMessage(action, party);
     }
     Party GetEnemy(Party party)
     {

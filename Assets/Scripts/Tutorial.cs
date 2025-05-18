@@ -316,19 +316,20 @@ public class Tutorial : MonoBehaviour
             InterActable(Blue);
             InterActable(ComCenter);
             InterActable(speed, true);
+            Next(false);
         }
-        if (Level == 36 && !ENDLOCK)
+        if (Level == 37 && !ENDLOCK)
         {
             Time.timeScale = 0;
             InterActable(speed);
             Next(false);
             NextActiviting(true);
         }
-        if (Level == 38)
+        if (Level == 39)
         {
             Activiting(Sounds);
         }
-        if (Level == 39)
+        if (Level == 40)
         {
             this.gameObject.GetComponent<CountryManager>().Music.Stop(gameObject);
             Time.timeScale = 1;
