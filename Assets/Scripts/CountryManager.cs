@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class CountryManager : MonoBehaviour
 {
+    public static CountryManager instance;
     public bool IsTutorial;
     Text PowerCapUI, MoneyCapUI, PeoplSatsfactionCapUI, PowerComUI, MoneyComUI, PeoplSatsfactionComUI;
     public static Text title, breif, powerReq, MoneyReq, PeopleReq, TimeReq, PowerGain, MoneyGain, PeopleGain, monthly,Quote
@@ -28,6 +29,7 @@ public class CountryManager : MonoBehaviour
     // Start is called before the first frame update
     private void Awake()
     {
+        instance = this;
         PowerCapUI = GameObject.FindGameObjectWithTag("PowerCapUI").GetComponent<Text>();
         MoneyCapUI = GameObject.FindGameObjectWithTag("MoneyCapUI").GetComponent<Text>();
         PeoplSatsfactionCapUI = GameObject.FindGameObjectWithTag("PeoplSatsfactionCapUI").GetComponent<Text>();

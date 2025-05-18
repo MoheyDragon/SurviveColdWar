@@ -221,11 +221,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07c06843a22b63a4b893a82e357ffade, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hover:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 4e3f62eee363d794c8774293664eda29,
-      type: 2}
 --- !u!1 &8256030864259525901
 GameObject:
   m_ObjectHideFlags: 0
@@ -292,7 +287,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: d57ed17f3d7f3964eabc1be4836129cf, type: 3}
-    m_FontSize: 40
+    m_FontSize: 38
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 1
@@ -447,11 +442,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07c06843a22b63a4b893a82e357ffade, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hover:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 4e3f62eee363d794c8774293664eda29,
-      type: 2}
 --- !u!1 &8256030865056305321
 GameObject:
   m_ObjectHideFlags: 0
