@@ -9,6 +9,11 @@ public class HoverInfo : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
     public new string name;
     public string title, breif,Quote,powerReq, PeopleReq, TimeReq, PowerGain, PeopleGain,doneMassage;
+    [Space]
+    [Header("Arabic")]
+    [Space]
+    [SerializeField] string arabicTitle, arabicBreif,arabicQuote, arabicDoneMassage;
+
     public float MoneyReq, MoneyGain;
     public bool Monthly;
     CountryManager manager;

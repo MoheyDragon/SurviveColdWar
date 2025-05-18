@@ -210,7 +210,7 @@ public class CountryManager : MonoBehaviour
             if (action.done == "Assassination completed")
             {
                 Pause.Post(gameObject);
-                CanText(party.name + " : " + action.done, party, false);
+                InfoNotifaction(action, party);
                 Assassin.Stop(gameObject);
                 Assassin.Post(gameObject);
                 GetEnemy(party).Power = (GetEnemy(party).Power / 10) * UnityEngine.Random.Range(3, 7);
@@ -674,7 +674,7 @@ public class CountryManager : MonoBehaviour
         ActionMenu.SetActive(false);
         ElecEnd.Post(gameObject);
         ElectionsLock = false;
-        Time.timeScale = NotificationLock?0.09f:1;
+        Time.timeScale = 1;
         NotificationLock = false;
         if (!IsTutorial)
         foreach (Button speed in GameManager.Canvas.GetComponentsInChildren<Button>())
