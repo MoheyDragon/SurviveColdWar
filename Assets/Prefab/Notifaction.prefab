@@ -89,8 +89,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: {fileID: 8530490823657641291}
+  fixer: {fileID: 5690828909727026323}
   image: {fileID: 6573623882130398178}
-  lifeTime: 5
+  lifeTime: 4
 --- !u!1 &5053320053333314557
 GameObject:
   m_ObjectHideFlags: 0
@@ -102,6 +103,7 @@ GameObject:
   - component: {fileID: 4757672010664580073}
   - component: {fileID: 5252502736808184875}
   - component: {fileID: 8530490823657641291}
+  - component: {fileID: 5690828909727026323}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -224,3 +226,18 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &5690828909727026323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5053320053333314557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80172e7093d66a24a9c280683dbfd615, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fixedText: 
+  ShowTashkeel: 0
+  UseHinduNumbers: 0

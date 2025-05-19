@@ -12,7 +12,8 @@ public class HoverInfo : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     [Space]
     [Header("Arabic")]
     [Space]
-    [SerializeField] string arabicTitle, arabicBreif,arabicQuote, arabicDoneMassage;
+    [SerializeField] string arabicTitle;
+    [SerializeField] string arabicBreif,arabicQuote, arabicDoneMassage;
 
     public float MoneyReq, MoneyGain;
     public bool Monthly;
@@ -89,10 +90,21 @@ public class HoverInfo : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         }
 
         GameManager.nameOfAction = name;
-        CountryManager.title.text = title;
+        if(LanguageManager.Singlton.GetSelectedLanguag==Language.Arabic)
+        {
+            CountryManager.titleFixer.fixedText = arabicTitle;
+            CountryManager.briefFixer.fixedText= arabicBreif;
+            CountryManager.QuoteFixer.fixedText= arabicQuote;
+        }
+        else
+        {
+            CountryManager.title.text = title;
+            CountryManager.breif.text = breif;
+            CountryManager.Quote.text = Quote;
+        }
         CountryManager.doneMassage = doneMassage;
-        CountryManager.breif.text = breif;
-        CountryManager.Quote.text = Quote;
+        CountryManager.arabicDone = arabicDoneMassage;
+
         if (title == "Build a new Factory")
             CountryManager.powerReq.text = (int.Parse(powerReq) + CountryManager.SelectedParty.FactoryLevel * 25).ToString();
         else if (name == "War")
@@ -141,6 +153,11 @@ public class HoverInfo : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     private void ShowInfo(bool show)
     {
         GameManager.Info.SetActive(show);
+        if (show) return;
+        CountryManager.titleFixer.fixedText = "";
+        CountryManager.briefFixer.fixedText = "";
+        CountryManager.QuoteFixer.fixedText = "";
+
     }
     public void LaunchAction()
     {

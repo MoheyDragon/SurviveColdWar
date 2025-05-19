@@ -8,12 +8,13 @@ public class CountryManager : MonoBehaviour
     public static CountryManager instance;
     public bool IsTutorial;
     Text PowerCapUI, MoneyCapUI, PeoplSatsfactionCapUI, PowerComUI, MoneyComUI, PeoplSatsfactionComUI;
+    public static ArabicFixer titleFixer, briefFixer, doneFixer, QuoteFixer;
     public static Text title, breif, powerReq, MoneyReq, PeopleReq, TimeReq, PowerGain, MoneyGain, PeopleGain, monthly,Quote
         ,InfoPartyName,InfoPresName,InfoPresPower, InfoPresMoney, InfoPresPeople, InfoFacNumber, InfoFacPower, InfoFacMoney, InfoFacPeople
         , InfoTotalPower, InfoTotalMoney, InfoTotalPeople, Presidency_months, Presidency_Remaining,InfoSpiesPower,InfoSpiesNumber
         , InfoWarNumber, InfoWarPower, InfoWarMoney, InfoWarPeople;
     public static Transform[] Actions = new Transform[3];
-    public static string doneMassage;
+    public static string doneMassage,arabicDone;
     public GameObject MassageWindowPrefabe;
     public Notification notifactionPrefab;
     public Transform notifcationCenter;
@@ -85,6 +86,11 @@ public class CountryManager : MonoBehaviour
         PeopleGain = GameManager.Info.transform.GetChild(8).GetComponent<Text>();
         monthly = GameManager.Info.transform.GetChild(9).GetComponent<Text>();
         Quote = GameManager.Info.transform.GetChild(10).GetComponent<Text>();
+
+        titleFixer=title.GetComponent<ArabicFixer>();
+        briefFixer = breif.GetComponent<ArabicFixer>();
+        QuoteFixer = Quote.GetComponent<ArabicFixer>();
+
     }
     private void Start()
     {
@@ -324,7 +330,7 @@ public class CountryManager : MonoBehaviour
                         party.Power -= int.Parse(powerReq.text);
                         party.Money -= ReverseMoneyTranslate(MoneyReq.text);
                         party.PeoplSatsfaction -= int.Parse(PeopleReq.text);
-                        party.Actions[party.ActionIndex] = new ActionFunction(GameManager.nameOfAction,doneMassage, int.Parse(PowerGain.text), int.Parse(PeopleGain.text), int.Parse(TimeReq.text.Substring(6)), ReverseMoneyTranslate(MoneyGain.text), monthly.gameObject.activeSelf);
+                        party.Actions[party.ActionIndex] = new ActionFunction(GameManager.nameOfAction,doneMassage,arabicDone, int.Parse(PowerGain.text), int.Parse(PeopleGain.text), int.Parse(TimeReq.text.Substring(6)), ReverseMoneyTranslate(MoneyGain.text), monthly.gameObject.activeSelf);
                         if (doneMassage== "Factory Building Finished")
                             party.FactoryLevel++;
                         else if (doneMassage== "Proxy war started.")
@@ -854,10 +860,12 @@ public class ActionFunction
     public float money;
     public bool Monthly;
     public string done;
-    public ActionFunction( string _name,string _done, int _power, int _peoplSatsfaction, int _time, float _money,bool _monthly)
+    public string arabicDone;
+    public ActionFunction( string _name,string _done,string _arabic, int _power, int _peoplSatsfaction, int _time, float _money,bool _monthly)
     {
         name = _name;
         done = _done;
+        arabicDone = _arabic;
         power = _power;
         peoplSatsfaction = _peoplSatsfaction;
         money = _money;

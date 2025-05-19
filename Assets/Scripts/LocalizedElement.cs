@@ -1,23 +1,26 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class LocalizedElement : MonoBehaviour
 {
     [SerializeField] GameObject arabicVersion;
     [SerializeField] GameObject englishVersion;
-    private void Awake()
+    bool assigned;
+    private void Assign()
     {
-        if(arabicVersion==null)
+        assigned=true;
+        if (arabicVersion == null)
         {
-            englishVersion=transform.GetChild(0).gameObject;
-            arabicVersion=transform.GetChild(1).gameObject;
-
+            englishVersion = transform.GetChild(0).gameObject;
+            arabicVersion = transform.GetChild(1).gameObject;
         }
     }
-    private void Start()
+    public void SetVersion(Language language)
     {
-        if(LanguageManager.Singlton.GetSelectedLanguag==Language.Arabic)
+        if (!assigned) Assign();
+        if (LanguageManager.Singlton.GetSelectedLanguag == Language.Arabic)
         {
             arabicVersion.SetActive(true);
             englishVersion.SetActive(false);
@@ -28,4 +31,9 @@ public class LocalizedElement : MonoBehaviour
             englishVersion.SetActive(true);
         }
     }
+    private void Start()
+    {
+        SetVersion(LanguageManager.Singlton.GetSelectedLanguag);
+    }
+    
 }

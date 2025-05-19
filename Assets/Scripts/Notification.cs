@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class Notification:MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI message;
+    [SerializeField] ArabicFixerTMPRO fixer;
     [SerializeField] Image image;
     [SerializeField] float lifeTime=3;
     private void Start()
@@ -13,7 +14,13 @@ public class Notification:MonoBehaviour
     }
     public void InitiateMessage(ActionFunction action,Party party)
     {
-        message.text = action.done;
+        if (LanguageManager.Singlton.GetSelectedLanguag == Language.Arabic)
+        {
+            fixer.fixedText = action.arabicDone;
+        }
+        else
+            message.text = action.done;
+
         image.color = party.color;
     }
 }

@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.PlayerLoop;
 using UnityEngine.SceneManagement;
 
 public class LanguageManager:MonoBehaviour
@@ -21,10 +22,24 @@ public class LanguageManager:MonoBehaviour
         else
             SetLanguage(Language.English);
     }
-
+    private void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.A))
+            SetLanguage(Language.Arabic);
+        if(Input.GetKeyDown(KeyCode.E))
+            SetLanguage(Language.English);
+    }
+    public void ChangeSceneElements()
+    {
+        LocalizedElement[] elements = FindObjectsOfType<LocalizedElement>();
+        foreach (LocalizedElement element in elements)
+        {
+            element.SetVersion(selectedLanguage);
+        }
+    }
     private void LocalizeScene(Scene arg0, LoadSceneMode arg1)
     {
-        
+        ChangeSceneElements();
     }
 
     public void SetLanguage(Language language)
@@ -32,6 +47,7 @@ public class LanguageManager:MonoBehaviour
         selectedLanguage = language;
         PlayerPrefs.SetString(playerPrefLang, language.ToString());
         PlayerPrefs.Save();
+        ChangeSceneElements();
     }
 
 }
