@@ -21,6 +21,12 @@ public class LanguageManager:MonoBehaviour
             SetLanguage(Language.Arabic);
         else
             SetLanguage(Language.English);
+        CacheSceneElements();
+    }
+    LocalizedElement[] sceneElements;
+    private void CacheSceneElements()
+    {
+        sceneElements = FindObjectsOfType<LocalizedElement>();
     }
     private void Update()
     {
@@ -31,14 +37,20 @@ public class LanguageManager:MonoBehaviour
     }
     public void ChangeSceneElements()
     {
-        LocalizedElement[] elements = FindObjectsOfType<LocalizedElement>();
-        foreach (LocalizedElement element in elements)
-        {
+        if (sceneElements == null) CacheSceneElements();
+        foreach (LocalizedElement element in sceneElements)
             element.SetVersion(selectedLanguage);
-        }
+        ChangeNotification();
+    }
+    private void ChangeNotification()
+    {
+        Notification[] notifications = FindObjectsOfType<Notification>();
+        foreach (Notification element in notifications)
+            element.ChangeLanguage();
     }
     private void LocalizeScene(Scene arg0, LoadSceneMode arg1)
     {
+        CacheSceneElements();
         ChangeSceneElements();
     }
 

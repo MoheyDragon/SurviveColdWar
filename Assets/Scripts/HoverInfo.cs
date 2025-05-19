@@ -95,12 +95,18 @@ public class HoverInfo : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
             CountryManager.titleFixer.fixedText = arabicTitle;
             CountryManager.briefFixer.fixedText= arabicBreif;
             CountryManager.QuoteFixer.fixedText= arabicQuote;
+
+            CountryManager.breif.alignment = TextAnchor.MiddleRight;
+            CountryManager.Quote.alignment = TextAnchor.MiddleRight;
         }
         else
         {
             CountryManager.title.text = title;
             CountryManager.breif.text = breif;
             CountryManager.Quote.text = Quote;
+
+            CountryManager.breif.alignment = TextAnchor.MiddleLeft;
+            CountryManager.Quote.alignment = TextAnchor.MiddleLeft;
         }
         CountryManager.doneMassage = doneMassage;
         CountryManager.arabicDone = arabicDoneMassage;

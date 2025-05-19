@@ -92,6 +92,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: Science
       objectReference: {fileID: 0}
+    - target: {fileID: 1259471997372218978, guid: d40e7edc0fb31d54587170c57a6d84a3,
+        type: 3}
+      propertyPath: arabicTitle
+      value: "\u062A\u0645\u0648\u064A\u0644 \u0628\u062D\u062B \u0639\u0644\u0645\u064A"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1259471997372218978, guid: d40e7edc0fb31d54587170c57a6d84a3,
+        type: 3}
+      propertyPath: arabicBreif
+      value: "\u0627\u062D\u0635\u0644 \u0639\u0644\u0649 \u0645\u0642\u062F\u0627\u0631
+        \u0643\u0628\u064A\u0631 \u0645\u0646 \u0627\u0644\u0642\u0648\u0629 \u0644\u0645\u0631\u0629
+        \u0648\u062D\u062F\u0629 \u0628\u0639\u062F \u0633\u0646\u062A\u064A\u0646"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1259471997372218978, guid: d40e7edc0fb31d54587170c57a6d84a3,
+        type: 3}
+      propertyPath: arabicQuote
+      value: "\u0627\u0644\u062C\u0645\u064A\u0639\u060C \u0627\u0644\u062D\u0645\u0631
+        \u0648\u0627\u0644\u0632\u0631\u0642 \u060C \u0627\u0644\u062C\u0645\u064A\u0639
+        \u064A\u062F\u0639\u0645 \u0627\u0633\u062A\u0643\u0634\u0627\u0641 \u0627\u0644\u0641\u0636\u0627\u0621
+        - Bill Nye"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1259471997372218978, guid: d40e7edc0fb31d54587170c57a6d84a3,
+        type: 3}
+      propertyPath: arabicDoneMassage
+      value: "\u062A\u0645 \u0625\u0646\u0647\u0627\u0621 \u0627\u0644\u0628\u062D\u062B"
+      objectReference: {fileID: 0}
     - target: {fileID: 1259471997372218979, guid: d40e7edc0fb31d54587170c57a6d84a3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -212,6 +237,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3999432263536369433}
     m_Modifications:
+    - target: {fileID: 8093615227524676828, guid: 44f67ba6c5c4863408afe5b2e225b5a5,
+        type: 3}
+      propertyPath: arabicQuote
+      value: "\u0645\u0647\u0645\u0627 \u0643\u0627\u0646\u062A \u0627\u0644\u0623\u0633\u0628\u0627\u0628
+        \u0627\u0644\u0633\u064A\u0627\u0633\u064A\u0629 \u0627\u0644\u0645\u0628\u0631\u0631\u0629
+        \u0644\u0644\u062D\u0631\u0628, \u0627\u0644\u0633\u0628\u0628 \u0627\u0644\u062D\u0642\u064A\u0642\u064A
+        \u0647\u0648 \u062F\u0627\u0626\u0645\u0627\u064B \u0627\u0642\u062A\u0635\u0627\u062F\u064A 
+        - Alan John Percivale Taylor"
+      objectReference: {fileID: 0}
     - target: {fileID: 8093615227524676829, guid: 44f67ba6c5c4863408afe5b2e225b5a5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -337,6 +371,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3999432263536369433}
     m_Modifications:
+    - target: {fileID: 8093615227524676828, guid: a6d359bd2f2d79c4284e3a762d245df5,
+        type: 3}
+      propertyPath: arabicTitle
+      value: "\u0628\u062F\u0621 \u062D\u0631\u0628 \u0628\u0627\u0644\u0648\u0643\u0627\u0644\u0629"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8093615227524676828, guid: a6d359bd2f2d79c4284e3a762d245df5,
+        type: 3}
+      propertyPath: arabicBreif
+      value: "\u0627\u062D\u0635\u0644 \u0639\u0644\u0649 \u0645\u0642\u062F\u0627\u0631
+        \u0645\u062A\u0648\u0633\u0637 \u0645\u0646 \u0627\u0644\u0642\u0648\u0629
+        \u0634\u0647\u0631\u064A\u0627"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8093615227524676828, guid: a6d359bd2f2d79c4284e3a762d245df5,
+        type: 3}
+      propertyPath: arabicQuote
+      value: "\u0641\u064A \u0627\u0644\u0639\u0627\u0644\u0645 \u0627\u0644\u062B\u0627\u0644\u062B\u060C
+        \u0627\u0644\u062D\u0631\u0628 \u0627\u0644\u0628\u0627\u0631\u062F\u0629
+        \u0644\u0645 \u062A\u0643\u0646 \u0628\u0627\u0631\u062F\u0629 \u060C \u0627\u0644\u0645\u0644\u0627\u064A\u064A\u0646
+        \u0642\u062F \u0642\u062A\u0644\u0648\u0627 \u060C \u0642\u062F \u0643\u0627\u0646\u062A
+        \u062D\u0631\u0628 \u0628\u0627\u0644\u0648\u0643\u0627\u0644\u0629 - Ayaan
+        Hirsi Ali"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8093615227524676828, guid: a6d359bd2f2d79c4284e3a762d245df5,
+        type: 3}
+      propertyPath: arabicDoneMassage
+      value: "\u062D\u0631\u0628 \u0627\u0644\u0648\u0643\u0627\u0644\u0629 \u0628\u062F\u0623\u062A"
+      objectReference: {fileID: 0}
     - target: {fileID: 8093615227524676829, guid: a6d359bd2f2d79c4284e3a762d245df5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -462,6 +523,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3999432263536369433}
     m_Modifications:
+    - target: {fileID: 8093615227524676828, guid: 8ff9ee63f64fdc0489ad038ff657b280,
+        type: 3}
+      propertyPath: arabicTitle
+      value: "\u0639\u0645\u0644\u064A\u0629 \u0627\u063A\u062A\u064A\u0627\u0644"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8093615227524676828, guid: 8ff9ee63f64fdc0489ad038ff657b280,
+        type: 3}
+      propertyPath: arabicBreif
+      value: "\u062A\u0624\u062F\u064A \u0627\u0644\u0639\u0645\u0644\u064A\u0629
+        \u0644\u062E\u0633\u0627\u0631\u0629 \u0627\u0644\u062E\u0635\u0645 \u0645\u0642\u062F\u0627\u0631\u0627
+        \u0643\u0628\u064A\u0631\u0627 \u062C\u062F\u0627 \u0645\u0646 \u0642\u0648\u062A\u0647"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8093615227524676828, guid: 8ff9ee63f64fdc0489ad038ff657b280,
+        type: 3}
+      propertyPath: arabicQuote
+      value: "\u0627\u0644\u0634\u064A\u0621 \u0627\u0644\u0645\u0647\u0645 \u0627\u0644\u0630\u064A
+        \u064A\u062C\u0628 \u0645\u0639\u0631\u0641\u062A\u0647 \u062A\u062C\u0627\u0647
+        \u0639\u0645\u0644\u064A\u0629 \u0627\u063A\u062A\u064A\u0627\u0644 \u0627\u0648
+        \u0645\u062D\u0627\u0648\u0644\u0629 \u0627\u063A\u062A\u064A\u0627\u0644
+        \u0647\u0648 \u0644\u064A\u0633 \u0645\u0646 \u0627\u0637\u0644\u0642 \u0627\u0644\u0631\u0635\u0627\u0635\u0629
+        \u0628\u0644 \u0645\u0646 \u062F\u0641\u0639 \u062B\u0645\u0646\u0647\u0627
+        - Eric Ambler"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8093615227524676828, guid: 8ff9ee63f64fdc0489ad038ff657b280,
+        type: 3}
+      propertyPath: arabicDoneMassage
+      value: "\u062A\u0645\u062A \u0639\u0645\u0644\u064A\u0629 \u0627\u0644\u0627\u063A\u062A\u064A\u0627\u0644"
+      objectReference: {fileID: 0}
     - target: {fileID: 8093615227524676829, guid: 8ff9ee63f64fdc0489ad038ff657b280,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -587,6 +676,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3999432263536369433}
     m_Modifications:
+    - target: {fileID: 8093615227524676828, guid: 802858a13bd40ae41b6e5e36d08dd913,
+        type: 3}
+      propertyPath: arabicTitle
+      value: "\u0625\u0631\u0633\u0627\u0644 \u062C\u0627\u0633\u0648\u0633"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8093615227524676828, guid: 802858a13bd40ae41b6e5e36d08dd913,
+        type: 3}
+      propertyPath: arabicBreif
+      value: "\u0627\u062D\u0635\u0644 \u0639\u0644\u0649 \u0645\u0642\u062F\u0627\u0631
+        \u0643\u0628\u064A\u0631\u0629 \u0645\u0646 \u0627\u0644\u0642\u0648\u0629
+        \u0634\u0647\u0631\u064A\u0627"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8093615227524676828, guid: 802858a13bd40ae41b6e5e36d08dd913,
+        type: 3}
+      propertyPath: arabicQuote
+      value: "\u064A\u062A\u0637\u0644\u0628 \u0627\u0644\u0623\u0645\u0631 \u0639\u0642\u0644\u0627
+        \u0642\u0648\u064A\u0627 \u062C\u062F\u0627 \u0644\u062A\u0633\u0637\u062A\u064A\u0639
+        \u0627\u0644\u0627\u062D\u062A\u0642\u0627\u0638 \u0628\u0627\u0644\u0627\u0633\u0631\u0627\u0631
+        \u0644\u0633\u0646\u0648\u0627\u062A \u0628\u062F\u0648\u0646 \u0627\u0646
+        \u062A\u0646\u0627\u0644 \u0646\u0635\u064A\u0628\u0627 \u0645\u0646 \u0627\u0644\u062C\u0646\u0648\u0646 
+        -  C.P. Snow"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8093615227524676828, guid: 802858a13bd40ae41b6e5e36d08dd913,
+        type: 3}
+      propertyPath: arabicDoneMassage
+      value: "\u0627\u0644\u062C\u0627\u0633\u0648\u0633 \u0641\u064A \u0645\u0648\u0642\u0639\u0647"
+      objectReference: {fileID: 0}
     - target: {fileID: 8093615227524676829, guid: 802858a13bd40ae41b6e5e36d08dd913,
         type: 3}
       propertyPath: m_LocalPosition.x

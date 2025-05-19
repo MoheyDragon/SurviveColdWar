@@ -2,15 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class ChangePresidentHoverInfo : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
     [SerializeField] GameObject info;
+    [SerializeField] Image[] window;
     private Coroutine holdTimerCoroutine;
     private bool longPressTriggered = false;
     private float holdThreshold = 0.3f; // adjust as needed
 
-  
+    private void Start()
+    {
+        info.SetActive(false);
+    }
     public void OnPointerDown(PointerEventData eventData)
     {
         longPressTriggered = false;
@@ -39,6 +44,10 @@ public class ChangePresidentHoverInfo : MonoBehaviour, IPointerDownHandler, IPoi
     }
     private void ShowInfo(bool show)
     {
+        for (int i = 0; i < window.Length; i++)
+        {
+            window[i].color = CountryManager.SelectedParty.color;
+        }
         info.SetActive(show);
     }
     public void LaunchAction()

@@ -32,7 +32,7 @@ public class ArabicFixerTMPRO : MonoBehaviour
     {
         rectTransform = GetComponent<RectTransform>();
 
-        fixedText = tmpTextComponent.text;
+        //fixedText = tmpTextComponent.text;
         isInitilized = true;
     }
 

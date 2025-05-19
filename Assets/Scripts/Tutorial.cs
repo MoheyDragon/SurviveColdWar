@@ -274,7 +274,7 @@ public class Tutorial : MonoBehaviour
         if (Level == 33 && NextLock && countryManager.Capitalism.Actions[0] != null)
         {
             if (countryManager.Capitalism.Actions[0].name != "Research")
-                countryManager.Capitalism.Actions[0] = new ActionFunction("Research", "Research Completed","تم إكمال البحث بنجاح", 3000, 10, 24, 0, false);
+                countryManager.Capitalism.Actions[0] = new ActionFunction("Research", "Research Completed", "تم إنهاء البحث", 3000, 10, 24, 0, false);
             Next(false);
             NextLock = false;
             countryManager.ActionMenu.SetActive(false);
