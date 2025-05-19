@@ -101,9 +101,9 @@ public class HoverInfo : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         }
         else
         {
-            CountryManager.title.text = title;
-            CountryManager.breif.text = breif;
-            CountryManager.Quote.text = Quote;
+            CountryManager.titleFixer.fixedText = title;
+            CountryManager.briefFixer.fixedText = breif;
+            CountryManager.QuoteFixer.fixedText = Quote;
 
             CountryManager.breif.alignment = TextAnchor.MiddleLeft;
             CountryManager.Quote.alignment = TextAnchor.MiddleLeft;
@@ -132,7 +132,16 @@ public class HoverInfo : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         else
             CountryManager.MoneyReq.text = MoneyTranslate(MoneyReq);
         CountryManager.PeopleReq.text = PeopleReq;
-        CountryManager.TimeReq.text = "after " + TimeReq;
+        if (LanguageManager.Singlton.GetSelectedLanguag == Language.Arabic)
+        {
+            CountryManager.timeFixer.fixedText= "بعد " + TimeReq;
+            CountryManager.TimeReq.alignment = TextAnchor.MiddleRight;
+        }
+        else
+        {
+            CountryManager.TimeReq.text = "after " + TimeReq;
+            CountryManager.TimeReq.alignment = TextAnchor.MiddleLeft;
+        }
         if (title == "Build a new Factory")
             CountryManager.PowerGain.text = (int.Parse(PowerGain) + CountryManager.SelectedParty.FactoryLevel * 2).ToString();
         else if (name == "War")
@@ -151,6 +160,7 @@ public class HoverInfo : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
             CountryManager.MoneyGain.text = MoneyTranslate(MoneyGain);
         CountryManager.PeopleGain.text = PeopleGain;
         CountryManager.monthly.gameObject.SetActive(Monthly);
+        CountryManager.oneTime.gameObject.SetActive(!Monthly);
         //if (!manager.IsTutorial)
         //    foreach (Button button in GameManager.Canvas.GetComponentsInChildren<Button>())
         //        if (button.tag != "SpeedUp" && button.tag != "MapSector" && button.tag != "InfoCenter")
@@ -163,6 +173,7 @@ public class HoverInfo : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         CountryManager.titleFixer.fixedText = "";
         CountryManager.briefFixer.fixedText = "";
         CountryManager.QuoteFixer.fixedText = "";
+        CountryManager.timeFixer.fixedText = "";
 
     }
     public void LaunchAction()

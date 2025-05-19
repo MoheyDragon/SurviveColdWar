@@ -8,12 +8,13 @@ public class CountryManager : MonoBehaviour
     public static CountryManager instance;
     public bool IsTutorial;
     Text PowerCapUI, MoneyCapUI, PeoplSatsfactionCapUI, PowerComUI, MoneyComUI, PeoplSatsfactionComUI;
-    public static ArabicFixer titleFixer, briefFixer, doneFixer, QuoteFixer;
-    public static Text title, breif, powerReq, MoneyReq, PeopleReq, TimeReq, PowerGain, MoneyGain, PeopleGain, monthly,Quote
+    public static ArabicFixer titleFixer, briefFixer, doneFixer, QuoteFixer,timeFixer;
+    public static Text title, breif, powerReq, MoneyReq, PeopleReq, TimeReq, PowerGain, MoneyGain, PeopleGain,Quote
         ,InfoPartyName,InfoPresName,InfoPresPower, InfoPresMoney, InfoPresPeople, InfoFacNumber, InfoFacPower, InfoFacMoney, InfoFacPeople
         , InfoTotalPower, InfoTotalMoney, InfoTotalPeople, Presidency_months, Presidency_Remaining,InfoSpiesPower,InfoSpiesNumber
         , InfoWarNumber, InfoWarPower, InfoWarMoney, InfoWarPeople;
     public static Transform[] Actions = new Transform[3];
+    public static GameObject monthly, oneTime;
     public static string doneMassage,arabicDone;
     public GameObject MassageWindowPrefabe;
     public Notification notifactionPrefab;
@@ -84,9 +85,10 @@ public class CountryManager : MonoBehaviour
         PowerGain = GameManager.Info.transform.GetChild(6).GetComponent<Text>();
         MoneyGain = GameManager.Info.transform.GetChild(7).GetComponent<Text>();
         PeopleGain = GameManager.Info.transform.GetChild(8).GetComponent<Text>();
-        monthly = GameManager.Info.transform.GetChild(9).GetComponent<Text>();
+        monthly = GameManager.Info.transform.GetChild(9).gameObject;
         Quote = GameManager.Info.transform.GetChild(10).GetComponent<Text>();
-
+        oneTime = GameManager.Info.transform.GetChild(11).gameObject;
+        timeFixer = TimeReq.GetComponent<ArabicFixer>();
         titleFixer=title.GetComponent<ArabicFixer>();
         briefFixer = breif.GetComponent<ArabicFixer>();
         QuoteFixer = Quote.GetComponent<ArabicFixer>();
