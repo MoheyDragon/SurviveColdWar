@@ -8,11 +8,12 @@ public class CountryManager : MonoBehaviour
     public static CountryManager instance;
     public bool IsTutorial;
     Text PowerCapUI, MoneyCapUI, PeoplSatsfactionCapUI, PowerComUI, MoneyComUI, PeoplSatsfactionComUI;
-    public static ArabicFixer titleFixer, briefFixer, doneFixer, QuoteFixer,timeFixer;
+    public static ArabicFixer titleFixer, briefFixer, doneFixer, QuoteFixer,timeFixer, InfoPartyName;
     public static Text title, breif, powerReq, MoneyReq, PeopleReq, TimeReq, PowerGain, MoneyGain, PeopleGain,Quote
-        ,InfoPartyName,InfoPresName,InfoPresPower, InfoPresMoney, InfoPresPeople, InfoFacNumber, InfoFacPower, InfoFacMoney, InfoFacPeople
-        , InfoTotalPower, InfoTotalMoney, InfoTotalPeople, Presidency_months, Presidency_Remaining,InfoSpiesPower,InfoSpiesNumber
-        , InfoWarNumber, InfoWarPower, InfoWarMoney, InfoWarPeople;
+        ,InfoPresPower, InfoPresMoney, InfoPresPeople, InfoFacPower, InfoFacMoney, InfoFacPeople
+        , InfoTotalPower, InfoTotalMoney, InfoTotalPeople, Presidency_months, Presidency_Remaining,InfoSpiesPower
+        , InfoWarPower, InfoWarMoney, InfoWarPeople;
+    public static Text[] InfoPresName, InfoFacNumber, InfoWarNumber, InfoSpiesNumber;
     public static Transform[] Actions = new Transform[3];
     public static GameObject monthly, oneTime;
     public static string doneMassage,arabicDone;
@@ -40,20 +41,20 @@ public class CountryManager : MonoBehaviour
         PowerComUI = GameObject.FindGameObjectWithTag("PowerComUI").GetComponent<Text>();
         MoneyComUI = GameObject.FindGameObjectWithTag("MoneyComUI").GetComponent<Text>();
         PeoplSatsfactionComUI = GameObject.FindGameObjectWithTag("PeoplSatsfactionComUI").GetComponent<Text>();
-        Communism = new Party("Communism",PowerComUI, MoneyComUI, PeoplSatsfactionComUI,Color.red,84);
-        Capitalism = new Party("Capitalism",PowerCapUI, MoneyCapUI, PeoplSatsfactionCapUI,Color.blue,48);
+        Communism = new Party("Communism","المعسكر الشرقي",PowerComUI, MoneyComUI, PeoplSatsfactionComUI,Color.red,84);
+        Capitalism = new Party("Capitalism","المعسكر الغربي",PowerCapUI, MoneyCapUI, PeoplSatsfactionCapUI,Color.blue,48);
         if (!IsTutorial)
             LoseMenu = transform.Find("LoseMenu").gameObject;
         ELectionWindow = GameObject.FindGameObjectWithTag("ElectionWindow");
         ActionMenu = transform.Find("ActionMenu").gameObject;
         CountryInfo = transform.Find("CountryInfo").gameObject;
 
-        InfoPartyName = CountryInfo.transform.GetChild(0).GetComponent<Text>();
-        InfoPresName = CountryInfo.transform.GetChild(1).GetComponent<Text>();
+        InfoPartyName = CountryInfo.transform.GetChild(0).GetComponent<ArabicFixer>();
+        InfoPresName = GetChildTexts(CountryInfo.transform.GetChild(1));
         InfoPresPower = CountryInfo.transform.GetChild(2).GetComponent<Text>();
         InfoPresMoney = CountryInfo.transform.GetChild(3).GetComponent<Text>();
         InfoPresPeople = CountryInfo.transform.GetChild(4).GetComponent<Text>();
-        InfoFacNumber = CountryInfo.transform.GetChild(5).GetComponent<Text>();
+        InfoFacNumber = GetChildTexts(CountryInfo.transform.GetChild(5));
         InfoFacPower = CountryInfo.transform.GetChild(6).GetComponent<Text>();
         InfoFacMoney = CountryInfo.transform.GetChild(7).GetComponent<Text>();
         InfoFacPeople = CountryInfo.transform.GetChild(8).GetComponent<Text>();
@@ -64,9 +65,9 @@ public class CountryManager : MonoBehaviour
         Presidency_Remaining = CountryInfo.transform.GetChild(13).GetChild(0).GetComponent<Text>();
         
         InfoSpiesPower= CountryInfo.transform.GetChild(14).GetComponent<Text>();
-        InfoSpiesNumber= CountryInfo.transform.GetChild(15).GetComponent<Text>();
+        InfoSpiesNumber= GetChildTexts(CountryInfo.transform.GetChild(15));
 
-        InfoWarNumber= CountryInfo.transform.GetChild(16).GetComponent<Text>();
+        InfoWarNumber = GetChildTexts(transform.GetChild(16));
         InfoWarPower= CountryInfo.transform.GetChild(17).GetComponent<Text>();
         InfoWarMoney= CountryInfo.transform.GetChild(18).GetComponent<Text>();
         InfoWarPeople= CountryInfo.transform.GetChild(19).GetComponent<Text>();
@@ -93,6 +94,15 @@ public class CountryManager : MonoBehaviour
         briefFixer = breif.GetComponent<ArabicFixer>();
         QuoteFixer = Quote.GetComponent<ArabicFixer>();
 
+    }
+    private Text[] GetChildTexts(Transform textsParent)
+    {
+        Text[] texts = new Text[textsParent.childCount];
+        for (int i = 0; i < textsParent.childCount; i++)
+        {
+            texts[i] = textsParent.GetChild(i).GetComponent<Text>();
+        }
+        return texts;
     }
     private void Start()
     {
@@ -332,7 +342,7 @@ public class CountryManager : MonoBehaviour
                         party.Power -= int.Parse(powerReq.text);
                         party.Money -= ReverseMoneyTranslate(MoneyReq.text);
                         party.PeoplSatsfaction -= int.Parse(PeopleReq.text);
-                        party.Actions[party.ActionIndex] = new ActionFunction(GameManager.nameOfAction,doneMassage,arabicDone, int.Parse(PowerGain.text), int.Parse(PeopleGain.text), int.Parse(TimeReq.text.Substring(6)), ReverseMoneyTranslate(MoneyGain.text), monthly.gameObject.activeSelf);
+                        party.Actions[party.ActionIndex] = new ActionFunction(GameManager.nameOfAction,GameManager.arabicNameOfAction,doneMassage,arabicDone, int.Parse(PowerGain.text), int.Parse(PeopleGain.text), int.Parse(TimeReq.text.Substring(6)), ReverseMoneyTranslate(MoneyGain.text), monthly.gameObject.activeSelf);
                         if (doneMassage== "Factory Building Finished")
                             party.FactoryLevel++;
                         else if (doneMassage== "Proxy war started.")
@@ -858,14 +868,16 @@ public class CountryManager : MonoBehaviour
 public class ActionFunction
 {
     public string name;
+    public string arabicName;
     public int power, peoplSatsfaction,time;
     public float money;
     public bool Monthly;
     public string done;
     public string arabicDone;
-    public ActionFunction( string _name,string _done,string _arabic, int _power, int _peoplSatsfaction, int _time, float _money,bool _monthly)
+    public ActionFunction( string _name,string _arabicName,string _done,string _arabic, int _power, int _peoplSatsfaction, int _time, float _money,bool _monthly)
     {
         name = _name;
+        arabicName = _arabicName;
         done = _done;
         arabicDone = _arabic;
         power = _power;
@@ -878,6 +890,7 @@ public class ActionFunction
 public class Party
 {
     public string name;
+    public string arabicName;
     public int Power, PeoplSatsfaction, powerSources, peopleSources,ActionIndex, PresedncyPeriod;
     public  float Money, MoneySources;
     public  Text PowerUI, MoneyUI, PeoplSatsfactionUI;
@@ -908,9 +921,10 @@ public class Party
     public int researchNumber = 0;
 
 
-    public Party(string _name,Text powerUI, Text moneyUI, Text peoplSatsfactionUI,Color _color, int _PresedncyPeriod)
+    public Party(string _name,string _arabicName,Text powerUI, Text moneyUI, Text peoplSatsfactionUI,Color _color, int _PresedncyPeriod)
     {
         name = _name;   
+        arabicName = _arabicName;
         ActionIndex = 0;
         Actions = new ActionFunction[3];
         PowerUI = powerUI;

@@ -90,6 +90,7 @@ public class HoverInfo : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         }
 
         GameManager.nameOfAction = name;
+        GameManager.arabicNameOfAction = arabicTitle;
         if(LanguageManager.Singlton.GetSelectedLanguag==Language.Arabic)
         {
             CountryManager.titleFixer.fixedText = arabicTitle;

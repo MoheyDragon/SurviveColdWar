@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
     public float mainMonthCycle;
     string[] months=new string[12];
     CountryManager country;
-    public static string nameOfAction;
+    public static string nameOfAction,arabicNameOfAction;
     public static bool AccelLock = false;
     public AK.Wwise.Event ClickSound, MonthEnded;
     public AK.Wwise.RTPC MonthEndAccelerator;

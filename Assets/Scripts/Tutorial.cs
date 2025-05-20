@@ -267,14 +267,14 @@ public class Tutorial : MonoBehaviour
             GameManager.Info.SetActive(false);
             countryManager.Capitalism.PresedncyPeriod = 100;
             if (countryManager.Communism.Actions[0] == null)
-                countryManager.Communism.Actions[0] = new ActionFunction("Spy", "Spy is in place","الجاسوس في موقعه", 500, 0, 12, 0, true);
+                countryManager.Communism.Actions[0] = new ActionFunction("Spy","زرع جاسوس", "Spy is in place","الجاسوس في موقعه", 500, 0, 12, 0, true);
             countryManager.Communism.Money += 50000000000;
             countryManager.Communism.FactoriesTotalPower = -155;
         }
         if (Level == 33 && NextLock && countryManager.Capitalism.Actions[0] != null)
         {
             if (countryManager.Capitalism.Actions[0].name != "Research")
-                countryManager.Capitalism.Actions[0] = new ActionFunction("Research", "Research Completed", "تم إنهاء البحث", 3000, 10, 24, 0, false);
+                countryManager.Capitalism.Actions[0] = new ActionFunction("Research", "تمويل بحث علمي", "Research Completed", "تم إنهاء البحث", 3000, 10, 24, 0, false);
             Next(false);
             NextLock = false;
             countryManager.ActionMenu.SetActive(false);
@@ -308,7 +308,7 @@ public class Tutorial : MonoBehaviour
         }
         if (Level == 36 && YannLock && countryManager.Communism.Actions[0] != null)
         {
-            countryManager.Communism.Actions[0] = new ActionFunction("Assassin", "Assassination completed","تمت عملية الاغتيال", 0, 0, 1, 0, false);
+            countryManager.Communism.Actions[0] = new ActionFunction("Assassin", "عملية اغتيال", "Assassination completed","تمت عملية الاغتيال", 0, 0, 1, 0, false);
             YannLock = false;
             Time.timeScale = 1;
             countryManager.ActionMenu.SetActive(false);

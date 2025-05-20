@@ -32,24 +32,35 @@ public class Country_Info : MonoBehaviour
     }
     void Info(Party party)
     {
-        CountryManager.InfoPartyName.text = party.name;
+        CountryManager.InfoPartyName.fixedText = "";
+        if (LanguageManager.Singlton.GetSelectedLanguag==Language.Arabic)
+            CountryManager.InfoPartyName.fixedText = party.arabicName;
+        else
+            CountryManager.InfoPartyName.fixedText = party.name;
+
         CountryManager.CountryInfo.GetComponent<Image>().color = party.color;
 
-        CountryManager.InfoPresName.text = party.president.name;
+        foreach (Text text in CountryManager.InfoPresName)
+            text.text = party.president.name;
         CountryManager.InfoPresPower.text = party.president.Power.ToString();
         CountryManager.InfoPresMoney.text = country.MoneyTranslate(party.president.Money);
         CountryManager.InfoPresPeople.text = party.president.PeoplSatsfaction.ToString();
 
-        CountryManager.InfoFacNumber.text = party.FactoriesNumber.ToString();
+        foreach (Text text in CountryManager.InfoFacNumber)
+            text.text = party.FactoriesNumber.ToString();
+
         CountryManager.InfoFacPower.text = party.FactoriesTotalPower.ToString();
         CountryManager.InfoFacMoney.text = country.MoneyTranslate(party.FactoriesTotalMoney);
         CountryManager.InfoFacPeople.text = party.FactoriesTotalpeople.ToString();
 
-        CountryManager.InfoSpiesNumber.text = party.SpiesNumber.ToString();
+        foreach (Text text in CountryManager.InfoSpiesNumber)
+            text.text = party.SpiesNumber.ToString();
+
         CountryManager.InfoSpiesPower.text = party.SpiesTotalPower.ToString();
 
-        
-        CountryManager.InfoWarNumber.text = party.WarNumber.ToString();
+        foreach (Text text in CountryManager.InfoWarNumber)
+            text.text = party.WarNumber.ToString();
+
         CountryManager.InfoWarPower.text = party.WarTotalPower.ToString();
         CountryManager.InfoWarMoney.text = country.MoneyTranslate(party.WarTotalMoney);
         CountryManager.InfoWarPeople.text = party.WarTotalpeople.ToString();
@@ -65,15 +76,15 @@ public class Country_Info : MonoBehaviour
         {
             if (party.Actions[item.transform.GetSiblingIndex()]!=null)
             {
-                CountryManager.Actions[item.transform.GetSiblingIndex()].GetChild(0).GetComponent<Text>().text = party.Actions[item.transform.GetSiblingIndex()].name;
+                CountryManager.Actions[item.transform.GetSiblingIndex()].GetChild(0).GetComponent<ArabicFixer>().fixedText=LanguageManager.Singlton.GetSelectedLanguag==Language.Arabic? party.Actions[item.transform.GetSiblingIndex()].arabicName : party.Actions[item.transform.GetSiblingIndex()].name;
                 CountryManager.Actions[item.transform.GetSiblingIndex()].GetChild(1).GetChild(0).GetComponent<Text>().text = party.Actions[item.transform.GetSiblingIndex()].time.ToString();
             }
             else
             {
-                CountryManager.Actions[item.transform.GetSiblingIndex()].GetChild(0).GetComponent<Text>().text = "No Action";
+                CountryManager.Actions[item.transform.GetSiblingIndex()].GetChild(0).GetComponent<ArabicFixer>().fixedText = "";
+                CountryManager.Actions[item.transform.GetSiblingIndex()].GetChild(0).GetComponent<ArabicFixer>().fixedText = LanguageManager.Singlton.GetSelectedLanguag==Language.Arabic?"الأمر فارغ":"No action";
                 CountryManager.Actions[item.transform.GetSiblingIndex()].GetChild(1).GetChild(0).GetComponent<Text>().text = "0";
             }
-            
         }
 
         CountryManager.CountryInfo.SetActive(true);
