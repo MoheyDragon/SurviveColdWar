@@ -5,6 +5,7 @@ using System.Collections;
 
 public class ArabicFixer : MonoBehaviour
 {
+    [SerializeField] bool fixOnStart = true;
     public string fixedText;
     public bool ShowTashkeel;
     public bool UseHinduNumbers;
@@ -30,8 +31,8 @@ public class ArabicFixer : MonoBehaviour
     public void Start()
     {
         rectTransform = GetComponent<RectTransform>();
-
-        fixedText = textComponent.text;
+        if(fixOnStart)
+            fixedText = textComponent.text;
         isInitilized = true;
     }
 

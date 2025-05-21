@@ -5,8 +5,10 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    public static GameManager Singleton;
     public static float Com, DoubleGate,MainDoubleGate;
     public static GameObject Info,Canvas;
+    private CanvasGroup InfoCG;
     GameObject WinMenu;
     Image[] ComunitsisTerretory;
     Text Date, Month;
@@ -22,6 +24,10 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     private void Awake()
     {
+        if (Singleton == null)
+            Singleton = this;
+        else
+            Destroy(gameObject);
         MainDoubleGate=DoubleGate = 0.2f;
         MonthCycle = mainMonthCycle;
         Date = GameObject.Find("Date").GetComponent<Text>();
@@ -43,6 +49,7 @@ public class GameManager : MonoBehaviour
         months[6] = "Jul"; months[7] = "Aug"; months[8] = "Sep"; months[9] = "Oct"; months[10] = "Nov"; months[11] = "Dec";
         monthCount = 0;
         Info = transform.Find("Info").gameObject;
+        InfoCG = Info.AddComponent<CanvasGroup>();
         country = this.gameObject.GetComponent<CountryManager>();
         if (!country.IsTutorial)
         {
@@ -58,12 +65,17 @@ public class GameManager : MonoBehaviour
         {
             Date.gameObject.SetActive(false);
             Month.gameObject.SetActive(false);
-            Info.gameObject.SetActive(false);    
         } 
         mainMonthCycle = 10;
         MonthCycle = mainMonthCycle + Time.time;
-        Info.SetActive(false);
+        ShowInfo(false);
         MonthEndAccelerator.SetGlobalValue(-100);
+    }
+    public void ShowInfo(bool enabled)
+    {
+        InfoCG.alpha=enabled ? 1 : 0;
+        InfoCG.interactable = enabled;
+        InfoCG.blocksRaycasts = enabled; 
     }
     public void LandsFill()
     {
@@ -95,7 +107,8 @@ public class GameManager : MonoBehaviour
         if (!country.IsTutorial)
             foreach (Button button in this.GetComponentsInChildren<Button>())
                 button.interactable = true;
-    }  
+    }
+    bool winLock;
     public void MonthEnd()
     {
         if (AccelLock)
@@ -107,9 +120,10 @@ public class GameManager : MonoBehaviour
             Date.text = (int.Parse(Date.text) + 1).ToString();
             if (Date.text == "1991")
             {
+                if (winLock) return;
+                winLock = true;
                 WinMenu.SetActive(true);
                 country.win();
-                Time.timeScale = 0;
             }
         }
         else
@@ -131,6 +145,10 @@ public class GameManager : MonoBehaviour
             if(int.Parse(Date.text)>=1953)
                 Tutorial.ENDLOCK = false;
         }
+    }
+    public void ContinueGame()
+    {
+        WinMenu.SetActive(false);
     }
     public void NormalFix()
     {

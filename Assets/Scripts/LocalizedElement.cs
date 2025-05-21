@@ -5,9 +5,14 @@ using UnityEngine;
 
 public class LocalizedElement : MonoBehaviour
 {
-    [SerializeField] GameObject arabicVersion;
-    [SerializeField] GameObject englishVersion;
+    GameObject arabicVersion;
+    GameObject englishVersion;
     bool assigned;
+    private void Start()
+    {
+        Assign();
+        SetVersion(LanguageManager.Singlton.GetSelectedLanguag);
+    }
     private void Assign()
     {
         assigned=true;
@@ -31,9 +36,4 @@ public class LocalizedElement : MonoBehaviour
             englishVersion.SetActive(true);
         }
     }
-    private void Start()
-    {
-        SetVersion(LanguageManager.Singlton.GetSelectedLanguag);
-    }
-    
 }

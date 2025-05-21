@@ -142,7 +142,7 @@ public class Tutorial : MonoBehaviour
             GameManager.Info.transform.GetChild(21).GetComponent<Button>().interactable = false;
             DeActivitingArrows(CantRes, 0);
             FactoryLock= ActivitatingReturn(Factory);
-            GameManager.Info.SetActive(false);
+            GameManager.Singleton.ShowInfo(false);
             NextActiviting(false);
         }
         if (Level == 21 && countryManager.Capitalism.FactoryLevel < 3)
@@ -154,7 +154,7 @@ public class Tutorial : MonoBehaviour
         {
             FactoryLock = false;
             countryManager.ActionMenu.SetActive(false);
-            GameManager.Info.SetActive(false);
+            GameManager.Singleton.ShowInfo(false);
             InterActable(Blue);
             InterActable(Factory);
             DeActivitingArrows(Factory, 1);
@@ -165,7 +165,7 @@ public class Tutorial : MonoBehaviour
         {
             Time.timeScale = 0.00000001f;
             countryManager.ActionMenu.SetActive(false);
-            GameManager.Info.SetActive(false);
+            GameManager.Singleton.ShowInfo(false);
             speed[0].GetComponent<Button>().interactable = false;
             Next(false);
             Activiting(ComCenter);
@@ -264,7 +264,7 @@ public class Tutorial : MonoBehaviour
             NextActiviting(false);
             countryManager.Capitalism.Money = 10000500000;
             countryManager.ActionMenu.SetActive(false);
-            GameManager.Info.SetActive(false);
+            GameManager.Singleton.ShowInfo(false);
             countryManager.Capitalism.PresedncyPeriod = 100;
             if (countryManager.Communism.Actions[0] == null)
                 countryManager.Communism.Actions[0] = new ActionFunction("Spy","زرع جاسوس", "Spy is in place","الجاسوس في موقعه", 500, 0, 12, 0, true);
@@ -278,7 +278,7 @@ public class Tutorial : MonoBehaviour
             Next(false);
             NextLock = false;
             countryManager.ActionMenu.SetActive(false);
-            GameManager.Info.SetActive(false);
+            GameManager.Singleton.ShowInfo(false);
             InterActable(speed, true);
             Time.timeScale = 1;
 
@@ -312,7 +312,7 @@ public class Tutorial : MonoBehaviour
             YannLock = false;
             Time.timeScale = 1;
             countryManager.ActionMenu.SetActive(false);
-            GameManager.Info.SetActive(false);
+            GameManager.Singleton.ShowInfo(false);
             InterActable(Blue);
             InterActable(ComCenter);
             InterActable(speed, true);

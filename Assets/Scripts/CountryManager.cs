@@ -67,7 +67,7 @@ public class CountryManager : MonoBehaviour
         InfoSpiesPower= CountryInfo.transform.GetChild(14).GetComponent<Text>();
         InfoSpiesNumber= GetChildTexts(CountryInfo.transform.GetChild(15));
 
-        InfoWarNumber = GetChildTexts(transform.GetChild(16));
+        InfoWarNumber = GetChildTexts(CountryInfo.transform.GetChild(16));
         InfoWarPower= CountryInfo.transform.GetChild(17).GetComponent<Text>();
         InfoWarMoney= CountryInfo.transform.GetChild(18).GetComponent<Text>();
         InfoWarPeople= CountryInfo.transform.GetChild(19).GetComponent<Text>();
@@ -118,6 +118,7 @@ public class CountryManager : MonoBehaviour
             Communism.Money = UnityEngine.Random.Range(10000000000, 30000000000);
             Capitalism.PeoplSatsfaction = UnityEngine.Random.Range(30, 50);
             Communism.PeoplSatsfaction = UnityEngine.Random.Range(30, 50);
+
             PresidentChoosing(Communism, PresidentNameRandomizer(UnityEngine.Random.Range(1, 25), Communism), UnityEngine.Random.Range(1, 70), UnityEngine.Random.Range(10000000, 1000000000), UnityEngine.Random.Range(1, 5));
             PresidentChoosing(Capitalism, PresidentNameRandomizer(UnityEngine.Random.Range(1, 25), Capitalism), UnityEngine.Random.Range(1, 70), UnityEngine.Random.Range(10000000, 1000000000), UnityEngine.Random.Range(1, 5));
             LoseMenu.SetActive(false);
@@ -342,35 +343,40 @@ public class CountryManager : MonoBehaviour
                         party.Power -= int.Parse(powerReq.text);
                         party.Money -= ReverseMoneyTranslate(MoneyReq.text);
                         party.PeoplSatsfaction -= int.Parse(PeopleReq.text);
-                        party.Actions[party.ActionIndex] = new ActionFunction(GameManager.nameOfAction,GameManager.arabicNameOfAction,doneMassage,arabicDone, int.Parse(PowerGain.text), int.Parse(PeopleGain.text), int.Parse(TimeReq.text.Substring(6)), ReverseMoneyTranslate(MoneyGain.text), monthly.gameObject.activeSelf);
-                        if (doneMassage== "Factory Building Finished")
+                        int time =LanguageManager.Singlton.GetSelectedLanguag==Language.Arabic? int.Parse(TimeReq.text.Split(' ')[0]) : int.Parse(TimeReq.text.Substring(6));
+                        party.Actions[party.ActionIndex] = new ActionFunction(GameManager.nameOfAction,GameManager.arabicNameOfAction,doneMassage,arabicDone, int.Parse(PowerGain.text), int.Parse(PeopleGain.text), time, ReverseMoneyTranslate(MoneyGain.text), monthly.gameObject.activeSelf);
+                        if (doneMassage == "Factory Building Finished")
                             party.FactoryLevel++;
-                        else if (doneMassage== "Proxy war started.")
+                        else if (doneMassage == "Proxy war started.")
                             party.WarLevel++;
                         else if (doneMassage == "Research Completed")
                             party.researchLevel++;
                         else if (doneMassage == "Spy is in place")
                             party.SpiesLevel++;
+                        else if (doneMassage == "Assassination completed")
+                            party.assassinLevel++;
                         party.ActionIndex++;
                         if (!IsTutorial)
                             foreach (Button button in this.GetComponentsInChildren<Button>())
                                 button.interactable = true;
-                        GameManager.Info.SetActive(false);
+                        GameManager.Singleton.ShowInfo(false);
                     }
                     else
-                        CanText("You have three actions in progress you have to wait for one of them at least to finish", party,true);
+                        CanText("You have three actions in progress you have to wait for one of them at least to finish",
+                            "لديك ثلاث أوامر فعالة حاليا، عليك الانتظار لينتهي احدها على الاقل", party,true);
                 }
                 else
-                    CanText("You don't have enough People satisfaction", party,true);
+                    CanText("You don't have enough People satisfaction",
+                        "ليس لديك شعبية كافية", party,true);
             }
             else
-                CanText("You don't have enough Money", party,true);
+                CanText("You don't have enough Money","ليس لديك نقود كافية", party,true);
         }
         else
-            CanText("You don't have enough Power", party,true);
+            CanText("You don't have enough Power", "ليس لديك قوة كافية", party,true);
     }
 
-    public void CanText(string massage, Party party,bool IsWarning)
+    public void CanText(string message,string arabic_message, Party party,bool IsWarning)
     {
         if (IsWarning)
         {
@@ -383,9 +389,10 @@ public class CountryManager : MonoBehaviour
                     button.interactable = false;
         }
         GameObject game = Instantiate(MassageWindowPrefabe, transform);
-        game.transform.GetChild(0).GetComponent<Text>().text = massage;
+        game.transform.GetChild(0).GetComponent<ArabicFixer>().fixedText=LanguageManager.Singlton.GetSelectedLanguag==Language.Arabic?
+            arabic_message:message;
         Time.timeScale = 0;
-        if (massage== "Are you sure you want to exit")
+        if (message== "Are you sure you want to exit")
             game.transform.GetChild(2).gameObject.SetActive(true);
         else
         {
@@ -674,7 +681,8 @@ public class CountryManager : MonoBehaviour
         }
         else
         {
-            CanText("You can't Change the president before one full year of his presidency", party,true);
+            CanText("You can't Change the president before one full year of his presidency", 
+                "لا يمكنك تغيير الرئيس قبل انتهاء سنة على رئاسته", party,true);
         }
         
     }
@@ -688,7 +696,7 @@ public class CountryManager : MonoBehaviour
         ClickSound.Post(gameObject);
         PresidentChoosing(SelectedParty, button.transform.parent.GetChild(0).GetComponent<Text>().text, int.Parse(button.transform.parent.GetChild(1).GetComponent<Text>().text), ReverseMoneyTranslate(button.transform.parent.GetChild(2).GetComponent<Text>().text), int.Parse(button.transform.parent.GetChild(3).GetComponent<Text>().text));
         ELectionWindow.SetActive(false);
-        GameManager.Info.SetActive(false);
+        GameManager.Singleton.ShowInfo(false);
         ActionMenu.SetActive(false);
         ElecEnd.Post(gameObject);
         ElectionsLock = false;
@@ -706,7 +714,7 @@ public class CountryManager : MonoBehaviour
             SelectParty(party);
             CountryInfo.SetActive(false);
             ActionMenu.SetActive(!ActionMenu.activeSelf);
-            GameManager.Info.SetActive(false);
+            GameManager.Singleton.ShowInfo(false);
             ClickSound.Post(gameObject);
             if (!IsTutorial)
                 foreach (Button button in GameManager.Canvas.GetComponentsInChildren<Button>())
@@ -721,15 +729,22 @@ public class CountryManager : MonoBehaviour
                 ClickSound.Post(gameObject);
             ActionMenu.SetActive(false);
             CountryInfo.SetActive(false);
-            GameManager.Info.SetActive(false);
+            GameManager.Singleton.ShowInfo(false);
         }
     }
     public void win()
     {
-        foreach (GameObject button in GameObject.FindGameObjectsWithTag("SpeedUp"))
-            button.SetActive(false);
+        //foreach (GameObject button in GameObject.FindGameObjectsWithTag("SpeedUp"))
+        //    button.SetActive(false);
         Time.timeScale = 0;
         Win.Post(gameObject);
+        PlayerPrefs.SetInt("EndlessMode", 1);
+    }
+    public void ContinueGame()
+    {
+        Win.Stop(gameObject);
+        Music.Post(gameObject);
+        Time.timeScale = 1;
     }
     public void lose()
     {
@@ -861,7 +876,7 @@ public class CountryManager : MonoBehaviour
     }
     public void Exit()
     {
-        CanText("Are you sure you want to exit", SelectedParty, true);
+        CanText("Are you sure you want to exit","هل انت متأكد من رغبتك في الخروج", SelectedParty, true);
     }
 }
 
@@ -918,9 +933,7 @@ public class Party
     public int WarTotalpeople = 0;
 
     public int researchLevel;
-    public int researchNumber = 0;
-
-
+    public int assassinLevel;
     public Party(string _name,string _arabicName,Text powerUI, Text moneyUI, Text peoplSatsfactionUI,Color _color, int _PresedncyPeriod)
     {
         name = _name;   

@@ -130,7 +130,9 @@ public class HoverInfo : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
             CountryManager.MoneyReq.text = MoneyTranslate(MoneyReq +(MoneyReq* CountryManager.SelectedParty.researchLevel));
         else if (name == "Spy")
             CountryManager.MoneyReq.text = MoneyTranslate(MoneyReq + (CountryManager.SelectedParty.SpiesLevel * 1000000000));
-        else
+        else if (name == "Assassin")
+            CountryManager.MoneyReq.text = MoneyTranslate(MoneyReq *Mathf.Pow(2,CountryManager.SelectedParty.assassinLevel));
+        else 
             CountryManager.MoneyReq.text = MoneyTranslate(MoneyReq);
         CountryManager.PeopleReq.text = PeopleReq;
         if (LanguageManager.Singlton.GetSelectedLanguag == Language.Arabic)
@@ -169,7 +171,7 @@ public class HoverInfo : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     }
     private void ShowInfo(bool show)
     {
-        GameManager.Info.SetActive(show);
+        GameManager.Singleton.ShowInfo(show);
         if (show) return;
         CountryManager.titleFixer.fixedText = "";
         CountryManager.briefFixer.fixedText = "";
