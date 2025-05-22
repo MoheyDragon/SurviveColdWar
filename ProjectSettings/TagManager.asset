@@ -19,6 +19,7 @@ TagManager:
   - ElectionWindow
   - InfoCenter
   - Canvas
+  - Language
   layers:
   - Default
   - TransparentFX

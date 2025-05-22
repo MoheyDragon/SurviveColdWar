@@ -59,8 +59,10 @@ public class GameManager : MonoBehaviour
         Canvas = this.gameObject;
         LandsFill();
     }
+    bool isEndlessMode;
     private void Start()
     {
+        isEndlessMode = LanguageManager.Singlton.IsEndless;
         if (country.IsTutorial)
         {
             Date.gameObject.SetActive(false);
@@ -129,7 +131,7 @@ public class GameManager : MonoBehaviour
         {
             monthCount = 0;
             Date.text = (int.Parse(Date.text) + 1).ToString();
-            if (Date.text == "1991")
+            if (Date.text == "1991"&& !isEndlessMode)
             {
                 if (winLock) return;
                 winLock = true;

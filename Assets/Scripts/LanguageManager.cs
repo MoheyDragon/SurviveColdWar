@@ -1,13 +1,18 @@
 ﻿using UnityEngine;
 using UnityEngine.PlayerLoop;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class LanguageManager:MonoBehaviour
 {
     public static LanguageManager Singlton;
     [SerializeField] Language selectedLanguage;
+    [SerializeField] Sprite arabicIcon;
+    [SerializeField] Sprite englishIcon;
     public Language GetSelectedLanguag => selectedLanguage;
     const string playerPrefLang = "playerLanguage";
+    const string languageTag = "Language";
+    private bool playerSelectedEndlessMode;
     private void Awake()
     {
         if(Singlton == null)
@@ -27,20 +32,16 @@ public class LanguageManager:MonoBehaviour
     {
         SceneManager.sceneLoaded += LocalizeScene;
         ChangeSceneElements();
+        GameObject.FindGameObjectWithTag(languageTag).GetComponent<Button>().onClick.AddListener(SwitchLanguage);
+        GameObject.FindGameObjectWithTag(languageTag).GetComponent<Image>().sprite =
+            selectedLanguage == Language.Arabic ? englishIcon : arabicIcon;
     }
     LocalizedElement[] sceneElements;
     private void CacheSceneElements()
     {
-        sceneElements = FindObjectsOfType<LocalizedElement>();
+        sceneElements = FindObjectsOfType<LocalizedElement>();        
     }
-    private void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.A))
-            SetLanguage(Language.Arabic);
-        if(Input.GetKeyDown(KeyCode.E))
-            SetLanguage(Language.English);
-    }
-    public void ChangeSceneElements()
+   public void ChangeSceneElements()
     {
         if (sceneElements == null) CacheSceneElements();
         foreach (LocalizedElement element in sceneElements)
@@ -64,15 +65,31 @@ public class LanguageManager:MonoBehaviour
     {
         CacheSceneElements();
         ChangeSceneElements();
+        GameObject.FindGameObjectWithTag(languageTag).GetComponent<Button>().onClick.AddListener(SwitchLanguage);
+        GameObject.FindGameObjectWithTag(languageTag).GetComponent<Image>().sprite =
+            selectedLanguage == Language.Arabic ? englishIcon : arabicIcon;
     }
-
+    public void SwitchLanguage()
+    {
+        print("switch");
+        SetLanguage(selectedLanguage==Language.Arabic?Language.English:Language.Arabic);
+    }
     public void SetLanguage(Language language)
     {
         selectedLanguage = language;
         PlayerPrefs.SetString(playerPrefLang, language.ToString());
+
+        GameObject.FindGameObjectWithTag(languageTag).GetComponent<Image>().sprite =
+            selectedLanguage == Language.Arabic ?  englishIcon: arabicIcon;
         PlayerPrefs.Save();
         ChangeSceneElements();
     }
-
+    
+    public void OnLaunchGame(bool endless)
+    {
+        playerSelectedEndlessMode = endless;
+        SceneManager.LoadScene(2);
+    }
+    public bool IsEndless => playerSelectedEndlessMode;
 }
 public enum Language { English,Arabic}

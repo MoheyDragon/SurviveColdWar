@@ -12,7 +12,7 @@ public class Tutorial : MonoBehaviour
     public string[] Texts;
     public string[] arabicTexts;
     public GameObject TutWin, country_Info;
-    public GameObject[] Date, Blue, UI, Nuke,speed,War,Greens,Research,Factory,ComCenter,Spy,Assassin,Arrows,Sounds,CantRes,Crown;
+    public GameObject[] Date, Blue, UI, Nuke,speed,War,Greens,Research,Factory,ComCenter,Spy,Assassin,Arrows,CantRes,Crown;
     GameObject[] MapSector;
     bool DateLock, BlueLock, UILock, NukeLock,FactoryLock,ElectionLock, speedLock, YannLock,NextLock, WarLock;
     CountryManager countryManager;
@@ -31,7 +31,9 @@ public class Tutorial : MonoBehaviour
     
     private void Start()
     {
-        Time.timeScale = 0; 
+        Time.timeScale = 0;
+        Level = -1;
+        Next(false);
     }
     private string[] Translate(string english)
     {
@@ -337,10 +339,6 @@ public class Tutorial : MonoBehaviour
             Next(false);
             NextActiviting(true);
         }
-        if (Level == 39)
-        {
-            Activiting(Sounds);
-        }
         if (Level == 40)
         {
             this.gameObject.GetComponent<CountryManager>().Music.Stop(gameObject);
@@ -357,6 +355,7 @@ public class Tutorial : MonoBehaviour
     }
     public void Next(bool IsButton)
     {
+        print("next");
         if (IsButton)
             this.GetComponent<CountryManager>().ClickSound.Post(gameObject);
         Level++;
