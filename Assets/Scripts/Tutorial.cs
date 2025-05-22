@@ -6,8 +6,11 @@ using UnityEngine.SceneManagement;
 
 public class Tutorial : MonoBehaviour
 {
+    string arabicVersion= "مرحبًا بك في Survive the ColdwarSPECIAL MARK\r\nأساسيات اللعبة سهلة جدًا ويمكنك إتقانها خلال أقل من خمس دقائقSPECIAL MARK\r\nلكن، هذا لا يعني أن اللعبة سهلة!!!SPECIAL MARK\r\nالتاريخ هنا هو: 1947، وهو العام الذي بدأت فيه الحرب الباردةSPECIAL MARK\r\nانتهت في عام 1991 وكل ما عليك فعله في هذه اللعبة هو أن تنجو حتى ذلك العام.SPECIAL MARK\r\nأنت تتحكم في كلا طرفي الحرب.SPECIAL MARK\r\nتمثل هذه القيم القوة والمال ورضا الشعب لكل جانب.SPECIAL MARK\r\nعندما يكون التاريخ باللون الأخضر، فهذا يعني أن الوقت يتحرك، وعندما يكون أحمر فهذا يعني أن اللعبة متوقفة. انتظر حتى نهاية الشهر.SPECIAL MARK\r\nراقب تغيّرات القيم لدى كلا الطرفين، خصوصًا القوة (رمز البرق)، وكذلك تقدّم المساحات لكل دولة.SPECIAL MARK\r\nلنُسرّع الأمور قليلًا، اضغط مع الاستمرار على زر التسريع، أو اضغط عليه عدة مرات بسرعة.SPECIAL MARK\r\nالحمر يزدادون قوة، إذا استمر الحال هكذا ستخسر.SPECIAL MARK\r\nهذا الشريط يُظهر نسبة الخطر ومدى قرب اندلاع حرب نووية. يزداد هذا الرقم كلما زاد الفارق في القوة بين الدولتين، وإذا وصل مستوى الخطر إلى 100 ستخسر.SPECIAL MARK\r\nللحفاظ على توازن الحرب الباردة، اضغط على النجمة الزرقاء لبدء حرب بالوكالة من جانب الزُرق \"رمز الدرع\".SPECIAL MARK\r\nابدأ 3 حروب بالوكالة للتقدّم.SPECIAL MARK\r\nاضغط في أي مكان على الخريطة أو على النجمة الزرقاء لإخفاء قائمة الأوامر.SPECIAL MARK\r\nانتظر ثلاثة أشهر الآن أو اضغط على التسريع لبدء الحروب.SPECIAL MARK\r\nعند النقر على هذه النقاط الخضراء الصغيرة، تُعرض معلومات عن قوة الدولة، أموالها، ورضا شعبها.SPECIAL MARK\r\nيبدو أن ثلاث حروب لا تكفي، اضغط على النجمة الزرقاء مرة أخرى لاتخاذ إجراء آخر.SPECIAL MARK\r\nاضغط على رمز \"المفتاح\" لبدء بحث علمي.SPECIAL MARK\r\nلا يمكنك بدء بحث حاليًا لأن الزُرق لا يملكون ما يكفي من المال.SPECIAL MARK\r\nاضغط على رمز \"الترس\" لبناء مصنع، بناء المصانع يزيد من الدخل الشهري للدولة.SPECIAL MARK\r\nقم ببناء مصنعين.SPECIAL MARK\r\nأوه لا، حان الوقت لاتخاذ إجراء في جانب الحمر. اضغط على النجمة الحمراء.SPECIAL MARK\r\nاضغط على رمز \"التاج\" لتغيير الرئيس.SPECIAL MARK\r\nتعرض هذه النافذة الرؤساء المتاحين للاختيار، والأرقام بجانب كل اسم تمثّل الأرباح الشهرية الناتجة عن اختيار كل منهم.SPECIAL MARK\r\nفي الوقت الحالي، نحتاج لإضعاف الحمر لأنهم أصبحوا أقوياء جدًا، ولهذا السبب اختر \"Yann Golubev\" لأنه يسبب نتائج سلبية كبيرة.SPECIAL MARK\r\nتغيير الرؤساء عامل مهم في الحرب، لكن لا يمكنك تغييره دائمًا، يجب أن يمر عام واحد على الأقل لتتمكن من تغييره.SPECIAL MARK\r\nالانتخابات الدورية تحدث كل 4 سنوات للزُرق، وكل 7 سنوات للحمر.SPECIAL MARK\r\nاضغط على معلومات أي دولة لمعرفة كل من السنوات المتبقية والسنوات السابقة للرئيس.SPECIAL MARK\r\nالرقم الأخضر يمثل الأشهر الماضية في الرئاسة. الأرقام البيضاء تُمثل الأشهر المتبقية للرئيس. السهم البرتقالي يرمز للإجراءات الجارية حاليًا للدولة، أما الرقم الصغير المُشار إليه بالسهم الأحمر فيمثّل عدد الأشهر المتبقية لانتهاء هذا الإجراء.SPECIAL MARK\r\nسيسير كل شيء على ما يرام الآن، لكن بعد فترة، سيصل الحمر إلى الصفر = خسارة اللعبة.SPECIAL MARK\r\nاضغط على النجمة الحمراء وأرسل جاسوسًا، رمز \"علامة الاستفهام\".SPECIAL MARK\r\nيكسب الجاسوس قدرًا كبيرًا من القوة في كل دور، لذلك عليك أيضًا اتخاذ إجراء في جانب الزُرق للحفاظ على التوازن.SPECIAL MARK\r\nاضغط على النجمة الزرقاء وابدأ بحثًا علميًا.SPECIAL MARK\r\nالآن انتظر لبضع سنوات لرؤية نتائج أفعالك (سرّع اللعبة).SPECIAL MARK\r\nأصبح الحمر ضعفاء جدًا الآن، مما يترك لهم خيارًا واحدًا فقط، الاغتيال!!SPECIAL MARK\r\nاضغط على النجمة الحمراء لإرسال قاتل مأجور، انتبه فهذه الخطوة خطيرة جدًا ونتيجتها غير مضمونة، اترك هذا الخيار للنهاية دائمًا!SPECIAL MARK\r\nعظيم، الآن انتظر قليلًاSPECIAL MARK\r\nحسنًا، هذا هو كل ما في اللعبة تقريبًا، الآن ستعود إلى اللعبة الرئيسية دون قيود لترى إن كنت قادرًا على النجاة في الحرب الباردة!SPECIAL MARK\r\nأمر أخير. يمكنك دائمًا كتم الموسيقى من خلال النقر على رمز \"اللحن\"، وكتم المؤثرات الصوتية من خلال النقر على رمز \"تشغيل\"، وإيقاف اللعبة مؤقتًا من خلال زر الإيقاف.SPECIAL MARK";
+    public static Tutorial instance;
     public static int Level=0;
     public string[] Texts;
+    public string[] arabicTexts;
     public GameObject TutWin, country_Info;
     public GameObject[] Date, Blue, UI, Nuke,speed,War,Greens,Research,Factory,ComCenter,Spy,Assassin,Arrows,Sounds,CantRes,Crown;
     GameObject[] MapSector;
@@ -16,20 +19,28 @@ public class Tutorial : MonoBehaviour
     public static bool FirstMonthLock, SecondMonthLock,FirstYear,ThreeWARS,TwoFactories, LongWait, ENDLOCK;
     private void Awake()
     {
+        instance = this;
         countryManager = GameObject.FindGameObjectWithTag("Canvas").GetComponent<CountryManager>();
         speedLock=DateLock = BlueLock = UILock = NukeLock = FactoryLock=ElectionLock= YannLock=NextLock= WarLock=false;
         FirstMonthLock = SecondMonthLock= FirstYear= ThreeWARS= TwoFactories=LongWait= ENDLOCK=true;
         MapSector = GameObject.FindGameObjectsWithTag("MapSector");
+        arabicTexts = Translate(arabicVersion);
+        tutorialTextFixer = TutWin.transform.GetChild(0).GetComponent<ArabicFixer>();
+        tutorialText=tutorialTextFixer.GetComponent<Text>();
     }
-
+    
     private void Start()
     {
         Time.timeScale = 0; 
-        TutWin.transform.GetChild(0).GetComponent<Text>().text = Texts[Level];
+    }
+    private string[] Translate(string english)
+    {
+        english= english.Replace("SPECIAL MARK", "|");
+        string[] lines = english.Split('|');
+        return lines;
     }
     void Update()
     {
-        print(Level);
         if (Level == 3&&!DateLock)
             DateLock=ActivitatingReturn(Date);
         if (Level==4)
@@ -123,8 +134,8 @@ public class Tutorial : MonoBehaviour
         if (Level == 18 && GameManager.nameOfAction == "Research")
         {
             Next(false);
-            GameManager.Info.transform.GetChild(21).GetComponent<Button>().interactable = true;
-            GameManager.Info.transform.GetChild(20).GetComponent<Button>().interactable = false;
+            GameManager.Info.transform.GetChild(21).GetComponent<Button>().interactable = false;
+            GameManager.Info.transform.GetChild(24).GetComponent<Button>().interactable = true;
         }
 
         if (Level == 19 && !WarLock)
@@ -138,8 +149,8 @@ public class Tutorial : MonoBehaviour
 
         if (Level == 20 && !FactoryLock)
         {
-            GameManager.Info.transform.GetChild(20).GetComponent<Button>().interactable = true;
-            GameManager.Info.transform.GetChild(21).GetComponent<Button>().interactable = false;
+            GameManager.Info.transform.GetChild(21).GetComponent<Button>().interactable = true;
+            GameManager.Info.transform.GetChild(24).GetComponent<Button>().interactable = false;
             DeActivitingArrows(CantRes, 0);
             FactoryLock= ActivitatingReturn(Factory);
             GameManager.Singleton.ShowInfo(false);
@@ -313,6 +324,7 @@ public class Tutorial : MonoBehaviour
             Time.timeScale = 1;
             countryManager.ActionMenu.SetActive(false);
             GameManager.Singleton.ShowInfo(false);
+            GameManager.Singleton.WaitAfterAssassinToFinishGame();
             InterActable(Blue);
             InterActable(ComCenter);
             InterActable(speed, true);
@@ -348,7 +360,10 @@ public class Tutorial : MonoBehaviour
         if (IsButton)
             this.GetComponent<CountryManager>().ClickSound.Post(gameObject);
         Level++;
-        TutWin.transform.GetChild(0).GetComponent<Text>().text = Texts[Level];
+        if(LanguageManager.Singlton.GetSelectedLanguag==Language.Arabic)
+            TutWin.transform.GetChild(0).GetComponent<ArabicFixer>().fixedText= arabicTexts[Level];
+        else
+            TutWin.transform.GetChild(0).GetComponent<ArabicFixer>().fixedText = Texts[Level];
     }
     bool ActivitatingReturn(GameObject[] group)
     {
@@ -391,5 +406,20 @@ public class Tutorial : MonoBehaviour
     {
         foreach (GameObject item in MapSector)
             item.GetComponent<Button>().interactable = Active;
+    }
+    ArabicFixer tutorialTextFixer;
+    Text tutorialText;
+    public void OnLanguageChanged()
+    {
+        if (LanguageManager.Singlton.GetSelectedLanguag == Language.Arabic)
+        {
+            tutorialTextFixer.fixedText = arabicTexts[Level];
+            //tutorialText.alignment = TextAnchor.UpperRight;
+        }
+        else
+        {
+            tutorialTextFixer.fixedText = Texts[Level];
+            //tutorialText.alignment = TextAnchor.UpperLeft;
+        }
     }
 }

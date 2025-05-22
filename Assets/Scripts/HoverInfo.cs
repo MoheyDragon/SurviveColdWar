@@ -206,7 +206,7 @@ public class HoverInfo : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
             {
                 manager.gameObject.GetComponent<Tutorial>().Next(false);
                 Time.timeScale = 0.0000000001f;
-                GameManager.Info.transform.GetChild(20).GetComponent<Button>().interactable = true;
+                GameManager.Info.transform.GetChild(21).GetComponent<Button>().interactable = true;
             }
             else if (name == "Assassin")
             { }

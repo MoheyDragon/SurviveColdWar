@@ -82,6 +82,12 @@ public class GameManager : MonoBehaviour
         foreach (Image terr in ComunitsisTerretory)
             terr.fillAmount = Com;
     }
+    bool assassinWait;
+    int assassinWaitMonths=3;
+    public void WaitAfterAssassinToFinishGame()
+    {
+        assassinWait = true;
+    }
     public void  Update()
     {
         if (Time.time>MonthCycle)
@@ -103,7 +109,7 @@ public class GameManager : MonoBehaviour
     public void InfoBack()
     {
         ClickSound.Post(gameObject);
-            Info.SetActive(false);
+        ShowInfo(false);
         if (!country.IsTutorial)
             foreach (Button button in this.GetComponentsInChildren<Button>())
                 button.interactable = true;
@@ -111,6 +117,11 @@ public class GameManager : MonoBehaviour
     bool winLock;
     public void MonthEnd()
     {
+        if (assassinWait)
+        {
+            assassinWaitMonths--;
+            if (assassinWaitMonths == 0) Tutorial.ENDLOCK = false;
+        }
         if (AccelLock)
             Accelrator();
         MonthEnded.Post(gameObject);
@@ -142,8 +153,6 @@ public class GameManager : MonoBehaviour
                 Tutorial.FirstYear = false;
             if (Tutorial.ThreeWARS &&Date.text=="1948"&&monthCount>4)
                 Tutorial.ThreeWARS = false;
-            if(int.Parse(Date.text)>=1953)
-                Tutorial.ENDLOCK = false;
         }
     }
     public void ContinueGame()

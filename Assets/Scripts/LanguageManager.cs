@@ -15,13 +15,18 @@ public class LanguageManager:MonoBehaviour
         else
             Destroy(gameObject);
         DontDestroyOnLoad(gameObject);
-        SceneManager.sceneLoaded += LocalizeScene;
+        
         string startingLanguage = PlayerPrefs.GetString(playerPrefLang, Language.Arabic.ToString());
         if (startingLanguage==Language.Arabic.ToString())
             SetLanguage(Language.Arabic);
         else
             SetLanguage(Language.English);
         CacheSceneElements();
+    }
+    private void Start()
+    {
+        SceneManager.sceneLoaded += LocalizeScene;
+        ChangeSceneElements();
     }
     LocalizedElement[] sceneElements;
     private void CacheSceneElements()
@@ -41,12 +46,19 @@ public class LanguageManager:MonoBehaviour
         foreach (LocalizedElement element in sceneElements)
             element.SetVersion(selectedLanguage);
         ChangeNotification();
+        ChangeTutorial();
     }
     private void ChangeNotification()
     {
         Notification[] notifications = FindObjectsOfType<Notification>();
         foreach (Notification element in notifications)
             element.ChangeLanguage();
+    }
+    private void ChangeTutorial()
+    {
+        if(CountryManager.instance!=null)
+        if(CountryManager.instance.IsTutorial)
+            Tutorial.instance.OnLanguageChanged();
     }
     private void LocalizeScene(Scene arg0, LoadSceneMode arg1)
     {
