@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class MainMenuManager : MonoBehaviour
 {
-    [SerializeField] GameObject endlessButton;
+    [SerializeField] Button endlessButton;
     public AK.Wwise.Event MainMusic, ClickSound;
     float CoolStatic, CoolChange,PartyChange;
     public Text Date;
@@ -28,7 +28,7 @@ public class MainMenuManager : MonoBehaviour
         MainMusic.Post(gameObject);
         Date.material.color = Color.blue;
         party = Com;
-        endlessButton.SetActive(PlayerPrefs.GetInt("EndlessMode", 0)==1);
+        endlessButton.interactable=PlayerPrefs.GetInt("EndlessMode", 0)==1;
         t = 0;
     }
 

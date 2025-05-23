@@ -13,6 +13,7 @@ public class LanguageManager:MonoBehaviour
     const string playerPrefLang = "playerLanguage";
     const string languageTag = "Language";
     private bool playerSelectedEndlessMode;
+    Button languageButton;
     private void Awake()
     {
         if(Singlton == null)
@@ -32,7 +33,12 @@ public class LanguageManager:MonoBehaviour
     {
         SceneManager.sceneLoaded += LocalizeScene;
         ChangeSceneElements();
-        GameObject.FindGameObjectWithTag(languageTag).GetComponent<Button>().onClick.AddListener(SwitchLanguage);
+        SetupLanguageButton();
+    }
+    private void SetupLanguageButton()
+    {
+        languageButton = GameObject.FindGameObjectWithTag(languageTag).GetComponent<Button>();
+        languageButton.onClick.AddListener(SwitchLanguage);
         GameObject.FindGameObjectWithTag(languageTag).GetComponent<Image>().sprite =
             selectedLanguage == Language.Arabic ? englishIcon : arabicIcon;
     }
@@ -65,9 +71,7 @@ public class LanguageManager:MonoBehaviour
     {
         CacheSceneElements();
         ChangeSceneElements();
-        GameObject.FindGameObjectWithTag(languageTag).GetComponent<Button>().onClick.AddListener(SwitchLanguage);
-        GameObject.FindGameObjectWithTag(languageTag).GetComponent<Image>().sprite =
-            selectedLanguage == Language.Arabic ? englishIcon : arabicIcon;
+        SetupLanguageButton();
     }
     public void SwitchLanguage()
     {
@@ -89,6 +93,14 @@ public class LanguageManager:MonoBehaviour
     {
         playerSelectedEndlessMode = endless;
         SceneManager.LoadScene(2);
+    }
+    public void EnableButton(bool enabled)
+    {
+        languageButton.interactable = enabled;
+    }
+    public void HideButton()
+    {
+        languageButton.gameObject.SetActive(false);
     }
     public bool IsEndless => playerSelectedEndlessMode;
 }

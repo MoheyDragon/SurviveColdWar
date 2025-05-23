@@ -24,6 +24,7 @@ public class Country_Info : MonoBehaviour
         }
         else
             CountryManager.CountryInfo.SetActive(false);
+        LanguageManager.Singlton.EnableButton(!CountryManager.CountryInfo.activeSelf);
 
     }
     public void OnPointerEnter(PointerEventData eventData)

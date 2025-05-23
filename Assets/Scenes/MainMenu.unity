@@ -2347,9 +2347,9 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1337525069}
-  - {fileID: 1612651342}
   - {fileID: 1496990699}
+  - {fileID: 1612651342}
+  - {fileID: 1337525069}
   - {fileID: 1103194915}
   - {fileID: 1104722826}
   m_Father: {fileID: 1634094875}
@@ -2418,7 +2418,7 @@ RectTransform:
   m_Children:
   - {fileID: 248476320}
   m_Father: {fileID: 1183463910}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2608,7 +2608,7 @@ RectTransform:
   m_Children:
   - {fileID: 807445882}
   m_Father: {fileID: 1183463910}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2818,7 +2818,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1612651342
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2834,9 +2834,9 @@ RectTransform:
   m_Father: {fileID: 1183463910}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1256.3114, y: -157.03893}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 288.43085, y: 133.98999}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1612651343
@@ -3062,7 +3062,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a413f6f7005d35488e9b2e300174aba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endlessButton: {fileID: 1612651341}
+  endlessButton: {fileID: 1612651343}
   MainMusic:
     idInternal: 0
     valueGuidInternal: 

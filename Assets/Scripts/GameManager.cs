@@ -73,9 +73,11 @@ public class GameManager : MonoBehaviour
         ShowInfo(false);
         MonthEndAccelerator.SetGlobalValue(-100);
     }
+    
     public void ShowInfo(bool enabled)
     {
         InfoCG.alpha=enabled ? 1 : 0;
+        LanguageManager.Singlton.EnableButton(!enabled);
         InfoCG.interactable = enabled;
         InfoCG.blocksRaycasts = enabled; 
     }

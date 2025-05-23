@@ -2902,6 +2902,11 @@ PrefabInstance:
       propertyPath: m_Text
       value: "\u0634\u0647\u0631"
       objectReference: {fileID: 0}
+    - target: {fileID: 1161896459411469011, guid: c2d6de6748b0e1e438841cd6a76d4033,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 27
+      objectReference: {fileID: 0}
     - target: {fileID: 1161896459944000430, guid: c2d6de6748b0e1e438841cd6a76d4033,
         type: 3}
       propertyPath: m_IsActive
@@ -4012,6 +4017,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175368652917317043, guid: d464f3d00ea8b5b48a6db521ccc7fea3,
+        type: 3}
+      propertyPath: arabicQuote
+      value: "\u064A\u062A\u0637\u0644\u0628 \u0627\u0644\u0623\u0645\u0631 \u0639\u0642\u0644\u0627
+        \u0642\u0648\u064A\u0627 \u062C\u062F\u0627 \u0644\u062A\u0633\u062A\u0637\u064A\u0639
+        \u0627\u0644\u0627\u062D\u062A\u0641\u0627\u0638 \u0628\u0627\u0644\u0627\u0633\u0631\u0627\u0631
+        \u0644\u0633\u0646\u0648\u0627\u062A \u0628\u062F\u0648\u0646 \u0627\u0646
+        \u062A\u0646\u0627\u0644 \u0646\u0635\u064A\u0628\u0627 \u0645\u0646 \u0627\u0644\u062C\u0646\u0648\u0646 
+        -  C.P. Snow  "
       objectReference: {fileID: 0}
     - target: {fileID: 5175368653954805106, guid: d464f3d00ea8b5b48a6db521ccc7fea3,
         type: 3}
@@ -6048,12 +6063,13 @@ MonoBehaviour:
   - Let's speed things up a little bit, press and hold the speed-up button, or press
     it many times fastly.
   - The Reds are becoming more powerful if things keep like this you will lose.
-  - This bar shows the danger percentage and how a nuclear war is about to start.
+  - This meter shows the danger percentage and how a nuclear war is about to start.
     This Number increase as the difference between the countries powers goes up if
     the Danger level reaches 100 you lose.
   - 'To maintain the balance of the cold war, click on the Blue Star to start a proxy
     war from the blues side "Shield symbol". '
-  - Start 3 proxy wars to proceed.
+  - Start 3 proxy wars to proceed, you can click single click to do action or long
+    click to get details
   - Click any were on the map or on the Blue star to hide the action menu
   - Wait for three months now or press speed up to start the wars.
   - By clicking on These green little dots info about each country's powers, money,
@@ -6064,7 +6080,8 @@ MonoBehaviour:
   - You can't start a research now because the blues doesn't have enough money.
   - Press on the "Gear" symbol to build a factory, building factories increases the
     country's monthly income.
-  - Build Two Factories.
+  - Build Two Factories, know that  factories also increases people satisfaction
+    which is very important in order to be able to do most of the actions
   - Oh no, it's time to take some action on the red side. Press on the Red star.
   - Press on the "Crown" symbol to change the president.
   - This window displays available presidents to select from, the numbers displayed
@@ -6090,13 +6107,14 @@ MonoBehaviour:
     up).
   - The Reds are so weak now leaving them with only one option, assassination !!
   - Click on the red star to send an assassin, beware this action is very dangerous
-    and its outcome can't be predicted always leave this option to the end!
+    and its outcome can't be predicted , and it becomes insanely expensive as you
+    use it more, always leave this option to the end!
   - Great, Now Wait a bit
   - Well basically that's all the game, now you will return to the main game with
     no restriction to see if you can survive the COLD WAR!
   - One Last thing. You can always mute the music by clicking on the "Melody" symbol,
-    mute sound effects by clicking on the "Play" symbol, and pause the game by clicking
-    on the pause button.
+    mute sound effects by clicking on the "Play" symbol ,and switch languge, and
+    pause the game by clicking on the pause button.
   - 
   arabicTexts: []
   TutWin: {fileID: 2881365416062899049}

@@ -102,9 +102,9 @@ public class HoverInfo : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         }
         else
         {
-            CountryManager.titleFixer.fixedText = title;
-            CountryManager.briefFixer.fixedText = breif;
-            CountryManager.QuoteFixer.fixedText = Quote;
+            CountryManager.title.text= title;
+            CountryManager.breif.text= breif;
+            CountryManager.Quote.text = Quote;
 
             CountryManager.breif.alignment = TextAnchor.MiddleLeft;
             CountryManager.Quote.alignment = TextAnchor.MiddleLeft;

@@ -389,8 +389,11 @@ public class CountryManager : MonoBehaviour
                     button.interactable = false;
         }
         GameObject game = Instantiate(MassageWindowPrefabe, transform);
-        game.transform.GetChild(0).GetComponent<ArabicFixer>().fixedText=LanguageManager.Singlton.GetSelectedLanguag==Language.Arabic?
-            arabic_message:message;
+        if (LanguageManager.Singlton.GetSelectedLanguag == Language.Arabic)
+                game.transform.GetChild(0).GetComponent<ArabicFixer>().fixedText = arabic_message;
+        else
+                game.transform.GetChild(0).GetComponent<Text>().text = message;
+
         Time.timeScale = 0;
         if (message== "Are you sure you want to exit")
             game.transform.GetChild(2).gameObject.SetActive(true);
@@ -715,6 +718,7 @@ public class CountryManager : MonoBehaviour
             CountryInfo.SetActive(false);
             ActionMenu.SetActive(!ActionMenu.activeSelf);
             GameManager.Singleton.ShowInfo(false);
+            LanguageManager.Singlton.EnableButton(false);
             ClickSound.Post(gameObject);
             if (!IsTutorial)
                 foreach (Button button in GameManager.Canvas.GetComponentsInChildren<Button>())
@@ -751,6 +755,7 @@ public class CountryManager : MonoBehaviour
         Time.timeScale = 0;
         foreach (GameObject button in GameObject.FindGameObjectsWithTag("SpeedUp"))
             button.SetActive(false);
+        LanguageManager.Singlton.HideButton();
         ActionMenu.SetActive(false);
         ELectionWindow.SetActive(false);
         Lose.Post(gameObject);
