@@ -21,6 +21,13 @@ public class GameManager : MonoBehaviour
     public static bool AccelLock = false;
     public AK.Wwise.Event ClickSound, MonthEnded;
     public AK.Wwise.RTPC MonthEndAccelerator;
+    [Space]
+    [Space]
+    [Header("Ads")]
+    [Space]
+    [SerializeField] bool useAds;
+    [SerializeField] Vector2 monthsToAdsRange;
+    int monthsLeftToAds;
     // Start is called before the first frame update
     private void Awake()
     {
@@ -72,6 +79,19 @@ public class GameManager : MonoBehaviour
         MonthCycle = mainMonthCycle + Time.time;
         ShowInfo(false);
         MonthEndAccelerator.SetGlobalValue(-100);
+        ListenToAds();
+    }
+    private void ListenToAds()
+    {
+        if (!useAds) return;
+        monthsLeftToAds=Random.Range((int)monthsToAdsRange.x,(int)monthsToAdsRange.y);
+        InterstitialAds.Singleton.newAdLoaded += ShowAd;
+        InterstitialAds.Singleton.newAdFailedToLoad += ShowAd;
+    }
+    private void ShowAd()
+    {
+        monthsLeftToAds=Random.Range((int)monthsToAdsRange.x,(int)monthsToAdsRange.y);
+        InterstitialAds.Singleton.ShowAd();
     }
     
     public void ShowInfo(bool enabled)
@@ -125,6 +145,14 @@ public class GameManager : MonoBehaviour
         {
             assassinWaitMonths--;
             if (assassinWaitMonths == 0) Tutorial.ENDLOCK = false;
+        }
+        if(useAds)
+        {
+            monthsLeftToAds--;
+            if(monthsLeftToAds==0)
+            {
+                InterstitialAds.Singleton.LoadAd();
+            }
         }
         if (AccelLock)
             Accelrator();
