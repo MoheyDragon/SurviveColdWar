@@ -15,6 +15,11 @@ public class AdsManager : MonoBehaviour, IUnityAdsInitializationListener
         InitializeSingleton();
         InitializeAds();
     }
+    private void Start()
+    {
+        if (LanguageManager.Singlton.HaveAds) return;
+        OnBuyAds();
+    }
     void InitializeSingleton()
     {
         if (Singleton == null)
@@ -42,7 +47,10 @@ public class AdsManager : MonoBehaviour, IUnityAdsInitializationListener
         }
     }
     public bool AdReady;
-
+    public void OnBuyAds()
+    {
+        Destroy(gameObject);
+    }
     public void OnInitializationComplete()
     {
         Debug.Log("Unity Ads initialization complete.");

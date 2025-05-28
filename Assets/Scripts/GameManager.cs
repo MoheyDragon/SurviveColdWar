@@ -79,7 +79,12 @@ public class GameManager : MonoBehaviour
         MonthCycle = mainMonthCycle + Time.time;
         ShowInfo(false);
         MonthEndAccelerator.SetGlobalValue(-100);
+        useAds = LanguageManager.Singlton.HaveAds;
         ListenToAds();
+    }
+    public void OnNoAdsBuying()
+    {
+        useAds = false;
     }
     private void ListenToAds()
     {

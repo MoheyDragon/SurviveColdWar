@@ -14,6 +14,7 @@ public class LanguageManager:MonoBehaviour
     const string languageTag = "Language";
     private bool playerSelectedEndlessMode;
     Button languageButton;
+    bool haveAds;
     private void Awake()
     {
         if(Singlton == null)
@@ -21,7 +22,7 @@ public class LanguageManager:MonoBehaviour
         else
             Destroy(gameObject);
         DontDestroyOnLoad(gameObject);
-        
+        haveAds= PlayerPrefs.GetString("Ads", "true") == "true" ? true : false;
         string startingLanguage = PlayerPrefs.GetString(playerPrefLang, Language.Arabic.ToString());
         if (startingLanguage==Language.Arabic.ToString())
             SetLanguage(Language.Arabic);
@@ -29,6 +30,16 @@ public class LanguageManager:MonoBehaviour
             SetLanguage(Language.English);
         CacheSceneElements();
     }
+    public void BuyNoAds()
+    {
+        haveAds = false;
+        PlayerPrefs.SetString("Ads", "false");
+        PlayerPrefs.Save();
+        if(GameManager.Singleton)
+            GameManager.Singleton.OnNoAdsBuying();
+        AdsManager.Singleton.OnBuyAds();
+    }
+    public bool HaveAds => haveAds;
     private void Start()
     {
         SceneManager.sceneLoaded += LocalizeScene;
