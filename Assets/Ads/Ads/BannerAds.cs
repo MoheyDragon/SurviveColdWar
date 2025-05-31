@@ -18,7 +18,7 @@ public class BannerAds : MonoBehaviour
 #elif UNITY_ANDROID
         _adUnitId = _androidAdUnitId;
 #endif
-
+        if (!LanguageManager.Singlton.HaveAds) return;
         AdsManager.Singleton.OnAdsInitialized += LaunchBanner;
     }
     private void LaunchBanner()

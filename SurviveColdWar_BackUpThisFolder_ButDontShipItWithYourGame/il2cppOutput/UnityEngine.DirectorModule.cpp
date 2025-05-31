@@ -222,7 +222,7 @@ inline void Action_1_Invoke_m1DDC149E3BDDF7CAA1CCEBDA6D58D6971F126303_inline (Ac
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 30691
+// Method Definition Index: 55040
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PlayableDirector_get_extrapolationMode_m942C1A4A49D9D81DF54B742A0EFE22ED6D6BCDDD (PlayableDirector_t895D7BC3CFBFFD823278F438EAC4AA91DBFEC475* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -239,7 +239,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 30692
+// Method Definition Index: 55041
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PlayableAsset_t6964211C3DAE503FEEDD04089ED6B962945D271E* PlayableDirector_get_playableAsset_m02BE3315FD9BF897F49AE020F3FE4278529FEB7C (PlayableDirector_t895D7BC3CFBFFD823278F438EAC4AA91DBFEC475* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -262,7 +262,7 @@ IL_000f:
 		return L_1;
 	}
 }
-// Method Definition Index: 30693
+// Method Definition Index: 55042
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* PlayableDirector_GetReferenceValue_m635841386147673FFBBEF0CD9DA908337F3C97C8 (PlayableDirector_t895D7BC3CFBFFD823278F438EAC4AA91DBFEC475* __this, PropertyName_tE4B4AAA58AF3BF2C0CD95509EB7B786F096901C2 ___0_id, bool* ___1_idValid, const RuntimeMethod* method) 
 {
 	{
@@ -272,7 +272,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D971
 		return L_1;
 	}
 }
-// Method Definition Index: 30694
+// Method Definition Index: 55043
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* PlayableDirector_GetGenericBinding_mEA8A86CEFAD08BEC596E06C3E1B1E0095E69D020 (PlayableDirector_t895D7BC3CFBFFD823278F438EAC4AA91DBFEC475* __this, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_key, const RuntimeMethod* method) 
 {
 	typedef Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* (*PlayableDirector_GetGenericBinding_mEA8A86CEFAD08BEC596E06C3E1B1E0095E69D020_ftn) (PlayableDirector_t895D7BC3CFBFFD823278F438EAC4AA91DBFEC475*, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*);
@@ -282,7 +282,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D971
 	Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* icallRetVal = _il2cpp_icall_func(__this, ___0_key);
 	return icallRetVal;
 }
-// Method Definition Index: 30695
+// Method Definition Index: 55044
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PlayableDirector_GetWrapMode_m91F64F0166340F3C55911879B448B32C3271686A (PlayableDirector_t895D7BC3CFBFFD823278F438EAC4AA91DBFEC475* __this, const RuntimeMethod* method) 
 {
 	typedef int32_t (*PlayableDirector_GetWrapMode_m91F64F0166340F3C55911879B448B32C3271686A_ftn) (PlayableDirector_t895D7BC3CFBFFD823278F438EAC4AA91DBFEC475*);
@@ -292,7 +292,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PlayableDirector_GetWrapMode_m91F64F0
 	int32_t icallRetVal = _il2cpp_icall_func(__this);
 	return icallRetVal;
 }
-// Method Definition Index: 30696
+// Method Definition Index: 55045
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A* PlayableDirector_Internal_GetPlayableAsset_m74CF2B5E24E39114ED3A256185175BCC2CF31F24 (PlayableDirector_t895D7BC3CFBFFD823278F438EAC4AA91DBFEC475* __this, const RuntimeMethod* method) 
 {
 	typedef ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A* (*PlayableDirector_Internal_GetPlayableAsset_m74CF2B5E24E39114ED3A256185175BCC2CF31F24_ftn) (PlayableDirector_t895D7BC3CFBFFD823278F438EAC4AA91DBFEC475*);
@@ -302,7 +302,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ScriptableObject_tB3BFDB921A1B1795B38A5417D3B
 	ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A* icallRetVal = _il2cpp_icall_func(__this);
 	return icallRetVal;
 }
-// Method Definition Index: 30697
+// Method Definition Index: 55046
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayableDirector_SendOnPlayableDirectorPlay_m7F75DBA4355DAA92F53AC337BB952069B63081A0 (PlayableDirector_t895D7BC3CFBFFD823278F438EAC4AA91DBFEC475* __this, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -326,7 +326,7 @@ IL_001b:
 		return;
 	}
 }
-// Method Definition Index: 30698
+// Method Definition Index: 55047
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayableDirector_SendOnPlayableDirectorPause_m1B8EE7CBD23957C664AA417A9261194DFFFADFE1 (PlayableDirector_t895D7BC3CFBFFD823278F438EAC4AA91DBFEC475* __this, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -350,7 +350,7 @@ IL_001b:
 		return;
 	}
 }
-// Method Definition Index: 30699
+// Method Definition Index: 55048
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayableDirector_SendOnPlayableDirectorStop_m4E9AEB579B8EA66ECC6FA9BE23BBF7973AB3EDD7 (PlayableDirector_t895D7BC3CFBFFD823278F438EAC4AA91DBFEC475* __this, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -374,7 +374,7 @@ IL_001b:
 		return;
 	}
 }
-// Method Definition Index: 30700
+// Method Definition Index: 55049
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* PlayableDirector_GetReferenceValue_Injected_mE46AABB378E696DF9A413D98D24E1AA0A312D106 (PlayableDirector_t895D7BC3CFBFFD823278F438EAC4AA91DBFEC475* __this, PropertyName_tE4B4AAA58AF3BF2C0CD95509EB7B786F096901C2* ___0_id, bool* ___1_idValid, const RuntimeMethod* method) 
 {
 	typedef Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* (*PlayableDirector_GetReferenceValue_Injected_mE46AABB378E696DF9A413D98D24E1AA0A312D106_ftn) (PlayableDirector_t895D7BC3CFBFFD823278F438EAC4AA91DBFEC475*, PropertyName_tE4B4AAA58AF3BF2C0CD95509EB7B786F096901C2*, bool*);
@@ -387,7 +387,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D971
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 590
+// Method Definition Index: 864
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);

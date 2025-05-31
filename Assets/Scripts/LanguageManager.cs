@@ -23,13 +23,8 @@ public class LanguageManager:MonoBehaviour
             Destroy(gameObject);
         DontDestroyOnLoad(gameObject);
         haveAds= PlayerPrefs.GetString("Ads", "true") == "true" ? true : false;
-        string startingLanguage = PlayerPrefs.GetString(playerPrefLang, Language.Arabic.ToString());
-        if (startingLanguage==Language.Arabic.ToString())
-            SetLanguage(Language.Arabic);
-        else
-            SetLanguage(Language.English);
-        CacheSceneElements();
     }
+
     public void BuyNoAds()
     {
         haveAds = false;
@@ -42,6 +37,13 @@ public class LanguageManager:MonoBehaviour
     public bool HaveAds => haveAds;
     private void Start()
     {
+        string startingLanguage = PlayerPrefs.GetString(playerPrefLang, Language.Arabic.ToString());
+        if (startingLanguage == Language.Arabic.ToString())
+            SetLanguage(Language.Arabic);
+        else
+            SetLanguage(Language.English);
+        CacheSceneElements();
+
         SceneManager.sceneLoaded += LocalizeScene;
         ChangeSceneElements();
         SetupLanguageButton();
@@ -86,7 +88,6 @@ public class LanguageManager:MonoBehaviour
     }
     public void SwitchLanguage()
     {
-        print("switch");
         SetLanguage(selectedLanguage==Language.Arabic?Language.English:Language.Arabic);
     }
     public void SetLanguage(Language language)
@@ -98,6 +99,8 @@ public class LanguageManager:MonoBehaviour
             selectedLanguage == Language.Arabic ?  englishIcon: arabicIcon;
         PlayerPrefs.Save();
         ChangeSceneElements();
+        if(BuyingManager.Singlton)
+            BuyingManager.Singlton.ToggleLanguage(selectedLanguage);
     }
     
     public void OnLaunchGame(bool endless)

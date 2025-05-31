@@ -149,6 +149,7 @@ struct BannerOptions_tCBB4B505757433AF3934C75D65F47FFCF1C47F5A;
 struct BaseRaycaster_t7DC8158FD3CA0193455344379DD5FF7CD5F1F832;
 struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA;
 struct Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098;
+struct BuyingManager_tD22F8B926357367E95C070293C80E047D5044805;
 struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
 struct Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26;
 struct CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094;
@@ -249,6 +250,7 @@ struct ErrorCallback_tA2D794EA095CA371EB48018F2C47E7728FA82029;
 struct LoadCallback_tD229C4997971D804773ED4479F4D768D5A21377B;
 struct BannerCallback_t064796640D9EE7F36DFE697EEC24B3059246EA88;
 struct ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C;
+struct U3CCO_AutoHideErrorMessageU3Ed__15_t986E3D34A538B856C60DB4C6A555901CEAED1FFA;
 struct U3CHoldTimerU3Ed__8_tE8B73D4F58BD7A52CB2CDD7AB2E57670BBF2DFE8;
 struct U3CMultiActionsU3Ed__106_t07598788AB9EC6E36312955AE6D02695B3931E8E;
 struct U3CMultiElectionsU3Ed__105_tCBFAC3DE4D47FC701E76EC520439712B36E834D3;
@@ -275,6 +277,7 @@ IL2CPP_EXTERN_C RuntimeClass* ArabicTable_tC73F27CD2C649BA48A443C0E25851D9383320
 IL2CPP_EXTERN_C RuntimeClass* BannerCallback_t064796640D9EE7F36DFE697EEC24B3059246EA88_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* BannerLoadOptions_t9FEE2B8F78545F5207EC7F1A49E6955A35B9957E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* BannerOptions_tCBB4B505757433AF3934C75D65F47FFCF1C47F5A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* BuyingManager_tD22F8B926357367E95C070293C80E047D5044805_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var;
@@ -309,6 +312,7 @@ IL2CPP_EXTERN_C RuntimeClass* TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A3
 IL2CPP_EXTERN_C RuntimeClass* TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Tutorial_t4FF9FF1EF6F8E11558052253ECFBB53EC9AA41D4_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CCO_AutoHideErrorMessageU3Ed__15_t986E3D34A538B856C60DB4C6A555901CEAED1FFA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CHoldTimerU3Ed__28_tB569D5CA092AD2741F1E6EFECEFA67B05064A165_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CHoldTimerU3Ed__8_tE8B73D4F58BD7A52CB2CDD7AB2E57670BBF2DFE8_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CMultiActionsU3Ed__106_t07598788AB9EC6E36312955AE6D02695B3931E8E_il2cpp_TypeInfo_var;
@@ -398,7 +402,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral5F925AD4BA4050FF1C3205CA07E61AB16E29BD93
 IL2CPP_EXTERN_C String_t* _stringLiteral60E934042AAC739184C40868B65F9393C4A54327;
 IL2CPP_EXTERN_C String_t* _stringLiteral6159699F0604B2DDD5C8FF06BD43572054F934DD;
 IL2CPP_EXTERN_C String_t* _stringLiteral62A67CC786C8B70AC32B2FCC65901891707B895E;
-IL2CPP_EXTERN_C String_t* _stringLiteral679D068D573133B9C7C465FC6CF9C9D07B531421;
 IL2CPP_EXTERN_C String_t* _stringLiteral6AC83B16A16E7A6F6CCAD22E41FB93F9AE1BC676;
 IL2CPP_EXTERN_C String_t* _stringLiteral6BCAC612B5B27E65B03977EAA66B35CF4A1AB1D9;
 IL2CPP_EXTERN_C String_t* _stringLiteral6CA317F7393B0A03B6DEE8055CA04126A4654417;
@@ -412,6 +415,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral73B9006B0F0AEA6EADA0E2CAD894921C89ECD3A2
 IL2CPP_EXTERN_C String_t* _stringLiteral73FCE87684AD8F9759AAD6A2CD5104B348F17DCE;
 IL2CPP_EXTERN_C String_t* _stringLiteral7448DA4EC902B839EDD3A227224DAD14507F22B5;
 IL2CPP_EXTERN_C String_t* _stringLiteral7546B4538C48C1F1877F7DA52C0764DC45238249;
+IL2CPP_EXTERN_C String_t* _stringLiteral77D38C0623F92B292B925F6E72CF5CF99A20D4EB;
 IL2CPP_EXTERN_C String_t* _stringLiteral7872F39A71E752A71C67011A954892DD418DDFCF;
 IL2CPP_EXTERN_C String_t* _stringLiteral790C444BA220D44EBA124695B6EBF99FC824CE51;
 IL2CPP_EXTERN_C String_t* _stringLiteral7916CDFD764BC8A705CEF2DB666B9F68C8D57C83;
@@ -460,6 +464,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral9F83B79FE04D8230B58B48AF8C3D4D477F16C744
 IL2CPP_EXTERN_C String_t* _stringLiteralA09FE71AF44A838D15AFC320BA36642F70238EFB;
 IL2CPP_EXTERN_C String_t* _stringLiteralA12D9341A233B2215D9E0984F7D6838F291D0320;
 IL2CPP_EXTERN_C String_t* _stringLiteralA1364849962072D2AA04D65CCAE831A4743694CA;
+IL2CPP_EXTERN_C String_t* _stringLiteralA274ED2E6D8673116A56687FC4BB27880FC5CF78;
 IL2CPP_EXTERN_C String_t* _stringLiteralA2E2938CFD47E77F358099E5318A7208A763A1CB;
 IL2CPP_EXTERN_C String_t* _stringLiteralA4E668513A15EB4151CBE23EDE0CBFA16DA6F5F9;
 IL2CPP_EXTERN_C String_t* _stringLiteralA5DCBC76BFBDE5BFF053475E0A3813FD03AF59E4;
@@ -473,6 +478,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralACD94D9529A974B8AB117F75CB7BDC5FF65EAC73
 IL2CPP_EXTERN_C String_t* _stringLiteralAE55F30E88685CA6DF5BC1745C3C317EB4FA8659;
 IL2CPP_EXTERN_C String_t* _stringLiteralAFFEC09673956E7FE35BEB661F1FF2097B1F3CE4;
 IL2CPP_EXTERN_C String_t* _stringLiteralB33C570590D01CD13BA47BFC80847ACA70154AFF;
+IL2CPP_EXTERN_C String_t* _stringLiteralB7C45DD316C68ABF3429C20058C2981C652192F2;
 IL2CPP_EXTERN_C String_t* _stringLiteralB8BDCD28E40D848FF218A108022AEC2089B2C29F;
 IL2CPP_EXTERN_C String_t* _stringLiteralB8E5405A9426EC04D6504AFF191FFE47BE14BF4A;
 IL2CPP_EXTERN_C String_t* _stringLiteralBA9DD13718B41BDBFEDCB86C693590D663123AC9;
@@ -585,6 +591,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* Object_FindObjectsOfType_TisNotification_t9
 IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisNotification_t935ED056029A6F99D5AB2797AB3032EBD2F8A3F5_m05FB706634858027858C26CCBE185ADC43F99926_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* RewardedAds_ShowAd_m00075A364A5C3B33420AA9FC42F0A003759CE488_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CCO_AutoHideErrorMessageU3Ed__15_System_Collections_IEnumerator_Reset_m5DF5CEA03B1BCD600AF182C7F47C8C8F392A9B8E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CHoldTimerU3Ed__28_System_Collections_IEnumerator_Reset_mCDEECE3970679166BEE0C48BF63613E04CA5CB31_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CHoldTimerU3Ed__8_System_Collections_IEnumerator_Reset_mD3C43223B2D1E946A7181DDE3100E1D71320CCB8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CMultiActionsU3Ed__106_System_Collections_IEnumerator_Reset_mF2203DB85340B2C19213F94368E0EC1B6B445FB0_RuntimeMethod_var;
@@ -758,6 +765,12 @@ struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinv
 };
 struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
 {
+};
+struct U3CCO_AutoHideErrorMessageU3Ed__15_t986E3D34A538B856C60DB4C6A555901CEAED1FFA  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	BuyingManager_tD22F8B926357367E95C070293C80E047D5044805* ___U3CU3E4__this;
 };
 struct U3CHoldTimerU3Ed__8_tE8B73D4F58BD7A52CB2CDD7AB2E57670BBF2DFE8  : public RuntimeObject
 {
@@ -2181,6 +2194,17 @@ struct BannerAds_t3D93BE6D1D8F32F7F51356224F5DB9966AAC3443  : public MonoBehavio
 	String_t* ____iOSAdUnitId;
 	String_t* ____adUnitId;
 };
+struct BuyingManager_tD22F8B926357367E95C070293C80E047D5044805  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___shopWindow;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___errorMessage;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___noAdsButton;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___englishIcon;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___arabicIcon;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___noAdsIcon;
+	float ___messageShowDuration;
+	WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* ___messageShowWait;
+};
 struct ChangePresidentHoverInfo_t37D7CCF0FB7CD8B75377652C64261EA35BCAE823  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___info;
@@ -2302,6 +2326,7 @@ struct LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB  : public MonoB
 	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___englishIcon;
 	bool ___playerSelectedEndlessMode;
 	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___languageButton;
+	bool ___haveAds;
 	LocalizedElementU5BU5D_t41433ED19B2B1C9E13FC059C93FC542C362FEF9C* ___sceneElements;
 };
 struct LocalizedElement_t31B6B7FACE37B41C662F19C2B65AA5DA8BB36893  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
@@ -2900,6 +2925,10 @@ struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_StaticFields
 struct AdsManager_tE059594BE435B356831188671B794CDE032FC41B_StaticFields
 {
 	AdsManager_tE059594BE435B356831188671B794CDE032FC41B* ___Singleton;
+};
+struct BuyingManager_tD22F8B926357367E95C070293C80E047D5044805_StaticFields
+{
+	BuyingManager_tD22F8B926357367E95C070293C80E047D5044805* ___Singlton;
 };
 struct CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D_StaticFields
 {
@@ -3528,6 +3557,8 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_m1
 
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdsManager_InitializeSingleton_m4B90951F601B97CAEF4B823219C30D858A72C7E9 (AdsManager_tE059594BE435B356831188671B794CDE032FC41B* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdsManager_InitializeAds_mEDF4EF359D588DB111A6A8A675754D86BE2A53F9 (AdsManager_tE059594BE435B356831188671B794CDE032FC41B* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool LanguageManager_get_HaveAds_mFE8BF6FBCF9B2377FC1F7FED70EBCA088742F967_inline (LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdsManager_OnBuyAds_m9191B38F9A8C87FAE17629DA76F44199C880D9F8 (AdsManager_tE059594BE435B356831188671B794CDE032FC41B* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_DontDestroyOnLoad_m4B70C3AEF886C176543D1295507B6455C9DCAEA7 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_target, const RuntimeMethod* method) ;
@@ -3535,6 +3566,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_DestroyImmediate_m6336EBC83591A5D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Advertisement_get_isInitialized_m91E4922DA136C2D13868A1B8F4BDC5CDEFBA6284 (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Advertisement_get_isSupported_mB5C493696A3AF825A4CB2EDD59433E41E9F270A9 (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Advertisement_Initialize_mA83C553537C87F2C2B12FCBAE4B9EB75EC9DA343 (String_t* ___0_gameId, bool ___1_testMode, RuntimeObject* ___2_initializationListener, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741 (RuntimeObject* __this, const RuntimeMethod* method) ;
@@ -3763,16 +3795,24 @@ inline void List_1_Clear_m0586B319F89682059DD157C1EDC282A2888ECB9B_inline (List_
 	((  void (*) (List_1_t1FDED00FA37F39564E09D01CFDF33C22BCF5C8A7*, const RuntimeMethod*))List_1_Clear_m0586B319F89682059DD157C1EDC282A2888ECB9B_gshared_inline)(__this, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_CreateString_mFBC28D2E3EB87D497F7E702E4FFAD65F635E44DF (String_t* __this, CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___0_val, const RuntimeMethod* method) ;
+inline Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* GameObject_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mA59EA7D5F9133B2593F4AB70B099928BA955EE7D (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
+}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, bool ___0_value, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ChangePresidentHoverInfo_HoldTimer_m38ADF459F253E26B0C19969114D531D7D48F8F37 (ChangePresidentHoverInfo_t37D7CCF0FB7CD8B75377652C64261EA35BCAE823* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* __this, float ___0_seconds, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Image_set_sprite_mC0C248340BA27AAEE56855A3FAFA0D8CA12956DE (Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* __this, Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812 (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, RuntimeObject* ___0_routine, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageManager_BuyNoAds_m25F8AE4FC9D4556AC87A0755F3F6310AF54F9A9E (LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCO_AutoHideErrorMessageU3Ed__15__ctor_m2454F91F031AD5EBD13EDF71993375FCC0890395 (U3CCO_AutoHideErrorMessageU3Ed__15_t986E3D34A538B856C60DB4C6A555901CEAED1FFA* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ChangePresidentHoverInfo_HoldTimer_m38ADF459F253E26B0C19969114D531D7D48F8F37 (ChangePresidentHoverInfo_t37D7CCF0FB7CD8B75377652C64261EA35BCAE823* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___0_routine, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChangePresidentHoverInfo_ShowInfo_m93D110DD8503D4FA80B956C520C0720B3A9C1515 (ChangePresidentHoverInfo_t37D7CCF0FB7CD8B75377652C64261EA35BCAE823* __this, bool ___0_show, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChangePresidentHoverInfo_LaunchAction_m74F32B94014069FA5C2A1435A4E26804986A2108 (ChangePresidentHoverInfo_t37D7CCF0FB7CD8B75377652C64261EA35BCAE823* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHoldTimerU3Ed__8__ctor_mB1093816E98819E9954133067B1BDB87F3F7B481 (U3CHoldTimerU3Ed__8_tE8B73D4F58BD7A52CB2CDD7AB2E57670BBF2DFE8* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CountryManager_ElectionInstanatie_m4AD7B0F4C14878FC5F95605A9B7F25D3DCB7265D (CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* __this, float ___0_seconds, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF (ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GameObject_FindGameObjectWithTag_mF0229BC2074CE9EEA72FAB1E5A4BC2AEC3D2CDBE (String_t* ___0_tag, const RuntimeMethod* method) ;
 inline Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* GameObject_GetComponent_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_mBE6B722369FF149589D3D42A6A8435A9C5045B3F (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
@@ -3827,7 +3867,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CountryManager_ReverseMoneyTranslate_mA
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t LanguageManager_get_GetSelectedLanguag_m1D04CE7312456234B62E020A01D8859D04FC4104_inline (LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Substring_m6BA4A3FA3800FE92662D0847CC8E1EEF940DF472 (String_t* __this, int32_t ___0_startIndex, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GameObject_get_gameObject_m0878015B8CF7F5D432B583C187725810D27B57DC (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionFunction__ctor_mA603D7EF948D7839013DF9065B9854F21124DFD5 (ActionFunction_tFFF6C4B351C4B2D2426FF5A40033E1CEE8530B5F* __this, String_t* ___0__name, String_t* ___1__arabicName, String_t* ___2__done, String_t* ___3__arabic, int32_t ___4__power, int32_t ___5__peoplSatsfaction, int32_t ___6__time, float ___7__money, bool ___8__monthly, const RuntimeMethod* method) ;
 inline ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF* Component_GetComponentsInChildren_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_m9D6A1A9F3E8724B2D2697E023F359FD37A015744 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
 {
@@ -3841,10 +3880,6 @@ inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Object_Instantiate_
 	return ((  GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*, const RuntimeMethod*))Object_Instantiate_TisRuntimeObject_m75BF3B0A3747B60491845FA41612FE7F795F0A59_gshared)(___0_original, ___1_parent, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331 (float ___0_value, const RuntimeMethod* method) ;
-inline Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* GameObject_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mA59EA7D5F9133B2593F4AB70B099928BA955EE7D (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
-{
-	return ((  Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
-}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void President__ctor_m77C46AF23EC3193A91813D92EEDDD788D47E3163 (President_tF60BEE19B17ABF73663229ADBC0DF73D8E292E6D* __this, String_t* ___0_name, int32_t ___1_power, int32_t ___2_peoplSatsfaction, float ___3_money, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Party_sources_m9371B2571D77B80DB3ED75EBB4FDEDB1F165693A (Party_t7374673D480CEB3A24962AFD06297A4A50EE5A4A* __this, const RuntimeMethod* method) ;
 inline ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF* GameObject_GetComponentsInChildren_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mCF3C8C4A420AA9EDEE7C1CEECB88280D2A79BC9C (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
@@ -3869,7 +3904,6 @@ inline CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D* Component_GetCo
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Country_Info_Info_m6B55646E8D5D414F4640D15095459CE99A3E3113 (Country_Info_t246C74635E2F45525596CB92E3353E784444B1FB* __this, Party_t7374673D480CEB3A24962AFD06297A4A50EE5A4A* ___0_party, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, const RuntimeMethod* method) ;
 inline CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* GameObject_AddComponent_TisCanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094_m1C004B58918BA839B892637D46D95AF04D69DADA (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
 {
 	return ((  CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared)(__this, method);
@@ -3917,6 +3951,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tutorial_Next_mCBBC814E25D897E257E9D9DD3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventCallback__ctor_m0C358CC5B37B1EB2EE5A73D36468ADD4C2B19ACE (EventCallback_tC131EB7ACC070D9F34CFD326C871BE0753542992* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Event_Post_m095FC849127FC17B357B78636299F97726D9F344 (Event_t2B42414E1D18C2E1AEAC856D029957F72EFF2E4E* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_gameObject, uint32_t ___1_flags, EventCallback_tC131EB7ACC070D9F34CFD326C871BE0753542992* ___2_callback, RuntimeObject* ___3_cookie, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* PlayerPrefs_GetString_mE80FED64ACC3134149C8202FDDDE774C29CB0AF2 (String_t* ___0_key, String_t* ___1_defaultValue, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256 (String_t* ___0_key, String_t* ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_OnNoAdsBuying_m01B644255150BDE3B5023B5C64E4B038B12FC3AC (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageManager_SetLanguage_mE7429E9D5202DEB196BBA76C1DC3D2186972EFC8 (LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB* __this, int32_t ___0_language, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageManager_CacheSceneElements_mB7F776DE8020C4867BFA296EA1ED90081643BB2E (LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB* __this, const RuntimeMethod* method) ;
 inline void UnityAction_2__ctor_m0E0C01B7056EB1CB1E6C6F4FC457EBCA3F6B0041 (UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
@@ -3930,7 +3967,6 @@ inline Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* GameObject_GetComponent
 {
 	return ((  Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Image_set_sprite_mC0C248340BA27AAEE56855A3FAFA0D8CA12956DE (Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* __this, Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___0_value, const RuntimeMethod* method) ;
 inline LocalizedElementU5BU5D_t41433ED19B2B1C9E13FC059C93FC542C362FEF9C* Object_FindObjectsOfType_TisLocalizedElement_t31B6B7FACE37B41C662F19C2B65AA5DA8BB36893_mD714E3484F7169A94557ACFF267EF70BC7F074E9 (const RuntimeMethod* method)
 {
 	return ((  LocalizedElementU5BU5D_t41433ED19B2B1C9E13FC059C93FC542C362FEF9C* (*) (const RuntimeMethod*))Object_FindObjectsOfType_TisRuntimeObject_m0B4DF4B8AB4C71E0F471BC9D0440B40844DA221D_gshared)(method);
@@ -3944,9 +3980,7 @@ inline NotificationU5BU5D_tB31493DD9A2A92F64EEDE448C1A878B2807B9AF9* Object_Find
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Notification_ChangeLanguage_m20BF4D041246B9037AF94EDE019C4AD376195FBB (Notification_t935ED056029A6F99D5AB2797AB3032EBD2F8A3F5* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tutorial_OnLanguageChanged_m5AFCF04C4C0E14EEC8C22849BECC86E1A8180058 (Tutorial_t4FF9FF1EF6F8E11558052253ECFBB53EC9AA41D4* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour_print_m9E6FF71C673B651F35DD418C293CFC50C46803B6 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256 (String_t* ___0_key, String_t* ___1_value, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BuyingManager_ToggleLanguage_m95D1F529A2030BC15753ED1F0C4636CFFABC77D6 (BuyingManager_tD22F8B926357367E95C070293C80E047D5044805* __this, int32_t ___0_selectedLanguage, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_LoadScene_m0957E62F2A0A0243C79394E5B74E8EFA86BE5ED1 (int32_t ___0_sceneBuildIndex, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizedElement_Assign_m6962915F183921D21318B5126E43B390BC201BDD (LocalizedElement_t31B6B7FACE37B41C662F19C2B65AA5DA8BB36893* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Material_set_color_m5C32DEBB215FF9EE35E7B575297D8C2F29CC2A2D (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_value, const RuntimeMethod* method) ;
@@ -3982,7 +4016,7 @@ inline void List_1_AddWithResize_m11185A14288763FB9A0FF8111453AC739E76CF35 (List
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 16886
+// Method Definition Index: 33757
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdsManager_Awake_m41E841D8C091F00F7AB09B5403D9C3BD4BED7EBB (AdsManager_tE059594BE435B356831188671B794CDE032FC41B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3994,7 +4028,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdsManager_Awake_m41E841D8C091F00F7AB09B
 		return;
 	}
 }
-// Method Definition Index: 16887
+// Method Definition Index: 33758
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdsManager_Start_m00CAFF84B03355B41A941006E80DB2F1D49E3EF3 (AdsManager_tE059594BE435B356831188671B794CDE032FC41B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/AdsManager.cs:20>
+		LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB* L_0 = ((LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB_StaticFields*)il2cpp_codegen_static_fields_for(LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB_il2cpp_TypeInfo_var))->___Singlton;
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = LanguageManager_get_HaveAds_mFE8BF6FBCF9B2377FC1F7FED70EBCA088742F967_inline(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/AdsManager.cs:20>
+		return;
+	}
+
+IL_000d:
+	{
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/AdsManager.cs:21>
+		AdsManager_OnBuyAds_m9191B38F9A8C87FAE17629DA76F44199C880D9F8(__this, NULL);
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/AdsManager.cs:22>
+		return;
+	}
+}
+// Method Definition Index: 33759
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdsManager_InitializeSingleton_m4B90951F601B97CAEF4B823219C30D858A72C7E9 (AdsManager_tE059594BE435B356831188671B794CDE032FC41B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4005,7 +4072,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdsManager_InitializeSingleton_m4B90951F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/AdsManager.cs:20>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/AdsManager.cs:25>
 		AdsManager_tE059594BE435B356831188671B794CDE032FC41B* L_0 = ((AdsManager_tE059594BE435B356831188671B794CDE032FC41B_StaticFields*)il2cpp_codegen_static_fields_for(AdsManager_tE059594BE435B356831188671B794CDE032FC41B_il2cpp_TypeInfo_var))->___Singleton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -4016,10 +4083,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdsManager_InitializeSingleton_m4B90951F
 		}
 	}
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/AdsManager.cs:22>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/AdsManager.cs:27>
 		((AdsManager_tE059594BE435B356831188671B794CDE032FC41B_StaticFields*)il2cpp_codegen_static_fields_for(AdsManager_tE059594BE435B356831188671B794CDE032FC41B_il2cpp_TypeInfo_var))->___Singleton = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&((AdsManager_tE059594BE435B356831188671B794CDE032FC41B_StaticFields*)il2cpp_codegen_static_fields_for(AdsManager_tE059594BE435B356831188671B794CDE032FC41B_il2cpp_TypeInfo_var))->___Singleton), (void*)__this);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/AdsManager.cs:23>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/AdsManager.cs:28>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
 		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -4029,16 +4096,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdsManager_InitializeSingleton_m4B90951F
 
 IL_001f:
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/AdsManager.cs:26>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/AdsManager.cs:31>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
 		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(L_3, NULL);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/AdsManager.cs:27>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/AdsManager.cs:32>
 		return;
 	}
 }
-// Method Definition Index: 16888
+// Method Definition Index: 33760
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdsManager_InitializeAds_mEDF4EF359D588DB111A6A8A675754D86BE2A53F9 (AdsManager_tE059594BE435B356831188671B794CDE032FC41B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4048,7 +4115,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdsManager_InitializeAds_mEDF4EF359D588D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/AdsManager.cs:31>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/AdsManager.cs:36>
 		il2cpp_codegen_runtime_class_init_inline(Advertisement_tA24B0B700823049F9FFF77F4D46E4F4599671EC5_il2cpp_TypeInfo_var);
 		bool L_0;
 		L_0 = Advertisement_get_isInitialized_m91E4922DA136C2D13868A1B8F4BDC5CDEFBA6284(NULL);
@@ -4058,17 +4125,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdsManager_InitializeAds_mEDF4EF359D588D
 		}
 	}
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/AdsManager.cs:31>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/AdsManager.cs:36>
 		__this->___AdReady = (bool)1;
 	}
 
 IL_000e:
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/AdsManager.cs:35>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/AdsManager.cs:40>
 		String_t* L_1 = __this->____androidGameId;
 		__this->____gameId = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____gameId), (void*)L_1);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/AdsManager.cs:39>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/AdsManager.cs:44>
 		il2cpp_codegen_runtime_class_init_inline(Advertisement_tA24B0B700823049F9FFF77F4D46E4F4599671EC5_il2cpp_TypeInfo_var);
 		bool L_2;
 		L_2 = Advertisement_get_isInitialized_m91E4922DA136C2D13868A1B8F4BDC5CDEFBA6284(NULL);
@@ -4087,7 +4154,7 @@ IL_000e:
 		}
 	}
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/AdsManager.cs:41>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/AdsManager.cs:46>
 		String_t* L_4 = __this->____gameId;
 		bool L_5 = __this->____testMode;
 		il2cpp_codegen_runtime_class_init_inline(Advertisement_tA24B0B700823049F9FFF77F4D46E4F4599671EC5_il2cpp_TypeInfo_var);
@@ -4096,11 +4163,30 @@ IL_000e:
 
 IL_003a:
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/AdsManager.cs:43>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/AdsManager.cs:48>
 		return;
 	}
 }
-// Method Definition Index: 16889
+// Method Definition Index: 33761
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdsManager_OnBuyAds_m9191B38F9A8C87FAE17629DA76F44199C880D9F8 (AdsManager_tE059594BE435B356831188671B794CDE032FC41B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/AdsManager.cs:52>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
+		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_0, NULL);
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/AdsManager.cs:53>
+		return;
+	}
+}
+// Method Definition Index: 33762
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdsManager_OnInitializationComplete_m35165495C51A2EA49EE6D10F6E03015D15C784EC (AdsManager_tE059594BE435B356831188671B794CDE032FC41B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4113,10 +4199,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdsManager_OnInitializationComplete_m351
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B2_0 = NULL;
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B1_0 = NULL;
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/AdsManager.cs:48>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/AdsManager.cs:56>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral6AC83B16A16E7A6F6CCAD22E41FB93F9AE1BC676, NULL);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/AdsManager.cs:49>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/AdsManager.cs:57>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = __this->___OnAdsInitialized;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = L_0;
 		if (L_1)
@@ -4138,13 +4224,13 @@ IL_0016:
 
 IL_001b:
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/AdsManager.cs:50>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/AdsManager.cs:58>
 		__this->___AdReady = (bool)1;
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/AdsManager.cs:51>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/AdsManager.cs:59>
 		return;
 	}
 }
-// Method Definition Index: 16890
+// Method Definition Index: 33763
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdsManager_OnInitializationFailed_mE51637042ED5987F4F18FFDF73D89BAA50A5A52C (AdsManager_tE059594BE435B356831188671B794CDE032FC41B* __this, int32_t ___0_error, String_t* ___1_message, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4157,7 +4243,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdsManager_OnInitializationFailed_mE5163
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/AdsManager.cs:55>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/AdsManager.cs:63>
 		Il2CppFakeBox<int32_t> L_0(UnityAdsInitializationError_t7710E0659C1D799AD891D1B8B173C43A8F61A2E6_il2cpp_TypeInfo_var, (&___0_error));
 		String_t* L_1;
 		L_1 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_0), NULL);
@@ -4166,13 +4252,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdsManager_OnInitializationFailed_mE5163
 		L_3 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteralF98106D655FE006622287D39C1E55DD9F0B0D259, L_1, _stringLiteral960E5E7F211EFF3243DF14EDD1901DC9EF314D62, L_2, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_3, NULL);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/AdsManager.cs:56>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/AdsManager.cs:64>
 		AdsManager_InitializeAds_mEDF4EF359D588DB111A6A8A675754D86BE2A53F9(__this, NULL);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/AdsManager.cs:57>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/AdsManager.cs:65>
 		return;
 	}
 }
-// Method Definition Index: 16891
+// Method Definition Index: 33764
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdsManager__ctor_m6A4EB92F72E9B7F28CC4E62F87F54F89CBAD6B3C (AdsManager_tE059594BE435B356831188671B794CDE032FC41B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4190,7 +4276,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdsManager__ctor_m6A4EB92F72E9B7F28CC4E6
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 16892
+// Method Definition Index: 33765
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BannerAds_Start_m11A10D50A82550293D069218D13F0C5C14822604 (BannerAds_t3D93BE6D1D8F32F7F51356224F5DB9966AAC3443* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4199,6 +4285,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BannerAds_Start_m11A10D50A82550293D06921
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdsManager_tE059594BE435B356831188671B794CDE032FC41B_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BannerAds_LaunchBanner_m7CE83E755D65FBDA1688C0A181F19513DD4CD7FA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
@@ -4206,23 +4293,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BannerAds_Start_m11A10D50A82550293D06921
 		String_t* L_0 = __this->____androidAdUnitId;
 		__this->____adUnitId = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____adUnitId), (void*)L_0);
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/BannerAds.cs:21>
+		LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB* L_1 = ((LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB_StaticFields*)il2cpp_codegen_static_fields_for(LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB_il2cpp_TypeInfo_var))->___Singlton;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = LanguageManager_get_HaveAds_mFE8BF6FBCF9B2377FC1F7FED70EBCA088742F967_inline(L_1, NULL);
+		if (L_2)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/BannerAds.cs:21>
+		return;
+	}
+
+IL_0019:
+	{
 		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/BannerAds.cs:22>
-		AdsManager_tE059594BE435B356831188671B794CDE032FC41B* L_1 = ((AdsManager_tE059594BE435B356831188671B794CDE032FC41B_StaticFields*)il2cpp_codegen_static_fields_for(AdsManager_tE059594BE435B356831188671B794CDE032FC41B_il2cpp_TypeInfo_var))->___Singleton;
-		AdsManager_tE059594BE435B356831188671B794CDE032FC41B* L_2 = L_1;
-		NullCheck(L_2);
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = L_2->___OnAdsInitialized;
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_4 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
-		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_4, __this, (intptr_t)((void*)BannerAds_LaunchBanner_m7CE83E755D65FBDA1688C0A181F19513DD4CD7FA_RuntimeMethod_var), NULL);
-		Delegate_t* L_5;
-		L_5 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_3, L_4, NULL);
-		NullCheck(L_2);
-		L_2->___OnAdsInitialized = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_5, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&L_2->___OnAdsInitialized), (void*)((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_5, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var)));
+		AdsManager_tE059594BE435B356831188671B794CDE032FC41B* L_3 = ((AdsManager_tE059594BE435B356831188671B794CDE032FC41B_StaticFields*)il2cpp_codegen_static_fields_for(AdsManager_tE059594BE435B356831188671B794CDE032FC41B_il2cpp_TypeInfo_var))->___Singleton;
+		AdsManager_tE059594BE435B356831188671B794CDE032FC41B* L_4 = L_3;
+		NullCheck(L_4);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_5 = L_4->___OnAdsInitialized;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_6, __this, (intptr_t)((void*)BannerAds_LaunchBanner_m7CE83E755D65FBDA1688C0A181F19513DD4CD7FA_RuntimeMethod_var), NULL);
+		Delegate_t* L_7;
+		L_7 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_5, L_6, NULL);
+		NullCheck(L_4);
+		L_4->___OnAdsInitialized = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_7, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&L_4->___OnAdsInitialized), (void*)((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_7, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var)));
 		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Ads/Ads/BannerAds.cs:23>
 		return;
 	}
 }
-// Method Definition Index: 16893
+// Method Definition Index: 33766
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BannerAds_LaunchBanner_m7CE83E755D65FBDA1688C0A181F19513DD4CD7FA (BannerAds_t3D93BE6D1D8F32F7F51356224F5DB9966AAC3443* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4235,7 +4339,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BannerAds_LaunchBanner_m7CE83E755D65FBDA
 		return;
 	}
 }
-// Method Definition Index: 16894
+// Method Definition Index: 33767
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BannerAds_LoadBanner_m0A892AE052382AD11209D17600C8D9602C38F983 (BannerAds_t3D93BE6D1D8F32F7F51356224F5DB9966AAC3443* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4276,7 +4380,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BannerAds_LoadBanner_m0A892AE052382AD112
 		return;
 	}
 }
-// Method Definition Index: 16895
+// Method Definition Index: 33768
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BannerAds_OnBannerLoaded_m618C861793B460600571112CFE9F7FAC74DC1910 (BannerAds_t3D93BE6D1D8F32F7F51356224F5DB9966AAC3443* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4296,7 +4400,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BannerAds_OnBannerLoaded_m618C861793B460
 		return;
 	}
 }
-// Method Definition Index: 16896
+// Method Definition Index: 33769
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BannerAds_OnBannerError_mB666D9703EF4345FFAF6BCC0C9D61832FE69B467 (BannerAds_t3D93BE6D1D8F32F7F51356224F5DB9966AAC3443* __this, String_t* ___0_message, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4317,7 +4421,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BannerAds_OnBannerError_mB666D9703EF4345
 		return;
 	}
 }
-// Method Definition Index: 16897
+// Method Definition Index: 33770
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BannerAds_ShowBannerAd_mA8025A8943F3D68750FF2DA26E29F7596C83AB8D (BannerAds_t3D93BE6D1D8F32F7F51356224F5DB9966AAC3443* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4364,7 +4468,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BannerAds_ShowBannerAd_mA8025A8943F3D687
 		return;
 	}
 }
-// Method Definition Index: 16898
+// Method Definition Index: 33771
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BannerAds_HideBannerAd_m47352946AAEF6CEC21A5A9322C27135F82854468 (BannerAds_t3D93BE6D1D8F32F7F51356224F5DB9966AAC3443* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4374,7 +4478,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BannerAds_HideBannerAd_m47352946AAEF6CEC
 		return;
 	}
 }
-// Method Definition Index: 16899
+// Method Definition Index: 33772
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BannerAds_OnBannerClicked_m5A9D90EDDFC4FE9EA5EFD56AB4FE39E3A175DEC5 (BannerAds_t3D93BE6D1D8F32F7F51356224F5DB9966AAC3443* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4382,7 +4486,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BannerAds_OnBannerClicked_m5A9D90EDDFC4F
 		return;
 	}
 }
-// Method Definition Index: 16900
+// Method Definition Index: 33773
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BannerAds_OnBannerShown_mB6F887384A77C289D6F9C3ACF01BAE508D55AD47 (BannerAds_t3D93BE6D1D8F32F7F51356224F5DB9966AAC3443* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4390,7 +4494,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BannerAds_OnBannerShown_mB6F887384A77C28
 		return;
 	}
 }
-// Method Definition Index: 16901
+// Method Definition Index: 33774
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BannerAds_OnBannerHidden_mAE79399E0D4151EFD25B43EBB3CD504F2BCAB517 (BannerAds_t3D93BE6D1D8F32F7F51356224F5DB9966AAC3443* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4398,7 +4502,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BannerAds_OnBannerHidden_mAE79399E0D4151
 		return;
 	}
 }
-// Method Definition Index: 16902
+// Method Definition Index: 33775
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BannerAds__ctor_mEB57921520C50C3AB313D267FAEF5C09951E59B5 (BannerAds_t3D93BE6D1D8F32F7F51356224F5DB9966AAC3443* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4429,7 +4533,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BannerAds__ctor_mEB57921520C50C3AB313D26
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 16903
+// Method Definition Index: 33776
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialAds_Awake_m5F00E0DC2478380B06DAA31CE4AE02129394DFB1 (InterstitialAds_tBA5E7C80BBFE70D9C3F902E7677776A4299401B9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4481,7 +4585,7 @@ IL_001d:
 		return;
 	}
 }
-// Method Definition Index: 16904
+// Method Definition Index: 33777
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialAds_InitializeSingleton_m8A0C2F2B4482B071C54FE4580C27625D0529DE49 (InterstitialAds_tBA5E7C80BBFE70D9C3F902E7677776A4299401B9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4520,7 +4624,7 @@ IL_0014:
 		return;
 	}
 }
-// Method Definition Index: 16905
+// Method Definition Index: 33778
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialAds_LoadAd_m67F348FD34C462C6633963450E3E69F22F002283 (InterstitialAds_tBA5E7C80BBFE70D9C3F902E7677776A4299401B9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4563,7 +4667,7 @@ IL_0034:
 		return;
 	}
 }
-// Method Definition Index: 16906
+// Method Definition Index: 33779
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialAds_ShowAd_mEB24E644FC8AF6D01A93E02DC8BD02FCDE91D490 (InterstitialAds_tBA5E7C80BBFE70D9C3F902E7677776A4299401B9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4601,7 +4705,7 @@ IL_0029:
 		return;
 	}
 }
-// Method Definition Index: 16907
+// Method Definition Index: 33780
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialAds_OnUnityAdsAdLoaded_m088C1B467EC78B30881E2D01E1FE18EBB6E32A13 (InterstitialAds_tBA5E7C80BBFE70D9C3F902E7677776A4299401B9* __this, String_t* ___0_adUnitId, const RuntimeMethod* method) 
 {
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B2_0 = NULL;
@@ -4631,7 +4735,7 @@ IL_0012:
 		return;
 	}
 }
-// Method Definition Index: 16908
+// Method Definition Index: 33781
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialAds_OnUnityAdsFailedToLoad_mF8F2ACD38F2E26048596215DE34916560F8B4B04 (InterstitialAds_tBA5E7C80BBFE70D9C3F902E7677776A4299401B9* __this, String_t* ___0__adUnitId, int32_t ___1_error, String_t* ___2_message, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4698,7 +4802,7 @@ IL_004b:
 		return;
 	}
 }
-// Method Definition Index: 16909
+// Method Definition Index: 33782
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialAds_OnUnityAdsShowFailure_m97BD2885CAC5EDFACBEA7C10EF84AD4BDA33AB56 (InterstitialAds_tBA5E7C80BBFE70D9C3F902E7677776A4299401B9* __this, String_t* ___0__adUnitId, int32_t ___1_error, String_t* ___2_message, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4746,7 +4850,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialAds_OnUnityAdsShowFailure_m9
 		return;
 	}
 }
-// Method Definition Index: 16910
+// Method Definition Index: 33783
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialAds_OnUnityAdsShowStart_m12DCBF7E9EF81BEB064861EF8E0F29008A1B3D63 (InterstitialAds_tBA5E7C80BBFE70D9C3F902E7677776A4299401B9* __this, String_t* ___0__adUnitId, const RuntimeMethod* method) 
 {
 	{
@@ -4754,7 +4858,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialAds_OnUnityAdsShowStart_m12D
 		return;
 	}
 }
-// Method Definition Index: 16911
+// Method Definition Index: 33784
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialAds_OnUnityAdsShowClick_m3556B2D88E67D81606223A8A3FF24E27AF42FDDB (InterstitialAds_tBA5E7C80BBFE70D9C3F902E7677776A4299401B9* __this, String_t* ___0__adUnitId, const RuntimeMethod* method) 
 {
 	{
@@ -4762,7 +4866,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialAds_OnUnityAdsShowClick_m355
 		return;
 	}
 }
-// Method Definition Index: 16912
+// Method Definition Index: 33785
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialAds_OnUnityAdsShowComplete_mA2D0DE10A159F9B78231F924844CE0552177BB49 (InterstitialAds_tBA5E7C80BBFE70D9C3F902E7677776A4299401B9* __this, String_t* ___0__adUnitId, int32_t ___1_showCompletionState, const RuntimeMethod* method) 
 {
 	{
@@ -4772,7 +4876,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialAds_OnUnityAdsShowComplete_m
 		return;
 	}
 }
-// Method Definition Index: 16913
+// Method Definition Index: 33786
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialAds__ctor_mD9070CCFDDB37CADB08E2150095A562C8C7D16D4 (InterstitialAds_tBA5E7C80BBFE70D9C3F902E7677776A4299401B9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4801,7 +4905,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialAds__ctor_mD9070CCFDDB37CADB
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 16914
+// Method Definition Index: 33787
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedAds_Awake_m111551E179B6D0CE3A365308A46E1CF7D9A15BB8 (RewardedAds_t7F74D09745A051C264622A5A433E3ECD766ED739* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4817,7 +4921,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedAds_Awake_m111551E179B6D0CE3A365
 		return;
 	}
 }
-// Method Definition Index: 16915
+// Method Definition Index: 33788
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedAds_Update_m2C3B7FD4F7A272534092071B57F274CABC562FC8 (RewardedAds_t7F74D09745A051C264622A5A433E3ECD766ED739* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4840,7 +4944,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 16916
+// Method Definition Index: 33789
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedAds_LoadAd_m93C4321A2DE950B70E7FBAC28AE138436B9AD75C (RewardedAds_t7F74D09745A051C264622A5A433E3ECD766ED739* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4866,7 +4970,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedAds_LoadAd_m93C4321A2DE950B70E7F
 		return;
 	}
 }
-// Method Definition Index: 16917
+// Method Definition Index: 33790
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedAds_OnUnityAdsAdLoaded_mF3D8804E9D5118DDC324E68A013F6E33838DE8A5 (RewardedAds_t7F74D09745A051C264622A5A433E3ECD766ED739* __this, String_t* ___0_adUnitId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4918,7 +5022,7 @@ IL_0046:
 		return;
 	}
 }
-// Method Definition Index: 16918
+// Method Definition Index: 33791
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedAds_ShowAd_m00075A364A5C3B33420AA9FC42F0A003759CE488 (RewardedAds_t7F74D09745A051C264622A5A433E3ECD766ED739* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4940,7 +5044,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedAds_ShowAd_m00075A364A5C3B33420A
 		return;
 	}
 }
-// Method Definition Index: 16919
+// Method Definition Index: 33792
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedAds_OnUnityAdsShowComplete_m6F59CED339A2C7958D308D42CA9AA00A0BCE9775 (RewardedAds_t7F74D09745A051C264622A5A433E3ECD766ED739* __this, String_t* ___0_adUnitId, int32_t ___1_showCompletionState, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4986,7 +5090,7 @@ IL_002d:
 		return;
 	}
 }
-// Method Definition Index: 16920
+// Method Definition Index: 33793
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedAds_OnUnityAdsFailedToLoad_mBFBD1EEFBEF5571829E6F6AB81DD3347C86ACA06 (RewardedAds_t7F74D09745A051C264622A5A433E3ECD766ED739* __this, String_t* ___0_adUnitId, int32_t ___1_error, String_t* ___2_message, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5034,7 +5138,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedAds_OnUnityAdsFailedToLoad_mBFBD
 		return;
 	}
 }
-// Method Definition Index: 16921
+// Method Definition Index: 33794
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedAds_OnUnityAdsShowFailure_m06A3AD08A40DBD80BB4A7E88D058E4ADD44370E3 (RewardedAds_t7F74D09745A051C264622A5A433E3ECD766ED739* __this, String_t* ___0_adUnitId, int32_t ___1_error, String_t* ___2_message, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5082,7 +5186,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedAds_OnUnityAdsShowFailure_m06A3A
 		return;
 	}
 }
-// Method Definition Index: 16922
+// Method Definition Index: 33795
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedAds_OnUnityAdsShowStart_m51C15C799F407B00D9B541DB86803BC219B452FF (RewardedAds_t7F74D09745A051C264622A5A433E3ECD766ED739* __this, String_t* ___0_adUnitId, const RuntimeMethod* method) 
 {
 	{
@@ -5090,7 +5194,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedAds_OnUnityAdsShowStart_m51C15C7
 		return;
 	}
 }
-// Method Definition Index: 16923
+// Method Definition Index: 33796
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedAds_OnUnityAdsShowClick_mB9013EFB3ABF3D38C74544FBC4A169F7A7F71A80 (RewardedAds_t7F74D09745A051C264622A5A433E3ECD766ED739* __this, String_t* ___0_adUnitId, const RuntimeMethod* method) 
 {
 	{
@@ -5098,7 +5202,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedAds_OnUnityAdsShowClick_mB9013EF
 		return;
 	}
 }
-// Method Definition Index: 16924
+// Method Definition Index: 33797
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedAds_OnDestroy_mE5D9F06942423696AA06E9F9C96DEF0221C8FFF9 (RewardedAds_t7F74D09745A051C264622A5A433E3ECD766ED739* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5113,7 +5217,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedAds_OnDestroy_mE5D9F06942423696A
 		return;
 	}
 }
-// Method Definition Index: 16925
+// Method Definition Index: 33798
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedAds__ctor_m5ED0C7783AC86EB14C172A82481F0231F71DB2A8 (RewardedAds_t7F74D09745A051C264622A5A433E3ECD766ED739* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5142,7 +5246,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedAds__ctor_m5ED0C7783AC86EB14C172
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 16926
+// Method Definition Index: 33799
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChangeTextFromScript_ChangeText_mAF5F1F8F2A0487C97F789ABA30B5F69128EA98C3 (ChangeTextFromScript_t58E604B1522C82708B4894C7A00B56C5F4C25F56* __this, TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* ___0_input, const RuntimeMethod* method) 
 {
 	{
@@ -5159,7 +5263,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChangeTextFromScript_ChangeText_mAF5F1F8
 		return;
 	}
 }
-// Method Definition Index: 16927
+// Method Definition Index: 33800
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChangeTextFromScript__ctor_mB12B068FF852A12614A35CFA95BC1DD362C48288 (ChangeTextFromScript_t58E604B1522C82708B4894C7A00B56C5F4C25F56* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5175,7 +5279,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChangeTextFromScript__ctor_mB12B068FF852
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 16928
+// Method Definition Index: 33801
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArabicFixer_Awake_m77132B6085C9E5B667F77F43BD05D126C6065ED5 (ArabicFixer_t59707E834C0F564CB8CAE152FA4244E5C32D063F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5199,7 +5303,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArabicFixer_Awake_m77132B6085C9E5B667F77
 		return;
 	}
 }
-// Method Definition Index: 16929
+// Method Definition Index: 33802
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArabicFixer_Start_m3AE889B81A2A3251E70EE3440953E3E11953E886 (ArabicFixer_t59707E834C0F564CB8CAE152FA4244E5C32D063F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5239,7 +5343,7 @@ IL_0025:
 		return;
 	}
 }
-// Method Definition Index: 16930
+// Method Definition Index: 33803
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArabicFixer_GetRectTransformParents_m739E5D398459FD4BF9740F296E211E8873C4CB8E (ArabicFixer_t59707E834C0F564CB8CAE152FA4244E5C32D063F* __this, List_1_t5ED555E220A2C0CA4F1CC393401AF0D7BA5B456B* ___0_rectTransforms, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5325,7 +5429,7 @@ IL_0036:
 		return;
 	}
 }
-// Method Definition Index: 16931
+// Method Definition Index: 33804
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ArabicFixer_CheckRectTransformParentsIfChanged_m64342F9C2DD465FAD07F1ECF961EDC78B6059547 (ArabicFixer_t59707E834C0F564CB8CAE152FA4244E5C32D063F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5390,7 +5494,7 @@ IL_0030:
 		return L_12;
 	}
 }
-// Method Definition Index: 16932
+// Method Definition Index: 33805
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArabicFixer_Update_m2CE1090D071C912A38D28DE783C62751876496B9 (ArabicFixer_t59707E834C0F564CB8CAE152FA4244E5C32D063F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5531,7 +5635,7 @@ IL_0089:
 		return;
 	}
 }
-// Method Definition Index: 16933
+// Method Definition Index: 33806
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArabicFixer_FixTextForUI_mE6AA9288BEAC7B9A9C5CBE3861522185D8FD2CC4 (ArabicFixer_t59707E834C0F564CB8CAE152FA4244E5C32D063F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5775,7 +5879,7 @@ IL_0183:
 		return;
 	}
 }
-// Method Definition Index: 16934
+// Method Definition Index: 33807
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArabicFixer__ctor_m97F288DD283BB8774A0D9019F55B706D53DECE12 (ArabicFixer_t59707E834C0F564CB8CAE152FA4244E5C32D063F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5814,7 +5918,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArabicFixer__ctor_m97F288DD283BB8774A0D9
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 16935
+// Method Definition Index: 33808
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArabicFixer3D_Awake_mEF4ADA67FC6E00979B3C08E05DC4E5CE2FD56B5A (ArabicFixer3D_tC332EAEA99AB5C1450E5D1BD0FA6DBBBB3C9C7A0* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5838,7 +5942,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArabicFixer3D_Awake_mEF4ADA67FC6E00979B3
 		return;
 	}
 }
-// Method Definition Index: 16936
+// Method Definition Index: 33809
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArabicFixer3D_Start_m45373C51AAE47B8F1EA3E3129628F7327CD226B6 (ArabicFixer3D_tC332EAEA99AB5C1450E5D1BD0FA6DBBBB3C9C7A0* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5866,7 +5970,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArabicFixer3D_Start_m45373C51AAE47B8F1EA
 		return;
 	}
 }
-// Method Definition Index: 16937
+// Method Definition Index: 33810
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArabicFixer3D_GetRectTransformParents_mDC4DDAE19229274708FCB1C9519B69F617754175 (ArabicFixer3D_tC332EAEA99AB5C1450E5D1BD0FA6DBBBB3C9C7A0* __this, List_1_t5ED555E220A2C0CA4F1CC393401AF0D7BA5B456B* ___0_rectTransforms, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5952,7 +6056,7 @@ IL_0036:
 		return;
 	}
 }
-// Method Definition Index: 16938
+// Method Definition Index: 33811
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ArabicFixer3D_CheckRectTransformParentsIfChanged_m60875439251F56DFB89F149B53B51E80C5B46314 (ArabicFixer3D_tC332EAEA99AB5C1450E5D1BD0FA6DBBBB3C9C7A0* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6017,7 +6121,7 @@ IL_0030:
 		return L_12;
 	}
 }
-// Method Definition Index: 16939
+// Method Definition Index: 33812
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArabicFixer3D_Update_m4E62DE3B9035D29CD79AB5205E5F81330C31718B (ArabicFixer3D_tC332EAEA99AB5C1450E5D1BD0FA6DBBBB3C9C7A0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6164,7 +6268,7 @@ IL_008f:
 		return;
 	}
 }
-// Method Definition Index: 16940
+// Method Definition Index: 33813
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArabicFixer3D_FixTextForUI_m0FD82D4509F4FADA362F15AB44F17D4BC5DE3F45 (ArabicFixer3D_tC332EAEA99AB5C1450E5D1BD0FA6DBBBB3C9C7A0* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6392,7 +6496,7 @@ IL_0179:
 		return;
 	}
 }
-// Method Definition Index: 16941
+// Method Definition Index: 33814
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArabicFixer3D__ctor_m3446C0CDB51CBFFBC3B500AFC9A2693B21BEC476 (ArabicFixer3D_tC332EAEA99AB5C1450E5D1BD0FA6DBBBB3C9C7A0* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6429,7 +6533,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArabicFixer3D__ctor_m3446C0CDB51CBFFBC3B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 16942
+// Method Definition Index: 33815
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArabicFixerTMPRO_Awake_m43F46A9DE1B395F7F0206F55E99EFF6E0B154E5F (ArabicFixerTMPRO_tB25E4C7ED553904ACD9E94CD258813F12E9787AA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6453,7 +6557,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArabicFixerTMPRO_Awake_m43F46A9DE1B395F7
 		return;
 	}
 }
-// Method Definition Index: 16943
+// Method Definition Index: 33816
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArabicFixerTMPRO_Start_mB4347F0E4308FAB166AAB183C5AEBC694A05FA1A (ArabicFixerTMPRO_tB25E4C7ED553904ACD9E94CD258813F12E9787AA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6474,7 +6578,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArabicFixerTMPRO_Start_mB4347F0E4308FAB1
 		return;
 	}
 }
-// Method Definition Index: 16944
+// Method Definition Index: 33817
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArabicFixerTMPRO_GetRectTransformParents_m0B8629487F50DB8EFFB60C73003D2E2DDDBFCA49 (ArabicFixerTMPRO_tB25E4C7ED553904ACD9E94CD258813F12E9787AA* __this, List_1_t5ED555E220A2C0CA4F1CC393401AF0D7BA5B456B* ___0_rectTransforms, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6560,7 +6664,7 @@ IL_0036:
 		return;
 	}
 }
-// Method Definition Index: 16945
+// Method Definition Index: 33818
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ArabicFixerTMPRO_CheckRectTransformParentsIfChanged_mA9D96A30010A3EF50742DE2AF0235CC92CC1FDB5 (ArabicFixerTMPRO_tB25E4C7ED553904ACD9E94CD258813F12E9787AA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6625,7 +6729,7 @@ IL_0030:
 		return L_12;
 	}
 }
-// Method Definition Index: 16946
+// Method Definition Index: 33819
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArabicFixerTMPRO_Update_m7240AAAA494D360428A932E0B4F37CAC1E37BA4F (ArabicFixerTMPRO_tB25E4C7ED553904ACD9E94CD258813F12E9787AA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6766,7 +6870,7 @@ IL_008a:
 		return;
 	}
 }
-// Method Definition Index: 16947
+// Method Definition Index: 33820
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArabicFixerTMPRO_FixTextForUI_m185F18F8A80D553E7480C7B7FD1F65237C64AC23 (ArabicFixerTMPRO_tB25E4C7ED553904ACD9E94CD258813F12E9787AA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6994,7 +7098,7 @@ IL_0179:
 		return;
 	}
 }
-// Method Definition Index: 16948
+// Method Definition Index: 33821
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArabicFixerTMPRO__ctor_mA37F2263C31B6986E72BD4E06284F148BCCC6D74 (ArabicFixerTMPRO_tB25E4C7ED553904ACD9E94CD258813F12E9787AA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7031,7 +7135,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArabicFixerTMPRO__ctor_mA37F2263C31B6986
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 16949
+// Method Definition Index: 33822
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ArabicSupport_Fix_mE16D96759FDBC8336A063B4D7172701D32033C18 (String_t* ___0_str, const RuntimeMethod* method) 
 {
 	{
@@ -7042,7 +7146,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ArabicSupport_Fix_mE16D96759FDBC833
 		return L_1;
 	}
 }
-// Method Definition Index: 16950
+// Method Definition Index: 33823
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ArabicSupport_Fix_mD2A07956867AA77FE663A8B4D701B4B00F70A337 (String_t* ___0_str, bool ___1_rtl, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7190,7 +7294,7 @@ IL_0093:
 		return L_32;
 	}
 }
-// Method Definition Index: 16951
+// Method Definition Index: 33824
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ArabicSupport_Fix_m3863526235387654FC67CDCE2AE26F8D6C1607F5 (String_t* ___0_str, bool ___1_showTashkeel, bool ___2_useHinduNumbers, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7376,7 +7480,7 @@ IL_009b:
 		return L_40;
 	}
 }
-// Method Definition Index: 16952
+// Method Definition Index: 33825
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ArabicSupport_Fix_m9C8EB1AF48F104A316FC89627CDE33E5892504B5 (String_t* ___0_str, bool ___1_showTashkeel, bool ___2_combineTashkeel, bool ___3_useHinduNumbers, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7399,7 +7503,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ArabicSupport_Fix_m9C8EB1AF48F104A3
 		return L_4;
 	}
 }
-// Method Definition Index: 16953
+// Method Definition Index: 33826
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArabicSupport__ctor_m0DDED209ECBFF3FE34D875133CFA0D4D367ED6B6 (ArabicSupport_t8726EAFD7F50683815EBE7AAB91F670A0DC7A919* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7431,7 +7535,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArabicSupport__ctor_m0DDED209ECBFF3FE34D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 16954
+// Method Definition Index: 33827
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArabicMapping__ctor_m3A7CAA010984AAF42F17E49090402740CF014D87 (ArabicMapping_t6906F4DC18074D8C5BF0EF7AEB4D9F33C87D6338* __this, int32_t ___0_from, int32_t ___1_to, const RuntimeMethod* method) 
 {
 	{
@@ -7455,7 +7559,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArabicMapping__ctor_m3A7CAA010984AAF42F1
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 16955
+// Method Definition Index: 33828
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArabicTable__ctor_m8DBFC22F7BD81894CCE65CBB978E36260CAE4440 (ArabicTable_tC73F27CD2C649BA48A443C0E25851D9383320448* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7732,7 +7836,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArabicTable__ctor_m8DBFC22F7BD81894CCE65
 		return;
 	}
 }
-// Method Definition Index: 16956
+// Method Definition Index: 33829
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ArabicTable_tC73F27CD2C649BA48A443C0E25851D9383320448* ArabicTable_get_ArabicMapper_m4CE6FA5ADE6C9C306AB6771B631F21C3A4F65841 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7764,7 +7868,7 @@ IL_0011:
 		return L_2;
 	}
 }
-// Method Definition Index: 16957
+// Method Definition Index: 33830
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ArabicTable_Convert_mD6DD8122E0D6CA1E33760E3FDBEE7D1E6CFA69A4 (ArabicTable_tC73F27CD2C649BA48A443C0E25851D9383320448* __this, int32_t ___0_toBeConverted, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7872,7 +7976,7 @@ IL_0042:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 16958
+// Method Definition Index: 33831
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TashkeelLocation__ctor_m7AC3958E264FB007218D7D90408EEC17CAA41313 (TashkeelLocation_t5B5BA6AE458A902DE926B52C77F137B19C80AB2E* __this, Il2CppChar ___0_tashkeel, int32_t ___1_position, const RuntimeMethod* method) 
 {
 	{
@@ -7896,7 +8000,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TashkeelLocation__ctor_m7AC3958E264FB007
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 16959
+// Method Definition Index: 33832
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ArabicFixerTool_RemoveTashkeel_mE75446D7D57219F9A3A5AD617D219F15F643707C (String_t* ___0_str, List_1_t61CF79F925103D4851840D8DA468BC8B88B9B56A** ___1_tashkeelLocation, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8509,7 +8613,7 @@ IL_02ed:
 		return L_165;
 	}
 }
-// Method Definition Index: 16960
+// Method Definition Index: 33833
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ArabicFixerTool_ReturnTashkeel_mBD921208330E1FB9A2E82140C9FC5D9A0C2F087D (CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___0_letters, List_1_t61CF79F925103D4851840D8DA468BC8B88B9B56A* ___1_tashkeelLocation, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8658,7 +8762,7 @@ IL_0067:
 		return L_26;
 	}
 }
-// Method Definition Index: 16961
+// Method Definition Index: 33834
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ArabicFixerTool_FixLine_m5441C7D2C05480BBC29B618CB9CE300200EDA207 (String_t* ___0_str, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10143,7 +10247,7 @@ IL_059f:
 		return L_400;
 	}
 }
-// Method Definition Index: 16962
+// Method Definition Index: 33835
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ArabicFixerTool_IsIgnoredCharacter_mD4266BD327FCF7EA06B0805129FEA7104088A046 (Il2CppChar ___0_ch, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10354,7 +10458,7 @@ IL_009d:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 16963
+// Method Definition Index: 33836
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ArabicFixerTool_IsLeadingLetter_m3020D74BCBE1755BEA9E0402A92A371769B46CCE (CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___0_letters, int32_t ___1_index, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10993,7 +11097,7 @@ IL_01e7:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 16964
+// Method Definition Index: 33837
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ArabicFixerTool_IsFinishingLetter_m34D81454EFE842A4E5135A5BBB5A1C8493B19FD1 (CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___0_letters, int32_t ___1_index, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11301,7 +11405,7 @@ IL_0102:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 16965
+// Method Definition Index: 33838
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ArabicFixerTool_IsMiddleLetter_m9610EB7249C81792676BF357316EA65849F1942F (CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___0_letters, int32_t ___1_index, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11884,7 +11988,7 @@ IL_01d9:
 		return L_156;
 	}
 }
-// Method Definition Index: 16966
+// Method Definition Index: 33839
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArabicFixerTool__ctor_mE49F25A33FB00659A30AFF076FA341CC0BEE1597 (ArabicFixerTool_t7AEDF071365CDB1A44DED11CA98318C9A39438FB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11892,7 +11996,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArabicFixerTool__ctor_mE49F25A33FB00659A
 		return;
 	}
 }
-// Method Definition Index: 16967
+// Method Definition Index: 33840
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArabicFixerTool__cctor_mECBB81AC0146B9264BC45BA21FC0F9DCB97D9A6B (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11919,7 +12023,340 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArabicFixerTool__cctor_mECBB81AC0146B926
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 16968
+// Method Definition Index: 33841
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BuyingManager_Awake_mF1AECDA4D9BFCFA5739C73D2FCAC1366F685BA48 (BuyingManager_tD22F8B926357367E95C070293C80E047D5044805* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BuyingManager_tD22F8B926357367E95C070293C80E047D5044805_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mA59EA7D5F9133B2593F4AB70B099928BA955EE7D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/BuyingManager.cs:20>
+		BuyingManager_tD22F8B926357367E95C070293C80E047D5044805* L_0 = ((BuyingManager_tD22F8B926357367E95C070293C80E047D5044805_StaticFields*)il2cpp_codegen_static_fields_for(BuyingManager_tD22F8B926357367E95C070293C80E047D5044805_il2cpp_TypeInfo_var))->___Singlton;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/BuyingManager.cs:21>
+		((BuyingManager_tD22F8B926357367E95C070293C80E047D5044805_StaticFields*)il2cpp_codegen_static_fields_for(BuyingManager_tD22F8B926357367E95C070293C80E047D5044805_il2cpp_TypeInfo_var))->___Singlton = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&((BuyingManager_tD22F8B926357367E95C070293C80E047D5044805_StaticFields*)il2cpp_codegen_static_fields_for(BuyingManager_tD22F8B926357367E95C070293C80E047D5044805_il2cpp_TypeInfo_var))->___Singlton), (void*)__this);
+		goto IL_0020;
+	}
+
+IL_0015:
+	{
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/BuyingManager.cs:23>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
+		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_2, NULL);
+	}
+
+IL_0020:
+	{
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/BuyingManager.cs:24>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___noAdsButton;
+		NullCheck(L_3);
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_4;
+		L_4 = GameObject_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mA59EA7D5F9133B2593F4AB70B099928BA955EE7D(L_3, GameObject_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mA59EA7D5F9133B2593F4AB70B099928BA955EE7D_RuntimeMethod_var);
+		__this->___noAdsIcon = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___noAdsIcon), (void*)L_4);
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/BuyingManager.cs:25>
+		return;
+	}
+}
+// Method Definition Index: 33842
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BuyingManager_Start_m64FD0BDADAC80E91465028D332845DC7E38974E6 (BuyingManager_tD22F8B926357367E95C070293C80E047D5044805* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/BuyingManager.cs:28>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___shopWindow;
+		NullCheck(L_0);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/BuyingManager.cs:29>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___errorMessage;
+		NullCheck(L_1);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)0, NULL);
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/BuyingManager.cs:30>
+		float L_2 = __this->___messageShowDuration;
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_3 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_3, L_2, NULL);
+		__this->___messageShowWait = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___messageShowWait), (void*)L_3);
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/BuyingManager.cs:31>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___noAdsButton;
+		LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB* L_5 = ((LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB_StaticFields*)il2cpp_codegen_static_fields_for(LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB_il2cpp_TypeInfo_var))->___Singlton;
+		NullCheck(L_5);
+		bool L_6;
+		L_6 = LanguageManager_get_HaveAds_mFE8BF6FBCF9B2377FC1F7FED70EBCA088742F967_inline(L_5, NULL);
+		NullCheck(L_4);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, L_6, NULL);
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/BuyingManager.cs:33>
+		return;
+	}
+}
+// Method Definition Index: 33843
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BuyingManager_ToggleLanguage_m95D1F529A2030BC15753ED1F0C4636CFFABC77D6 (BuyingManager_tD22F8B926357367E95C070293C80E047D5044805* __this, int32_t ___0_selectedLanguage, const RuntimeMethod* method) 
+{
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* G_B2_0 = NULL;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* G_B1_0 = NULL;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* G_B3_0 = NULL;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* G_B3_1 = NULL;
+	{
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/BuyingManager.cs:36>
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_0 = __this->___noAdsIcon;
+		int32_t L_1 = ___0_selectedLanguage;
+		if ((((int32_t)L_1) == ((int32_t)1)))
+		{
+			G_B2_0 = L_0;
+			goto IL_0012;
+		}
+		G_B1_0 = L_0;
+	}
+	{
+		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_2 = __this->___englishIcon;
+		G_B3_0 = L_2;
+		G_B3_1 = G_B1_0;
+		goto IL_0018;
+	}
+
+IL_0012:
+	{
+		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_3 = __this->___arabicIcon;
+		G_B3_0 = L_3;
+		G_B3_1 = G_B2_0;
+	}
+
+IL_0018:
+	{
+		NullCheck(G_B3_1);
+		Image_set_sprite_mC0C248340BA27AAEE56855A3FAFA0D8CA12956DE(G_B3_1, G_B3_0, NULL);
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/BuyingManager.cs:37>
+		return;
+	}
+}
+// Method Definition Index: 33844
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BuyingManager_ToggleShopWindow_mFA4EC3044AD2BD7AD04FC5EE708011511A2F7829 (BuyingManager_tD22F8B926357367E95C070293C80E047D5044805* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/BuyingManager.cs:40>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___shopWindow;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___shopWindow;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368(L_1, NULL);
+		NullCheck(L_0);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0), NULL);
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/BuyingManager.cs:41>
+		return;
+	}
+}
+// Method Definition Index: 33845
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BuyingManager_ShowErrorMessage_m1EB2E8E44C43EB724EB11179ADDA528A24326989 (BuyingManager_tD22F8B926357367E95C070293C80E047D5044805* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/BuyingManager.cs:44>
+		RuntimeObject* L_0;
+		L_0 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(4, __this);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_1;
+		L_1 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_0, NULL);
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/BuyingManager.cs:45>
+		return;
+	}
+}
+// Method Definition Index: 33846
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BuyingManager_OnBuying_mD2A41B6700097B2D5BFFCD90BB0B6FA01FCA863A (BuyingManager_tD22F8B926357367E95C070293C80E047D5044805* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/BuyingManager.cs:48>
+		LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB* L_0 = ((LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB_StaticFields*)il2cpp_codegen_static_fields_for(LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB_il2cpp_TypeInfo_var))->___Singlton;
+		NullCheck(L_0);
+		LanguageManager_BuyNoAds_m25F8AE4FC9D4556AC87A0755F3F6310AF54F9A9E(L_0, NULL);
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/BuyingManager.cs:49>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___noAdsButton;
+		NullCheck(L_1);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)0, NULL);
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/BuyingManager.cs:50>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___shopWindow;
+		NullCheck(L_2);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/BuyingManager.cs:51>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___errorMessage;
+		NullCheck(L_3);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)0, NULL);
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/BuyingManager.cs:52>
+		return;
+	}
+}
+// Method Definition Index: 33847
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* BuyingManager_CO_AutoHideErrorMessage_m52DD72B1BF9FA1805EED554EAB59EEC688BDF4CD (BuyingManager_tD22F8B926357367E95C070293C80E047D5044805* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CCO_AutoHideErrorMessageU3Ed__15_t986E3D34A538B856C60DB4C6A555901CEAED1FFA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CCO_AutoHideErrorMessageU3Ed__15_t986E3D34A538B856C60DB4C6A555901CEAED1FFA* L_0 = (U3CCO_AutoHideErrorMessageU3Ed__15_t986E3D34A538B856C60DB4C6A555901CEAED1FFA*)il2cpp_codegen_object_new(U3CCO_AutoHideErrorMessageU3Ed__15_t986E3D34A538B856C60DB4C6A555901CEAED1FFA_il2cpp_TypeInfo_var);
+		U3CCO_AutoHideErrorMessageU3Ed__15__ctor_m2454F91F031AD5EBD13EDF71993375FCC0890395(L_0, 0, NULL);
+		U3CCO_AutoHideErrorMessageU3Ed__15_t986E3D34A538B856C60DB4C6A555901CEAED1FFA* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		return L_1;
+	}
+}
+// Method Definition Index: 33848
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BuyingManager__ctor_mE9C00E25F740414A8D4708819A02326ED3A241E9 (BuyingManager_tD22F8B926357367E95C070293C80E047D5044805* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/BuyingManager.cs:16>
+		__this->___messageShowDuration = (3.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 33849
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCO_AutoHideErrorMessageU3Ed__15__ctor_m2454F91F031AD5EBD13EDF71993375FCC0890395 (U3CCO_AutoHideErrorMessageU3Ed__15_t986E3D34A538B856C60DB4C6A555901CEAED1FFA* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 33850
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCO_AutoHideErrorMessageU3Ed__15_System_IDisposable_Dispose_mEC1B3016F38AA6E64A7DE101FA9DA7F7CB62F75D (U3CCO_AutoHideErrorMessageU3Ed__15_t986E3D34A538B856C60DB4C6A555901CEAED1FFA* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// Method Definition Index: 33851
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CCO_AutoHideErrorMessageU3Ed__15_MoveNext_m9E51FC455BEAC238083743ECC49EADB9BDD61660 (U3CCO_AutoHideErrorMessageU3Ed__15_t986E3D34A538B856C60DB4C6A555901CEAED1FFA* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	BuyingManager_tD22F8B926357367E95C070293C80E047D5044805* V_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		BuyingManager_tD22F8B926357367E95C070293C80E047D5044805* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0017:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/BuyingManager.cs:56>
+		BuyingManager_tD22F8B926357367E95C070293C80E047D5044805* L_4 = V_1;
+		NullCheck(L_4);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = L_4->___errorMessage;
+		NullCheck(L_5);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)1, NULL);
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/BuyingManager.cs:57>
+		BuyingManager_tD22F8B926357367E95C070293C80E047D5044805* L_6 = V_1;
+		NullCheck(L_6);
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_7 = L_6->___messageShowWait;
+		__this->___U3CU3E2__current = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_7);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_003f:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/BuyingManager.cs:58>
+		BuyingManager_tD22F8B926357367E95C070293C80E047D5044805* L_8 = V_1;
+		NullCheck(L_8);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = L_8->___errorMessage;
+		NullCheck(L_9);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_9, (bool)0, NULL);
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/BuyingManager.cs:59>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 33852
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCO_AutoHideErrorMessageU3Ed__15_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m17C93909C9833C7EF9987682B0CAE8917423CE43 (U3CCO_AutoHideErrorMessageU3Ed__15_t986E3D34A538B856C60DB4C6A555901CEAED1FFA* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 33853
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCO_AutoHideErrorMessageU3Ed__15_System_Collections_IEnumerator_Reset_m5DF5CEA03B1BCD600AF182C7F47C8C8F392A9B8E (U3CCO_AutoHideErrorMessageU3Ed__15_t986E3D34A538B856C60DB4C6A555901CEAED1FFA* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CCO_AutoHideErrorMessageU3Ed__15_System_Collections_IEnumerator_Reset_m5DF5CEA03B1BCD600AF182C7F47C8C8F392A9B8E_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 33854
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCO_AutoHideErrorMessageU3Ed__15_System_Collections_IEnumerator_get_Current_mC9988148AB7014BB1EBB7CC7D620B1F19E38EC7F (U3CCO_AutoHideErrorMessageU3Ed__15_t986E3D34A538B856C60DB4C6A555901CEAED1FFA* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 33855
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChangePresidentHoverInfo_Start_mC4A2A40E7AB9728B378E95348688436A2F6B5D95 (ChangePresidentHoverInfo_t37D7CCF0FB7CD8B75377652C64261EA35BCAE823* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11931,7 +12368,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChangePresidentHoverInfo_Start_mC4A2A40E
 		return;
 	}
 }
-// Method Definition Index: 16969
+// Method Definition Index: 33856
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChangePresidentHoverInfo_OnPointerDown_m82E7AB2F07EE9ADFA3B8FC8BC9562B541259E05D (ChangePresidentHoverInfo_t37D7CCF0FB7CD8B75377652C64261EA35BCAE823* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___0_eventData, const RuntimeMethod* method) 
 {
 	{
@@ -11948,7 +12385,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChangePresidentHoverInfo_OnPointerDown_m
 		return;
 	}
 }
-// Method Definition Index: 16970
+// Method Definition Index: 33857
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChangePresidentHoverInfo_OnPointerUp_m066BA004F0A14CABA94FF0882EA70EC238E8F0D9 (ChangePresidentHoverInfo_t37D7CCF0FB7CD8B75377652C64261EA35BCAE823* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___0_eventData, const RuntimeMethod* method) 
 {
 	{
@@ -11987,7 +12424,7 @@ IL_0029:
 		return;
 	}
 }
-// Method Definition Index: 16971
+// Method Definition Index: 33858
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ChangePresidentHoverInfo_HoldTimer_m38ADF459F253E26B0C19969114D531D7D48F8F37 (ChangePresidentHoverInfo_t37D7CCF0FB7CD8B75377652C64261EA35BCAE823* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12006,7 +12443,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ChangePresidentHoverInfo_HoldT
 		return L_1;
 	}
 }
-// Method Definition Index: 16972
+// Method Definition Index: 33859
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChangePresidentHoverInfo_ShowInfo_m93D110DD8503D4FA80B956C520C0720B3A9C1515 (ChangePresidentHoverInfo_t37D7CCF0FB7CD8B75377652C64261EA35BCAE823* __this, bool ___0_show, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12062,7 +12499,7 @@ IL_001f:
 		return;
 	}
 }
-// Method Definition Index: 16973
+// Method Definition Index: 33860
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChangePresidentHoverInfo_LaunchAction_m74F32B94014069FA5C2A1435A4E26804986A2108 (ChangePresidentHoverInfo_t37D7CCF0FB7CD8B75377652C64261EA35BCAE823* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12083,7 +12520,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChangePresidentHoverInfo_LaunchAction_m7
 		return;
 	}
 }
-// Method Definition Index: 16974
+// Method Definition Index: 33861
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChangePresidentHoverInfo__ctor_m91D9CE2BA4712B6CBCFF4C6DA21F0A2AC9E5D7E2 (ChangePresidentHoverInfo_t37D7CCF0FB7CD8B75377652C64261EA35BCAE823* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12101,7 +12538,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChangePresidentHoverInfo__ctor_m91D9CE2B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 16975
+// Method Definition Index: 33862
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHoldTimerU3Ed__8__ctor_mB1093816E98819E9954133067B1BDB87F3F7B481 (U3CHoldTimerU3Ed__8_tE8B73D4F58BD7A52CB2CDD7AB2E57670BBF2DFE8* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -12111,14 +12548,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHoldTimerU3Ed__8__ctor_mB1093816E9881
 		return;
 	}
 }
-// Method Definition Index: 16976
+// Method Definition Index: 33863
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHoldTimerU3Ed__8_System_IDisposable_Dispose_mB4F5FFBEFBCD808063BF9E655EBF2D09F4FE8533 (U3CHoldTimerU3Ed__8_tE8B73D4F58BD7A52CB2CDD7AB2E57670BBF2DFE8* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 16977
+// Method Definition Index: 33864
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CHoldTimerU3Ed__8_MoveNext_m8B82A0056B88FE41BF571A66F97BB0D8952EE36F (U3CHoldTimerU3Ed__8_tE8B73D4F58BD7A52CB2CDD7AB2E57670BBF2DFE8* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12181,7 +12618,7 @@ IL_0038:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 16978
+// Method Definition Index: 33865
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CHoldTimerU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m0ED0BD06C1CE84087A56DC3146F1C297C7DE498C (U3CHoldTimerU3Ed__8_tE8B73D4F58BD7A52CB2CDD7AB2E57670BBF2DFE8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12189,7 +12626,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CHoldTimerU3Ed__8_System_Col
 		return L_0;
 	}
 }
-// Method Definition Index: 16979
+// Method Definition Index: 33866
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHoldTimerU3Ed__8_System_Collections_IEnumerator_Reset_mD3C43223B2D1E946A7181DDE3100E1D71320CCB8 (U3CHoldTimerU3Ed__8_tE8B73D4F58BD7A52CB2CDD7AB2E57670BBF2DFE8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12198,7 +12635,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHoldTimerU3Ed__8_System_Collections_I
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CHoldTimerU3Ed__8_System_Collections_IEnumerator_Reset_mD3C43223B2D1E946A7181DDE3100E1D71320CCB8_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 16980
+// Method Definition Index: 33867
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CHoldTimerU3Ed__8_System_Collections_IEnumerator_get_Current_m7EB277A56F2FF16F9A5917E4CADA7B8550A74353 (U3CHoldTimerU3Ed__8_tE8B73D4F58BD7A52CB2CDD7AB2E57670BBF2DFE8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12214,7 +12651,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CHoldTimerU3Ed__8_System_Col
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 16981
+// Method Definition Index: 33868
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collectables__ctor_mC308C66077DF097F88751FFEB480C171718CB81B (Collectables_tBB659D340BB79B279D5BEDBA1F711DFDE9ECC44A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12230,7 +12667,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collectables__ctor_mC308C66077DF097F8875
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 16982
+// Method Definition Index: 33869
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CountryManager_Awake_mC7CED144C088D7F51D4FB7D4CB102322C2733F07 (CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13039,7 +13476,7 @@ IL_0410:
 		return;
 	}
 }
-// Method Definition Index: 16983
+// Method Definition Index: 33870
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* CountryManager_GetChildTexts_mB4FF2AA18B9072D9D0D15E3B1B35017C974FE8BB (CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_textsParent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13104,7 +13541,7 @@ IL_0023:
 		return L_13;
 	}
 }
-// Method Definition Index: 16984
+// Method Definition Index: 33871
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CountryManager_Start_m6A747CBDAB22F46253AAEEF14714FBE1A7D14756 (CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13370,7 +13807,7 @@ IL_0258:
 		return;
 	}
 }
-// Method Definition Index: 16985
+// Method Definition Index: 33872
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CountryManager_Update_mCF291E07CE5019E04225A6E2EE17E1FCA1AD81D2 (CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13403,7 +13840,7 @@ IL_001f:
 		return;
 	}
 }
-// Method Definition Index: 16986
+// Method Definition Index: 33873
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CountryManager_uiUpdater_m704E729EDAC9F03256BA2CAD5CA71B34E547BE0D (CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D* __this, Party_t7374673D480CEB3A24962AFD06297A4A50EE5A4A* ___0_party, const RuntimeMethod* method) 
 {
 	{
@@ -13444,7 +13881,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CountryManager_uiUpdater_m704E729EDAC9F0
 		return;
 	}
 }
-// Method Definition Index: 16987
+// Method Definition Index: 33874
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CountryManager_MoneyTranslate_mF60C58FCB93D4B661F9B161997DD84FF1FB0BEBD (CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D* __this, float ___0_mon, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13559,7 +13996,7 @@ IL_00cc:
 		return L_23;
 	}
 }
-// Method Definition Index: 16988
+// Method Definition Index: 33875
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CountryManager_ReverseMoneyTranslate_mA66D32E7C680EE72BBAA71DB8980019CF9A30642 (CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D* __this, String_t* ___0_mon, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13694,7 +14131,7 @@ IL_00a0:
 		return ((float)il2cpp_codegen_multiply(L_32, (1000.0f)));
 	}
 }
-// Method Definition Index: 16989
+// Method Definition Index: 33876
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CountryManager_MonthInstansaite_mEDED097519B0E3AF448E9A561B02BB9C3D49E7C0 (CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13786,7 +14223,7 @@ IL_00e5:
 		return;
 	}
 }
-// Method Definition Index: 16990
+// Method Definition Index: 33877
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CountryManager_CheckForAssassination_m887886A581E0FABAAE8E50FC04F51CE449ED1A36 (CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13821,7 +14258,7 @@ IL_0008:
 		return;
 	}
 }
-// Method Definition Index: 16991
+// Method Definition Index: 33878
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CountryManager_CheckAssassinationForParty_m9D347F81A8F699B1F2E0975033CB6F255C97B559 (CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D* __this, Party_t7374673D480CEB3A24962AFD06297A4A50EE5A4A* ___0_party, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14142,7 +14579,7 @@ IL_0173:
 		return;
 	}
 }
-// Method Definition Index: 16992
+// Method Definition Index: 33879
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CountryManager_MonthRevnue_m701D733DCB4E3F8EC000C6323E57836EE7C963E1 (CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D* __this, Party_t7374673D480CEB3A24962AFD06297A4A50EE5A4A* ___0_party, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14498,7 +14935,7 @@ IL_01e9:
 		return;
 	}
 }
-// Method Definition Index: 16993
+// Method Definition Index: 33880
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CountryManager_Do_mF27D751334092A29C4A05932AA357E2F1BDF261C (CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14523,7 +14960,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CountryManager_Do_mF27D751334092A29C4A05
 		return;
 	}
 }
-// Method Definition Index: 16994
+// Method Definition Index: 33881
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CountryManager_DOInstansaite_mB6121E108550569D85C8511D050781834CEF8855 (CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D* __this, Party_t7374673D480CEB3A24962AFD06297A4A50EE5A4A* ___0_party, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14951,7 +15388,7 @@ IL_0271:
 		return;
 	}
 }
-// Method Definition Index: 16995
+// Method Definition Index: 33882
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CountryManager_CanText_m13FAB982204A72F664637743391C3BD1CCC11E84 (CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D* __this, String_t* ___0_message, String_t* ___1_arabic_message, Party_t7374673D480CEB3A24962AFD06297A4A50EE5A4A* ___2_party, bool ___3_IsWarning, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15181,7 +15618,7 @@ IL_00e0:
 		return;
 	}
 }
-// Method Definition Index: 16996
+// Method Definition Index: 33883
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CountryManager_SelectParty_mD50115FE901D0766A688F93C151AC9D5B340C10D (CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D* __this, String_t* ___0_party, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15248,7 +15685,7 @@ IL_0025:
 		return;
 	}
 }
-// Method Definition Index: 16997
+// Method Definition Index: 33884
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CountryManager_PresidentNameRandomizer_m7471B5758848912FEC8363A34F7EEC79A396A8F1 (CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D* __this, int32_t ___0_ran, Party_t7374673D480CEB3A24962AFD06297A4A50EE5A4A* ___1_party, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17127,7 +17564,7 @@ IL_077d:
 		return L_214;
 	}
 }
-// Method Definition Index: 16998
+// Method Definition Index: 33885
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CountryManager_PresidentChoosing_mEAA266E488A7908C2356B607FDEA8C1430214C64 (CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D* __this, Party_t7374673D480CEB3A24962AFD06297A4A50EE5A4A* ___0_party, String_t* ___1_name, int32_t ___2__power, float ___3__money, int32_t ___4__people, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17164,7 +17601,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CountryManager_PresidentChoosing_mEAA266
 		return;
 	}
 }
-// Method Definition Index: 16999
+// Method Definition Index: 33886
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CountryManager_Elections_mBFF135B206D117DD483B83F68EB1B19EB2A4C8F5 (CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D* __this, Party_t7374673D480CEB3A24962AFD06297A4A50EE5A4A* ___0_party, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17528,7 +17965,7 @@ IL_0253:
 		return;
 	}
 }
-// Method Definition Index: 17000
+// Method Definition Index: 33887
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CountryManager_ElectionInstanatie_m4AD7B0F4C14878FC5F95605A9B7F25D3DCB7265D (CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17549,7 +17986,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CountryManager_ElectionInstanatie_m4AD7B
 		return;
 	}
 }
-// Method Definition Index: 17001
+// Method Definition Index: 33888
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CountryManager_PresidentPress_mEC41A571040CBD49294C3A198B8E2391E53C4221 (CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_button, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17742,7 +18179,7 @@ IL_0122:
 		return;
 	}
 }
-// Method Definition Index: 17002
+// Method Definition Index: 33889
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CountryManager_CenterPress_m1D9AF99976A331CE902A9E9E09C2B2D2116A4B3E (CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D* __this, String_t* ___0_party, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17848,7 +18285,7 @@ IL_0089:
 		return;
 	}
 }
-// Method Definition Index: 17003
+// Method Definition Index: 33890
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CountryManager_MapPress_m675F6C56E022FD0C928893278DCD681C3C6B2DEB (CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17924,7 +18361,7 @@ IL_0059:
 		return;
 	}
 }
-// Method Definition Index: 17004
+// Method Definition Index: 33891
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CountryManager_win_m978D6E66F0568099B0D7E234F01C32BB92B26D81 (CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17949,7 +18386,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CountryManager_win_m978D6E66F0568099B0D7
 		return;
 	}
 }
-// Method Definition Index: 17005
+// Method Definition Index: 33892
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CountryManager_ContinueGame_m1ABBDE14982B08A9E3C2E9A9A68C20B7282BAD65 (CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17972,7 +18409,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CountryManager_ContinueGame_m1ABBDE14982
 		return;
 	}
 }
-// Method Definition Index: 17006
+// Method Definition Index: 33893
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CountryManager_lose_m8D9391E2B927194DAC83782C23DE05DC8B2AD34B (CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18053,7 +18490,7 @@ IL_0026:
 		return;
 	}
 }
-// Method Definition Index: 17007
+// Method Definition Index: 33894
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CountryManager_ShutUp_m5D3F4BDCA4F02A3F1A00C4F717520352816295E4 (CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18067,7 +18504,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CountryManager_ShutUp_m5D3F4BDCA4F02A3F1
 		return;
 	}
 }
-// Method Definition Index: 17008
+// Method Definition Index: 33895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CountryManager_MultiElections_m1B69388449B7DF5CA7EF97F71AFE1DF1B86D1E32 (CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D* __this, Party_t7374673D480CEB3A24962AFD06297A4A50EE5A4A* ___0_party, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18091,7 +18528,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CountryManager_MultiElections_
 		return L_2;
 	}
 }
-// Method Definition Index: 17009
+// Method Definition Index: 33896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CountryManager_MultiActions_m115717417A82BB3AD25ACD03F5F92621CE2B7D71 (CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D* __this, Party_t7374673D480CEB3A24962AFD06297A4A50EE5A4A* ___0_party, ActionFunction_tFFF6C4B351C4B2D2426FF5A40033E1CEE8530B5F* ___1_action, int32_t ___2_WaitTime, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18124,7 +18561,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CountryManager_MultiActions_m1
 		return L_6;
 	}
 }
-// Method Definition Index: 17010
+// Method Definition Index: 33897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CountryManager_InfoNotifaction_m3AD910A09AF354079354A7B2B4A2CF690C06F68C (CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D* __this, ActionFunction_tFFF6C4B351C4B2D2426FF5A40033E1CEE8530B5F* ___0_action, Party_t7374673D480CEB3A24962AFD06297A4A50EE5A4A* ___1_party, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18150,7 +18587,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CountryManager_InfoNotifaction_m3AD910A0
 		return;
 	}
 }
-// Method Definition Index: 17011
+// Method Definition Index: 33898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Party_t7374673D480CEB3A24962AFD06297A4A50EE5A4A* CountryManager_GetEnemy_m77565A55AFE30B51C00A6B767394B8FA83168BDE (CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D* __this, Party_t7374673D480CEB3A24962AFD06297A4A50EE5A4A* ___0_party, const RuntimeMethod* method) 
 {
 	{
@@ -18181,7 +18618,7 @@ IL_001f:
 		return L_6;
 	}
 }
-// Method Definition Index: 17012
+// Method Definition Index: 33899
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CountryManager_ResumeAll_m0A14EFEEFC07E9C9B6B9C61941AAA0E8B2FA213C (CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18196,7 +18633,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CountryManager_ResumeAll_m0A14EFEEFC07E9
 		return;
 	}
 }
-// Method Definition Index: 17013
+// Method Definition Index: 33900
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CountryManager_PauseFunction_m9CA39E943F63018413CFEDEBE1D8175C4F0F6E89 (CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18241,7 +18678,7 @@ IL_0034:
 		return;
 	}
 }
-// Method Definition Index: 17014
+// Method Definition Index: 33901
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CountryManager_Exit_m94A2B2D5D684507B5B6A0CC8A4A3F42D4D713432 (CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18261,7 +18698,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CountryManager_Exit_m94A2B2D5D684507B5B6
 		return;
 	}
 }
-// Method Definition Index: 17015
+// Method Definition Index: 33902
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CountryManager__ctor_m3790063900D9C9DEFE0E265B2C5A5D64D004E79F (CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18279,7 +18716,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CountryManager__ctor_m3790063900D9C9DEFE
 		return;
 	}
 }
-// Method Definition Index: 17016
+// Method Definition Index: 33903
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CountryManager__cctor_mC5C81873AFCDD861DEB02C98A005086E346A9415 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18305,7 +18742,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CountryManager__cctor_mC5C81873AFCDD861D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 17017
+// Method Definition Index: 33904
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CMultiActionsU3Ed__106__ctor_mEF9537BEEFA1A7CE4DE9BAED043C593672BFDD26 (U3CMultiActionsU3Ed__106_t07598788AB9EC6E36312955AE6D02695B3931E8E* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -18315,14 +18752,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CMultiActionsU3Ed__106__ctor_mEF9537BE
 		return;
 	}
 }
-// Method Definition Index: 17018
+// Method Definition Index: 33905
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CMultiActionsU3Ed__106_System_IDisposable_Dispose_mD389B649CE4BD19CD7AA7DCA66516522EAAA5AD1 (U3CMultiActionsU3Ed__106_t07598788AB9EC6E36312955AE6D02695B3931E8E* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 17019
+// Method Definition Index: 33906
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CMultiActionsU3Ed__106_MoveNext_mD9782E1433AA43E423E80D4F77C0F4F8E90BB6A9 (U3CMultiActionsU3Ed__106_t07598788AB9EC6E36312955AE6D02695B3931E8E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18845,7 +19282,7 @@ IL_03c4:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 17020
+// Method Definition Index: 33907
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CMultiActionsU3Ed__106_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m5115649A908C034B1C7470D9AFAF7378D456C810 (U3CMultiActionsU3Ed__106_t07598788AB9EC6E36312955AE6D02695B3931E8E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18853,7 +19290,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CMultiActionsU3Ed__106_Syste
 		return L_0;
 	}
 }
-// Method Definition Index: 17021
+// Method Definition Index: 33908
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CMultiActionsU3Ed__106_System_Collections_IEnumerator_Reset_mF2203DB85340B2C19213F94368E0EC1B6B445FB0 (U3CMultiActionsU3Ed__106_t07598788AB9EC6E36312955AE6D02695B3931E8E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18862,7 +19299,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CMultiActionsU3Ed__106_System_Collecti
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CMultiActionsU3Ed__106_System_Collections_IEnumerator_Reset_mF2203DB85340B2C19213F94368E0EC1B6B445FB0_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 17022
+// Method Definition Index: 33909
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CMultiActionsU3Ed__106_System_Collections_IEnumerator_get_Current_m94BCA2D8613E7FE6550FCAA44C66696FFD901334 (U3CMultiActionsU3Ed__106_t07598788AB9EC6E36312955AE6D02695B3931E8E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18878,7 +19315,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CMultiActionsU3Ed__106_Syste
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 17023
+// Method Definition Index: 33910
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CMultiElectionsU3Ed__105__ctor_m590D4433A12142E6B0DFD1AA18F6A6B69BC2A5D4 (U3CMultiElectionsU3Ed__105_tCBFAC3DE4D47FC701E76EC520439712B36E834D3* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -18888,14 +19325,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CMultiElectionsU3Ed__105__ctor_m590D44
 		return;
 	}
 }
-// Method Definition Index: 17024
+// Method Definition Index: 33911
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CMultiElectionsU3Ed__105_System_IDisposable_Dispose_m8E803F5596129D2406E3A875756AAE3C1236A635 (U3CMultiElectionsU3Ed__105_tCBFAC3DE4D47FC701E76EC520439712B36E834D3* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 17025
+// Method Definition Index: 33912
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CMultiElectionsU3Ed__105_MoveNext_m159594E723F71F47AEAF6AC10FADA8FBA4B90CDD (U3CMultiElectionsU3Ed__105_tCBFAC3DE4D47FC701E76EC520439712B36E834D3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18952,7 +19389,7 @@ IL_0037:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 17026
+// Method Definition Index: 33913
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CMultiElectionsU3Ed__105_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m87C1BD278605D0B878A03C16B8B1F2AC08AE5E7C (U3CMultiElectionsU3Ed__105_tCBFAC3DE4D47FC701E76EC520439712B36E834D3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18960,7 +19397,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CMultiElectionsU3Ed__105_Sys
 		return L_0;
 	}
 }
-// Method Definition Index: 17027
+// Method Definition Index: 33914
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CMultiElectionsU3Ed__105_System_Collections_IEnumerator_Reset_m68022695D8CE62F4E9297C065C6D21233F11B5A4 (U3CMultiElectionsU3Ed__105_tCBFAC3DE4D47FC701E76EC520439712B36E834D3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18969,7 +19406,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CMultiElectionsU3Ed__105_System_Collec
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CMultiElectionsU3Ed__105_System_Collections_IEnumerator_Reset_m68022695D8CE62F4E9297C065C6D21233F11B5A4_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 17028
+// Method Definition Index: 33915
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CMultiElectionsU3Ed__105_System_Collections_IEnumerator_get_Current_m939F8F20A0342A9D382894A2292B0EA8ACCB7E56 (U3CMultiElectionsU3Ed__105_tCBFAC3DE4D47FC701E76EC520439712B36E834D3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18985,7 +19422,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CMultiElectionsU3Ed__105_Sys
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 17029
+// Method Definition Index: 33916
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionFunction__ctor_mA603D7EF948D7839013DF9065B9854F21124DFD5 (ActionFunction_tFFF6C4B351C4B2D2426FF5A40033E1CEE8530B5F* __this, String_t* ___0__name, String_t* ___1__arabicName, String_t* ___2__done, String_t* ___3__arabic, int32_t ___4__power, int32_t ___5__peoplSatsfaction, int32_t ___6__time, float ___7__money, bool ___8__monthly, const RuntimeMethod* method) 
 {
 	{
@@ -19034,7 +19471,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionFunction__ctor_mA603D7EF948D783901
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 17030
+// Method Definition Index: 33917
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Party__ctor_m1857B39BC15B741E97856F863DD4267CA36FB333 (Party_t7374673D480CEB3A24962AFD06297A4A50EE5A4A* __this, String_t* ___0__name, String_t* ___1__arabicName, Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___2_powerUI, Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___3_moneyUI, Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___4_peoplSatsfactionUI, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___5__color, int32_t ___6__PresedncyPeriod, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19086,7 +19523,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Party__ctor_m1857B39BC15B741E97856F863DD
 		return;
 	}
 }
-// Method Definition Index: 17031
+// Method Definition Index: 33918
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Party_sources_m9371B2571D77B80DB3ED75EBB4FDEDB1F165693A (Party_t7374673D480CEB3A24962AFD06297A4A50EE5A4A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -19124,7 +19561,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Party_sources_m9371B2571D77B80DB3ED75EBB
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 17032
+// Method Definition Index: 33919
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void President__ctor_m77C46AF23EC3193A91813D92EEDDD788D47E3163 (President_tF60BEE19B17ABF73663229ADBC0DF73D8E292E6D* __this, String_t* ___0_name, int32_t ___1_power, int32_t ___2_peoplSatsfaction, float ___3_money, const RuntimeMethod* method) 
 {
 	{
@@ -19155,7 +19592,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void President__ctor_m77C46AF23EC3193A91813D9
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 17033
+// Method Definition Index: 33920
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Country_Info_Awake_m021500F2E733DC94F4192F0F10477687EAB8FA41 (Country_Info_t246C74635E2F45525596CB92E3353E784444B1FB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19180,7 +19617,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Country_Info_Awake_m021500F2E733DC94F419
 		return;
 	}
 }
-// Method Definition Index: 17034
+// Method Definition Index: 33921
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Country_Info_InfoClick_m88E8D2B4D9D29E763CB682110EA4A8B5B420A820 (Country_Info_t246C74635E2F45525596CB92E3353E784444B1FB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19267,7 +19704,7 @@ IL_0066:
 		return;
 	}
 }
-// Method Definition Index: 17035
+// Method Definition Index: 33922
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Country_Info_OnPointerEnter_m91DE7AD40BCD79754C7FD3F33304D39C8D40E256 (Country_Info_t246C74635E2F45525596CB92E3353E784444B1FB* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___0_eventData, const RuntimeMethod* method) 
 {
 	{
@@ -19275,7 +19712,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Country_Info_OnPointerEnter_m91DE7AD40BC
 		return;
 	}
 }
-// Method Definition Index: 17036
+// Method Definition Index: 33923
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Country_Info_Info_m6B55646E8D5D414F4640D15095459CE99A3E3113 (Country_Info_t246C74635E2F45525596CB92E3353E784444B1FB* __this, Party_t7374673D480CEB3A24962AFD06297A4A50EE5A4A* ___0_party, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19953,7 +20390,7 @@ IL_03b9:
 		return;
 	}
 }
-// Method Definition Index: 17037
+// Method Definition Index: 33924
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Country_Info__ctor_m83DEBBC9C4121910EAAAA2B9F6964B91FF3CD53C (Country_Info_t246C74635E2F45525596CB92E3353E784444B1FB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -19969,7 +20406,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Country_Info__ctor_m83DEBBC9C4121910EAAA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 17038
+// Method Definition Index: 33925
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Awake_m4B6E8E2AF58C95C9A2A0C4637A34AE0892CB637F (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20265,7 +20702,7 @@ IL_01e5:
 		return;
 	}
 }
-// Method Definition Index: 17039
+// Method Definition Index: 33926
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Start_m87A71D65F3171A58DBDDBFB03832ADA65643D0E2 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20323,12 +20760,28 @@ IL_003f:
 		NullCheck(L_10);
 		RTPC_SetGlobalValue_mF971BD30E6DF6234067E7BA7A523B1C15361BA9D(L_10, (-100.0f), NULL);
 		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:82>
-		GameManager_ListenToAds_m88FE3B09EAEA6EE5911C872806D3077D7C483610(__this, NULL);
+		LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB* L_11 = ((LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB_StaticFields*)il2cpp_codegen_static_fields_for(LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB_il2cpp_TypeInfo_var))->___Singlton;
+		NullCheck(L_11);
+		bool L_12;
+		L_12 = LanguageManager_get_HaveAds_mFE8BF6FBCF9B2377FC1F7FED70EBCA088742F967_inline(L_11, NULL);
+		__this->___useAds = L_12;
 		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:83>
+		GameManager_ListenToAds_m88FE3B09EAEA6EE5911C872806D3077D7C483610(__this, NULL);
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:84>
 		return;
 	}
 }
-// Method Definition Index: 17040
+// Method Definition Index: 33927
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_OnNoAdsBuying_m01B644255150BDE3B5023B5C64E4B038B12FC3AC (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:87>
+		__this->___useAds = (bool)0;
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:88>
+		return;
+	}
+}
+// Method Definition Index: 33928
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_ListenToAds_m88FE3B09EAEA6EE5911C872806D3077D7C483610 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20340,7 +20793,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_ListenToAds_m88FE3B09EAEA6EE
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:86>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:91>
 		bool L_0 = __this->___useAds;
 		if (L_0)
 		{
@@ -20348,13 +20801,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_ListenToAds_m88FE3B09EAEA6EE
 		}
 	}
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:86>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:91>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:87>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:92>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_1 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___monthsToAdsRange);
 		float L_2 = L_1->___x;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_3 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___monthsToAdsRange);
@@ -20362,7 +20815,7 @@ IL_0009:
 		int32_t L_5;
 		L_5 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(il2cpp_codegen_cast_double_to_int<int32_t>(L_2), il2cpp_codegen_cast_double_to_int<int32_t>(L_4), NULL);
 		__this->___monthsLeftToAds = L_5;
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:88>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:93>
 		InterstitialAds_tBA5E7C80BBFE70D9C3F902E7677776A4299401B9* L_6 = ((InterstitialAds_tBA5E7C80BBFE70D9C3F902E7677776A4299401B9_StaticFields*)il2cpp_codegen_static_fields_for(InterstitialAds_tBA5E7C80BBFE70D9C3F902E7677776A4299401B9_il2cpp_TypeInfo_var))->___Singleton;
 		InterstitialAds_tBA5E7C80BBFE70D9C3F902E7677776A4299401B9* L_7 = L_6;
 		NullCheck(L_7);
@@ -20374,7 +20827,7 @@ IL_0009:
 		NullCheck(L_7);
 		L_7->___newAdLoaded = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_10, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&L_7->___newAdLoaded), (void*)((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_10, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var)));
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:89>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:94>
 		InterstitialAds_tBA5E7C80BBFE70D9C3F902E7677776A4299401B9* L_11 = ((InterstitialAds_tBA5E7C80BBFE70D9C3F902E7677776A4299401B9_StaticFields*)il2cpp_codegen_static_fields_for(InterstitialAds_tBA5E7C80BBFE70D9C3F902E7677776A4299401B9_il2cpp_TypeInfo_var))->___Singleton;
 		InterstitialAds_tBA5E7C80BBFE70D9C3F902E7677776A4299401B9* L_12 = L_11;
 		NullCheck(L_12);
@@ -20386,11 +20839,11 @@ IL_0009:
 		NullCheck(L_12);
 		L_12->___newAdFailedToLoad = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_15, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&L_12->___newAdFailedToLoad), (void*)((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_15, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var)));
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:90>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:95>
 		return;
 	}
 }
-// Method Definition Index: 17041
+// Method Definition Index: 33929
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_ShowAd_m4D96CB08E0A9696CF070FFC0AB5DD25A05358E36 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20400,7 +20853,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_ShowAd_m4D96CB08E0A9696CF070
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:93>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:98>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_0 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___monthsToAdsRange);
 		float L_1 = L_0->___x;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___monthsToAdsRange);
@@ -20408,15 +20861,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_ShowAd_m4D96CB08E0A9696CF070
 		int32_t L_4;
 		L_4 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(il2cpp_codegen_cast_double_to_int<int32_t>(L_1), il2cpp_codegen_cast_double_to_int<int32_t>(L_3), NULL);
 		__this->___monthsLeftToAds = L_4;
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:94>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:99>
 		InterstitialAds_tBA5E7C80BBFE70D9C3F902E7677776A4299401B9* L_5 = ((InterstitialAds_tBA5E7C80BBFE70D9C3F902E7677776A4299401B9_StaticFields*)il2cpp_codegen_static_fields_for(InterstitialAds_tBA5E7C80BBFE70D9C3F902E7677776A4299401B9_il2cpp_TypeInfo_var))->___Singleton;
 		NullCheck(L_5);
 		InterstitialAds_ShowAd_mEB24E644FC8AF6D01A93E02DC8BD02FCDE91D490(L_5, NULL);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:95>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:100>
 		return;
 	}
 }
-// Method Definition Index: 17042
+// Method Definition Index: 33930
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_ShowInfo_mF7CF70177FBCE677114255E44894A1A294C62482 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, bool ___0_enabled, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20430,7 +20883,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_ShowInfo_mF7CF70177FBCE67711
 	int32_t G_B3_0 = 0;
 	CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* G_B3_1 = NULL;
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:99>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:104>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_0 = __this->___InfoCG;
 		bool L_1 = ___0_enabled;
 		if (L_1)
@@ -20456,26 +20909,26 @@ IL_000d:
 	{
 		NullCheck(G_B3_1);
 		CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F(G_B3_1, ((float)G_B3_0), NULL);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:100>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:105>
 		LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB* L_2 = ((LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB_StaticFields*)il2cpp_codegen_static_fields_for(LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB_il2cpp_TypeInfo_var))->___Singlton;
 		bool L_3 = ___0_enabled;
 		NullCheck(L_2);
 		LanguageManager_EnableButton_m9800F565BA6CA9458BDAF8B8DCF86205446E7AEA(L_2, (bool)((((int32_t)L_3) == ((int32_t)0))? 1 : 0), NULL);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:101>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:106>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_4 = __this->___InfoCG;
 		bool L_5 = ___0_enabled;
 		NullCheck(L_4);
 		CanvasGroup_set_interactable_m86928BB0894EF3F06BC7BE63594272FBA0DAC757(L_4, L_5, NULL);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:102>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:107>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_6 = __this->___InfoCG;
 		bool L_7 = ___0_enabled;
 		NullCheck(L_6);
 		CanvasGroup_set_blocksRaycasts_m6C17F35782D16AE3FC42FCD1A4D68E1C4A4776E0(L_6, L_7, NULL);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:103>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:108>
 		return;
 	}
 }
-// Method Definition Index: 17043
+// Method Definition Index: 33931
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_LandsFill_mDA1C6FC5457333469191DFBE59D21F974C7A070D (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20487,7 +20940,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_LandsFill_mDA1C6FC5457333469
 	ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:106>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:111>
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_0 = __this->___ComunitsisTerretory;
 		V_0 = L_0;
 		V_1 = 0;
@@ -20496,13 +20949,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_LandsFill_mDA1C6FC5457333469
 
 IL_000b:
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:106>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:111>
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:107>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:112>
 		float L_5 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___Com;
 		NullCheck(L_4);
 		Image_set_fillAmount_m8A9B55F47F966A3214EAC4ACBFE198776A98FAA7(L_4, L_5, NULL);
@@ -20512,7 +20965,7 @@ IL_000b:
 
 IL_001c:
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:106>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:111>
 		int32_t L_7 = V_1;
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_8 = V_0;
 		NullCheck(L_8);
@@ -20522,21 +20975,21 @@ IL_001c:
 		}
 	}
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:108>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:113>
 		return;
 	}
 }
-// Method Definition Index: 17044
+// Method Definition Index: 33932
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_WaitAfterAssassinToFinishGame_m7652B0AF12883019A68DF7DDC8CD5A648C59212D (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:113>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:118>
 		__this->___assassinWait = (bool)1;
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:114>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:119>
 		return;
 	}
 }
-// Method Definition Index: 17045
+// Method Definition Index: 33933
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Update_m7F29D8E933B8D21D2E67507979C0F12ACF87BB41 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20546,7 +20999,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Update_m7F29D8E933B8D21D2E67
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:117>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:122>
 		float L_0;
 		L_0 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		float L_1 = __this->___MonthCycle;
@@ -20556,13 +21009,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Update_m7F29D8E933B8D21D2E67
 		}
 	}
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:118>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:123>
 		GameManager_MonthEnd_m2AA0650CB98F2824CABB45E2515DCBCBC1555334(__this, NULL);
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:119>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:124>
 		float L_2;
 		L_2 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		float L_3 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___DoubleGate;
@@ -20579,7 +21032,7 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:120>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:125>
 		RTPC_t2704E9EFCE51ADA824E91301BD18A83059E7DF67* L_5 = __this->___MonthEndAccelerator;
 		NullCheck(L_5);
 		RTPC_SetGlobalValue_mF971BD30E6DF6234067E7BA7A523B1C15361BA9D(L_5, (-100.0f), NULL);
@@ -20587,7 +21040,7 @@ IL_0013:
 
 IL_0036:
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:121>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:126>
 		float L_6;
 		L_6 = Time_get_timeScale_m1F45A413D4EEA08B1E0988022512C137F6C1E616(NULL);
 		if ((!(((float)L_6) == ((float)(1.0f)))))
@@ -20596,13 +21049,13 @@ IL_0036:
 		}
 	}
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:123>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:128>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_7 = __this->___Date;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_8;
 		L_8 = Color_get_green_mEB001F2CD8C68C6BBAEF9101990B779D3AA2A6EF_inline(NULL);
 		NullCheck(L_7);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_7, L_8);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:124>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:129>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_9 = __this->___Month;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_10;
 		L_10 = Color_get_green_mEB001F2CD8C68C6BBAEF9101990B779D3AA2A6EF_inline(NULL);
@@ -20613,23 +21066,23 @@ IL_0036:
 
 IL_0063:
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:129>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:134>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_11 = __this->___Date;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_12;
 		L_12 = Color_get_red_mA2E53E7173FDC97E68E335049AB0FAAEE43A844D_inline(NULL);
 		NullCheck(L_11);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_11, L_12);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:130>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:135>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_13 = __this->___Month;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_14;
 		L_14 = Color_get_red_mA2E53E7173FDC97E68E335049AB0FAAEE43A844D_inline(NULL);
 		NullCheck(L_13);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_13, L_14);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:132>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:137>
 		return;
 	}
 }
-// Method Definition Index: 17046
+// Method Definition Index: 33934
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_InfoBack_mF0AB47C0A832C6A36DB9EC11BEC5DDE033211FE1 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20641,16 +21094,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_InfoBack_mF0AB47C0A832C6A36D
 	ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:135>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:140>
 		Event_t2B42414E1D18C2E1AEAC856D029957F72EFF2E4E* L_0 = __this->___ClickSound;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 		L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_0);
 		uint32_t L_2;
 		L_2 = Event_Post_mBCF123F0483EB4FD149C0B34B7BF5A452455D227(L_0, L_1, NULL);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:136>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:141>
 		GameManager_ShowInfo_mF7CF70177FBCE677114255E44894A1A294C62482(__this, (bool)0, NULL);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:137>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:142>
 		CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D* L_3 = __this->___country;
 		NullCheck(L_3);
 		bool L_4 = L_3->___IsTutorial;
@@ -20660,7 +21113,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_InfoBack_mF0AB47C0A832C6A36D
 		}
 	}
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:138>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:143>
 		ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF* L_5;
 		L_5 = Component_GetComponentsInChildren_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_m9D6A1A9F3E8724B2D2697E023F359FD37A015744(__this, Component_GetComponentsInChildren_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_m9D6A1A9F3E8724B2D2697E023F359FD37A015744_RuntimeMethod_var);
 		V_0 = L_5;
@@ -20670,13 +21123,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_InfoBack_mF0AB47C0A832C6A36D
 
 IL_0031:
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:138>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:143>
 		ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF* L_6 = V_0;
 		int32_t L_7 = V_1;
 		NullCheck(L_6);
 		int32_t L_8 = L_7;
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:139>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:144>
 		NullCheck(L_9);
 		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_9, (bool)1, NULL);
 		int32_t L_10 = V_1;
@@ -20685,7 +21138,7 @@ IL_0031:
 
 IL_003e:
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:138>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:143>
 		int32_t L_11 = V_1;
 		ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF* L_12 = V_0;
 		NullCheck(L_12);
@@ -20697,11 +21150,11 @@ IL_003e:
 
 IL_0044:
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:140>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:145>
 		return;
 	}
 }
-// Method Definition Index: 17047
+// Method Definition Index: 33935
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_MonthEnd_m2AA0650CB98F2824CABB45E2515DCBCBC1555334 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20716,7 +21169,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_MonthEnd_m2AA0650CB98F2824CA
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:144>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:149>
 		bool L_0 = __this->___assassinWait;
 		if (!L_0)
 		{
@@ -20724,10 +21177,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_MonthEnd_m2AA0650CB98F2824CA
 		}
 	}
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:146>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:151>
 		int32_t L_1 = __this->___assassinWaitMonths;
 		__this->___assassinWaitMonths = ((int32_t)il2cpp_codegen_subtract(L_1, 1));
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:147>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:152>
 		int32_t L_2 = __this->___assassinWaitMonths;
 		if (L_2)
 		{
@@ -20735,13 +21188,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_MonthEnd_m2AA0650CB98F2824CA
 		}
 	}
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:147>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:152>
 		((Tutorial_t4FF9FF1EF6F8E11558052253ECFBB53EC9AA41D4_StaticFields*)il2cpp_codegen_static_fields_for(Tutorial_t4FF9FF1EF6F8E11558052253ECFBB53EC9AA41D4_il2cpp_TypeInfo_var))->___ENDLOCK = (bool)0;
 	}
 
 IL_0024:
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:149>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:154>
 		bool L_3 = __this->___useAds;
 		if (!L_3)
 		{
@@ -20749,10 +21202,10 @@ IL_0024:
 		}
 	}
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:151>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:156>
 		int32_t L_4 = __this->___monthsLeftToAds;
 		__this->___monthsLeftToAds = ((int32_t)il2cpp_codegen_subtract(L_4, 1));
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:152>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:157>
 		int32_t L_5 = __this->___monthsLeftToAds;
 		if (L_5)
 		{
@@ -20760,7 +21213,7 @@ IL_0024:
 		}
 	}
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:154>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:159>
 		InterstitialAds_tBA5E7C80BBFE70D9C3F902E7677776A4299401B9* L_6 = ((InterstitialAds_tBA5E7C80BBFE70D9C3F902E7677776A4299401B9_StaticFields*)il2cpp_codegen_static_fields_for(InterstitialAds_tBA5E7C80BBFE70D9C3F902E7677776A4299401B9_il2cpp_TypeInfo_var))->___Singleton;
 		NullCheck(L_6);
 		InterstitialAds_LoadAd_m67F348FD34C462C6633963450E3E69F22F002283(L_6, NULL);
@@ -20768,7 +21221,7 @@ IL_0024:
 
 IL_004c:
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:157>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:162>
 		bool L_7 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___AccelLock;
 		if (!L_7)
 		{
@@ -20776,20 +21229,20 @@ IL_004c:
 		}
 	}
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:158>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:163>
 		GameManager_Accelrator_mACF1B28FAB925B292E487E89617C69797A7B263D(__this, NULL);
 	}
 
 IL_0059:
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:159>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:164>
 		Event_t2B42414E1D18C2E1AEAC856D029957F72EFF2E4E* L_8 = __this->___MonthEnded;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9;
 		L_9 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_8);
 		uint32_t L_10;
 		L_10 = Event_Post_mBCF123F0483EB4FD149C0B34B7BF5A452455D227(L_8, L_9, NULL);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:160>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:165>
 		int32_t L_11 = __this->___monthCount;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_12 = __this->___months;
 		NullCheck(L_12);
@@ -20799,9 +21252,9 @@ IL_0059:
 		}
 	}
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:162>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:167>
 		__this->___monthCount = 0;
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:163>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:168>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_13 = __this->___Date;
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_14 = __this->___Date;
 		NullCheck(L_14);
@@ -20814,7 +21267,7 @@ IL_0059:
 		L_17 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_0), NULL);
 		NullCheck(L_13);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_13, L_17);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:164>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:169>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_18 = __this->___Date;
 		NullCheck(L_18);
 		String_t* L_19;
@@ -20834,7 +21287,7 @@ IL_0059:
 		}
 	}
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:166>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:171>
 		bool L_22 = __this->___winLock;
 		if (!L_22)
 		{
@@ -20842,19 +21295,19 @@ IL_0059:
 		}
 	}
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:166>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:171>
 		return;
 	}
 
 IL_00d1:
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:167>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:172>
 		__this->___winLock = (bool)1;
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:168>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:173>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23 = __this->___WinMenu;
 		NullCheck(L_23);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_23, (bool)1, NULL);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:169>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:174>
 		CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D* L_24 = __this->___country;
 		NullCheck(L_24);
 		CountryManager_win_m978D6E66F0568099B0D7E234F01C32BB92B26D81(L_24, NULL);
@@ -20863,14 +21316,14 @@ IL_00d1:
 
 IL_00f1:
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:173>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:178>
 		int32_t L_25 = __this->___monthCount;
 		__this->___monthCount = ((int32_t)il2cpp_codegen_add(L_25, 1));
 	}
 
 IL_00ff:
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:174>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:179>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_26 = __this->___Month;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_27 = __this->___months;
 		int32_t L_28 = __this->___monthCount;
@@ -20879,18 +21332,18 @@ IL_00ff:
 		String_t* L_30 = (L_27)->GetAt(static_cast<il2cpp_array_size_t>(L_29));
 		NullCheck(L_26);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_26, L_30);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:175>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:180>
 		float L_31 = __this->___mainMonthCycle;
 		float L_32;
 		L_32 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		__this->___MonthCycle = ((float)il2cpp_codegen_add(L_31, L_32));
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:176>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:181>
 		CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D* L_33 = __this->___country;
 		NullCheck(L_33);
 		CountryManager_MonthInstansaite_mEDED097519B0E3AF448E9A561B02BB9C3D49E7C0(L_33, NULL);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:177>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:182>
 		GameManager_LandsFill_mDA1C6FC5457333469191DFBE59D21F974C7A070D(__this, NULL);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:178>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:183>
 		CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D* L_34 = __this->___country;
 		NullCheck(L_34);
 		bool L_35 = L_34->___IsTutorial;
@@ -20900,7 +21353,7 @@ IL_00ff:
 		}
 	}
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:180>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:185>
 		bool L_36 = ((Tutorial_t4FF9FF1EF6F8E11558052253ECFBB53EC9AA41D4_StaticFields*)il2cpp_codegen_static_fields_for(Tutorial_t4FF9FF1EF6F8E11558052253ECFBB53EC9AA41D4_il2cpp_TypeInfo_var))->___FirstMonthLock;
 		if (!L_36)
 		{
@@ -20908,13 +21361,13 @@ IL_00ff:
 		}
 	}
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:181>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:186>
 		((Tutorial_t4FF9FF1EF6F8E11558052253ECFBB53EC9AA41D4_StaticFields*)il2cpp_codegen_static_fields_for(Tutorial_t4FF9FF1EF6F8E11558052253ECFBB53EC9AA41D4_il2cpp_TypeInfo_var))->___FirstMonthLock = (bool)0;
 	}
 
 IL_0154:
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:182>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:187>
 		bool L_37 = ((Tutorial_t4FF9FF1EF6F8E11558052253ECFBB53EC9AA41D4_StaticFields*)il2cpp_codegen_static_fields_for(Tutorial_t4FF9FF1EF6F8E11558052253ECFBB53EC9AA41D4_il2cpp_TypeInfo_var))->___SecondMonthLock;
 		if (!L_37)
 		{
@@ -20929,13 +21382,13 @@ IL_0154:
 		}
 	}
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:183>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:188>
 		((Tutorial_t4FF9FF1EF6F8E11558052253ECFBB53EC9AA41D4_StaticFields*)il2cpp_codegen_static_fields_for(Tutorial_t4FF9FF1EF6F8E11558052253ECFBB53EC9AA41D4_il2cpp_TypeInfo_var))->___SecondMonthLock = (bool)0;
 	}
 
 IL_016a:
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:184>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:189>
 		bool L_39 = ((Tutorial_t4FF9FF1EF6F8E11558052253ECFBB53EC9AA41D4_StaticFields*)il2cpp_codegen_static_fields_for(Tutorial_t4FF9FF1EF6F8E11558052253ECFBB53EC9AA41D4_il2cpp_TypeInfo_var))->___FirstYear;
 		if (!L_39)
 		{
@@ -20950,13 +21403,13 @@ IL_016a:
 		}
 	}
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:185>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:190>
 		((Tutorial_t4FF9FF1EF6F8E11558052253ECFBB53EC9AA41D4_StaticFields*)il2cpp_codegen_static_fields_for(Tutorial_t4FF9FF1EF6F8E11558052253ECFBB53EC9AA41D4_il2cpp_TypeInfo_var))->___FirstYear = (bool)0;
 	}
 
 IL_017f:
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:186>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:191>
 		bool L_41 = ((Tutorial_t4FF9FF1EF6F8E11558052253ECFBB53EC9AA41D4_StaticFields*)il2cpp_codegen_static_fields_for(Tutorial_t4FF9FF1EF6F8E11558052253ECFBB53EC9AA41D4_il2cpp_TypeInfo_var))->___ThreeWARS;
 		if (!L_41)
 		{
@@ -20983,48 +21436,48 @@ IL_017f:
 		}
 	}
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:187>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:192>
 		((Tutorial_t4FF9FF1EF6F8E11558052253ECFBB53EC9AA41D4_StaticFields*)il2cpp_codegen_static_fields_for(Tutorial_t4FF9FF1EF6F8E11558052253ECFBB53EC9AA41D4_il2cpp_TypeInfo_var))->___ThreeWARS = (bool)0;
 	}
 
 IL_01ac:
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:189>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:194>
 		return;
 	}
 }
-// Method Definition Index: 17048
+// Method Definition Index: 33936
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_ContinueGame_mAF08F512C7E272594E1A244A60E3B7C740F5D521 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:192>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:197>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___WinMenu;
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:193>
-		return;
-	}
-}
-// Method Definition Index: 17049
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_NormalFix_m205D280B4AB90230583AC2889DA6E5A71CA79ED2 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:196>
-		__this->___mainMonthCycle = (10.0f);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:197>
-		float L_0 = __this->___mainMonthCycle;
-		float L_1;
-		L_1 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
-		__this->___MonthCycle = ((float)il2cpp_codegen_add(L_0, L_1));
 		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:198>
 		return;
 	}
 }
-// Method Definition Index: 17050
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Accelrator_mACF1B28FAB925B292E487E89617C69797A7B263D (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
+// Method Definition Index: 33937
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_NormalFix_m205D280B4AB90230583AC2889DA6E5A71CA79ED2 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:201>
+		__this->___mainMonthCycle = (10.0f);
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:202>
+		float L_0 = __this->___mainMonthCycle;
+		float L_1;
+		L_1 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		__this->___MonthCycle = ((float)il2cpp_codegen_add(L_0, L_1));
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:203>
+		return;
+	}
+}
+// Method Definition Index: 33938
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Accelrator_mACF1B28FAB925B292E487E89617C69797A7B263D (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:206>
 		RTPC_t2704E9EFCE51ADA824E91301BD18A83059E7DF67* L_0 = __this->___MonthEndAccelerator;
 		RTPC_t2704E9EFCE51ADA824E91301BD18A83059E7DF67* L_1 = __this->___MonthEndAccelerator;
 		NullCheck(L_1);
@@ -21032,11 +21485,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Accelrator_mACF1B28FAB925B29
 		L_2 = RTPC_GetGlobalValue_mC54BC7270E588DAD5C01F6BC0ECB6EAE926398CA(L_1, NULL);
 		NullCheck(L_0);
 		RTPC_SetGlobalValue_mF971BD30E6DF6234067E7BA7A523B1C15361BA9D(L_0, ((float)il2cpp_codegen_add(L_2, (50.0f))), NULL);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:202>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:207>
 		return;
 	}
 }
-// Method Definition Index: 17051
+// Method Definition Index: 33939
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager__ctor_mF453CED520617BFB65C52405A964E06CF17DB368 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21050,7 +21503,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager__ctor_mF453CED520617BFB65C52
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)((int32_t)12));
 		__this->___months = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___months), (void*)L_0);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:110>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/GameManager.cs:115>
 		__this->___assassinWaitMonths = 3;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -21064,7 +21517,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager__ctor_mF453CED520617BFB65C52
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 17052
+// Method Definition Index: 33940
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HoverInfo_Start_m5FA004FD760DE90C43914279822710E4F8600664 (HoverInfo_t003E35DBF2EE5EA6B6803088902573FF3AFFF992* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21091,7 +21544,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HoverInfo_Start_m5FA004FD760DE90C4391427
 		return;
 	}
 }
-// Method Definition Index: 17053
+// Method Definition Index: 33941
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HoverInfo_SetupButton_m9531EA519B8A09054FEFA1EC958DAF3CE259F83D (HoverInfo_t003E35DBF2EE5EA6B6803088902573FF3AFFF992* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21110,7 +21563,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HoverInfo_SetupButton_m9531EA519B8A09054
 		return;
 	}
 }
-// Method Definition Index: 17054
+// Method Definition Index: 33942
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HoverInfo_OnPointerDown_m10C83AC4A46470F5A73E65CF4C045198D92CE795 (HoverInfo_t003E35DBF2EE5EA6B6803088902573FF3AFFF992* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___0_eventData, const RuntimeMethod* method) 
 {
 	{
@@ -21147,7 +21600,7 @@ IL_001b:
 		return;
 	}
 }
-// Method Definition Index: 17055
+// Method Definition Index: 33943
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HoverInfo_OnPointerUp_m009C7649DF578EF409AC15A328AA29FFDA04F6D8 (HoverInfo_t003E35DBF2EE5EA6B6803088902573FF3AFFF992* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___0_eventData, const RuntimeMethod* method) 
 {
 	{
@@ -21202,7 +21655,7 @@ IL_0037:
 		return;
 	}
 }
-// Method Definition Index: 17056
+// Method Definition Index: 33944
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* HoverInfo_HoldTimer_mB813B318377567BE684E979CC11207D0E73C7BA7 (HoverInfo_t003E35DBF2EE5EA6B6803088902573FF3AFFF992* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21221,7 +21674,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* HoverInfo_HoldTimer_mB813B3183
 		return L_1;
 	}
 }
-// Method Definition Index: 17057
+// Method Definition Index: 33945
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HoverInfo_SetupDetails_mEB9D19A7137FC94A26DC4944F4EB59E74CE10DC4 (HoverInfo_t003E35DBF2EE5EA6B6803088902573FF3AFFF992* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22014,7 +22467,7 @@ IL_0620:
 		return;
 	}
 }
-// Method Definition Index: 17058
+// Method Definition Index: 33946
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HoverInfo_ShowInfo_m60DDEF661EC4E098E9C5B3EACCDF9D55C97CD3FB (HoverInfo_t003E35DBF2EE5EA6B6803088902573FF3AFFF992* __this, bool ___0_show, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22070,7 +22523,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 17059
+// Method Definition Index: 33947
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HoverInfo_LaunchAction_m0358A79B2C88E946F93C992D3FF77D10A9FC0B15 (HoverInfo_t003E35DBF2EE5EA6B6803088902573FF3AFFF992* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22091,7 +22544,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HoverInfo_LaunchAction_m0358A79B2C88E946
 		return;
 	}
 }
-// Method Definition Index: 17060
+// Method Definition Index: 33948
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* HoverInfo_MoneyTranslate_m80FBBCF595FD83624872B36E06C267E5C783DA9A (HoverInfo_t003E35DBF2EE5EA6B6803088902573FF3AFFF992* __this, float ___0_mon, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22206,7 +22659,7 @@ IL_00cc:
 		return L_23;
 	}
 }
-// Method Definition Index: 17061
+// Method Definition Index: 33949
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HoverInfo_QuoteEnd_m1BEB4BE20A0EA4D73780E6E7D0CE08236F54B156 (HoverInfo_t003E35DBF2EE5EA6B6803088902573FF3AFFF992* __this, RuntimeObject* ___0_in_cookie, int32_t ___1_in_type, RuntimeObject* ___2_in_info, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22288,7 +22741,7 @@ IL_006f:
 		return;
 	}
 }
-// Method Definition Index: 17062
+// Method Definition Index: 33950
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HoverInfo_QuotePlay_m0F05C9C4C4D9E2FFB7A592795C75AE29706921B0 (HoverInfo_t003E35DBF2EE5EA6B6803088902573FF3AFFF992* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22360,7 +22813,7 @@ IL_0056:
 		return;
 	}
 }
-// Method Definition Index: 17063
+// Method Definition Index: 33951
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HoverInfo__ctor_mB212739528D24B13187932F6B19D226A892B055A (HoverInfo_t003E35DBF2EE5EA6B6803088902573FF3AFFF992* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22378,7 +22831,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HoverInfo__ctor_mB212739528D24B13187932F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 17064
+// Method Definition Index: 33952
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHoldTimerU3Ed__28__ctor_mF63EB529271D0B8BF10D116A014B549F9210EC0C (U3CHoldTimerU3Ed__28_tB569D5CA092AD2741F1E6EFECEFA67B05064A165* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -22388,14 +22841,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHoldTimerU3Ed__28__ctor_mF63EB529271D
 		return;
 	}
 }
-// Method Definition Index: 17065
+// Method Definition Index: 33953
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHoldTimerU3Ed__28_System_IDisposable_Dispose_m4C6A2D7752973FFE3AD0D511C7BDD8A716E31200 (U3CHoldTimerU3Ed__28_tB569D5CA092AD2741F1E6EFECEFA67B05064A165* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 17066
+// Method Definition Index: 33954
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CHoldTimerU3Ed__28_MoveNext_m2223A384124B6BBC1F8347CFA97DB622A1876E12 (U3CHoldTimerU3Ed__28_tB569D5CA092AD2741F1E6EFECEFA67B05064A165* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22458,7 +22911,7 @@ IL_0038:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 17067
+// Method Definition Index: 33955
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CHoldTimerU3Ed__28_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m9246E131A62236896B216B47BE06ADDC538F9870 (U3CHoldTimerU3Ed__28_tB569D5CA092AD2741F1E6EFECEFA67B05064A165* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22466,7 +22919,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CHoldTimerU3Ed__28_System_Co
 		return L_0;
 	}
 }
-// Method Definition Index: 17068
+// Method Definition Index: 33956
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHoldTimerU3Ed__28_System_Collections_IEnumerator_Reset_mCDEECE3970679166BEE0C48BF63613E04CA5CB31 (U3CHoldTimerU3Ed__28_tB569D5CA092AD2741F1E6EFECEFA67B05064A165* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22475,7 +22928,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHoldTimerU3Ed__28_System_Collections_
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CHoldTimerU3Ed__28_System_Collections_IEnumerator_Reset_mCDEECE3970679166BEE0C48BF63613E04CA5CB31_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 17069
+// Method Definition Index: 33957
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CHoldTimerU3Ed__28_System_Collections_IEnumerator_get_Current_m5D2C56953C8A9E0FF5373D0578170395424ECE16 (U3CHoldTimerU3Ed__28_tB569D5CA092AD2741F1E6EFECEFA67B05064A165* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22491,7 +22944,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CHoldTimerU3Ed__28_System_Co
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 17070
+// Method Definition Index: 33958
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Hover_Click_Sounds__ctor_m76FCD2CD82A647F80368639C33045159D703FB56 (Hover_Click_Sounds_t08DA80409558863BC696D5AE27812B7415ABCD62* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22507,7 +22960,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Hover_Click_Sounds__ctor_m76FCD2CD82A647
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 17071
+// Method Definition Index: 33959
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LanguageManager_get_GetSelectedLanguag_m1D04CE7312456234B62E020A01D8859D04FC4104 (LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22516,21 +22969,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LanguageManager_get_GetSelectedLangua
 		return L_0;
 	}
 }
-// Method Definition Index: 17072
+// Method Definition Index: 33960
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageManager_Awake_m80A36B7390B54DB15B6CAA1A8DCDE55C1A872EC5 (LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Language_t5724D209815260FBE53B381A2378B7C8BCF46CB0_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral159A5B88991160B1366DA457B5843FDA09B278F2);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA274ED2E6D8673116A56687FC4BB27880FC5CF78);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB7C45DD316C68ABF3429C20058C2981C652192F2);
 		s_Il2CppMethodInitialized = true;
 	}
-	int32_t V_0 = 0;
+	LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB* G_B5_0 = NULL;
+	LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB* G_B4_0 = NULL;
+	int32_t G_B6_0 = 0;
+	LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB* G_B6_1 = NULL;
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:19>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:20>
 		LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB* L_0 = ((LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB_StaticFields*)il2cpp_codegen_static_fields_for(LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB_il2cpp_TypeInfo_var))->___Singlton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -22541,7 +22997,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageManager_Awake_m80A36B7390B54DB15
 		}
 	}
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:20>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:21>
 		((LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB_StaticFields*)il2cpp_codegen_static_fields_for(LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB_il2cpp_TypeInfo_var))->___Singlton = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&((LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB_StaticFields*)il2cpp_codegen_static_fields_for(LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB_il2cpp_TypeInfo_var))->___Singlton), (void*)__this);
 		goto IL_0020;
@@ -22549,7 +23005,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageManager_Awake_m80A36B7390B54DB15
 
 IL_0015:
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:22>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:23>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
 		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -22558,76 +23014,163 @@ IL_0015:
 
 IL_0020:
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:23>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:24>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
 		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_DontDestroyOnLoad_m4B70C3AEF886C176543D1295507B6455C9DCAEA7(L_3, NULL);
 		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:25>
-		V_0 = 1;
-		Il2CppFakeBox<int32_t> L_4(Language_t5724D209815260FBE53B381A2378B7C8BCF46CB0_il2cpp_TypeInfo_var, (&V_0));
-		String_t* L_5;
-		L_5 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_4), NULL);
-		String_t* L_6;
-		L_6 = PlayerPrefs_GetString_mE80FED64ACC3134149C8202FDDDE774C29CB0AF2(_stringLiteral159A5B88991160B1366DA457B5843FDA09B278F2, L_5, NULL);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:26>
-		V_0 = 1;
-		Il2CppFakeBox<int32_t> L_7(Language_t5724D209815260FBE53B381A2378B7C8BCF46CB0_il2cpp_TypeInfo_var, (&V_0));
-		String_t* L_8;
-		L_8 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_7), NULL);
-		bool L_9;
-		L_9 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_6, L_8, NULL);
-		if (!L_9)
+		String_t* L_4;
+		L_4 = PlayerPrefs_GetString_mE80FED64ACC3134149C8202FDDDE774C29CB0AF2(_stringLiteralA274ED2E6D8673116A56687FC4BB27880FC5CF78, _stringLiteralB7C45DD316C68ABF3429C20058C2981C652192F2, NULL);
+		bool L_5;
+		L_5 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_4, _stringLiteralB7C45DD316C68ABF3429C20058C2981C652192F2, NULL);
+		if (L_5)
 		{
-			goto IL_0063;
+			G_B5_0 = __this;
+			goto IL_004a;
 		}
+		G_B4_0 = __this;
 	}
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:27>
-		LanguageManager_SetLanguage_mE7429E9D5202DEB196BBA76C1DC3D2186972EFC8(__this, 1, NULL);
-		goto IL_006a;
-	}
-
-IL_0063:
-	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:29>
-		LanguageManager_SetLanguage_mE7429E9D5202DEB196BBA76C1DC3D2186972EFC8(__this, 0, NULL);
+		G_B6_0 = 0;
+		G_B6_1 = G_B4_0;
+		goto IL_004b;
 	}
 
-IL_006a:
+IL_004a:
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:30>
-		LanguageManager_CacheSceneElements_mB7F776DE8020C4867BFA296EA1ED90081643BB2E(__this, NULL);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:31>
+		G_B6_0 = 1;
+		G_B6_1 = G_B5_0;
+	}
+
+IL_004b:
+	{
+		NullCheck(G_B6_1);
+		G_B6_1->___haveAds = (bool)G_B6_0;
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:26>
 		return;
 	}
 }
-// Method Definition Index: 17073
+// Method Definition Index: 33961
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageManager_BuyNoAds_m25F8AE4FC9D4556AC87A0755F3F6310AF54F9A9E (LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdsManager_tE059594BE435B356831188671B794CDE032FC41B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral77D38C0623F92B292B925F6E72CF5CF99A20D4EB);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA274ED2E6D8673116A56687FC4BB27880FC5CF78);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:30>
+		__this->___haveAds = (bool)0;
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:31>
+		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteralA274ED2E6D8673116A56687FC4BB27880FC5CF78, _stringLiteral77D38C0623F92B292B925F6E72CF5CF99A20D4EB, NULL);
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:32>
+		PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE(NULL);
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:33>
+		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_0 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___Singleton;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_0031;
+		}
+	}
+	{
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:34>
+		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_2 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___Singleton;
+		NullCheck(L_2);
+		GameManager_OnNoAdsBuying_m01B644255150BDE3B5023B5C64E4B038B12FC3AC(L_2, NULL);
+	}
+
+IL_0031:
+	{
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:35>
+		AdsManager_tE059594BE435B356831188671B794CDE032FC41B* L_3 = ((AdsManager_tE059594BE435B356831188671B794CDE032FC41B_StaticFields*)il2cpp_codegen_static_fields_for(AdsManager_tE059594BE435B356831188671B794CDE032FC41B_il2cpp_TypeInfo_var))->___Singleton;
+		NullCheck(L_3);
+		AdsManager_OnBuyAds_m9191B38F9A8C87FAE17629DA76F44199C880D9F8(L_3, NULL);
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:36>
+		return;
+	}
+}
+// Method Definition Index: 33962
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LanguageManager_get_HaveAds_mFE8BF6FBCF9B2377FC1F7FED70EBCA088742F967 (LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:37>
+		bool L_0 = __this->___haveAds;
+		return L_0;
+	}
+}
+// Method Definition Index: 33963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageManager_Start_m6A845778018ADC5B02508355D8A77207118B4032 (LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LanguageManager_LocalizeScene_m5CFD437CE86B10AA53A9492B8FADF0591DD40F03_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Language_t5724D209815260FBE53B381A2378B7C8BCF46CB0_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral159A5B88991160B1366DA457B5843FDA09B278F2);
 		s_Il2CppMethodInitialized = true;
 	}
+	int32_t V_0 = 0;
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:34>
-		UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A* L_0 = (UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A*)il2cpp_codegen_object_new(UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A_il2cpp_TypeInfo_var);
-		UnityAction_2__ctor_m0E0C01B7056EB1CB1E6C6F4FC457EBCA3F6B0041(L_0, __this, (intptr_t)((void*)LanguageManager_LocalizeScene_m5CFD437CE86B10AA53A9492B8FADF0591DD40F03_RuntimeMethod_var), NULL);
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:40>
+		V_0 = 1;
+		Il2CppFakeBox<int32_t> L_0(Language_t5724D209815260FBE53B381A2378B7C8BCF46CB0_il2cpp_TypeInfo_var, (&V_0));
+		String_t* L_1;
+		L_1 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_0), NULL);
+		String_t* L_2;
+		L_2 = PlayerPrefs_GetString_mE80FED64ACC3134149C8202FDDDE774C29CB0AF2(_stringLiteral159A5B88991160B1366DA457B5843FDA09B278F2, L_1, NULL);
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:41>
+		V_0 = 1;
+		Il2CppFakeBox<int32_t> L_3(Language_t5724D209815260FBE53B381A2378B7C8BCF46CB0_il2cpp_TypeInfo_var, (&V_0));
+		String_t* L_4;
+		L_4 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_3), NULL);
+		bool L_5;
+		L_5 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_2, L_4, NULL);
+		if (!L_5)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:42>
+		LanguageManager_SetLanguage_mE7429E9D5202DEB196BBA76C1DC3D2186972EFC8(__this, 1, NULL);
+		goto IL_003f;
+	}
+
+IL_0038:
+	{
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:44>
+		LanguageManager_SetLanguage_mE7429E9D5202DEB196BBA76C1DC3D2186972EFC8(__this, 0, NULL);
+	}
+
+IL_003f:
+	{
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:45>
+		LanguageManager_CacheSceneElements_mB7F776DE8020C4867BFA296EA1ED90081643BB2E(__this, NULL);
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:47>
+		UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A* L_6 = (UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A*)il2cpp_codegen_object_new(UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A_il2cpp_TypeInfo_var);
+		UnityAction_2__ctor_m0E0C01B7056EB1CB1E6C6F4FC457EBCA3F6B0041(L_6, __this, (intptr_t)((void*)LanguageManager_LocalizeScene_m5CFD437CE86B10AA53A9492B8FADF0591DD40F03_RuntimeMethod_var), NULL);
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
-		SceneManager_add_sceneLoaded_m14BEBCC5E4A8DD2C806A48D79A4773315CB434C6(L_0, NULL);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:35>
+		SceneManager_add_sceneLoaded_m14BEBCC5E4A8DD2C806A48D79A4773315CB434C6(L_6, NULL);
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:48>
 		LanguageManager_ChangeSceneElements_m75925787A26F99DF73527DC1E1F39E5669D18431(__this, NULL);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:36>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:49>
 		LanguageManager_SetupLanguageButton_m6196E77C6220789342C18F7CF130A03CB366F354(__this, NULL);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:37>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:50>
 		return;
 	}
 }
-// Method Definition Index: 17074
+// Method Definition Index: 33964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageManager_SetupLanguageButton_m6196E77C6220789342C18F7CF130A03CB366F354 (LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22645,7 +23188,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageManager_SetupLanguageButton_m619
 	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* G_B3_0 = NULL;
 	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* G_B3_1 = NULL;
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:40>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:53>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = GameObject_FindGameObjectWithTag_mF0229BC2074CE9EEA72FAB1E5A4BC2AEC3D2CDBE(_stringLiteral17708B72EC859E0A7BA6DAFBB240D1B447C87E65, NULL);
 		NullCheck(L_0);
@@ -22653,7 +23196,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageManager_SetupLanguageButton_m619
 		L_1 = GameObject_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mB997CBF78A37938DC1624352E12D0205078CB290(L_0, GameObject_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mB997CBF78A37938DC1624352E12D0205078CB290_RuntimeMethod_var);
 		__this->___languageButton = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___languageButton), (void*)L_1);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:41>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:54>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_2 = __this->___languageButton;
 		NullCheck(L_2);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_3;
@@ -22662,8 +23205,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageManager_SetupLanguageButton_m619
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_4, __this, (intptr_t)((void*)LanguageManager_SwitchLanguage_m259D640A43036C81D575FD8D0AE89E62DDBDF1D2_RuntimeMethod_var), NULL);
 		NullCheck(L_3);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_3, L_4, NULL);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:42>
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:43>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:55>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:56>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
 		L_5 = GameObject_FindGameObjectWithTag_mF0229BC2074CE9EEA72FAB1E5A4BC2AEC3D2CDBE(_stringLiteral17708B72EC859E0A7BA6DAFBB240D1B447C87E65, NULL);
 		NullCheck(L_5);
@@ -22695,11 +23238,11 @@ IL_0057:
 	{
 		NullCheck(G_B3_1);
 		Image_set_sprite_mC0C248340BA27AAEE56855A3FAFA0D8CA12956DE(G_B3_1, G_B3_0, NULL);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:44>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:57>
 		return;
 	}
 }
-// Method Definition Index: 17075
+// Method Definition Index: 33965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageManager_CacheSceneElements_mB7F776DE8020C4867BFA296EA1ED90081643BB2E (LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22710,23 +23253,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageManager_CacheSceneElements_mB7F7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:48>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:61>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		LocalizedElementU5BU5D_t41433ED19B2B1C9E13FC059C93FC542C362FEF9C* L_0;
 		L_0 = Object_FindObjectsOfType_TisLocalizedElement_t31B6B7FACE37B41C662F19C2B65AA5DA8BB36893_mD714E3484F7169A94557ACFF267EF70BC7F074E9(Object_FindObjectsOfType_TisLocalizedElement_t31B6B7FACE37B41C662F19C2B65AA5DA8BB36893_mD714E3484F7169A94557ACFF267EF70BC7F074E9_RuntimeMethod_var);
 		__this->___sceneElements = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___sceneElements), (void*)L_0);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:49>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:62>
 		return;
 	}
 }
-// Method Definition Index: 17076
+// Method Definition Index: 33966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageManager_ChangeSceneElements_m75925787A26F99DF73527DC1E1F39E5669D18431 (LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB* __this, const RuntimeMethod* method) 
 {
 	LocalizedElementU5BU5D_t41433ED19B2B1C9E13FC059C93FC542C362FEF9C* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:52>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:65>
 		LocalizedElementU5BU5D_t41433ED19B2B1C9E13FC059C93FC542C362FEF9C* L_0 = __this->___sceneElements;
 		if (L_0)
 		{
@@ -22734,13 +23277,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageManager_ChangeSceneElements_m759
 		}
 	}
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:52>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:65>
 		LanguageManager_CacheSceneElements_mB7F776DE8020C4867BFA296EA1ED90081643BB2E(__this, NULL);
 	}
 
 IL_000e:
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:53>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:66>
 		LocalizedElementU5BU5D_t41433ED19B2B1C9E13FC059C93FC542C362FEF9C* L_1 = __this->___sceneElements;
 		V_0 = L_1;
 		V_1 = 0;
@@ -22749,13 +23292,13 @@ IL_000e:
 
 IL_0019:
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:53>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:66>
 		LocalizedElementU5BU5D_t41433ED19B2B1C9E13FC059C93FC542C362FEF9C* L_2 = V_0;
 		int32_t L_3 = V_1;
 		NullCheck(L_2);
 		int32_t L_4 = L_3;
 		LocalizedElement_t31B6B7FACE37B41C662F19C2B65AA5DA8BB36893* L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:54>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:67>
 		int32_t L_6 = __this->___selectedLanguage;
 		NullCheck(L_5);
 		LocalizedElement_SetVersion_mCF040255E7C83EB4AF45C7E0045CE533E54753BF(L_5, L_6, NULL);
@@ -22765,7 +23308,7 @@ IL_0019:
 
 IL_002b:
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:53>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:66>
 		int32_t L_8 = V_1;
 		LocalizedElementU5BU5D_t41433ED19B2B1C9E13FC059C93FC542C362FEF9C* L_9 = V_0;
 		NullCheck(L_9);
@@ -22775,15 +23318,15 @@ IL_002b:
 		}
 	}
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:55>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:68>
 		LanguageManager_ChangeNotification_mDE772F9756EBC0D43C2FFD198883B5F98A48D32F(__this, NULL);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:56>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:69>
 		LanguageManager_ChangeTutorial_mBEFCF12F344A2675BAC005D783F3429D71CE2268(__this, NULL);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:57>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:70>
 		return;
 	}
 }
-// Method Definition Index: 17077
+// Method Definition Index: 33967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageManager_ChangeNotification_mDE772F9756EBC0D43C2FFD198883B5F98A48D32F (LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22796,11 +23339,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageManager_ChangeNotification_mDE77
 	NotificationU5BU5D_tB31493DD9A2A92F64EEDE448C1A878B2807B9AF9* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:60>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:73>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		NotificationU5BU5D_tB31493DD9A2A92F64EEDE448C1A878B2807B9AF9* L_0;
 		L_0 = Object_FindObjectsOfType_TisNotification_t935ED056029A6F99D5AB2797AB3032EBD2F8A3F5_m28AC5C0F34B74B7BDD97EF54F45258E1A7D79ABC(Object_FindObjectsOfType_TisNotification_t935ED056029A6F99D5AB2797AB3032EBD2F8A3F5_m28AC5C0F34B74B7BDD97EF54F45258E1A7D79ABC_RuntimeMethod_var);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:61>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:74>
 		V_0 = L_0;
 		V_1 = 0;
 		goto IL_0016;
@@ -22808,13 +23351,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageManager_ChangeNotification_mDE77
 
 IL_000a:
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:61>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:74>
 		NotificationU5BU5D_tB31493DD9A2A92F64EEDE448C1A878B2807B9AF9* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		Notification_t935ED056029A6F99D5AB2797AB3032EBD2F8A3F5* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:62>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:75>
 		NullCheck(L_4);
 		Notification_ChangeLanguage_m20BF4D041246B9037AF94EDE019C4AD376195FBB(L_4, NULL);
 		int32_t L_5 = V_1;
@@ -22823,7 +23366,7 @@ IL_000a:
 
 IL_0016:
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:61>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:74>
 		int32_t L_6 = V_1;
 		NotificationU5BU5D_tB31493DD9A2A92F64EEDE448C1A878B2807B9AF9* L_7 = V_0;
 		NullCheck(L_7);
@@ -22833,11 +23376,11 @@ IL_0016:
 		}
 	}
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:63>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:76>
 		return;
 	}
 }
-// Method Definition Index: 17078
+// Method Definition Index: 33968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageManager_ChangeTutorial_mBEFCF12F344A2675BAC005D783F3429D71CE2268 (LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22849,7 +23392,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageManager_ChangeTutorial_mBEFCF12F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:66>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:79>
 		il2cpp_codegen_runtime_class_init_inline(CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D_il2cpp_TypeInfo_var);
 		CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D* L_0 = ((CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D_StaticFields*)il2cpp_codegen_static_fields_for(CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D_il2cpp_TypeInfo_var))->___instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -22861,7 +23404,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageManager_ChangeTutorial_mBEFCF12F
 		}
 	}
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:67>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:80>
 		il2cpp_codegen_runtime_class_init_inline(CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D_il2cpp_TypeInfo_var);
 		CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D* L_2 = ((CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D_StaticFields*)il2cpp_codegen_static_fields_for(CountryManager_tA3EB39F3EB0182D99942C0D82194B2B8785FFA7D_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_2);
@@ -22872,7 +23415,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageManager_ChangeTutorial_mBEFCF12F
 		}
 	}
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:68>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:81>
 		Tutorial_t4FF9FF1EF6F8E11558052253ECFBB53EC9AA41D4* L_4 = ((Tutorial_t4FF9FF1EF6F8E11558052253ECFBB53EC9AA41D4_StaticFields*)il2cpp_codegen_static_fields_for(Tutorial_t4FF9FF1EF6F8E11558052253ECFBB53EC9AA41D4_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_4);
 		Tutorial_OnLanguageChanged_m5AFCF04C4C0E14EEC8C22849BECC86E1A8180058(L_4, NULL);
@@ -22880,77 +23423,71 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageManager_ChangeTutorial_mBEFCF12F
 
 IL_0023:
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:69>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:82>
 		return;
 	}
 }
-// Method Definition Index: 17079
+// Method Definition Index: 33969
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageManager_LocalizeScene_m5CFD437CE86B10AA53A9492B8FADF0591DD40F03 (LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB* __this, Scene_tA1DC762B79745EB5140F054C884855B922318356 ___0_arg0, int32_t ___1_arg1, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:72>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:85>
 		LanguageManager_CacheSceneElements_mB7F776DE8020C4867BFA296EA1ED90081643BB2E(__this, NULL);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:73>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:86>
 		LanguageManager_ChangeSceneElements_m75925787A26F99DF73527DC1E1F39E5669D18431(__this, NULL);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:74>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:87>
 		LanguageManager_SetupLanguageButton_m6196E77C6220789342C18F7CF130A03CB366F354(__this, NULL);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:75>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:88>
 		return;
 	}
 }
-// Method Definition Index: 17080
+// Method Definition Index: 33970
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageManager_SwitchLanguage_m259D640A43036C81D575FD8D0AE89E62DDBDF1D2 (LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral679D068D573133B9C7C465FC6CF9C9D07B531421);
-		s_Il2CppMethodInitialized = true;
-	}
 	LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB* G_B2_0 = NULL;
 	LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB* G_B1_0 = NULL;
 	int32_t G_B3_0 = 0;
 	LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB* G_B3_1 = NULL;
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:78>
-		MonoBehaviour_print_m9E6FF71C673B651F35DD418C293CFC50C46803B6(_stringLiteral679D068D573133B9C7C465FC6CF9C9D07B531421, NULL);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:79>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:91>
 		int32_t L_0 = __this->___selectedLanguage;
 		if ((((int32_t)L_0) == ((int32_t)1)))
 		{
 			G_B2_0 = __this;
-			goto IL_0017;
+			goto IL_000d;
 		}
 		G_B1_0 = __this;
 	}
 	{
 		G_B3_0 = 1;
 		G_B3_1 = G_B1_0;
-		goto IL_0018;
+		goto IL_000e;
 	}
 
-IL_0017:
+IL_000d:
 	{
 		G_B3_0 = 0;
 		G_B3_1 = G_B2_0;
 	}
 
-IL_0018:
+IL_000e:
 	{
 		NullCheck(G_B3_1);
 		LanguageManager_SetLanguage_mE7429E9D5202DEB196BBA76C1DC3D2186972EFC8(G_B3_1, G_B3_0, NULL);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:80>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:92>
 		return;
 	}
 }
-// Method Definition Index: 17081
+// Method Definition Index: 33971
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageManager_SetLanguage_mE7429E9D5202DEB196BBA76C1DC3D2186972EFC8 (LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB* __this, int32_t ___0_language, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BuyingManager_tD22F8B926357367E95C070293C80E047D5044805_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mA59EA7D5F9133B2593F4AB70B099928BA955EE7D_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Language_t5724D209815260FBE53B381A2378B7C8BCF46CB0_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral159A5B88991160B1366DA457B5843FDA09B278F2);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral17708B72EC859E0A7BA6DAFBB240D1B447C87E65);
 		s_Il2CppMethodInitialized = true;
@@ -22960,16 +23497,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageManager_SetLanguage_mE7429E9D520
 	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* G_B3_0 = NULL;
 	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* G_B3_1 = NULL;
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:83>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:95>
 		int32_t L_0 = ___0_language;
 		__this->___selectedLanguage = L_0;
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:84>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:96>
 		Il2CppFakeBox<int32_t> L_1(Language_t5724D209815260FBE53B381A2378B7C8BCF46CB0_il2cpp_TypeInfo_var, (&___0_language));
 		String_t* L_2;
 		L_2 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_1), NULL);
 		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral159A5B88991160B1366DA457B5843FDA09B278F2, L_2, NULL);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:86>
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:87>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:98>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:99>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
 		L_3 = GameObject_FindGameObjectWithTag_mF0229BC2074CE9EEA72FAB1E5A4BC2AEC3D2CDBE(_stringLiteral17708B72EC859E0A7BA6DAFBB240D1B447C87E65, NULL);
 		NullCheck(L_3);
@@ -23001,15 +23538,35 @@ IL_0044:
 	{
 		NullCheck(G_B3_1);
 		Image_set_sprite_mC0C248340BA27AAEE56855A3FAFA0D8CA12956DE(G_B3_1, G_B3_0, NULL);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:88>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:100>
 		PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE(NULL);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:89>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:101>
 		LanguageManager_ChangeSceneElements_m75925787A26F99DF73527DC1E1F39E5669D18431(__this, NULL);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:90>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:102>
+		BuyingManager_tD22F8B926357367E95C070293C80E047D5044805* L_8 = ((BuyingManager_tD22F8B926357367E95C070293C80E047D5044805_StaticFields*)il2cpp_codegen_static_fields_for(BuyingManager_tD22F8B926357367E95C070293C80E047D5044805_il2cpp_TypeInfo_var))->___Singlton;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_9;
+		L_9 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_8, NULL);
+		if (!L_9)
+		{
+			goto IL_0070;
+		}
+	}
+	{
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:103>
+		BuyingManager_tD22F8B926357367E95C070293C80E047D5044805* L_10 = ((BuyingManager_tD22F8B926357367E95C070293C80E047D5044805_StaticFields*)il2cpp_codegen_static_fields_for(BuyingManager_tD22F8B926357367E95C070293C80E047D5044805_il2cpp_TypeInfo_var))->___Singlton;
+		int32_t L_11 = __this->___selectedLanguage;
+		NullCheck(L_10);
+		BuyingManager_ToggleLanguage_m95D1F529A2030BC15753ED1F0C4636CFFABC77D6(L_10, L_11, NULL);
+	}
+
+IL_0070:
+	{
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:104>
 		return;
 	}
 }
-// Method Definition Index: 17082
+// Method Definition Index: 33972
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageManager_OnLaunchGame_mB43FB1F5C9DDD9CBC10E196DEA29C336EDA82D06 (LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB* __this, bool ___0_endless, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23019,54 +23576,54 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageManager_OnLaunchGame_mB43FB1F5C9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:94>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:108>
 		bool L_0 = ___0_endless;
 		__this->___playerSelectedEndlessMode = L_0;
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:95>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:109>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_m0957E62F2A0A0243C79394E5B74E8EFA86BE5ED1(2, NULL);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:96>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:110>
 		return;
 	}
 }
-// Method Definition Index: 17083
+// Method Definition Index: 33973
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageManager_EnableButton_m9800F565BA6CA9458BDAF8B8DCF86205446E7AEA (LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB* __this, bool ___0_enabled, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:99>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:113>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0 = __this->___languageButton;
 		bool L_1 = ___0_enabled;
 		NullCheck(L_0);
 		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_0, L_1, NULL);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:100>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:114>
 		return;
 	}
 }
-// Method Definition Index: 17084
+// Method Definition Index: 33974
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageManager_HideButton_m21786D6BD842B01F6A4DA579017F4E5BB666C97E (LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:103>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:117>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0 = __this->___languageButton;
 		NullCheck(L_0);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 		L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_0, NULL);
 		NullCheck(L_1);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)0, NULL);
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:104>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:118>
 		return;
 	}
 }
-// Method Definition Index: 17085
+// Method Definition Index: 33975
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LanguageManager_get_IsEndless_mFB2353F5D9A122D7A948FCA5EFAB3630CBEE8A40 (LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:105>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:119>
 		bool L_0 = __this->___playerSelectedEndlessMode;
 		return L_0;
 	}
 }
-// Method Definition Index: 17086
+// Method Definition Index: 33976
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageManager__ctor_m2E3D5E40E01EF051CC2BCA5DD4DC98EA7EFB58F1 (LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23090,7 +23647,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LanguageManager__ctor_m2E3D5E40E01EF051C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 17087
+// Method Definition Index: 33977
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizedElement_Start_m308059F5C0E75145F3921ABC39C893382773086E (LocalizedElement_t31B6B7FACE37B41C662F19C2B65AA5DA8BB36893* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23112,7 +23669,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizedElement_Start_m308059F5C0E75145
 		return;
 	}
 }
-// Method Definition Index: 17088
+// Method Definition Index: 33978
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizedElement_Assign_m6962915F183921D21318B5126E43B390BC201BDD (LocalizedElement_t31B6B7FACE37B41C662F19C2B65AA5DA8BB36893* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23165,7 +23722,7 @@ IL_0043:
 		return;
 	}
 }
-// Method Definition Index: 17089
+// Method Definition Index: 33979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizedElement_SetVersion_mCF040255E7C83EB4AF45C7E0045CE533E54753BF (LocalizedElement_t31B6B7FACE37B41C662F19C2B65AA5DA8BB36893* __this, int32_t ___0_language, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23225,7 +23782,7 @@ IL_0034:
 		return;
 	}
 }
-// Method Definition Index: 17090
+// Method Definition Index: 33980
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizedElement__ctor_m21D841B0630F0C81FB0D6E0DF01806B4B4662E94 (LocalizedElement_t31B6B7FACE37B41C662F19C2B65AA5DA8BB36893* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23241,7 +23798,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizedElement__ctor_m21D841B0630F0C81
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 17091
+// Method Definition Index: 33981
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuManager_Start_m0DE5C20FF402B377BA9FD8819426F55C9289A55A (MainMenuManager_tF7A52AE15B4646A6080DC28A83B82CB4ACF46B94* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23325,7 +23882,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuManager_Start_m0DE5C20FF402B377B
 		return;
 	}
 }
-// Method Definition Index: 17092
+// Method Definition Index: 33982
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuManager_Update_mAA4CF1D462BFFD3E5B84FB1B79B53AF29452FDB9 (MainMenuManager_tF7A52AE15B4646A6080DC28A83B82CB4ACF46B94* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23533,7 +24090,7 @@ IL_0162:
 		return;
 	}
 }
-// Method Definition Index: 17093
+// Method Definition Index: 33983
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuManager_Play_mF08DBB766D8A48CBBCB6129A089492CB43563CF8 (MainMenuManager_tF7A52AE15B4646A6080DC28A83B82CB4ACF46B94* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23564,7 +24121,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuManager_Play_mF08DBB766D8A48CBBC
 		return;
 	}
 }
-// Method Definition Index: 17094
+// Method Definition Index: 33984
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuManager_PlayEndless_m74E1F46ACA7D7591B732E191B6D5E9D66B3FA45D (MainMenuManager_tF7A52AE15B4646A6080DC28A83B82CB4ACF46B94* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23595,7 +24152,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuManager_PlayEndless_m74E1F46ACA7
 		return;
 	}
 }
-// Method Definition Index: 17095
+// Method Definition Index: 33985
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuManager_FirstPlay_mAC246AD07F1ED16D05BAB400D92CA942807F587A (MainMenuManager_tF7A52AE15B4646A6080DC28A83B82CB4ACF46B94* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23625,7 +24182,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuManager_FirstPlay_mAC246AD07F1ED
 		return;
 	}
 }
-// Method Definition Index: 17096
+// Method Definition Index: 33986
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuManager_CreditsClick_m6B9D0D10411226DA4D1B23EA053A952602BEFFE7 (MainMenuManager_tF7A52AE15B4646A6080DC28A83B82CB4ACF46B94* __this, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -23694,7 +24251,7 @@ IL_0023:
 		return;
 	}
 }
-// Method Definition Index: 17097
+// Method Definition Index: 33987
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuManager_Exit_m18A013A7BCC4587E511FD0A2A368B6E7891FDCB7 (MainMenuManager_tF7A52AE15B4646A6080DC28A83B82CB4ACF46B94* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23718,7 +24275,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuManager_Exit_m18A013A7BCC4587E51
 		return;
 	}
 }
-// Method Definition Index: 17098
+// Method Definition Index: 33988
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MainMenuManager_Wait_mB7BBE642789D6A0CBB9C08A8DA9B1988AED0E9E7 (MainMenuManager_tF7A52AE15B4646A6080DC28A83B82CB4ACF46B94* __this, bool ___0_ForRed, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23741,7 +24298,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MainMenuManager_Wait_mB7BBE642
 		return L_2;
 	}
 }
-// Method Definition Index: 17099
+// Method Definition Index: 33989
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuManager_Fill_mC56F9A9F00FF7C72F78CB0F2C4BFE9AC580DF8FB (MainMenuManager_tF7A52AE15B4646A6080DC28A83B82CB4ACF46B94* __this, Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___0_party, const RuntimeMethod* method) 
 {
 	{
@@ -23825,7 +24382,7 @@ IL_0078:
 		return;
 	}
 }
-// Method Definition Index: 17100
+// Method Definition Index: 33990
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuManager__ctor_m9CF8E7F30CE180004AA0DFF1229FC615B531542B (MainMenuManager_tF7A52AE15B4646A6080DC28A83B82CB4ACF46B94* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23836,13 +24393,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuManager__ctor_m9CF8E7F30CE180004
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 588
+// Method Definition Index: 33962
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool LanguageManager_get_HaveAds_mFE8BF6FBCF9B2377FC1F7FED70EBCA088742F967_inline (LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:37>
+		bool L_0 = __this->___haveAds;
+		return L_0;
+	}
+}
+// Method Definition Index: 862
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 29435
+// Method Definition Index: 52795
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BannerLoadOptions_set_loadCallback_m219703CC2E16DAFA77481374046BD19298B27BF0_inline (BannerLoadOptions_t9FEE2B8F78545F5207EC7F1A49E6955A35B9957E* __this, LoadCallback_tD229C4997971D804773ED4479F4D768D5A21377B* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -23853,7 +24419,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BannerLoadOptions_set_loadCa
 		return;
 	}
 }
-// Method Definition Index: 29437
+// Method Definition Index: 52797
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BannerLoadOptions_set_errorCallback_m73A7C9AEA0F79A4963538CE38D3AAE5AB69AF6E2_inline (BannerLoadOptions_t9FEE2B8F78545F5207EC7F1A49E6955A35B9957E* __this, ErrorCallback_tA2D794EA095CA371EB48018F2C47E7728FA82029* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -23864,7 +24430,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BannerLoadOptions_set_errorC
 		return;
 	}
 }
-// Method Definition Index: 29452
+// Method Definition Index: 52812
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BannerOptions_set_clickCallback_mE9C4A4716FC257B551A4334985D494453509B0A9_inline (BannerOptions_tCBB4B505757433AF3934C75D65F47FFCF1C47F5A* __this, BannerCallback_t064796640D9EE7F36DFE697EEC24B3059246EA88* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -23875,7 +24441,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BannerOptions_set_clickCallb
 		return;
 	}
 }
-// Method Definition Index: 29450
+// Method Definition Index: 52810
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BannerOptions_set_hideCallback_m9877994E49979C868E5331BA9708D52DE2F18424_inline (BannerOptions_tCBB4B505757433AF3934C75D65F47FFCF1C47F5A* __this, BannerCallback_t064796640D9EE7F36DFE697EEC24B3059246EA88* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -23886,7 +24452,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BannerOptions_set_hideCallba
 		return;
 	}
 }
-// Method Definition Index: 29448
+// Method Definition Index: 52808
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BannerOptions_set_showCallback_m14C693B20F26D364ECB7B9B90F3C455D0B361357_inline (BannerOptions_tCBB4B505757433AF3934C75D65F47FFCF1C47F5A* __this, BannerCallback_t064796640D9EE7F36DFE697EEC24B3059246EA88* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -23897,7 +24463,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BannerOptions_set_showCallba
 		return;
 	}
 }
-// Method Definition Index: 24437
+// Method Definition Index: 46987
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline (Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23906,7 +24472,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonClickedEvent_t8EA72E90B3BD1
 		return L_0;
 	}
 }
-// Method Definition Index: 21086
+// Method Definition Index: 43588
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* TMP_InputField_get_text_mA4ACBF52435893D9DFD822A492454301740B3C6A_inline (TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23915,7 +24481,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* TMP_InputField_get_text
 		return L_0;
 	}
 }
-// Method Definition Index: 23163
+// Method Definition Index: 45683
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector2_op_Equality_m6F2E069A50E787D131261E5CB25FC9E03F95B5E1_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_lhs, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_rhs, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -23946,7 +24512,7 @@ IL_002e:
 		return L_12;
 	}
 }
-// Method Definition Index: 417
+// Method Definition Index: 688
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline (String_t* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23954,7 +24520,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D
 		return L_0;
 	}
 }
-// Method Definition Index: 23141
+// Method Definition Index: 45661
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -23965,7 +24531,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFF
 		return;
 	}
 }
-// Method Definition Index: 21655
+// Method Definition Index: 44157
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float TMP_Text_get_fontSize_m13A8365A56EA2B726EAD826B4A69C8918A528731_inline (TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23974,7 +24540,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float TMP_Text_get_fontSize_m13A8
 		return L_0;
 	}
 }
-// Method Definition Index: 21742
+// Method Definition Index: 44244
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* TMP_Text_get_textInfo_mA24C606B8EA51436E4AA3B9D6DCDFA7A8995E10E_inline (TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23983,7 +24549,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TMP_TextInfo_t09A8E906329422C3F0C
 		return L_0;
 	}
 }
-// Method Definition Index: 22982
+// Method Definition Index: 45502
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_red_mA2E53E7173FDC97E68E335049AB0FAAEE43A844D_inline (const RuntimeMethod* method) 
 {
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
@@ -24002,7 +24568,7 @@ IL_001d:
 		return L_1;
 	}
 }
-// Method Definition Index: 22984
+// Method Definition Index: 45504
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_blue_mF04A26CE61D6DA3C0D8B1C4720901B1028C7AB87_inline (const RuntimeMethod* method) 
 {
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
@@ -24021,7 +24587,7 @@ IL_001d:
 		return L_1;
 	}
 }
-// Method Definition Index: 23123
+// Method Definition Index: 45643
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline (int32_t ___0_value, int32_t ___1_min, int32_t ___2_max, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -24072,7 +24638,7 @@ IL_001d:
 		return L_9;
 	}
 }
-// Method Definition Index: 23122
+// Method Definition Index: 45642
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline (float ___0_value, float ___1_min, float ___2_max, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -24123,7 +24689,7 @@ IL_001d:
 		return L_9;
 	}
 }
-// Method Definition Index: 17071
+// Method Definition Index: 33959
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t LanguageManager_get_GetSelectedLanguag_m1D04CE7312456234B62E020A01D8859D04FC4104_inline (LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24132,16 +24698,16 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t LanguageManager_get_GetSe
 		return L_0;
 	}
 }
-// Method Definition Index: 17085
+// Method Definition Index: 33975
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool LanguageManager_get_IsEndless_mFB2353F5D9A122D7A948FCA5EFAB3630CBEE8A40_inline (LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:105>
+		//<source_info:C:/UnityProjects/Commercial/SurviveColdWar/Assets/Scripts/LanguageManager.cs:119>
 		bool L_0 = __this->___playerSelectedEndlessMode;
 		return L_0;
 	}
 }
-// Method Definition Index: 22983
+// Method Definition Index: 45503
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_green_mEB001F2CD8C68C6BBAEF9101990B779D3AA2A6EF_inline (const RuntimeMethod* method) 
 {
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
@@ -24160,7 +24726,7 @@ IL_001d:
 		return L_1;
 	}
 }
-// Method Definition Index: 22979
+// Method Definition Index: 45499
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_Lerp_mE79F87889843ECDC188E4CB5B5E1F1B2256E5EBE_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_a, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_b, float ___2_t, const RuntimeMethod* method) 
 {
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
@@ -24211,7 +24777,7 @@ IL_0069:
 		return L_31;
 	}
 }
-// Method Definition Index: 24753
+// Method Definition Index: 47303
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Image_get_fillAmount_mDEE52490D07124E21E7CB36718A5E3714D8B9788_inline (Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24220,7 +24786,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Image_get_fillAmount_mDEE52
 		return L_0;
 	}
 }
-// Method Definition Index: 9171
+// Method Definition Index: 11781
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -24250,7 +24816,7 @@ IL_003c:
 		return;
 	}
 }
-// Method Definition Index: 9164
+// Method Definition Index: 11773
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
 {
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
@@ -24288,7 +24854,7 @@ IL_0034:
 		return;
 	}
 }
-// Method Definition Index: 9154
+// Method Definition Index: 11762
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24296,7 +24862,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C
 		return L_0;
 	}
 }
-// Method Definition Index: 9210
+// Method Definition Index: 11823
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24304,7 +24870,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Cur
 		return L_0;
 	}
 }
-// Method Definition Index: 9164
+// Method Definition Index: 11773
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mF3227B0AAB9F7FED1883246395F1CEA0D0B06DC5_gshared_inline (List_1_t1FDED00FA37F39564E09D01CFDF33C22BCF5C8A7* __this, Il2CppChar ___0_item, const RuntimeMethod* method) 
 {
 	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* V_0 = NULL;
@@ -24342,7 +24908,7 @@ IL_0034:
 		return;
 	}
 }
-// Method Definition Index: 9154
+// Method Definition Index: 11762
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_mFED740DB424BA5653895BDFFB0A06F7C156541D0_gshared_inline (List_1_t1FDED00FA37F39564E09D01CFDF33C22BCF5C8A7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24350,7 +24916,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_mFED740D
 		return L_0;
 	}
 }
-// Method Definition Index: 9171
+// Method Definition Index: 11781
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m0586B319F89682059DD157C1EDC282A2888ECB9B_gshared_inline (List_1_t1FDED00FA37F39564E09D01CFDF33C22BCF5C8A7* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -24370,7 +24936,7 @@ IL_003c:
 		return;
 	}
 }
-// Method Definition Index: 22968
+// Method Definition Index: 45488
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, float ___3_a, const RuntimeMethod* method) 
 {
 	{
@@ -24385,7 +24951,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9C
 		return;
 	}
 }
-// Method Definition Index: 23124
+// Method Definition Index: 45644
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) 
 {
 	bool V_0 = false;

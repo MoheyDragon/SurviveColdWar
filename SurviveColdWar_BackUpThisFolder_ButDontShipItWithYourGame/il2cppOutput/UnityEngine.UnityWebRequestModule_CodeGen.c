@@ -33,8 +33,12 @@ extern void DownloadHandler__ctor_m833275AC5FCAC0BFB4F2D5C1C0C7FD76416CE496 (voi
 extern void DownloadHandler_Finalize_m21F7E76D39E0CBF30890C6A0C8EDBF049AFFBB14 (void);
 extern void DownloadHandler_Dispose_mD5D4CCF0C2DFF1CB57C9B3A0EF4213ECB9F8F607 (void);
 extern void DownloadHandler_get_data_m1DC9B4514B12939B090028BF28C6BEF21DE9B6F3 (void);
+extern void DownloadHandler_get_text_mA6DE5CB2647A21E577B963708DC3D0DA4DBFE7D8 (void);
 extern void DownloadHandler_GetNativeData_m884DE3A326286BFE7B26098CD55D6DCD7D146E23 (void);
 extern void DownloadHandler_GetData_mCAAC65F3AB3352C789E169EB7D9C7C75BEA74BAC (void);
+extern void DownloadHandler_GetText_m19ABD4540E4BE6A4D4340933E01D5DE687020E85 (void);
+extern void DownloadHandler_GetTextEncoder_m1D26E8E7DE1CC2FA00EF56F1741B1DDAE4885BF5 (void);
+extern void DownloadHandler_GetContentType_m678AE10691E33BEE69FFFDB02CACA8AD8AAADDDC (void);
 extern void DownloadHandler_ReceiveData_mF892EB77524A60DF1F82A2DA00F17BECB480CD93 (void);
 extern void DownloadHandler_ReceiveContentLengthHeader_m545073C4FB5AB9BB6640D24FC2F32070E5FE3F17 (void);
 extern void DownloadHandler_ReceiveContentLength_m058DE0B56C3EBE8ECE3F9570852024EE2A84DE4F (void);
@@ -50,9 +54,11 @@ extern void DownloadHandlerBuffer_InternalCreateBuffer_mB2AD693185110CBED1FDA874
 extern void DownloadHandlerBuffer__ctor_m5EE7C9E8AB468B2B937A7C9C66B4176A884147AF (void);
 extern void DownloadHandlerBuffer_GetNativeData_m0CA5C7DDC84622499CFED57069526BCDD240C28F (void);
 extern void DownloadHandlerBuffer_Dispose_m5B47B0183194D920B76BDC9001C3FE81A73D9D39 (void);
+extern void UnityWebRequestAsyncOperation_get_webRequest_mF67D15420C7C1C4DCA1BD6F839048A0542998BC3 (void);
 extern void UnityWebRequestAsyncOperation_set_webRequest_mB4B19873C06FD29078CB1E8BF05B0D077F0FF711 (void);
 extern void UnityWebRequestAsyncOperation__ctor_m9AD26A39141A733EC40446F6AB7660B44D8EA1ED (void);
 extern void UnityWebRequest_GetWebErrorString_mE82AF7BF8045F616FDB38A7DBD071CA41F6D468D (void);
+extern void UnityWebRequest_GetHTTPStatusString_m791BC62F33D286229978CFFC201B16E1F2D3FB2D (void);
 extern void UnityWebRequest_get_disposeCertificateHandlerOnDispose_m5BF6519F2982ABA7912948690570F7729EDF25E9 (void);
 extern void UnityWebRequest_set_disposeCertificateHandlerOnDispose_m5EFCAF91A547716C4ACA5FB546E991B79E3D0E2A (void);
 extern void UnityWebRequest_get_disposeDownloadHandlerOnDispose_mA5E23BB2B931F6EF089C732D0E56E1B7F9FC1C54 (void);
@@ -75,10 +81,16 @@ extern void UnityWebRequest_InternalSetMethod_m91C9BE2FB38963FEBDACB221CB275CA7A
 extern void UnityWebRequest_SetCustomMethod_mA970EB4024D1303CF03FFB183CE102A84BC231AB (void);
 extern void UnityWebRequest_InternalSetCustomMethod_m438D89359CA23426910FBE2F58D3D6D21E80BF40 (void);
 extern void UnityWebRequest_set_method_m35F9B5C788C66EACF3FB36FA220AA6B6777CFE88 (void);
+extern void UnityWebRequest_GetError_m4A888DDBEE9F390C92090C6355DFB1F94A33BB86 (void);
+extern void UnityWebRequest_get_error_m20A5D813ED59118B7AA1D1E2EB5250178B1F5B6F (void);
+extern void UnityWebRequest_get_url_mA3BF205A6FCA2BF66A62174182BE84553CE3FFA8 (void);
 extern void UnityWebRequest_set_url_m5C117F8E00BA03DDC9EBC859DCB31BB4B6E3ECFC (void);
+extern void UnityWebRequest_GetUrl_mD3715E8171F3DCC13851BD5E103BB79A043FBBA3 (void);
 extern void UnityWebRequest_SetUrl_m6DF66CA4E86A4604C9A79DF16886AEAB4A2153C5 (void);
 extern void UnityWebRequest_InternalSetUrl_mD3602EB8A5253116EA0EE8B18223A51BE79883E9 (void);
+extern void UnityWebRequest_get_responseCode_m012C177F61435D5D120A21D7A03FFF7B0F8B904B (void);
 extern void UnityWebRequest_get_isModifiable_m8B2DA7C5B43443C4262BB0289141A608E2695D77 (void);
+extern void UnityWebRequest_get_result_mEF83848C5FCFB5E307CE4B57E42BF02FC9AED449 (void);
 extern void UnityWebRequest_SetUploadHandler_mB8586D5337FA8C93E791F509235E918CFBD33973 (void);
 extern void UnityWebRequest_get_uploadHandler_mF92ED2E0410E7F720B8775B467CFD86B60909CF5 (void);
 extern void UnityWebRequest_set_uploadHandler_m68F346550136DE178C79238944985892196027FE (void);
@@ -89,7 +101,7 @@ extern void UnityWebRequest_get_certificateHandler_m928A7BE34EB3725EA1D977877B73
 extern void UnityWebRequest_Get_m1A332EE069BB5052368307F254A5A7627BB5FD86 (void);
 extern void UploadHandler_Release_mBCD6EDAAC00B5051FDDE2D9E3395419C2906224B (void);
 extern void UploadHandler_Dispose_mA92AC689361199836EEABE182E13F9759A74D109 (void);
-static Il2CppMethodPointer s_methodPointers[77] = 
+static Il2CppMethodPointer s_methodPointers[89] = 
 {
 	WebRequestUtils_RedirectTo_m63855E63B6B6EAFD4BCE65395BB744AAF5BD6AB4,
 	WebRequestUtils_MakeInitialUrl_m30A37413A904FEB4E4E45607E929B4E90ECE044C,
@@ -112,8 +124,12 @@ static Il2CppMethodPointer s_methodPointers[77] =
 	DownloadHandler_Finalize_m21F7E76D39E0CBF30890C6A0C8EDBF049AFFBB14,
 	DownloadHandler_Dispose_mD5D4CCF0C2DFF1CB57C9B3A0EF4213ECB9F8F607,
 	DownloadHandler_get_data_m1DC9B4514B12939B090028BF28C6BEF21DE9B6F3,
+	DownloadHandler_get_text_mA6DE5CB2647A21E577B963708DC3D0DA4DBFE7D8,
 	DownloadHandler_GetNativeData_m884DE3A326286BFE7B26098CD55D6DCD7D146E23,
 	DownloadHandler_GetData_mCAAC65F3AB3352C789E169EB7D9C7C75BEA74BAC,
+	DownloadHandler_GetText_m19ABD4540E4BE6A4D4340933E01D5DE687020E85,
+	DownloadHandler_GetTextEncoder_m1D26E8E7DE1CC2FA00EF56F1741B1DDAE4885BF5,
+	DownloadHandler_GetContentType_m678AE10691E33BEE69FFFDB02CACA8AD8AAADDDC,
 	DownloadHandler_ReceiveData_mF892EB77524A60DF1F82A2DA00F17BECB480CD93,
 	DownloadHandler_ReceiveContentLengthHeader_m545073C4FB5AB9BB6640D24FC2F32070E5FE3F17,
 	DownloadHandler_ReceiveContentLength_m058DE0B56C3EBE8ECE3F9570852024EE2A84DE4F,
@@ -129,9 +145,11 @@ static Il2CppMethodPointer s_methodPointers[77] =
 	DownloadHandlerBuffer__ctor_m5EE7C9E8AB468B2B937A7C9C66B4176A884147AF,
 	DownloadHandlerBuffer_GetNativeData_m0CA5C7DDC84622499CFED57069526BCDD240C28F,
 	DownloadHandlerBuffer_Dispose_m5B47B0183194D920B76BDC9001C3FE81A73D9D39,
+	UnityWebRequestAsyncOperation_get_webRequest_mF67D15420C7C1C4DCA1BD6F839048A0542998BC3,
 	UnityWebRequestAsyncOperation_set_webRequest_mB4B19873C06FD29078CB1E8BF05B0D077F0FF711,
 	UnityWebRequestAsyncOperation__ctor_m9AD26A39141A733EC40446F6AB7660B44D8EA1ED,
 	UnityWebRequest_GetWebErrorString_mE82AF7BF8045F616FDB38A7DBD071CA41F6D468D,
+	UnityWebRequest_GetHTTPStatusString_m791BC62F33D286229978CFFC201B16E1F2D3FB2D,
 	UnityWebRequest_get_disposeCertificateHandlerOnDispose_m5BF6519F2982ABA7912948690570F7729EDF25E9,
 	UnityWebRequest_set_disposeCertificateHandlerOnDispose_m5EFCAF91A547716C4ACA5FB546E991B79E3D0E2A,
 	UnityWebRequest_get_disposeDownloadHandlerOnDispose_mA5E23BB2B931F6EF089C732D0E56E1B7F9FC1C54,
@@ -154,10 +172,16 @@ static Il2CppMethodPointer s_methodPointers[77] =
 	UnityWebRequest_SetCustomMethod_mA970EB4024D1303CF03FFB183CE102A84BC231AB,
 	UnityWebRequest_InternalSetCustomMethod_m438D89359CA23426910FBE2F58D3D6D21E80BF40,
 	UnityWebRequest_set_method_m35F9B5C788C66EACF3FB36FA220AA6B6777CFE88,
+	UnityWebRequest_GetError_m4A888DDBEE9F390C92090C6355DFB1F94A33BB86,
+	UnityWebRequest_get_error_m20A5D813ED59118B7AA1D1E2EB5250178B1F5B6F,
+	UnityWebRequest_get_url_mA3BF205A6FCA2BF66A62174182BE84553CE3FFA8,
 	UnityWebRequest_set_url_m5C117F8E00BA03DDC9EBC859DCB31BB4B6E3ECFC,
+	UnityWebRequest_GetUrl_mD3715E8171F3DCC13851BD5E103BB79A043FBBA3,
 	UnityWebRequest_SetUrl_m6DF66CA4E86A4604C9A79DF16886AEAB4A2153C5,
 	UnityWebRequest_InternalSetUrl_mD3602EB8A5253116EA0EE8B18223A51BE79883E9,
+	UnityWebRequest_get_responseCode_m012C177F61435D5D120A21D7A03FFF7B0F8B904B,
 	UnityWebRequest_get_isModifiable_m8B2DA7C5B43443C4262BB0289141A608E2695D77,
+	UnityWebRequest_get_result_mEF83848C5FCFB5E307CE4B57E42BF02FC9AED449,
 	UnityWebRequest_SetUploadHandler_mB8586D5337FA8C93E791F509235E918CFBD33973,
 	UnityWebRequest_get_uploadHandler_mF92ED2E0410E7F720B8775B467CFD86B60909CF5,
 	UnityWebRequest_set_uploadHandler_m68F346550136DE178C79238944985892196027FE,
@@ -169,91 +193,103 @@ static Il2CppMethodPointer s_methodPointers[77] =
 	UploadHandler_Release_mBCD6EDAAC00B5051FDDE2D9E3395419C2906224B,
 	UploadHandler_Dispose_mA92AC689361199836EEABE182E13F9759A74D109,
 };
-static const int32_t s_InvokerIndices[77] = 
+static const int32_t s_InvokerIndices[89] = 
 {
-	6528,
-	6528,
-	5975,
-	7034,
-	7335,
-	7301,
-	7335,
-	6308,
-	7034,
-	5740,
-	5968,
-	7335,
-	4755,
-	2743,
-	2743,
-	4755,
-	4755,
-	4755,
-	4755,
-	4755,
-	4654,
-	4447,
-	4654,
-	1278,
-	3921,
-	3816,
-	4755,
-	4694,
-	6233,
-	7034,
-	6216,
-	7193,
-	6078,
-	6991,
-	4755,
-	4755,
-	4447,
-	4755,
-	3843,
-	4755,
-	7031,
-	4572,
-	3762,
-	4572,
-	3762,
-	4572,
-	3762,
-	7296,
-	4755,
-	4755,
-	4755,
-	773,
-	4755,
-	4755,
-	4755,
-	4654,
-	4654,
-	4755,
-	3190,
-	3816,
-	3215,
-	3843,
-	3843,
-	3843,
-	3215,
-	3843,
-	4572,
-	3215,
-	4654,
-	3843,
-	3215,
-	4654,
-	3843,
-	4654,
-	7034,
-	4755,
-	4755,
+	8164,
+	8164,
+	7523,
+	8804,
+	9214,
+	9178,
+	9214,
+	7898,
+	8804,
+	7259,
+	7515,
+	9214,
+	6008,
+	3503,
+	3503,
+	6008,
+	6008,
+	6008,
+	6008,
+	6008,
+	5885,
+	5885,
+	5630,
+	5885,
+	5885,
+	5885,
+	5885,
+	1729,
+	4985,
+	4857,
+	6008,
+	5929,
+	7808,
+	8804,
+	7787,
+	9047,
+	7634,
+	8731,
+	6008,
+	6008,
+	5630,
+	6008,
+	5885,
+	4887,
+	6008,
+	8801,
+	8802,
+	5792,
+	4796,
+	5792,
+	4796,
+	5792,
+	4796,
+	9173,
+	6008,
+	6008,
+	6008,
+	1095,
+	6008,
+	6008,
+	6008,
+	5885,
+	5885,
+	6008,
+	4063,
+	4857,
+	4091,
+	4887,
+	4887,
+	5852,
+	5885,
+	5885,
+	4887,
+	5885,
+	4091,
+	4887,
+	5853,
+	5792,
+	5852,
+	4091,
+	5885,
+	4887,
+	4091,
+	5885,
+	4887,
+	5885,
+	8804,
+	6008,
+	6008,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_UnityWebRequestModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_UnityWebRequestModule_CodeGenModule = 
 {
 	"UnityEngine.UnityWebRequestModule.dll",
-	77,
+	89,
 	s_methodPointers,
 	0,
 	NULL,

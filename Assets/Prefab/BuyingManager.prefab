@@ -446,6 +446,8 @@ MonoBehaviour:
   shopWindow: {fileID: 2372977545868909727}
   errorMessage: {fileID: 4720886674581231176}
   noAdsButton: {fileID: 2167623375836617418}
+  englishIcon: {fileID: 688179422, guid: a8a47db1ae0bce54fbc372d05905a0e9, type: 3}
+  arabicIcon: {fileID: 2001434411, guid: a8a47db1ae0bce54fbc372d05905a0e9, type: 3}
 --- !u!114 &7135321958062491653
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -458,7 +460,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b79b5624d944058bd39aad2b90fb275, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productId: NoAds
+  productId: no_ads
   buttonType: 0
   consumePurchase: 0
   onTransactionsRestored:
@@ -924,7 +926,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'There was an error '
+  m_Text: purchase wasn't completed
 --- !u!1 &7091279657805988382
 GameObject:
   m_ObjectHideFlags: 0
@@ -1118,7 +1120,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0641\u0634\u0644\u062A \u0639\u0645\u0644\u064A\u0629 \u0627\u0644\u0634\u0631\u0627\u0621"
+  m_Text: "\u0644\u0645 \u062A\u062A\u0645 \u0639\u0645\u0644\u064A\u0629 \u0627\u0644\u0628\u064A\u0639"
 --- !u!1 &7555005453846637080
 GameObject:
   m_ObjectHideFlags: 0
@@ -1552,12 +1554,12 @@ PrefabInstance:
     - target: {fileID: 4326489526063724224, guid: 3648a9a76b68b144c8fa7fbf275aad27,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 31.75
+      value: 438.09
       objectReference: {fileID: 0}
     - target: {fileID: 4326489526063724224, guid: 3648a9a76b68b144c8fa7fbf275aad27,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -209.99997
+      value: 50.86
       objectReference: {fileID: 0}
     - target: {fileID: 4326489526063724224, guid: 3648a9a76b68b144c8fa7fbf275aad27,
         type: 3}
@@ -1623,7 +1625,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 9151725625850188775, guid: de52a9a467eb6a645a39d3255dbe0233,
+      objectReference: {fileID: 688179422, guid: a8a47db1ae0bce54fbc372d05905a0e9,
         type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
