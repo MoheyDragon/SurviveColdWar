@@ -929,6 +929,12 @@
         "name": "TLS",
         "dependencies": [
           {
+            "name": "Required by CrashReporting Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.crashreporting"
+          },
+          {
             "name": "Required by UnityWebRequest Module",
             "scenes": [],
             "dependencyType": 2,

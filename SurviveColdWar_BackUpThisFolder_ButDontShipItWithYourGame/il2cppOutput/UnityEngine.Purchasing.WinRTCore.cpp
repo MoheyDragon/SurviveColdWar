@@ -177,7 +177,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WinProductDescription_set_co
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 55235
+// Method Definition Index: 55280
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinProductDescription_set_platformSpecificID_m794A68A614B5CD27330552592001C95A6653C8CA (WinProductDescription_tBF22B14F8B3F92A3EEB31026CBD2E29BE31F9974* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -188,7 +188,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinProductDescription_set_platformSpecif
 		return;
 	}
 }
-// Method Definition Index: 55236
+// Method Definition Index: 55281
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinProductDescription_set_price_m96AE7CBF552F731D2F78F7F40E81043DE3E5C226 (WinProductDescription_tBF22B14F8B3F92A3EEB31026CBD2E29BE31F9974* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -199,7 +199,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinProductDescription_set_price_m96AE7CB
 		return;
 	}
 }
-// Method Definition Index: 55237
+// Method Definition Index: 55282
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinProductDescription_set_title_m6B40401D075FE55E40B1EDD27B26A635B4941DBD (WinProductDescription_tBF22B14F8B3F92A3EEB31026CBD2E29BE31F9974* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -210,7 +210,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinProductDescription_set_title_m6B40401
 		return;
 	}
 }
-// Method Definition Index: 55238
+// Method Definition Index: 55283
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinProductDescription_set_description_m2FE4B17A0C40EF679A894CCD1638936D4D26CE6B (WinProductDescription_tBF22B14F8B3F92A3EEB31026CBD2E29BE31F9974* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -221,7 +221,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinProductDescription_set_description_m2
 		return;
 	}
 }
-// Method Definition Index: 55239
+// Method Definition Index: 55284
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinProductDescription_set_ISOCurrencyCode_m8EC42C553F0DA8DF4E32F9FADEDDA80CB1630908 (WinProductDescription_tBF22B14F8B3F92A3EEB31026CBD2E29BE31F9974* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -232,7 +232,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinProductDescription_set_ISOCurrencyCod
 		return;
 	}
 }
-// Method Definition Index: 55240
+// Method Definition Index: 55285
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinProductDescription_set_priceDecimal_mF0588EC4E45446E1317F36E529CFB0C3D8F09B3B (WinProductDescription_tBF22B14F8B3F92A3EEB31026CBD2E29BE31F9974* __this, Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -242,7 +242,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinProductDescription_set_priceDecimal_m
 		return;
 	}
 }
-// Method Definition Index: 55241
+// Method Definition Index: 55286
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinProductDescription_set_receipt_m0BBA3B8AACE6884D4F079D85B7BC28283C651D40 (WinProductDescription_tBF22B14F8B3F92A3EEB31026CBD2E29BE31F9974* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -253,7 +253,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinProductDescription_set_receipt_m0BBA3
 		return;
 	}
 }
-// Method Definition Index: 55242
+// Method Definition Index: 55287
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinProductDescription_set_transactionID_mD1D0774BACC0D8E16A25B499E21FCC0FFEB45E37 (WinProductDescription_tBF22B14F8B3F92A3EEB31026CBD2E29BE31F9974* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -264,7 +264,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinProductDescription_set_transactionID_
 		return;
 	}
 }
-// Method Definition Index: 55243
+// Method Definition Index: 55288
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinProductDescription_set_consumable_m04D7CAB123D10999E1806C61DE8A6F1E9C8F12A1 (WinProductDescription_tBF22B14F8B3F92A3EEB31026CBD2E29BE31F9974* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -274,7 +274,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinProductDescription_set_consumable_m04
 		return;
 	}
 }
-// Method Definition Index: 55244
+// Method Definition Index: 55289
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinProductDescription__ctor_mF87A63C34788D1FE9140FB82C0B6357D57712F79 (WinProductDescription_tBF22B14F8B3F92A3EEB31026CBD2E29BE31F9974* __this, String_t* ___0_id, String_t* ___1_price, String_t* ___2_title, String_t* ___3_description, String_t* ___4_isoCode, Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___5_priceD, String_t* ___6_receipt, String_t* ___7_transactionId, bool ___8_consumable, const RuntimeMethod* method) 
 {
 	{
@@ -315,7 +315,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinProductDescription__ctor_mF87A63C3478
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 55235
+// Method Definition Index: 55280
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WinProductDescription_set_platformSpecificID_m794A68A614B5CD27330552592001C95A6653C8CA_inline (WinProductDescription_tBF22B14F8B3F92A3EEB31026CBD2E29BE31F9974* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -326,7 +326,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WinProductDescription_set_pl
 		return;
 	}
 }
-// Method Definition Index: 55236
+// Method Definition Index: 55281
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WinProductDescription_set_price_m96AE7CBF552F731D2F78F7F40E81043DE3E5C226_inline (WinProductDescription_tBF22B14F8B3F92A3EEB31026CBD2E29BE31F9974* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -337,7 +337,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WinProductDescription_set_pr
 		return;
 	}
 }
-// Method Definition Index: 55237
+// Method Definition Index: 55282
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WinProductDescription_set_title_m6B40401D075FE55E40B1EDD27B26A635B4941DBD_inline (WinProductDescription_tBF22B14F8B3F92A3EEB31026CBD2E29BE31F9974* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -348,7 +348,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WinProductDescription_set_ti
 		return;
 	}
 }
-// Method Definition Index: 55238
+// Method Definition Index: 55283
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WinProductDescription_set_description_m2FE4B17A0C40EF679A894CCD1638936D4D26CE6B_inline (WinProductDescription_tBF22B14F8B3F92A3EEB31026CBD2E29BE31F9974* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -359,7 +359,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WinProductDescription_set_de
 		return;
 	}
 }
-// Method Definition Index: 55239
+// Method Definition Index: 55284
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WinProductDescription_set_ISOCurrencyCode_m8EC42C553F0DA8DF4E32F9FADEDDA80CB1630908_inline (WinProductDescription_tBF22B14F8B3F92A3EEB31026CBD2E29BE31F9974* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -370,7 +370,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WinProductDescription_set_IS
 		return;
 	}
 }
-// Method Definition Index: 55240
+// Method Definition Index: 55285
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WinProductDescription_set_priceDecimal_mF0588EC4E45446E1317F36E529CFB0C3D8F09B3B_inline (WinProductDescription_tBF22B14F8B3F92A3EEB31026CBD2E29BE31F9974* __this, Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -380,7 +380,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WinProductDescription_set_pr
 		return;
 	}
 }
-// Method Definition Index: 55241
+// Method Definition Index: 55286
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WinProductDescription_set_receipt_m0BBA3B8AACE6884D4F079D85B7BC28283C651D40_inline (WinProductDescription_tBF22B14F8B3F92A3EEB31026CBD2E29BE31F9974* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -391,7 +391,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WinProductDescription_set_re
 		return;
 	}
 }
-// Method Definition Index: 55242
+// Method Definition Index: 55287
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WinProductDescription_set_transactionID_mD1D0774BACC0D8E16A25B499E21FCC0FFEB45E37_inline (WinProductDescription_tBF22B14F8B3F92A3EEB31026CBD2E29BE31F9974* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -402,7 +402,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WinProductDescription_set_tr
 		return;
 	}
 }
-// Method Definition Index: 55243
+// Method Definition Index: 55288
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WinProductDescription_set_consumable_m04D7CAB123D10999E1806C61DE8A6F1E9C8F12A1_inline (WinProductDescription_tBF22B14F8B3F92A3EEB31026CBD2E29BE31F9974* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{

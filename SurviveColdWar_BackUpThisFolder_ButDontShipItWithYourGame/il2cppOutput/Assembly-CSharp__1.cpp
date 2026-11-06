@@ -7193,7 +7193,7 @@ IL2CPP_EXTERN_C intptr_t DEFAULT_CALL CSharp_AkMusicPlaylistCallbackInfo_SWIGUpc
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 33991
+// Method Definition Index: 34097
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitU3Ed__24__ctor_m59F9B84640D0985602A9A19E87408D1797F637F1 (U3CWaitU3Ed__24_tE44446D725859A5A98C95795B73450260E8EACD7* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -7203,14 +7203,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitU3Ed__24__ctor_m59F9B84640D098560
 		return;
 	}
 }
-// Method Definition Index: 33992
+// Method Definition Index: 34098
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitU3Ed__24_System_IDisposable_Dispose_mF10CF54D330F16BAAC036F0A4F59737377EFFA17 (U3CWaitU3Ed__24_tE44446D725859A5A98C95795B73450260E8EACD7* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 33993
+// Method Definition Index: 34099
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CWaitU3Ed__24_MoveNext_m7BB6B8A8325B1F80CCC46CA9D2CBE1E9DD261432 (U3CWaitU3Ed__24_tE44446D725859A5A98C95795B73450260E8EACD7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7309,7 +7309,7 @@ IL_005f:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 33994
+// Method Definition Index: 34100
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CWaitU3Ed__24_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE6FF291B216D816AE06E408F527507F7DE864170 (U3CWaitU3Ed__24_tE44446D725859A5A98C95795B73450260E8EACD7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7317,7 +7317,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CWaitU3Ed__24_System_Collect
 		return L_0;
 	}
 }
-// Method Definition Index: 33995
+// Method Definition Index: 34101
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitU3Ed__24_System_Collections_IEnumerator_Reset_mF43B3BB14F5C3EB1EB55FAFBAB116C57AC97D4B1 (U3CWaitU3Ed__24_tE44446D725859A5A98C95795B73450260E8EACD7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7326,7 +7326,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitU3Ed__24_System_Collections_IEnum
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CWaitU3Ed__24_System_Collections_IEnumerator_Reset_mF43B3BB14F5C3EB1EB55FAFBAB116C57AC97D4B1_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 33996
+// Method Definition Index: 34102
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CWaitU3Ed__24_System_Collections_IEnumerator_get_Current_m06DDE334A4130482FB9E3AD96B4DCCCB26712BC8 (U3CWaitU3Ed__24_tE44446D725859A5A98C95795B73450260E8EACD7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7342,7 +7342,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CWaitU3Ed__24_System_Collect
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 33997
+// Method Definition Index: 34103
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MassageWindow_Destroy_m742BBE85B5E2F7993E317E6579EB54CFACB4E1F7 (MassageWindow_t79BF5CB36C7F4CFE21BDBC8A8FA6AB99ECCF92E2* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_game, const RuntimeMethod* method) 
 {
 	{
@@ -7365,7 +7365,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MassageWindow_Destroy_m742BBE85B5E2F7993
 		return;
 	}
 }
-// Method Definition Index: 33998
+// Method Definition Index: 34104
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MassageWindow_Quit_mC373F1A005B51D0B0FBCCB8F61EA7CEBFA8429DC (MassageWindow_t79BF5CB36C7F4CFE21BDBC8A8FA6AB99ECCF92E2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7406,7 +7406,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MassageWindow_Quit_mC373F1A005B51D0B0FBC
 		return;
 	}
 }
-// Method Definition Index: 33999
+// Method Definition Index: 34105
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MassageWindow_Restart_m2D2941D5BF165BAADBEA30468B19C576E2D692A6 (MassageWindow_t79BF5CB36C7F4CFE21BDBC8A8FA6AB99ECCF92E2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7487,7 +7487,7 @@ IL_003a:
 		return;
 	}
 }
-// Method Definition Index: 34000
+// Method Definition Index: 34106
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MassageWindow_Wait_m229DAB5165943E7475255A60A6ABEC22276F1C3D (MassageWindow_t79BF5CB36C7F4CFE21BDBC8A8FA6AB99ECCF92E2* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_game, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7511,7 +7511,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MassageWindow_Wait_m229DAB5165
 		return L_2;
 	}
 }
-// Method Definition Index: 34001
+// Method Definition Index: 34107
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MassageWindow__ctor_m5A85F4AF2D8C2D5EAA6FE45803FB37070B3667B6 (MassageWindow_t79BF5CB36C7F4CFE21BDBC8A8FA6AB99ECCF92E2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7527,7 +7527,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MassageWindow__ctor_m5A85F4AF2D8C2D5EAA6
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 34002
+// Method Definition Index: 34108
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitU3Ed__4__ctor_mFD88C94433E7D733C261F16FC9D92F393A37FDFA (U3CWaitU3Ed__4_tF6525B5A4EA29CB831CCC2940C409B2321A95B62* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -7537,14 +7537,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitU3Ed__4__ctor_mFD88C94433E7D733C2
 		return;
 	}
 }
-// Method Definition Index: 34003
+// Method Definition Index: 34109
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitU3Ed__4_System_IDisposable_Dispose_mE82A62D708C2C2E76F32A40895F77CA5BCF6D461 (U3CWaitU3Ed__4_tF6525B5A4EA29CB831CCC2940C409B2321A95B62* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 34004
+// Method Definition Index: 34110
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CWaitU3Ed__4_MoveNext_m847C598950BA01A383C05FB13F44188D6FC3E261 (U3CWaitU3Ed__4_tF6525B5A4EA29CB831CCC2940C409B2321A95B62* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7705,7 +7705,7 @@ IL_00b3:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 34005
+// Method Definition Index: 34111
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CWaitU3Ed__4_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m28B57EA365B6D67BCB05CDFFB731036A9D905699 (U3CWaitU3Ed__4_tF6525B5A4EA29CB831CCC2940C409B2321A95B62* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7713,7 +7713,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CWaitU3Ed__4_System_Collecti
 		return L_0;
 	}
 }
-// Method Definition Index: 34006
+// Method Definition Index: 34112
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitU3Ed__4_System_Collections_IEnumerator_Reset_m7E2AF484551CB4303907148C9F337BF6548C45B1 (U3CWaitU3Ed__4_tF6525B5A4EA29CB831CCC2940C409B2321A95B62* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7722,7 +7722,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitU3Ed__4_System_Collections_IEnume
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CWaitU3Ed__4_System_Collections_IEnumerator_Reset_m7E2AF484551CB4303907148C9F337BF6548C45B1_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 34007
+// Method Definition Index: 34113
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CWaitU3Ed__4_System_Collections_IEnumerator_get_Current_mC8369E073C9BD7FB14527BBC6EDBF00980C574A4 (U3CWaitU3Ed__4_tF6525B5A4EA29CB831CCC2940C409B2321A95B62* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7738,7 +7738,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CWaitU3Ed__4_System_Collecti
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 34008
+// Method Definition Index: 34114
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MusicSFXbusses_Valuer_m01B51ED4A65B44CD7089AECCEB3E6330DA2752DE (MusicSFXbusses_tD3C23092416FBB702D66F8018BA1A784A6E83DAC* __this, RTPC_t2704E9EFCE51ADA824E91301BD18A83059E7DF67* ___0_Bus, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -7801,7 +7801,7 @@ IL_001c:
 		return;
 	}
 }
-// Method Definition Index: 34009
+// Method Definition Index: 34115
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MusicSFXbusses_Click_mB746CEE829949079E46EE9F7737D3677F4E79FFB (MusicSFXbusses_tD3C23092416FBB702D66F8018BA1A784A6E83DAC* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_button, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7839,7 +7839,7 @@ IL_001f:
 		return;
 	}
 }
-// Method Definition Index: 34010
+// Method Definition Index: 34116
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MusicSFXbusses__ctor_m124315581C2E28473D63C160BBB509A238C43F78 (MusicSFXbusses_tD3C23092416FBB702D66F8018BA1A784A6E83DAC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7855,7 +7855,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MusicSFXbusses__ctor_m124315581C2E28473D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 34011
+// Method Definition Index: 34117
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Notification_Start_m3862B8889635C189BA8595F5BB2B0D5C5FD56633 (Notification_t935ED056029A6F99D5AB2797AB3032EBD2F8A3F5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7875,7 +7875,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Notification_Start_m3862B8889635C189BA85
 		return;
 	}
 }
-// Method Definition Index: 34012
+// Method Definition Index: 34118
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Notification_InitiateMessage_m1534F30474B394E472AB97E01A52422E029C924A (Notification_t935ED056029A6F99D5AB2797AB3032EBD2F8A3F5* __this, ActionFunction_tFFF6C4B351C4B2D2426FF5A40033E1CEE8530B5F* ___0_action, Party_t7374673D480CEB3A24962AFD06297A4A50EE5A4A* ___1_party, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7943,7 +7943,7 @@ IL_0031:
 		return;
 	}
 }
-// Method Definition Index: 34013
+// Method Definition Index: 34119
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Notification_ChangeLanguage_m20BF4D041246B9037AF94EDE019C4AD376195FBB (Notification_t935ED056029A6F99D5AB2797AB3032EBD2F8A3F5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7984,7 +7984,7 @@ IL_001f:
 		return;
 	}
 }
-// Method Definition Index: 34014
+// Method Definition Index: 34120
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Notification__ctor_m5DC97CC139CC1E6A900EA494D650152F806D7CAB (Notification_t935ED056029A6F99D5AB2797AB3032EBD2F8A3F5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8002,7 +8002,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Notification__ctor_m5DC97CC139CC1E6A900E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 34015
+// Method Definition Index: 34121
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NukeMeterUpdater_Awake_m44FB2B2C2C761591F4E9F179851267294FA25006 (NukeMeterUpdater_t082BF6931C5609813F752D6B293188B2B56442A7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8042,7 +8042,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NukeMeterUpdater_Awake_m44FB2B2C2C761591
 		return;
 	}
 }
-// Method Definition Index: 34016
+// Method Definition Index: 34122
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NukeMeterUpdater_Start_m74C14981C7B59A69DE9C2C46217AF399A1801E2E (NukeMeterUpdater_t082BF6931C5609813F752D6B293188B2B56442A7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8058,7 +8058,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NukeMeterUpdater_Start_m74C14981C7B59A69
 		return;
 	}
 }
-// Method Definition Index: 34017
+// Method Definition Index: 34123
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NukeMeterUpdater_Update_mC80E415321863345CE9B49E2E544496FD350A1F4 (NukeMeterUpdater_t082BF6931C5609813F752D6B293188B2B56442A7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8173,7 +8173,7 @@ IL_00c5:
 		return;
 	}
 }
-// Method Definition Index: 34018
+// Method Definition Index: 34124
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NukeMeterUpdater__ctor_m5CCB90E06DBAAB6F2B51C2CB856F4190A6E02B2B (NukeMeterUpdater_t082BF6931C5609813F752D6B293188B2B56442A7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8189,7 +8189,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NukeMeterUpdater__ctor_m5CCB90E06DBAAB6F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 34019
+// Method Definition Index: 34125
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeedUp_Start_m6A4B904E2570E22873C32B95F8B23322FFF6087A (SpeedUp_t550786BF9F3DA89F4D4D1C292A3908A851B2CF2B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8211,7 +8211,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeedUp_Start_m6A4B904E2570E22873C32B95F
 		return;
 	}
 }
-// Method Definition Index: 34020
+// Method Definition Index: 34126
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeedUp_OnPointerDown_m9C5CC3C19FBC7A91D5BB4B71212305D529F32B9C (SpeedUp_t550786BF9F3DA89F4D4D1C292A3908A851B2CF2B* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___0_eventData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8274,7 +8274,7 @@ IL_004b:
 		return;
 	}
 }
-// Method Definition Index: 34021
+// Method Definition Index: 34127
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeedUp_OnPointerUp_m365A6DF6A8355066965A5FB9A03C4E8DE3C59026 (SpeedUp_t550786BF9F3DA89F4D4D1C292A3908A851B2CF2B* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___0_eventData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8297,7 +8297,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeedUp_OnPointerUp_m365A6DF6A8355066965
 		return;
 	}
 }
-// Method Definition Index: 34022
+// Method Definition Index: 34128
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeedUp__ctor_mAC0828012328868273EB3CB7B11812455E6AD083 (SpeedUp_t550786BF9F3DA89F4D4D1C292A3908A851B2CF2B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8313,7 +8313,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeedUp__ctor_mAC0828012328868273EB3CB7B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 34023
+// Method Definition Index: 34129
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tutorial_Awake_m5FFA54222BEA37D7F27C1CAD5F9F8772068EBC5C (Tutorial_t4FF9FF1EF6F8E11558052253ECFBB53EC9AA41D4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8427,7 +8427,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tutorial_Awake_m5FFA54222BEA37D7F27C1CAD
 		return;
 	}
 }
-// Method Definition Index: 34024
+// Method Definition Index: 34130
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tutorial_Start_m799566239F76DABF8C502C786D3480BFD74D597A (Tutorial_t4FF9FF1EF6F8E11558052253ECFBB53EC9AA41D4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8447,7 +8447,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tutorial_Start_m799566239F76DABF8C502C78
 		return;
 	}
 }
-// Method Definition Index: 34025
+// Method Definition Index: 34131
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* Tutorial_Translate_m381ACD991BB675AD3EC7FA52D1358D9359D60323 (Tutorial_t4FF9FF1EF6F8E11558052253ECFBB53EC9AA41D4* __this, String_t* ___0_english, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8473,7 +8473,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F
 		return L_3;
 	}
 }
-// Method Definition Index: 34026
+// Method Definition Index: 34132
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tutorial_Update_mB7FC86C872EBE97690E25045A041E502244E1D59 (Tutorial_t4FF9FF1EF6F8E11558052253ECFBB53EC9AA41D4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10224,7 +10224,7 @@ IL_0d14:
 		return;
 	}
 }
-// Method Definition Index: 34027
+// Method Definition Index: 34133
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tutorial_Next_mCBBC814E25D897E257E9D9DD3DD18E88C964FA30 (Tutorial_t4FF9FF1EF6F8E11558052253ECFBB53EC9AA41D4* __this, bool ___0_IsButton, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10269,7 +10269,7 @@ IL_0024:
 		return;
 	}
 }
-// Method Definition Index: 34028
+// Method Definition Index: 34134
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Tutorial_ActivitatingReturn_m806B9DCAF8D64BB11A2F8E1AFA9A035B2E7DFFED (Tutorial_t4FF9FF1EF6F8E11558052253ECFBB53EC9AA41D4* __this, GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___0_group, const RuntimeMethod* method) 
 {
 	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* V_0 = NULL;
@@ -10313,7 +10313,7 @@ IL_0013:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 34029
+// Method Definition Index: 34135
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tutorial_DeActivitingArrows_m15AE5342CD40E201C731C976F5BA76F111DE68B3 (Tutorial_t4FF9FF1EF6F8E11558052253ECFBB53EC9AA41D4* __this, GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___0_group, int32_t ___1_RealGroupCount, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -10355,7 +10355,7 @@ IL_0011:
 		return;
 	}
 }
-// Method Definition Index: 34030
+// Method Definition Index: 34136
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tutorial_Activiting_mC5818298F5D89E8F0602C7D33DED6B5780A8FFF8 (Tutorial_t4FF9FF1EF6F8E11558052253ECFBB53EC9AA41D4* __this, GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___0_group, const RuntimeMethod* method) 
 {
 	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* V_0 = NULL;
@@ -10399,7 +10399,7 @@ IL_0013:
 		return;
 	}
 }
-// Method Definition Index: 34031
+// Method Definition Index: 34137
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tutorial_NextActiviting_m8809FA8ECB314310EF75CFE91A0B05A4D9A074CF (Tutorial_t4FF9FF1EF6F8E11558052253ECFBB53EC9AA41D4* __this, bool ___0_Active, const RuntimeMethod* method) 
 {
 	{
@@ -10421,7 +10421,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tutorial_NextActiviting_m8809FA8ECB31431
 		return;
 	}
 }
-// Method Definition Index: 34032
+// Method Definition Index: 34138
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tutorial_InterActable_mA48ACB84E89A3719495624DD895CDD649A00BA3C (Tutorial_t4FF9FF1EF6F8E11558052253ECFBB53EC9AA41D4* __this, GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___0_objects, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10445,7 +10445,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tutorial_InterActable_mA48ACB84E89A37194
 		return;
 	}
 }
-// Method Definition Index: 34033
+// Method Definition Index: 34139
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tutorial_InterActableGreen_m0815701352D0932810A124DD1D86E0D209D8FF77 (Tutorial_t4FF9FF1EF6F8E11558052253ECFBB53EC9AA41D4* __this, bool ___0_Active, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10481,7 +10481,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tutorial_InterActableGreen_m0815701352D0
 		return;
 	}
 }
-// Method Definition Index: 34034
+// Method Definition Index: 34140
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tutorial_InterActable_m1D4F959D1DA90F4197AF42B1AF05FABDCE74169E (Tutorial_t4FF9FF1EF6F8E11558052253ECFBB53EC9AA41D4* __this, GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___0_objects, bool ___1_Activite, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10518,7 +10518,7 @@ IL_0011:
 		return;
 	}
 }
-// Method Definition Index: 34035
+// Method Definition Index: 34141
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tutorial_MapSectorInterActable_m0A119E74DFADE07F0E12DADA339AD5FC1A8C587E (Tutorial_t4FF9FF1EF6F8E11558052253ECFBB53EC9AA41D4* __this, bool ___0_Active, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10572,7 +10572,7 @@ IL_001d:
 		return;
 	}
 }
-// Method Definition Index: 34036
+// Method Definition Index: 34142
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tutorial_OnLanguageChanged_m5AFCF04C4C0E14EEC8C22849BECC86E1A8180058 (Tutorial_t4FF9FF1EF6F8E11558052253ECFBB53EC9AA41D4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10582,7 +10582,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tutorial_OnLanguageChanged_m5AFCF04C4C0E
 		return;
 	}
 }
-// Method Definition Index: 34037
+// Method Definition Index: 34143
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tutorial_UpdateTutorialText_m97469041DB0C788CF4E2A07C484E7C67477D19E8 (Tutorial_t4FF9FF1EF6F8E11558052253ECFBB53EC9AA41D4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10638,7 +10638,7 @@ IL_0025:
 		return;
 	}
 }
-// Method Definition Index: 34038
+// Method Definition Index: 34144
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tutorial__ctor_mCD41B6145B228A85EAAD173736F4BFD758605728 (Tutorial_t4FF9FF1EF6F8E11558052253ECFBB53EC9AA41D4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10671,7 +10671,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tutorial__ctor_mCD41B6145B228A85EAAD1737
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 34039
+// Method Definition Index: 34145
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkCommunicationSettings__ctor_m03B0C2D510CA2D4E0F5F9AD0CA3D3D6BBD1E7E1C (AkCommunicationSettings_t4DBE269D131C21F38493B7F93517DBEAFC973899* __this, intptr_t ___0_cPtr, bool ___1_cMemoryOwn, const RuntimeMethod* method) 
 {
 	{
@@ -10687,7 +10687,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkCommunicationSettings__ctor_m03B0C2D51
 		return;
 	}
 }
-// Method Definition Index: 34040
+// Method Definition Index: 34146
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkCommunicationSettings_getCPtr_m41731A7AF4E825F802AC548B39353DB1F86B631D (AkCommunicationSettings_t4DBE269D131C21F38493B7F93517DBEAFC973899* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -10710,7 +10710,7 @@ IL_000a:
 		return 0;
 	}
 }
-// Method Definition Index: 34041
+// Method Definition Index: 34147
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkCommunicationSettings_setCPtr_mB55441E31322AAFA20E3BE61912021316C994DA8 (AkCommunicationSettings_t4DBE269D131C21F38493B7F93517DBEAFC973899* __this, intptr_t ___0_cPtr, const RuntimeMethod* method) 
 {
 	{
@@ -10723,7 +10723,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkCommunicationSettings_setCPtr_mB55441E
 		return;
 	}
 }
-// Method Definition Index: 34042
+// Method Definition Index: 34148
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkCommunicationSettings_Finalize_m6B4E9417F8F6E900756C8A2FB1CB2896ABCF6D70 (AkCommunicationSettings_t4DBE269D131C21F38493B7F93517DBEAFC973899* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10755,7 +10755,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 34043
+// Method Definition Index: 34149
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkCommunicationSettings_Dispose_m6FB89FA2DCEAD2C6904DA0796DEEE217F7659748 (AkCommunicationSettings_t4DBE269D131C21F38493B7F93517DBEAFC973899* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10854,7 +10854,7 @@ IL_0055:
 		return;
 	}
 }
-// Method Definition Index: 34044
+// Method Definition Index: 34150
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkCommunicationSettings__ctor_m62BC418674DFED6C59E15205CE00F73A1E1F6560 (AkCommunicationSettings_t4DBE269D131C21F38493B7F93517DBEAFC973899* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10873,7 +10873,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkCommunicationSettings__ctor_m62BC41867
 		return;
 	}
 }
-// Method Definition Index: 34045
+// Method Definition Index: 34151
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkCommunicationSettings_set_uPoolSize_mDDB02058542A4A0EE70A2243172870B69B37DC10 (AkCommunicationSettings_t4DBE269D131C21F38493B7F93517DBEAFC973899* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10892,7 +10892,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkCommunicationSettings_set_uPoolSize_mD
 		return;
 	}
 }
-// Method Definition Index: 34046
+// Method Definition Index: 34152
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkCommunicationSettings_get_uPoolSize_m74B568AD60AD4BF72967B0A5D7DE7096C5F8D2D6 (AkCommunicationSettings_t4DBE269D131C21F38493B7F93517DBEAFC973899* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10910,7 +10910,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkCommunicationSettings_get_uPoolSiz
 		return L_1;
 	}
 }
-// Method Definition Index: 34047
+// Method Definition Index: 34153
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkCommunicationSettings_set_uDiscoveryBroadcastPort_mC9377CF5ACBE83C62F56A3A41CB95833898F4B6E (AkCommunicationSettings_t4DBE269D131C21F38493B7F93517DBEAFC973899* __this, uint16_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10929,7 +10929,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkCommunicationSettings_set_uDiscoveryBr
 		return;
 	}
 }
-// Method Definition Index: 34048
+// Method Definition Index: 34154
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t AkCommunicationSettings_get_uDiscoveryBroadcastPort_m0C744966206F4FEFCE3F2814DE445B35E9671B34 (AkCommunicationSettings_t4DBE269D131C21F38493B7F93517DBEAFC973899* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10947,7 +10947,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t AkCommunicationSettings_get_uDiscove
 		return L_1;
 	}
 }
-// Method Definition Index: 34049
+// Method Definition Index: 34155
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkCommunicationSettings_set_uCommandPort_m6E37949FF5B205815EB48C5ADB3204510BD83BB4 (AkCommunicationSettings_t4DBE269D131C21F38493B7F93517DBEAFC973899* __this, uint16_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10966,7 +10966,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkCommunicationSettings_set_uCommandPort
 		return;
 	}
 }
-// Method Definition Index: 34050
+// Method Definition Index: 34156
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t AkCommunicationSettings_get_uCommandPort_m232C75B8C3080F41FFD7B944859E6EF95AD909A0 (AkCommunicationSettings_t4DBE269D131C21F38493B7F93517DBEAFC973899* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10984,7 +10984,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t AkCommunicationSettings_get_uCommand
 		return L_1;
 	}
 }
-// Method Definition Index: 34051
+// Method Definition Index: 34157
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkCommunicationSettings_set_uNotificationPort_m494FC932A4D20EE15212B180593C1B57ED76294F (AkCommunicationSettings_t4DBE269D131C21F38493B7F93517DBEAFC973899* __this, uint16_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11003,7 +11003,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkCommunicationSettings_set_uNotificatio
 		return;
 	}
 }
-// Method Definition Index: 34052
+// Method Definition Index: 34158
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t AkCommunicationSettings_get_uNotificationPort_m6AA0CA7E84FEB716989D532EF756E0F8190C4DD4 (AkCommunicationSettings_t4DBE269D131C21F38493B7F93517DBEAFC973899* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11021,7 +11021,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t AkCommunicationSettings_get_uNotific
 		return L_1;
 	}
 }
-// Method Definition Index: 34053
+// Method Definition Index: 34159
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkCommunicationSettings_set_commSystem_mA96FB5DFDB45C26F9D86BB1A63D875473C6F7725 (AkCommunicationSettings_t4DBE269D131C21F38493B7F93517DBEAFC973899* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11040,7 +11040,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkCommunicationSettings_set_commSystem_m
 		return;
 	}
 }
-// Method Definition Index: 34054
+// Method Definition Index: 34160
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkCommunicationSettings_get_commSystem_m0A26673839754375A04369E55B1FB628F31FEC56 (AkCommunicationSettings_t4DBE269D131C21F38493B7F93517DBEAFC973899* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11058,7 +11058,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkCommunicationSettings_get_commSyste
 		return (int32_t)(L_1);
 	}
 }
-// Method Definition Index: 34055
+// Method Definition Index: 34161
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkCommunicationSettings_set_bInitSystemLib_m61703694929D8640963AEEBBE00D0619998C499F (AkCommunicationSettings_t4DBE269D131C21F38493B7F93517DBEAFC973899* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11077,7 +11077,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkCommunicationSettings_set_bInitSystemL
 		return;
 	}
 }
-// Method Definition Index: 34056
+// Method Definition Index: 34162
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkCommunicationSettings_get_bInitSystemLib_m3C7978A4316793923BCD3E39C701392E7748FBD2 (AkCommunicationSettings_t4DBE269D131C21F38493B7F93517DBEAFC973899* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11095,7 +11095,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkCommunicationSettings_get_bInitSystemL
 		return L_1;
 	}
 }
-// Method Definition Index: 34057
+// Method Definition Index: 34163
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkCommunicationSettings_set_szAppNetworkName_mFC78FA059305614838D01E2717D4A2B4F8B84BE8 (AkCommunicationSettings_t4DBE269D131C21F38493B7F93517DBEAFC973899* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11114,7 +11114,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkCommunicationSettings_set_szAppNetwork
 		return;
 	}
 }
-// Method Definition Index: 34058
+// Method Definition Index: 34164
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AkCommunicationSettings_get_szAppNetworkName_m51A77ACAA25584922BB774A7D596211BE032659D (AkCommunicationSettings_t4DBE269D131C21F38493B7F93517DBEAFC973899* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11152,7 +11152,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AkCommunicationSettings_get_szAppNe
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 34059
+// Method Definition Index: 34165
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkPlatformInitSettings__ctor_mEE6681F0236A0924D788AB9FFBB9CF41EAF7D3E7 (AkPlatformInitSettings_t171CB8351D03371547B67FFD9C14D6906ADA2A85* __this, intptr_t ___0_cPtr, bool ___1_cMemoryOwn, const RuntimeMethod* method) 
 {
 	{
@@ -11168,7 +11168,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkPlatformInitSettings__ctor_mEE6681F023
 		return;
 	}
 }
-// Method Definition Index: 34060
+// Method Definition Index: 34166
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkPlatformInitSettings_getCPtr_mFC644722920CB2D93491790D2FB0D3BF844A8251 (AkPlatformInitSettings_t171CB8351D03371547B67FFD9C14D6906ADA2A85* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -11191,7 +11191,7 @@ IL_000a:
 		return 0;
 	}
 }
-// Method Definition Index: 34061
+// Method Definition Index: 34167
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkPlatformInitSettings_setCPtr_mCA575E097B30A074EC8A6C5ABB7EF5631FB24EE9 (AkPlatformInitSettings_t171CB8351D03371547B67FFD9C14D6906ADA2A85* __this, intptr_t ___0_cPtr, const RuntimeMethod* method) 
 {
 	{
@@ -11204,7 +11204,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkPlatformInitSettings_setCPtr_mCA575E09
 		return;
 	}
 }
-// Method Definition Index: 34062
+// Method Definition Index: 34168
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkPlatformInitSettings_Finalize_m8AD40BA139C76BE172A138B176B9F81347DAD697 (AkPlatformInitSettings_t171CB8351D03371547B67FFD9C14D6906ADA2A85* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11236,7 +11236,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 34063
+// Method Definition Index: 34169
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkPlatformInitSettings_Dispose_m12E1274D0F54ABD61DD621B36B6E977878C15D81 (AkPlatformInitSettings_t171CB8351D03371547B67FFD9C14D6906ADA2A85* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11335,7 +11335,7 @@ IL_0055:
 		return;
 	}
 }
-// Method Definition Index: 34064
+// Method Definition Index: 34170
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkPlatformInitSettings_set_threadLEngine_m62C46F9F235BF5B385EC8C9A821B0E536A1F1609 (AkPlatformInitSettings_t171CB8351D03371547B67FFD9C14D6906ADA2A85* __this, AkThreadProperties_t0810A2AB3ADCC6743605805A6861023DC9172CEE* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11356,7 +11356,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkPlatformInitSettings_set_threadLEngine
 		return;
 	}
 }
-// Method Definition Index: 34065
+// Method Definition Index: 34171
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AkThreadProperties_t0810A2AB3ADCC6743605805A6861023DC9172CEE* AkPlatformInitSettings_get_threadLEngine_mBAB75594A80FE316A26E5B99B80A7F8218E369D6 (AkPlatformInitSettings_t171CB8351D03371547B67FFD9C14D6906ADA2A85* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11397,7 +11397,7 @@ IL_0021:
 		return (AkThreadProperties_t0810A2AB3ADCC6743605805A6861023DC9172CEE*)NULL;
 	}
 }
-// Method Definition Index: 34066
+// Method Definition Index: 34172
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkPlatformInitSettings_set_threadOutputMgr_m329D33D18D1A4E69F6EFFF47FE90653AA4496E2A (AkPlatformInitSettings_t171CB8351D03371547B67FFD9C14D6906ADA2A85* __this, AkThreadProperties_t0810A2AB3ADCC6743605805A6861023DC9172CEE* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11418,7 +11418,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkPlatformInitSettings_set_threadOutputM
 		return;
 	}
 }
-// Method Definition Index: 34067
+// Method Definition Index: 34173
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AkThreadProperties_t0810A2AB3ADCC6743605805A6861023DC9172CEE* AkPlatformInitSettings_get_threadOutputMgr_mD602E56EF64FDF30171EF23C622C64A037F8E300 (AkPlatformInitSettings_t171CB8351D03371547B67FFD9C14D6906ADA2A85* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11459,7 +11459,7 @@ IL_0021:
 		return (AkThreadProperties_t0810A2AB3ADCC6743605805A6861023DC9172CEE*)NULL;
 	}
 }
-// Method Definition Index: 34068
+// Method Definition Index: 34174
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkPlatformInitSettings_set_threadBankManager_mA5F64DABDC9D10DA813E52571EA78E62DDE5E582 (AkPlatformInitSettings_t171CB8351D03371547B67FFD9C14D6906ADA2A85* __this, AkThreadProperties_t0810A2AB3ADCC6743605805A6861023DC9172CEE* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11480,7 +11480,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkPlatformInitSettings_set_threadBankMan
 		return;
 	}
 }
-// Method Definition Index: 34069
+// Method Definition Index: 34175
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AkThreadProperties_t0810A2AB3ADCC6743605805A6861023DC9172CEE* AkPlatformInitSettings_get_threadBankManager_m9F8D9C858BCF6E6551320E98EF59F701B450AF94 (AkPlatformInitSettings_t171CB8351D03371547B67FFD9C14D6906ADA2A85* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11521,7 +11521,7 @@ IL_0021:
 		return (AkThreadProperties_t0810A2AB3ADCC6743605805A6861023DC9172CEE*)NULL;
 	}
 }
-// Method Definition Index: 34070
+// Method Definition Index: 34176
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkPlatformInitSettings_set_threadMonitor_m940A7DEAED887904CB1D79D8389BAA7C3ACC47AE (AkPlatformInitSettings_t171CB8351D03371547B67FFD9C14D6906ADA2A85* __this, AkThreadProperties_t0810A2AB3ADCC6743605805A6861023DC9172CEE* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11542,7 +11542,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkPlatformInitSettings_set_threadMonitor
 		return;
 	}
 }
-// Method Definition Index: 34071
+// Method Definition Index: 34177
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AkThreadProperties_t0810A2AB3ADCC6743605805A6861023DC9172CEE* AkPlatformInitSettings_get_threadMonitor_mFC3C74738A3C248B5AC83E8F817CCABA49D23831 (AkPlatformInitSettings_t171CB8351D03371547B67FFD9C14D6906ADA2A85* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11583,7 +11583,7 @@ IL_0021:
 		return (AkThreadProperties_t0810A2AB3ADCC6743605805A6861023DC9172CEE*)NULL;
 	}
 }
-// Method Definition Index: 34072
+// Method Definition Index: 34178
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkPlatformInitSettings_set_eAudioAPI_mFAFAF8903A5DAF1E796BD1AA858035B6182EB5EC (AkPlatformInitSettings_t171CB8351D03371547B67FFD9C14D6906ADA2A85* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11602,7 +11602,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkPlatformInitSettings_set_eAudioAPI_mFA
 		return;
 	}
 }
-// Method Definition Index: 34073
+// Method Definition Index: 34179
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkPlatformInitSettings_get_eAudioAPI_mC36EFDADCA5139A912ACBA38E2B0C89F0131EB36 (AkPlatformInitSettings_t171CB8351D03371547B67FFD9C14D6906ADA2A85* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11620,7 +11620,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkPlatformInitSettings_get_eAudioAPI_
 		return (int32_t)(L_1);
 	}
 }
-// Method Definition Index: 34074
+// Method Definition Index: 34180
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkPlatformInitSettings_set_uSampleRate_mD6404982FABB09356BBD5BF5D5634536066F0813 (AkPlatformInitSettings_t171CB8351D03371547B67FFD9C14D6906ADA2A85* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11639,7 +11639,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkPlatformInitSettings_set_uSampleRate_m
 		return;
 	}
 }
-// Method Definition Index: 34075
+// Method Definition Index: 34181
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkPlatformInitSettings_get_uSampleRate_m2EAF8F486F8CB4D40C2D4FC1E987E36521D0D37E (AkPlatformInitSettings_t171CB8351D03371547B67FFD9C14D6906ADA2A85* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11657,7 +11657,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkPlatformInitSettings_get_uSampleRa
 		return L_1;
 	}
 }
-// Method Definition Index: 34076
+// Method Definition Index: 34182
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkPlatformInitSettings_set_uNumRefillsInVoice_mF7A9A61529EFABF11B64E5FEDCEC158431E41062 (AkPlatformInitSettings_t171CB8351D03371547B67FFD9C14D6906ADA2A85* __this, uint16_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11676,7 +11676,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkPlatformInitSettings_set_uNumRefillsIn
 		return;
 	}
 }
-// Method Definition Index: 34077
+// Method Definition Index: 34183
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t AkPlatformInitSettings_get_uNumRefillsInVoice_m258A25E7625099A8E18D86768EBC667433458BC0 (AkPlatformInitSettings_t171CB8351D03371547B67FFD9C14D6906ADA2A85* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11694,7 +11694,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t AkPlatformInitSettings_get_uNumRefil
 		return L_1;
 	}
 }
-// Method Definition Index: 34078
+// Method Definition Index: 34184
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkPlatformInitSettings_set_uChannelMask_mB6CD18C58E554EF608B52E9E6A10D6D62FD83C83 (AkPlatformInitSettings_t171CB8351D03371547B67FFD9C14D6906ADA2A85* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11713,7 +11713,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkPlatformInitSettings_set_uChannelMask_
 		return;
 	}
 }
-// Method Definition Index: 34079
+// Method Definition Index: 34185
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkPlatformInitSettings_get_uChannelMask_m027B501B149E9AB20FFA99AFDF7995A4E6725C27 (AkPlatformInitSettings_t171CB8351D03371547B67FFD9C14D6906ADA2A85* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11731,7 +11731,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkPlatformInitSettings_get_uChannelM
 		return L_1;
 	}
 }
-// Method Definition Index: 34080
+// Method Definition Index: 34186
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkPlatformInitSettings_set_bRoundFrameSizeToHWSize_m30086C1986995494D6197E5792C3B5D2C182A192 (AkPlatformInitSettings_t171CB8351D03371547B67FFD9C14D6906ADA2A85* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11750,7 +11750,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkPlatformInitSettings_set_bRoundFrameSi
 		return;
 	}
 }
-// Method Definition Index: 34081
+// Method Definition Index: 34187
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkPlatformInitSettings_get_bRoundFrameSizeToHWSize_mF079BAF232E16B39301014AAFD05CE3BA63F76BC (AkPlatformInitSettings_t171CB8351D03371547B67FFD9C14D6906ADA2A85* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11776,7 +11776,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkPlatformInitSettings_get_bRoundFrameSi
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 34082
+// Method Definition Index: 34188
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE__cctor_m3B53667F3DF53F759BFFEF27FC2669A70171645D (const RuntimeMethod* method) 
 {
 	{
@@ -11784,7 +11784,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE__cctor_m3B53667F3DF
 		return;
 	}
 }
-// Method Definition Index: 34083
+// Method Definition Index: 34189
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AK_SOUNDBANK_VERSION_get_m2CAAA528CF57501380EBB38B5E038FD8A98854D2 (const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -11806,7 +11806,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AK_SOUND
 
 	return returnValue;
 }
-// Method Definition Index: 34084
+// Method Definition Index: 34190
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkAudioSettings_uNumSamplesPerFrame_set_mDE372C2F004DA1D16947FB57116CAE903F0DFC4C (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -11827,7 +11827,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkAudioSetti
 	#endif
 
 }
-// Method Definition Index: 34085
+// Method Definition Index: 34191
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkAudioSettings_uNumSamplesPerFrame_get_mCC5C8AE7510137761E509191E8C5AB35602B0351 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -11849,7 +11849,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkAudioS
 
 	return returnValue;
 }
-// Method Definition Index: 34086
+// Method Definition Index: 34192
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkAudioSettings_uNumSamplesPerSecond_set_mB013FBA776B7EB71FB502F97BD0118808CBD7CB9 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -11870,7 +11870,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkAudioSetti
 	#endif
 
 }
-// Method Definition Index: 34087
+// Method Definition Index: 34193
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkAudioSettings_uNumSamplesPerSecond_get_m236B4BB070BE4AC9A91EA8CF2E73CFBA921A62E5 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -11892,7 +11892,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkAudioS
 
 	return returnValue;
 }
-// Method Definition Index: 34088
+// Method Definition Index: 34194
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkAudioSettings_m04F7C94D9D15EA25650D127DEF8F2C88D4DA57C0 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -11914,7 +11914,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkAu
 
 	return returnValue;
 }
-// Method Definition Index: 34089
+// Method Definition Index: 34195
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkAudioSettings_m5BAB1970E627BDE8DB2927C722C0702C1D43E387 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -11935,7 +11935,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkAud
 	#endif
 
 }
-// Method Definition Index: 34090
+// Method Definition Index: 34196
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDeviceDescription_idDevice_set_m3D35A6CF904412DD03937E04AF6936FE06D66BE9 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -11956,7 +11956,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDeviceDesc
 	#endif
 
 }
-// Method Definition Index: 34091
+// Method Definition Index: 34197
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkDeviceDescription_idDevice_get_m049D225478456EF29574D421743FE124815FE250 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -11978,7 +11978,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkDevice
 
 	return returnValue;
 }
-// Method Definition Index: 34092
+// Method Definition Index: 34198
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDeviceDescription_deviceName_set_m846BD2A71C22E8AA1206B480E8618E66B4CC5C53 (intptr_t ___0_jarg1, String_t* ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, char*);
@@ -12005,7 +12005,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDeviceDesc
 	____1_jarg2_marshaled = NULL;
 
 }
-// Method Definition Index: 34093
+// Method Definition Index: 34199
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkDeviceDescription_deviceName_get_m79B32D0E300241D0D00F896F91204E8EF2D109FE (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -12027,7 +12027,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkDevice
 
 	return returnValue;
 }
-// Method Definition Index: 34094
+// Method Definition Index: 34200
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDeviceDescription_deviceStateMask_set_mEF3CE4D1E05F240BAD31D39594D327D92609E62B (intptr_t ___0_jarg1, int32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
@@ -12048,7 +12048,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDeviceDesc
 	#endif
 
 }
-// Method Definition Index: 34095
+// Method Definition Index: 34201
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkDeviceDescription_deviceStateMask_get_m481954CDBF55B77FDE739F26F90D9919B0F52F6D (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -12070,7 +12070,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkDeviceD
 
 	return returnValue;
 }
-// Method Definition Index: 34096
+// Method Definition Index: 34202
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDeviceDescription_isDefaultDevice_set_m74E8706D24245D689672244AE294427D713BE357 (intptr_t ___0_jarg1, bool ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
@@ -12091,7 +12091,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDeviceDesc
 	#endif
 
 }
-// Method Definition Index: 34097
+// Method Definition Index: 34203
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkDeviceDescription_isDefaultDevice_get_mE903D48CE765942D6134F2192348E9523544EBAD (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -12113,7 +12113,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkDeviceDesc
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 34098
+// Method Definition Index: 34204
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDeviceDescription_Clear_m70D18F0C17FE7EAEC676FA10EA62CE3A9672E191 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -12134,7 +12134,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDeviceDesc
 	#endif
 
 }
-// Method Definition Index: 34099
+// Method Definition Index: 34205
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkDeviceDescription_GetSizeOf_m74BC6867859EA3280918D7CFB80BB06F0A505D18 (const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -12156,7 +12156,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkDeviceD
 
 	return returnValue;
 }
-// Method Definition Index: 34100
+// Method Definition Index: 34206
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDeviceDescription_Clone_m42653A6B37683EBACB39CF0CCF10003E126E714A (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -12177,7 +12177,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDeviceDesc
 	#endif
 
 }
-// Method Definition Index: 34101
+// Method Definition Index: 34207
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkDeviceDescription_mA92BCD83EE557CDDA8D67016D2DCFA3B8B7CD790 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -12199,7 +12199,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkDe
 
 	return returnValue;
 }
-// Method Definition Index: 34102
+// Method Definition Index: 34208
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkDeviceDescription_m66975EB59DD59D2D16F3AEC2706B83D152BF4BE2 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -12220,7 +12220,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkDev
 	#endif
 
 }
-// Method Definition Index: 34103
+// Method Definition Index: 34209
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 AkSoundEnginePINVOKE_CSharp_AkTransform_Position_mD6793A671C0E890DB7DFCDA7D3719672CB65E14A (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -12242,7 +12242,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 
 	return returnValue;
 }
-// Method Definition Index: 34104
+// Method Definition Index: 34210
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 AkSoundEnginePINVOKE_CSharp_AkTransform_OrientationFront_mF0BC62AFE440C9130F3F6965B8F273D65039F4DF (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -12264,7 +12264,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 
 	return returnValue;
 }
-// Method Definition Index: 34105
+// Method Definition Index: 34211
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 AkSoundEnginePINVOKE_CSharp_AkTransform_OrientationTop_m0DA028EFD56AA2E0485048A362A2B19E93970DC7 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -12286,7 +12286,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 
 	return returnValue;
 }
-// Method Definition Index: 34106
+// Method Definition Index: 34212
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkTransform_Set__SWIG_0_m5B7C69DC76F643BCC7314EE791EE11313DFB5DB9 (intptr_t ___0_jarg1, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_jarg2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_jarg3, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___3_jarg4, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2);
@@ -12307,7 +12307,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkTransform_
 	#endif
 
 }
-// Method Definition Index: 34107
+// Method Definition Index: 34213
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkTransform_Set__SWIG_1_mC847BD4F4E7B26EFBEFF168A1325717B252F5940 (intptr_t ___0_jarg1, float ___1_jarg2, float ___2_jarg3, float ___3_jarg4, float ___4_jarg5, float ___5_jarg6, float ___6_jarg7, float ___7_jarg8, float ___8_jarg9, float ___9_jarg10, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float, float, float, float, float, float, float, float, float);
@@ -12328,7 +12328,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkTransform_
 	#endif
 
 }
-// Method Definition Index: 34108
+// Method Definition Index: 34214
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkTransform_SetPosition__SWIG_0_mAB09A547D0FAB54AD24869626AE6FBAFD1870FEB (intptr_t ___0_jarg1, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2);
@@ -12349,7 +12349,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkTransform_
 	#endif
 
 }
-// Method Definition Index: 34109
+// Method Definition Index: 34215
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkTransform_SetPosition__SWIG_1_m235D431B270ECA4CBB369B810D3264CE934D62D4 (intptr_t ___0_jarg1, float ___1_jarg2, float ___2_jarg3, float ___3_jarg4, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float, float, float);
@@ -12370,7 +12370,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkTransform_
 	#endif
 
 }
-// Method Definition Index: 34110
+// Method Definition Index: 34216
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkTransform_SetOrientation__SWIG_0_mBC22673406415493BFC658611A6C33FFF064BFEC (intptr_t ___0_jarg1, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_jarg2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2);
@@ -12391,7 +12391,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkTransform_
 	#endif
 
 }
-// Method Definition Index: 34111
+// Method Definition Index: 34217
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkTransform_SetOrientation__SWIG_1_m74EB4ED05C8B8989DA67F3FF42F9043555B7B5C5 (intptr_t ___0_jarg1, float ___1_jarg2, float ___2_jarg3, float ___3_jarg4, float ___4_jarg5, float ___5_jarg6, float ___6_jarg7, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float, float, float, float, float, float);
@@ -12412,7 +12412,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkTransform_
 	#endif
 
 }
-// Method Definition Index: 34112
+// Method Definition Index: 34218
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkTransform_m675905096841BBBCDA6D76C869F71408F4850854 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -12434,7 +12434,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkTr
 
 	return returnValue;
 }
-// Method Definition Index: 34113
+// Method Definition Index: 34219
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkTransform_m4AC179B8410F067AEFA54D02E838E1B41C5D6EEC (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -12455,7 +12455,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkTra
 	#endif
 
 }
-// Method Definition Index: 34114
+// Method Definition Index: 34220
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkObstructionOcclusionValues_occlusion_set_m0CED2F0604CCC64534856781DA863F9468806675 (intptr_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float);
@@ -12476,7 +12476,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkObstructio
 	#endif
 
 }
-// Method Definition Index: 34115
+// Method Definition Index: 34221
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkObstructionOcclusionValues_occlusion_get_m3415644A5C25A185FC3BC4544DD9CC0E6CC394A9 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -12498,7 +12498,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkObstructi
 
 	return returnValue;
 }
-// Method Definition Index: 34116
+// Method Definition Index: 34222
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkObstructionOcclusionValues_obstruction_set_m813689A61378DFD11D4866AC3C3677B144C5824D (intptr_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float);
@@ -12519,7 +12519,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkObstructio
 	#endif
 
 }
-// Method Definition Index: 34117
+// Method Definition Index: 34223
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkObstructionOcclusionValues_obstruction_get_mD83D32EA1EB005A4D84FC59FF4D8812B42677A7B (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -12541,7 +12541,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkObstructi
 
 	return returnValue;
 }
-// Method Definition Index: 34118
+// Method Definition Index: 34224
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkObstructionOcclusionValues_Clear_m226A684E91FBA8233230F4455BDEB67023DD203E (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -12562,7 +12562,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkObstructio
 	#endif
 
 }
-// Method Definition Index: 34119
+// Method Definition Index: 34225
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkObstructionOcclusionValues_GetSizeOf_mC1A11CD29FF4B8E8C94C93E928C5269691F13275 (const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -12584,7 +12584,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkObstruc
 
 	return returnValue;
 }
-// Method Definition Index: 34120
+// Method Definition Index: 34226
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkObstructionOcclusionValues_Clone_m4D3E9DDF36B954535E43161CCA609C809B8D8EB6 (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -12605,7 +12605,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkObstructio
 	#endif
 
 }
-// Method Definition Index: 34121
+// Method Definition Index: 34227
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkObstructionOcclusionValues_m090BE3D899272E9C6FCC51939BC7968E1DAA3831 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -12627,7 +12627,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkOb
 
 	return returnValue;
 }
-// Method Definition Index: 34122
+// Method Definition Index: 34228
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkObstructionOcclusionValues_m296E94917E4316AB3F6F82F916FB9CF55DF8D46F (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -12648,7 +12648,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkObs
 	#endif
 
 }
-// Method Definition Index: 34123
+// Method Definition Index: 34229
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkChannelEmitter_position_set_mAA3AF8B1D3277B7C1FE075A655BB406E0414F25B (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -12669,7 +12669,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkChannelEmi
 	#endif
 
 }
-// Method Definition Index: 34124
+// Method Definition Index: 34230
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkChannelEmitter_position_get_m9F880195637054A1CC2BAB480943A49A7C05CD7B (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -12691,7 +12691,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkChanne
 
 	return returnValue;
 }
-// Method Definition Index: 34125
+// Method Definition Index: 34231
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkChannelEmitter_uInputChannels_set_mDA7E3E3F2E5DEB00077DD1328490B77DB75515BE (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -12712,7 +12712,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkChannelEmi
 	#endif
 
 }
-// Method Definition Index: 34126
+// Method Definition Index: 34232
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkChannelEmitter_uInputChannels_get_m9D0ABC445D4B7B58240CCB533CBD72BF0FAD2685 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -12734,7 +12734,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkChanne
 
 	return returnValue;
 }
-// Method Definition Index: 34127
+// Method Definition Index: 34233
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkChannelEmitter_m9A322B0A2F23C71B3E0C78E1B31C8E6351FD1920 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -12755,7 +12755,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkCha
 	#endif
 
 }
-// Method Definition Index: 34128
+// Method Definition Index: 34234
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkAuxSendValue_listenerID_set_m04CD77F6AECB876A27AC09AEE4B597A5BCA0273F (intptr_t ___0_jarg1, uint64_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint64_t);
@@ -12776,7 +12776,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkAuxSendVal
 	#endif
 
 }
-// Method Definition Index: 34129
+// Method Definition Index: 34235
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t AkSoundEnginePINVOKE_CSharp_AkAuxSendValue_listenerID_get_mF23BE9D40ED80F73F35DE5F0E06D2B465C4995E5 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint64_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -12798,7 +12798,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t AkSoundEnginePINVOKE_CSharp_AkAuxSen
 
 	return returnValue;
 }
-// Method Definition Index: 34130
+// Method Definition Index: 34236
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkAuxSendValue_auxBusID_set_mD175BAAA343C0D0D10E9DB177EFA1D123AFD766B (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -12819,7 +12819,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkAuxSendVal
 	#endif
 
 }
-// Method Definition Index: 34131
+// Method Definition Index: 34237
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkAuxSendValue_auxBusID_get_m5B999A754C008B3506CBD8F2B16644641F2CE7E2 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -12841,7 +12841,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkAuxSen
 
 	return returnValue;
 }
-// Method Definition Index: 34132
+// Method Definition Index: 34238
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkAuxSendValue_fControlValue_set_m0277B6862AB27A17B988FFCC5EF290B634757CF5 (intptr_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float);
@@ -12862,7 +12862,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkAuxSendVal
 	#endif
 
 }
-// Method Definition Index: 34133
+// Method Definition Index: 34239
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkAuxSendValue_fControlValue_get_mE13319F6DB9132B7359332F1F87121DC9EEB35A2 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -12884,7 +12884,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkAuxSendVa
 
 	return returnValue;
 }
-// Method Definition Index: 34134
+// Method Definition Index: 34240
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkAuxSendValue_Set_m04A3D11D11E5F44DE99C116127F142A6C690D639 (intptr_t ___0_jarg1, uint64_t ___1_jarg2, uint32_t ___2_jarg3, float ___3_jarg4, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint64_t, uint32_t, float);
@@ -12905,7 +12905,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkAuxSendVal
 	#endif
 
 }
-// Method Definition Index: 34135
+// Method Definition Index: 34241
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkAuxSendValue_IsSame_mBF5506F39F726E2FF7C0531D735FC0CA90E31AC3 (intptr_t ___0_jarg1, uint64_t ___1_jarg2, uint32_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint64_t, uint32_t);
@@ -12927,7 +12927,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkAuxSendVal
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 34136
+// Method Definition Index: 34242
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkAuxSendValue_GetSizeOf_mF96949A8F9A0414E04BC42A4B0BCD8DBD5955E38 (const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -12949,7 +12949,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkAuxSend
 
 	return returnValue;
 }
-// Method Definition Index: 34137
+// Method Definition Index: 34243
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkAuxSendValue_m77437DDDE1F081E1ED1D9BF6D9F6BBF1A5B94463 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -12970,7 +12970,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkAux
 	#endif
 
 }
-// Method Definition Index: 34138
+// Method Definition Index: 34244
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkRamp__SWIG_0_mB4334F1E39F7268AFA0E075F5861A00590234F47 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -12992,7 +12992,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkRa
 
 	return returnValue;
 }
-// Method Definition Index: 34139
+// Method Definition Index: 34245
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkRamp__SWIG_1_m6923CF4BD1DF5E06F6C8AB6DA00C0DCB91B190AB (float ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (float, float);
@@ -13014,7 +13014,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkRa
 
 	return returnValue;
 }
-// Method Definition Index: 34140
+// Method Definition Index: 34246
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkRamp_fPrev_set_m43C7E63D4F2F3B0CFDC67172D34FDAE66092C169 (intptr_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float);
@@ -13035,7 +13035,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkRamp_fPrev
 	#endif
 
 }
-// Method Definition Index: 34141
+// Method Definition Index: 34247
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkRamp_fPrev_get_m7CA553C85535E9BF6873716972B08A243AD205DB (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -13057,7 +13057,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkRamp_fPre
 
 	return returnValue;
 }
-// Method Definition Index: 34142
+// Method Definition Index: 34248
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkRamp_fNext_set_m7E586179A797C527066CFE3412E44162785F7A65 (intptr_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float);
@@ -13078,7 +13078,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkRamp_fNext
 	#endif
 
 }
-// Method Definition Index: 34143
+// Method Definition Index: 34249
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkRamp_fNext_get_m28E0F019E772C078CAEBF93BBC295232C8875088 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -13100,7 +13100,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkRamp_fNex
 
 	return returnValue;
 }
-// Method Definition Index: 34144
+// Method Definition Index: 34250
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkRamp_mDAD398C0E1B07216101DEAEA198862493D74601A (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -13121,7 +13121,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkRam
 	#endif
 
 }
-// Method Definition Index: 34145
+// Method Definition Index: 34251
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t AkSoundEnginePINVOKE_CSharp_AK_INT_get_m5FFF0EDE3ADF15CC6FD40E038EACE504BC230A40 (const RuntimeMethod* method) 
 {
 	typedef uint16_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -13143,7 +13143,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t AkSoundEnginePINVOKE_CSharp_AK_INT_g
 
 	return returnValue;
 }
-// Method Definition Index: 34146
+// Method Definition Index: 34252
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t AkSoundEnginePINVOKE_CSharp_AK_FLOAT_get_mD20BBC948FC2A1533DED3C945D7D46EB64265764 (const RuntimeMethod* method) 
 {
 	typedef uint16_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -13165,7 +13165,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t AkSoundEnginePINVOKE_CSharp_AK_FLOAT
 
 	return returnValue;
 }
-// Method Definition Index: 34147
+// Method Definition Index: 34253
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AK_INTERLEAVED_get_m94AFB35C03C37B9CF01C350657844D14C5132ACD (const RuntimeMethod* method) 
 {
 	typedef uint8_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -13187,7 +13187,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AK_INTERL
 
 	return returnValue;
 }
-// Method Definition Index: 34148
+// Method Definition Index: 34254
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AK_NONINTERLEAVED_get_mC8B305D306516905A8115928C04B1B6FB9C37F24 (const RuntimeMethod* method) 
 {
 	typedef uint8_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -13209,7 +13209,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AK_NONINT
 
 	return returnValue;
 }
-// Method Definition Index: 34149
+// Method Definition Index: 34255
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AK_LE_NATIVE_BITSPERSAMPLE_get_mD9452FC9CF32E8440DC5279149BF6BA795BAB49F (const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -13231,7 +13231,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AK_LE_NA
 
 	return returnValue;
 }
-// Method Definition Index: 34150
+// Method Definition Index: 34256
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AK_LE_NATIVE_SAMPLETYPE_get_mD222D1FFA7E81896CBCBB72BBDCF344080CA93DF (const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -13253,7 +13253,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AK_LE_NA
 
 	return returnValue;
 }
-// Method Definition Index: 34151
+// Method Definition Index: 34257
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AK_LE_NATIVE_INTERLEAVE_get_m12D1B3E338E0BE84A8D8A97070ABD5591B634FB4 (const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -13275,7 +13275,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AK_LE_NA
 
 	return returnValue;
 }
-// Method Definition Index: 34152
+// Method Definition Index: 34258
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkAudioFormat_uSampleRate_set_mB2A6183146C6C20899478641C92B9D49CED02FFF (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -13296,7 +13296,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkAudioForma
 	#endif
 
 }
-// Method Definition Index: 34153
+// Method Definition Index: 34259
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkAudioFormat_uSampleRate_get_m8A453142605E0BC5C6E099A13F951BE0EA8C0F9F (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -13318,7 +13318,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkAudioF
 
 	return returnValue;
 }
-// Method Definition Index: 34154
+// Method Definition Index: 34260
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkAudioFormat_channelConfig_set_m17908A5DA44D88E424FFD133F7739E93680B2F7A (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -13339,7 +13339,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkAudioForma
 	#endif
 
 }
-// Method Definition Index: 34155
+// Method Definition Index: 34261
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkAudioFormat_channelConfig_get_m97A7BDBED4E632032146766E9DBCCBA92BFCE0C9 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -13361,7 +13361,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkAudioF
 
 	return returnValue;
 }
-// Method Definition Index: 34156
+// Method Definition Index: 34262
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkAudioFormat_uBitsPerSample_set_m25122F38984D48488EFF039BA1B1DC7C2362F0EB (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -13382,7 +13382,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkAudioForma
 	#endif
 
 }
-// Method Definition Index: 34157
+// Method Definition Index: 34263
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkAudioFormat_uBitsPerSample_get_m4B946F400C9CCD20D4F5352618393F56FAD840CD (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -13404,7 +13404,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkAudioF
 
 	return returnValue;
 }
-// Method Definition Index: 34158
+// Method Definition Index: 34264
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkAudioFormat_uBlockAlign_set_m5C19B119A2B098CCB13271DE218EAB5F50334339 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -13425,7 +13425,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkAudioForma
 	#endif
 
 }
-// Method Definition Index: 34159
+// Method Definition Index: 34265
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkAudioFormat_uBlockAlign_get_m647BA74E97BC327A687322A1224A4F6179E11EBA (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -13447,7 +13447,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkAudioF
 
 	return returnValue;
 }
-// Method Definition Index: 34160
+// Method Definition Index: 34266
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkAudioFormat_uTypeID_set_m17042A1C3BBC78442B362991627043C00373AA4E (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -13468,7 +13468,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkAudioForma
 	#endif
 
 }
-// Method Definition Index: 34161
+// Method Definition Index: 34267
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkAudioFormat_uTypeID_get_m6766955AEB9BC834E65F36CD1D4F1816C2BDCB4A (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -13490,7 +13490,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkAudioF
 
 	return returnValue;
 }
-// Method Definition Index: 34162
+// Method Definition Index: 34268
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkAudioFormat_uInterleaveID_set_m780B32EF4C83B206ADB067E2D273A7D417823CDE (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -13511,7 +13511,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkAudioForma
 	#endif
 
 }
-// Method Definition Index: 34163
+// Method Definition Index: 34269
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkAudioFormat_uInterleaveID_get_m95ED3D3C66192BBCF0CFDD249B4CACF1DE92877B (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -13533,7 +13533,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkAudioF
 
 	return returnValue;
 }
-// Method Definition Index: 34164
+// Method Definition Index: 34270
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkAudioFormat_GetNumChannels_m65875B5D901CCFD2787888E175B7CD507764B4FA (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -13555,7 +13555,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkAudioF
 
 	return returnValue;
 }
-// Method Definition Index: 34165
+// Method Definition Index: 34271
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkAudioFormat_GetBitsPerSample_m24A45439B472644C0C4263CFB5D334F04BE8598F (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -13577,7 +13577,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkAudioF
 
 	return returnValue;
 }
-// Method Definition Index: 34166
+// Method Definition Index: 34272
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkAudioFormat_GetBlockAlign_m68EDF3AC11EA6A58E7E176F65E90DC049C20D63D (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -13599,7 +13599,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkAudioF
 
 	return returnValue;
 }
-// Method Definition Index: 34167
+// Method Definition Index: 34273
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkAudioFormat_GetTypeID_mBC887889E4060BA551FB3D7315E0ED4D87E3B560 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -13621,7 +13621,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkAudioF
 
 	return returnValue;
 }
-// Method Definition Index: 34168
+// Method Definition Index: 34274
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkAudioFormat_GetInterleaveID_mA3F0190700CF79B9362DA67C32D1B4952123A274 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -13643,7 +13643,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkAudioF
 
 	return returnValue;
 }
-// Method Definition Index: 34169
+// Method Definition Index: 34275
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkAudioFormat_SetAll_mAE5E86E2B042A47D0A82814EC0DDB1A00B854D6F (intptr_t ___0_jarg1, uint32_t ___1_jarg2, intptr_t ___2_jarg3, uint32_t ___3_jarg4, uint32_t ___4_jarg5, uint32_t ___5_jarg6, uint32_t ___6_jarg7, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t, intptr_t, uint32_t, uint32_t, uint32_t, uint32_t);
@@ -13664,7 +13664,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkAudioForma
 	#endif
 
 }
-// Method Definition Index: 34170
+// Method Definition Index: 34276
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkAudioFormat_IsChannelConfigSupported_m963BC1449ABA02546A7192527BFD6CC6A800153B (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -13686,7 +13686,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkAudioForma
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 34171
+// Method Definition Index: 34277
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkAudioFormat_m18CFE106A8E89F0F5009C7E0F99A2D77E9123364 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -13708,7 +13708,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkAu
 
 	return returnValue;
 }
-// Method Definition Index: 34172
+// Method Definition Index: 34278
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkAudioFormat_mE0FCFA12BDC9B1EB955C970DD9526646B27375BD (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -13729,7 +13729,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkAud
 	#endif
 
 }
-// Method Definition Index: 34173
+// Method Definition Index: 34279
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkIterator_pItem_set_m3D254119C309B322B65233A4D6FB7893AE45D8DD (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -13750,7 +13750,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkIterator_p
 	#endif
 
 }
-// Method Definition Index: 34174
+// Method Definition Index: 34280
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkIterator_pItem_get_mFA64409E348C47106BD61ADBBA0D2F4E69F56904 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -13772,7 +13772,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkIterat
 
 	return returnValue;
 }
-// Method Definition Index: 34175
+// Method Definition Index: 34281
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkIterator_NextIter_mEA790D9197B0C541DE496BC61C8EEE4707124F6F (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -13794,7 +13794,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkIterat
 
 	return returnValue;
 }
-// Method Definition Index: 34176
+// Method Definition Index: 34282
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkIterator_PrevIter_m89394CEE55900F112B67EAC0C9DD96897E80615B (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -13816,7 +13816,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkIterat
 
 	return returnValue;
 }
-// Method Definition Index: 34177
+// Method Definition Index: 34283
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkIterator_GetItem_mC89F092105641ED4DF7D4EDE4EBC34EA1A641F2F (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -13838,7 +13838,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkIterat
 
 	return returnValue;
 }
-// Method Definition Index: 34178
+// Method Definition Index: 34284
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkIterator_IsEqualTo_mB7FDE07C197408CBC8B5B4F13D1F14BEC8FD892C (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -13860,7 +13860,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkIterator_I
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 34179
+// Method Definition Index: 34285
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkIterator_IsDifferentFrom_mC21DB06AE6F347CA0324B0E10DD799043AEB4EB6 (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -13882,7 +13882,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkIterator_I
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 34180
+// Method Definition Index: 34286
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkIterator_m40E617DB1EF03DF69D49B30732DCAACEBD8B06F8 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -13904,7 +13904,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkIt
 
 	return returnValue;
 }
-// Method Definition Index: 34181
+// Method Definition Index: 34287
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkIterator_mF81C4D1FE85D0D34F041980BEE86DDB3FEAD9204 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -13925,7 +13925,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkIte
 	#endif
 
 }
-// Method Definition Index: 34182
+// Method Definition Index: 34288
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkPlaylistItem__SWIG_0_m62EA41495107ED8FC01F6BC8BBE856A32566D1A9 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -13947,7 +13947,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkPl
 
 	return returnValue;
 }
-// Method Definition Index: 34183
+// Method Definition Index: 34289
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkPlaylistItem__SWIG_1_m949EEAB4030222C55350F120C046DE557AA37EC8 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -13969,7 +13969,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkPl
 
 	return returnValue;
 }
-// Method Definition Index: 34184
+// Method Definition Index: 34290
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkPlaylistItem_m8E9A3A31509B6A7C1C4FC57648FD875450549B3B (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -13990,7 +13990,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkPla
 	#endif
 
 }
-// Method Definition Index: 34185
+// Method Definition Index: 34291
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkPlaylistItem_Assign_mCABAEE4E0605C283D1CC9515C46C69E4D3DA31ED (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -14012,7 +14012,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkPlayli
 
 	return returnValue;
 }
-// Method Definition Index: 34186
+// Method Definition Index: 34292
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkPlaylistItem_IsEqualTo_m3261CF11AD0EE6D19E76E5A4F5F554C779A19C05 (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -14034,7 +14034,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkPlaylistIt
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 34187
+// Method Definition Index: 34293
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkPlaylistItem_SetExternalSources_m709CE3CCA00E839DABA032252F3C827D24E1FA33 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, intptr_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t, intptr_t);
@@ -14056,7 +14056,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkPlaylis
 
 	return returnValue;
 }
-// Method Definition Index: 34188
+// Method Definition Index: 34294
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPlaylistItem_audioNodeID_set_m600D241B48F711542E601730133C7510CA701DEB (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -14077,7 +14077,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPlaylistIt
 	#endif
 
 }
-// Method Definition Index: 34189
+// Method Definition Index: 34295
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkPlaylistItem_audioNodeID_get_m981D6ACFDF3F947A95F758E450D084BE6D96908B (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -14099,7 +14099,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkPlayli
 
 	return returnValue;
 }
-// Method Definition Index: 34190
+// Method Definition Index: 34296
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPlaylistItem_msDelay_set_m81D3D52E448DFB53ACB4CB0AF3D0794BCAD92AB6 (intptr_t ___0_jarg1, int32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
@@ -14120,7 +14120,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPlaylistIt
 	#endif
 
 }
-// Method Definition Index: 34191
+// Method Definition Index: 34297
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkPlaylistItem_msDelay_get_mBA7A724265AE9DFDD6D468558F6B653A7A7B7CF8 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -14142,7 +14142,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkPlaylis
 
 	return returnValue;
 }
-// Method Definition Index: 34192
+// Method Definition Index: 34298
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPlaylistItem_pCustomInfo_set_m0FF9192A8BCB5BB7194D0833746AD6F7598B64B1 (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -14163,7 +14163,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPlaylistIt
 	#endif
 
 }
-// Method Definition Index: 34193
+// Method Definition Index: 34299
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkPlaylistItem_pCustomInfo_get_mC5045A2E5BFCA3D3C399A9BA86AE8CB84B56ACB3 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -14185,7 +14185,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkPlayli
 
 	return returnValue;
 }
-// Method Definition Index: 34194
+// Method Definition Index: 34300
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkPlaylistArray_m40947E7DB634B226A26BE43232D1CB821BC253DA (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -14207,7 +14207,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkPl
 
 	return returnValue;
 }
-// Method Definition Index: 34195
+// Method Definition Index: 34301
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkPlaylistArray_mA854E400D697FCC6D9DC7E677C4DAB766306F7B9 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -14228,7 +14228,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkPla
 	#endif
 
 }
-// Method Definition Index: 34196
+// Method Definition Index: 34302
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkPlaylistArray_Begin_m8C2C30BA17F3529858F85B397EEB2C5E1DFE8318 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -14250,7 +14250,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkPlayli
 
 	return returnValue;
 }
-// Method Definition Index: 34197
+// Method Definition Index: 34303
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkPlaylistArray_End_m9C5340001D2847BB4680BB9380B3A4584B9655C9 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -14272,7 +14272,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkPlayli
 
 	return returnValue;
 }
-// Method Definition Index: 34198
+// Method Definition Index: 34304
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkPlaylistArray_FindEx_m3CAF6F2F39061ED05F67D51E153052C6D5DA4883 (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -14294,7 +14294,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkPlayli
 
 	return returnValue;
 }
-// Method Definition Index: 34199
+// Method Definition Index: 34305
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkPlaylistArray_Erase__SWIG_0_mCABBBD94D636AB30431E33959384CBF4E8420CD5 (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -14316,7 +14316,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkPlayli
 
 	return returnValue;
 }
-// Method Definition Index: 34200
+// Method Definition Index: 34306
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPlaylistArray_Erase__SWIG_1_mF7DD3F0A0E3D4DCEBE5669D540E3683C43E640E6 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -14337,7 +14337,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPlaylistAr
 	#endif
 
 }
-// Method Definition Index: 34201
+// Method Definition Index: 34307
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkPlaylistArray_EraseSwap_m4E04394FC810BB6AABEF836D96EF2B4EBC12D4CD (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -14359,7 +14359,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkPlayli
 
 	return returnValue;
 }
-// Method Definition Index: 34202
+// Method Definition Index: 34308
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkPlaylistArray_IsGrowingAllowed_m5E4CE5133CE6E6136FCFD316CF68CE75BC6ABE7D (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -14381,7 +14381,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkPlaylistAr
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 34203
+// Method Definition Index: 34309
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkPlaylistArray_Reserve_mE64E8BE628495BD39F3949FFFACC15F5FD82D2DD (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -14403,7 +14403,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkPlaylis
 
 	return returnValue;
 }
-// Method Definition Index: 34204
+// Method Definition Index: 34310
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkPlaylistArray_Reserved_mD45737F42352792E066B5A83B61CF36A3EFB4D4B (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -14425,7 +14425,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkPlayli
 
 	return returnValue;
 }
-// Method Definition Index: 34205
+// Method Definition Index: 34311
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPlaylistArray_Term_mEFB6E1A92682BED49250D01CE4496EEBAC138D8B (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -14446,7 +14446,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPlaylistAr
 	#endif
 
 }
-// Method Definition Index: 34206
+// Method Definition Index: 34312
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkPlaylistArray_Length_m8D4EA7116A016BC6C02FB4FBA54C8164CBBED722 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -14468,7 +14468,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkPlayli
 
 	return returnValue;
 }
-// Method Definition Index: 34207
+// Method Definition Index: 34313
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkPlaylistArray_Data_m8AAC2DE17ECB4DFAEE36D0547D4C65CD06E23BD3 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -14490,7 +14490,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkPlayli
 
 	return returnValue;
 }
-// Method Definition Index: 34208
+// Method Definition Index: 34314
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkPlaylistArray_IsEmpty_m24B58BC59476C7B84545DD7D97BB0EBFAEADADCC (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -14512,7 +14512,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkPlaylistAr
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 34209
+// Method Definition Index: 34315
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkPlaylistArray_Exists_m6E9941705929962A3BD402EBCEE8343BA7CBF8C9 (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -14534,7 +14534,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkPlayli
 
 	return returnValue;
 }
-// Method Definition Index: 34210
+// Method Definition Index: 34316
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkPlaylistArray_AddLast__SWIG_0_m54B185C1A7150909262747772DB3CD980560A518 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -14556,7 +14556,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkPlayli
 
 	return returnValue;
 }
-// Method Definition Index: 34211
+// Method Definition Index: 34317
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkPlaylistArray_AddLast__SWIG_1_mE2853ADCA19999363D3877A5FEAB9BB36B75786D (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -14578,7 +14578,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkPlayli
 
 	return returnValue;
 }
-// Method Definition Index: 34212
+// Method Definition Index: 34318
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkPlaylistArray_Last_m69E3DCE797B4A244D0A57B461DAADB1C95597EF5 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -14600,7 +14600,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkPlayli
 
 	return returnValue;
 }
-// Method Definition Index: 34213
+// Method Definition Index: 34319
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPlaylistArray_RemoveLast_m16E74B758B87ED8AFDD7EADFBD2529C6DDFF1CC2 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -14621,7 +14621,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPlaylistAr
 	#endif
 
 }
-// Method Definition Index: 34214
+// Method Definition Index: 34320
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkPlaylistArray_Remove_mE3ED364ED83A92AC409F2892285EB8DD9A2F7AE1 (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -14643,7 +14643,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkPlaylis
 
 	return returnValue;
 }
-// Method Definition Index: 34215
+// Method Definition Index: 34321
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkPlaylistArray_RemoveSwap_m5163FA217C64C14BC4E1C51ED198649485A2D0E8 (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -14665,7 +14665,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkPlaylis
 
 	return returnValue;
 }
-// Method Definition Index: 34216
+// Method Definition Index: 34322
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPlaylistArray_RemoveAll_m60B9214C658582652154F86AE8087C57947C7A3A (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -14686,7 +14686,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPlaylistAr
 	#endif
 
 }
-// Method Definition Index: 34217
+// Method Definition Index: 34323
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkPlaylistArray_ItemAtIndex_m7BA12A02752D2F150A63C04D1F5D28121F2792A0 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -14708,7 +14708,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkPlayli
 
 	return returnValue;
 }
-// Method Definition Index: 34218
+// Method Definition Index: 34324
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkPlaylistArray_Insert_m1C921FF005F202C2419E8FD7D75DBF9C39D9585A (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -14730,7 +14730,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkPlayli
 
 	return returnValue;
 }
-// Method Definition Index: 34219
+// Method Definition Index: 34325
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkPlaylistArray_GrowArray__SWIG_0_m91E01F498C570BDD4C7C9B6541BA4D1CB16CE8DD (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -14752,7 +14752,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkPlaylistAr
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 34220
+// Method Definition Index: 34326
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkPlaylistArray_GrowArray__SWIG_1_m52B92161A10DB691EF2AE301A611761BAFB0D0DC (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -14774,7 +14774,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkPlaylistAr
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 34221
+// Method Definition Index: 34327
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkPlaylistArray_Resize_m5FA1C2BE05160E6C46B9AC3F6446B798DE1E1784 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -14796,7 +14796,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkPlaylistAr
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 34222
+// Method Definition Index: 34328
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPlaylistArray_Transfer_m309A9158CB5B9C19A3311099D455ECEB7CA72AB6 (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -14817,7 +14817,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPlaylistAr
 	#endif
 
 }
-// Method Definition Index: 34223
+// Method Definition Index: 34329
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkPlaylistArray_Copy_mE3AB781D8EFE6EC5C254173F3457ACE8BE07A0F9 (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -14839,7 +14839,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkPlaylis
 
 	return returnValue;
 }
-// Method Definition Index: 34224
+// Method Definition Index: 34330
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkPlaylist_Enqueue__SWIG_0_m711CBD01252266153FC49181D7CAB93A6F090146 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, int32_t ___2_jarg3, intptr_t ___3_jarg4, uint32_t ___4_jarg5, intptr_t ___5_jarg6, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t, int32_t, intptr_t, uint32_t, intptr_t);
@@ -14861,7 +14861,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkPlaylis
 
 	return returnValue;
 }
-// Method Definition Index: 34225
+// Method Definition Index: 34331
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkPlaylist_Enqueue__SWIG_1_m3EBAF62360758D804054526412F253F7691E98C9 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, int32_t ___2_jarg3, intptr_t ___3_jarg4, uint32_t ___4_jarg5, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t, int32_t, intptr_t, uint32_t);
@@ -14883,7 +14883,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkPlaylis
 
 	return returnValue;
 }
-// Method Definition Index: 34226
+// Method Definition Index: 34332
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkPlaylist_Enqueue__SWIG_2_mD976F0148E371F9CDD2B0321823F2EF4432ED8EF (intptr_t ___0_jarg1, uint32_t ___1_jarg2, int32_t ___2_jarg3, intptr_t ___3_jarg4, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t, int32_t, intptr_t);
@@ -14905,7 +14905,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkPlaylis
 
 	return returnValue;
 }
-// Method Definition Index: 34227
+// Method Definition Index: 34333
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkPlaylist_Enqueue__SWIG_3_m965FEF3FA1249313F748149F235F6EE722D9498B (intptr_t ___0_jarg1, uint32_t ___1_jarg2, int32_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t, int32_t);
@@ -14927,7 +14927,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkPlaylis
 
 	return returnValue;
 }
-// Method Definition Index: 34228
+// Method Definition Index: 34334
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkPlaylist_Enqueue__SWIG_4_mA020AD7676C97DBEC6157C2473CE6FEBC56EEBD8 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -14949,7 +14949,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkPlaylis
 
 	return returnValue;
 }
-// Method Definition Index: 34229
+// Method Definition Index: 34335
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkPlaylist_mF96DA7C72F5981725BE57E08A3D2A926E6F38DE9 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -14971,7 +14971,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkPl
 
 	return returnValue;
 }
-// Method Definition Index: 34230
+// Method Definition Index: 34336
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkPlaylist_m37FA81D19338FE4475A3B9AAF68D0A50A490DF5B (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -14992,7 +14992,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkPla
 	#endif
 
 }
-// Method Definition Index: 34231
+// Method Definition Index: 34337
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_DynamicSequenceOpen__SWIG_0_m69024B7A2E3401233A1F77A0B6671A6DC357D13E (uint64_t ___0_jarg1, uint32_t ___1_jarg2, intptr_t ___2_jarg3, intptr_t ___3_jarg4, int32_t ___4_jarg5, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, uint32_t, intptr_t, intptr_t, int32_t);
@@ -15014,7 +15014,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_DynamicS
 
 	return returnValue;
 }
-// Method Definition Index: 34232
+// Method Definition Index: 34338
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_DynamicSequenceOpen__SWIG_1_m269DD1C579FE522BDB4E9CDB33E14DF0344A46FC (uint64_t ___0_jarg1, uint32_t ___1_jarg2, intptr_t ___2_jarg3, intptr_t ___3_jarg4, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, uint32_t, intptr_t, intptr_t);
@@ -15036,7 +15036,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_DynamicS
 
 	return returnValue;
 }
-// Method Definition Index: 34233
+// Method Definition Index: 34339
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_DynamicSequenceOpen__SWIG_2_mA1CD087167B32993224EA98B2A07D7AF7A5E7C89 (uint64_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t);
@@ -15058,7 +15058,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_DynamicS
 
 	return returnValue;
 }
-// Method Definition Index: 34234
+// Method Definition Index: 34340
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_DynamicSequenceClose_mC3AF77BFBEA4881C00E92B1F0724A053FB32EF31 (uint32_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t);
@@ -15080,7 +15080,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_DynamicSe
 
 	return returnValue;
 }
-// Method Definition Index: 34235
+// Method Definition Index: 34341
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_DynamicSequencePlay__SWIG_0_m528476E35A8032F782F94C2FBB8073DD9CBFC483 (uint32_t ___0_jarg1, int32_t ___1_jarg2, int32_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, int32_t, int32_t);
@@ -15102,7 +15102,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_DynamicSe
 
 	return returnValue;
 }
-// Method Definition Index: 34236
+// Method Definition Index: 34342
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_DynamicSequencePlay__SWIG_1_m3C4DAB8A83D4F711015526A7A8395FF979957419 (uint32_t ___0_jarg1, int32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, int32_t);
@@ -15124,7 +15124,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_DynamicSe
 
 	return returnValue;
 }
-// Method Definition Index: 34237
+// Method Definition Index: 34343
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_DynamicSequencePlay__SWIG_2_m077D5A82F6F325E8E190330D4101916EA614BEF6 (uint32_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t);
@@ -15146,7 +15146,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_DynamicSe
 
 	return returnValue;
 }
-// Method Definition Index: 34238
+// Method Definition Index: 34344
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_DynamicSequencePause__SWIG_0_mFF9C321D7A13EA23C3D86C33D1EE3C2555B74612 (uint32_t ___0_jarg1, int32_t ___1_jarg2, int32_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, int32_t, int32_t);
@@ -15168,7 +15168,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_DynamicSe
 
 	return returnValue;
 }
-// Method Definition Index: 34239
+// Method Definition Index: 34345
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_DynamicSequencePause__SWIG_1_mAF4C06E694A342F0BF439CD6B3E41A6DF39AE623 (uint32_t ___0_jarg1, int32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, int32_t);
@@ -15190,7 +15190,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_DynamicSe
 
 	return returnValue;
 }
-// Method Definition Index: 34240
+// Method Definition Index: 34346
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_DynamicSequencePause__SWIG_2_mD80DB30518F8A926BF1DEE1EA7A31B28E7E8613C (uint32_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t);
@@ -15212,7 +15212,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_DynamicSe
 
 	return returnValue;
 }
-// Method Definition Index: 34241
+// Method Definition Index: 34347
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_DynamicSequenceResume__SWIG_0_m75E7745ECDF767E7EE0865A0D49F1F5AF49F062B (uint32_t ___0_jarg1, int32_t ___1_jarg2, int32_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, int32_t, int32_t);
@@ -15234,7 +15234,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_DynamicSe
 
 	return returnValue;
 }
-// Method Definition Index: 34242
+// Method Definition Index: 34348
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_DynamicSequenceResume__SWIG_1_m52EBCDED13D0274202DD62F03D0A69380890465F (uint32_t ___0_jarg1, int32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, int32_t);
@@ -15256,7 +15256,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_DynamicSe
 
 	return returnValue;
 }
-// Method Definition Index: 34243
+// Method Definition Index: 34349
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_DynamicSequenceResume__SWIG_2_mDE7449A158B3D275C67A235FE71B11E655578C55 (uint32_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t);
@@ -15278,7 +15278,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_DynamicSe
 
 	return returnValue;
 }
-// Method Definition Index: 34244
+// Method Definition Index: 34350
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_DynamicSequenceStop__SWIG_0_mCC153E3E09C85E1268807298C9470CB231B4C966 (uint32_t ___0_jarg1, int32_t ___1_jarg2, int32_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, int32_t, int32_t);
@@ -15300,7 +15300,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_DynamicSe
 
 	return returnValue;
 }
-// Method Definition Index: 34245
+// Method Definition Index: 34351
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_DynamicSequenceStop__SWIG_1_m22DA8583C7BEA8DC9EC0A8DC7DD35902D74ADA6D (uint32_t ___0_jarg1, int32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, int32_t);
@@ -15322,7 +15322,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_DynamicSe
 
 	return returnValue;
 }
-// Method Definition Index: 34246
+// Method Definition Index: 34352
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_DynamicSequenceStop__SWIG_2_mF2578A6421A08C2B9F0BA9FAD09578879631AED3 (uint32_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t);
@@ -15344,7 +15344,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_DynamicSe
 
 	return returnValue;
 }
-// Method Definition Index: 34247
+// Method Definition Index: 34353
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_DynamicSequenceBreak_m76664A3644BB3A1C6C7D4BBFA8288A952363E9A9 (uint32_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t);
@@ -15366,7 +15366,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_DynamicSe
 
 	return returnValue;
 }
-// Method Definition Index: 34248
+// Method Definition Index: 34354
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_Seek__SWIG_0_mF645CAEA9CC4A5D41DD317C35CAC1674759E8AC3 (uint32_t ___0_jarg1, int32_t ___1_jarg2, bool ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, int32_t, int32_t);
@@ -15388,7 +15388,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_Seek__SWI
 
 	return returnValue;
 }
-// Method Definition Index: 34249
+// Method Definition Index: 34355
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_Seek__SWIG_1_m3EEAC8B463CEB37E79F7503256DD5286D8CFFA4A (uint32_t ___0_jarg1, float ___1_jarg2, bool ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, float, int32_t);
@@ -15410,7 +15410,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_Seek__SWI
 
 	return returnValue;
 }
-// Method Definition Index: 34250
+// Method Definition Index: 34356
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_DynamicSequenceGetPauseTimes_mE91319DBD1E2C546D99956F80ECDD208F540A19F (uint32_t ___0_jarg1, uint32_t* ___1_jarg2, uint32_t* ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint32_t*, uint32_t*);
@@ -15432,7 +15432,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_DynamicSe
 
 	return returnValue;
 }
-// Method Definition Index: 34251
+// Method Definition Index: 34357
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_DynamicSequenceLockPlaylist_m319E050BF5C7492A06DB276C020DDA1272A8A060 (uint32_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (uint32_t);
@@ -15454,7 +15454,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_DynamicS
 
 	return returnValue;
 }
-// Method Definition Index: 34252
+// Method Definition Index: 34358
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_DynamicSequenceUnlockPlaylist_m70AE59EC339D619F8B299833AF9BF00651EE58B2 (uint32_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t);
@@ -15476,7 +15476,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_DynamicSe
 
 	return returnValue;
 }
-// Method Definition Index: 34253
+// Method Definition Index: 34359
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkOutputSettings__SWIG_0_m29046227E64899877041C7F35307279725E912DC (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -15498,7 +15498,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkOu
 
 	return returnValue;
 }
-// Method Definition Index: 34254
+// Method Definition Index: 34360
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkOutputSettings__SWIG_1_m76EB30704DCADD92822D873BD8B9A219DB7C14EA (String_t* ___0_jarg1, uint32_t ___1_jarg2, intptr_t ___2_jarg3, int32_t ___3_jarg4, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (char*, uint32_t, intptr_t, int32_t);
@@ -15526,7 +15526,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkOu
 
 	return returnValue;
 }
-// Method Definition Index: 34255
+// Method Definition Index: 34361
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkOutputSettings__SWIG_2_m8AD824C71A3B4745538014EE01C8B68E79D7CC1C (String_t* ___0_jarg1, uint32_t ___1_jarg2, intptr_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (char*, uint32_t, intptr_t);
@@ -15554,7 +15554,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkOu
 
 	return returnValue;
 }
-// Method Definition Index: 34256
+// Method Definition Index: 34362
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkOutputSettings__SWIG_3_mA7CBF3832A14EFA86B30742334A4DE4CE2A21DA8 (String_t* ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (char*, uint32_t);
@@ -15582,7 +15582,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkOu
 
 	return returnValue;
 }
-// Method Definition Index: 34257
+// Method Definition Index: 34363
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkOutputSettings__SWIG_4_m51358C9043B7CDC2B1480D4845B5239738D80C70 (String_t* ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (char*);
@@ -15610,7 +15610,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkOu
 
 	return returnValue;
 }
-// Method Definition Index: 34258
+// Method Definition Index: 34364
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkOutputSettings_audioDeviceShareset_set_mDA3DD7C975E7AB7EBFB233406046D3D2FEB7B6CC (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -15631,7 +15631,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkOutputSett
 	#endif
 
 }
-// Method Definition Index: 34259
+// Method Definition Index: 34365
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkOutputSettings_audioDeviceShareset_get_m50B712197F33E914CCAB78068B173B5056575A85 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -15653,7 +15653,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkOutput
 
 	return returnValue;
 }
-// Method Definition Index: 34260
+// Method Definition Index: 34366
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkOutputSettings_idDevice_set_mB8F78CB4AC661D45BDD7ED930B069AB916252743 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -15674,7 +15674,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkOutputSett
 	#endif
 
 }
-// Method Definition Index: 34261
+// Method Definition Index: 34367
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkOutputSettings_idDevice_get_m9CE4906410E42919043EA6590788DD0375F9DE04 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -15696,7 +15696,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkOutput
 
 	return returnValue;
 }
-// Method Definition Index: 34262
+// Method Definition Index: 34368
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkOutputSettings_ePanningRule_set_mB6C9A2D42D3A6B145F61A145B516B55920E7DBEC (intptr_t ___0_jarg1, int32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
@@ -15717,7 +15717,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkOutputSett
 	#endif
 
 }
-// Method Definition Index: 34263
+// Method Definition Index: 34369
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkOutputSettings_ePanningRule_get_mE28BE41CF1528D978A81210AA8D26F38DBA99D21 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -15739,7 +15739,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkOutputS
 
 	return returnValue;
 }
-// Method Definition Index: 34264
+// Method Definition Index: 34370
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkOutputSettings_channelConfig_set_mBF590ECC9190F996F0C36C623B52A8E5C6DA2765 (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -15760,7 +15760,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkOutputSett
 	#endif
 
 }
-// Method Definition Index: 34265
+// Method Definition Index: 34371
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkOutputSettings_channelConfig_get_m35EC4D18FB30A7A1F14A23DDED185E6176E4BEEA (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -15782,7 +15782,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkOutput
 
 	return returnValue;
 }
-// Method Definition Index: 34266
+// Method Definition Index: 34372
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkOutputSettings_mD8C1DA85DE9D6E29BB12FB685D0EAC31D935CAD0 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -15803,7 +15803,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkOut
 	#endif
 
 }
-// Method Definition Index: 34267
+// Method Definition Index: 34373
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkTaskContext_uIdxThread_set_mA315F17A8EF814B8562962D5623A636FF4AF396C (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -15824,7 +15824,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkTaskContex
 	#endif
 
 }
-// Method Definition Index: 34268
+// Method Definition Index: 34374
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkTaskContext_uIdxThread_get_mB11C69A71B115C06EAB19BC65F658C9DB8CF0055 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -15846,7 +15846,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkTaskCo
 
 	return returnValue;
 }
-// Method Definition Index: 34269
+// Method Definition Index: 34375
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkTaskContext_mE9863C716190285F8776F1E4872CA75C38880B20 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -15868,7 +15868,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkTa
 
 	return returnValue;
 }
-// Method Definition Index: 34270
+// Method Definition Index: 34376
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkTaskContext_mBB1A3E48E798955C2E0A1F350237FF86C06859AA (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -15889,7 +15889,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkTas
 	#endif
 
 }
-// Method Definition Index: 34271
+// Method Definition Index: 34377
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkInitSettings_uMaxNumPaths_set_m19CDFC532D843448A9C5285B2AFAACCC586AA6FB (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -15910,7 +15910,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkInitSettin
 	#endif
 
 }
-// Method Definition Index: 34272
+// Method Definition Index: 34378
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkInitSettings_uMaxNumPaths_get_m419711F6B4ABBB48F40E6949DEE84AA350D1483E (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -15932,7 +15932,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkInitSe
 
 	return returnValue;
 }
-// Method Definition Index: 34273
+// Method Definition Index: 34379
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkInitSettings_uCommandQueueSize_set_m131BB26269ECF534761425E00877F5C83CBAAE5A (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -15953,7 +15953,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkInitSettin
 	#endif
 
 }
-// Method Definition Index: 34274
+// Method Definition Index: 34380
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkInitSettings_uCommandQueueSize_get_m894B846CB40DF68238B4A3C0B2E17586FC37E15E (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -15975,7 +15975,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkInitSe
 
 	return returnValue;
 }
-// Method Definition Index: 34275
+// Method Definition Index: 34381
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkInitSettings_bEnableGameSyncPreparation_set_m9399007EA473020BCFEA04D45F3ACF28A2ED6701 (intptr_t ___0_jarg1, bool ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
@@ -15996,7 +15996,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkInitSettin
 	#endif
 
 }
-// Method Definition Index: 34276
+// Method Definition Index: 34382
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkInitSettings_bEnableGameSyncPreparation_get_mF9BB92CF085B3A5ADCF9C365048AF392E9CA3EB3 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -16018,7 +16018,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkInitSettin
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 34277
+// Method Definition Index: 34383
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkInitSettings_uContinuousPlaybackLookAhead_set_m0A33A44C4D30E847D1098EA9CF81C63C64FE56B4 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -16039,7 +16039,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkInitSettin
 	#endif
 
 }
-// Method Definition Index: 34278
+// Method Definition Index: 34384
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkInitSettings_uContinuousPlaybackLookAhead_get_m3C2497207529784479647865F20B7A47ECADE6A7 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -16061,7 +16061,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkInitSe
 
 	return returnValue;
 }
-// Method Definition Index: 34279
+// Method Definition Index: 34385
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkInitSettings_uNumSamplesPerFrame_set_mBE9E2DBB25FE2F7F5C07990D6FF4F8662BFA64B3 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -16082,7 +16082,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkInitSettin
 	#endif
 
 }
-// Method Definition Index: 34280
+// Method Definition Index: 34386
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkInitSettings_uNumSamplesPerFrame_get_mEB7D7716B45F411AC8775D0166DAEDDBAD4B9A60 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -16104,7 +16104,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkInitSe
 
 	return returnValue;
 }
-// Method Definition Index: 34281
+// Method Definition Index: 34387
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkInitSettings_uMonitorQueuePoolSize_set_m071A547EA6D62C23E601D1F1D1B80C3E3C869477 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -16125,7 +16125,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkInitSettin
 	#endif
 
 }
-// Method Definition Index: 34282
+// Method Definition Index: 34388
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkInitSettings_uMonitorQueuePoolSize_get_mEDE68088643DE8BF66242ADF87A24EDDBDFA00BC (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -16147,7 +16147,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkInitSe
 
 	return returnValue;
 }
-// Method Definition Index: 34283
+// Method Definition Index: 34389
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkInitSettings_settingsMainOutput_set_mEEB02F938A3F348DF1E92CCF1DA48F8E5214999E (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -16168,7 +16168,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkInitSettin
 	#endif
 
 }
-// Method Definition Index: 34284
+// Method Definition Index: 34390
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkInitSettings_settingsMainOutput_get_mC15FE7C0607BF212478B2B3203059AF3C19DCB78 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -16190,7 +16190,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkInitSe
 
 	return returnValue;
 }
-// Method Definition Index: 34285
+// Method Definition Index: 34391
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkInitSettings_uMaxHardwareTimeoutMs_set_mAA7E3D538FFC56B098CD1DF808131A170A1A9AC9 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -16211,7 +16211,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkInitSettin
 	#endif
 
 }
-// Method Definition Index: 34286
+// Method Definition Index: 34392
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkInitSettings_uMaxHardwareTimeoutMs_get_mEE135701A7B14164BA695C1E3131277F578F6794 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -16233,7 +16233,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkInitSe
 
 	return returnValue;
 }
-// Method Definition Index: 34287
+// Method Definition Index: 34393
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkInitSettings_bUseSoundBankMgrThread_set_m2BF8B3504B645C320BFE8970B9116E12DFDD9D3E (intptr_t ___0_jarg1, bool ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
@@ -16254,7 +16254,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkInitSettin
 	#endif
 
 }
-// Method Definition Index: 34288
+// Method Definition Index: 34394
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkInitSettings_bUseSoundBankMgrThread_get_m7A9CFB3BB49A334557FBDD749C27FDCA84F4C95B (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -16276,7 +16276,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkInitSettin
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 34289
+// Method Definition Index: 34395
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkInitSettings_bUseLEngineThread_set_m2A0F261260318EEEB2ABCE0A0DB558793569C405 (intptr_t ___0_jarg1, bool ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
@@ -16297,7 +16297,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkInitSettin
 	#endif
 
 }
-// Method Definition Index: 34290
+// Method Definition Index: 34396
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkInitSettings_bUseLEngineThread_get_m81042C48C662A41AF7C65B8DF6EF0EC5FF98A694 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -16319,7 +16319,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkInitSettin
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 34291
+// Method Definition Index: 34397
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkInitSettings_szPluginDLLPath_set_m87201DC31C176EE7B67638259EF6B42CAD6B1166 (intptr_t ___0_jarg1, String_t* ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, char*);
@@ -16346,7 +16346,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkInitSettin
 	____1_jarg2_marshaled = NULL;
 
 }
-// Method Definition Index: 34292
+// Method Definition Index: 34398
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkInitSettings_szPluginDLLPath_get_mE03E2510FCC9C732AC38179D96698F6EFD5226EB (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -16368,7 +16368,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkInitSe
 
 	return returnValue;
 }
-// Method Definition Index: 34293
+// Method Definition Index: 34399
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkInitSettings_eFloorPlane_set_m64749864E3803D989F2A05039705F55C2F0A1F8F (intptr_t ___0_jarg1, int32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
@@ -16389,7 +16389,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkInitSettin
 	#endif
 
 }
-// Method Definition Index: 34294
+// Method Definition Index: 34400
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkInitSettings_eFloorPlane_get_m03FF9DF8D2B3B88650A8927C9B790A87676482E1 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -16411,7 +16411,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkInitSet
 
 	return returnValue;
 }
-// Method Definition Index: 34295
+// Method Definition Index: 34401
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkInitSettings_uBankReadBufferSize_set_mB9C741B50C07169827BA1FD6D242A031B7E3CFAF (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -16432,7 +16432,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkInitSettin
 	#endif
 
 }
-// Method Definition Index: 34296
+// Method Definition Index: 34402
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkInitSettings_uBankReadBufferSize_get_mC543CAC02282C2AF7D3A96A7DB91EF42473C0539 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -16454,7 +16454,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkInitSe
 
 	return returnValue;
 }
-// Method Definition Index: 34297
+// Method Definition Index: 34403
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkInitSettings_fDebugOutOfRangeLimit_set_mCDEABADE28CE872717DF2F2630E706D68832D790 (intptr_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float);
@@ -16475,7 +16475,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkInitSettin
 	#endif
 
 }
-// Method Definition Index: 34298
+// Method Definition Index: 34404
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkInitSettings_fDebugOutOfRangeLimit_get_m252D746C814CEA2F2AE3785F2F0756D7BE7A712B (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -16497,7 +16497,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkInitSetti
 
 	return returnValue;
 }
-// Method Definition Index: 34299
+// Method Definition Index: 34405
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkInitSettings_bDebugOutOfRangeCheckEnabled_set_m9F6BD40FE9FA462A6AE2F9933DEE173C593D2DF4 (intptr_t ___0_jarg1, bool ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
@@ -16518,7 +16518,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkInitSettin
 	#endif
 
 }
-// Method Definition Index: 34300
+// Method Definition Index: 34406
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkInitSettings_bDebugOutOfRangeCheckEnabled_get_m6D8BF6979842D14A02BB0E10ADCA0639BA1458D3 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -16540,7 +16540,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkInitSettin
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 34301
+// Method Definition Index: 34407
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkInitSettings_m94CE74A5BCE6B6BF179826708CAC7B9B2E5D1BCA (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -16561,7 +16561,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkIni
 	#endif
 
 }
-// Method Definition Index: 34302
+// Method Definition Index: 34408
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSourceSettings_sourceID_set_m840537E772C88ED035A522273F2603F511E79FEB (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -16582,7 +16582,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSourceSett
 	#endif
 
 }
-// Method Definition Index: 34303
+// Method Definition Index: 34409
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkSourceSettings_sourceID_get_m4D106A15E7663E3F876B6930E19F71476FAA0FD8 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -16604,7 +16604,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkSource
 
 	return returnValue;
 }
-// Method Definition Index: 34304
+// Method Definition Index: 34410
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSourceSettings_pMediaMemory_set_m0D506FB37A438695D9E1B530FA62953810CB0B40 (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -16625,7 +16625,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSourceSett
 	#endif
 
 }
-// Method Definition Index: 34305
+// Method Definition Index: 34411
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkSourceSettings_pMediaMemory_get_m4CF4E5FA4357D62FCAFD16CA9D9D189A3AFF2FBC (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -16647,7 +16647,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkSource
 
 	return returnValue;
 }
-// Method Definition Index: 34306
+// Method Definition Index: 34412
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSourceSettings_uMediaSize_set_m3849ECED557043862F75196F071D6E194E536604 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -16668,7 +16668,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSourceSett
 	#endif
 
 }
-// Method Definition Index: 34307
+// Method Definition Index: 34413
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkSourceSettings_uMediaSize_get_m579711CDB84A37E443886F2A81F7DD7D604C810A (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -16690,7 +16690,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkSource
 
 	return returnValue;
 }
-// Method Definition Index: 34308
+// Method Definition Index: 34414
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSourceSettings_Clear_m73F7CFC495F2D365D6502AB6EA16C958F60C38D1 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -16711,7 +16711,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSourceSett
 	#endif
 
 }
-// Method Definition Index: 34309
+// Method Definition Index: 34415
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkSourceSettings_GetSizeOf_m4941155814A89694E928127854F07DCFB6BF0B76 (const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -16733,7 +16733,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkSourceS
 
 	return returnValue;
 }
-// Method Definition Index: 34310
+// Method Definition Index: 34416
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSourceSettings_Clone_m0C8C430F283689D309C2E7D64434F01CE1030F00 (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -16754,7 +16754,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSourceSett
 	#endif
 
 }
-// Method Definition Index: 34311
+// Method Definition Index: 34417
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkSourceSettings_m58EA312E803EAC23917BA5C10150D8F400232FEA (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -16776,7 +16776,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkSo
 
 	return returnValue;
 }
-// Method Definition Index: 34312
+// Method Definition Index: 34418
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkSourceSettings_m2D03DA2BBB0C52350CD17130CFCA83E811AF7898 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -16797,7 +16797,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkSou
 	#endif
 
 }
-// Method Definition Index: 34313
+// Method Definition Index: 34419
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_IsInitialized_m8E9D793DB458A16A00382100B66C8E5F4D4A0D68 (const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -16819,7 +16819,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_IsInitialize
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 34314
+// Method Definition Index: 34420
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetAudioSettings_m41F8897E61C7AE3851819F107A1E11C16E8DCA8B (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -16841,7 +16841,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetAudioS
 
 	return returnValue;
 }
-// Method Definition Index: 34315
+// Method Definition Index: 34421
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_GetSpeakerConfiguration__SWIG_0_m2366947FCFDEF628FBCA77DE81A0DDCA03B35921 (uint64_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (uint64_t);
@@ -16863,7 +16863,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_GetSpeak
 
 	return returnValue;
 }
-// Method Definition Index: 34316
+// Method Definition Index: 34422
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_GetSpeakerConfiguration__SWIG_1_m68873EAE84E844B93434B760E72D189332335D82 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -16885,7 +16885,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_GetSpeak
 
 	return returnValue;
 }
-// Method Definition Index: 34317
+// Method Definition Index: 34423
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetPanningRule__SWIG_0_m2C9D8AEE77B8B778B90D0680FE1A6C1E126DFBA1 (int32_t* ___0_jarg1, uint64_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t*, uint64_t);
@@ -16907,7 +16907,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetPannin
 
 	return returnValue;
 }
-// Method Definition Index: 34318
+// Method Definition Index: 34424
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetPanningRule__SWIG_1_mCEB4865C15326A5C875C523FF713AFA54A356902 (int32_t* ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t*);
@@ -16929,7 +16929,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetPannin
 
 	return returnValue;
 }
-// Method Definition Index: 34319
+// Method Definition Index: 34425
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetPanningRule__SWIG_0_m76C244FA555F44BF8774077E2FD97D28671C797D (int32_t ___0_jarg1, uint64_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, uint64_t);
@@ -16951,7 +16951,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetPannin
 
 	return returnValue;
 }
-// Method Definition Index: 34320
+// Method Definition Index: 34426
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetPanningRule__SWIG_1_mF089AF62DC44B5079F9E26108DB785F28C844356 (int32_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
@@ -16973,7 +16973,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetPannin
 
 	return returnValue;
 }
-// Method Definition Index: 34321
+// Method Definition Index: 34427
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetSpeakerAngles__SWIG_0_m4A42A8324591841261C2DCC5298BD68C323110C7 (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___0_jarg1, uint32_t* ___1_jarg2, float* ___2_jarg3, uint64_t ___3_jarg4, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (float*, uint32_t*, float*, uint64_t);
@@ -17001,7 +17001,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetSpeake
 
 	return returnValue;
 }
-// Method Definition Index: 34322
+// Method Definition Index: 34428
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetSpeakerAngles__SWIG_1_mD4515A624009436FA9B4F9BCB3396C48C77FDF2E (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___0_jarg1, uint32_t* ___1_jarg2, float* ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (float*, uint32_t*, float*);
@@ -17029,7 +17029,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetSpeake
 
 	return returnValue;
 }
-// Method Definition Index: 34323
+// Method Definition Index: 34429
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetSpeakerAngles__SWIG_0_mD25DB4DED864F52DE95D860BD24B4EA1A1C46644 (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___0_jarg1, uint32_t ___1_jarg2, float ___2_jarg3, uint64_t ___3_jarg4, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (float*, uint32_t, float, uint64_t);
@@ -17057,7 +17057,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetSpeake
 
 	return returnValue;
 }
-// Method Definition Index: 34324
+// Method Definition Index: 34430
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetSpeakerAngles__SWIG_1_m41F96B86418853F2A09F82C3AD5A249BD084FDCF (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___0_jarg1, uint32_t ___1_jarg2, float ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (float*, uint32_t, float);
@@ -17085,7 +17085,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetSpeake
 
 	return returnValue;
 }
-// Method Definition Index: 34325
+// Method Definition Index: 34431
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetVolumeThreshold_mBE3AE494F32CA92427631BC35A921F24E6693F97 (float ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (float);
@@ -17107,7 +17107,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetVolume
 
 	return returnValue;
 }
-// Method Definition Index: 34326
+// Method Definition Index: 34432
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetMaxNumVoicesLimit_m0240D391FCAAB90DF0249F15863BD1305DD43FAB (uint16_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint16_t);
@@ -17129,7 +17129,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetMaxNum
 
 	return returnValue;
 }
-// Method Definition Index: 34327
+// Method Definition Index: 34433
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_RenderAudio__SWIG_0_m028CDCA0F67D41F9170A618C45FDFA9A7FF2B422 (bool ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
@@ -17151,7 +17151,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_RenderAud
 
 	return returnValue;
 }
-// Method Definition Index: 34328
+// Method Definition Index: 34434
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_RenderAudio__SWIG_1_m0CF7659764F86D387D12A94777DA27581E2D648E (const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -17173,7 +17173,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_RenderAud
 
 	return returnValue;
 }
-// Method Definition Index: 34329
+// Method Definition Index: 34435
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_RegisterPluginDLL__SWIG_0_m5167329CC1D1AFE8703C5E92ECCB8111CCA0DBF1 (String_t* ___0_jarg1, String_t* ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, char*);
@@ -17207,7 +17207,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_RegisterP
 
 	return returnValue;
 }
-// Method Definition Index: 34330
+// Method Definition Index: 34436
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_RegisterPluginDLL__SWIG_1_m7999E41878BBDCA744CB7934E2DEED346F28353E (String_t* ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*);
@@ -17235,7 +17235,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_RegisterP
 
 	return returnValue;
 }
-// Method Definition Index: 34331
+// Method Definition Index: 34437
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_GetIDFromString_m37C08CFA07454940F436580A55B0074CB278613E (String_t* ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (char*);
@@ -17263,7 +17263,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_GetIDFro
 
 	return returnValue;
 }
-// Method Definition Index: 34332
+// Method Definition Index: 34438
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_PostEvent__SWIG_0_m8C79F5C5BD6FA2B58C0309FFF75BCE0BBA84D50E (uint32_t ___0_jarg1, uint64_t ___1_jarg2, uint32_t ___2_jarg3, intptr_t ___3_jarg4, intptr_t ___4_jarg5, uint32_t ___5_jarg6, intptr_t ___6_jarg7, uint32_t ___7_jarg8, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint64_t, uint32_t, intptr_t, intptr_t, uint32_t, intptr_t, uint32_t);
@@ -17285,7 +17285,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_PostEven
 
 	return returnValue;
 }
-// Method Definition Index: 34333
+// Method Definition Index: 34439
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_PostEvent__SWIG_1_m6EB66D2BFFA38F0AED68B04A088A192316DB9DC6 (uint32_t ___0_jarg1, uint64_t ___1_jarg2, uint32_t ___2_jarg3, intptr_t ___3_jarg4, intptr_t ___4_jarg5, uint32_t ___5_jarg6, intptr_t ___6_jarg7, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint64_t, uint32_t, intptr_t, intptr_t, uint32_t, intptr_t);
@@ -17307,7 +17307,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_PostEven
 
 	return returnValue;
 }
-// Method Definition Index: 34334
+// Method Definition Index: 34440
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_PostEvent__SWIG_2_m28A7AFB046A3E1AC55D1A06C964A228A7A0B2B6C (uint32_t ___0_jarg1, uint64_t ___1_jarg2, uint32_t ___2_jarg3, intptr_t ___3_jarg4, intptr_t ___4_jarg5, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint64_t, uint32_t, intptr_t, intptr_t);
@@ -17329,7 +17329,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_PostEven
 
 	return returnValue;
 }
-// Method Definition Index: 34335
+// Method Definition Index: 34441
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_PostEvent__SWIG_3_m491B84F583A0D20116F7ED17B956FA2322C7A5D1 (uint32_t ___0_jarg1, uint64_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint64_t);
@@ -17351,7 +17351,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_PostEven
 
 	return returnValue;
 }
-// Method Definition Index: 34336
+// Method Definition Index: 34442
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_PostEvent__SWIG_4_m6E635E6452A07EDA1D358551B480FB5C6479FDAA (String_t* ___0_jarg1, uint64_t ___1_jarg2, uint32_t ___2_jarg3, intptr_t ___3_jarg4, intptr_t ___4_jarg5, uint32_t ___5_jarg6, intptr_t ___6_jarg7, uint32_t ___7_jarg8, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (char*, uint64_t, uint32_t, intptr_t, intptr_t, uint32_t, intptr_t, uint32_t);
@@ -17379,7 +17379,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_PostEven
 
 	return returnValue;
 }
-// Method Definition Index: 34337
+// Method Definition Index: 34443
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_PostEvent__SWIG_5_m4CF337AFAA3962EA7204CFAE74E8AD3DDCF66ACB (String_t* ___0_jarg1, uint64_t ___1_jarg2, uint32_t ___2_jarg3, intptr_t ___3_jarg4, intptr_t ___4_jarg5, uint32_t ___5_jarg6, intptr_t ___6_jarg7, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (char*, uint64_t, uint32_t, intptr_t, intptr_t, uint32_t, intptr_t);
@@ -17407,7 +17407,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_PostEven
 
 	return returnValue;
 }
-// Method Definition Index: 34338
+// Method Definition Index: 34444
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_PostEvent__SWIG_6_m61AB872F4C273C756C22A05D595CD245FB7A94FD (String_t* ___0_jarg1, uint64_t ___1_jarg2, uint32_t ___2_jarg3, intptr_t ___3_jarg4, intptr_t ___4_jarg5, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (char*, uint64_t, uint32_t, intptr_t, intptr_t);
@@ -17435,7 +17435,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_PostEven
 
 	return returnValue;
 }
-// Method Definition Index: 34339
+// Method Definition Index: 34445
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_PostEvent__SWIG_7_mDDBB3AEACAC1DAA051B3DE0692BA913DCA3771FA (String_t* ___0_jarg1, uint64_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (char*, uint64_t);
@@ -17463,7 +17463,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_PostEven
 
 	return returnValue;
 }
-// Method Definition Index: 34340
+// Method Definition Index: 34446
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ExecuteActionOnEvent__SWIG_0_m4D5CE0DE5C92ED166C664DA75551007228001D42 (uint32_t ___0_jarg1, int32_t ___1_jarg2, uint64_t ___2_jarg3, int32_t ___3_jarg4, int32_t ___4_jarg5, uint32_t ___5_jarg6, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, int32_t, uint64_t, int32_t, int32_t, uint32_t);
@@ -17485,7 +17485,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ExecuteAc
 
 	return returnValue;
 }
-// Method Definition Index: 34341
+// Method Definition Index: 34447
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ExecuteActionOnEvent__SWIG_1_m4B3E322362808BFDDDD00F6FDC865D45FC989867 (uint32_t ___0_jarg1, int32_t ___1_jarg2, uint64_t ___2_jarg3, int32_t ___3_jarg4, int32_t ___4_jarg5, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, int32_t, uint64_t, int32_t, int32_t);
@@ -17507,7 +17507,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ExecuteAc
 
 	return returnValue;
 }
-// Method Definition Index: 34342
+// Method Definition Index: 34448
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ExecuteActionOnEvent__SWIG_2_m1823CBBFBFC2E6AFA909480DFA02DA25D9D70C22 (uint32_t ___0_jarg1, int32_t ___1_jarg2, uint64_t ___2_jarg3, int32_t ___3_jarg4, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, int32_t, uint64_t, int32_t);
@@ -17529,7 +17529,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ExecuteAc
 
 	return returnValue;
 }
-// Method Definition Index: 34343
+// Method Definition Index: 34449
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ExecuteActionOnEvent__SWIG_3_m4E6A6632F402E8FF5AD71932908C80C36828F95F (uint32_t ___0_jarg1, int32_t ___1_jarg2, uint64_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, int32_t, uint64_t);
@@ -17551,7 +17551,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ExecuteAc
 
 	return returnValue;
 }
-// Method Definition Index: 34344
+// Method Definition Index: 34450
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ExecuteActionOnEvent__SWIG_4_m8609F7E8D66A3416F40EB8F11AA03541C59D65A9 (uint32_t ___0_jarg1, int32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, int32_t);
@@ -17573,7 +17573,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ExecuteAc
 
 	return returnValue;
 }
-// Method Definition Index: 34345
+// Method Definition Index: 34451
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ExecuteActionOnEvent__SWIG_5_m3734BBC0ABF8F60B1D7E149763173C0F37C5EBBC (String_t* ___0_jarg1, int32_t ___1_jarg2, uint64_t ___2_jarg3, int32_t ___3_jarg4, int32_t ___4_jarg5, uint32_t ___5_jarg6, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, int32_t, uint64_t, int32_t, int32_t, uint32_t);
@@ -17601,7 +17601,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ExecuteAc
 
 	return returnValue;
 }
-// Method Definition Index: 34346
+// Method Definition Index: 34452
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ExecuteActionOnEvent__SWIG_6_m736DFAD70AB950DE92765E16EE3D59C30F47C221 (String_t* ___0_jarg1, int32_t ___1_jarg2, uint64_t ___2_jarg3, int32_t ___3_jarg4, int32_t ___4_jarg5, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, int32_t, uint64_t, int32_t, int32_t);
@@ -17629,7 +17629,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ExecuteAc
 
 	return returnValue;
 }
-// Method Definition Index: 34347
+// Method Definition Index: 34453
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ExecuteActionOnEvent__SWIG_7_mB41741C3D5B7267EA303D87E5E0371DEFDDAA3F9 (String_t* ___0_jarg1, int32_t ___1_jarg2, uint64_t ___2_jarg3, int32_t ___3_jarg4, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, int32_t, uint64_t, int32_t);
@@ -17657,7 +17657,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ExecuteAc
 
 	return returnValue;
 }
-// Method Definition Index: 34348
+// Method Definition Index: 34454
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ExecuteActionOnEvent__SWIG_8_m4A770071804725902EB44784653EE2A2CC28C686 (String_t* ___0_jarg1, int32_t ___1_jarg2, uint64_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, int32_t, uint64_t);
@@ -17685,7 +17685,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ExecuteAc
 
 	return returnValue;
 }
-// Method Definition Index: 34349
+// Method Definition Index: 34455
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ExecuteActionOnEvent__SWIG_9_m11063BAC5AD7EFAF50314EB89695D859DB9806DE (String_t* ___0_jarg1, int32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, int32_t);
@@ -17713,7 +17713,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ExecuteAc
 
 	return returnValue;
 }
-// Method Definition Index: 34350
+// Method Definition Index: 34456
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PostMIDIOnEvent_m5C4A4CA58BD73D70428ACEE3664CC5595057F1FA (uint32_t ___0_jarg1, uint64_t ___1_jarg2, intptr_t ___2_jarg3, uint16_t ___3_jarg4, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint64_t, intptr_t, uint16_t);
@@ -17735,7 +17735,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PostMIDIO
 
 	return returnValue;
 }
-// Method Definition Index: 34351
+// Method Definition Index: 34457
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_StopMIDIOnEvent__SWIG_0_m39AEF4E9CEAC30FECF93C0CAD9806303D6E088E8 (uint32_t ___0_jarg1, uint64_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint64_t);
@@ -17757,7 +17757,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_StopMIDIO
 
 	return returnValue;
 }
-// Method Definition Index: 34352
+// Method Definition Index: 34458
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_StopMIDIOnEvent__SWIG_1_m422D31E67BD019EE6BB359CB2191652F53069897 (uint32_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t);
@@ -17779,7 +17779,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_StopMIDIO
 
 	return returnValue;
 }
-// Method Definition Index: 34353
+// Method Definition Index: 34459
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_StopMIDIOnEvent__SWIG_2_m3E68B128884BEF683570E9E58E4C6A4F0D79780C (const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -17801,7 +17801,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_StopMIDIO
 
 	return returnValue;
 }
-// Method Definition Index: 34354
+// Method Definition Index: 34460
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PinEventInStreamCache__SWIG_0_m7FFA5961A9F4A463D565C6791762A95D4CB98F96 (uint32_t ___0_jarg1, int8_t ___1_jarg2, int8_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, int8_t, int8_t);
@@ -17823,7 +17823,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PinEventI
 
 	return returnValue;
 }
-// Method Definition Index: 34355
+// Method Definition Index: 34461
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PinEventInStreamCache__SWIG_1_mA8AFE0115BCAA0761265DCF2B0564B8524A9B7E3 (String_t* ___0_jarg1, int8_t ___1_jarg2, int8_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, int8_t, int8_t);
@@ -17851,7 +17851,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PinEventI
 
 	return returnValue;
 }
-// Method Definition Index: 34356
+// Method Definition Index: 34462
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_UnpinEventInStreamCache__SWIG_0_m0E21DC4C57D1C2FA9B0AA2688619FFAA50B36CA4 (uint32_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t);
@@ -17873,7 +17873,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_UnpinEven
 
 	return returnValue;
 }
-// Method Definition Index: 34357
+// Method Definition Index: 34463
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_UnpinEventInStreamCache__SWIG_1_mBF7919978F85FAEE020DBE18E49E7AD3AAD2BB53 (String_t* ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*);
@@ -17901,7 +17901,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_UnpinEven
 
 	return returnValue;
 }
-// Method Definition Index: 34358
+// Method Definition Index: 34464
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetBufferStatusForPinnedEvent__SWIG_0_m445FE2E7E636EEF6E4E182CEE12BA41158A1C4CA (uint32_t ___0_jarg1, float* ___1_jarg2, int32_t* ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, float*, int32_t*);
@@ -17923,7 +17923,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetBuffer
 
 	return returnValue;
 }
-// Method Definition Index: 34359
+// Method Definition Index: 34465
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetBufferStatusForPinnedEvent__SWIG_1_mFD19A75A3765EC40DF721239FB29BB772CBEBD3C (String_t* ___0_jarg1, float* ___1_jarg2, int32_t* ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, float*, int32_t*);
@@ -17951,7 +17951,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetBuffer
 
 	return returnValue;
 }
-// Method Definition Index: 34360
+// Method Definition Index: 34466
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SeekOnEvent__SWIG_0_m22A6E899A315F5B70C04F4490D0E5CDFECA1972F (uint32_t ___0_jarg1, uint64_t ___1_jarg2, int32_t ___2_jarg3, bool ___3_jarg4, uint32_t ___4_jarg5, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint64_t, int32_t, int32_t, uint32_t);
@@ -17973,7 +17973,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SeekOnEve
 
 	return returnValue;
 }
-// Method Definition Index: 34361
+// Method Definition Index: 34467
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SeekOnEvent__SWIG_1_mC24B72AD4E89EA67969EBAB119182F3176B474AF (uint32_t ___0_jarg1, uint64_t ___1_jarg2, int32_t ___2_jarg3, bool ___3_jarg4, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint64_t, int32_t, int32_t);
@@ -17995,7 +17995,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SeekOnEve
 
 	return returnValue;
 }
-// Method Definition Index: 34362
+// Method Definition Index: 34468
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SeekOnEvent__SWIG_2_mC3416D37FF699859C591DEAE4F4954B107296F98 (uint32_t ___0_jarg1, uint64_t ___1_jarg2, int32_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint64_t, int32_t);
@@ -18017,7 +18017,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SeekOnEve
 
 	return returnValue;
 }
-// Method Definition Index: 34363
+// Method Definition Index: 34469
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SeekOnEvent__SWIG_3_m9F760765C5EB15E06670C96323B6D40755D683C6 (String_t* ___0_jarg1, uint64_t ___1_jarg2, int32_t ___2_jarg3, bool ___3_jarg4, uint32_t ___4_jarg5, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, uint64_t, int32_t, int32_t, uint32_t);
@@ -18045,7 +18045,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SeekOnEve
 
 	return returnValue;
 }
-// Method Definition Index: 34364
+// Method Definition Index: 34470
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SeekOnEvent__SWIG_4_mF4B721A824B8ECBF595CE3D53375C0A8C414497B (String_t* ___0_jarg1, uint64_t ___1_jarg2, int32_t ___2_jarg3, bool ___3_jarg4, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, uint64_t, int32_t, int32_t);
@@ -18073,7 +18073,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SeekOnEve
 
 	return returnValue;
 }
-// Method Definition Index: 34365
+// Method Definition Index: 34471
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SeekOnEvent__SWIG_5_m898646761D558E76C06CCB97B13D0A28D3FE6318 (String_t* ___0_jarg1, uint64_t ___1_jarg2, int32_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, uint64_t, int32_t);
@@ -18101,7 +18101,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SeekOnEve
 
 	return returnValue;
 }
-// Method Definition Index: 34366
+// Method Definition Index: 34472
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SeekOnEvent__SWIG_6_m860F97FFE331E10BFC5F4D01E134CE81D2D141AD (uint32_t ___0_jarg1, uint64_t ___1_jarg2, float ___2_jarg3, bool ___3_jarg4, uint32_t ___4_jarg5, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint64_t, float, int32_t, uint32_t);
@@ -18123,7 +18123,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SeekOnEve
 
 	return returnValue;
 }
-// Method Definition Index: 34367
+// Method Definition Index: 34473
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SeekOnEvent__SWIG_7_mB51D0BC7143E890F819F5F29DA584FF145968200 (uint32_t ___0_jarg1, uint64_t ___1_jarg2, float ___2_jarg3, bool ___3_jarg4, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint64_t, float, int32_t);
@@ -18145,7 +18145,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SeekOnEve
 
 	return returnValue;
 }
-// Method Definition Index: 34368
+// Method Definition Index: 34474
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SeekOnEvent__SWIG_8_m898ADE2B5138D63426F1468A678A2AAA44CFFD16 (uint32_t ___0_jarg1, uint64_t ___1_jarg2, float ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint64_t, float);
@@ -18167,7 +18167,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SeekOnEve
 
 	return returnValue;
 }
-// Method Definition Index: 34369
+// Method Definition Index: 34475
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SeekOnEvent__SWIG_9_m8BFFEBC3E60D0B9D646BF836E8D1C8EBFC79ADD8 (String_t* ___0_jarg1, uint64_t ___1_jarg2, float ___2_jarg3, bool ___3_jarg4, uint32_t ___4_jarg5, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, uint64_t, float, int32_t, uint32_t);
@@ -18195,7 +18195,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SeekOnEve
 
 	return returnValue;
 }
-// Method Definition Index: 34370
+// Method Definition Index: 34476
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SeekOnEvent__SWIG_10_m44B6F1959784A115C8326DB1EDB132886297602C (String_t* ___0_jarg1, uint64_t ___1_jarg2, float ___2_jarg3, bool ___3_jarg4, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, uint64_t, float, int32_t);
@@ -18223,7 +18223,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SeekOnEve
 
 	return returnValue;
 }
-// Method Definition Index: 34371
+// Method Definition Index: 34477
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SeekOnEvent__SWIG_11_m9F2842264F916D877F023FD448027DD5043F19A6 (String_t* ___0_jarg1, uint64_t ___1_jarg2, float ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, uint64_t, float);
@@ -18251,7 +18251,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SeekOnEve
 
 	return returnValue;
 }
-// Method Definition Index: 34372
+// Method Definition Index: 34478
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_CancelEventCallbackCookie_m81ED7CDCC7CBBEC714400F8E54E9687A12CB1B28 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -18272,7 +18272,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_CancelEventC
 	#endif
 
 }
-// Method Definition Index: 34373
+// Method Definition Index: 34479
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_CancelEventCallbackGameObject_mE9F315BF1736DB9E10A5E5ED0D0E1E271ECB1F11 (uint64_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (uint64_t);
@@ -18293,7 +18293,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_CancelEventC
 	#endif
 
 }
-// Method Definition Index: 34374
+// Method Definition Index: 34480
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_CancelEventCallback_mC7AEB1422DBED4C6128482E272FF3F80216FAC6A (uint32_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (uint32_t);
@@ -18314,7 +18314,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_CancelEventC
 	#endif
 
 }
-// Method Definition Index: 34375
+// Method Definition Index: 34481
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetSourcePlayPosition__SWIG_0_mA03B4F2BE8CFA064D9C3446216597565E9A1C8DC (uint32_t ___0_jarg1, int32_t* ___1_jarg2, bool ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, int32_t*, int32_t);
@@ -18336,7 +18336,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetSource
 
 	return returnValue;
 }
-// Method Definition Index: 34376
+// Method Definition Index: 34482
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetSourcePlayPosition__SWIG_1_mC1C49F2A52E78364B96F8EFC4F60F83A451D0C28 (uint32_t ___0_jarg1, int32_t* ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, int32_t*);
@@ -18358,7 +18358,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetSource
 
 	return returnValue;
 }
-// Method Definition Index: 34377
+// Method Definition Index: 34483
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetSourceStreamBuffering_m25B4DBA83FF921EF0B71895879A5722248A3483A (uint32_t ___0_jarg1, int32_t* ___1_jarg2, int32_t* ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, int32_t*, int32_t*);
@@ -18380,7 +18380,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetSource
 
 	return returnValue;
 }
-// Method Definition Index: 34378
+// Method Definition Index: 34484
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_StopAll__SWIG_0_mE264BBC1CA82FBB5EDAF02B487D87DA462191D71 (uint64_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (uint64_t);
@@ -18401,7 +18401,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_StopAll__SWI
 	#endif
 
 }
-// Method Definition Index: 34379
+// Method Definition Index: 34485
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_StopAll__SWIG_1_m504619318EFBB198AB7713D07BADAA198422CD87 (const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) ();
@@ -18422,7 +18422,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_StopAll__SWI
 	#endif
 
 }
-// Method Definition Index: 34380
+// Method Definition Index: 34486
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_StopPlayingID__SWIG_0_m370C763FB3660107F82186E66628323C59FAFBDF (uint32_t ___0_jarg1, int32_t ___1_jarg2, int32_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (uint32_t, int32_t, int32_t);
@@ -18443,7 +18443,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_StopPlayingI
 	#endif
 
 }
-// Method Definition Index: 34381
+// Method Definition Index: 34487
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_StopPlayingID__SWIG_1_m7269F5917A98E8DD05F9F56BBF0748841FE52967 (uint32_t ___0_jarg1, int32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (uint32_t, int32_t);
@@ -18464,7 +18464,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_StopPlayingI
 	#endif
 
 }
-// Method Definition Index: 34382
+// Method Definition Index: 34488
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_StopPlayingID__SWIG_2_m9E2FE2F6D5C766CCD838B10E29494DAAD90BC60F (uint32_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (uint32_t);
@@ -18485,7 +18485,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_StopPlayingI
 	#endif
 
 }
-// Method Definition Index: 34383
+// Method Definition Index: 34489
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_ExecuteActionOnPlayingID__SWIG_0_m9205012AE656A01A08B2249AD4650492DF922C3F (int32_t ___0_jarg1, uint32_t ___1_jarg2, int32_t ___2_jarg3, int32_t ___3_jarg4, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t, uint32_t, int32_t, int32_t);
@@ -18506,7 +18506,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_ExecuteActio
 	#endif
 
 }
-// Method Definition Index: 34384
+// Method Definition Index: 34490
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_ExecuteActionOnPlayingID__SWIG_1_m80F5E139DBCDAE33825B5F09459E40570F71A993 (int32_t ___0_jarg1, uint32_t ___1_jarg2, int32_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t, uint32_t, int32_t);
@@ -18527,7 +18527,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_ExecuteActio
 	#endif
 
 }
-// Method Definition Index: 34385
+// Method Definition Index: 34491
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_ExecuteActionOnPlayingID__SWIG_2_m8AD159809525135769DE251102879989FBF4A15C (int32_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t, uint32_t);
@@ -18548,7 +18548,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_ExecuteActio
 	#endif
 
 }
-// Method Definition Index: 34386
+// Method Definition Index: 34492
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_SetRandomSeed_mDB26DBCDE7B1C92798401B9ECEE987CA82B9B0E2 (uint32_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (uint32_t);
@@ -18569,7 +18569,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_SetRandomSee
 	#endif
 
 }
-// Method Definition Index: 34387
+// Method Definition Index: 34493
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_MuteBackgroundMusic_m12155BDAA6B393178634323284A368019DB62854 (bool ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
@@ -18590,7 +18590,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_MuteBackgrou
 	#endif
 
 }
-// Method Definition Index: 34388
+// Method Definition Index: 34494
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_GetBackgroundMusicMute_m917679410228AAB87B0A0B457FC624F19685FF6C (const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -18612,7 +18612,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_GetBackgroun
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 34389
+// Method Definition Index: 34495
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SendPluginCustomGameData_m3AC39502400284CB7FBB32DC366DA9DC651DE5F9 (uint32_t ___0_jarg1, uint64_t ___1_jarg2, int32_t ___2_jarg3, uint32_t ___3_jarg4, uint32_t ___4_jarg5, intptr_t ___5_jarg6, uint32_t ___6_jarg7, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint64_t, int32_t, uint32_t, uint32_t, intptr_t, uint32_t);
@@ -18634,7 +18634,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SendPlugi
 
 	return returnValue;
 }
-// Method Definition Index: 34390
+// Method Definition Index: 34496
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_UnregisterAllGameObj_m5A150825B14CDF30F73198E782FFEC5A2B9A9E46 (const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -18656,7 +18656,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_Unregiste
 
 	return returnValue;
 }
-// Method Definition Index: 34391
+// Method Definition Index: 34497
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetMultiplePositions__SWIG_0_mB1934E6E95EA10E7E0CE641E7554FBBE95D0F2A5 (uint64_t ___0_jarg1, intptr_t ___1_jarg2, uint16_t ___2_jarg3, int32_t ___3_jarg4, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, intptr_t, uint16_t, int32_t);
@@ -18678,7 +18678,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetMultip
 
 	return returnValue;
 }
-// Method Definition Index: 34392
+// Method Definition Index: 34498
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetMultiplePositions__SWIG_1_m89BF7509CE90313DB087DAB31D6AB9D69FD04455 (uint64_t ___0_jarg1, intptr_t ___1_jarg2, uint16_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, intptr_t, uint16_t);
@@ -18700,7 +18700,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetMultip
 
 	return returnValue;
 }
-// Method Definition Index: 34393
+// Method Definition Index: 34499
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetMultiplePositions__SWIG_2_m2CAF26F7356AB6787F80C187F96CEF4BD85DDA81 (uint64_t ___0_jarg1, intptr_t ___1_jarg2, uint16_t ___2_jarg3, int32_t ___3_jarg4, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, intptr_t, uint16_t, int32_t);
@@ -18722,7 +18722,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetMultip
 
 	return returnValue;
 }
-// Method Definition Index: 34394
+// Method Definition Index: 34500
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetMultiplePositions__SWIG_3_m1D9420611E08A8C7CC84930FA2638830B3D8A3C8 (uint64_t ___0_jarg1, intptr_t ___1_jarg2, uint16_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, intptr_t, uint16_t);
@@ -18744,7 +18744,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetMultip
 
 	return returnValue;
 }
-// Method Definition Index: 34395
+// Method Definition Index: 34501
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetScalingFactor_mEBC07418748CE4AB20A6591D5927D422CE82C47C (uint64_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, float);
@@ -18766,7 +18766,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetScalin
 
 	return returnValue;
 }
-// Method Definition Index: 34396
+// Method Definition Index: 34502
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ClearBanks_m10391B16643D72EA594249DB4D9CA00B5B19941F (const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -18788,7 +18788,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ClearBank
 
 	return returnValue;
 }
-// Method Definition Index: 34397
+// Method Definition Index: 34503
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetBankLoadIOSettings_m92512BE82B58415483B6D8475CB975481A320097 (float ___0_jarg1, int8_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (float, int8_t);
@@ -18810,7 +18810,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetBankLo
 
 	return returnValue;
 }
-// Method Definition Index: 34398
+// Method Definition Index: 34504
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_LoadBank__SWIG_0_mA3DA24F3216F5BE7E85A18BB9E3CFC44A5D850CF (String_t* ___0_jarg1, uint32_t* ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, uint32_t*);
@@ -18838,7 +18838,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_LoadBank_
 
 	return returnValue;
 }
-// Method Definition Index: 34399
+// Method Definition Index: 34505
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_LoadBank__SWIG_1_mC15FC27F8061EAE3F77829D0BADDA86C5C2F7577 (uint32_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t);
@@ -18860,7 +18860,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_LoadBank_
 
 	return returnValue;
 }
-// Method Definition Index: 34400
+// Method Definition Index: 34506
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_LoadBankMemoryView__SWIG_0_m94C3B4EE744E670F5B8882E350D5B823F23A5A1B (intptr_t ___0_jarg1, uint32_t ___1_jarg2, uint32_t* ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t, uint32_t*);
@@ -18882,7 +18882,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_LoadBankM
 
 	return returnValue;
 }
-// Method Definition Index: 34401
+// Method Definition Index: 34507
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_LoadBankMemoryCopy__SWIG_0_m421014B9C7772260DDB444907BC020E2F66EA91D (intptr_t ___0_jarg1, uint32_t ___1_jarg2, uint32_t* ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t, uint32_t*);
@@ -18904,7 +18904,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_LoadBankM
 
 	return returnValue;
 }
-// Method Definition Index: 34402
+// Method Definition Index: 34508
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_LoadBank__SWIG_2_mDB9A20D7D06A2CF71089CA6A26B8257535796A40 (String_t* ___0_jarg1, intptr_t ___1_jarg2, intptr_t ___2_jarg3, uint32_t* ___3_jarg4, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, intptr_t, intptr_t, uint32_t*);
@@ -18932,7 +18932,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_LoadBank_
 
 	return returnValue;
 }
-// Method Definition Index: 34403
+// Method Definition Index: 34509
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_LoadBank__SWIG_3_m0060CC78F90FEE8C8951C763CBE25B5E9494D363 (uint32_t ___0_jarg1, intptr_t ___1_jarg2, intptr_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, intptr_t, intptr_t);
@@ -18954,7 +18954,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_LoadBank_
 
 	return returnValue;
 }
-// Method Definition Index: 34404
+// Method Definition Index: 34510
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_LoadBankMemoryView__SWIG_1_m647FE61A52AABE4D779835B8C51558B073CAC21C (intptr_t ___0_jarg1, uint32_t ___1_jarg2, intptr_t ___2_jarg3, intptr_t ___3_jarg4, uint32_t* ___4_jarg5, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t, intptr_t, intptr_t, uint32_t*);
@@ -18976,7 +18976,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_LoadBankM
 
 	return returnValue;
 }
-// Method Definition Index: 34405
+// Method Definition Index: 34511
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_LoadBankMemoryCopy__SWIG_1_m0E647A066760514915CE94B04B5DA001E915A1E9 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, intptr_t ___2_jarg3, intptr_t ___3_jarg4, uint32_t* ___4_jarg5, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t, intptr_t, intptr_t, uint32_t*);
@@ -18998,7 +18998,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_LoadBankM
 
 	return returnValue;
 }
-// Method Definition Index: 34406
+// Method Definition Index: 34512
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_UnloadBank__SWIG_0_mB7AAB0F89EA70C23A08A6E23C1A335DF0EFEEC66 (String_t* ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, intptr_t);
@@ -19026,7 +19026,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_UnloadBan
 
 	return returnValue;
 }
-// Method Definition Index: 34407
+// Method Definition Index: 34513
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_UnloadBank__SWIG_1_m04194F200F3BC985BBE0DB2F3016403CC9FD91F3 (uint32_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, intptr_t);
@@ -19048,7 +19048,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_UnloadBan
 
 	return returnValue;
 }
-// Method Definition Index: 34408
+// Method Definition Index: 34514
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_UnloadBank__SWIG_2_mB38AAB1F5C362BD0D8131674DC1A7E3E303A0219 (String_t* ___0_jarg1, intptr_t ___1_jarg2, intptr_t ___2_jarg3, intptr_t ___3_jarg4, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, intptr_t, intptr_t, intptr_t);
@@ -19076,7 +19076,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_UnloadBan
 
 	return returnValue;
 }
-// Method Definition Index: 34409
+// Method Definition Index: 34515
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_UnloadBank__SWIG_3_mCAFD8189E4DF29D31DA3B0CE4E311AE615AF9380 (uint32_t ___0_jarg1, intptr_t ___1_jarg2, intptr_t ___2_jarg3, intptr_t ___3_jarg4, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, intptr_t, intptr_t, intptr_t);
@@ -19098,7 +19098,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_UnloadBan
 
 	return returnValue;
 }
-// Method Definition Index: 34410
+// Method Definition Index: 34516
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_CancelBankCallbackCookie_mC1C516A68970374AB96FF558998CF0F0B3B56BA7 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -19119,7 +19119,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_CancelBankCa
 	#endif
 
 }
-// Method Definition Index: 34411
+// Method Definition Index: 34517
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PrepareBank__SWIG_0_m7611C3B54691C87EFA7292A43563960D1F95F756 (int32_t ___0_jarg1, String_t* ___1_jarg2, int32_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, char*, int32_t);
@@ -19147,7 +19147,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PrepareBa
 
 	return returnValue;
 }
-// Method Definition Index: 34412
+// Method Definition Index: 34518
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PrepareBank__SWIG_1_m3CB6323FA6BB15A3791D21B0C687805F8382299F (int32_t ___0_jarg1, String_t* ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, char*);
@@ -19175,7 +19175,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PrepareBa
 
 	return returnValue;
 }
-// Method Definition Index: 34413
+// Method Definition Index: 34519
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PrepareBank__SWIG_2_m459B664509100FD59BA1D2D84FD07008D3EF51B0 (int32_t ___0_jarg1, uint32_t ___1_jarg2, int32_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, uint32_t, int32_t);
@@ -19197,7 +19197,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PrepareBa
 
 	return returnValue;
 }
-// Method Definition Index: 34414
+// Method Definition Index: 34520
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PrepareBank__SWIG_3_m751BCEED917D33AF3C4A88ECB5B3DC9A34AD6853 (int32_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, uint32_t);
@@ -19219,7 +19219,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PrepareBa
 
 	return returnValue;
 }
-// Method Definition Index: 34415
+// Method Definition Index: 34521
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PrepareBank__SWIG_4_mCFA8F2C8978B7AAD914F47CA00BA0C17AA1D9464 (int32_t ___0_jarg1, String_t* ___1_jarg2, intptr_t ___2_jarg3, intptr_t ___3_jarg4, int32_t ___4_jarg5, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, char*, intptr_t, intptr_t, int32_t);
@@ -19247,7 +19247,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PrepareBa
 
 	return returnValue;
 }
-// Method Definition Index: 34416
+// Method Definition Index: 34522
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PrepareBank__SWIG_5_m91635B067EDEB17C7AFAC20EBB84E5A10408024A (int32_t ___0_jarg1, String_t* ___1_jarg2, intptr_t ___2_jarg3, intptr_t ___3_jarg4, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, char*, intptr_t, intptr_t);
@@ -19275,7 +19275,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PrepareBa
 
 	return returnValue;
 }
-// Method Definition Index: 34417
+// Method Definition Index: 34523
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PrepareBank__SWIG_6_m1A4FAB4B64DE8FFF491EA7CE0E74B93E780F47E9 (int32_t ___0_jarg1, uint32_t ___1_jarg2, intptr_t ___2_jarg3, intptr_t ___3_jarg4, int32_t ___4_jarg5, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, uint32_t, intptr_t, intptr_t, int32_t);
@@ -19297,7 +19297,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PrepareBa
 
 	return returnValue;
 }
-// Method Definition Index: 34418
+// Method Definition Index: 34524
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PrepareBank__SWIG_7_m7708D39C2E521A2415C3EE8C5508A47F791B804E (int32_t ___0_jarg1, uint32_t ___1_jarg2, intptr_t ___2_jarg3, intptr_t ___3_jarg4, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, uint32_t, intptr_t, intptr_t);
@@ -19319,7 +19319,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PrepareBa
 
 	return returnValue;
 }
-// Method Definition Index: 34419
+// Method Definition Index: 34525
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ClearPreparedEvents_mF3DA51C6669FBEF6D2E8D972A022A0135505E91E (const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -19341,7 +19341,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ClearPrep
 
 	return returnValue;
 }
-// Method Definition Index: 34420
+// Method Definition Index: 34526
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PrepareEvent__SWIG_0_m3F96A3DF6DACEB625B51D294C7D90398D3A12D49 (int32_t ___0_jarg1, intptr_t ___1_jarg2, uint32_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, intptr_t, uint32_t);
@@ -19363,7 +19363,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PrepareEv
 
 	return returnValue;
 }
-// Method Definition Index: 34421
+// Method Definition Index: 34527
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PrepareEvent__SWIG_1_mCFC61144D41017835A359AE39D5A41384CFDBEA6 (int32_t ___0_jarg1, UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___1_jarg2, uint32_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, uint32_t*, uint32_t);
@@ -19391,7 +19391,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PrepareEv
 
 	return returnValue;
 }
-// Method Definition Index: 34422
+// Method Definition Index: 34528
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PrepareEvent__SWIG_2_m81F56B4FC00A4F7D9C3968D8FB046BD94ECED9E3 (int32_t ___0_jarg1, intptr_t ___1_jarg2, uint32_t ___2_jarg3, intptr_t ___3_jarg4, intptr_t ___4_jarg5, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, intptr_t, uint32_t, intptr_t, intptr_t);
@@ -19413,7 +19413,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PrepareEv
 
 	return returnValue;
 }
-// Method Definition Index: 34423
+// Method Definition Index: 34529
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PrepareEvent__SWIG_3_mCB1EBCB032AFE858D9CF35BD17882E56F1BE7CD9 (int32_t ___0_jarg1, UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___1_jarg2, uint32_t ___2_jarg3, intptr_t ___3_jarg4, intptr_t ___4_jarg5, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, uint32_t*, uint32_t, intptr_t, intptr_t);
@@ -19441,7 +19441,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PrepareEv
 
 	return returnValue;
 }
-// Method Definition Index: 34424
+// Method Definition Index: 34530
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetMedia_m5957DC1B1FD618CEEF1DE4C0704930322183F71F (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -19463,7 +19463,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetMedia_
 
 	return returnValue;
 }
-// Method Definition Index: 34425
+// Method Definition Index: 34531
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_UnsetMedia_m72D108C60A76860265BDF8989C8E62F73722487F (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -19485,7 +19485,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_UnsetMedi
 
 	return returnValue;
 }
-// Method Definition Index: 34426
+// Method Definition Index: 34532
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PrepareGameSyncs__SWIG_0_mDC8ACD9BE8FE5B29CF68C3C9F80376B1C7AAA01F (int32_t ___0_jarg1, int32_t ___1_jarg2, String_t* ___2_jarg3, intptr_t ___3_jarg4, uint32_t ___4_jarg5, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, char*, intptr_t, uint32_t);
@@ -19513,7 +19513,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PrepareGa
 
 	return returnValue;
 }
-// Method Definition Index: 34427
+// Method Definition Index: 34533
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PrepareGameSyncs__SWIG_1_mFE06DDD793596CCB12171ECFB4AE585F3068216E (int32_t ___0_jarg1, int32_t ___1_jarg2, uint32_t ___2_jarg3, UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___3_jarg4, uint32_t ___4_jarg5, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, uint32_t, uint32_t*, uint32_t);
@@ -19541,7 +19541,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PrepareGa
 
 	return returnValue;
 }
-// Method Definition Index: 34428
+// Method Definition Index: 34534
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PrepareGameSyncs__SWIG_2_mA0BFCDA76C16BA51A7A3D51799EABC9FBDFA6EEC (int32_t ___0_jarg1, int32_t ___1_jarg2, String_t* ___2_jarg3, intptr_t ___3_jarg4, uint32_t ___4_jarg5, intptr_t ___5_jarg6, intptr_t ___6_jarg7, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, char*, intptr_t, uint32_t, intptr_t, intptr_t);
@@ -19569,7 +19569,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PrepareGa
 
 	return returnValue;
 }
-// Method Definition Index: 34429
+// Method Definition Index: 34535
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PrepareGameSyncs__SWIG_3_mCAB53F6EA347850071E0D8046715ED18AC0203D0 (int32_t ___0_jarg1, int32_t ___1_jarg2, uint32_t ___2_jarg3, UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___3_jarg4, uint32_t ___4_jarg5, intptr_t ___5_jarg6, intptr_t ___6_jarg7, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, uint32_t, uint32_t*, uint32_t, intptr_t, intptr_t);
@@ -19597,7 +19597,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PrepareGa
 
 	return returnValue;
 }
-// Method Definition Index: 34430
+// Method Definition Index: 34536
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AddListener_m5F949A8A8194C8A5CD84FF24C3C0215EEE5FF5F9 (uint64_t ___0_jarg1, uint64_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, uint64_t);
@@ -19619,7 +19619,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AddListen
 
 	return returnValue;
 }
-// Method Definition Index: 34431
+// Method Definition Index: 34537
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_RemoveListener_m3723B023022428DE464EA818ABFC3E1C0045B6F9 (uint64_t ___0_jarg1, uint64_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, uint64_t);
@@ -19641,7 +19641,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_RemoveLis
 
 	return returnValue;
 }
-// Method Definition Index: 34432
+// Method Definition Index: 34538
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AddDefaultListener_mB921A1F7BF56C7450E93B68A030C890DAA39346A (uint64_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t);
@@ -19663,7 +19663,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AddDefaul
 
 	return returnValue;
 }
-// Method Definition Index: 34433
+// Method Definition Index: 34539
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_RemoveDefaultListener_m5A180A3CC90075E1B1DA3B62AE407D24971CD13E (uint64_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t);
@@ -19685,7 +19685,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_RemoveDef
 
 	return returnValue;
 }
-// Method Definition Index: 34434
+// Method Definition Index: 34540
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ResetListenersToDefault_m8F0237A5F6B75CE6729B5618D301041D58AF0669 (uint64_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t);
@@ -19707,7 +19707,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ResetList
 
 	return returnValue;
 }
-// Method Definition Index: 34435
+// Method Definition Index: 34541
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetListenerSpatialization__SWIG_0_m4C958B7D8C8F09AB1BEF7AA9EC56878030957FF0 (uint64_t ___0_jarg1, bool ___1_jarg2, intptr_t ___2_jarg3, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___3_jarg4, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, int32_t, intptr_t, float*);
@@ -19735,7 +19735,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetListen
 
 	return returnValue;
 }
-// Method Definition Index: 34436
+// Method Definition Index: 34542
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetListenerSpatialization__SWIG_1_m9DB3F00D2C227D8C9B013EB39579D0E6086348E9 (uint64_t ___0_jarg1, bool ___1_jarg2, intptr_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, int32_t, intptr_t);
@@ -19757,7 +19757,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetListen
 
 	return returnValue;
 }
-// Method Definition Index: 34437
+// Method Definition Index: 34543
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetRTPCValue__SWIG_0_m164A74620329874F26B92D6B2B99C3791F1E9935 (uint32_t ___0_jarg1, float ___1_jarg2, uint64_t ___2_jarg3, int32_t ___3_jarg4, int32_t ___4_jarg5, bool ___5_jarg6, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, float, uint64_t, int32_t, int32_t, int32_t);
@@ -19779,7 +19779,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetRTPCVa
 
 	return returnValue;
 }
-// Method Definition Index: 34438
+// Method Definition Index: 34544
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetRTPCValue__SWIG_1_mE141311F65970609B4A4508E84803F28A9E67335 (uint32_t ___0_jarg1, float ___1_jarg2, uint64_t ___2_jarg3, int32_t ___3_jarg4, int32_t ___4_jarg5, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, float, uint64_t, int32_t, int32_t);
@@ -19801,7 +19801,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetRTPCVa
 
 	return returnValue;
 }
-// Method Definition Index: 34439
+// Method Definition Index: 34545
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetRTPCValue__SWIG_2_mDBE700BD23B09DE41ED020417DC57A2A0B46CDB4 (uint32_t ___0_jarg1, float ___1_jarg2, uint64_t ___2_jarg3, int32_t ___3_jarg4, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, float, uint64_t, int32_t);
@@ -19823,7 +19823,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetRTPCVa
 
 	return returnValue;
 }
-// Method Definition Index: 34440
+// Method Definition Index: 34546
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetRTPCValue__SWIG_3_m42D508F9F0469101F03503833E491E3F72541F86 (uint32_t ___0_jarg1, float ___1_jarg2, uint64_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, float, uint64_t);
@@ -19845,7 +19845,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetRTPCVa
 
 	return returnValue;
 }
-// Method Definition Index: 34441
+// Method Definition Index: 34547
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetRTPCValue__SWIG_4_m35ECCE23F49FBBF6CCCFAC140144B378F30D85F0 (uint32_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, float);
@@ -19867,7 +19867,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetRTPCVa
 
 	return returnValue;
 }
-// Method Definition Index: 34442
+// Method Definition Index: 34548
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetRTPCValue__SWIG_5_mF73814DF914E273B1C2ADB41D1D5CAB5B859D1DA (String_t* ___0_jarg1, float ___1_jarg2, uint64_t ___2_jarg3, int32_t ___3_jarg4, int32_t ___4_jarg5, bool ___5_jarg6, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, float, uint64_t, int32_t, int32_t, int32_t);
@@ -19895,7 +19895,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetRTPCVa
 
 	return returnValue;
 }
-// Method Definition Index: 34443
+// Method Definition Index: 34549
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetRTPCValue__SWIG_6_mD7D9040A7072CE8748DC5C9FC93382D6F5AF25A4 (String_t* ___0_jarg1, float ___1_jarg2, uint64_t ___2_jarg3, int32_t ___3_jarg4, int32_t ___4_jarg5, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, float, uint64_t, int32_t, int32_t);
@@ -19923,7 +19923,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetRTPCVa
 
 	return returnValue;
 }
-// Method Definition Index: 34444
+// Method Definition Index: 34550
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetRTPCValue__SWIG_7_m16E8BDD5745450B7778DC61D6EC245802C25E152 (String_t* ___0_jarg1, float ___1_jarg2, uint64_t ___2_jarg3, int32_t ___3_jarg4, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, float, uint64_t, int32_t);
@@ -19951,7 +19951,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetRTPCVa
 
 	return returnValue;
 }
-// Method Definition Index: 34445
+// Method Definition Index: 34551
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetRTPCValue__SWIG_8_m00A7DC8952015D9021AD8C882A87B7C7F3869EE1 (String_t* ___0_jarg1, float ___1_jarg2, uint64_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, float, uint64_t);
@@ -19979,7 +19979,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetRTPCVa
 
 	return returnValue;
 }
-// Method Definition Index: 34446
+// Method Definition Index: 34552
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetRTPCValue__SWIG_9_m50CFCCC56D7C5A37B3C3A4A4BD482BF3DF6DC43D (String_t* ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, float);
@@ -20007,7 +20007,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetRTPCVa
 
 	return returnValue;
 }
-// Method Definition Index: 34447
+// Method Definition Index: 34553
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetRTPCValueByPlayingID__SWIG_0_mD0E4FBE81A05E5E7F9E898DECAC894FE6AF1D2E4 (uint32_t ___0_jarg1, float ___1_jarg2, uint32_t ___2_jarg3, int32_t ___3_jarg4, int32_t ___4_jarg5, bool ___5_jarg6, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, float, uint32_t, int32_t, int32_t, int32_t);
@@ -20029,7 +20029,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetRTPCVa
 
 	return returnValue;
 }
-// Method Definition Index: 34448
+// Method Definition Index: 34554
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetRTPCValueByPlayingID__SWIG_1_m720D252644D27E7527C555D9C17B322D186B5BEC (uint32_t ___0_jarg1, float ___1_jarg2, uint32_t ___2_jarg3, int32_t ___3_jarg4, int32_t ___4_jarg5, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, float, uint32_t, int32_t, int32_t);
@@ -20051,7 +20051,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetRTPCVa
 
 	return returnValue;
 }
-// Method Definition Index: 34449
+// Method Definition Index: 34555
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetRTPCValueByPlayingID__SWIG_2_mD0E923A6B4354AC31C127BF90DF4557217925865 (uint32_t ___0_jarg1, float ___1_jarg2, uint32_t ___2_jarg3, int32_t ___3_jarg4, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, float, uint32_t, int32_t);
@@ -20073,7 +20073,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetRTPCVa
 
 	return returnValue;
 }
-// Method Definition Index: 34450
+// Method Definition Index: 34556
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetRTPCValueByPlayingID__SWIG_3_mE34A15083BFFF621CBB58191735A6CFACED2D022 (uint32_t ___0_jarg1, float ___1_jarg2, uint32_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, float, uint32_t);
@@ -20095,7 +20095,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetRTPCVa
 
 	return returnValue;
 }
-// Method Definition Index: 34451
+// Method Definition Index: 34557
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetRTPCValueByPlayingID__SWIG_4_mDA6C739DBCF71CF8AB84795B77012EB1FD1A3DEA (String_t* ___0_jarg1, float ___1_jarg2, uint32_t ___2_jarg3, int32_t ___3_jarg4, int32_t ___4_jarg5, bool ___5_jarg6, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, float, uint32_t, int32_t, int32_t, int32_t);
@@ -20123,7 +20123,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetRTPCVa
 
 	return returnValue;
 }
-// Method Definition Index: 34452
+// Method Definition Index: 34558
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetRTPCValueByPlayingID__SWIG_5_m92091C4C5AE03714EB520BBA53A1B45572C24D88 (String_t* ___0_jarg1, float ___1_jarg2, uint32_t ___2_jarg3, int32_t ___3_jarg4, int32_t ___4_jarg5, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, float, uint32_t, int32_t, int32_t);
@@ -20151,7 +20151,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetRTPCVa
 
 	return returnValue;
 }
-// Method Definition Index: 34453
+// Method Definition Index: 34559
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetRTPCValueByPlayingID__SWIG_6_m9AAFB94A97510BB6C019D366C2875A54C9DCB0A6 (String_t* ___0_jarg1, float ___1_jarg2, uint32_t ___2_jarg3, int32_t ___3_jarg4, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, float, uint32_t, int32_t);
@@ -20179,7 +20179,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetRTPCVa
 
 	return returnValue;
 }
-// Method Definition Index: 34454
+// Method Definition Index: 34560
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetRTPCValueByPlayingID__SWIG_7_m2E9EB7F015CE738B37702249C2B928DD58E84F1D (String_t* ___0_jarg1, float ___1_jarg2, uint32_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, float, uint32_t);
@@ -20207,7 +20207,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetRTPCVa
 
 	return returnValue;
 }
-// Method Definition Index: 34455
+// Method Definition Index: 34561
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ResetRTPCValue__SWIG_0_m8628E29D24D594CA3AED7F6819861C63FA2F60C2 (uint32_t ___0_jarg1, uint64_t ___1_jarg2, int32_t ___2_jarg3, int32_t ___3_jarg4, bool ___4_jarg5, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint64_t, int32_t, int32_t, int32_t);
@@ -20229,7 +20229,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ResetRTPC
 
 	return returnValue;
 }
-// Method Definition Index: 34456
+// Method Definition Index: 34562
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ResetRTPCValue__SWIG_1_mEF99447FFD54ABEF505EDA38DC72970EEC8A991A (uint32_t ___0_jarg1, uint64_t ___1_jarg2, int32_t ___2_jarg3, int32_t ___3_jarg4, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint64_t, int32_t, int32_t);
@@ -20251,7 +20251,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ResetRTPC
 
 	return returnValue;
 }
-// Method Definition Index: 34457
+// Method Definition Index: 34563
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ResetRTPCValue__SWIG_2_mE807B5468798D118CB1895DB9BC5491E287B94AD (uint32_t ___0_jarg1, uint64_t ___1_jarg2, int32_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint64_t, int32_t);
@@ -20273,7 +20273,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ResetRTPC
 
 	return returnValue;
 }
-// Method Definition Index: 34458
+// Method Definition Index: 34564
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ResetRTPCValue__SWIG_3_m65A5843743244032DECA5C66D611D77A2918F5A7 (uint32_t ___0_jarg1, uint64_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint64_t);
@@ -20295,7 +20295,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ResetRTPC
 
 	return returnValue;
 }
-// Method Definition Index: 34459
+// Method Definition Index: 34565
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ResetRTPCValue__SWIG_4_m37270196C4C534FBC16B5BC92009DDB5C9A0AC5F (uint32_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t);
@@ -20317,7 +20317,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ResetRTPC
 
 	return returnValue;
 }
-// Method Definition Index: 34460
+// Method Definition Index: 34566
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ResetRTPCValue__SWIG_5_mD9BE08B315F3B0216512313040DA24C73DB0CF99 (String_t* ___0_jarg1, uint64_t ___1_jarg2, int32_t ___2_jarg3, int32_t ___3_jarg4, bool ___4_jarg5, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, uint64_t, int32_t, int32_t, int32_t);
@@ -20345,7 +20345,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ResetRTPC
 
 	return returnValue;
 }
-// Method Definition Index: 34461
+// Method Definition Index: 34567
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ResetRTPCValue__SWIG_6_m187C20FBD833D75D30627A0F49B78941F936AD0E (String_t* ___0_jarg1, uint64_t ___1_jarg2, int32_t ___2_jarg3, int32_t ___3_jarg4, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, uint64_t, int32_t, int32_t);
@@ -20373,7 +20373,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ResetRTPC
 
 	return returnValue;
 }
-// Method Definition Index: 34462
+// Method Definition Index: 34568
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ResetRTPCValue__SWIG_7_m36ED148F9FF64020BA6A5D251FF877F1E2A9EA00 (String_t* ___0_jarg1, uint64_t ___1_jarg2, int32_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, uint64_t, int32_t);
@@ -20401,7 +20401,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ResetRTPC
 
 	return returnValue;
 }
-// Method Definition Index: 34463
+// Method Definition Index: 34569
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ResetRTPCValue__SWIG_8_mA3EADD024F61B6391232F5636F51210E074140B5 (String_t* ___0_jarg1, uint64_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, uint64_t);
@@ -20429,7 +20429,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ResetRTPC
 
 	return returnValue;
 }
-// Method Definition Index: 34464
+// Method Definition Index: 34570
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ResetRTPCValue__SWIG_9_mD94BAEB7A0D0CAE54D2861FE901F625A536F7727 (String_t* ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*);
@@ -20457,7 +20457,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ResetRTPC
 
 	return returnValue;
 }
-// Method Definition Index: 34465
+// Method Definition Index: 34571
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetSwitch__SWIG_0_mC5F5EBBFA8084CAD49172EBC7D58F589CD05C047 (uint32_t ___0_jarg1, uint32_t ___1_jarg2, uint64_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint32_t, uint64_t);
@@ -20479,7 +20479,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetSwitch
 
 	return returnValue;
 }
-// Method Definition Index: 34466
+// Method Definition Index: 34572
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetSwitch__SWIG_1_mAAB3A5DB1A9C6FF9913782B5A2431C89F2BF2F84 (String_t* ___0_jarg1, String_t* ___1_jarg2, uint64_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, char*, uint64_t);
@@ -20513,7 +20513,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetSwitch
 
 	return returnValue;
 }
-// Method Definition Index: 34467
+// Method Definition Index: 34573
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PostTrigger__SWIG_0_m52DDB9F4AC922B6D7B5F6043E449D25A4CE5E6D1 (uint32_t ___0_jarg1, uint64_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint64_t);
@@ -20535,7 +20535,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PostTrigg
 
 	return returnValue;
 }
-// Method Definition Index: 34468
+// Method Definition Index: 34574
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PostTrigger__SWIG_1_mB6AE5254B914F4B2F55A4922943869BE137A3244 (String_t* ___0_jarg1, uint64_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, uint64_t);
@@ -20563,7 +20563,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PostTrigg
 
 	return returnValue;
 }
-// Method Definition Index: 34469
+// Method Definition Index: 34575
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetState__SWIG_0_m237B9CB80FF7B512326CE3C8E30FA2A645B96BC5 (uint32_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint32_t);
@@ -20585,7 +20585,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetState_
 
 	return returnValue;
 }
-// Method Definition Index: 34470
+// Method Definition Index: 34576
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetState__SWIG_1_m1E9E9877EEC10F9A2FA3B4337ADE1D6863ECB532 (String_t* ___0_jarg1, String_t* ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, char*);
@@ -20619,7 +20619,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetState_
 
 	return returnValue;
 }
-// Method Definition Index: 34471
+// Method Definition Index: 34577
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetGameObjectAuxSendValues_mF2A6279C5E4E70BAA5DC3BD94843920CAEF513EC (uint64_t ___0_jarg1, intptr_t ___1_jarg2, uint32_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, intptr_t, uint32_t);
@@ -20641,7 +20641,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetGameOb
 
 	return returnValue;
 }
-// Method Definition Index: 34472
+// Method Definition Index: 34578
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetGameObjectOutputBusVolume_mA6A1919169F1F718B50C649D71C91D21855FFAF7 (uint64_t ___0_jarg1, uint64_t ___1_jarg2, float ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, uint64_t, float);
@@ -20663,7 +20663,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetGameOb
 
 	return returnValue;
 }
-// Method Definition Index: 34473
+// Method Definition Index: 34579
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetActorMixerEffect_m470E047D599E78CE664CB250408F687509164DB1 (uint32_t ___0_jarg1, uint32_t ___1_jarg2, uint32_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint32_t, uint32_t);
@@ -20685,7 +20685,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetActorM
 
 	return returnValue;
 }
-// Method Definition Index: 34474
+// Method Definition Index: 34580
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetBusEffect__SWIG_0_mA2C9254EFB62F488BF065ED0AB260E172A9DA766 (uint32_t ___0_jarg1, uint32_t ___1_jarg2, uint32_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint32_t, uint32_t);
@@ -20707,7 +20707,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetBusEff
 
 	return returnValue;
 }
-// Method Definition Index: 34475
+// Method Definition Index: 34581
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetBusEffect__SWIG_1_m3B6A1DE70201C7F4518293255E08C53A19AB40E6 (String_t* ___0_jarg1, uint32_t ___1_jarg2, uint32_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, uint32_t, uint32_t);
@@ -20735,7 +20735,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetBusEff
 
 	return returnValue;
 }
-// Method Definition Index: 34476
+// Method Definition Index: 34582
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetMixer__SWIG_0_mAC9C246CD266556FA1E988D335D60EA6B07AB8B7 (uint32_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint32_t);
@@ -20757,7 +20757,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetMixer_
 
 	return returnValue;
 }
-// Method Definition Index: 34477
+// Method Definition Index: 34583
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetMixer__SWIG_1_m6ED5E88DDEE0AA5114564E05382D58F4691FB794 (String_t* ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, uint32_t);
@@ -20785,7 +20785,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetMixer_
 
 	return returnValue;
 }
-// Method Definition Index: 34478
+// Method Definition Index: 34584
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetBusConfig__SWIG_0_m37F9AD4BA6DE7A819E1377C7950ABEB079F9FF38 (uint32_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, intptr_t);
@@ -20807,7 +20807,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetBusCon
 
 	return returnValue;
 }
-// Method Definition Index: 34479
+// Method Definition Index: 34585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetBusConfig__SWIG_1_m2A04B5ED8FC733FF0060C22B118D1A2508F4ED36 (String_t* ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, intptr_t);
@@ -20835,7 +20835,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetBusCon
 
 	return returnValue;
 }
-// Method Definition Index: 34480
+// Method Definition Index: 34586
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetObjectObstructionAndOcclusion_m3C5CC2BCCEFD95EDA3FBADB2DFDAF74721160E3E (uint64_t ___0_jarg1, uint64_t ___1_jarg2, float ___2_jarg3, float ___3_jarg4, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, uint64_t, float, float);
@@ -20857,7 +20857,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetObject
 
 	return returnValue;
 }
-// Method Definition Index: 34481
+// Method Definition Index: 34587
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetMultipleObstructionAndOcclusion_mED0CC41977FFC3DF2CD92929D9AA9FF8A9D0FE74 (uint64_t ___0_jarg1, uint64_t ___1_jarg2, intptr_t ___2_jarg3, uint32_t ___3_jarg4, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, uint64_t, intptr_t, uint32_t);
@@ -20879,7 +20879,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetMultip
 
 	return returnValue;
 }
-// Method Definition Index: 34482
+// Method Definition Index: 34588
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_StartOutputCapture_m9CF6BD1AF74144AEF426E05DE5A55F3969D6B80F (String_t* ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*);
@@ -20907,7 +20907,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_StartOutp
 
 	return returnValue;
 }
-// Method Definition Index: 34483
+// Method Definition Index: 34589
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_StopOutputCapture_mDAD0ED36C03F9959979792496C70B3A1995CA9EC (const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -20929,7 +20929,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_StopOutpu
 
 	return returnValue;
 }
-// Method Definition Index: 34484
+// Method Definition Index: 34590
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AddOutputCaptureMarker_m107CA73DCD3F5DE8E3F182AA0A797D2473A56E94 (String_t* ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*);
@@ -20957,7 +20957,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AddOutput
 
 	return returnValue;
 }
-// Method Definition Index: 34485
+// Method Definition Index: 34591
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_StartProfilerCapture_m9A6D196C0D379BA4DB4DAE7B6598B8A58BF8B8FC (String_t* ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*);
@@ -20985,7 +20985,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_StartProf
 
 	return returnValue;
 }
-// Method Definition Index: 34486
+// Method Definition Index: 34592
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_StopProfilerCapture_m347E070BF74E6C47900E445B399A9698394087E0 (const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -21007,7 +21007,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_StopProfi
 
 	return returnValue;
 }
-// Method Definition Index: 34487
+// Method Definition Index: 34593
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_RemoveOutput_mA92F9CBB8B66B3BDB611CC76FCCC540BD8FDDF8D (uint64_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t);
@@ -21029,7 +21029,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_RemoveOut
 
 	return returnValue;
 }
-// Method Definition Index: 34488
+// Method Definition Index: 34594
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ReplaceOutput__SWIG_0_m7B383379E3967C66A920C5A1FBE5F31208C474B2 (intptr_t ___0_jarg1, uint64_t ___1_jarg2, uint64_t* ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint64_t, uint64_t*);
@@ -21051,7 +21051,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ReplaceOu
 
 	return returnValue;
 }
-// Method Definition Index: 34489
+// Method Definition Index: 34595
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ReplaceOutput__SWIG_1_m11394620FE23BC88C1F19CCF2D4042B61CCFAC4B (intptr_t ___0_jarg1, uint64_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint64_t);
@@ -21073,7 +21073,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ReplaceOu
 
 	return returnValue;
 }
-// Method Definition Index: 34490
+// Method Definition Index: 34596
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t AkSoundEnginePINVOKE_CSharp_GetOutputID__SWIG_0_mAC0044667C4DF6F82600027A74CBE87B88287592 (uint32_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef uint64_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint32_t);
@@ -21095,7 +21095,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t AkSoundEnginePINVOKE_CSharp_GetOutpu
 
 	return returnValue;
 }
-// Method Definition Index: 34491
+// Method Definition Index: 34597
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t AkSoundEnginePINVOKE_CSharp_GetOutputID__SWIG_1_mED0DE683269B0B8335B0B6E6C6AFA6B0378879CB (String_t* ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef uint64_t (DEFAULT_CALL *PInvokeFunc) (char*, uint32_t);
@@ -21123,7 +21123,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t AkSoundEnginePINVOKE_CSharp_GetOutpu
 
 	return returnValue;
 }
-// Method Definition Index: 34492
+// Method Definition Index: 34598
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetBusDevice__SWIG_0_m05E5378B045915FCBD95E6C17C962EF72AA19164 (uint32_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint32_t);
@@ -21145,7 +21145,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetBusDev
 
 	return returnValue;
 }
-// Method Definition Index: 34493
+// Method Definition Index: 34599
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetBusDevice__SWIG_1_mBB99E6BE0CA08BA17A470010D7BB936710A55E65 (String_t* ___0_jarg1, String_t* ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, char*);
@@ -21179,7 +21179,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetBusDev
 
 	return returnValue;
 }
-// Method Definition Index: 34494
+// Method Definition Index: 34600
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetDeviceList__SWIG_0_m1C2693FE006017397C68244B9292225A65081602 (uint32_t ___0_jarg1, uint32_t ___1_jarg2, uint32_t* ___2_jarg3, intptr_t ___3_jarg4, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint32_t, uint32_t*, intptr_t);
@@ -21201,7 +21201,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetDevice
 
 	return returnValue;
 }
-// Method Definition Index: 34495
+// Method Definition Index: 34601
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetDeviceList__SWIG_1_m188E9518E470D687135474980F9E52B41B5EE634 (uint32_t ___0_jarg1, uint32_t* ___1_jarg2, intptr_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint32_t*, intptr_t);
@@ -21223,7 +21223,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetDevice
 
 	return returnValue;
 }
-// Method Definition Index: 34496
+// Method Definition Index: 34602
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetOutputVolume_m21C09EF9D8E574CD47D5976D1BEFD894C8C60F25 (uint64_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, float);
@@ -21245,7 +21245,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetOutput
 
 	return returnValue;
 }
-// Method Definition Index: 34497
+// Method Definition Index: 34603
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetDeviceSpatialAudioSupport_m3DB354C6FFA1B53928A21028300357098FE1D307 (uint32_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t);
@@ -21267,7 +21267,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetDevice
 
 	return returnValue;
 }
-// Method Definition Index: 34498
+// Method Definition Index: 34604
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_Suspend__SWIG_0_m63DC6720EADB054884DBD93937C5EF3215E1830D (bool ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
@@ -21289,7 +21289,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_Suspend__
 
 	return returnValue;
 }
-// Method Definition Index: 34499
+// Method Definition Index: 34605
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_Suspend__SWIG_1_m6953CBE24EE79305C15A727F1A4929EDA9511F5E (const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -21311,7 +21311,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_Suspend__
 
 	return returnValue;
 }
-// Method Definition Index: 34500
+// Method Definition Index: 34606
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_WakeupFromSuspend_m3F22B87C6E686719CCA92CE6F48AC8200EB09761 (const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -21333,7 +21333,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_WakeupFro
 
 	return returnValue;
 }
-// Method Definition Index: 34501
+// Method Definition Index: 34607
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_GetBufferTick_m9CD0E9CE5537605A852C845A7CD504A893F5AC11 (const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -21355,7 +21355,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_GetBuffe
 
 	return returnValue;
 }
-// Method Definition Index: 34502
+// Method Definition Index: 34608
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSegmentInfo_iCurrentPosition_set_m3D6E6C9ABDB6F5EA53A9441806264FACBC580A18 (intptr_t ___0_jarg1, int32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
@@ -21376,7 +21376,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSegmentInf
 	#endif
 
 }
-// Method Definition Index: 34503
+// Method Definition Index: 34609
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkSegmentInfo_iCurrentPosition_get_mC616C1B43619A0274739B5F9A0B0C098CCA794A0 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -21398,7 +21398,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkSegment
 
 	return returnValue;
 }
-// Method Definition Index: 34504
+// Method Definition Index: 34610
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSegmentInfo_iPreEntryDuration_set_mB44E6E508B27A005996AC896E43A77A8E93001CF (intptr_t ___0_jarg1, int32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
@@ -21419,7 +21419,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSegmentInf
 	#endif
 
 }
-// Method Definition Index: 34505
+// Method Definition Index: 34611
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkSegmentInfo_iPreEntryDuration_get_mA47628D6D7395A8A7478E3C015209F55A6EFCD08 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -21441,7 +21441,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkSegment
 
 	return returnValue;
 }
-// Method Definition Index: 34506
+// Method Definition Index: 34612
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSegmentInfo_iActiveDuration_set_m7CEB144DD5E3332E67B128D1CADD059FDE3738F6 (intptr_t ___0_jarg1, int32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
@@ -21462,7 +21462,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSegmentInf
 	#endif
 
 }
-// Method Definition Index: 34507
+// Method Definition Index: 34613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkSegmentInfo_iActiveDuration_get_m9307DFBB7542EE75622C2274BFC7129EE34B6166 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -21484,7 +21484,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkSegment
 
 	return returnValue;
 }
-// Method Definition Index: 34508
+// Method Definition Index: 34614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSegmentInfo_iPostExitDuration_set_m456D512BF84D3449B8DA2DF20E0B2CF658CD2F65 (intptr_t ___0_jarg1, int32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
@@ -21505,7 +21505,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSegmentInf
 	#endif
 
 }
-// Method Definition Index: 34509
+// Method Definition Index: 34615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkSegmentInfo_iPostExitDuration_get_mE1D2EA515315E050DF7380F14DEB624FF10B45E2 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -21527,7 +21527,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkSegment
 
 	return returnValue;
 }
-// Method Definition Index: 34510
+// Method Definition Index: 34616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSegmentInfo_iRemainingLookAheadTime_set_mABD028E450CEC6FA82ECD07D973E3AC866686EC8 (intptr_t ___0_jarg1, int32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
@@ -21548,7 +21548,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSegmentInf
 	#endif
 
 }
-// Method Definition Index: 34511
+// Method Definition Index: 34617
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkSegmentInfo_iRemainingLookAheadTime_get_m4AFC39098932D77DEF2277D3409D7003A47A72C1 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -21570,7 +21570,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkSegment
 
 	return returnValue;
 }
-// Method Definition Index: 34512
+// Method Definition Index: 34618
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSegmentInfo_fBeatDuration_set_mFF26538AE7999EA306FE3FCEF73CEE12F1BB4386 (intptr_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float);
@@ -21591,7 +21591,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSegmentInf
 	#endif
 
 }
-// Method Definition Index: 34513
+// Method Definition Index: 34619
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkSegmentInfo_fBeatDuration_get_mC118D5A187CA132544785917792B854F0377E838 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -21613,7 +21613,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkSegmentIn
 
 	return returnValue;
 }
-// Method Definition Index: 34514
+// Method Definition Index: 34620
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSegmentInfo_fBarDuration_set_mCB05920F7A95E7036C23812F31F8957DBB9069D7 (intptr_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float);
@@ -21634,7 +21634,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSegmentInf
 	#endif
 
 }
-// Method Definition Index: 34515
+// Method Definition Index: 34621
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkSegmentInfo_fBarDuration_get_m7AA0A931CBB6501122244F8391557E4F338C2B51 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -21656,7 +21656,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkSegmentIn
 
 	return returnValue;
 }
-// Method Definition Index: 34516
+// Method Definition Index: 34622
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSegmentInfo_fGridDuration_set_mE22A4C87F39BAD18653AE1E18F74B1860C916961 (intptr_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float);
@@ -21677,7 +21677,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSegmentInf
 	#endif
 
 }
-// Method Definition Index: 34517
+// Method Definition Index: 34623
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkSegmentInfo_fGridDuration_get_m02A1E303028AFE1B9844BCE5BFFD79949DBC59C0 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -21699,7 +21699,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkSegmentIn
 
 	return returnValue;
 }
-// Method Definition Index: 34518
+// Method Definition Index: 34624
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSegmentInfo_fGridOffset_set_mDBCD27E0A7F12DFE0379D5777F990AF2CAA4F2F0 (intptr_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float);
@@ -21720,7 +21720,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSegmentInf
 	#endif
 
 }
-// Method Definition Index: 34519
+// Method Definition Index: 34625
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkSegmentInfo_fGridOffset_get_mBA2A7D7C11CD41629FB47D93214DEF923937F01B (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -21742,7 +21742,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkSegmentIn
 
 	return returnValue;
 }
-// Method Definition Index: 34520
+// Method Definition Index: 34626
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkSegmentInfo_mD3A4836D3A4FB0ACD2B9268BD7E3AE55C31F05F3 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -21764,7 +21764,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkSe
 
 	return returnValue;
 }
-// Method Definition Index: 34521
+// Method Definition Index: 34627
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkSegmentInfo_m01BB32B316285C71C4C974EA1050F5D5600A84DE (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -21785,7 +21785,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkSeg
 	#endif
 
 }
-// Method Definition Index: 34522
+// Method Definition Index: 34628
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkResourceMonitorDataSummary_totalCPU_set_mFADD0047610A3CE9B640AA9431F69C332D9760C8 (intptr_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float);
@@ -21806,7 +21806,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkResourceMo
 	#endif
 
 }
-// Method Definition Index: 34523
+// Method Definition Index: 34629
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkResourceMonitorDataSummary_totalCPU_get_m1E2526A1F8CBAF9BA1B7BE1CF9B107C6213120CF (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -21828,7 +21828,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkResourceM
 
 	return returnValue;
 }
-// Method Definition Index: 34524
+// Method Definition Index: 34630
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkResourceMonitorDataSummary_pluginCPU_set_m1CEE185B383E49A5FB51611B91AE2D63ABBA58ED (intptr_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float);
@@ -21849,7 +21849,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkResourceMo
 	#endif
 
 }
-// Method Definition Index: 34525
+// Method Definition Index: 34631
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkResourceMonitorDataSummary_pluginCPU_get_m540D1378F4FF315DE754417F78A88C8CECC4BCFC (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -21871,7 +21871,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkResourceM
 
 	return returnValue;
 }
-// Method Definition Index: 34526
+// Method Definition Index: 34632
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkResourceMonitorDataSummary_physicalVoices_set_mFF85B22CBC83010F5A30C828F8EA55F1886A02FA (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -21892,7 +21892,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkResourceMo
 	#endif
 
 }
-// Method Definition Index: 34527
+// Method Definition Index: 34633
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkResourceMonitorDataSummary_physicalVoices_get_m4C732ABF69F7D1AFD5A3094C346519790477EFE7 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -21914,7 +21914,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkResour
 
 	return returnValue;
 }
-// Method Definition Index: 34528
+// Method Definition Index: 34634
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkResourceMonitorDataSummary_virtualVoices_set_mFF7A479D88C891FDF8B3944956F158425B162ACE (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -21935,7 +21935,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkResourceMo
 	#endif
 
 }
-// Method Definition Index: 34529
+// Method Definition Index: 34635
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkResourceMonitorDataSummary_virtualVoices_get_mFFA267EFEEE23B99BD92040C3CF557C2F470C1CF (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -21957,7 +21957,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkResour
 
 	return returnValue;
 }
-// Method Definition Index: 34530
+// Method Definition Index: 34636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkResourceMonitorDataSummary_totalVoices_set_mFEFB40DF461C96431CC04F542F9051774BC53D79 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -21978,7 +21978,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkResourceMo
 	#endif
 
 }
-// Method Definition Index: 34531
+// Method Definition Index: 34637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkResourceMonitorDataSummary_totalVoices_get_m4C52EFBAD4D4755C4F43D83E350F0E9EA4A6C982 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -22000,7 +22000,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkResour
 
 	return returnValue;
 }
-// Method Definition Index: 34532
+// Method Definition Index: 34638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkResourceMonitorDataSummary_nbActiveEvents_set_m5515DE7DB43825940F4CE40EA08EFAC83CC24805 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -22021,7 +22021,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkResourceMo
 	#endif
 
 }
-// Method Definition Index: 34533
+// Method Definition Index: 34639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkResourceMonitorDataSummary_nbActiveEvents_get_m2CC16B995C63EE335C1ED502E31FFBE61CD89C50 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -22043,7 +22043,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkResour
 
 	return returnValue;
 }
-// Method Definition Index: 34534
+// Method Definition Index: 34640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkResourceMonitorDataSummary_m5FAF6FF1C68D142A0D1EC31764CF322B55966084 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -22065,7 +22065,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkRe
 
 	return returnValue;
 }
-// Method Definition Index: 34535
+// Method Definition Index: 34641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkResourceMonitorDataSummary_m82E626D5BE2D3695EBEA830361F0744E26968AC0 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -22086,7 +22086,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkRes
 	#endif
 
 }
-// Method Definition Index: 34536
+// Method Definition Index: 34642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AK_INVALID_MIDI_CHANNEL_get_m751EE3E99DE274E6AE49E95D4D29158D2ABF1CFC (const RuntimeMethod* method) 
 {
 	typedef uint8_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -22108,7 +22108,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AK_INVALI
 
 	return returnValue;
 }
-// Method Definition Index: 34537
+// Method Definition Index: 34643
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AK_INVALID_MIDI_NOTE_get_mE6E066FF777AEA93DF2DAC5A5C2D7DB67B52EBBD (const RuntimeMethod* method) 
 {
 	typedef uint8_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -22130,7 +22130,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AK_INVALI
 
 	return returnValue;
 }
-// Method Definition Index: 34538
+// Method Definition Index: 34644
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_byChan_set_m8F1AD8632AC9177A17C02E548157B2838F8A0A52 (intptr_t ___0_jarg1, uint8_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint8_t);
@@ -22151,7 +22151,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_
 	#endif
 
 }
-// Method Definition Index: 34539
+// Method Definition Index: 34645
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_byChan_get_mCAC2318F34200255FFFE0770C0EB44BD19156B83 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint8_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -22173,7 +22173,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEve
 
 	return returnValue;
 }
-// Method Definition Index: 34540
+// Method Definition Index: 34646
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_tGen_byParam1_set_mF60F79B3A2FC6CBDC78B66C2A56A901F2B398D97 (intptr_t ___0_jarg1, uint8_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint8_t);
@@ -22194,7 +22194,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_
 	#endif
 
 }
-// Method Definition Index: 34541
+// Method Definition Index: 34647
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_tGen_byParam1_get_m7249A64589A35AC0FC2B1EAF793D8C4DDC2E93F4 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint8_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -22216,7 +22216,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEve
 
 	return returnValue;
 }
-// Method Definition Index: 34542
+// Method Definition Index: 34648
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_tGen_byParam2_set_m0734C34344C81B203C112758C9A5EC3D57C96A85 (intptr_t ___0_jarg1, uint8_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint8_t);
@@ -22237,7 +22237,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_
 	#endif
 
 }
-// Method Definition Index: 34543
+// Method Definition Index: 34649
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_tGen_byParam2_get_m642D6C712C196ED2AD1B2A8B57354177205794D5 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint8_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -22259,7 +22259,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEve
 
 	return returnValue;
 }
-// Method Definition Index: 34544
+// Method Definition Index: 34650
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkMIDIEvent_tGen_mF6F3ACF6C743D47DF1595421921A5DC61FC93428 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -22281,7 +22281,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkMI
 
 	return returnValue;
 }
-// Method Definition Index: 34545
+// Method Definition Index: 34651
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkMIDIEvent_tGen_mCA575E1BBAD8CC665EBFC57EF7BD64217E33031E (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -22302,7 +22302,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkMID
 	#endif
 
 }
-// Method Definition Index: 34546
+// Method Definition Index: 34652
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_tNoteOnOff_byNote_set_mC8EB12092752F305EC8D993291D1DD41E5C90FDA (intptr_t ___0_jarg1, uint8_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint8_t);
@@ -22323,7 +22323,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_
 	#endif
 
 }
-// Method Definition Index: 34547
+// Method Definition Index: 34653
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_tNoteOnOff_byNote_get_m2EFEF2B81D06D7C5CDC186F7D9992FCB2EA8888E (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint8_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -22345,7 +22345,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEve
 
 	return returnValue;
 }
-// Method Definition Index: 34548
+// Method Definition Index: 34654
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_tNoteOnOff_byVelocity_set_mFE7C0297B521BCDE163D027785C758404E6C90C5 (intptr_t ___0_jarg1, uint8_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint8_t);
@@ -22366,7 +22366,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_
 	#endif
 
 }
-// Method Definition Index: 34549
+// Method Definition Index: 34655
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_tNoteOnOff_byVelocity_get_mB650F90E18A9030C36A6E701DD7E85991E92838A (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint8_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -22388,7 +22388,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEve
 
 	return returnValue;
 }
-// Method Definition Index: 34550
+// Method Definition Index: 34656
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkMIDIEvent_tNoteOnOff_m96AF2A4FEFEF2D539896D5F02ACFCA3C3B603DE7 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -22410,7 +22410,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkMI
 
 	return returnValue;
 }
-// Method Definition Index: 34551
+// Method Definition Index: 34657
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkMIDIEvent_tNoteOnOff_m8553A4877868DCFB64FA111BD90AA5E922AFDCC8 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -22431,7 +22431,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkMID
 	#endif
 
 }
-// Method Definition Index: 34552
+// Method Definition Index: 34658
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_tCc_byCc_set_mF18AAAA1C4C85E2D090D6442BE196C66B99F87D9 (intptr_t ___0_jarg1, uint8_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint8_t);
@@ -22452,7 +22452,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_
 	#endif
 
 }
-// Method Definition Index: 34553
+// Method Definition Index: 34659
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_tCc_byCc_get_mAB3F353C02B236E1E93875EDEA5163D0E306662B (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint8_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -22474,7 +22474,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEve
 
 	return returnValue;
 }
-// Method Definition Index: 34554
+// Method Definition Index: 34660
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_tCc_byValue_set_m7E1AD2E83BA15AFBD5BF8D2371FF66346225B21E (intptr_t ___0_jarg1, uint8_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint8_t);
@@ -22495,7 +22495,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_
 	#endif
 
 }
-// Method Definition Index: 34555
+// Method Definition Index: 34661
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_tCc_byValue_get_m15A73C2314712EB773E4E4175D8DEEBF2408E42D (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint8_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -22517,7 +22517,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEve
 
 	return returnValue;
 }
-// Method Definition Index: 34556
+// Method Definition Index: 34662
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkMIDIEvent_tCc_mFF199EF8840FF8899173954B760BCDEE33A55D72 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -22539,7 +22539,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkMI
 
 	return returnValue;
 }
-// Method Definition Index: 34557
+// Method Definition Index: 34663
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkMIDIEvent_tCc_mA2B22D754DCAC3C1597BBC9B2425EE4BE51D44D6 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -22560,7 +22560,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkMID
 	#endif
 
 }
-// Method Definition Index: 34558
+// Method Definition Index: 34664
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_tPitchBend_byValueLsb_set_m465C2A43C675D3806AA8DD0C0C64F9B56EABB6DD (intptr_t ___0_jarg1, uint8_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint8_t);
@@ -22581,7 +22581,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_
 	#endif
 
 }
-// Method Definition Index: 34559
+// Method Definition Index: 34665
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_tPitchBend_byValueLsb_get_m045FFB32B6FF5925F162D3FEC6333B296503A181 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint8_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -22603,7 +22603,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEve
 
 	return returnValue;
 }
-// Method Definition Index: 34560
+// Method Definition Index: 34666
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_tPitchBend_byValueMsb_set_m585BD30463194B3B65906321657D83F463867997 (intptr_t ___0_jarg1, uint8_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint8_t);
@@ -22624,7 +22624,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_
 	#endif
 
 }
-// Method Definition Index: 34561
+// Method Definition Index: 34667
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_tPitchBend_byValueMsb_get_m4C4B9B8D825997C578AB52625067D0A8A8A49DDC (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint8_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -22646,7 +22646,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEve
 
 	return returnValue;
 }
-// Method Definition Index: 34562
+// Method Definition Index: 34668
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkMIDIEvent_tPitchBend_m27F093F2FDD2F662709EF2B855332B515DB382C5 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -22668,7 +22668,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkMI
 
 	return returnValue;
 }
-// Method Definition Index: 34563
+// Method Definition Index: 34669
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkMIDIEvent_tPitchBend_mF3FC3EE5AF361BC6314E6618A3358DAAE0EE9145 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -22689,7 +22689,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkMID
 	#endif
 
 }
-// Method Definition Index: 34564
+// Method Definition Index: 34670
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_tNoteAftertouch_byNote_set_mC2D88F11F432DBF81D1B18BFE7131A4D81C57A68 (intptr_t ___0_jarg1, uint8_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint8_t);
@@ -22710,7 +22710,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_
 	#endif
 
 }
-// Method Definition Index: 34565
+// Method Definition Index: 34671
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_tNoteAftertouch_byNote_get_mB5C74DFB20BAF91214E50C5FD695767E097BD286 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint8_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -22732,7 +22732,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEve
 
 	return returnValue;
 }
-// Method Definition Index: 34566
+// Method Definition Index: 34672
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_tNoteAftertouch_byValue_set_m1609C0212F2EF37AED7B6618A1F58947577B6460 (intptr_t ___0_jarg1, uint8_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint8_t);
@@ -22753,7 +22753,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_
 	#endif
 
 }
-// Method Definition Index: 34567
+// Method Definition Index: 34673
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_tNoteAftertouch_byValue_get_mEB8FC0BC48B7B72DEE66EDF8697FC40D9BB6D5CC (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint8_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -22775,7 +22775,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEve
 
 	return returnValue;
 }
-// Method Definition Index: 34568
+// Method Definition Index: 34674
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkMIDIEvent_tNoteAftertouch_m3F3446B568DDE1C256E19DAF9925229494518FE8 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -22797,7 +22797,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkMI
 
 	return returnValue;
 }
-// Method Definition Index: 34569
+// Method Definition Index: 34675
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkMIDIEvent_tNoteAftertouch_mE5CDB0F1A0DC2BA8722FFA5FBB3005B887E54AFE (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -22818,7 +22818,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkMID
 	#endif
 
 }
-// Method Definition Index: 34570
+// Method Definition Index: 34676
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_tChanAftertouch_byValue_set_mC7BAD0E16446C57333BDFA750E7E75000E0DA861 (intptr_t ___0_jarg1, uint8_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint8_t);
@@ -22839,7 +22839,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_
 	#endif
 
 }
-// Method Definition Index: 34571
+// Method Definition Index: 34677
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_tChanAftertouch_byValue_get_mFD4A2DDE54C975F590680EEE7DE0E9347E6BFC95 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint8_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -22861,7 +22861,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEve
 
 	return returnValue;
 }
-// Method Definition Index: 34572
+// Method Definition Index: 34678
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkMIDIEvent_tChanAftertouch_mF694BC69EAEE217057EF2180EC013B5D710B59E7 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -22883,7 +22883,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkMI
 
 	return returnValue;
 }
-// Method Definition Index: 34573
+// Method Definition Index: 34679
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkMIDIEvent_tChanAftertouch_mEB0687C1C023F491A9A6945466E3D4760FB20BB1 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -22904,7 +22904,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkMID
 	#endif
 
 }
-// Method Definition Index: 34574
+// Method Definition Index: 34680
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_tProgramChange_byProgramNum_set_m574F0E32E6F18CCCE462B5A7E078A6C9B0AD648D (intptr_t ___0_jarg1, uint8_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint8_t);
@@ -22925,7 +22925,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_
 	#endif
 
 }
-// Method Definition Index: 34575
+// Method Definition Index: 34681
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_tProgramChange_byProgramNum_get_m409E713952419D21016BE12A1C616515457F58A7 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint8_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -22947,7 +22947,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEve
 
 	return returnValue;
 }
-// Method Definition Index: 34576
+// Method Definition Index: 34682
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkMIDIEvent_tProgramChange_mFCD67C7C0EF85D949F2C49BA415B0C618FC49684 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -22969,7 +22969,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkMI
 
 	return returnValue;
 }
-// Method Definition Index: 34577
+// Method Definition Index: 34683
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkMIDIEvent_tProgramChange_m3DA402EB5463EFB0E1EF1AF7AA3D50EE08DBDB48 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -22990,7 +22990,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkMID
 	#endif
 
 }
-// Method Definition Index: 34578
+// Method Definition Index: 34684
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_Gen_set_mD8F9F8709D22E75BBEA47C9CDDD170CAF08CDC97 (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -23011,7 +23011,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_
 	#endif
 
 }
-// Method Definition Index: 34579
+// Method Definition Index: 34685
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_Gen_get_m5415AEF4B0C37C34359DA76FF917AC0754685DAD (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -23033,7 +23033,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkMIDIEv
 
 	return returnValue;
 }
-// Method Definition Index: 34580
+// Method Definition Index: 34686
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_Cc_set_m9E0189C21CBE3EECCB6EDB96571051CB0880269E (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -23054,7 +23054,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_
 	#endif
 
 }
-// Method Definition Index: 34581
+// Method Definition Index: 34687
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_Cc_get_mE28B20D5E7363D45AD85162413ECEF1925F9DEAD (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -23076,7 +23076,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkMIDIEv
 
 	return returnValue;
 }
-// Method Definition Index: 34582
+// Method Definition Index: 34688
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_NoteOnOff_set_m0F242C22F0B2353395634FA735F2F291C8765046 (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -23097,7 +23097,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_
 	#endif
 
 }
-// Method Definition Index: 34583
+// Method Definition Index: 34689
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_NoteOnOff_get_m01D774CC94604AC67FFBB8DE8883149EB5E1E666 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -23119,7 +23119,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkMIDIEv
 
 	return returnValue;
 }
-// Method Definition Index: 34584
+// Method Definition Index: 34690
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_PitchBend_set_m48E9B316179FEC0D8135AEAA46CB7587B7CC2443 (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -23140,7 +23140,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_
 	#endif
 
 }
-// Method Definition Index: 34585
+// Method Definition Index: 34691
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_PitchBend_get_mA33A08071414EFADB2E1672E7E3D3BDC5CD046AC (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -23162,7 +23162,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkMIDIEv
 
 	return returnValue;
 }
-// Method Definition Index: 34586
+// Method Definition Index: 34692
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_NoteAftertouch_set_m8DD7A974A24C8A0B9DF0224B84496F53193E916F (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -23183,7 +23183,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_
 	#endif
 
 }
-// Method Definition Index: 34587
+// Method Definition Index: 34693
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_NoteAftertouch_get_mC57AC646C0250628BEBDA142D7D88694E4A77B34 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -23205,7 +23205,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkMIDIEv
 
 	return returnValue;
 }
-// Method Definition Index: 34588
+// Method Definition Index: 34694
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_ChanAftertouch_set_m56FCE62D13EA3716D5B88EE4A93FDE4D66EAF25D (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -23226,7 +23226,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_
 	#endif
 
 }
-// Method Definition Index: 34589
+// Method Definition Index: 34695
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_ChanAftertouch_get_mAE417FEAEE2DAAF59B4F4CEB328419A759D3B3BE (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -23248,7 +23248,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkMIDIEv
 
 	return returnValue;
 }
-// Method Definition Index: 34590
+// Method Definition Index: 34696
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_ProgramChange_set_m46542AE3B4EDD6EAE90507CD7CE4D586847C81C7 (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -23269,7 +23269,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_
 	#endif
 
 }
-// Method Definition Index: 34591
+// Method Definition Index: 34697
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_ProgramChange_get_m60E5EB82561ED4EE37FE4309BCDB01504ABFF579 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -23291,7 +23291,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkMIDIEv
 
 	return returnValue;
 }
-// Method Definition Index: 34592
+// Method Definition Index: 34698
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_byType_set_m79F997769D782C7A70DB8A36EF7238BF84F96410 (intptr_t ___0_jarg1, int32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
@@ -23312,7 +23312,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_
 	#endif
 
 }
-// Method Definition Index: 34593
+// Method Definition Index: 34699
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_byType_get_m122CBF0E1A1A83B43C277A662E6B51D4EFC186A8 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -23334,7 +23334,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkMIDIEve
 
 	return returnValue;
 }
-// Method Definition Index: 34594
+// Method Definition Index: 34700
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_byOnOffNote_set_m4F422487F16553E94784D35B46D6A1864428B2B2 (intptr_t ___0_jarg1, uint8_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint8_t);
@@ -23355,7 +23355,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_
 	#endif
 
 }
-// Method Definition Index: 34595
+// Method Definition Index: 34701
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_byOnOffNote_get_mDC90382E0CBD9364632FFDC27C3AC1EFFB99783A (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint8_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -23377,7 +23377,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEve
 
 	return returnValue;
 }
-// Method Definition Index: 34596
+// Method Definition Index: 34702
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_byVelocity_set_m21078FD3AC4542619CE09656D48377ED67CC3746 (intptr_t ___0_jarg1, uint8_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint8_t);
@@ -23398,7 +23398,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_
 	#endif
 
 }
-// Method Definition Index: 34597
+// Method Definition Index: 34703
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_byVelocity_get_m48207B8A3E7F9EED3CE4AC04AF9F169C9E4AD58B (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint8_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -23420,7 +23420,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEve
 
 	return returnValue;
 }
-// Method Definition Index: 34598
+// Method Definition Index: 34704
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_byCc_set_m970CDBFFA56103A1A57081BB9DFD5070FCA288C0 (intptr_t ___0_jarg1, int32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
@@ -23441,7 +23441,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_
 	#endif
 
 }
-// Method Definition Index: 34599
+// Method Definition Index: 34705
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_byCc_get_mD9FF8DD8307DBE21B69CB8F401FA1AEE28D3CD5A (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -23463,7 +23463,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkMIDIEve
 
 	return returnValue;
 }
-// Method Definition Index: 34600
+// Method Definition Index: 34706
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_byCcValue_set_mC9E3491806D8BAE141D21842F6A4F68994446AD6 (intptr_t ___0_jarg1, uint8_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint8_t);
@@ -23484,7 +23484,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_
 	#endif
 
 }
-// Method Definition Index: 34601
+// Method Definition Index: 34707
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_byCcValue_get_m97ADBB9FC9368056513C51A9CA858FFDBC8B4049 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint8_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -23506,7 +23506,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEve
 
 	return returnValue;
 }
-// Method Definition Index: 34602
+// Method Definition Index: 34708
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_byValueLsb_set_mA9519A2D47B86238B74CD310639CCFBD1B90DF91 (intptr_t ___0_jarg1, uint8_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint8_t);
@@ -23527,7 +23527,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_
 	#endif
 
 }
-// Method Definition Index: 34603
+// Method Definition Index: 34709
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_byValueLsb_get_m4BCEAAAA29D1FB49467203A47AB1B3450CE4727D (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint8_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -23549,7 +23549,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEve
 
 	return returnValue;
 }
-// Method Definition Index: 34604
+// Method Definition Index: 34710
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_byValueMsb_set_mDA153EC906A1F1535EB375547A7914DEFB3F3910 (intptr_t ___0_jarg1, uint8_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint8_t);
@@ -23570,7 +23570,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_
 	#endif
 
 }
-// Method Definition Index: 34605
+// Method Definition Index: 34711
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_byValueMsb_get_m2AEF9E38EC7BE059B002C6B4B782126FE69C40D1 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint8_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -23592,7 +23592,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEve
 
 	return returnValue;
 }
-// Method Definition Index: 34606
+// Method Definition Index: 34712
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_byAftertouchNote_set_m86F56009381CAA177C9F37BAC986C03BCEDC0609 (intptr_t ___0_jarg1, uint8_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint8_t);
@@ -23613,7 +23613,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_
 	#endif
 
 }
-// Method Definition Index: 34607
+// Method Definition Index: 34713
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_byAftertouchNote_get_mBBB647A297DD7B166A64D140E94A8286E4E5E7EE (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint8_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -23635,7 +23635,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEve
 
 	return returnValue;
 }
-// Method Definition Index: 34608
+// Method Definition Index: 34714
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_byNoteAftertouchValue_set_mFB67C9C39BC37ED6F96F6BFB8365BEEB9A6C0014 (intptr_t ___0_jarg1, uint8_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint8_t);
@@ -23656,7 +23656,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_
 	#endif
 
 }
-// Method Definition Index: 34609
+// Method Definition Index: 34715
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_byNoteAftertouchValue_get_m49F0CF855C52B3CE636BEFEB6840D1A357B938C3 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint8_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -23678,7 +23678,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEve
 
 	return returnValue;
 }
-// Method Definition Index: 34610
+// Method Definition Index: 34716
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_byChanAftertouchValue_set_mD2C50B80163282F56E2475D52BE3318BBD512F50 (intptr_t ___0_jarg1, uint8_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint8_t);
@@ -23699,7 +23699,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_
 	#endif
 
 }
-// Method Definition Index: 34611
+// Method Definition Index: 34717
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_byChanAftertouchValue_get_m32BF6C32B02086083526BF28D2B33DA7B0AD6AAB (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint8_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -23721,7 +23721,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEve
 
 	return returnValue;
 }
-// Method Definition Index: 34612
+// Method Definition Index: 34718
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_byProgramNum_set_mF9FC2C0F8E602F5073CAF7318C1D100354AC55FD (intptr_t ___0_jarg1, uint8_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint8_t);
@@ -23742,7 +23742,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_
 	#endif
 
 }
-// Method Definition Index: 34613
+// Method Definition Index: 34719
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEvent_byProgramNum_get_m52E8FA3A0D67D686280D0825C71AD8B5A2E35A77 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint8_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -23764,7 +23764,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEve
 
 	return returnValue;
 }
-// Method Definition Index: 34614
+// Method Definition Index: 34720
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkMIDIEvent_m1AD7AED151EBF470100F116E4AF644B5A2E75490 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -23786,7 +23786,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkMI
 
 	return returnValue;
 }
-// Method Definition Index: 34615
+// Method Definition Index: 34721
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkMIDIEvent_m6398999FBF629681EBB2A185EB19EC476945E52C (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -23807,7 +23807,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkMID
 	#endif
 
 }
-// Method Definition Index: 34616
+// Method Definition Index: 34722
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIPost_uOffset_set_mE619A5C2454EB6F6861D2C925B7526298D793794 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -23828,7 +23828,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIPost_u
 	#endif
 
 }
-// Method Definition Index: 34617
+// Method Definition Index: 34723
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkMIDIPost_uOffset_get_m62AF87EE335DD753CE600F8A27EC82CD2E9B064F (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -23850,7 +23850,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkMIDIPo
 
 	return returnValue;
 }
-// Method Definition Index: 34618
+// Method Definition Index: 34724
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkMIDIPost_PostOnEvent_m6CEA0EE969755F4CB39F9E40F55CBB9EF7D935F1 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, uint64_t ___2_jarg3, uint32_t ___3_jarg4, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t, uint64_t, uint32_t);
@@ -23872,7 +23872,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkMIDIPos
 
 	return returnValue;
 }
-// Method Definition Index: 34619
+// Method Definition Index: 34725
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIPost_Clone_mF74AE93D201E2DD93FCDCA4B106C5077C6380F5C (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -23893,7 +23893,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMIDIPost_C
 	#endif
 
 }
-// Method Definition Index: 34620
+// Method Definition Index: 34726
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkMIDIPost_GetSizeOf_m689AA45AD6D6866041317FE935A3A0722C58A57C (const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -23915,7 +23915,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkMIDIPos
 
 	return returnValue;
 }
-// Method Definition Index: 34621
+// Method Definition Index: 34727
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkMIDIPost_m7FF53BA98708F8E2161EC6AF85E80CEAA7FCCC50 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -23937,7 +23937,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkMI
 
 	return returnValue;
 }
-// Method Definition Index: 34622
+// Method Definition Index: 34728
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkMIDIPost_m9480DD2E26A8A724B8648BBD2968A65AE793F08B (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -23958,7 +23958,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkMID
 	#endif
 
 }
-// Method Definition Index: 34623
+// Method Definition Index: 34729
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMusicSettings_fStreamingLookAheadRatio_set_mB518A41C4F47A6EF77FC917234B1713D7FDF20EC (intptr_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float);
@@ -23979,7 +23979,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkMusicSetti
 	#endif
 
 }
-// Method Definition Index: 34624
+// Method Definition Index: 34730
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkMusicSettings_fStreamingLookAheadRatio_get_m5CC6C584952EDF563D5345A00EEED6D6A40DD087 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -24001,7 +24001,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkMusicSett
 
 	return returnValue;
 }
-// Method Definition Index: 34625
+// Method Definition Index: 34731
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkMusicSettings_mFD5AFD08C1F3B03D64638A682758BAEEF3B10CEE (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -24022,7 +24022,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkMus
 	#endif
 
 }
-// Method Definition Index: 34626
+// Method Definition Index: 34732
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetPlayingSegmentInfo__SWIG_0_m39273D2701CFE39A1ED2C8CE92218C1FB3127A63 (uint32_t ___0_jarg1, intptr_t ___1_jarg2, bool ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, intptr_t, int32_t);
@@ -24044,7 +24044,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetPlayin
 
 	return returnValue;
 }
-// Method Definition Index: 34627
+// Method Definition Index: 34733
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetPlayingSegmentInfo__SWIG_1_mA5BA99BAB597B7155910E3FB592677713B347E37 (uint32_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, intptr_t);
@@ -24066,7 +24066,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetPlayin
 
 	return returnValue;
 }
-// Method Definition Index: 34628
+// Method Definition Index: 34734
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkSerializedCallbackHeader_pPackage_get_mD0AAE3B4E170C0CB6FB63DCD4F4D337B84803B38 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -24088,7 +24088,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkSerial
 
 	return returnValue;
 }
-// Method Definition Index: 34629
+// Method Definition Index: 34735
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkSerializedCallbackHeader_pNext_get_mD699B11EDAB446C383F27B3B7222F43C01EDD0F1 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -24110,7 +24110,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkSerial
 
 	return returnValue;
 }
-// Method Definition Index: 34630
+// Method Definition Index: 34736
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkSerializedCallbackHeader_eType_get_mE563F036E1EE8DDFB62F4AF30AC46AE0BF9A7A38 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -24132,7 +24132,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkSeriali
 
 	return returnValue;
 }
-// Method Definition Index: 34631
+// Method Definition Index: 34737
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkSerializedCallbackHeader_GetData_mE84C692FE0E98D6BE69E0E01B7BDFA59CA26FC2C (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -24154,7 +24154,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkSerial
 
 	return returnValue;
 }
-// Method Definition Index: 34632
+// Method Definition Index: 34738
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkSerializedCallbackHeader_m4F0CFDDDC47A1065919C92F03CE7C275014D39BF (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -24176,7 +24176,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkSe
 
 	return returnValue;
 }
-// Method Definition Index: 34633
+// Method Definition Index: 34739
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkSerializedCallbackHeader_m37970CFCC4263800E203B95B701544D6894F9243 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -24197,7 +24197,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkSer
 	#endif
 
 }
-// Method Definition Index: 34634
+// Method Definition Index: 34740
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkCallbackInfo_pCookie_get_mBEEBF7EA28C11A9BEFB87BC767373AAA6EDAEAD0 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -24219,7 +24219,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkCallba
 
 	return returnValue;
 }
-// Method Definition Index: 34635
+// Method Definition Index: 34741
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t AkSoundEnginePINVOKE_CSharp_AkCallbackInfo_gameObjID_get_mF47745EA20931891B8A8A779DAB2B39735228F0C (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint64_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -24241,7 +24241,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t AkSoundEnginePINVOKE_CSharp_AkCallba
 
 	return returnValue;
 }
-// Method Definition Index: 34636
+// Method Definition Index: 34742
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkCallbackInfo_mA377D7AF7AA1D48DCB38FC7440AB893BE8F7CBC8 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -24263,7 +24263,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkCa
 
 	return returnValue;
 }
-// Method Definition Index: 34637
+// Method Definition Index: 34743
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkCallbackInfo_m65B95C9F439BD37936951F47E6D7F5B935433F62 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -24284,7 +24284,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkCal
 	#endif
 
 }
-// Method Definition Index: 34638
+// Method Definition Index: 34744
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkEventCallbackInfo_playingID_get_mF1254A831727B8C8C87B0F85DA27AEBEF58370B7 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -24306,7 +24306,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkEventC
 
 	return returnValue;
 }
-// Method Definition Index: 34639
+// Method Definition Index: 34745
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkEventCallbackInfo_eventID_get_m18BD9D37D696909A2C15FA01B94C935634307CA0 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -24328,7 +24328,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkEventC
 
 	return returnValue;
 }
-// Method Definition Index: 34640
+// Method Definition Index: 34746
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkEventCallbackInfo_mBE0E52DC384B2843BCCBD8E191F99541DDDA204C (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -24350,7 +24350,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkEv
 
 	return returnValue;
 }
-// Method Definition Index: 34641
+// Method Definition Index: 34747
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkEventCallbackInfo_mFAC7B72E93CF9CF0D80E7C6EDCEAF15DE4017813 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -24371,7 +24371,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkEve
 	#endif
 
 }
-// Method Definition Index: 34642
+// Method Definition Index: 34748
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEventCallbackInfo_byChan_get_m28178AA77298C9CDE0F434CDDB86A40E2C05C6B5 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint8_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -24393,7 +24393,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEve
 
 	return returnValue;
 }
-// Method Definition Index: 34643
+// Method Definition Index: 34749
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEventCallbackInfo_byParam1_get_mECE333DE09CB390BBD6C7A0F8B13FD848E87149D (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint8_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -24415,7 +24415,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEve
 
 	return returnValue;
 }
-// Method Definition Index: 34644
+// Method Definition Index: 34750
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEventCallbackInfo_byParam2_get_m39EEBE019F13EB75A84601BFFB8166BED55A3C16 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint8_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -24437,7 +24437,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEve
 
 	return returnValue;
 }
-// Method Definition Index: 34645
+// Method Definition Index: 34751
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkMIDIEventCallbackInfo_byType_get_m5A89B290EBE7532A35EB530FA0CCEA569B93B00A (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -24459,7 +24459,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkMIDIEve
 
 	return returnValue;
 }
-// Method Definition Index: 34646
+// Method Definition Index: 34752
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEventCallbackInfo_byOnOffNote_get_mF853FC9493D38C556F24BA1062808A80B6008105 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint8_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -24481,7 +24481,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEve
 
 	return returnValue;
 }
-// Method Definition Index: 34647
+// Method Definition Index: 34753
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEventCallbackInfo_byVelocity_get_mD899FBC52807691214D2AB25D97F83F9C4CC5D15 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint8_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -24503,7 +24503,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEve
 
 	return returnValue;
 }
-// Method Definition Index: 34648
+// Method Definition Index: 34754
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkMIDIEventCallbackInfo_byCc_get_mC60A48BE3D951A820F377A6942F4EAF6AE0A7F87 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -24525,7 +24525,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkMIDIEve
 
 	return returnValue;
 }
-// Method Definition Index: 34649
+// Method Definition Index: 34755
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEventCallbackInfo_byCcValue_get_m1076C689B2389EC8B5BA303BFC5B04EA2224884A (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint8_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -24547,7 +24547,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEve
 
 	return returnValue;
 }
-// Method Definition Index: 34650
+// Method Definition Index: 34756
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEventCallbackInfo_byValueLsb_get_mAD85D40120BFFB61AD7DBE78E32876054AA0A9F2 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint8_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -24569,7 +24569,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEve
 
 	return returnValue;
 }
-// Method Definition Index: 34651
+// Method Definition Index: 34757
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEventCallbackInfo_byValueMsb_get_m1401B5A4F7CDD88B967E5DCF99D8F71A6C4E35EB (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint8_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -24591,7 +24591,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEve
 
 	return returnValue;
 }
-// Method Definition Index: 34652
+// Method Definition Index: 34758
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEventCallbackInfo_byAftertouchNote_get_mBFAB8E93C29A039E160C1DEA9F715593CD75276E (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint8_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -24613,7 +24613,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEve
 
 	return returnValue;
 }
-// Method Definition Index: 34653
+// Method Definition Index: 34759
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEventCallbackInfo_byNoteAftertouchValue_get_mE04F9E54BB2F488B41520FDEF911D48BDDBB26D9 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint8_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -24635,7 +24635,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEve
 
 	return returnValue;
 }
-// Method Definition Index: 34654
+// Method Definition Index: 34760
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEventCallbackInfo_byChanAftertouchValue_get_mF61D63B352698D4128D052BF6F8A9E2CAB6DF4F4 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint8_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -24657,7 +24657,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEve
 
 	return returnValue;
 }
-// Method Definition Index: 34655
+// Method Definition Index: 34761
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEventCallbackInfo_byProgramNum_get_mFD4527684657FBA23A3002BA1E18DC98F2926FF7 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint8_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -24679,7 +24679,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkMIDIEve
 
 	return returnValue;
 }
-// Method Definition Index: 34656
+// Method Definition Index: 34762
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkMIDIEventCallbackInfo_m3617A2F6E2D055A6C34BD66CEC528FACC0753246 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -24701,7 +24701,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkMI
 
 	return returnValue;
 }
-// Method Definition Index: 34657
+// Method Definition Index: 34763
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkMIDIEventCallbackInfo_m133C571550AE5F4D46E9EF6B6A9D37D6A1D912D4 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -24722,7 +24722,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkMID
 	#endif
 
 }
-// Method Definition Index: 34658
+// Method Definition Index: 34764
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkMarkerCallbackInfo_uIdentifier_get_m1B6467D047AF777BFAAD9337A8A2C438455BBC9B (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -24744,7 +24744,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkMarker
 
 	return returnValue;
 }
-// Method Definition Index: 34659
+// Method Definition Index: 34765
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkMarkerCallbackInfo_uPosition_get_mD64AD39F98F9A06005F4CFFBDD90AB1D15A175C0 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -24766,7 +24766,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkMarker
 
 	return returnValue;
 }
-// Method Definition Index: 34660
+// Method Definition Index: 34766
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkMarkerCallbackInfo_strLabel_get_mE18414C9059741F7D941E50F4AD85B90A8CCBEFF (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -24788,7 +24788,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkMarker
 
 	return returnValue;
 }
-// Method Definition Index: 34661
+// Method Definition Index: 34767
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkMarkerCallbackInfo_m7A76D8852655E858E0B1DC7BEC49A3A5BEFB1963 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -24810,7 +24810,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkMa
 
 	return returnValue;
 }
-// Method Definition Index: 34662
+// Method Definition Index: 34768
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkMarkerCallbackInfo_m1DF4DCC861A13847D8E90594AC40DDED5A2C3C23 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -24831,7 +24831,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkMar
 	#endif
 
 }
-// Method Definition Index: 34663
+// Method Definition Index: 34769
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkDurationCallbackInfo_fDuration_get_mD499C021F0040E828BAC2356E1859E3DA98B8879 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -24853,7 +24853,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkDurationC
 
 	return returnValue;
 }
-// Method Definition Index: 34664
+// Method Definition Index: 34770
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkDurationCallbackInfo_fEstimatedDuration_get_m87ACA922675BF60675DC399122DDAA04FAB5CFD1 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -24875,7 +24875,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkDurationC
 
 	return returnValue;
 }
-// Method Definition Index: 34665
+// Method Definition Index: 34771
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkDurationCallbackInfo_audioNodeID_get_mAB0D0BC2467ADFDADB274B6C202CAF0FC2019B04 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -24897,7 +24897,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkDurati
 
 	return returnValue;
 }
-// Method Definition Index: 34666
+// Method Definition Index: 34772
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkDurationCallbackInfo_mediaID_get_mD69BCBC992FECB9E7F80BEB08458AC13994784C0 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -24919,7 +24919,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkDurati
 
 	return returnValue;
 }
-// Method Definition Index: 34667
+// Method Definition Index: 34773
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkDurationCallbackInfo_bStreaming_get_m9D8883976C44D0A100E8CDE38B53B5A290079404 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -24941,7 +24941,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkDurationCa
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 34668
+// Method Definition Index: 34774
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkDurationCallbackInfo_m5C114C9D890A7F6AAB337BD2D00F16C04BDFE291 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -24963,7 +24963,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkDu
 
 	return returnValue;
 }
-// Method Definition Index: 34669
+// Method Definition Index: 34775
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkDurationCallbackInfo_mE41E0FB6C4D7ECB2AC59B46275A80A9005D15D4A (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -24984,7 +24984,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkDur
 	#endif
 
 }
-// Method Definition Index: 34670
+// Method Definition Index: 34776
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkDynamicSequenceItemCallbackInfo_playingID_get_m2B63CA631CCED4B329EA1432203357615650E949 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -25006,7 +25006,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkDynami
 
 	return returnValue;
 }
-// Method Definition Index: 34671
+// Method Definition Index: 34777
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkDynamicSequenceItemCallbackInfo_audioNodeID_get_m0F6E9CA6CE1E333A1EB6B9330568A24F802F7BAB (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -25028,7 +25028,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkDynami
 
 	return returnValue;
 }
-// Method Definition Index: 34672
+// Method Definition Index: 34778
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkDynamicSequenceItemCallbackInfo_pCustomInfo_get_m292FA13D44FCA49E24193D7B5C1399AF025CCC88 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -25050,7 +25050,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkDynami
 
 	return returnValue;
 }
-// Method Definition Index: 34673
+// Method Definition Index: 34779
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkDynamicSequenceItemCallbackInfo_m0B18FD98F90B2EBC2105AAC801BC5C4E556FB269 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -25072,7 +25072,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkDy
 
 	return returnValue;
 }
-// Method Definition Index: 34674
+// Method Definition Index: 34780
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkDynamicSequenceItemCallbackInfo_mC6CA65DDA3E71A8DD7EA005C1DC55791DFFFEEB5 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -25093,7 +25093,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkDyn
 	#endif
 
 }
-// Method Definition Index: 34675
+// Method Definition Index: 34781
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkMusicSyncCallbackInfo_playingID_get_mF42A186E61CD543923AEBF9796F980B652318439 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -25115,7 +25115,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkMusicS
 
 	return returnValue;
 }
-// Method Definition Index: 34676
+// Method Definition Index: 34782
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkMusicSyncCallbackInfo_segmentInfo_iCurrentPosition_get_m9BBA8264F9ED0F1F7734F02B7DCA6DE570E7E41B (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -25137,7 +25137,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkMusicSy
 
 	return returnValue;
 }
-// Method Definition Index: 34677
+// Method Definition Index: 34783
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkMusicSyncCallbackInfo_segmentInfo_iPreEntryDuration_get_mEAF1948B85C2C28A943D6496922515D21A983726 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -25159,7 +25159,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkMusicSy
 
 	return returnValue;
 }
-// Method Definition Index: 34678
+// Method Definition Index: 34784
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkMusicSyncCallbackInfo_segmentInfo_iActiveDuration_get_mE0F8761005EF3E794839EBC7E56E64C2B58B1F09 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -25181,7 +25181,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkMusicSy
 
 	return returnValue;
 }
-// Method Definition Index: 34679
+// Method Definition Index: 34785
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkMusicSyncCallbackInfo_segmentInfo_iPostExitDuration_get_m0D56BA7E0F4267D296C0119278CB72E2BA161D1F (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -25203,7 +25203,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkMusicSy
 
 	return returnValue;
 }
-// Method Definition Index: 34680
+// Method Definition Index: 34786
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkMusicSyncCallbackInfo_segmentInfo_iRemainingLookAheadTime_get_m804A778F01C0AB681EA11A654929EFD834481F71 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -25225,7 +25225,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkMusicSy
 
 	return returnValue;
 }
-// Method Definition Index: 34681
+// Method Definition Index: 34787
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkMusicSyncCallbackInfo_segmentInfo_fBeatDuration_get_mF5301794EB8A2BF55B006770C93E85CD613A8CF0 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -25247,7 +25247,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkMusicSync
 
 	return returnValue;
 }
-// Method Definition Index: 34682
+// Method Definition Index: 34788
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkMusicSyncCallbackInfo_segmentInfo_fBarDuration_get_mA9215A31400E20FBDEBAEAD1A1074A5BE362EA01 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -25269,7 +25269,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkMusicSync
 
 	return returnValue;
 }
-// Method Definition Index: 34683
+// Method Definition Index: 34789
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkMusicSyncCallbackInfo_segmentInfo_fGridDuration_get_mBEB46B6ABA7783951823DC1C7E888CA2B31D694C (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -25291,7 +25291,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkMusicSync
 
 	return returnValue;
 }
-// Method Definition Index: 34684
+// Method Definition Index: 34790
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkMusicSyncCallbackInfo_segmentInfo_fGridOffset_get_m974C0C029C31013687E837BD57F4970937ACD46F (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -25313,7 +25313,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkMusicSync
 
 	return returnValue;
 }
-// Method Definition Index: 34685
+// Method Definition Index: 34791
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkMusicSyncCallbackInfo_musicSyncType_get_m79FB44A764236CC5E9169A778ADBE3FA0220FD1C (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -25335,7 +25335,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkMusicSy
 
 	return returnValue;
 }
-// Method Definition Index: 34686
+// Method Definition Index: 34792
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkMusicSyncCallbackInfo_userCueName_get_mBCEF7D42840CB0A709D8BBE9906264EDE02C6309 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -25357,7 +25357,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkMusicS
 
 	return returnValue;
 }
-// Method Definition Index: 34687
+// Method Definition Index: 34793
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkMusicSyncCallbackInfo_m424A0B9EC37A0158DFEDE5FEF23C3C074B888583 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -25379,7 +25379,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkMu
 
 	return returnValue;
 }
-// Method Definition Index: 34688
+// Method Definition Index: 34794
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkMusicSyncCallbackInfo_mF0D6B980783D09A130EB86C73F5D0BB4DED1F232 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -25400,7 +25400,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkMus
 	#endif
 
 }
-// Method Definition Index: 34689
+// Method Definition Index: 34795
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkMusicPlaylistCallbackInfo_playlistID_get_m794F48D66316E5735FE7B547A3C33F3340949201 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -25422,7 +25422,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkMusicP
 
 	return returnValue;
 }
-// Method Definition Index: 34690
+// Method Definition Index: 34796
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkMusicPlaylistCallbackInfo_uNumPlaylistItems_get_m52E4A83BEF91B46C355607E61C0D84D07493F38B (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -25444,7 +25444,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkMusicP
 
 	return returnValue;
 }
-// Method Definition Index: 34691
+// Method Definition Index: 34797
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkMusicPlaylistCallbackInfo_uPlaylistSelection_get_m36E2B608F81A08E6D410AFD68686D1422443A749 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -25466,7 +25466,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkMusicP
 
 	return returnValue;
 }
-// Method Definition Index: 34692
+// Method Definition Index: 34798
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkMusicPlaylistCallbackInfo_uPlaylistItemDone_get_m01EB64EC4F83860768357212EF8229512A6B540E (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -25488,7 +25488,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkMusicP
 
 	return returnValue;
 }
-// Method Definition Index: 34693
+// Method Definition Index: 34799
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkMusicPlaylistCallbackInfo_m386EEAC0CE456D73AF79590AC1413D0562E4F575 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -25510,7 +25510,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkMu
 
 	return returnValue;
 }
-// Method Definition Index: 34694
+// Method Definition Index: 34800
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkMusicPlaylistCallbackInfo_mEFB02FF54EB62F279D6578178D62D67E53AF757F (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -25531,7 +25531,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkMus
 	#endif
 
 }
-// Method Definition Index: 34695
+// Method Definition Index: 34801
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkBankCallbackInfo_bankID_get_m99AF4AA885961D8980D9970F66603D42C31F708C (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -25553,7 +25553,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkBankCa
 
 	return returnValue;
 }
-// Method Definition Index: 34696
+// Method Definition Index: 34802
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkBankCallbackInfo_inMemoryBankPtr_get_mDE1A100CD1425D0B5D35FF9AD1958091ACBF4269 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -25575,7 +25575,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkBankCa
 
 	return returnValue;
 }
-// Method Definition Index: 34697
+// Method Definition Index: 34803
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkBankCallbackInfo_loadResult_get_m229D8FDCB936EFE83220E2E1A3DC02D3F318D988 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -25597,7 +25597,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkBankCal
 
 	return returnValue;
 }
-// Method Definition Index: 34698
+// Method Definition Index: 34804
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkBankCallbackInfo_m96841F341DB272872733FC87E202FAEC629C40F5 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -25619,7 +25619,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkBa
 
 	return returnValue;
 }
-// Method Definition Index: 34699
+// Method Definition Index: 34805
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkBankCallbackInfo_m6682D0F13D97B1AB89ED0F03E4AAC3F0FD18496F (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -25640,7 +25640,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkBan
 	#endif
 
 }
-// Method Definition Index: 34700
+// Method Definition Index: 34806
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkMonitoringCallbackInfo_errorCode_get_m7A6023BA6929E46F11B151FB84B6397D2D338861 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -25662,7 +25662,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkMonitor
 
 	return returnValue;
 }
-// Method Definition Index: 34701
+// Method Definition Index: 34807
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkMonitoringCallbackInfo_errorLevel_get_mE7DC4311ED216E30AF4F75E26FADF043C0CDDD87 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -25684,7 +25684,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkMonitor
 
 	return returnValue;
 }
-// Method Definition Index: 34702
+// Method Definition Index: 34808
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkMonitoringCallbackInfo_playingID_get_m1258E7395FA45D32490F879503684B8915A1BCBB (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -25706,7 +25706,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkMonito
 
 	return returnValue;
 }
-// Method Definition Index: 34703
+// Method Definition Index: 34809
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t AkSoundEnginePINVOKE_CSharp_AkMonitoringCallbackInfo_gameObjID_get_m137EF10C43E4AB7CD34030951501B252EE1EEAF4 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint64_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -25728,7 +25728,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t AkSoundEnginePINVOKE_CSharp_AkMonito
 
 	return returnValue;
 }
-// Method Definition Index: 34704
+// Method Definition Index: 34810
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkMonitoringCallbackInfo_message_get_mC596A7717AEBB1CB691821F0AC461A4030EE0F20 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -25750,7 +25750,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkMonito
 
 	return returnValue;
 }
-// Method Definition Index: 34705
+// Method Definition Index: 34811
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkMonitoringCallbackInfo_mD56368D6D0627F55FD6F0C94FD46AEAAE146C618 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -25772,7 +25772,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkMo
 
 	return returnValue;
 }
-// Method Definition Index: 34706
+// Method Definition Index: 34812
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkMonitoringCallbackInfo_m0B31630E60745189A79DF475724679F1A4AFAA8B (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -25793,7 +25793,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkMon
 	#endif
 
 }
-// Method Definition Index: 34707
+// Method Definition Index: 34813
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkAudioInterruptionCallbackInfo_bEnterInterruption_get_m42E24FE8463D5F0DBA8A6AA65E0493606C36DC85 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -25815,7 +25815,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkAudioInter
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 34708
+// Method Definition Index: 34814
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkAudioInterruptionCallbackInfo_m0BD5D9A84B75593FD1B0DCD42C4028F93E5EA160 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -25837,7 +25837,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkAu
 
 	return returnValue;
 }
-// Method Definition Index: 34709
+// Method Definition Index: 34815
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkAudioInterruptionCallbackInfo_m98E134B4E4EA3B02B5F220EEB00AAB5067B7A7BB (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -25858,7 +25858,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkAud
 	#endif
 
 }
-// Method Definition Index: 34710
+// Method Definition Index: 34816
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkAudioSourceChangeCallbackInfo_bOtherAudioPlaying_get_m144928AF45F75104F4FBC63B3896A6DEAE3052B1 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -25880,7 +25880,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkAudioSourc
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 34711
+// Method Definition Index: 34817
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkAudioSourceChangeCallbackInfo_mC4FBDC298A9EC3E56B6468DFF534FCB557C498B8 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -25902,7 +25902,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkAu
 
 	return returnValue;
 }
-// Method Definition Index: 34712
+// Method Definition Index: 34818
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkAudioSourceChangeCallbackInfo_m955431114F8E957B0F28B23DC99000E2388E69D0 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -25923,7 +25923,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkAud
 	#endif
 
 }
-// Method Definition Index: 34713
+// Method Definition Index: 34819
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_LocalOutput_m124B7BDBC712CA490278B61536CC515E9F43541D (int32_t ___0_jarg1, String_t* ___1_jarg2, int32_t ___2_jarg3, uint32_t ___3_jarg4, uint64_t ___4_jarg5, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t, char*, int32_t, uint32_t, uint64_t);
@@ -25950,7 +25950,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_LocalOutput_
 	____1_jarg2_marshaled = NULL;
 
 }
-// Method Definition Index: 34714
+// Method Definition Index: 34820
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkCallbackSerializer_Init_m4AE4681972862F2E88014B6889A39BA71216A228 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -25972,7 +25972,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkCallbac
 
 	return returnValue;
 }
-// Method Definition Index: 34715
+// Method Definition Index: 34821
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkCallbackSerializer_Term_mC5B0F10C5DBEDB86726565FCC2E91D3BBDDEFCCE (const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) ();
@@ -25993,7 +25993,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkCallbackSe
 	#endif
 
 }
-// Method Definition Index: 34716
+// Method Definition Index: 34822
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkCallbackSerializer_Lock_m827AA3E07DF6715E76B59539D242698F5BC52FC6 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -26015,7 +26015,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkCallba
 
 	return returnValue;
 }
-// Method Definition Index: 34717
+// Method Definition Index: 34823
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkCallbackSerializer_Unlock_mDA1835A20EA8BDC05A392AAE0951B53FCCE99FEE (const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) ();
@@ -26036,7 +26036,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkCallbackSe
 	#endif
 
 }
-// Method Definition Index: 34718
+// Method Definition Index: 34824
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkCallbackSerializer_SetLocalOutput_m85A238A60CDEAF9E85F1B9450B60A729A504741D (uint32_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (uint32_t);
@@ -26057,7 +26057,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkCallbackSe
 	#endif
 
 }
-// Method Definition Index: 34719
+// Method Definition Index: 34825
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkCallbackSerializer_AudioSourceChangeCallbackFunc_mEB7863D8C54B88E13F356E426DD6DF929720B618 (bool ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, intptr_t);
@@ -26079,7 +26079,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkCallbac
 
 	return returnValue;
 }
-// Method Definition Index: 34720
+// Method Definition Index: 34826
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkCallbackSerializer_mFF8F0EA0CD7FBF70517A235FDAA76033D1844A35 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -26101,7 +26101,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkCa
 
 	return returnValue;
 }
-// Method Definition Index: 34721
+// Method Definition Index: 34827
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkCallbackSerializer_mEBFEB14CF61581554D5806E03DF1D9A996066066 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -26122,7 +26122,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkCal
 	#endif
 
 }
-// Method Definition Index: 34722
+// Method Definition Index: 34828
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PostCode__SWIG_0_m51EF501F3C5199A988C967BD81A92F9F0BDA96AF (int32_t ___0_jarg1, int32_t ___1_jarg2, uint32_t ___2_jarg3, uint64_t ___3_jarg4, uint32_t ___4_jarg5, bool ___5_jarg6, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, uint32_t, uint64_t, uint32_t, int32_t);
@@ -26144,7 +26144,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PostCode_
 
 	return returnValue;
 }
-// Method Definition Index: 34723
+// Method Definition Index: 34829
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PostCode__SWIG_1_m400412E73BBE283CB07888D1B961487424DD1CE4 (int32_t ___0_jarg1, int32_t ___1_jarg2, uint32_t ___2_jarg3, uint64_t ___3_jarg4, uint32_t ___4_jarg5, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, uint32_t, uint64_t, uint32_t);
@@ -26166,7 +26166,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PostCode_
 
 	return returnValue;
 }
-// Method Definition Index: 34724
+// Method Definition Index: 34830
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PostCode__SWIG_2_m6CC722B85D9082B967BFE3F128A7A13841F0B28F (int32_t ___0_jarg1, int32_t ___1_jarg2, uint32_t ___2_jarg3, uint64_t ___3_jarg4, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, uint32_t, uint64_t);
@@ -26188,7 +26188,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PostCode_
 
 	return returnValue;
 }
-// Method Definition Index: 34725
+// Method Definition Index: 34831
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PostCode__SWIG_3_m9B1CBC38CAA2F1EBE637B73A8C5959954E66E0BA (int32_t ___0_jarg1, int32_t ___1_jarg2, uint32_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, uint32_t);
@@ -26210,7 +26210,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PostCode_
 
 	return returnValue;
 }
-// Method Definition Index: 34726
+// Method Definition Index: 34832
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PostCode__SWIG_4_m28397D9F5548AEC7DEDCD92D8B5B589F11F3E009 (int32_t ___0_jarg1, int32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t);
@@ -26232,7 +26232,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PostCode_
 
 	return returnValue;
 }
-// Method Definition Index: 34727
+// Method Definition Index: 34833
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PostString__SWIG_0_m096ED4D4953BC1952F32D90A920AEEBAF180584D (String_t* ___0_jarg1, int32_t ___1_jarg2, uint32_t ___2_jarg3, uint64_t ___3_jarg4, uint32_t ___4_jarg5, bool ___5_jarg6, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, int32_t, uint32_t, uint64_t, uint32_t, int32_t);
@@ -26260,7 +26260,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PostStrin
 
 	return returnValue;
 }
-// Method Definition Index: 34728
+// Method Definition Index: 34834
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PostString__SWIG_1_m1B09998CACC597D6D5BCDF93FA848B7913D41EED (String_t* ___0_jarg1, int32_t ___1_jarg2, uint32_t ___2_jarg3, uint64_t ___3_jarg4, uint32_t ___4_jarg5, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, int32_t, uint32_t, uint64_t, uint32_t);
@@ -26288,7 +26288,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PostStrin
 
 	return returnValue;
 }
-// Method Definition Index: 34729
+// Method Definition Index: 34835
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PostString__SWIG_2_mAB85389D5DD491E9F0C813C69C73313772FD08CC (String_t* ___0_jarg1, int32_t ___1_jarg2, uint32_t ___2_jarg3, uint64_t ___3_jarg4, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, int32_t, uint32_t, uint64_t);
@@ -26316,7 +26316,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PostStrin
 
 	return returnValue;
 }
-// Method Definition Index: 34730
+// Method Definition Index: 34836
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PostString__SWIG_3_mF0B811D37F8B2E812F240DC9A741FE97898DCD33 (String_t* ___0_jarg1, int32_t ___1_jarg2, uint32_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, int32_t, uint32_t);
@@ -26344,7 +26344,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PostStrin
 
 	return returnValue;
 }
-// Method Definition Index: 34731
+// Method Definition Index: 34837
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PostString__SWIG_4_mBFDC570ACB0D8A1A294F996BD3B96A1B21B5D142 (String_t* ___0_jarg1, int32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, int32_t);
@@ -26372,7 +26372,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_PostStrin
 
 	return returnValue;
 }
-// Method Definition Index: 34732
+// Method Definition Index: 34838
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetTimeStamp_m43B9F26483C52CA8433AA6727F352BB6BCF7D320 (const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -26394,7 +26394,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetTimeSt
 
 	return returnValue;
 }
-// Method Definition Index: 34733
+// Method Definition Index: 34839
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_GetNumNonZeroBits_mC421C9BD7718C09339F788E3294B014A97B35C9A (uint32_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t);
@@ -26416,7 +26416,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_GetNumNo
 
 	return returnValue;
 }
-// Method Definition Index: 34734
+// Method Definition Index: 34840
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkGetDefaultHighPriorityThreadProperties_mE9B8A39F20A68EE4F19AF7E06F61DB74169D598D (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -26437,7 +26437,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkGetDefault
 	#endif
 
 }
-// Method Definition Index: 34735
+// Method Definition Index: 34841
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_ResolveDialogueEvent__SWIG_0_mE110097CDD8B6A835BFE03A481AA30844D89397E (uint32_t ___0_jarg1, UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___1_jarg2, uint32_t ___2_jarg3, uint32_t ___3_jarg4, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint32_t*, uint32_t, uint32_t);
@@ -26465,7 +26465,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_ResolveD
 
 	return returnValue;
 }
-// Method Definition Index: 34736
+// Method Definition Index: 34842
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_ResolveDialogueEvent__SWIG_1_m2F7F2576FCCB876289E5F8FA46E4A66D878F9104 (uint32_t ___0_jarg1, UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___1_jarg2, uint32_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint32_t*, uint32_t);
@@ -26493,7 +26493,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_ResolveD
 
 	return returnValue;
 }
-// Method Definition Index: 34737
+// Method Definition Index: 34843
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetDialogueEventCustomPropertyValue__SWIG_0_m69E0E66421B2E115064305AC1B63DF59B9BAE287 (uint32_t ___0_jarg1, uint32_t ___1_jarg2, int32_t* ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint32_t, int32_t*);
@@ -26515,7 +26515,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetDialog
 
 	return returnValue;
 }
-// Method Definition Index: 34738
+// Method Definition Index: 34844
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetDialogueEventCustomPropertyValue__SWIG_1_mD8B721A318D0D5C3B6AAB525924B9FF747C51636 (uint32_t ___0_jarg1, uint32_t ___1_jarg2, float* ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint32_t, float*);
@@ -26537,7 +26537,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetDialog
 
 	return returnValue;
 }
-// Method Definition Index: 34739
+// Method Definition Index: 34845
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPositioningInfo_fCenterPct_set_mEF2102FF4259EF20AD16D657994BE28C5F1AB7D6 (intptr_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float);
@@ -26558,7 +26558,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPositionin
 	#endif
 
 }
-// Method Definition Index: 34740
+// Method Definition Index: 34846
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkPositioningInfo_fCenterPct_get_mE767165E7C316655EC5CEE952760B8D481F6861B (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -26580,7 +26580,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkPositioni
 
 	return returnValue;
 }
-// Method Definition Index: 34741
+// Method Definition Index: 34847
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPositioningInfo_pannerType_set_m5D00D17FED5110D27493DFC2AA1F24641C4C8631 (intptr_t ___0_jarg1, int32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
@@ -26601,7 +26601,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPositionin
 	#endif
 
 }
-// Method Definition Index: 34742
+// Method Definition Index: 34848
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkPositioningInfo_pannerType_get_m90821BEAC2BB5D78CB09BE9FAF6D681E20BB2F3F (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -26623,7 +26623,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkPositio
 
 	return returnValue;
 }
-// Method Definition Index: 34743
+// Method Definition Index: 34849
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPositioningInfo_e3dPositioningType_set_mD2CA5AA3981C4582B4745900EC18A05480EBB86C (intptr_t ___0_jarg1, int32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
@@ -26644,7 +26644,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPositionin
 	#endif
 
 }
-// Method Definition Index: 34744
+// Method Definition Index: 34850
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkPositioningInfo_e3dPositioningType_get_mCA114B700DD18FC78A401F567C8A44FDA7063A7B (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -26666,7 +26666,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkPositio
 
 	return returnValue;
 }
-// Method Definition Index: 34745
+// Method Definition Index: 34851
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPositioningInfo_bHoldEmitterPosAndOrient_set_m41183655A2A4C9D0641B0415F060D88F0179341A (intptr_t ___0_jarg1, bool ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
@@ -26687,7 +26687,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPositionin
 	#endif
 
 }
-// Method Definition Index: 34746
+// Method Definition Index: 34852
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkPositioningInfo_bHoldEmitterPosAndOrient_get_m73FE8014B9E1570A0854A083693441484AF8E9EE (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -26709,7 +26709,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkPositionin
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 34747
+// Method Definition Index: 34853
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPositioningInfo_e3DSpatializationMode_set_m61B516959A834DEDCAA726A6931A3AC587337921 (intptr_t ___0_jarg1, int32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
@@ -26730,7 +26730,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPositionin
 	#endif
 
 }
-// Method Definition Index: 34748
+// Method Definition Index: 34854
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkPositioningInfo_e3DSpatializationMode_get_mE31E644F8F938157A87F14203E4C89E78C631BBB (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -26752,7 +26752,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkPositio
 
 	return returnValue;
 }
-// Method Definition Index: 34749
+// Method Definition Index: 34855
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPositioningInfo_bEnableAttenuation_set_m851129D037C9CE50E867754F02ED82A6FCFB7787 (intptr_t ___0_jarg1, bool ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
@@ -26773,7 +26773,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPositionin
 	#endif
 
 }
-// Method Definition Index: 34750
+// Method Definition Index: 34856
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkPositioningInfo_bEnableAttenuation_get_m455313740837AFDD69CF4BDDCA04379887FE353D (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -26795,7 +26795,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkPositionin
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 34751
+// Method Definition Index: 34857
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPositioningInfo_bUseConeAttenuation_set_m99848C37D176A37AD4D170551C6F909143726652 (intptr_t ___0_jarg1, bool ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
@@ -26816,7 +26816,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPositionin
 	#endif
 
 }
-// Method Definition Index: 34752
+// Method Definition Index: 34858
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkPositioningInfo_bUseConeAttenuation_get_m0EA873FF24357A0CA7BE40BA827B5652FFFD228F (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -26838,7 +26838,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkPositionin
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 34753
+// Method Definition Index: 34859
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPositioningInfo_fInnerAngle_set_mF76281B0255F153121982E3C8193AC37B09FEFB1 (intptr_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float);
@@ -26859,7 +26859,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPositionin
 	#endif
 
 }
-// Method Definition Index: 34754
+// Method Definition Index: 34860
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkPositioningInfo_fInnerAngle_get_m03547FD7D32333F24ED8BAACDD82D9223B916727 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -26881,7 +26881,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkPositioni
 
 	return returnValue;
 }
-// Method Definition Index: 34755
+// Method Definition Index: 34861
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPositioningInfo_fOuterAngle_set_m04EA07D08AF35F6A71D4E687CB2BD5A9616A37D0 (intptr_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float);
@@ -26902,7 +26902,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPositionin
 	#endif
 
 }
-// Method Definition Index: 34756
+// Method Definition Index: 34862
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkPositioningInfo_fOuterAngle_get_mD4154A4594064E4264E96B84BD4EFD63A62B443F (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -26924,7 +26924,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkPositioni
 
 	return returnValue;
 }
-// Method Definition Index: 34757
+// Method Definition Index: 34863
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPositioningInfo_fConeMaxAttenuation_set_m729AEBEC00345526C86589EA6C9625BD2D77A20A (intptr_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float);
@@ -26945,7 +26945,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPositionin
 	#endif
 
 }
-// Method Definition Index: 34758
+// Method Definition Index: 34864
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkPositioningInfo_fConeMaxAttenuation_get_m7832A128E3468B9EB8FE6228BB7262176B56EAD6 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -26967,7 +26967,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkPositioni
 
 	return returnValue;
 }
-// Method Definition Index: 34759
+// Method Definition Index: 34865
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPositioningInfo_LPFCone_set_m23F3311880836B5112007859FC4B17AA025781A9 (intptr_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float);
@@ -26988,7 +26988,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPositionin
 	#endif
 
 }
-// Method Definition Index: 34760
+// Method Definition Index: 34866
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkPositioningInfo_LPFCone_get_m0AB2749EEA3405E8515D0C20E18B23A9E6EDD1C2 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -27010,7 +27010,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkPositioni
 
 	return returnValue;
 }
-// Method Definition Index: 34761
+// Method Definition Index: 34867
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPositioningInfo_HPFCone_set_mB0EB9E274D70F435CA05939CCFA85690851C8E8B (intptr_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float);
@@ -27031,7 +27031,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPositionin
 	#endif
 
 }
-// Method Definition Index: 34762
+// Method Definition Index: 34868
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkPositioningInfo_HPFCone_get_mB18E4B0A928BCBD5C7DF5138AE08D10C560FBD2D (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -27053,7 +27053,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkPositioni
 
 	return returnValue;
 }
-// Method Definition Index: 34763
+// Method Definition Index: 34869
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPositioningInfo_fMaxDistance_set_mAD544DC522B5535E2D80CB2F5DD8D50D2F27AFBB (intptr_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float);
@@ -27074,7 +27074,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPositionin
 	#endif
 
 }
-// Method Definition Index: 34764
+// Method Definition Index: 34870
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkPositioningInfo_fMaxDistance_get_m8ED04CD220F8E9D27C92F2486D9CF0E3A543C676 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -27096,7 +27096,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkPositioni
 
 	return returnValue;
 }
-// Method Definition Index: 34765
+// Method Definition Index: 34871
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPositioningInfo_fVolDryAtMaxDist_set_m7F723D0A233181246A385E8B351C3E4D18ED082A (intptr_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float);
@@ -27117,7 +27117,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPositionin
 	#endif
 
 }
-// Method Definition Index: 34766
+// Method Definition Index: 34872
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkPositioningInfo_fVolDryAtMaxDist_get_m2F2BB6B8FEFF23B6AF3E4B708FBD79BD86A50FF6 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -27139,7 +27139,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkPositioni
 
 	return returnValue;
 }
-// Method Definition Index: 34767
+// Method Definition Index: 34873
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPositioningInfo_fVolAuxGameDefAtMaxDist_set_m903A339D5DF1AC6777D1DB615A4A5CAE287DDB4A (intptr_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float);
@@ -27160,7 +27160,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPositionin
 	#endif
 
 }
-// Method Definition Index: 34768
+// Method Definition Index: 34874
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkPositioningInfo_fVolAuxGameDefAtMaxDist_get_mE9C15A14F71976D118208CB4D5E5821ACBE1811A (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -27182,7 +27182,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkPositioni
 
 	return returnValue;
 }
-// Method Definition Index: 34769
+// Method Definition Index: 34875
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPositioningInfo_fVolAuxUserDefAtMaxDist_set_m4B4BE4D0424A02E5545F50BC7A378B3E4AC49A55 (intptr_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float);
@@ -27203,7 +27203,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPositionin
 	#endif
 
 }
-// Method Definition Index: 34770
+// Method Definition Index: 34876
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkPositioningInfo_fVolAuxUserDefAtMaxDist_get_m3DF0CD3C983700AB2100454D4687C90B48E80198 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -27225,7 +27225,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkPositioni
 
 	return returnValue;
 }
-// Method Definition Index: 34771
+// Method Definition Index: 34877
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPositioningInfo_LPFValueAtMaxDist_set_mB7D3610F81E90289F3A8BC35F5535D0C00230D7F (intptr_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float);
@@ -27246,7 +27246,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPositionin
 	#endif
 
 }
-// Method Definition Index: 34772
+// Method Definition Index: 34878
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkPositioningInfo_LPFValueAtMaxDist_get_m01CE38F0CC72E489C4D36A3BA0C1F1CDD33169CA (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -27268,7 +27268,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkPositioni
 
 	return returnValue;
 }
-// Method Definition Index: 34773
+// Method Definition Index: 34879
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPositioningInfo_HPFValueAtMaxDist_set_m7338DB32CEDCE9F2A42860F82151E1141480875D (intptr_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float);
@@ -27289,7 +27289,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPositionin
 	#endif
 
 }
-// Method Definition Index: 34774
+// Method Definition Index: 34880
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkPositioningInfo_HPFValueAtMaxDist_get_m209CFA2830A78A7E95B0610C34A48EE96438BB06 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -27311,7 +27311,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkPositioni
 
 	return returnValue;
 }
-// Method Definition Index: 34775
+// Method Definition Index: 34881
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkPositioningInfo_mABC2C7039EC5F177944650A10C2270008EB734F5 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -27333,7 +27333,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkPo
 
 	return returnValue;
 }
-// Method Definition Index: 34776
+// Method Definition Index: 34882
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkPositioningInfo_m61F2C8D9CB508D89B31DFB99496B1443C654492A (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -27354,7 +27354,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkPos
 	#endif
 
 }
-// Method Definition Index: 34777
+// Method Definition Index: 34883
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkObjectInfo_objID_set_m634E5B53558BDB54904A028D9757E492757A67C9 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -27375,7 +27375,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkObjectInfo
 	#endif
 
 }
-// Method Definition Index: 34778
+// Method Definition Index: 34884
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkObjectInfo_objID_get_m046472E9684FB2405913BE46340BE059518D72E1 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -27397,7 +27397,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkObject
 
 	return returnValue;
 }
-// Method Definition Index: 34779
+// Method Definition Index: 34885
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkObjectInfo_parentID_set_m183243A9090865BC0A1E2792BC34909C276B53A4 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -27418,7 +27418,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkObjectInfo
 	#endif
 
 }
-// Method Definition Index: 34780
+// Method Definition Index: 34886
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkObjectInfo_parentID_get_mF7B16EB98DCA83C0586CC418D54C93AC01724237 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -27440,7 +27440,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkObject
 
 	return returnValue;
 }
-// Method Definition Index: 34781
+// Method Definition Index: 34887
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkObjectInfo_iDepth_set_mD2901E8C7ED597CE82D63AFB15D4B9E91AC04CD9 (intptr_t ___0_jarg1, int32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
@@ -27461,7 +27461,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkObjectInfo
 	#endif
 
 }
-// Method Definition Index: 34782
+// Method Definition Index: 34888
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkObjectInfo_iDepth_get_m2A4D626076FFAD015A924871F1725E2EBB7C9011 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -27483,7 +27483,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkObjectI
 
 	return returnValue;
 }
-// Method Definition Index: 34783
+// Method Definition Index: 34889
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkObjectInfo_Clear_m7F51EC6B1A0A2B991D14BDADD13BB0BCC83E2301 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -27504,7 +27504,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkObjectInfo
 	#endif
 
 }
-// Method Definition Index: 34784
+// Method Definition Index: 34890
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkObjectInfo_GetSizeOf_mDAD57FF26533097CA56273A262F8F56FB60410C7 (const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -27526,7 +27526,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkObjectI
 
 	return returnValue;
 }
-// Method Definition Index: 34785
+// Method Definition Index: 34891
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkObjectInfo_Clone_mECE4420B0BCEA40F1C8BD3B2DE34748FB9A0CAC4 (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -27547,7 +27547,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkObjectInfo
 	#endif
 
 }
-// Method Definition Index: 34786
+// Method Definition Index: 34892
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkObjectInfo_m482FAA0E23B93FC30A1771FCE27946930E7BBAD0 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -27569,7 +27569,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkOb
 
 	return returnValue;
 }
-// Method Definition Index: 34787
+// Method Definition Index: 34893
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkObjectInfo_mC4C377C9CD041BAFCAC82FCAB89A24E8E4EA4051 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -27590,7 +27590,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkObj
 	#endif
 
 }
-// Method Definition Index: 34788
+// Method Definition Index: 34894
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetPosition_mB12F66896C432DA7A53302915634E076B23C8FDE (uint64_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, intptr_t);
@@ -27612,7 +27612,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetPositi
 
 	return returnValue;
 }
-// Method Definition Index: 34789
+// Method Definition Index: 34895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetListenerPosition_m3EB923A42CD5B1095340FA82B13B48006E15B506 (uint64_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, intptr_t);
@@ -27634,7 +27634,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetListen
 
 	return returnValue;
 }
-// Method Definition Index: 34790
+// Method Definition Index: 34896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetRTPCValue__SWIG_0_m93D1212DFA2941B50A2215B310195DD8C7EA9C7B (uint32_t ___0_jarg1, uint64_t ___1_jarg2, uint32_t ___2_jarg3, float* ___3_jarg4, int32_t* ___4_jarg5, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint64_t, uint32_t, float*, int32_t*);
@@ -27656,7 +27656,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetRTPCVa
 
 	return returnValue;
 }
-// Method Definition Index: 34791
+// Method Definition Index: 34897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetRTPCValue__SWIG_1_m208F258804F84211E007B7E6F111EAFFE1A17B9C (String_t* ___0_jarg1, uint64_t ___1_jarg2, uint32_t ___2_jarg3, float* ___3_jarg4, int32_t* ___4_jarg5, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, uint64_t, uint32_t, float*, int32_t*);
@@ -27684,7 +27684,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetRTPCVa
 
 	return returnValue;
 }
-// Method Definition Index: 34792
+// Method Definition Index: 34898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetSwitch__SWIG_0_m9F6EA0B29E92A2EF4819D02E387614AD3B8799B8 (uint32_t ___0_jarg1, uint64_t ___1_jarg2, uint32_t* ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint64_t, uint32_t*);
@@ -27706,7 +27706,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetSwitch
 
 	return returnValue;
 }
-// Method Definition Index: 34793
+// Method Definition Index: 34899
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetSwitch__SWIG_1_m850CDDE54EDE733064C20A3670457F36A7479149 (String_t* ___0_jarg1, uint64_t ___1_jarg2, uint32_t* ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, uint64_t, uint32_t*);
@@ -27734,7 +27734,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetSwitch
 
 	return returnValue;
 }
-// Method Definition Index: 34794
+// Method Definition Index: 34900
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetState__SWIG_0_mE2F26AEE864221EA654113EAC0E438B7AB42ACE3 (uint32_t ___0_jarg1, uint32_t* ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint32_t*);
@@ -27756,7 +27756,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetState_
 
 	return returnValue;
 }
-// Method Definition Index: 34795
+// Method Definition Index: 34901
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetState__SWIG_1_mFC9F969112A86A2C5588563E5DEE023870EB71BA (String_t* ___0_jarg1, uint32_t* ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, uint32_t*);
@@ -27784,7 +27784,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetState_
 
 	return returnValue;
 }
-// Method Definition Index: 34796
+// Method Definition Index: 34902
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetGameObjectAuxSendValues_mBDA215560AE7CF164D2EE7EF8285FD44CC5345EE (uint64_t ___0_jarg1, intptr_t ___1_jarg2, uint32_t* ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, intptr_t, uint32_t*);
@@ -27806,7 +27806,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetGameOb
 
 	return returnValue;
 }
-// Method Definition Index: 34797
+// Method Definition Index: 34903
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetGameObjectDryLevelValue_mEC06F07E8ABE18DDC82AE6513F5C1F4711D70E02 (uint64_t ___0_jarg1, uint64_t ___1_jarg2, float* ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, uint64_t, float*);
@@ -27828,7 +27828,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetGameOb
 
 	return returnValue;
 }
-// Method Definition Index: 34798
+// Method Definition Index: 34904
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetObjectObstructionAndOcclusion_m130A34A723BB2C0FCDC146CCFD765A0839B44EDF (uint64_t ___0_jarg1, uint64_t ___1_jarg2, float* ___2_jarg3, float* ___3_jarg4, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, uint64_t, float*, float*);
@@ -27850,7 +27850,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetObject
 
 	return returnValue;
 }
-// Method Definition Index: 34799
+// Method Definition Index: 34905
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_QueryAudioObjectIDs__SWIG_0_mF114D1533BF60CE0E74640C97FE7CA03956A7476 (uint32_t ___0_jarg1, uint32_t* ___1_jarg2, intptr_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint32_t*, intptr_t);
@@ -27872,7 +27872,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_QueryAudi
 
 	return returnValue;
 }
-// Method Definition Index: 34800
+// Method Definition Index: 34906
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_QueryAudioObjectIDs__SWIG_1_mD60F7D86E0690B4553807DF13BAE04D895406762 (String_t* ___0_jarg1, uint32_t* ___1_jarg2, intptr_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, uint32_t*, intptr_t);
@@ -27900,7 +27900,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_QueryAudi
 
 	return returnValue;
 }
-// Method Definition Index: 34801
+// Method Definition Index: 34907
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetPositioningInfo_m07C640BA6A1D114925F4FF349ED57BD4782E33D8 (uint32_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, intptr_t);
@@ -27922,7 +27922,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetPositi
 
 	return returnValue;
 }
-// Method Definition Index: 34802
+// Method Definition Index: 34908
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_GetIsGameObjectActive_m3A3B24E5BFB7FD399C5615505AF005FB18F824A1 (uint64_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t);
@@ -27944,7 +27944,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_GetIsGameObj
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 34803
+// Method Definition Index: 34909
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_GetMaxRadius_m876E3ACF92B6CD60B31E2E0E03A333254030B456 (uint64_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (uint64_t);
@@ -27966,7 +27966,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_GetMaxRadiu
 
 	return returnValue;
 }
-// Method Definition Index: 34804
+// Method Definition Index: 34910
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_GetEventIDFromPlayingID_mB716E1E70BC98FF4CEA84AE433CA97988DE87B6C (uint32_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t);
@@ -27988,7 +27988,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_GetEvent
 
 	return returnValue;
 }
-// Method Definition Index: 34805
+// Method Definition Index: 34911
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t AkSoundEnginePINVOKE_CSharp_GetGameObjectFromPlayingID_mB75ECCC6592F4DFB888895269A1DBC1BE21BBA0B (uint32_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint64_t (DEFAULT_CALL *PInvokeFunc) (uint32_t);
@@ -28010,7 +28010,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t AkSoundEnginePINVOKE_CSharp_GetGameO
 
 	return returnValue;
 }
-// Method Definition Index: 34806
+// Method Definition Index: 34912
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetPlayingIDsFromGameObject_m21795DA256E2F6DE06F1E04EF43FA0B09CC9C108 (uint64_t ___0_jarg1, uint32_t* ___1_jarg2, UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, uint32_t*, uint32_t*);
@@ -28052,7 +28052,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetPlayin
 
 	return returnValue;
 }
-// Method Definition Index: 34807
+// Method Definition Index: 34913
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetCustomPropertyValue__SWIG_0_mEAB5F1DC2683677C64BB3BA439863BBBA06FCD89 (uint32_t ___0_jarg1, uint32_t ___1_jarg2, int32_t* ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint32_t, int32_t*);
@@ -28074,7 +28074,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetCustom
 
 	return returnValue;
 }
-// Method Definition Index: 34808
+// Method Definition Index: 34914
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetCustomPropertyValue__SWIG_1_m68EF75614F8CE6C0E20D8C72026D7AF4DE168870 (uint32_t ___0_jarg1, uint32_t ___1_jarg2, float* ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint32_t, float*);
@@ -28096,7 +28096,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetCustom
 
 	return returnValue;
 }
-// Method Definition Index: 34809
+// Method Definition Index: 34915
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AK_SPEAKER_SETUP_FIX_LEFT_TO_CENTER_mDF4D26388D6A4DA7B2BE1F0DE0AAC9088731F8F3 (uint32_t* ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (uint32_t*);
@@ -28117,7 +28117,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AK_SPEAKER_S
 	#endif
 
 }
-// Method Definition Index: 34810
+// Method Definition Index: 34916
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AK_SPEAKER_SETUP_FIX_REAR_TO_SIDE_m905F47A7F82AC6C3C8B46F950B71B69BCA52B05F (uint32_t* ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (uint32_t*);
@@ -28138,7 +28138,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AK_SPEAKER_S
 	#endif
 
 }
-// Method Definition Index: 34811
+// Method Definition Index: 34917
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AK_SPEAKER_SETUP_CONVERT_TO_SUPPORTED_mABCD0E422C5A49B9C7A764557DF300C945CAB9F5 (uint32_t* ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (uint32_t*);
@@ -28159,7 +28159,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AK_SPEAKER_S
 	#endif
 
 }
-// Method Definition Index: 34812
+// Method Definition Index: 34918
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_ChannelMaskToNumChannels_mB67975910C6F6041F561CBBFFEB9BE62C8AC7BBE (uint32_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint8_t (DEFAULT_CALL *PInvokeFunc) (uint32_t);
@@ -28181,7 +28181,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_ChannelMa
 
 	return returnValue;
 }
-// Method Definition Index: 34813
+// Method Definition Index: 34919
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_ChannelMaskFromNumChannels_mDECD62224CF5701A09E994B7B6FE7C3FE621BD43 (uint32_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t);
@@ -28203,7 +28203,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_ChannelM
 
 	return returnValue;
 }
-// Method Definition Index: 34814
+// Method Definition Index: 34920
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_ChannelBitToIndex_mA8F5107E273A48B6ABD414F76352C0EEEDE53D61 (uint32_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef uint8_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint32_t);
@@ -28225,7 +28225,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_ChannelBi
 
 	return returnValue;
 }
-// Method Definition Index: 34815
+// Method Definition Index: 34921
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_HasSurroundChannels_m3176E93AC5B9EC1141885C901FFC633EF4ADCD28 (uint32_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t);
@@ -28247,7 +28247,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_HasSurroundC
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 34816
+// Method Definition Index: 34922
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_HasStrictlyOnePairOfSurroundChannels_mE73092EBADB6A5715829771DBD0667E3251D4466 (uint32_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t);
@@ -28269,7 +28269,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_HasStrictlyO
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 34817
+// Method Definition Index: 34923
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_HasSideAndRearChannels_m412398CDCF4FCA949421D93D7A211A970A06EC40 (uint32_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t);
@@ -28291,7 +28291,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_HasSideAndRe
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 34818
+// Method Definition Index: 34924
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_HasHeightChannels_m16E5DC2C64AF24BC0B42D8145CCA2B30A444D570 (uint32_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t);
@@ -28313,7 +28313,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_HasHeightCha
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 34819
+// Method Definition Index: 34925
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_BackToSideChannels_mB7BAE7639806990C0F473F957AF812F224F23049 (uint32_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t);
@@ -28335,7 +28335,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_BackToSi
 
 	return returnValue;
 }
-// Method Definition Index: 34820
+// Method Definition Index: 34926
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_StdChannelIndexToDisplayIndex_m9AFFA110BF413B377ACA3A7FF066893034CF2C67 (int32_t ___0_jarg1, uint32_t ___1_jarg2, uint32_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, uint32_t, uint32_t);
@@ -28357,7 +28357,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_StdChann
 
 	return returnValue;
 }
-// Method Definition Index: 34821
+// Method Definition Index: 34927
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkChannelConfig_uNumChannels_set_m57F062E8E0CFBDFD61E9BC7DAE22BD662FFB0E44 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -28378,7 +28378,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkChannelCon
 	#endif
 
 }
-// Method Definition Index: 34822
+// Method Definition Index: 34928
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkChannelConfig_uNumChannels_get_m4FF2A5E1A669E6D5EAA310B46C1A140369F54433 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -28400,7 +28400,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkChanne
 
 	return returnValue;
 }
-// Method Definition Index: 34823
+// Method Definition Index: 34929
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkChannelConfig_eConfigType_set_m91B58D27C4FE98D6DCC21ACF1DE07F1266289D7F (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -28421,7 +28421,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkChannelCon
 	#endif
 
 }
-// Method Definition Index: 34824
+// Method Definition Index: 34930
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkChannelConfig_eConfigType_get_mE66734E3FE735B7D4D7024DFE36224EEAEA7AB6F (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -28443,7 +28443,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkChanne
 
 	return returnValue;
 }
-// Method Definition Index: 34825
+// Method Definition Index: 34931
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkChannelConfig_uChannelMask_set_mFD17FC5FEE2DA972C162EA8268E2E527045B751A (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -28464,7 +28464,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkChannelCon
 	#endif
 
 }
-// Method Definition Index: 34826
+// Method Definition Index: 34932
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkChannelConfig_uChannelMask_get_m33C1BA880DA93E68462E0142E383302E1FC61836 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -28486,7 +28486,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkChanne
 
 	return returnValue;
 }
-// Method Definition Index: 34827
+// Method Definition Index: 34933
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkChannelConfig__SWIG_0_m31A0481021A52549683FCAE0EDBA9A4468A0B903 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -28508,7 +28508,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkCh
 
 	return returnValue;
 }
-// Method Definition Index: 34828
+// Method Definition Index: 34934
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkChannelConfig__SWIG_1_m912C33546B638326AF27A1DDC9EC4042B002F975 (uint32_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint32_t);
@@ -28530,7 +28530,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkCh
 
 	return returnValue;
 }
-// Method Definition Index: 34829
+// Method Definition Index: 34935
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkChannelConfig_Clear_mE898B2F5A0EAC57EA4DCA682FCABE70D134E00F1 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -28551,7 +28551,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkChannelCon
 	#endif
 
 }
-// Method Definition Index: 34830
+// Method Definition Index: 34936
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkChannelConfig_SetStandard_mA8A373B9315A59091BFD5481A5D508FB44233E2B (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -28572,7 +28572,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkChannelCon
 	#endif
 
 }
-// Method Definition Index: 34831
+// Method Definition Index: 34937
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkChannelConfig_SetStandardOrAnonymous_m9E80E15BEF6ED10B28C72DCF315289848FF27EC0 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, uint32_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t, uint32_t);
@@ -28593,7 +28593,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkChannelCon
 	#endif
 
 }
-// Method Definition Index: 34832
+// Method Definition Index: 34938
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkChannelConfig_SetAnonymous_mE6C7FB74731F70CB5A7487BCFA91E36D5315A720 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -28614,7 +28614,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkChannelCon
 	#endif
 
 }
-// Method Definition Index: 34833
+// Method Definition Index: 34939
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkChannelConfig_SetAmbisonic_m6CF4921AD7983DB9F07A284CED7CDD37984FBF86 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -28635,7 +28635,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkChannelCon
 	#endif
 
 }
-// Method Definition Index: 34834
+// Method Definition Index: 34940
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkChannelConfig_IsValid_mF61F757DC16CE12D6FFF52940FDFF6B5394061C2 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -28657,7 +28657,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkChannelCon
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 34835
+// Method Definition Index: 34941
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkChannelConfig_Serialize_m8382DA3BE5F5994EB8A27195630689615E5AACCB (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -28679,7 +28679,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkChanne
 
 	return returnValue;
 }
-// Method Definition Index: 34836
+// Method Definition Index: 34942
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkChannelConfig_Deserialize_mE52CBC593B776E8A21549272B2EE3C0C4D6F8D3B (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -28700,7 +28700,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkChannelCon
 	#endif
 
 }
-// Method Definition Index: 34837
+// Method Definition Index: 34943
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkChannelConfig_RemoveLFE_mB3C0133AB9C5AD0702202C8BEC6418E43D266CDC (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -28722,7 +28722,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkChanne
 
 	return returnValue;
 }
-// Method Definition Index: 34838
+// Method Definition Index: 34944
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkChannelConfig_RemoveCenter_mF338F318F4C6D3CAA771A1E7C9081B2E321271FF (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -28744,7 +28744,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkChanne
 
 	return returnValue;
 }
-// Method Definition Index: 34839
+// Method Definition Index: 34945
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkChannelConfig_IsChannelConfigSupported_m21A546A6BA3C47230213FA6D61C70666369DBD1E (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -28766,7 +28766,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkChannelCon
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 34840
+// Method Definition Index: 34946
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkChannelConfig_m1C19A364D82B23FD968EF3E6B8DB492EB57F3809 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -28787,7 +28787,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkCha
 	#endif
 
 }
-// Method Definition Index: 34841
+// Method Definition Index: 34947
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkImageSourceParams__SWIG_0_m5B589421D3D5F662742332F63485062D6CA34DCA (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -28809,7 +28809,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkIm
 
 	return returnValue;
 }
-// Method Definition Index: 34842
+// Method Definition Index: 34948
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkImageSourceParams__SWIG_1_m9EB756D3BFAA407DC5FDCA54E2BC21A63CCC90A4 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_jarg1, float ___1_jarg2, float ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, float, float);
@@ -28831,7 +28831,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkIm
 
 	return returnValue;
 }
-// Method Definition Index: 34843
+// Method Definition Index: 34949
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkImageSourceParams_sourcePosition_set_m86AD7A486F848793DA83305848E705D656F200AA (intptr_t ___0_jarg1, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2);
@@ -28852,7 +28852,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkImageSourc
 	#endif
 
 }
-// Method Definition Index: 34844
+// Method Definition Index: 34950
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 AkSoundEnginePINVOKE_CSharp_AkImageSourceParams_sourcePosition_get_m39E5CDA9B9C5F7AA32374E83B85B28711A2F36B0 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -28874,7 +28874,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 
 	return returnValue;
 }
-// Method Definition Index: 34845
+// Method Definition Index: 34951
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkImageSourceParams_fDistanceScalingFactor_set_m48B8D15D465ADEB0A932ADFABB497C7E90BD38BD (intptr_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float);
@@ -28895,7 +28895,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkImageSourc
 	#endif
 
 }
-// Method Definition Index: 34846
+// Method Definition Index: 34952
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkImageSourceParams_fDistanceScalingFactor_get_m0E172B703F432B37360A0BCA9641B4109D3A46EB (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -28917,7 +28917,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkImageSour
 
 	return returnValue;
 }
-// Method Definition Index: 34847
+// Method Definition Index: 34953
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkImageSourceParams_fLevel_set_mC4F2B4DE667D665169DC49D3BFAD5F86EF984AA9 (intptr_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float);
@@ -28938,7 +28938,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkImageSourc
 	#endif
 
 }
-// Method Definition Index: 34848
+// Method Definition Index: 34954
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkImageSourceParams_fLevel_get_m26770CC1A70D6C3411D41E508992B45998D51439 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -28960,7 +28960,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkImageSour
 
 	return returnValue;
 }
-// Method Definition Index: 34849
+// Method Definition Index: 34955
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkImageSourceParams_fDiffraction_set_m7AD2C3DB77A5FB5F1B9E82AFA37E670E9AD70DE6 (intptr_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float);
@@ -28981,7 +28981,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkImageSourc
 	#endif
 
 }
-// Method Definition Index: 34850
+// Method Definition Index: 34956
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkImageSourceParams_fDiffraction_get_m42190C45EFD6E9EAC9DFECE844910783DF8C9012 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -29003,7 +29003,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkImageSour
 
 	return returnValue;
 }
-// Method Definition Index: 34851
+// Method Definition Index: 34957
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkImageSourceParams_uDiffractionEmitterSide_set_m27A0E9AAFF4F2C24F2D28C1ECB7DF660274C5660 (intptr_t ___0_jarg1, uint8_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint8_t);
@@ -29024,7 +29024,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkImageSourc
 	#endif
 
 }
-// Method Definition Index: 34852
+// Method Definition Index: 34958
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkImageSourceParams_uDiffractionEmitterSide_get_mF63EEAC3663F502FC704CCC965C841D0E3A50269 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint8_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -29046,7 +29046,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkImageSo
 
 	return returnValue;
 }
-// Method Definition Index: 34853
+// Method Definition Index: 34959
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkImageSourceParams_uDiffractionListenerSide_set_mDD405AFE87FB888AF767134FE9BD0753BDF8F002 (intptr_t ___0_jarg1, uint8_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint8_t);
@@ -29067,7 +29067,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkImageSourc
 	#endif
 
 }
-// Method Definition Index: 34854
+// Method Definition Index: 34960
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkImageSourceParams_uDiffractionListenerSide_get_m90603AD3165B312AA37CCF4D4AA20AEC502C3C6E (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint8_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -29089,7 +29089,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEnginePINVOKE_CSharp_AkImageSo
 
 	return returnValue;
 }
-// Method Definition Index: 34855
+// Method Definition Index: 34961
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkImageSourceParams_mB9DEF1B1DBEFFDAA13290A0CA23834F38B611C94 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -29110,7 +29110,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkIma
 	#endif
 
 }
-// Method Definition Index: 34856
+// Method Definition Index: 34962
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_kDefaultMaxPathLength_get_m64A2902176C9E635FAE0B661D960967F6885DF69 (const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) ();
@@ -29132,7 +29132,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_kDefaultMax
 
 	return returnValue;
 }
-// Method Definition Index: 34857
+// Method Definition Index: 34963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_kDefaultDiffractionMaxEdges_get_m001838B210834E2E5270877962AA55E2BD394152 (const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -29154,7 +29154,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_kDefault
 
 	return returnValue;
 }
-// Method Definition Index: 34858
+// Method Definition Index: 34964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_kDefaultDiffractionMaxPaths_get_m5EE2F1B1EDEF991CBF237FED92C247673EF22657 (const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -29176,7 +29176,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_kDefault
 
 	return returnValue;
 }
-// Method Definition Index: 34859
+// Method Definition Index: 34965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_kMaxDiffraction_get_mFBC45874C544CB5DCA455A75C0A5D36EFF4F7A14 (const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) ();
@@ -29198,7 +29198,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_kMaxDiffrac
 
 	return returnValue;
 }
-// Method Definition Index: 34860
+// Method Definition Index: 34966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_kDiffractionMaxEdges_get_mC98D6A3F73D87DF29F028934802C843AD79BB770 (const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -29220,7 +29220,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_kDiffrac
 
 	return returnValue;
 }
-// Method Definition Index: 34861
+// Method Definition Index: 34967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_kDiffractionMaxPaths_get_mE3528B3F5FCD4E018A755EF4B8B7D66356D4DEDE (const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -29242,7 +29242,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_kDiffrac
 
 	return returnValue;
 }
-// Method Definition Index: 34862
+// Method Definition Index: 34968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_kPortalToPortalDiffractionMaxPaths_get_m79BC8DE14DB72EE91061682E54F0AA9E6301F900 (const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -29264,7 +29264,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_kPortalT
 
 	return returnValue;
 }
-// Method Definition Index: 34863
+// Method Definition Index: 34969
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkSpatialAudioInitSettings_m702B927795EEF40C60B1B91E58CEBCE8DE17546E (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -29286,7 +29286,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkSp
 
 	return returnValue;
 }
-// Method Definition Index: 34864
+// Method Definition Index: 34970
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSpatialAudioInitSettings_uMaxSoundPropagationDepth_set_mB87C3A11E6652D0CB22700565FECED501E33F06E (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -29307,7 +29307,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSpatialAud
 	#endif
 
 }
-// Method Definition Index: 34865
+// Method Definition Index: 34971
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkSpatialAudioInitSettings_uMaxSoundPropagationDepth_get_m60027C146A03EF4C21C095F9F4CF6FF9023ADA47 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -29329,7 +29329,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkSpatia
 
 	return returnValue;
 }
-// Method Definition Index: 34866
+// Method Definition Index: 34972
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSpatialAudioInitSettings_uDiffractionFlags_set_mC14BAA72DAC97890121FE8F1B45927DF578694FC (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -29350,7 +29350,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSpatialAud
 	#endif
 
 }
-// Method Definition Index: 34867
+// Method Definition Index: 34973
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkSpatialAudioInitSettings_uDiffractionFlags_get_mB3D95F053A5A28AC5C194D9CAFBF0A550058B38A (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -29372,7 +29372,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkSpatia
 
 	return returnValue;
 }
-// Method Definition Index: 34868
+// Method Definition Index: 34974
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSpatialAudioInitSettings_fDiffractionShadowAttenFactor_set_m7CA2B5B4F980E2D5D5ACFD238F964063EEE8178B (intptr_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float);
@@ -29393,7 +29393,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSpatialAud
 	#endif
 
 }
-// Method Definition Index: 34869
+// Method Definition Index: 34975
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkSpatialAudioInitSettings_fDiffractionShadowAttenFactor_get_mF40298303686FB18D30400732D361CD834ACC99D (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -29415,7 +29415,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkSpatialAu
 
 	return returnValue;
 }
-// Method Definition Index: 34870
+// Method Definition Index: 34976
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSpatialAudioInitSettings_fDiffractionShadowDegrees_set_m0B230BB085BCC2B0360D900F7041F4E761955135 (intptr_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float);
@@ -29436,7 +29436,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSpatialAud
 	#endif
 
 }
-// Method Definition Index: 34871
+// Method Definition Index: 34977
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkSpatialAudioInitSettings_fDiffractionShadowDegrees_get_m69F22C8516527B76260530328DCC0C5AE987E06D (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -29458,7 +29458,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkSpatialAu
 
 	return returnValue;
 }
-// Method Definition Index: 34872
+// Method Definition Index: 34978
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSpatialAudioInitSettings_fMovementThreshold_set_m89505A209DB2A1D25E13110D91744E6C7B386278 (intptr_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float);
@@ -29479,7 +29479,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSpatialAud
 	#endif
 
 }
-// Method Definition Index: 34873
+// Method Definition Index: 34979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkSpatialAudioInitSettings_fMovementThreshold_get_mD515F824D7F590E9D41FECF7DC58F982AA787924 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -29501,7 +29501,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkSpatialAu
 
 	return returnValue;
 }
-// Method Definition Index: 34874
+// Method Definition Index: 34980
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSpatialAudioInitSettings_uNumberOfPrimaryRays_set_mAEF79662A632BDA84412FED1B3999CD0F603B4CD (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -29522,7 +29522,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSpatialAud
 	#endif
 
 }
-// Method Definition Index: 34875
+// Method Definition Index: 34981
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkSpatialAudioInitSettings_uNumberOfPrimaryRays_get_mB47F3C248C4258A3381184DC647A8A9353DB5080 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -29544,7 +29544,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkSpatia
 
 	return returnValue;
 }
-// Method Definition Index: 34876
+// Method Definition Index: 34982
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSpatialAudioInitSettings_uMaxReflectionOrder_set_m1AFB6E0AA3EE6AC892A5FA153BDC47F585871CB5 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -29565,7 +29565,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSpatialAud
 	#endif
 
 }
-// Method Definition Index: 34877
+// Method Definition Index: 34983
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkSpatialAudioInitSettings_uMaxReflectionOrder_get_m184EEF90F437A03490708933875499D56876A7DD (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -29587,7 +29587,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkSpatia
 
 	return returnValue;
 }
-// Method Definition Index: 34878
+// Method Definition Index: 34984
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSpatialAudioInitSettings_fMaxPathLength_set_m5E4BCE25FB251F7F796B553CA0137C43711BF39A (intptr_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float);
@@ -29608,7 +29608,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSpatialAud
 	#endif
 
 }
-// Method Definition Index: 34879
+// Method Definition Index: 34985
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkSpatialAudioInitSettings_fMaxPathLength_get_m630B9CD8983C7323FA182F39BEF459D850A18540 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -29630,7 +29630,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkSpatialAu
 
 	return returnValue;
 }
-// Method Definition Index: 34880
+// Method Definition Index: 34986
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSpatialAudioInitSettings_bEnableDiffractionOnReflection_set_m8E15405CF0F36ECE1F11EE52A600F42BED53A250 (intptr_t ___0_jarg1, bool ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
@@ -29651,7 +29651,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSpatialAud
 	#endif
 
 }
-// Method Definition Index: 34881
+// Method Definition Index: 34987
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkSpatialAudioInitSettings_bEnableDiffractionOnReflection_get_m63607C5BCFD6EFF98E72769133E6C1339EBEA9D5 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -29673,7 +29673,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkSpatialAud
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 34882
+// Method Definition Index: 34988
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSpatialAudioInitSettings_bEnableDirectPathDiffraction_set_mC2601D180F9C4BE84F62770CEA688E1853E52285 (intptr_t ___0_jarg1, bool ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
@@ -29694,7 +29694,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSpatialAud
 	#endif
 
 }
-// Method Definition Index: 34883
+// Method Definition Index: 34989
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkSpatialAudioInitSettings_bEnableDirectPathDiffraction_get_mB0A5D09D5E98C2DDF8B95B28A9B82F311BF74C2E (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -29716,7 +29716,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkSpatialAud
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 34884
+// Method Definition Index: 34990
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSpatialAudioInitSettings_bEnableTransmission_set_m33C8717DCA74A39EFA9B6A8B86EC5F4E92D74CB4 (intptr_t ___0_jarg1, bool ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
@@ -29737,7 +29737,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkSpatialAud
 	#endif
 
 }
-// Method Definition Index: 34885
+// Method Definition Index: 34991
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkSpatialAudioInitSettings_bEnableTransmission_get_m8363A25F1D623E527A3BEF3E5359C647D3A745E1 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -29759,7 +29759,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkSpatialAud
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 34886
+// Method Definition Index: 34992
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkSpatialAudioInitSettings_mCC98297F2482C8628314777E2C61FE38E4A78CAD (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -29780,7 +29780,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkSpa
 	#endif
 
 }
-// Method Definition Index: 34887
+// Method Definition Index: 34993
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkImageSourceSettings__SWIG_0_m3F31616F8A65126342E11E07CD56C60C8DF343AB (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -29802,7 +29802,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkIm
 
 	return returnValue;
 }
-// Method Definition Index: 34888
+// Method Definition Index: 34994
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkImageSourceSettings__SWIG_1_m29FC552AAD006ED035BE7354C8AEF18D63E7D4DE (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_jarg1, float ___1_jarg2, float ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, float, float);
@@ -29824,7 +29824,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkIm
 
 	return returnValue;
 }
-// Method Definition Index: 34889
+// Method Definition Index: 34995
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkImageSourceSettings_mE71286718247DF54C6A0CDFD198A35C5CE2B845B (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -29845,7 +29845,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkIma
 	#endif
 
 }
-// Method Definition Index: 34890
+// Method Definition Index: 34996
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkImageSourceSettings_SetOneTexture_m71E562EC97BC4F313B420BC2328E62145F78CFDE (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -29866,7 +29866,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkImageSourc
 	#endif
 
 }
-// Method Definition Index: 34891
+// Method Definition Index: 34997
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkImageSourceSettings_SetName_m3B1D20C10A23694A99D525FD1C240512C5A1D3C9 (intptr_t ___0_jarg1, String_t* ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, char*);
@@ -29893,7 +29893,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkImageSourc
 	____1_jarg2_marshaled = NULL;
 
 }
-// Method Definition Index: 34892
+// Method Definition Index: 34998
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkImageSourceSettings_params__set_m9D4F56E29799E769B62385B0B04E2135972C73EF (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -29914,7 +29914,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkImageSourc
 	#endif
 
 }
-// Method Definition Index: 34893
+// Method Definition Index: 34999
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkImageSourceSettings_params__get_m7D1D8156559B1CE726D2C56DCECA4E1D6F3112B3 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -29936,7 +29936,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkImageS
 
 	return returnValue;
 }
-// Method Definition Index: 34894
+// Method Definition Index: 35000
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkTriangle__SWIG_0_m3DD5874DF6CD1C4B040824285B8EA7FAF79F6559 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -29958,7 +29958,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkTr
 
 	return returnValue;
 }
-// Method Definition Index: 34895
+// Method Definition Index: 35001
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkTriangle__SWIG_1_mD7C0C9F6FAE9364E22D3CA0E00B44C831CD2B5E1 (uint16_t ___0_jarg1, uint16_t ___1_jarg2, uint16_t ___2_jarg3, uint16_t ___3_jarg4, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (uint16_t, uint16_t, uint16_t, uint16_t);
@@ -29980,7 +29980,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkTr
 
 	return returnValue;
 }
-// Method Definition Index: 34896
+// Method Definition Index: 35002
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkTriangle_point0_set_mF812BBB163E6FE8B02CEAC4542152C9884AD2379 (intptr_t ___0_jarg1, uint16_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint16_t);
@@ -30001,7 +30001,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkTriangle_p
 	#endif
 
 }
-// Method Definition Index: 34897
+// Method Definition Index: 35003
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t AkSoundEnginePINVOKE_CSharp_AkTriangle_point0_get_mCC4B90A60D424F255ADDCCDB67AB4BA7E4F06ECD (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint16_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -30023,7 +30023,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t AkSoundEnginePINVOKE_CSharp_AkTriang
 
 	return returnValue;
 }
-// Method Definition Index: 34898
+// Method Definition Index: 35004
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkTriangle_point1_set_m9937FBB32A126522837ED897C20756854F338AEA (intptr_t ___0_jarg1, uint16_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint16_t);
@@ -30044,7 +30044,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkTriangle_p
 	#endif
 
 }
-// Method Definition Index: 34899
+// Method Definition Index: 35005
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t AkSoundEnginePINVOKE_CSharp_AkTriangle_point1_get_m9D208254E0A7148266CD940BE9E16AB94CEABFD6 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint16_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -30066,7 +30066,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t AkSoundEnginePINVOKE_CSharp_AkTriang
 
 	return returnValue;
 }
-// Method Definition Index: 34900
+// Method Definition Index: 35006
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkTriangle_point2_set_mD5238C825FF65E7F45FF5391076E6EA752BA2CF6 (intptr_t ___0_jarg1, uint16_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint16_t);
@@ -30087,7 +30087,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkTriangle_p
 	#endif
 
 }
-// Method Definition Index: 34901
+// Method Definition Index: 35007
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t AkSoundEnginePINVOKE_CSharp_AkTriangle_point2_get_mB3A4396B48526E98DA5BF4D80F9FA56C96D6CD06 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint16_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -30109,7 +30109,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t AkSoundEnginePINVOKE_CSharp_AkTriang
 
 	return returnValue;
 }
-// Method Definition Index: 34902
+// Method Definition Index: 35008
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkTriangle_surface_set_mDE8E31A04E65B6D3B594D0B808A7B2CBA822F39A (intptr_t ___0_jarg1, uint16_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint16_t);
@@ -30130,7 +30130,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkTriangle_s
 	#endif
 
 }
-// Method Definition Index: 34903
+// Method Definition Index: 35009
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t AkSoundEnginePINVOKE_CSharp_AkTriangle_surface_get_m01010CD29514A0A11359C17BF100CAC5EE243663 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint16_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -30152,7 +30152,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t AkSoundEnginePINVOKE_CSharp_AkTriang
 
 	return returnValue;
 }
-// Method Definition Index: 34904
+// Method Definition Index: 35010
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkTriangle_Clear_m65F2992FFAE1570DEFA592B74401789C04DD0A84 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -30173,7 +30173,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkTriangle_C
 	#endif
 
 }
-// Method Definition Index: 34905
+// Method Definition Index: 35011
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkTriangle_GetSizeOf_mEC92AA6AC6DDB9FB2FC24D22BE3593C3F48F5A82 (const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -30195,7 +30195,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkTriangl
 
 	return returnValue;
 }
-// Method Definition Index: 34906
+// Method Definition Index: 35012
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkTriangle_Clone_m509A24F21927BB6355C52C6F4506601717FC1E0B (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -30216,7 +30216,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkTriangle_C
 	#endif
 
 }
-// Method Definition Index: 34907
+// Method Definition Index: 35013
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkTriangle_m275E3523AAD5B700776EAA8C0EE94CF52B02157A (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -30237,7 +30237,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkTri
 	#endif
 
 }
-// Method Definition Index: 34908
+// Method Definition Index: 35014
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkAcousticSurface_mF44D54C947B414E439D035C8531620F349BDF176 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -30259,7 +30259,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkAc
 
 	return returnValue;
 }
-// Method Definition Index: 34909
+// Method Definition Index: 35015
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkAcousticSurface_textureID_set_m1E8C58E44ED7450F466880A0B37D12EB37AEC1CF (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -30280,7 +30280,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkAcousticSu
 	#endif
 
 }
-// Method Definition Index: 34910
+// Method Definition Index: 35016
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkAcousticSurface_textureID_get_m453319CA192483BE49D2AC3A4F7092B78E2C1A32 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -30302,7 +30302,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkAcoust
 
 	return returnValue;
 }
-// Method Definition Index: 34911
+// Method Definition Index: 35017
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkAcousticSurface_occlusion_set_m58B6BB6549E9F5D6900E50E549C571943A392960 (intptr_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float);
@@ -30323,7 +30323,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkAcousticSu
 	#endif
 
 }
-// Method Definition Index: 34912
+// Method Definition Index: 35018
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkAcousticSurface_occlusion_get_m6E448FFE90745699112909C241DB5173EEEAFB64 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -30345,7 +30345,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkAcousticS
 
 	return returnValue;
 }
-// Method Definition Index: 34913
+// Method Definition Index: 35019
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkAcousticSurface_strName_set_mFEC8F11E47A137B1C463929652BADFF27CD1CD5D (intptr_t ___0_jarg1, String_t* ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, char*);
@@ -30372,7 +30372,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkAcousticSu
 	____1_jarg2_marshaled = NULL;
 
 }
-// Method Definition Index: 34914
+// Method Definition Index: 35020
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkAcousticSurface_strName_get_mBDF937678DD297FE21DDFA510D796504AF27D8D3 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -30394,7 +30394,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkAcoust
 
 	return returnValue;
 }
-// Method Definition Index: 34915
+// Method Definition Index: 35021
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkAcousticSurface_Clear_m82F75B1D3E6887766684F95E5333CF415655FF7D (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -30415,7 +30415,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkAcousticSu
 	#endif
 
 }
-// Method Definition Index: 34916
+// Method Definition Index: 35022
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkAcousticSurface_DeleteName_mE55006161E12DB4F54C462F65E685C65FE607F50 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -30436,7 +30436,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkAcousticSu
 	#endif
 
 }
-// Method Definition Index: 34917
+// Method Definition Index: 35023
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkAcousticSurface_GetSizeOf_m71731991FD74883F0B07E849E7DF2E5B7A8FA2F9 (const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -30458,7 +30458,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkAcousti
 
 	return returnValue;
 }
-// Method Definition Index: 34918
+// Method Definition Index: 35024
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkAcousticSurface_Clone_m7A3FAA370F6C1709032BD0B0BA4A910CAC1EE5C1 (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -30479,7 +30479,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkAcousticSu
 	#endif
 
 }
-// Method Definition Index: 34919
+// Method Definition Index: 35025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkAcousticSurface_m029634BF7EB0CF3001A389F7E61FD2472AAE0AE2 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -30500,7 +30500,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkAco
 	#endif
 
 }
-// Method Definition Index: 34920
+// Method Definition Index: 35026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkReflectionPathInfo_imageSource_set_mC9DBA18851ABC24F4DBCE58BF6F5D2807DFF636B (intptr_t ___0_jarg1, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2);
@@ -30521,7 +30521,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkReflection
 	#endif
 
 }
-// Method Definition Index: 34921
+// Method Definition Index: 35027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 AkSoundEnginePINVOKE_CSharp_AkReflectionPathInfo_imageSource_get_m4F1C24F8A65D372BF22AA43C4A13D7B0757868AF (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -30543,7 +30543,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 
 	return returnValue;
 }
-// Method Definition Index: 34922
+// Method Definition Index: 35028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkReflectionPathInfo_numPathPoints_set_mF1E41146A3AFB7FAF7225CD3BF772B5B6D17AEA3 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -30564,7 +30564,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkReflection
 	#endif
 
 }
-// Method Definition Index: 34923
+// Method Definition Index: 35029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkReflectionPathInfo_numPathPoints_get_mF0D6E5932F2FA930BA4C23BD23A5FE03D634953B (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -30586,7 +30586,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkReflec
 
 	return returnValue;
 }
-// Method Definition Index: 34924
+// Method Definition Index: 35030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkReflectionPathInfo_numReflections_set_m48555D213CC8B9385E7FDFB829A4B9027E568A29 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -30607,7 +30607,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkReflection
 	#endif
 
 }
-// Method Definition Index: 34925
+// Method Definition Index: 35031
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkReflectionPathInfo_numReflections_get_m7711F0A50BFECDE2FA1D3C258795BE4B6DD0F616 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -30629,7 +30629,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkReflec
 
 	return returnValue;
 }
-// Method Definition Index: 34926
+// Method Definition Index: 35032
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkReflectionPathInfo_level_set_m4E153F2D0E2F5AA5E5897ADD9A2AA26657155512 (intptr_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float);
@@ -30650,7 +30650,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkReflection
 	#endif
 
 }
-// Method Definition Index: 34927
+// Method Definition Index: 35033
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkReflectionPathInfo_level_get_m1B1490813837C31138F96ACC786BFD55E7216DEB (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -30672,7 +30672,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkReflectio
 
 	return returnValue;
 }
-// Method Definition Index: 34928
+// Method Definition Index: 35034
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkReflectionPathInfo_isOccluded_set_m1FCD2E3B68D1833DA26086037EEED46CC1D98D6D (intptr_t ___0_jarg1, bool ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
@@ -30693,7 +30693,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkReflection
 	#endif
 
 }
-// Method Definition Index: 34929
+// Method Definition Index: 35035
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkReflectionPathInfo_isOccluded_get_mB275267A6F80AFA94350986201BCE0A4F836CF85 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -30715,7 +30715,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkReflection
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 34930
+// Method Definition Index: 35036
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkReflectionPathInfo_GetSizeOf_m583EB5FC394C7AAA58D93177225AB413CE7FE429 (const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -30737,7 +30737,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkReflect
 
 	return returnValue;
 }
-// Method Definition Index: 34931
+// Method Definition Index: 35037
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 AkSoundEnginePINVOKE_CSharp_AkReflectionPathInfo_GetPathPoint_m8704F6A6514C5D49328119BB842004CFC57C31D1 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -30759,7 +30759,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 
 	return returnValue;
 }
-// Method Definition Index: 34932
+// Method Definition Index: 35038
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkReflectionPathInfo_GetAcousticSurface_m4C58CB46EDEBE4EFC4C7F5FEDD64D1510A7334E1 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -30781,7 +30781,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkReflec
 
 	return returnValue;
 }
-// Method Definition Index: 34933
+// Method Definition Index: 35039
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkReflectionPathInfo_GetDiffraction_mE9765A2A5F35E470E9CB0E3BD4C502B83AA65FA1 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -30803,7 +30803,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkReflectio
 
 	return returnValue;
 }
-// Method Definition Index: 34934
+// Method Definition Index: 35040
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkReflectionPathInfo_Clone_mF0A8BA1570BAC54E48CECCDAF438D5F93565B89F (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -30824,7 +30824,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkReflection
 	#endif
 
 }
-// Method Definition Index: 34935
+// Method Definition Index: 35041
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkReflectionPathInfo_m90AE468EDD864C04628B15F30A5603D645E68B5D (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -30846,7 +30846,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkRe
 
 	return returnValue;
 }
-// Method Definition Index: 34936
+// Method Definition Index: 35042
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkReflectionPathInfo_m86E0D85263C17A82B77EE60A34DE3674C938B53C (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -30867,7 +30867,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkRef
 	#endif
 
 }
-// Method Definition Index: 34937
+// Method Definition Index: 35043
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDiffractionPathInfo_virtualPos_set_mB73CEC7CD81792FA3F4E12892DA8785999D621D3 (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -30888,7 +30888,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDiffractio
 	#endif
 
 }
-// Method Definition Index: 34938
+// Method Definition Index: 35044
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkDiffractionPathInfo_virtualPos_get_m839FA75B3A2D40C91EDF8A3BAEF878D69F99FE7B (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -30910,7 +30910,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkDiffra
 
 	return returnValue;
 }
-// Method Definition Index: 34939
+// Method Definition Index: 35045
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDiffractionPathInfo_nodeCount_set_m8B556658B1DCCE6F24F8E8252FF730BD95CCC89F (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -30931,7 +30931,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDiffractio
 	#endif
 
 }
-// Method Definition Index: 34940
+// Method Definition Index: 35046
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkDiffractionPathInfo_nodeCount_get_mB87D4494A5D6D2FAADB5B6CF987E717315BC812F (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -30953,7 +30953,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkDiffra
 
 	return returnValue;
 }
-// Method Definition Index: 34941
+// Method Definition Index: 35047
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDiffractionPathInfo_diffraction_set_m9C7AB73F3BB0966F2C2B45692342A2B0FF3194EE (intptr_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float);
@@ -30974,7 +30974,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDiffractio
 	#endif
 
 }
-// Method Definition Index: 34942
+// Method Definition Index: 35048
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkDiffractionPathInfo_diffraction_get_m9F4AED630228009916B7A3797A76B0C73D67C5A6 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -30996,7 +30996,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkDiffracti
 
 	return returnValue;
 }
-// Method Definition Index: 34943
+// Method Definition Index: 35049
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDiffractionPathInfo_totLength_set_mCB9ED01ECEB1F056701FEE721AC6610FAD49FE6C (intptr_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float);
@@ -31017,7 +31017,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDiffractio
 	#endif
 
 }
-// Method Definition Index: 34944
+// Method Definition Index: 35050
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkDiffractionPathInfo_totLength_get_m9BDAE8BAAA0C4A7E5F742A22F54ADBE431E1AAB2 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -31039,7 +31039,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkDiffracti
 
 	return returnValue;
 }
-// Method Definition Index: 34945
+// Method Definition Index: 35051
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDiffractionPathInfo_obstructionValue_set_m6442852C78BA9E7C9F400C8BA4EF1E06FB5161EA (intptr_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float);
@@ -31060,7 +31060,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDiffractio
 	#endif
 
 }
-// Method Definition Index: 34946
+// Method Definition Index: 35052
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkDiffractionPathInfo_obstructionValue_get_m68C0F8A19150189EE5B586F206CBA9CEE47A6D81 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -31082,7 +31082,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkDiffracti
 
 	return returnValue;
 }
-// Method Definition Index: 34947
+// Method Definition Index: 35053
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkDiffractionPathInfo_GetSizeOf_m6665506FD406FF3DE6E733FD71B997B6EADF93CE (const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -31104,7 +31104,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkDiffrac
 
 	return returnValue;
 }
-// Method Definition Index: 34948
+// Method Definition Index: 35054
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 AkSoundEnginePINVOKE_CSharp_AkDiffractionPathInfo_GetNodes_m408269A9FE33279692C3AED070C2B3D79DFA94C7 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -31126,7 +31126,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 
 	return returnValue;
 }
-// Method Definition Index: 34949
+// Method Definition Index: 35055
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkDiffractionPathInfo_GetAngles_m02F6DAB727F45E4621ED6FB6F812BA2A01082A4E (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -31148,7 +31148,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkDiffracti
 
 	return returnValue;
 }
-// Method Definition Index: 34950
+// Method Definition Index: 35056
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t AkSoundEnginePINVOKE_CSharp_AkDiffractionPathInfo_GetPortals_mB9CAF521EA45596FD2CDE01FDB978553DD28BF77 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef uint64_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -31170,7 +31170,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t AkSoundEnginePINVOKE_CSharp_AkDiffra
 
 	return returnValue;
 }
-// Method Definition Index: 34951
+// Method Definition Index: 35057
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t AkSoundEnginePINVOKE_CSharp_AkDiffractionPathInfo_GetRooms_m5F36B01DE1CE20C1CB3028467E6EA26337968991 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef uint64_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -31192,7 +31192,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t AkSoundEnginePINVOKE_CSharp_AkDiffra
 
 	return returnValue;
 }
-// Method Definition Index: 34952
+// Method Definition Index: 35058
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDiffractionPathInfo_Clone_m1D721A15A99BB381218152C432F9C6069B42E306 (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -31213,7 +31213,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDiffractio
 	#endif
 
 }
-// Method Definition Index: 34953
+// Method Definition Index: 35059
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkDiffractionPathInfo_m2FEE49B802A743CEB94C285F988EA9BE28081233 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -31235,7 +31235,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkDi
 
 	return returnValue;
 }
-// Method Definition Index: 34954
+// Method Definition Index: 35060
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkDiffractionPathInfo_mB089841625B651FFA3FCA54F39CB5371AEDADA3F (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -31256,7 +31256,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkDif
 	#endif
 
 }
-// Method Definition Index: 34955
+// Method Definition Index: 35061
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkRoomParams__SWIG_0_mF8BB0530465F650DF061ABFAA396E2C20A2A5ABC (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -31278,7 +31278,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkRo
 
 	return returnValue;
 }
-// Method Definition Index: 34956
+// Method Definition Index: 35062
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkRoomParams__SWIG_1_m062F9BCF5A4CD32B960196CC11BCBBF5FBBC4265 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -31300,7 +31300,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkRo
 
 	return returnValue;
 }
-// Method Definition Index: 34957
+// Method Definition Index: 35063
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkRoomParams_Up_set_mCB0BB902613191186174AA2D8A4239AB66C55D54 (intptr_t ___0_jarg1, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2);
@@ -31321,7 +31321,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkRoomParams
 	#endif
 
 }
-// Method Definition Index: 34958
+// Method Definition Index: 35064
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 AkSoundEnginePINVOKE_CSharp_AkRoomParams_Up_get_m3D52098E8105E0C303D0AACC64C40DF732E978C2 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -31343,7 +31343,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 
 	return returnValue;
 }
-// Method Definition Index: 34959
+// Method Definition Index: 35065
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkRoomParams_Front_set_m00D0CE669EC1FC86FC4C79F10D7DBD3206EB783F (intptr_t ___0_jarg1, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2);
@@ -31364,7 +31364,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkRoomParams
 	#endif
 
 }
-// Method Definition Index: 34960
+// Method Definition Index: 35066
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 AkSoundEnginePINVOKE_CSharp_AkRoomParams_Front_get_m1C83B86DCE0EC6D2ADA4C1445C451D388222752E (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -31386,7 +31386,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 
 	return returnValue;
 }
-// Method Definition Index: 34961
+// Method Definition Index: 35067
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkRoomParams_ReverbAuxBus_set_m34291E1C5641F7DDAE4C3E971CC8C42DABD0C95C (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -31407,7 +31407,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkRoomParams
 	#endif
 
 }
-// Method Definition Index: 34962
+// Method Definition Index: 35068
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkRoomParams_ReverbAuxBus_get_m059D93711FFF3282B0F5DC65A6CAD5F35A21237C (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -31429,7 +31429,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkRoomPa
 
 	return returnValue;
 }
-// Method Definition Index: 34963
+// Method Definition Index: 35069
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkRoomParams_ReverbLevel_set_m417DD4E5E395AAC3A8AFFF4E7612CB1C125191D1 (intptr_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float);
@@ -31450,7 +31450,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkRoomParams
 	#endif
 
 }
-// Method Definition Index: 34964
+// Method Definition Index: 35070
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkRoomParams_ReverbLevel_get_m38E55AE0CD152617A45ED6C0C5806F099F9ED5A4 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -31472,7 +31472,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkRoomParam
 
 	return returnValue;
 }
-// Method Definition Index: 34965
+// Method Definition Index: 35071
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkRoomParams_WallOcclusion_set_mACAB434DA17CA021AC12F5BEA141EDA7CAF97C51 (intptr_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float);
@@ -31493,7 +31493,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkRoomParams
 	#endif
 
 }
-// Method Definition Index: 34966
+// Method Definition Index: 35072
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkRoomParams_WallOcclusion_get_m2C011FD21D220219440B9C10CA3F122120CC8356 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -31515,7 +31515,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkRoomParam
 
 	return returnValue;
 }
-// Method Definition Index: 34967
+// Method Definition Index: 35073
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkRoomParams_RoomGameObj_AuxSendLevelToSelf_set_m3D362C694FABB0481FF344B6124226067B7A8E39 (intptr_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float);
@@ -31536,7 +31536,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkRoomParams
 	#endif
 
 }
-// Method Definition Index: 34968
+// Method Definition Index: 35074
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkRoomParams_RoomGameObj_AuxSendLevelToSelf_get_m93F60CF308F4180EDCDA0CA1D67A070C45E9DC16 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -31558,7 +31558,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkRoomParam
 
 	return returnValue;
 }
-// Method Definition Index: 34969
+// Method Definition Index: 35075
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkRoomParams_RoomGameObj_KeepRegistered_set_m699556A8D5CF519CD7DE51A949FBDBF8CC23F78D (intptr_t ___0_jarg1, bool ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
@@ -31579,7 +31579,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkRoomParams
 	#endif
 
 }
-// Method Definition Index: 34970
+// Method Definition Index: 35076
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkRoomParams_RoomGameObj_KeepRegistered_get_m0DAF8949CC677A5CE385BDFBA488B41AE36035E1 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -31601,7 +31601,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkRoomParams
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 34971
+// Method Definition Index: 35077
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkRoomParams_m89C345A56C23BE7852DC3E62BEFD29D4306068F3 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -31622,7 +31622,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkRoo
 	#endif
 
 }
-// Method Definition Index: 34972
+// Method Definition Index: 35078
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetImageSource_mD8569DE0AB86E2C4351AE508DFA014428C42157D (uint32_t ___0_jarg1, intptr_t ___1_jarg2, uint32_t ___2_jarg3, uint64_t ___3_jarg4, uint64_t ___4_jarg5, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, intptr_t, uint32_t, uint64_t, uint64_t);
@@ -31644,7 +31644,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetImageS
 
 	return returnValue;
 }
-// Method Definition Index: 34973
+// Method Definition Index: 35079
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_RemoveImageSource_m89942E0E8147A1A8DD99E1E4A35513569E43BEFB (uint32_t ___0_jarg1, uint32_t ___1_jarg2, uint64_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint32_t, uint64_t);
@@ -31666,7 +31666,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_RemoveIma
 
 	return returnValue;
 }
-// Method Definition Index: 34974
+// Method Definition Index: 35080
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ClearImageSources__SWIG_0_m1E60580E1F4CA7DBF16A5703E71419D08396D86F (uint32_t ___0_jarg1, uint64_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint64_t);
@@ -31688,7 +31688,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ClearImag
 
 	return returnValue;
 }
-// Method Definition Index: 34975
+// Method Definition Index: 35081
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ClearImageSources__SWIG_1_mEE9EA7BFD6CF538B62F836D21E294E9D455C71B1 (uint32_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t);
@@ -31710,7 +31710,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ClearImag
 
 	return returnValue;
 }
-// Method Definition Index: 34976
+// Method Definition Index: 35082
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ClearImageSources__SWIG_2_m61459C424A5A438BEEC12CCCFCB20AD60C36AF71 (const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -31732,7 +31732,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_ClearImag
 
 	return returnValue;
 }
-// Method Definition Index: 34977
+// Method Definition Index: 35083
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_RemoveGeometry_mC0F34178A7187F9F49F0AB46AED133C6E5CBDA21 (uint64_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t);
@@ -31754,7 +31754,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_RemoveGeo
 
 	return returnValue;
 }
-// Method Definition Index: 34978
+// Method Definition Index: 35084
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_QueryReflectionPaths_m3CEB05F373E7DCB205FCA7BE665F4C95F21E6C94 (uint64_t ___0_jarg1, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___1_jarg2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___2_jarg3, intptr_t ___3_jarg4, uint32_t* ___4_jarg5, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*, intptr_t, uint32_t*);
@@ -31776,7 +31776,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_QueryRefl
 
 	return returnValue;
 }
-// Method Definition Index: 34979
+// Method Definition Index: 35085
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_RemoveRoom_mAF54B2166AC8A750CE15C60381A29BAF20DBCF92 (uint64_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t);
@@ -31798,7 +31798,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_RemoveRoo
 
 	return returnValue;
 }
-// Method Definition Index: 34980
+// Method Definition Index: 35086
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_RemovePortal_m908D8F42CEF88C70F595374AD28FC0F1338EF64A (uint64_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t);
@@ -31820,7 +31820,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_RemovePor
 
 	return returnValue;
 }
-// Method Definition Index: 34981
+// Method Definition Index: 35087
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetGameObjectInRoom_m2C58F4832C3477F2A3C7349AD7D2CF03EDBFD1F6 (uint64_t ___0_jarg1, uint64_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, uint64_t);
@@ -31842,7 +31842,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetGameOb
 
 	return returnValue;
 }
-// Method Definition Index: 34982
+// Method Definition Index: 35088
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetReflectionsOrder_m4F704DA7A42F3D73DC392D85D234481CEAB91415 (uint32_t ___0_jarg1, bool ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, int32_t);
@@ -31864,7 +31864,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetReflec
 
 	return returnValue;
 }
-// Method Definition Index: 34983
+// Method Definition Index: 35089
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetNumberOfPrimaryRays_mF13CED3DE393B6600212F75EFA78402E9C2F54E4 (uint32_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t);
@@ -31886,7 +31886,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetNumber
 
 	return returnValue;
 }
-// Method Definition Index: 34984
+// Method Definition Index: 35090
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetEarlyReflectionsAuxSend_m6156A5088B4ED265E438574D5F0B4150E24C75AA (uint64_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, uint32_t);
@@ -31908,7 +31908,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetEarlyR
 
 	return returnValue;
 }
-// Method Definition Index: 34985
+// Method Definition Index: 35091
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetEarlyReflectionsVolume_m4C8EAE65537400F7A9C8E6663D02581C291B4BD3 (uint64_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, float);
@@ -31930,7 +31930,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetEarlyR
 
 	return returnValue;
 }
-// Method Definition Index: 34986
+// Method Definition Index: 35092
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetPortalObstructionAndOcclusion_mC3C6317FFCF90A0CD862C6CF6CC22FCD5F512A53 (uint64_t ___0_jarg1, float ___1_jarg2, float ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, float, float);
@@ -31952,7 +31952,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetPortal
 
 	return returnValue;
 }
-// Method Definition Index: 34987
+// Method Definition Index: 35093
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_QueryWetDiffraction_mAA656F7EC14FFE8BAF2AB562AC0DB96FC2C94A18 (uint64_t ___0_jarg1, float* ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, float*);
@@ -31974,7 +31974,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_QueryWetD
 
 	return returnValue;
 }
-// Method Definition Index: 34988
+// Method Definition Index: 35094
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_QueryDiffractionPaths_mF27B89820F7048A977C10ECCD95FD783EE9A5E1A (uint64_t ___0_jarg1, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___1_jarg2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___2_jarg3, intptr_t ___3_jarg4, uint32_t* ___4_jarg5, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*, intptr_t, uint32_t*);
@@ -31996,7 +31996,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_QueryDiff
 
 	return returnValue;
 }
-// Method Definition Index: 34989
+// Method Definition Index: 35095
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPlatformInitSettings_threadLEngine_set_mF9E2CE87E00CA58FA57668823B2DF005B7B54583 (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -32017,7 +32017,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPlatformIn
 	#endif
 
 }
-// Method Definition Index: 34990
+// Method Definition Index: 35096
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkPlatformInitSettings_threadLEngine_get_mE94FFBCE32CAEC625733276CDA1E7CEB0B76E620 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -32039,7 +32039,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkPlatfo
 
 	return returnValue;
 }
-// Method Definition Index: 34991
+// Method Definition Index: 35097
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPlatformInitSettings_threadOutputMgr_set_mD44ED0E929AA8F7ADE15DB8DFC0C5FC5F91617F4 (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -32060,7 +32060,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPlatformIn
 	#endif
 
 }
-// Method Definition Index: 34992
+// Method Definition Index: 35098
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkPlatformInitSettings_threadOutputMgr_get_mC36B747BD20FDE3E796BB37358A50C9948CA137F (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -32082,7 +32082,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkPlatfo
 
 	return returnValue;
 }
-// Method Definition Index: 34993
+// Method Definition Index: 35099
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPlatformInitSettings_threadBankManager_set_m6B7491CE2AA5BC97B6C2AF1C55995E2D2995AE3A (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -32103,7 +32103,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPlatformIn
 	#endif
 
 }
-// Method Definition Index: 34994
+// Method Definition Index: 35100
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkPlatformInitSettings_threadBankManager_get_m4DB4B7AD42913988DB30F663386583C5AD7C60F7 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -32125,7 +32125,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkPlatfo
 
 	return returnValue;
 }
-// Method Definition Index: 34995
+// Method Definition Index: 35101
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPlatformInitSettings_threadMonitor_set_mC39E8948CF47AED0805D2986EC7229D3C9C35B81 (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -32146,7 +32146,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPlatformIn
 	#endif
 
 }
-// Method Definition Index: 34996
+// Method Definition Index: 35102
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkPlatformInitSettings_threadMonitor_get_mAE9350940EB4F50994C5DF0D6AB23A5CE11F7EEA (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -32168,7 +32168,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkPlatfo
 
 	return returnValue;
 }
-// Method Definition Index: 34997
+// Method Definition Index: 35103
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPlatformInitSettings_eAudioAPI_set_m5F209113208B2C9D6F47A419D9CD55420A92F6F4 (intptr_t ___0_jarg1, int32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
@@ -32189,7 +32189,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPlatformIn
 	#endif
 
 }
-// Method Definition Index: 34998
+// Method Definition Index: 35104
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkPlatformInitSettings_eAudioAPI_get_m13D9512839F7BEA13BF17A1BC4113DA448CC5CA5 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -32211,7 +32211,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkPlatfor
 
 	return returnValue;
 }
-// Method Definition Index: 34999
+// Method Definition Index: 35105
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPlatformInitSettings_uSampleRate_set_m9F5B243D9EC5F153E2BA8B6876965EB15E3ADAA8 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -32232,7 +32232,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPlatformIn
 	#endif
 
 }
-// Method Definition Index: 35000
+// Method Definition Index: 35106
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkPlatformInitSettings_uSampleRate_get_mBAD50B393A00B8057B60FCB873980FB9A0C6A3D5 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -32254,7 +32254,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkPlatfo
 
 	return returnValue;
 }
-// Method Definition Index: 35001
+// Method Definition Index: 35107
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPlatformInitSettings_uNumRefillsInVoice_set_m556D17022D7005180DF0D2540F24C712CA236C77 (intptr_t ___0_jarg1, uint16_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint16_t);
@@ -32275,7 +32275,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPlatformIn
 	#endif
 
 }
-// Method Definition Index: 35002
+// Method Definition Index: 35108
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t AkSoundEnginePINVOKE_CSharp_AkPlatformInitSettings_uNumRefillsInVoice_get_m4DD18FF484E956A9580E908F6A9FF301BEBBA864 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint16_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -32297,7 +32297,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t AkSoundEnginePINVOKE_CSharp_AkPlatfo
 
 	return returnValue;
 }
-// Method Definition Index: 35003
+// Method Definition Index: 35109
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPlatformInitSettings_uChannelMask_set_m91957961E7D3E1446705232B8431F3E9B100104F (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -32318,7 +32318,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPlatformIn
 	#endif
 
 }
-// Method Definition Index: 35004
+// Method Definition Index: 35110
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkPlatformInitSettings_uChannelMask_get_mD0B3EBF0FF05B58FCFD6AF5280185984880FC6C0 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -32340,7 +32340,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkPlatfo
 
 	return returnValue;
 }
-// Method Definition Index: 35005
+// Method Definition Index: 35111
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPlatformInitSettings_bRoundFrameSizeToHWSize_set_m29E03E728845C62BA57D5069D640C570C4FDEABD (intptr_t ___0_jarg1, bool ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
@@ -32361,7 +32361,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkPlatformIn
 	#endif
 
 }
-// Method Definition Index: 35006
+// Method Definition Index: 35112
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkPlatformInitSettings_bRoundFrameSizeToHWSize_get_m4F25B06A958475C4FDDDCCD8DB397A2FD52C624C (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -32383,7 +32383,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkPlatformIn
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 35007
+// Method Definition Index: 35113
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkPlatformInitSettings_m88FB0F1EE6BB1922473E0822B31551B311C49D91 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -32404,7 +32404,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkPla
 	#endif
 
 }
-// Method Definition Index: 35008
+// Method Definition Index: 35114
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetFastPathSettings_m0D74AE152357882F409A9544B1CB6D5EA768E6AB (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -32426,7 +32426,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetFastPa
 
 	return returnValue;
 }
-// Method Definition Index: 35009
+// Method Definition Index: 35115
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkStreamMgrSettings_m788A3DF770D9A262057B782382CE8612242BE354 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -32447,7 +32447,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkStr
 	#endif
 
 }
-// Method Definition Index: 35010
+// Method Definition Index: 35116
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDeviceSettings_pIOMemory_set_mC3E825D12E97159A2C98B22DE617C5B1B89127E8 (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -32468,7 +32468,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDeviceSett
 	#endif
 
 }
-// Method Definition Index: 35011
+// Method Definition Index: 35117
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkDeviceSettings_pIOMemory_get_m780CA3EFACA2CB98117EAE3773F6DDFB42356A1A (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -32490,7 +32490,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkDevice
 
 	return returnValue;
 }
-// Method Definition Index: 35012
+// Method Definition Index: 35118
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDeviceSettings_uIOMemorySize_set_m5027620040FD3023925C0B02C47261C1E2B3EA3D (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -32511,7 +32511,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDeviceSett
 	#endif
 
 }
-// Method Definition Index: 35013
+// Method Definition Index: 35119
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkDeviceSettings_uIOMemorySize_get_m884AA06592B2A17D6C3A6DC7D094B472B699338B (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -32533,7 +32533,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkDevice
 
 	return returnValue;
 }
-// Method Definition Index: 35014
+// Method Definition Index: 35120
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDeviceSettings_uIOMemoryAlignment_set_m6270F3282A60182CDE89A98497154048C63415A9 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -32554,7 +32554,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDeviceSett
 	#endif
 
 }
-// Method Definition Index: 35015
+// Method Definition Index: 35121
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkDeviceSettings_uIOMemoryAlignment_get_m8A4DBCC1F57B81AD1BB15319A7256B70DC671508 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -32576,7 +32576,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkDevice
 
 	return returnValue;
 }
-// Method Definition Index: 35016
+// Method Definition Index: 35122
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDeviceSettings_ePoolAttributes_set_m98FAF1AE6D4EC1D001770A4E55565F22B19ABE32 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -32597,7 +32597,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDeviceSett
 	#endif
 
 }
-// Method Definition Index: 35017
+// Method Definition Index: 35123
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkDeviceSettings_ePoolAttributes_get_mF1DDED507A08AD59B7BBC218D515F30ADC4FEB37 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -32619,7 +32619,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkDevice
 
 	return returnValue;
 }
-// Method Definition Index: 35018
+// Method Definition Index: 35124
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDeviceSettings_uGranularity_set_m0BDA949FA59156CD9FA702972C7A34C947298819 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -32640,7 +32640,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDeviceSett
 	#endif
 
 }
-// Method Definition Index: 35019
+// Method Definition Index: 35125
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkDeviceSettings_uGranularity_get_mB7D37FEF99910DBEC1FD5B7B1F70E3A22D3D7635 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -32662,7 +32662,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkDevice
 
 	return returnValue;
 }
-// Method Definition Index: 35020
+// Method Definition Index: 35126
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDeviceSettings_uSchedulerTypeFlags_set_m7A5062C61C2690128AC228A928A6BEDF37237B9F (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -32683,7 +32683,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDeviceSett
 	#endif
 
 }
-// Method Definition Index: 35021
+// Method Definition Index: 35127
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkDeviceSettings_uSchedulerTypeFlags_get_mCDAE6F33621657753C5159D4DD148FFC27A229A8 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -32705,7 +32705,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkDevice
 
 	return returnValue;
 }
-// Method Definition Index: 35022
+// Method Definition Index: 35128
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDeviceSettings_threadProperties_set_m642135DD992782574653D314547D56EB37452820 (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -32726,7 +32726,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDeviceSett
 	#endif
 
 }
-// Method Definition Index: 35023
+// Method Definition Index: 35129
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkDeviceSettings_threadProperties_get_mE2841B09F5C934B9D654448CFF384078372C33AA (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -32748,7 +32748,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkDevice
 
 	return returnValue;
 }
-// Method Definition Index: 35024
+// Method Definition Index: 35130
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDeviceSettings_fTargetAutoStmBufferLength_set_m6F8DCECEAD66F99C569FA7246E0535DA3C599319 (intptr_t ___0_jarg1, float ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float);
@@ -32769,7 +32769,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDeviceSett
 	#endif
 
 }
-// Method Definition Index: 35025
+// Method Definition Index: 35131
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkDeviceSettings_fTargetAutoStmBufferLength_get_mDDEBB1EDC6515F44C688F2BD9821F37745D32A50 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -32791,7 +32791,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEnginePINVOKE_CSharp_AkDeviceSet
 
 	return returnValue;
 }
-// Method Definition Index: 35026
+// Method Definition Index: 35132
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDeviceSettings_uMaxConcurrentIO_set_mDF9E6F01B461C5F3A44C7E385CB61ECD040EB5B5 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -32812,7 +32812,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDeviceSett
 	#endif
 
 }
-// Method Definition Index: 35027
+// Method Definition Index: 35133
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkDeviceSettings_uMaxConcurrentIO_get_mC0F352B5877324D5E6FA538D4BE764FB14952A9B (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -32834,7 +32834,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkDevice
 
 	return returnValue;
 }
-// Method Definition Index: 35028
+// Method Definition Index: 35134
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDeviceSettings_bUseStreamCache_set_m28F35CF7AF1B700B283F9DAB998063A90EC6CFC7 (intptr_t ___0_jarg1, bool ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
@@ -32855,7 +32855,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDeviceSett
 	#endif
 
 }
-// Method Definition Index: 35029
+// Method Definition Index: 35135
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkDeviceSettings_bUseStreamCache_get_m4566936768396E5DFCF7B97637161EB8EBFE24B3 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -32877,7 +32877,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkDeviceSett
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 35030
+// Method Definition Index: 35136
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDeviceSettings_uMaxCachePinnedBytes_set_mB6D75D93062ED06FB9B1F97EB6CDB250209AEFBE (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -32898,7 +32898,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkDeviceSett
 	#endif
 
 }
-// Method Definition Index: 35031
+// Method Definition Index: 35137
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkDeviceSettings_uMaxCachePinnedBytes_get_m39A43FE5F324DF0ACCBB9A4FE1371D254524F3FA (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -32920,7 +32920,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkDevice
 
 	return returnValue;
 }
-// Method Definition Index: 35032
+// Method Definition Index: 35138
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkDeviceSettings_m17C8518FC8D8A90E65CC5E937797A1D01FE479E7 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -32941,7 +32941,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkDev
 	#endif
 
 }
-// Method Definition Index: 35033
+// Method Definition Index: 35139
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkThreadProperties_nPriority_set_m1B3271D5C55E9C4D4BBC9DC27D6D099E0C254401 (intptr_t ___0_jarg1, int32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
@@ -32962,7 +32962,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkThreadProp
 	#endif
 
 }
-// Method Definition Index: 35034
+// Method Definition Index: 35140
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkThreadProperties_nPriority_get_m731B54B7FBFD0A7B1F625F10BD308BC320E8AFD9 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -32984,7 +32984,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkThreadP
 
 	return returnValue;
 }
-// Method Definition Index: 35035
+// Method Definition Index: 35141
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkThreadProperties_uStackSize_set_mF4C77169E7F52E76F05DB7145CE2E280F61302A1 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -33005,7 +33005,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkThreadProp
 	#endif
 
 }
-// Method Definition Index: 35036
+// Method Definition Index: 35142
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkThreadProperties_uStackSize_get_m1C4E9724B18A8502060D2A8B30D582F427EB3DCF (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -33027,7 +33027,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkThread
 
 	return returnValue;
 }
-// Method Definition Index: 35037
+// Method Definition Index: 35143
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkThreadProperties_uSchedPolicy_set_m93013AA2AC0E0011F284FBE35C25F59159B8B62C (intptr_t ___0_jarg1, int32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
@@ -33048,7 +33048,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkThreadProp
 	#endif
 
 }
-// Method Definition Index: 35038
+// Method Definition Index: 35144
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkThreadProperties_uSchedPolicy_get_m336DE0881E76318365B69EE61886AF8016F2FD17 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -33070,7 +33070,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkThreadP
 
 	return returnValue;
 }
-// Method Definition Index: 35039
+// Method Definition Index: 35145
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkThreadProperties_dwAffinityMask_set_mD6AA07A8C8B7FE38053F077878570FA7B72C6F9D (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -33091,7 +33091,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkThreadProp
 	#endif
 
 }
-// Method Definition Index: 35040
+// Method Definition Index: 35146
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkThreadProperties_dwAffinityMask_get_m68FA99AFCCD2C65C37F6394227210D9B20CCC114 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -33113,7 +33113,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkThread
 
 	return returnValue;
 }
-// Method Definition Index: 35041
+// Method Definition Index: 35147
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkThreadProperties_mA1B76D143E8CB8D402595EF52F6D85148B38AEA2 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -33135,7 +33135,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkTh
 
 	return returnValue;
 }
-// Method Definition Index: 35042
+// Method Definition Index: 35148
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkThreadProperties_m8B4583D89A8575A9A1B6945DC776AC2E95EDE95D (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -33156,7 +33156,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkThr
 	#endif
 
 }
-// Method Definition Index: 35043
+// Method Definition Index: 35149
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_SetErrorLogger__SWIG_0_m6EB0257519CBE1B9480FFA45A8E4CC13654C5FCA (ErrorLoggerInteropDelegate_t6EBAD2E4052136CE0F1C35555261F37DEE1F0B1F* ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (Il2CppMethodPointer);
@@ -33180,7 +33180,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_SetErrorLogg
 	#endif
 
 }
-// Method Definition Index: 35044
+// Method Definition Index: 35150
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_SetErrorLogger__SWIG_1_m7E8CF3130C24E81BB861C62F4A99950C47E4A0F1 (const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) ();
@@ -33201,7 +33201,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_SetErrorLogg
 	#endif
 
 }
-// Method Definition Index: 35045
+// Method Definition Index: 35151
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_SetAudioInputCallbacks_m80B71C39CE676253A22CFC89172DA91087236998 (AudioSamplesInteropDelegate_t42419D8749A75CD7E08101DB0DC7ACD6A06A8254* ___0_jarg1, AudioFormatInteropDelegate_tC7792587E7EC00E1A31A209EF0FA11EAFA1EAE09* ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (Il2CppMethodPointer, Il2CppMethodPointer);
@@ -33228,7 +33228,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_SetAudioInpu
 	#endif
 
 }
-// Method Definition Index: 35046
+// Method Definition Index: 35152
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkUnityPlatformSpecificSettings_mC068F63977AF0D8CDA5A381FFD6974B4744E4F8D (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -33249,7 +33249,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkUni
 	#endif
 
 }
-// Method Definition Index: 35047
+// Method Definition Index: 35153
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkCommunicationSettings_m575023A60107B647800296C10641284C5B4D6910 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -33271,7 +33271,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkCo
 
 	return returnValue;
 }
-// Method Definition Index: 35048
+// Method Definition Index: 35154
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkCommunicationSettings_uPoolSize_set_m8475FD52716409AC2A4B52203765B989E3529CE6 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -33292,7 +33292,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkCommunicat
 	#endif
 
 }
-// Method Definition Index: 35049
+// Method Definition Index: 35155
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkCommunicationSettings_uPoolSize_get_m62741C2B06DB1C363CA2C664A3CF3627D46438BD (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -33314,7 +33314,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkCommun
 
 	return returnValue;
 }
-// Method Definition Index: 35050
+// Method Definition Index: 35156
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkCommunicationSettings_uDiscoveryBroadcastPort_set_m85A01FCD298EC1F9ED45B42DE201172B245DD605 (intptr_t ___0_jarg1, uint16_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint16_t);
@@ -33335,7 +33335,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkCommunicat
 	#endif
 
 }
-// Method Definition Index: 35051
+// Method Definition Index: 35157
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t AkSoundEnginePINVOKE_CSharp_AkCommunicationSettings_uDiscoveryBroadcastPort_get_m4AC68C8EC3478734970627595C0B23F89FF1BECF (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint16_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -33357,7 +33357,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t AkSoundEnginePINVOKE_CSharp_AkCommun
 
 	return returnValue;
 }
-// Method Definition Index: 35052
+// Method Definition Index: 35158
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkCommunicationSettings_uCommandPort_set_m84C2DABFE6523CD75BFC11923E98F168C841FD6C (intptr_t ___0_jarg1, uint16_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint16_t);
@@ -33378,7 +33378,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkCommunicat
 	#endif
 
 }
-// Method Definition Index: 35053
+// Method Definition Index: 35159
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t AkSoundEnginePINVOKE_CSharp_AkCommunicationSettings_uCommandPort_get_mA15D2C0BDF9F20060AD9E9D4EACE254C189B7CCF (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint16_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -33400,7 +33400,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t AkSoundEnginePINVOKE_CSharp_AkCommun
 
 	return returnValue;
 }
-// Method Definition Index: 35054
+// Method Definition Index: 35160
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkCommunicationSettings_uNotificationPort_set_m68BECF031466B3B8D15004B8411DE48E36D5BAC1 (intptr_t ___0_jarg1, uint16_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint16_t);
@@ -33421,7 +33421,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkCommunicat
 	#endif
 
 }
-// Method Definition Index: 35055
+// Method Definition Index: 35161
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t AkSoundEnginePINVOKE_CSharp_AkCommunicationSettings_uNotificationPort_get_mA2C39436A08E73C7B1BC441C81E591B87B2CA0C9 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint16_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -33443,7 +33443,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t AkSoundEnginePINVOKE_CSharp_AkCommun
 
 	return returnValue;
 }
-// Method Definition Index: 35056
+// Method Definition Index: 35162
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkCommunicationSettings_commSystem_set_m1EF576A1EBAFBEAA6CB6836E594C610E812449E5 (intptr_t ___0_jarg1, int32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
@@ -33464,7 +33464,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkCommunicat
 	#endif
 
 }
-// Method Definition Index: 35057
+// Method Definition Index: 35163
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkCommunicationSettings_commSystem_get_mF889344C50643A827AAA14FF55F15FEA34802269 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -33486,7 +33486,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkCommuni
 
 	return returnValue;
 }
-// Method Definition Index: 35058
+// Method Definition Index: 35164
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkCommunicationSettings_bInitSystemLib_set_mE93BFD7CAFFD5078E1219D78FEE7DB54010CB9AA (intptr_t ___0_jarg1, bool ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
@@ -33507,7 +33507,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkCommunicat
 	#endif
 
 }
-// Method Definition Index: 35059
+// Method Definition Index: 35165
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkCommunicationSettings_bInitSystemLib_get_m45A6F02586D83ADD7122DFC99D1E5E16DF3B8432 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -33529,7 +33529,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkCommunicat
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 35060
+// Method Definition Index: 35166
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkCommunicationSettings_szAppNetworkName_set_mFFEDA1FC52FC17448CD5081F3EEF0410AC75ADB2 (intptr_t ___0_jarg1, String_t* ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, char*);
@@ -33556,7 +33556,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkCommunicat
 	____1_jarg2_marshaled = NULL;
 
 }
-// Method Definition Index: 35061
+// Method Definition Index: 35167
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkCommunicationSettings_szAppNetworkName_get_mE203F2CAE61A1275D78663BCDA820954938841E8 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -33578,7 +33578,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkCommun
 
 	return returnValue;
 }
-// Method Definition Index: 35062
+// Method Definition Index: 35168
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkCommunicationSettings_m4EFBE8355D4B868EF64FBDDF8AE5BFF56F01F0A3 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -33599,7 +33599,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkCom
 	#endif
 
 }
-// Method Definition Index: 35063
+// Method Definition Index: 35169
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkInitializationSettings_m2719E74953416EFC582EB546C40D7819243110B4 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -33621,7 +33621,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkIn
 
 	return returnValue;
 }
-// Method Definition Index: 35064
+// Method Definition Index: 35170
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkInitializationSettings_m7D1DFBF81EE8BBA70E7F4265EDF1FAC8418757B2 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -33642,7 +33642,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkIni
 	#endif
 
 }
-// Method Definition Index: 35065
+// Method Definition Index: 35171
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkInitializationSettings_streamMgrSettings_set_mCEA642EA3CC981C811CF0C51FCA88F9D92751701 (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -33663,7 +33663,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkInitializa
 	#endif
 
 }
-// Method Definition Index: 35066
+// Method Definition Index: 35172
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkInitializationSettings_streamMgrSettings_get_mE040A9B207A293BC151D8346B7BEA5247E1E652C (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -33685,7 +33685,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkInitia
 
 	return returnValue;
 }
-// Method Definition Index: 35067
+// Method Definition Index: 35173
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkInitializationSettings_deviceSettings_set_mD25FF03ABAD7F418FB1632F21007090188AC63A3 (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -33706,7 +33706,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkInitializa
 	#endif
 
 }
-// Method Definition Index: 35068
+// Method Definition Index: 35174
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkInitializationSettings_deviceSettings_get_m7D097DFE78954B827B15732078C3C4B4116381E1 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -33728,7 +33728,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkInitia
 
 	return returnValue;
 }
-// Method Definition Index: 35069
+// Method Definition Index: 35175
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkInitializationSettings_initSettings_set_mFD6E34EEDBF8D82DC4671401DBD1A6EDE0365A57 (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -33749,7 +33749,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkInitializa
 	#endif
 
 }
-// Method Definition Index: 35070
+// Method Definition Index: 35176
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkInitializationSettings_initSettings_get_mDDDDE6056811B1EE6B0603DA71008FD2EF9308E7 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -33771,7 +33771,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkInitia
 
 	return returnValue;
 }
-// Method Definition Index: 35071
+// Method Definition Index: 35177
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkInitializationSettings_platformSettings_set_mE24C38115B671094AE35FF4166DFBF5FC2C97012 (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -33792,7 +33792,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkInitializa
 	#endif
 
 }
-// Method Definition Index: 35072
+// Method Definition Index: 35178
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkInitializationSettings_platformSettings_get_m268557501F76E6637FB9D6947CCA198FCC0E3EF6 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -33814,7 +33814,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkInitia
 
 	return returnValue;
 }
-// Method Definition Index: 35073
+// Method Definition Index: 35179
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkInitializationSettings_musicSettings_set_m7B1B1F91C9BB509A5FDF9213429FC55AD19694F4 (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -33835,7 +33835,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkInitializa
 	#endif
 
 }
-// Method Definition Index: 35074
+// Method Definition Index: 35180
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkInitializationSettings_musicSettings_get_m87FDBE9DAB85A2BA71065F4E34573088FB6CC132 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -33857,7 +33857,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkInitia
 
 	return returnValue;
 }
-// Method Definition Index: 35075
+// Method Definition Index: 35181
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkInitializationSettings_unityPlatformSpecificSettings_set_mEA7C9393EAC600F60BF1CC8AB7D95710C640599A (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -33878,7 +33878,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkInitializa
 	#endif
 
 }
-// Method Definition Index: 35076
+// Method Definition Index: 35182
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkInitializationSettings_unityPlatformSpecificSettings_get_m42C0D5173F047254293CF75EC268B6223DC3045D (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -33900,7 +33900,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkInitia
 
 	return returnValue;
 }
-// Method Definition Index: 35077
+// Method Definition Index: 35183
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkInitializationSettings_useAsyncOpen_set_m2C20A71CB22C398B4B74A89706879D23811BA170 (intptr_t ___0_jarg1, bool ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
@@ -33921,7 +33921,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkInitializa
 	#endif
 
 }
-// Method Definition Index: 35078
+// Method Definition Index: 35184
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkInitializationSettings_useAsyncOpen_get_m89ECBF84A02A346BC8313B41FDBF0DD8A76E8272 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -33943,7 +33943,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEnginePINVOKE_CSharp_AkInitializa
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 35079
+// Method Definition Index: 35185
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkExternalSourceInfo__SWIG_0_mCAB9FF6F273ACE4D8C88D78322CFFB6C612EF75F (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -33965,7 +33965,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkEx
 
 	return returnValue;
 }
-// Method Definition Index: 35080
+// Method Definition Index: 35186
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkExternalSourceInfo_m7D4F444105136064C95AA08B6003C35856E54A8C (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -33986,7 +33986,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_delete_AkExt
 	#endif
 
 }
-// Method Definition Index: 35081
+// Method Definition Index: 35187
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkExternalSourceInfo__SWIG_1_m2395D6246F3336E54E2B0C179648E8DDDF26813B (intptr_t ___0_jarg1, uint32_t ___1_jarg2, uint32_t ___2_jarg3, uint32_t ___3_jarg4, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t, uint32_t, uint32_t);
@@ -34008,7 +34008,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkEx
 
 	return returnValue;
 }
-// Method Definition Index: 35082
+// Method Definition Index: 35188
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkExternalSourceInfo__SWIG_2_m14797DDCEAA43A953CEA161AE9A12BED356E8E75 (String_t* ___0_jarg1, uint32_t ___1_jarg2, uint32_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (char*, uint32_t, uint32_t);
@@ -34036,7 +34036,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkEx
 
 	return returnValue;
 }
-// Method Definition Index: 35083
+// Method Definition Index: 35189
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkExternalSourceInfo__SWIG_3_m8010C246114A537CD78AE8704B8CAE4CC647CFED (uint32_t ___0_jarg1, uint32_t ___1_jarg2, uint32_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint32_t, uint32_t);
@@ -34058,7 +34058,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_new_AkEx
 
 	return returnValue;
 }
-// Method Definition Index: 35084
+// Method Definition Index: 35190
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkExternalSourceInfo_Clear_mBE6876A743FDE07B92B491E6C9175AA3C4B283C9 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -34079,7 +34079,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkExternalSo
 	#endif
 
 }
-// Method Definition Index: 35085
+// Method Definition Index: 35191
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkExternalSourceInfo_Clone_m4638CAF1E6FFAFB908BF7C933EF64F015A1ABD28 (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -34100,7 +34100,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkExternalSo
 	#endif
 
 }
-// Method Definition Index: 35086
+// Method Definition Index: 35192
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkExternalSourceInfo_GetSizeOf_m17EC18BDDF5446B72184CD6B0121B514E34C0B42 (const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -34122,7 +34122,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AkExterna
 
 	return returnValue;
 }
-// Method Definition Index: 35087
+// Method Definition Index: 35193
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkExternalSourceInfo_iExternalSrcCookie_set_m2C1F6077E2D317E26522E9C5E85CA59C7313C5CF (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -34143,7 +34143,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkExternalSo
 	#endif
 
 }
-// Method Definition Index: 35088
+// Method Definition Index: 35194
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkExternalSourceInfo_iExternalSrcCookie_get_mB2CDB81A001CF9D5E489C2B64C9579FCD7769137 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -34165,7 +34165,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkExtern
 
 	return returnValue;
 }
-// Method Definition Index: 35089
+// Method Definition Index: 35195
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkExternalSourceInfo_idCodec_set_mAA4C5870BD0BD1C72DA8E07BC88B50643F210AE7 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -34186,7 +34186,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkExternalSo
 	#endif
 
 }
-// Method Definition Index: 35090
+// Method Definition Index: 35196
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkExternalSourceInfo_idCodec_get_m0274A6B0DC9053011777FFC76B88A5E5F84627AE (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -34208,7 +34208,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkExtern
 
 	return returnValue;
 }
-// Method Definition Index: 35091
+// Method Definition Index: 35197
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkExternalSourceInfo_szFile_set_mAFCA4658DB243B348EC46B8F6BEACFE655EAFE05 (intptr_t ___0_jarg1, String_t* ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, char*);
@@ -34235,7 +34235,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkExternalSo
 	____1_jarg2_marshaled = NULL;
 
 }
-// Method Definition Index: 35092
+// Method Definition Index: 35198
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkExternalSourceInfo_szFile_get_m0EF20C9D2B38BBF699C8B7658B4D3674CF26DF5D (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -34257,7 +34257,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkExtern
 
 	return returnValue;
 }
-// Method Definition Index: 35093
+// Method Definition Index: 35199
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkExternalSourceInfo_pInMemory_set_m02821058D7629F5700820230A1DEE9E2F47FACC7 (intptr_t ___0_jarg1, intptr_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t);
@@ -34278,7 +34278,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkExternalSo
 	#endif
 
 }
-// Method Definition Index: 35094
+// Method Definition Index: 35200
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkExternalSourceInfo_pInMemory_get_m1ADAE4124E4B3C0064F2A7231FD77E0649E90F94 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -34300,7 +34300,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkExtern
 
 	return returnValue;
 }
-// Method Definition Index: 35095
+// Method Definition Index: 35201
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkExternalSourceInfo_uiMemorySize_set_mF139D99EAB8183228B98725ED1FBDE653E5A0BEB (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -34321,7 +34321,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkExternalSo
 	#endif
 
 }
-// Method Definition Index: 35096
+// Method Definition Index: 35202
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkExternalSourceInfo_uiMemorySize_get_m373A2A5BE40B3873D31AFF96A75B14799B89B741 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -34343,7 +34343,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkExtern
 
 	return returnValue;
 }
-// Method Definition Index: 35097
+// Method Definition Index: 35203
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkExternalSourceInfo_idFile_set_mB370BD8FF8AF0E0C1A006A970F014CC1FCDA93AF (intptr_t ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t);
@@ -34364,7 +34364,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_AkExternalSo
 	#endif
 
 }
-// Method Definition Index: 35098
+// Method Definition Index: 35204
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkExternalSourceInfo_idFile_get_m41143AF58106388485FC4B398D7C247ABBE49C26 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -34386,7 +34386,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_AkExtern
 
 	return returnValue;
 }
-// Method Definition Index: 35099
+// Method Definition Index: 35205
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_Init_mE711B4FD390B38C0D1B889BA3150AA116A0F9AE6 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -34408,7 +34408,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_Init_mE71
 
 	return returnValue;
 }
-// Method Definition Index: 35100
+// Method Definition Index: 35206
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_InitSpatialAudio_m057B961995A97A017FFBF85BAD11EE4E8EC92287 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -34430,7 +34430,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_InitSpati
 
 	return returnValue;
 }
-// Method Definition Index: 35101
+// Method Definition Index: 35207
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_InitCommunication_m444573227B2197DD2F1CAF555ED8582F4CCADE7E (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -34452,7 +34452,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_InitCommu
 
 	return returnValue;
 }
-// Method Definition Index: 35102
+// Method Definition Index: 35208
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_Term_mCE3E4FDB54514B4D7C47947BAF19EA2E22C333E7 (const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) ();
@@ -34473,7 +34473,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_Term_mCE3E4F
 	#endif
 
 }
-// Method Definition Index: 35103
+// Method Definition Index: 35209
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_RegisterGameObjInternal_m48EA41937B198F3E5CFD4CF5552DF9A6E81AD467 (uint64_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t);
@@ -34495,7 +34495,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_RegisterG
 
 	return returnValue;
 }
-// Method Definition Index: 35104
+// Method Definition Index: 35210
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_UnregisterGameObjInternal_mAD19E7091453174B48E54E501D4671FBF52A970E (uint64_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t);
@@ -34517,7 +34517,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_Unregiste
 
 	return returnValue;
 }
-// Method Definition Index: 35105
+// Method Definition Index: 35211
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_RegisterGameObjInternal_WithName_m177A4BF2957F889F58D9B95ABA3EEBE687DAE7D5 (uint64_t ___0_jarg1, String_t* ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, char*);
@@ -34545,7 +34545,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_RegisterG
 
 	return returnValue;
 }
-// Method Definition Index: 35106
+// Method Definition Index: 35212
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetBasePath_m4DBF16D487E2A9C1BAD59B2C46BD64D913AAA24C (String_t* ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*);
@@ -34573,7 +34573,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetBasePa
 
 	return returnValue;
 }
-// Method Definition Index: 35107
+// Method Definition Index: 35213
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetCurrentLanguage_m6C70F0D98756B1EB72B4C5523BCFF4A179165570 (String_t* ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*);
@@ -34601,7 +34601,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetCurren
 
 	return returnValue;
 }
-// Method Definition Index: 35108
+// Method Definition Index: 35214
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_LoadFilePackage_m49124F7D09B9914D738ABC681BBDECF693AE154E (String_t* ___0_jarg1, uint32_t* ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, uint32_t*);
@@ -34629,7 +34629,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_LoadFileP
 
 	return returnValue;
 }
-// Method Definition Index: 35109
+// Method Definition Index: 35215
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AddBasePath_mDD226DF625AB58EDF6B7295878BD1942AA9A9485 (String_t* ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*);
@@ -34657,7 +34657,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AddBasePa
 
 	return returnValue;
 }
-// Method Definition Index: 35110
+// Method Definition Index: 35216
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetGameName_m7395F53C9FEDA4E125E3635E5D8D5C0EEC0791A6 (String_t* ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*);
@@ -34685,7 +34685,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetGameNa
 
 	return returnValue;
 }
-// Method Definition Index: 35111
+// Method Definition Index: 35217
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetDecodedBankPath_m86B99901F2CCFB38189A1A5B09CA1A9668E2434B (String_t* ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*);
@@ -34713,7 +34713,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetDecode
 
 	return returnValue;
 }
-// Method Definition Index: 35112
+// Method Definition Index: 35218
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_LoadAndDecodeBank_mBA448DAD94E2B092F401C271F73BFD4CCE0FC568 (String_t* ___0_jarg1, bool ___1_jarg2, uint32_t* ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*, int32_t, uint32_t*);
@@ -34741,7 +34741,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_LoadAndDe
 
 	return returnValue;
 }
-// Method Definition Index: 35113
+// Method Definition Index: 35219
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_LoadAndDecodeBankFromMemory_mE51C425A53208E6C16B2A9A17A9C2756EE250205 (intptr_t ___0_jarg1, uint32_t ___1_jarg2, bool ___2_jarg3, String_t* ___3_jarg4, bool ___4_jarg5, uint32_t* ___5_jarg6, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t, int32_t, char*, int32_t, uint32_t*);
@@ -34769,7 +34769,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_LoadAndDe
 
 	return returnValue;
 }
-// Method Definition Index: 35114
+// Method Definition Index: 35220
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_PostEventOnRoom__SWIG_0_m4801EE7C63BE64802A555AD9D37BC48E608EDB8A (String_t* ___0_jarg1, uint64_t ___1_jarg2, uint32_t ___2_jarg3, intptr_t ___3_jarg4, intptr_t ___4_jarg5, uint32_t ___5_jarg6, intptr_t ___6_jarg7, uint32_t ___7_jarg8, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (char*, uint64_t, uint32_t, intptr_t, intptr_t, uint32_t, intptr_t, uint32_t);
@@ -34797,7 +34797,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_PostEven
 
 	return returnValue;
 }
-// Method Definition Index: 35115
+// Method Definition Index: 35221
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_PostEventOnRoom__SWIG_1_m5FED94C03CB77E59426D2E78B4AF0185FD8773AD (String_t* ___0_jarg1, uint64_t ___1_jarg2, uint32_t ___2_jarg3, intptr_t ___3_jarg4, intptr_t ___4_jarg5, uint32_t ___5_jarg6, intptr_t ___6_jarg7, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (char*, uint64_t, uint32_t, intptr_t, intptr_t, uint32_t, intptr_t);
@@ -34825,7 +34825,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_PostEven
 
 	return returnValue;
 }
-// Method Definition Index: 35116
+// Method Definition Index: 35222
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_PostEventOnRoom__SWIG_2_mECAAE24EA1CFF95F218020D6F362072FA2ECEB40 (String_t* ___0_jarg1, uint64_t ___1_jarg2, uint32_t ___2_jarg3, intptr_t ___3_jarg4, intptr_t ___4_jarg5, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (char*, uint64_t, uint32_t, intptr_t, intptr_t);
@@ -34853,7 +34853,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_PostEven
 
 	return returnValue;
 }
-// Method Definition Index: 35117
+// Method Definition Index: 35223
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_PostEventOnRoom__SWIG_3_m156CDB5A6F2DC5ABDE29B86ACFAD497DDE2D8ADC (String_t* ___0_jarg1, uint64_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (char*, uint64_t);
@@ -34881,7 +34881,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_PostEven
 
 	return returnValue;
 }
-// Method Definition Index: 35118
+// Method Definition Index: 35224
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_GetCurrentLanguage_m7F0C09AFE4F85F491889F24974B0E5AB5B5DCCE0 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -34903,7 +34903,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_GetCurre
 
 	return returnValue;
 }
-// Method Definition Index: 35119
+// Method Definition Index: 35225
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_UnloadFilePackage_m85ADC4FBC2547B458294BE5A3C76625DE40F88FB (uint32_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t);
@@ -34925,7 +34925,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_UnloadFil
 
 	return returnValue;
 }
-// Method Definition Index: 35120
+// Method Definition Index: 35226
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_UnloadAllFilePackages_mCFDED4A7C66599A559DB57619923FE91CFEECF29 (const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -34947,7 +34947,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_UnloadAll
 
 	return returnValue;
 }
-// Method Definition Index: 35121
+// Method Definition Index: 35227
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetObjectPosition_m74065076B0C0073DA6485BA133CD04CDDF74EDCA (uint64_t ___0_jarg1, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_jarg2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_jarg3, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___3_jarg4, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2);
@@ -34969,7 +34969,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetObject
 
 	return returnValue;
 }
-// Method Definition Index: 35122
+// Method Definition Index: 35228
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetSourceMultiplePlayPositions__SWIG_0_m83C5C9C28C701F31E4F531791886BAECFECCD832 (uint32_t ___0_jarg1, UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___1_jarg2, UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___2_jarg3, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___3_jarg4, uint32_t* ___4_jarg5, bool ___5_jarg6, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint32_t*, uint32_t*, int32_t*, uint32_t*, int32_t);
@@ -35051,7 +35051,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetSource
 
 	return returnValue;
 }
-// Method Definition Index: 35123
+// Method Definition Index: 35229
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetSourceMultiplePlayPositions__SWIG_1_m9A8526552D83F2A1BD5FC8EAEE9DD4D188EF1044 (uint32_t ___0_jarg1, UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___1_jarg2, UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___2_jarg3, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___3_jarg4, uint32_t* ___4_jarg5, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint32_t*, uint32_t*, int32_t*, uint32_t*);
@@ -35133,7 +35133,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_GetSource
 
 	return returnValue;
 }
-// Method Definition Index: 35124
+// Method Definition Index: 35230
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetListeners_m15EADFFFEFCA83EBC020A0EB03C95C47479DEFDF (uint64_t ___0_jarg1, UInt64U5BU5D_tAB1A62450AC0899188486EDB9FC066B8BEED9299* ___1_jarg2, uint32_t ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, uint64_t*, uint32_t);
@@ -35161,7 +35161,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetListen
 
 	return returnValue;
 }
-// Method Definition Index: 35125
+// Method Definition Index: 35231
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetDefaultListeners_mDE30979BF92A2CFEE3901EFAECD9B49D8E0A9E28 (UInt64U5BU5D_tAB1A62450AC0899188486EDB9FC066B8BEED9299* ___0_jarg1, uint32_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t*, uint32_t);
@@ -35189,7 +35189,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetDefaul
 
 	return returnValue;
 }
-// Method Definition Index: 35126
+// Method Definition Index: 35232
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AddOutput__SWIG_0_m8069B747415B69E60FFED5C3C86CF8D91AFC4958 (intptr_t ___0_jarg1, uint64_t* ___1_jarg2, UInt64U5BU5D_tAB1A62450AC0899188486EDB9FC066B8BEED9299* ___2_jarg3, uint32_t ___3_jarg4, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint64_t*, uint64_t*, uint32_t);
@@ -35217,7 +35217,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AddOutput
 
 	return returnValue;
 }
-// Method Definition Index: 35127
+// Method Definition Index: 35233
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AddOutput__SWIG_1_mF1E0D407995E19D0C49F49CB6A9B6653CF135160 (intptr_t ___0_jarg1, uint64_t* ___1_jarg2, UInt64U5BU5D_tAB1A62450AC0899188486EDB9FC066B8BEED9299* ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint64_t*, uint64_t*);
@@ -35245,7 +35245,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AddOutput
 
 	return returnValue;
 }
-// Method Definition Index: 35128
+// Method Definition Index: 35234
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AddOutput__SWIG_2_m4B6303F763DBE535B92D7394F0EB359F49A0DAEE (intptr_t ___0_jarg1, uint64_t* ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint64_t*);
@@ -35267,7 +35267,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AddOutput
 
 	return returnValue;
 }
-// Method Definition Index: 35129
+// Method Definition Index: 35235
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AddOutput__SWIG_3_m2638114425DAA8369C574ADF1C3E9D5F76B77CCD (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -35289,7 +35289,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_AddOutput
 
 	return returnValue;
 }
-// Method Definition Index: 35130
+// Method Definition Index: 35236
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_GetDefaultStreamSettings_mBD5EA9F68130B3B1250803E6F3845B728BC2D8F9 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -35310,7 +35310,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_GetDefaultSt
 	#endif
 
 }
-// Method Definition Index: 35131
+// Method Definition Index: 35237
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_GetDefaultDeviceSettings_m8C18F669417445FEB03E515BD53E17C0E7DD13A6 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -35331,7 +35331,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_GetDefaultDe
 	#endif
 
 }
-// Method Definition Index: 35132
+// Method Definition Index: 35238
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_GetDefaultMusicSettings_mE62E5F43788FF056F15C127C326F81F400C6AA1D (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -35352,7 +35352,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_GetDefaultMu
 	#endif
 
 }
-// Method Definition Index: 35133
+// Method Definition Index: 35239
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_GetDefaultInitSettings_m37E474483F94C6E4EDFBA3B07A936AB38ED30BE2 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -35373,7 +35373,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_GetDefaultIn
 	#endif
 
 }
-// Method Definition Index: 35134
+// Method Definition Index: 35240
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_GetDefaultPlatformInitSettings_m2686A0389C1C15C36BF3213D5B67A37E863591CE (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -35394,7 +35394,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_GetDefaultPl
 	#endif
 
 }
-// Method Definition Index: 35135
+// Method Definition Index: 35241
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_GetMajorMinorVersion_mD03ADB7094BCD07B55881A24EC5B6BD03FF9518E (const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -35416,7 +35416,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_GetMajor
 
 	return returnValue;
 }
-// Method Definition Index: 35136
+// Method Definition Index: 35242
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_GetSubminorBuildVersion_mFE64AA967FE8B0510D0EA2E434BCC313E3B818B3 (const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -35438,7 +35438,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_GetSubmi
 
 	return returnValue;
 }
-// Method Definition Index: 35137
+// Method Definition Index: 35243
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_StartResourceMonitoring_mA375C54915E971F2E353245404D0A0E620A9EA24 (const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) ();
@@ -35459,7 +35459,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_StartResourc
 	#endif
 
 }
-// Method Definition Index: 35138
+// Method Definition Index: 35244
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_StopResourceMonitoring_m7AE507F0A3183D669BA5A2847ECAA06BCDE0BCA6 (const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) ();
@@ -35480,7 +35480,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_StopResource
 	#endif
 
 }
-// Method Definition Index: 35139
+// Method Definition Index: 35245
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_GetResourceMonitorDataSummary_mA41BBEC69332BE101AE84B821673B39D12FF9D45 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -35501,7 +35501,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE_CSharp_GetResourceM
 	#endif
 
 }
-// Method Definition Index: 35140
+// Method Definition Index: 35246
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetRoomPortal_m67BBDAA5E33BB46C159DAD586B5E82B1B5EC3C6C (uint64_t ___0_jarg1, intptr_t ___1_jarg2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_jarg3, bool ___3_jarg4, uint64_t ___4_jarg5, uint64_t ___5_jarg6, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, intptr_t, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, int32_t, uint64_t, uint64_t);
@@ -35523,7 +35523,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetRoomPo
 
 	return returnValue;
 }
-// Method Definition Index: 35141
+// Method Definition Index: 35247
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetRoom_m6AB2006C9480C6D4D4DC68061EDE347D639702A0 (uint64_t ___0_jarg1, intptr_t ___1_jarg2, String_t* ___2_jarg3, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, intptr_t, char*);
@@ -35551,7 +35551,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetRoom_m
 
 	return returnValue;
 }
-// Method Definition Index: 35142
+// Method Definition Index: 35248
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_RegisterSpatialAudioListener_m73340095DB67A55A850C174EFE408E3A61986155 (uint64_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t);
@@ -35573,7 +35573,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_RegisterS
 
 	return returnValue;
 }
-// Method Definition Index: 35143
+// Method Definition Index: 35249
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_UnregisterSpatialAudioListener_mF999B16327B13A1113B7E33D9E38F9D6C43DF569 (uint64_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t);
@@ -35595,7 +35595,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_Unregiste
 
 	return returnValue;
 }
-// Method Definition Index: 35144
+// Method Definition Index: 35250
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetGeometry_mBB2B9A1DDDD131B8F7A8BBB555F8E86045CA6DD9 (uint64_t ___0_jarg1, intptr_t ___1_jarg2, uint32_t ___2_jarg3, Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___3_jarg4, uint32_t ___4_jarg5, intptr_t ___5_jarg6, uint32_t ___6_jarg7, uint64_t ___7_jarg8, bool ___8_jarg9, bool ___9_jarg10, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, intptr_t, uint32_t, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*, uint32_t, intptr_t, uint32_t, uint64_t, int32_t, int32_t);
@@ -35623,7 +35623,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEnginePINVOKE_CSharp_SetGeomet
 
 	return returnValue;
 }
-// Method Definition Index: 35145
+// Method Definition Index: 35251
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_PostEventOnRoom__SWIG_4_m57114052C1951E19B6E368CC3A0E8752865FD75F (uint32_t ___0_jarg1, uint64_t ___1_jarg2, uint32_t ___2_jarg3, intptr_t ___3_jarg4, intptr_t ___4_jarg5, uint32_t ___5_jarg6, intptr_t ___6_jarg7, uint32_t ___7_jarg8, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint64_t, uint32_t, intptr_t, intptr_t, uint32_t, intptr_t, uint32_t);
@@ -35645,7 +35645,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_PostEven
 
 	return returnValue;
 }
-// Method Definition Index: 35146
+// Method Definition Index: 35252
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_PostEventOnRoom__SWIG_5_mC741CBBFF0D1EE5FDC5E84665D3759459788ACB8 (uint32_t ___0_jarg1, uint64_t ___1_jarg2, uint32_t ___2_jarg3, intptr_t ___3_jarg4, intptr_t ___4_jarg5, uint32_t ___5_jarg6, intptr_t ___6_jarg7, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint64_t, uint32_t, intptr_t, intptr_t, uint32_t, intptr_t);
@@ -35667,7 +35667,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_PostEven
 
 	return returnValue;
 }
-// Method Definition Index: 35147
+// Method Definition Index: 35253
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_PostEventOnRoom__SWIG_6_m20143DFD187EA646E374AEFAF24B43F28DB7FD80 (uint32_t ___0_jarg1, uint64_t ___1_jarg2, uint32_t ___2_jarg3, intptr_t ___3_jarg4, intptr_t ___4_jarg5, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint64_t, uint32_t, intptr_t, intptr_t);
@@ -35689,7 +35689,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_PostEven
 
 	return returnValue;
 }
-// Method Definition Index: 35148
+// Method Definition Index: 35254
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_PostEventOnRoom__SWIG_7_m0DA7D3C91470345D1A4736347AC63F11E25523CF (uint32_t ___0_jarg1, uint64_t ___1_jarg2, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (uint32_t, uint64_t);
@@ -35711,7 +35711,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEnginePINVOKE_CSharp_PostEven
 
 	return returnValue;
 }
-// Method Definition Index: 35149
+// Method Definition Index: 35255
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkPlaylist_SWIGUpcast_m753ED0B38C0DFD5C7F0F3880CBCC441A254A0A18 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -35733,7 +35733,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkPlayli
 
 	return returnValue;
 }
-// Method Definition Index: 35150
+// Method Definition Index: 35256
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkMIDIPost_SWIGUpcast_m00E1AAF265364A49D388462E54DE48B8851901F1 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -35755,7 +35755,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkMIDIPo
 
 	return returnValue;
 }
-// Method Definition Index: 35151
+// Method Definition Index: 35257
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkEventCallbackInfo_SWIGUpcast_m5EB5F6121C6E0056C8B8BB70DC65EAFF442BF598 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -35777,7 +35777,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkEventC
 
 	return returnValue;
 }
-// Method Definition Index: 35152
+// Method Definition Index: 35258
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkMIDIEventCallbackInfo_SWIGUpcast_mEE4F49A466A9787493F0B22FAE94D46D2A22C02F (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -35799,7 +35799,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkMIDIEv
 
 	return returnValue;
 }
-// Method Definition Index: 35153
+// Method Definition Index: 35259
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkMarkerCallbackInfo_SWIGUpcast_mFD029FB4C9A1634108EC42D46D758B3F60D12D85 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -35821,7 +35821,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkMarker
 
 	return returnValue;
 }
-// Method Definition Index: 35154
+// Method Definition Index: 35260
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkDurationCallbackInfo_SWIGUpcast_m60D06262F6EB83685E8D1C4D7CE482AF09418866 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -35843,7 +35843,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkDurati
 
 	return returnValue;
 }
-// Method Definition Index: 35155
+// Method Definition Index: 35261
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkDynamicSequenceItemCallbackInfo_SWIGUpcast_m8C88A502B48D286E3016875810A9BE85D570551D (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -35865,7 +35865,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkDynami
 
 	return returnValue;
 }
-// Method Definition Index: 35156
+// Method Definition Index: 35262
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkMusicSyncCallbackInfo_SWIGUpcast_m313B00D5122B8A72AF487A21030FF2F26AB6A364 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -35887,7 +35887,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkMusicS
 
 	return returnValue;
 }
-// Method Definition Index: 35157
+// Method Definition Index: 35263
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkMusicPlaylistCallbackInfo_SWIGUpcast_m0CF9ECD4DC4E1A7E5232A9FC16262626B508E065 (intptr_t ___0_jarg1, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -35909,7 +35909,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkSoundEnginePINVOKE_CSharp_AkMusicP
 
 	return returnValue;
 }
-// Method Definition Index: 35158
+// Method Definition Index: 35264
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE__ctor_mB1066FF8C03E94391B3CFF54EBDCD2E67215BB02 (AkSoundEnginePINVOKE_t813D4BE2D4695A89F78FD55AA0F7435E45606282* __this, const RuntimeMethod* method) 
 {
 	{
@@ -35925,7 +35925,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEnginePINVOKE__ctor_mB1066FF8C03E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 35159
+// Method Definition Index: 35265
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_get_AK_SOUNDBANK_VERSION_m9970FA196A962844FFF09AF43A0A714805763CC4 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -35942,7 +35942,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_get_AK_SOUNDBANK_VERSI
 		return L_0;
 	}
 }
-// Method Definition Index: 35160
+// Method Definition Index: 35266
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t AkSoundEngine_get_AK_INT_mBFA5859998ABD7A77410614A3E6CB8AE0A8892F5 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -35959,7 +35959,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t AkSoundEngine_get_AK_INT_mBFA5859998
 		return L_0;
 	}
 }
-// Method Definition Index: 35161
+// Method Definition Index: 35267
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t AkSoundEngine_get_AK_FLOAT_mDB9AD11B33CA90A35E3BA00D60B9F44C2FA2ADF4 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -35976,7 +35976,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t AkSoundEngine_get_AK_FLOAT_mDB9AD11B
 		return L_0;
 	}
 }
-// Method Definition Index: 35162
+// Method Definition Index: 35268
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEngine_get_AK_INTERLEAVED_m7FF8756D683CE8E0825D672EEB3E4F0A2C4EAF9F (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -35993,7 +35993,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEngine_get_AK_INTERLEAVED_m7FF
 		return L_0;
 	}
 }
-// Method Definition Index: 35163
+// Method Definition Index: 35269
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEngine_get_AK_NONINTERLEAVED_mAB838D35A7A34E4D4C646B95CA50AA5F35D722AC (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36010,7 +36010,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEngine_get_AK_NONINTERLEAVED_m
 		return L_0;
 	}
 }
-// Method Definition Index: 35164
+// Method Definition Index: 35270
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_get_AK_LE_NATIVE_BITSPERSAMPLE_m0C15D3DE1CE3C399FC538B289D5D251B4ADD1C27 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36027,7 +36027,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_get_AK_LE_NATIVE_BITSP
 		return L_0;
 	}
 }
-// Method Definition Index: 35165
+// Method Definition Index: 35271
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_get_AK_LE_NATIVE_SAMPLETYPE_m6E5A69A60E1BF3DCA0BF45B5FED193BC854780A4 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36044,7 +36044,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_get_AK_LE_NATIVE_SAMPL
 		return L_0;
 	}
 }
-// Method Definition Index: 35166
+// Method Definition Index: 35272
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_get_AK_LE_NATIVE_INTERLEAVE_m1CBBC6D4C34F0037D13980FBF53A315A787A7BF4 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36061,7 +36061,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_get_AK_LE_NATIVE_INTER
 		return L_0;
 	}
 }
-// Method Definition Index: 35167
+// Method Definition Index: 35273
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_DynamicSequenceOpen_m5BFEA177FFD59FF816C3A7AACFD04F9E3B4CE21B (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_in_gameObjectID, uint32_t ___1_in_uFlags, EventCallback_tC131EB7ACC070D9F34CFD326C871BE0753542992* ___2_in_pfnCallback, RuntimeObject* ___3_in_pCookie, int32_t ___4_in_eDynamicSequenceType, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36191,7 +36191,7 @@ IL_0040:
 		return L_17;
 	}
 }
-// Method Definition Index: 35168
+// Method Definition Index: 35274
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_DynamicSequenceOpen_m4F7E9ACB529B94A26927A761FF6753C11F4A72C1 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_in_gameObjectID, uint32_t ___1_in_uFlags, EventCallback_tC131EB7ACC070D9F34CFD326C871BE0753542992* ___2_in_pfnCallback, RuntimeObject* ___3_in_pCookie, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36320,7 +36320,7 @@ IL_0040:
 		return L_16;
 	}
 }
-// Method Definition Index: 35169
+// Method Definition Index: 35275
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_DynamicSequenceOpen_m106EEC36E54059B84F136023C44270D8BCEE79E5 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_in_gameObjectID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36356,7 +36356,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_DynamicSequenceOpen_m1
 		return L_6;
 	}
 }
-// Method Definition Index: 35170
+// Method Definition Index: 35276
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_DynamicSequenceClose_m9A041C7F805A2FE19F67CCABF852BC0E4C2BFE3A (uint32_t ___0_in_playingID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36374,7 +36374,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_DynamicSequenceClose_m9
 		return (int32_t)(L_1);
 	}
 }
-// Method Definition Index: 35171
+// Method Definition Index: 35277
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_DynamicSequencePlay_m32D50DE7FC4FF06F64C18BA332F2DCB14B375BCF (uint32_t ___0_in_playingID, int32_t ___1_in_uTransitionDuration, int32_t ___2_in_eFadeCurve, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36394,7 +36394,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_DynamicSequencePlay_m32
 		return (int32_t)(L_3);
 	}
 }
-// Method Definition Index: 35172
+// Method Definition Index: 35278
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_DynamicSequencePlay_m58D1375B6EFA61A5D55920A31FCE5B749A7081D8 (uint32_t ___0_in_playingID, int32_t ___1_in_uTransitionDuration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36413,7 +36413,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_DynamicSequencePlay_m58
 		return (int32_t)(L_2);
 	}
 }
-// Method Definition Index: 35173
+// Method Definition Index: 35279
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_DynamicSequencePlay_m37328560176CBB5D302ECCA5173AB8A49C53188C (uint32_t ___0_in_playingID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36431,7 +36431,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_DynamicSequencePlay_m37
 		return (int32_t)(L_1);
 	}
 }
-// Method Definition Index: 35174
+// Method Definition Index: 35280
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_DynamicSequencePause_m99E0998F18226D261D4EC63E4657567413B71367 (uint32_t ___0_in_playingID, int32_t ___1_in_uTransitionDuration, int32_t ___2_in_eFadeCurve, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36451,7 +36451,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_DynamicSequencePause_m9
 		return (int32_t)(L_3);
 	}
 }
-// Method Definition Index: 35175
+// Method Definition Index: 35281
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_DynamicSequencePause_m44DCB60053A4EADD7F4A3674B017EB7FEC949826 (uint32_t ___0_in_playingID, int32_t ___1_in_uTransitionDuration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36470,7 +36470,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_DynamicSequencePause_m4
 		return (int32_t)(L_2);
 	}
 }
-// Method Definition Index: 35176
+// Method Definition Index: 35282
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_DynamicSequencePause_mE60A41AACE5DA44A3BD2DD58ED76B63680ACCF49 (uint32_t ___0_in_playingID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36488,7 +36488,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_DynamicSequencePause_mE
 		return (int32_t)(L_1);
 	}
 }
-// Method Definition Index: 35177
+// Method Definition Index: 35283
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_DynamicSequenceResume_m8CE07939D805E0B8C4F3838CC90D68DB6FC98C54 (uint32_t ___0_in_playingID, int32_t ___1_in_uTransitionDuration, int32_t ___2_in_eFadeCurve, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36508,7 +36508,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_DynamicSequenceResume_m
 		return (int32_t)(L_3);
 	}
 }
-// Method Definition Index: 35178
+// Method Definition Index: 35284
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_DynamicSequenceResume_mBA3C4022D53872F06C49EE1BDD07E0396AC9439A (uint32_t ___0_in_playingID, int32_t ___1_in_uTransitionDuration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36527,7 +36527,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_DynamicSequenceResume_m
 		return (int32_t)(L_2);
 	}
 }
-// Method Definition Index: 35179
+// Method Definition Index: 35285
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_DynamicSequenceResume_m8B5CD11F17558E5FFEDD617A502E289617A81017 (uint32_t ___0_in_playingID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36545,7 +36545,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_DynamicSequenceResume_m
 		return (int32_t)(L_1);
 	}
 }
-// Method Definition Index: 35180
+// Method Definition Index: 35286
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_DynamicSequenceStop_m8CF11EA50CEB2F43094A2684BC7BB9ED0071ACB5 (uint32_t ___0_in_playingID, int32_t ___1_in_uTransitionDuration, int32_t ___2_in_eFadeCurve, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36565,7 +36565,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_DynamicSequenceStop_m8C
 		return (int32_t)(L_3);
 	}
 }
-// Method Definition Index: 35181
+// Method Definition Index: 35287
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_DynamicSequenceStop_m86047025DD7B0EFFCE4CA420ED82D811BFF0E323 (uint32_t ___0_in_playingID, int32_t ___1_in_uTransitionDuration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36584,7 +36584,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_DynamicSequenceStop_m86
 		return (int32_t)(L_2);
 	}
 }
-// Method Definition Index: 35182
+// Method Definition Index: 35288
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_DynamicSequenceStop_m9F2410E963C410959AEAC0E9368768E49FD18EAD (uint32_t ___0_in_playingID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36602,7 +36602,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_DynamicSequenceStop_m9F
 		return (int32_t)(L_1);
 	}
 }
-// Method Definition Index: 35183
+// Method Definition Index: 35289
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_DynamicSequenceBreak_m012463E6605BFB73311C136459AA1FB74626BB08 (uint32_t ___0_in_playingID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36620,7 +36620,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_DynamicSequenceBreak_m0
 		return (int32_t)(L_1);
 	}
 }
-// Method Definition Index: 35184
+// Method Definition Index: 35290
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_Seek_m86CE6503BE34E942FC8B0E9E9DE8E86862338E8C (uint32_t ___0_in_playingID, int32_t ___1_in_iPosition, bool ___2_in_bSeekToNearestMarker, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36640,7 +36640,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_Seek_m86CE6503BE34E942F
 		return (int32_t)(L_3);
 	}
 }
-// Method Definition Index: 35185
+// Method Definition Index: 35291
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_Seek_m448424D83F527EEE24E4F8AD814699FB2953E662 (uint32_t ___0_in_playingID, float ___1_in_fPercent, bool ___2_in_bSeekToNearestMarker, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36660,7 +36660,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_Seek_m448424D83F527EEE2
 		return (int32_t)(L_3);
 	}
 }
-// Method Definition Index: 35186
+// Method Definition Index: 35292
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_DynamicSequenceGetPauseTimes_mAEB477C1363A0A1B6490854108C8EF2381AAEBFC (uint32_t ___0_in_playingID, uint32_t* ___1_out_uTime, uint32_t* ___2_out_uDuration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36680,7 +36680,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_DynamicSequenceGetPause
 		return (int32_t)(L_3);
 	}
 }
-// Method Definition Index: 35187
+// Method Definition Index: 35293
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AkPlaylist_tBC28776BB1DED932FB0A421F48F9F462A6404AAC* AkSoundEngine_DynamicSequenceLockPlaylist_m592C737C633D530814A3002EDDE26FA1E13FD627 (uint32_t ___0_in_playingID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36721,7 +36721,7 @@ IL_001c:
 		return (AkPlaylist_tBC28776BB1DED932FB0A421F48F9F462A6404AAC*)NULL;
 	}
 }
-// Method Definition Index: 35188
+// Method Definition Index: 35294
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_DynamicSequenceUnlockPlaylist_mC2B97873FA3AAB999B3E163E551FCD874F698F87 (uint32_t ___0_in_playingID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36739,7 +36739,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_DynamicSequenceUnlockPl
 		return (int32_t)(L_1);
 	}
 }
-// Method Definition Index: 35189
+// Method Definition Index: 35295
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEngine_IsInitialized_mF5A09819C502414B37992C3AF5E02DDECF3B5FC7 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36756,7 +36756,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEngine_IsInitialized_mF5A09819C50
 		return L_0;
 	}
 }
-// Method Definition Index: 35190
+// Method Definition Index: 35296
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetAudioSettings_mE3FA3527AA7B022DA4F281BF17492C84AAF044B5 (AkAudioSettings_tDA0E9634CDDBE90529DEAC9BB4F337B62239B1CA* ___0_out_audioSettings, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36776,7 +36776,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetAudioSettings_mE3FA3
 		return (int32_t)(L_2);
 	}
 }
-// Method Definition Index: 35191
+// Method Definition Index: 35297
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AkChannelConfig_tFD865141B037719DDB40F88440BFA32D1BF3652B* AkSoundEngine_GetSpeakerConfiguration_mF386A7FDCF85D05A75DCEE682C1A78F61A224CB2 (uint64_t ___0_in_idOutput, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36798,7 +36798,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AkChannelConfig_tFD865141B037719DDB40F88440BF
 		return L_2;
 	}
 }
-// Method Definition Index: 35192
+// Method Definition Index: 35298
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AkChannelConfig_tFD865141B037719DDB40F88440BFA32D1BF3652B* AkSoundEngine_GetSpeakerConfiguration_m156D26D9A7E0D90E691DD27E680A90ED0D5B5FBE (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36819,7 +36819,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AkChannelConfig_tFD865141B037719DDB40F88440BF
 		return L_1;
 	}
 }
-// Method Definition Index: 35193
+// Method Definition Index: 35299
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetPanningRule_mD7EF58CCFD2519D6A1956E7F48A0F7D71339BDE0 (int32_t* ___0_out_ePanningRule, uint64_t ___1_in_idOutput, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36838,7 +36838,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetPanningRule_mD7EF58C
 		return (int32_t)(L_2);
 	}
 }
-// Method Definition Index: 35194
+// Method Definition Index: 35300
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetPanningRule_mF4B5FA3A5A1D0BB1761B0B23777D18BFB8407F15 (int32_t* ___0_out_ePanningRule, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36856,7 +36856,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetPanningRule_mF4B5FA3
 		return (int32_t)(L_1);
 	}
 }
-// Method Definition Index: 35195
+// Method Definition Index: 35301
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetPanningRule_m3EDFC395FD4C158A5522ECCC90CAF55FE5B767B6 (int32_t ___0_in_ePanningRule, uint64_t ___1_in_idOutput, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36875,7 +36875,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetPanningRule_m3EDFC39
 		return (int32_t)(L_2);
 	}
 }
-// Method Definition Index: 35196
+// Method Definition Index: 35302
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetPanningRule_mC2A99C8FD3F7D835D3EE67890FECFC61EE8CB299 (int32_t ___0_in_ePanningRule, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36893,7 +36893,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetPanningRule_mC2A99C8
 		return (int32_t)(L_1);
 	}
 }
-// Method Definition Index: 35197
+// Method Definition Index: 35303
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetSpeakerAngles_m11485955942DDB9AEED32AAE017B46E8DC05DB41 (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___0_io_pfSpeakerAngles, uint32_t* ___1_io_uNumAngles, float* ___2_out_fHeightAngle, uint64_t ___3_in_idOutput, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36914,7 +36914,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetSpeakerAngles_m11485
 		return (int32_t)(L_4);
 	}
 }
-// Method Definition Index: 35198
+// Method Definition Index: 35304
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetSpeakerAngles_m807931E527C641AA54BBF104FF64AAD6227F9923 (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___0_io_pfSpeakerAngles, uint32_t* ___1_io_uNumAngles, float* ___2_out_fHeightAngle, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36934,7 +36934,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetSpeakerAngles_m80793
 		return (int32_t)(L_3);
 	}
 }
-// Method Definition Index: 35199
+// Method Definition Index: 35305
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetSpeakerAngles_mC3A64F7D8197EFC8301F1468C4FC7B83CF570E0A (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___0_in_pfSpeakerAngles, uint32_t ___1_in_uNumAngles, float ___2_in_fHeightAngle, uint64_t ___3_in_idOutput, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36955,7 +36955,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetSpeakerAngles_mC3A64
 		return (int32_t)(L_4);
 	}
 }
-// Method Definition Index: 35200
+// Method Definition Index: 35306
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetSpeakerAngles_mD6B41A2B95CC35DC14979E5AF9136CBD0795BC27 (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___0_in_pfSpeakerAngles, uint32_t ___1_in_uNumAngles, float ___2_in_fHeightAngle, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36975,7 +36975,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetSpeakerAngles_mD6B41
 		return (int32_t)(L_3);
 	}
 }
-// Method Definition Index: 35201
+// Method Definition Index: 35307
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetVolumeThreshold_m60FE6DFF4402A515C79924D011029B611F00FD9F (float ___0_in_fVolumeThresholdDB, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -36993,7 +36993,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetVolumeThreshold_m60F
 		return (int32_t)(L_1);
 	}
 }
-// Method Definition Index: 35202
+// Method Definition Index: 35308
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetMaxNumVoicesLimit_m4915D78DCB500DA5F9F649CDE34F33EB5BF2B2D5 (uint16_t ___0_in_maxNumberVoices, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -37011,7 +37011,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetMaxNumVoicesLimit_m4
 		return (int32_t)(L_1);
 	}
 }
-// Method Definition Index: 35203
+// Method Definition Index: 35309
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_RenderAudio_m91E31305E1FA6E6A3E28E5330BB1125654593088 (bool ___0_in_bAllowSyncRender, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -37029,7 +37029,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_RenderAudio_m91E31305E1
 		return (int32_t)(L_1);
 	}
 }
-// Method Definition Index: 35204
+// Method Definition Index: 35310
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_RenderAudio_m53FB6F85A5D69137E70EDEA419848D0767481E76 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -37046,7 +37046,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_RenderAudio_m53FB6F85A5
 		return (int32_t)(L_0);
 	}
 }
-// Method Definition Index: 35205
+// Method Definition Index: 35311
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_RegisterPluginDLL_m938E5F12565F68BA8FB4E621878373143CE1C547 (String_t* ___0_in_DllName, String_t* ___1_in_DllPath, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -37065,7 +37065,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_RegisterPluginDLL_m938E
 		return (int32_t)(L_2);
 	}
 }
-// Method Definition Index: 35206
+// Method Definition Index: 35312
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_RegisterPluginDLL_m6599777D299783980A1E401F15B83A361676006C (String_t* ___0_in_DllName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -37083,7 +37083,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_RegisterPluginDLL_m6599
 		return (int32_t)(L_1);
 	}
 }
-// Method Definition Index: 35207
+// Method Definition Index: 35313
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_GetIDFromString_m8CE66C19E23D2CAE34FDD4470EA69FADE3FD1940 (String_t* ___0_in_pszString, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -37101,7 +37101,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_GetIDFromString_m8CE66
 		return L_1;
 	}
 }
-// Method Definition Index: 35208
+// Method Definition Index: 35314
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_PostEvent_m2F5BCE30ADF0BD239922A486A234F41BAF0BEBEB (uint32_t ___0_in_eventID, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_gameObjectID, uint32_t ___2_in_uFlags, EventCallback_tC131EB7ACC070D9F34CFD326C871BE0753542992* ___3_in_pfnCallback, RuntimeObject* ___4_in_pCookie, uint32_t ___5_in_cExternals, AkExternalSourceInfoArray_t2328B945C52A1FE41490ACF9707757D084BAD56E* ___6_in_pExternalSources, uint32_t ___7_in_PlayingID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -37252,7 +37252,7 @@ IL_0044:
 		return L_21;
 	}
 }
-// Method Definition Index: 35209
+// Method Definition Index: 35315
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_PostEvent_m0D9F49412F4AE21DA5FC6A8271189941AC7E7631 (uint32_t ___0_in_eventID, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_gameObjectID, uint32_t ___2_in_uFlags, EventCallback_tC131EB7ACC070D9F34CFD326C871BE0753542992* ___3_in_pfnCallback, RuntimeObject* ___4_in_pCookie, uint32_t ___5_in_cExternals, AkExternalSourceInfoArray_t2328B945C52A1FE41490ACF9707757D084BAD56E* ___6_in_pExternalSources, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -37402,7 +37402,7 @@ IL_0044:
 		return L_20;
 	}
 }
-// Method Definition Index: 35210
+// Method Definition Index: 35316
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_PostEvent_mA8B7A49CD673412561120F89B5B59BD417E18D7B (uint32_t ___0_in_eventID, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_gameObjectID, uint32_t ___2_in_uFlags, EventCallback_tC131EB7ACC070D9F34CFD326C871BE0753542992* ___3_in_pfnCallback, RuntimeObject* ___4_in_pCookie, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -37546,7 +37546,7 @@ IL_0044:
 		return L_17;
 	}
 }
-// Method Definition Index: 35211
+// Method Definition Index: 35317
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_PostEvent_m5F506C78CA3EA3F86B19D39DF7A764632BEBD7BA (uint32_t ___0_in_eventID, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_gameObjectID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -37583,7 +37583,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_PostEvent_m5F506C78CA3
 		return L_7;
 	}
 }
-// Method Definition Index: 35212
+// Method Definition Index: 35318
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_PostEvent_mCFE9FF6A35C41BB03B099E684A08727F7705CDCB (String_t* ___0_in_pszEventName, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_gameObjectID, uint32_t ___2_in_uFlags, EventCallback_tC131EB7ACC070D9F34CFD326C871BE0753542992* ___3_in_pfnCallback, RuntimeObject* ___4_in_pCookie, uint32_t ___5_in_cExternals, AkExternalSourceInfoArray_t2328B945C52A1FE41490ACF9707757D084BAD56E* ___6_in_pExternalSources, uint32_t ___7_in_PlayingID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -37734,7 +37734,7 @@ IL_0044:
 		return L_21;
 	}
 }
-// Method Definition Index: 35213
+// Method Definition Index: 35319
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_PostEvent_m2E7C5581EC301B2EF58E9C3FBAE0C2DCBEBCDB8A (String_t* ___0_in_pszEventName, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_gameObjectID, uint32_t ___2_in_uFlags, EventCallback_tC131EB7ACC070D9F34CFD326C871BE0753542992* ___3_in_pfnCallback, RuntimeObject* ___4_in_pCookie, uint32_t ___5_in_cExternals, AkExternalSourceInfoArray_t2328B945C52A1FE41490ACF9707757D084BAD56E* ___6_in_pExternalSources, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -37884,7 +37884,7 @@ IL_0044:
 		return L_20;
 	}
 }
-// Method Definition Index: 35214
+// Method Definition Index: 35320
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_PostEvent_m751D994EBC25E8DB6B433594658DC37E5E81ABDB (String_t* ___0_in_pszEventName, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_gameObjectID, uint32_t ___2_in_uFlags, EventCallback_tC131EB7ACC070D9F34CFD326C871BE0753542992* ___3_in_pfnCallback, RuntimeObject* ___4_in_pCookie, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -38028,7 +38028,7 @@ IL_0044:
 		return L_17;
 	}
 }
-// Method Definition Index: 35215
+// Method Definition Index: 35321
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_PostEvent_m11910BA9CA79DB6255ADFF69CB6A9A8A29DB81DB (String_t* ___0_in_pszEventName, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_gameObjectID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -38065,7 +38065,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_PostEvent_m11910BA9CA7
 		return L_7;
 	}
 }
-// Method Definition Index: 35216
+// Method Definition Index: 35322
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ExecuteActionOnEvent_m89B764D777C0DDA6F4F1084E72B3E378DB4F5F71 (uint32_t ___0_in_eventID, int32_t ___1_in_ActionType, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___2_in_gameObjectID, int32_t ___3_in_uTransitionDuration, int32_t ___4_in_eFadeCurve, uint32_t ___5_in_PlayingID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -38100,7 +38100,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ExecuteActionOnEvent_m8
 		return (int32_t)(L_10);
 	}
 }
-// Method Definition Index: 35217
+// Method Definition Index: 35323
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ExecuteActionOnEvent_mA820B5A668A2B8A6E0E986F08BBE925D55DFF8B5 (uint32_t ___0_in_eventID, int32_t ___1_in_ActionType, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___2_in_gameObjectID, int32_t ___3_in_uTransitionDuration, int32_t ___4_in_eFadeCurve, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -38134,7 +38134,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ExecuteActionOnEvent_mA
 		return (int32_t)(L_9);
 	}
 }
-// Method Definition Index: 35218
+// Method Definition Index: 35324
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ExecuteActionOnEvent_m40359E95FFFCCC070AB4AC59B0821A0545F4F970 (uint32_t ___0_in_eventID, int32_t ___1_in_ActionType, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___2_in_gameObjectID, int32_t ___3_in_uTransitionDuration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -38167,7 +38167,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ExecuteActionOnEvent_m4
 		return (int32_t)(L_8);
 	}
 }
-// Method Definition Index: 35219
+// Method Definition Index: 35325
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ExecuteActionOnEvent_m38F76B309147F155C97F17DBD5736801200C6D9B (uint32_t ___0_in_eventID, int32_t ___1_in_ActionType, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___2_in_gameObjectID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -38199,7 +38199,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ExecuteActionOnEvent_m3
 		return (int32_t)(L_7);
 	}
 }
-// Method Definition Index: 35220
+// Method Definition Index: 35326
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ExecuteActionOnEvent_mEB69C53A88484077A9F62ADE592D7369CA6EDC8A (uint32_t ___0_in_eventID, int32_t ___1_in_ActionType, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -38218,7 +38218,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ExecuteActionOnEvent_mE
 		return (int32_t)(L_2);
 	}
 }
-// Method Definition Index: 35221
+// Method Definition Index: 35327
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ExecuteActionOnEvent_m4257E132D79BAF6454BD18C4FC85635CC1BB9EE8 (String_t* ___0_in_pszEventName, int32_t ___1_in_ActionType, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___2_in_gameObjectID, int32_t ___3_in_uTransitionDuration, int32_t ___4_in_eFadeCurve, uint32_t ___5_in_PlayingID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -38253,7 +38253,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ExecuteActionOnEvent_m4
 		return (int32_t)(L_10);
 	}
 }
-// Method Definition Index: 35222
+// Method Definition Index: 35328
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ExecuteActionOnEvent_m551490FA102DB2A611BE0FAEBB9882A0D054AFC7 (String_t* ___0_in_pszEventName, int32_t ___1_in_ActionType, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___2_in_gameObjectID, int32_t ___3_in_uTransitionDuration, int32_t ___4_in_eFadeCurve, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -38287,7 +38287,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ExecuteActionOnEvent_m5
 		return (int32_t)(L_9);
 	}
 }
-// Method Definition Index: 35223
+// Method Definition Index: 35329
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ExecuteActionOnEvent_mB7C51EAB8D680A82857B507D373203251A0507F6 (String_t* ___0_in_pszEventName, int32_t ___1_in_ActionType, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___2_in_gameObjectID, int32_t ___3_in_uTransitionDuration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -38320,7 +38320,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ExecuteActionOnEvent_mB
 		return (int32_t)(L_8);
 	}
 }
-// Method Definition Index: 35224
+// Method Definition Index: 35330
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ExecuteActionOnEvent_m534D503DA3E70AE793EB247161B456097B47BD04 (String_t* ___0_in_pszEventName, int32_t ___1_in_ActionType, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___2_in_gameObjectID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -38352,7 +38352,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ExecuteActionOnEvent_m5
 		return (int32_t)(L_7);
 	}
 }
-// Method Definition Index: 35225
+// Method Definition Index: 35331
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ExecuteActionOnEvent_mB532D989A10BCE13465ADBD75A90BC03A009357D (String_t* ___0_in_pszEventName, int32_t ___1_in_ActionType, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -38371,7 +38371,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ExecuteActionOnEvent_mB
 		return (int32_t)(L_2);
 	}
 }
-// Method Definition Index: 35226
+// Method Definition Index: 35332
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PostMIDIOnEvent_m78C51FA58074CF4F94B00E5782E5CD9B336F55F9 (uint32_t ___0_in_eventID, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_gameObjectID, AkMIDIPostArray_t0E1E1B04B113A9A717F0507DEA9EA79EE5910581* ___2_in_pPosts, uint16_t ___3_in_uNumPosts, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -38407,7 +38407,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PostMIDIOnEvent_m78C51F
 		return (int32_t)(L_9);
 	}
 }
-// Method Definition Index: 35227
+// Method Definition Index: 35333
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_StopMIDIOnEvent_m125C4817BB69986D745F488C642E23F3972BEC5B (uint32_t ___0_in_eventID, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_gameObjectID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -38438,7 +38438,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_StopMIDIOnEvent_m125C48
 		return (int32_t)(L_6);
 	}
 }
-// Method Definition Index: 35228
+// Method Definition Index: 35334
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_StopMIDIOnEvent_m63039C4C379325D36E1AF560EEE8D12C8A105906 (uint32_t ___0_in_eventID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -38456,7 +38456,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_StopMIDIOnEvent_m63039C
 		return (int32_t)(L_1);
 	}
 }
-// Method Definition Index: 35229
+// Method Definition Index: 35335
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_StopMIDIOnEvent_m0938882200494AA003A0B2E2D3224C599FA50EE2 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -38473,7 +38473,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_StopMIDIOnEvent_m093888
 		return (int32_t)(L_0);
 	}
 }
-// Method Definition Index: 35230
+// Method Definition Index: 35336
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PinEventInStreamCache_mBB6E922E192C24D27A8C61A5131A830593F5DCBF (uint32_t ___0_in_eventID, int8_t ___1_in_uActivePriority, int8_t ___2_in_uInactivePriority, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -38493,7 +38493,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PinEventInStreamCache_m
 		return (int32_t)(L_3);
 	}
 }
-// Method Definition Index: 35231
+// Method Definition Index: 35337
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PinEventInStreamCache_m81D6CF76615408824634EEE29AD154563C4E0EE1 (String_t* ___0_in_pszEventName, int8_t ___1_in_uActivePriority, int8_t ___2_in_uInactivePriority, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -38513,7 +38513,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PinEventInStreamCache_m
 		return (int32_t)(L_3);
 	}
 }
-// Method Definition Index: 35232
+// Method Definition Index: 35338
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_UnpinEventInStreamCache_m1826086B662D82E779DA9AE02F169FA3A87E54C2 (uint32_t ___0_in_eventID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -38531,7 +38531,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_UnpinEventInStreamCache
 		return (int32_t)(L_1);
 	}
 }
-// Method Definition Index: 35233
+// Method Definition Index: 35339
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_UnpinEventInStreamCache_m2DF16F16F7B8707996832A751F0E3A3A45BDEDA5 (String_t* ___0_in_pszEventName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -38549,7 +38549,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_UnpinEventInStreamCache
 		return (int32_t)(L_1);
 	}
 }
-// Method Definition Index: 35234
+// Method Definition Index: 35340
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetBufferStatusForPinnedEvent_m3E3F78A5336F12E7A8ACACCD77CDD69F747AE725 (uint32_t ___0_in_eventID, float* ___1_out_fPercentBuffered, int32_t* ___2_out_bCachePinnedMemoryFull, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -38569,7 +38569,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetBufferStatusForPinne
 		return (int32_t)(L_3);
 	}
 }
-// Method Definition Index: 35235
+// Method Definition Index: 35341
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetBufferStatusForPinnedEvent_m73EBE0BD4C3E3D0A020544862A08DBCBBBA0660B (String_t* ___0_in_pszEventName, float* ___1_out_fPercentBuffered, int32_t* ___2_out_bCachePinnedMemoryFull, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -38589,7 +38589,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetBufferStatusForPinne
 		return (int32_t)(L_3);
 	}
 }
-// Method Definition Index: 35236
+// Method Definition Index: 35342
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SeekOnEvent_m887A0D37602D484C521551171D5A4B821829BBE4 (uint32_t ___0_in_eventID, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_gameObjectID, int32_t ___2_in_iPosition, bool ___3_in_bSeekToNearestMarker, uint32_t ___4_in_PlayingID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -38623,7 +38623,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SeekOnEvent_m887A0D3760
 		return (int32_t)(L_9);
 	}
 }
-// Method Definition Index: 35237
+// Method Definition Index: 35343
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SeekOnEvent_mC5AD1ACD643A51A1F6EA1FFBFB342FB336DD5C3E (uint32_t ___0_in_eventID, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_gameObjectID, int32_t ___2_in_iPosition, bool ___3_in_bSeekToNearestMarker, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -38656,7 +38656,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SeekOnEvent_mC5AD1ACD64
 		return (int32_t)(L_8);
 	}
 }
-// Method Definition Index: 35238
+// Method Definition Index: 35344
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SeekOnEvent_m67D4C43AD8DFD6B3E4DB98AA95C5FE6C41E7F02A (uint32_t ___0_in_eventID, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_gameObjectID, int32_t ___2_in_iPosition, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -38688,7 +38688,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SeekOnEvent_m67D4C43AD8
 		return (int32_t)(L_7);
 	}
 }
-// Method Definition Index: 35239
+// Method Definition Index: 35345
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SeekOnEvent_m8F5BC4098BFDBB278985403469724E8B85F8D5BD (String_t* ___0_in_pszEventName, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_gameObjectID, int32_t ___2_in_iPosition, bool ___3_in_bSeekToNearestMarker, uint32_t ___4_in_PlayingID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -38722,7 +38722,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SeekOnEvent_m8F5BC4098B
 		return (int32_t)(L_9);
 	}
 }
-// Method Definition Index: 35240
+// Method Definition Index: 35346
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SeekOnEvent_m5C4593B9409092D92E5464227FC4FDA51B5AE4CE (String_t* ___0_in_pszEventName, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_gameObjectID, int32_t ___2_in_iPosition, bool ___3_in_bSeekToNearestMarker, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -38755,7 +38755,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SeekOnEvent_m5C4593B940
 		return (int32_t)(L_8);
 	}
 }
-// Method Definition Index: 35241
+// Method Definition Index: 35347
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SeekOnEvent_mD33D3DEDA21AD0AB95C16BF3E758D49BA04817FF (String_t* ___0_in_pszEventName, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_gameObjectID, int32_t ___2_in_iPosition, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -38787,7 +38787,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SeekOnEvent_mD33D3DEDA2
 		return (int32_t)(L_7);
 	}
 }
-// Method Definition Index: 35242
+// Method Definition Index: 35348
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SeekOnEvent_m76F188DC0E0C951F3B1A440A5AE3588EBBF41547 (uint32_t ___0_in_eventID, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_gameObjectID, float ___2_in_fPercent, bool ___3_in_bSeekToNearestMarker, uint32_t ___4_in_PlayingID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -38821,7 +38821,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SeekOnEvent_m76F188DC0E
 		return (int32_t)(L_9);
 	}
 }
-// Method Definition Index: 35243
+// Method Definition Index: 35349
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SeekOnEvent_mC4AA49DB9F7D541FC6B5193BA898A928CEE9B86E (uint32_t ___0_in_eventID, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_gameObjectID, float ___2_in_fPercent, bool ___3_in_bSeekToNearestMarker, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -38854,7 +38854,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SeekOnEvent_mC4AA49DB9F
 		return (int32_t)(L_8);
 	}
 }
-// Method Definition Index: 35244
+// Method Definition Index: 35350
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SeekOnEvent_m042C202A83113689A120F0615FF14DE232D6C198 (uint32_t ___0_in_eventID, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_gameObjectID, float ___2_in_fPercent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -38886,7 +38886,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SeekOnEvent_m042C202A83
 		return (int32_t)(L_7);
 	}
 }
-// Method Definition Index: 35245
+// Method Definition Index: 35351
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SeekOnEvent_m949974E2237998A939C3814193C1BDD6B99B4754 (String_t* ___0_in_pszEventName, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_gameObjectID, float ___2_in_fPercent, bool ___3_in_bSeekToNearestMarker, uint32_t ___4_in_PlayingID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -38920,7 +38920,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SeekOnEvent_m949974E223
 		return (int32_t)(L_9);
 	}
 }
-// Method Definition Index: 35246
+// Method Definition Index: 35352
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SeekOnEvent_mBF0CDA1EB1DDEE04A3596098182FC30CB7B9FD35 (String_t* ___0_in_pszEventName, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_gameObjectID, float ___2_in_fPercent, bool ___3_in_bSeekToNearestMarker, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -38953,7 +38953,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SeekOnEvent_mBF0CDA1EB1
 		return (int32_t)(L_8);
 	}
 }
-// Method Definition Index: 35247
+// Method Definition Index: 35353
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SeekOnEvent_m363477A06354C9341766810F57AC59B4BB55D7F0 (String_t* ___0_in_pszEventName, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_gameObjectID, float ___2_in_fPercent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -38985,7 +38985,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SeekOnEvent_m363477A063
 		return (int32_t)(L_7);
 	}
 }
-// Method Definition Index: 35248
+// Method Definition Index: 35354
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_CancelEventCallbackCookie_mD49BEF56151F581C755CC1F3E5AEAD25BDB8B9FC (RuntimeObject* ___0_in_pCookie, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -39003,7 +39003,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_CancelEventCallbackCookie_
 		return;
 	}
 }
-// Method Definition Index: 35249
+// Method Definition Index: 35355
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_CancelEventCallbackGameObject_m639E738C716E30D37CC17B620522F8AEF15F3F68 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_in_gameObjectID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -39033,7 +39033,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_CancelEventCallbackGameObj
 		return;
 	}
 }
-// Method Definition Index: 35250
+// Method Definition Index: 35356
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_CancelEventCallback_m30831E5CC33E9AD08B80F5BF059978839734F5B3 (uint32_t ___0_in_playingID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -39051,7 +39051,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_CancelEventCallback_m30831
 		return;
 	}
 }
-// Method Definition Index: 35251
+// Method Definition Index: 35357
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetSourcePlayPosition_m25F7DE9BF3925E7E1B9645AEB3E01015C2BC8A84 (uint32_t ___0_in_PlayingID, int32_t* ___1_out_puPosition, bool ___2_in_bExtrapolate, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -39071,7 +39071,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetSourcePlayPosition_m
 		return (int32_t)(L_3);
 	}
 }
-// Method Definition Index: 35252
+// Method Definition Index: 35358
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetSourcePlayPosition_m2FF8F29578F0F795C02EF5BA1C6606A612D38A93 (uint32_t ___0_in_PlayingID, int32_t* ___1_out_puPosition, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -39090,7 +39090,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetSourcePlayPosition_m
 		return (int32_t)(L_2);
 	}
 }
-// Method Definition Index: 35253
+// Method Definition Index: 35359
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetSourceStreamBuffering_m21E2A19052E2C07CB34400024DE348E82D42DD35 (uint32_t ___0_in_PlayingID, int32_t* ___1_out_buffering, int32_t* ___2_out_bIsBuffering, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -39110,7 +39110,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetSourceStreamBufferin
 		return (int32_t)(L_3);
 	}
 }
-// Method Definition Index: 35254
+// Method Definition Index: 35360
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_StopAll_m8CB0A37FF01B6F0631B0C8BE335DA15278568F2A (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_in_gameObjectID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -39140,7 +39140,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_StopAll_m8CB0A37FF01B6F063
 		return;
 	}
 }
-// Method Definition Index: 35255
+// Method Definition Index: 35361
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_StopAll_m003377AEE3D3BBF217A0D5E019ED3619B4ED93E4 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -39157,7 +39157,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_StopAll_m003377AEE3D3BBF21
 		return;
 	}
 }
-// Method Definition Index: 35256
+// Method Definition Index: 35362
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_StopPlayingID_m7D8715CECF1FEEBFE9B77BFD06AF80B54E906D26 (uint32_t ___0_in_playingID, int32_t ___1_in_uTransitionDuration, int32_t ___2_in_eFadeCurve, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -39177,7 +39177,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_StopPlayingID_m7D8715CECF1
 		return;
 	}
 }
-// Method Definition Index: 35257
+// Method Definition Index: 35363
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_StopPlayingID_mC488F229D4BD6659C5618D4371E7E2681B8F7305 (uint32_t ___0_in_playingID, int32_t ___1_in_uTransitionDuration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -39196,7 +39196,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_StopPlayingID_mC488F229D4B
 		return;
 	}
 }
-// Method Definition Index: 35258
+// Method Definition Index: 35364
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_StopPlayingID_m34F99A579E8023A1EA5FE3974B83FD65E84EEBC9 (uint32_t ___0_in_playingID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -39214,7 +39214,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_StopPlayingID_m34F99A579E8
 		return;
 	}
 }
-// Method Definition Index: 35259
+// Method Definition Index: 35365
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_ExecuteActionOnPlayingID_m62C8B5308D9F9A487BC31ED53FF9A1DD70B15391 (int32_t ___0_in_ActionType, uint32_t ___1_in_playingID, int32_t ___2_in_uTransitionDuration, int32_t ___3_in_eFadeCurve, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -39235,7 +39235,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_ExecuteActionOnPlayingID_m
 		return;
 	}
 }
-// Method Definition Index: 35260
+// Method Definition Index: 35366
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_ExecuteActionOnPlayingID_mB10BDD04DF8B3C63927CF08000FAC4B37CA09B07 (int32_t ___0_in_ActionType, uint32_t ___1_in_playingID, int32_t ___2_in_uTransitionDuration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -39255,7 +39255,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_ExecuteActionOnPlayingID_m
 		return;
 	}
 }
-// Method Definition Index: 35261
+// Method Definition Index: 35367
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_ExecuteActionOnPlayingID_mAC060E4D15407668DC6A860ABD74598EBDD182D9 (int32_t ___0_in_ActionType, uint32_t ___1_in_playingID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -39274,7 +39274,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_ExecuteActionOnPlayingID_m
 		return;
 	}
 }
-// Method Definition Index: 35262
+// Method Definition Index: 35368
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_SetRandomSeed_m74C38227468BDC37E60A90D5965AA0347AE54C67 (uint32_t ___0_in_uSeed, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -39292,7 +39292,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_SetRandomSeed_m74C38227468
 		return;
 	}
 }
-// Method Definition Index: 35263
+// Method Definition Index: 35369
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_MuteBackgroundMusic_m274B4E0462446995C68897C87A5750DD4AC6FABE (bool ___0_in_bMute, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -39310,7 +39310,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_MuteBackgroundMusic_m274B4
 		return;
 	}
 }
-// Method Definition Index: 35264
+// Method Definition Index: 35370
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEngine_GetBackgroundMusicMute_mCBB31A1739ACF8C7C5FE43E9CB039FC1A5AA75CD (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -39327,7 +39327,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEngine_GetBackgroundMusicMute_mCB
 		return L_0;
 	}
 }
-// Method Definition Index: 35265
+// Method Definition Index: 35371
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SendPluginCustomGameData_mD2D52EB729B44F2FB13A1274C8F2E56F1761E2B4 (uint32_t ___0_in_busID, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_busObjectID, int32_t ___2_in_eType, uint32_t ___3_in_uCompanyID, uint32_t ___4_in_uPluginID, intptr_t ___5_in_pData, uint32_t ___6_in_uSizeInBytes, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -39363,7 +39363,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SendPluginCustomGameDat
 		return (int32_t)(L_11);
 	}
 }
-// Method Definition Index: 35266
+// Method Definition Index: 35372
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_UnregisterAllGameObj_mA6CEE049092E2AE5CBC7E742C48ACE11CB09F829 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -39380,7 +39380,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_UnregisterAllGameObj_mA
 		return (int32_t)(L_0);
 	}
 }
-// Method Definition Index: 35267
+// Method Definition Index: 35373
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetMultiplePositions_mCAFF521DAFD77CAE904E7E685F363170563740A4 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_in_GameObjectID, AkPositionArray_t9E76EECFE1ABDB6E75BE9BAEB9AB84B1A0BBE81B* ___1_in_pPositions, uint16_t ___2_in_NumPositions, int32_t ___3_in_eMultiPositionType, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -39407,7 +39407,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetMultiplePositions_mC
 		return (int32_t)(L_6);
 	}
 }
-// Method Definition Index: 35268
+// Method Definition Index: 35374
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetMultiplePositions_m5A3E03410B3D83867E4800290EDB159A78C574E4 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_in_GameObjectID, AkPositionArray_t9E76EECFE1ABDB6E75BE9BAEB9AB84B1A0BBE81B* ___1_in_pPositions, uint16_t ___2_in_NumPositions, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -39433,7 +39433,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetMultiplePositions_m5
 		return (int32_t)(L_5);
 	}
 }
-// Method Definition Index: 35269
+// Method Definition Index: 35375
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetMultiplePositions_m414A948E16821F44E8B61DADEF888476CF79007C (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_in_GameObjectID, AkChannelEmitterArray_tF227BE848069F122C961682EF82173A74EEEAE90* ___1_in_pPositions, uint16_t ___2_in_NumPositions, int32_t ___3_in_eMultiPositionType, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -39460,7 +39460,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetMultiplePositions_m4
 		return (int32_t)(L_6);
 	}
 }
-// Method Definition Index: 35270
+// Method Definition Index: 35376
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetMultiplePositions_m0631545BC45C8F57DE4335D45E45E00A755B5E10 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_in_GameObjectID, AkChannelEmitterArray_tF227BE848069F122C961682EF82173A74EEEAE90* ___1_in_pPositions, uint16_t ___2_in_NumPositions, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -39486,7 +39486,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetMultiplePositions_m0
 		return (int32_t)(L_5);
 	}
 }
-// Method Definition Index: 35271
+// Method Definition Index: 35377
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetScalingFactor_mE9FF6FA649A262C8EFF916C6DA7B58069F52250E (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_in_GameObjectID, float ___1_in_fAttenuationScalingFactor, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -39509,7 +39509,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetScalingFactor_mE9FF6
 		return (int32_t)(L_3);
 	}
 }
-// Method Definition Index: 35272
+// Method Definition Index: 35378
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ClearBanks_m4C343364996A22308C65906C7576C0146C096CFC (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -39526,7 +39526,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ClearBanks_m4C343364996
 		return (int32_t)(L_0);
 	}
 }
-// Method Definition Index: 35273
+// Method Definition Index: 35379
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetBankLoadIOSettings_m5A2900146F1B1D241839ECC2591B4DB94AC3F02D (float ___0_in_fThroughput, int8_t ___1_in_priority, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -39545,7 +39545,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetBankLoadIOSettings_m
 		return (int32_t)(L_2);
 	}
 }
-// Method Definition Index: 35274
+// Method Definition Index: 35380
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_LoadBank_mAC8E5F7CFEEF84CB2E5F804E8FEA4091A0AEDFF4 (String_t* ___0_in_pszString, uint32_t* ___1_out_bankID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -39564,7 +39564,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_LoadBank_mAC8E5F7CFEEF8
 		return (int32_t)(L_2);
 	}
 }
-// Method Definition Index: 35275
+// Method Definition Index: 35381
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_LoadBank_m495962CF621D0D923C93D46FCFDADF3EEB84FA14 (uint32_t ___0_in_bankID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -39582,7 +39582,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_LoadBank_m495962CF621D0
 		return (int32_t)(L_1);
 	}
 }
-// Method Definition Index: 35276
+// Method Definition Index: 35382
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_LoadBankMemoryView_m0B0F894E72FC228909B10223FCFE5639EAEA2B5B (intptr_t ___0_in_pInMemoryBankPtr, uint32_t ___1_in_uInMemoryBankSize, uint32_t* ___2_out_bankID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -39602,7 +39602,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_LoadBankMemoryView_m0B0
 		return (int32_t)(L_3);
 	}
 }
-// Method Definition Index: 35277
+// Method Definition Index: 35383
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_LoadBankMemoryCopy_mC3CC34A58F4BAD5B22EDA30A010A39AFFF39288D (intptr_t ___0_in_pInMemoryBankPtr, uint32_t ___1_in_uInMemoryBankSize, uint32_t* ___2_out_bankID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -39622,7 +39622,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_LoadBankMemoryCopy_mC3C
 		return (int32_t)(L_3);
 	}
 }
-// Method Definition Index: 35278
+// Method Definition Index: 35384
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_LoadBank_mE6BE615A10EFE5DC5039D056AA8BCA5517D8E923 (String_t* ___0_in_pszString, BankCallback_t7A379AE9BCC29624A86C693A194D8BC8447FDB1C* ___1_in_pfnBankCallback, RuntimeObject* ___2_in_pCookie, uint32_t* ___3_out_bankID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -39691,7 +39691,7 @@ IL_0024:
 		return (int32_t)(L_9);
 	}
 }
-// Method Definition Index: 35279
+// Method Definition Index: 35385
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_LoadBank_mC73E0FD484895EB7BFA2BFF41E3E415D90C763C4 (uint32_t ___0_in_bankID, BankCallback_t7A379AE9BCC29624A86C693A194D8BC8447FDB1C* ___1_in_pfnBankCallback, RuntimeObject* ___2_in_pCookie, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -39759,7 +39759,7 @@ IL_0024:
 		return (int32_t)(L_8);
 	}
 }
-// Method Definition Index: 35280
+// Method Definition Index: 35386
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_LoadBankMemoryView_mD969F6E2347259BB89969D0FF4481F584F8A1738 (intptr_t ___0_in_pInMemoryBankPtr, uint32_t ___1_in_uInMemoryBankSize, BankCallback_t7A379AE9BCC29624A86C693A194D8BC8447FDB1C* ___2_in_pfnBankCallback, RuntimeObject* ___3_in_pCookie, uint32_t* ___4_out_bankID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -39839,7 +39839,7 @@ IL_0025:
 		return (int32_t)(L_10);
 	}
 }
-// Method Definition Index: 35281
+// Method Definition Index: 35387
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_LoadBankMemoryCopy_mC63393ED8893FD35423F7D787F3A3FEE9519F64B (intptr_t ___0_in_pInMemoryBankPtr, uint32_t ___1_in_uInMemoryBankSize, BankCallback_t7A379AE9BCC29624A86C693A194D8BC8447FDB1C* ___2_in_pfnBankCallback, RuntimeObject* ___3_in_pCookie, uint32_t* ___4_out_bankID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -39919,7 +39919,7 @@ IL_0025:
 		return (int32_t)(L_10);
 	}
 }
-// Method Definition Index: 35282
+// Method Definition Index: 35388
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_UnloadBank_m46F46570A5D16BED41940AFFEF050220CDA338ED (String_t* ___0_in_pszString, intptr_t ___1_in_pInMemoryBankPtr, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -39938,7 +39938,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_UnloadBank_m46F46570A5D
 		return (int32_t)(L_2);
 	}
 }
-// Method Definition Index: 35283
+// Method Definition Index: 35389
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_UnloadBank_m4AA1B14AF985418951047A382F54B2FCAB615118 (uint32_t ___0_in_bankID, intptr_t ___1_in_pInMemoryBankPtr, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -39957,7 +39957,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_UnloadBank_m4AA1B14AF98
 		return (int32_t)(L_2);
 	}
 }
-// Method Definition Index: 35284
+// Method Definition Index: 35390
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_UnloadBank_m4D44E90E3957AE6664A95E6D7DD0278232ACB42F (String_t* ___0_in_pszString, intptr_t ___1_in_pInMemoryBankPtr, BankCallback_t7A379AE9BCC29624A86C693A194D8BC8447FDB1C* ___2_in_pfnBankCallback, RuntimeObject* ___3_in_pCookie, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -40036,7 +40036,7 @@ IL_0025:
 		return (int32_t)(L_9);
 	}
 }
-// Method Definition Index: 35285
+// Method Definition Index: 35391
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_UnloadBank_mC42770CBA849C4B4239E02518E0C083F09BCFACC (uint32_t ___0_in_bankID, intptr_t ___1_in_pInMemoryBankPtr, BankCallback_t7A379AE9BCC29624A86C693A194D8BC8447FDB1C* ___2_in_pfnBankCallback, RuntimeObject* ___3_in_pCookie, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -40115,7 +40115,7 @@ IL_0025:
 		return (int32_t)(L_9);
 	}
 }
-// Method Definition Index: 35286
+// Method Definition Index: 35392
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_CancelBankCallbackCookie_mE152D5FCF7645C31DE43FD91A554AD548DFF2520 (RuntimeObject* ___0_in_pCookie, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -40133,7 +40133,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_CancelBankCallbackCookie_m
 		return;
 	}
 }
-// Method Definition Index: 35287
+// Method Definition Index: 35393
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PrepareBank_m230FE4292F099C4EAB28B54434758123992255C1 (int32_t ___0_in_PreparationType, String_t* ___1_in_pszString, int32_t ___2_in_uFlags, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -40153,7 +40153,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PrepareBank_m230FE4292F
 		return (int32_t)(L_3);
 	}
 }
-// Method Definition Index: 35288
+// Method Definition Index: 35394
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PrepareBank_mEF4A35492F001082BA29177AF86108689105F607 (int32_t ___0_in_PreparationType, String_t* ___1_in_pszString, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -40172,7 +40172,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PrepareBank_mEF4A35492F
 		return (int32_t)(L_2);
 	}
 }
-// Method Definition Index: 35289
+// Method Definition Index: 35395
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PrepareBank_mE55D8CB34D15222B9F4B63511F47000199A6223F (int32_t ___0_in_PreparationType, uint32_t ___1_in_bankID, int32_t ___2_in_uFlags, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -40192,7 +40192,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PrepareBank_mE55D8CB34D
 		return (int32_t)(L_3);
 	}
 }
-// Method Definition Index: 35290
+// Method Definition Index: 35396
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PrepareBank_mAAB9CE7B75959E6D722C85CDC5A36D374BCADDC3 (int32_t ___0_in_PreparationType, uint32_t ___1_in_bankID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -40211,7 +40211,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PrepareBank_mAAB9CE7B75
 		return (int32_t)(L_2);
 	}
 }
-// Method Definition Index: 35291
+// Method Definition Index: 35397
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PrepareBank_m5AFA274DFAC348AA63C3CFC4829F140FE643A42C (int32_t ___0_in_PreparationType, String_t* ___1_in_pszString, BankCallback_t7A379AE9BCC29624A86C693A194D8BC8447FDB1C* ___2_in_pfnBankCallback, RuntimeObject* ___3_in_pCookie, int32_t ___4_in_uFlags, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -40288,7 +40288,7 @@ IL_0025:
 		return (int32_t)(L_10);
 	}
 }
-// Method Definition Index: 35292
+// Method Definition Index: 35398
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PrepareBank_mD906DE71E0F4F666CFBB913666AE3221EA6921B5 (int32_t ___0_in_PreparationType, String_t* ___1_in_pszString, BankCallback_t7A379AE9BCC29624A86C693A194D8BC8447FDB1C* ___2_in_pfnBankCallback, RuntimeObject* ___3_in_pCookie, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -40364,7 +40364,7 @@ IL_0025:
 		return (int32_t)(L_9);
 	}
 }
-// Method Definition Index: 35293
+// Method Definition Index: 35399
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PrepareBank_mE734893795BE7C1AC91E4F2D792F21423D234253 (int32_t ___0_in_PreparationType, uint32_t ___1_in_bankID, BankCallback_t7A379AE9BCC29624A86C693A194D8BC8447FDB1C* ___2_in_pfnBankCallback, RuntimeObject* ___3_in_pCookie, int32_t ___4_in_uFlags, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -40441,7 +40441,7 @@ IL_0025:
 		return (int32_t)(L_10);
 	}
 }
-// Method Definition Index: 35294
+// Method Definition Index: 35400
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PrepareBank_m065E916750D4FF3A3FA6DD2445C8F8222D46A28B (int32_t ___0_in_PreparationType, uint32_t ___1_in_bankID, BankCallback_t7A379AE9BCC29624A86C693A194D8BC8447FDB1C* ___2_in_pfnBankCallback, RuntimeObject* ___3_in_pCookie, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -40517,7 +40517,7 @@ IL_0025:
 		return (int32_t)(L_9);
 	}
 }
-// Method Definition Index: 35295
+// Method Definition Index: 35401
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ClearPreparedEvents_m048182D7703D42AF218E80AA522279D708846A73 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -40534,7 +40534,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ClearPreparedEvents_m04
 		return (int32_t)(L_0);
 	}
 }
-// Method Definition Index: 35296
+// Method Definition Index: 35402
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PrepareEvent_m9ABC74A7C67DE7CAF90114341782FDAEF25031AE (int32_t ___0_in_PreparationType, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___1_in_ppszString, uint32_t ___2_in_uNumEvent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -40723,7 +40723,7 @@ IL_00c7:
 		return L_46;
 	}
 }
-// Method Definition Index: 35297
+// Method Definition Index: 35403
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PrepareEvent_m7AA5D817688703DABD2654D5E6A9DBD9E36A8EDD (int32_t ___0_in_PreparationType, UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___1_in_pEventID, uint32_t ___2_in_uNumEvent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -40743,7 +40743,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PrepareEvent_m7AA5D8176
 		return (int32_t)(L_3);
 	}
 }
-// Method Definition Index: 35298
+// Method Definition Index: 35404
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PrepareEvent_mE9E159F9EDB9ADED8D7D7086E4833CDBFDCAF15C (int32_t ___0_in_PreparationType, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___1_in_ppszString, uint32_t ___2_in_uNumEvent, BankCallback_t7A379AE9BCC29624A86C693A194D8BC8447FDB1C* ___3_in_pfnBankCallback, RuntimeObject* ___4_in_pCookie, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -41001,7 +41001,7 @@ IL_00ec:
 		return L_53;
 	}
 }
-// Method Definition Index: 35299
+// Method Definition Index: 35405
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PrepareEvent_m41899C65C08BEAAB3F30329F890BC4D8CFE3881D (int32_t ___0_in_PreparationType, UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___1_in_pEventID, uint32_t ___2_in_uNumEvent, BankCallback_t7A379AE9BCC29624A86C693A194D8BC8447FDB1C* ___3_in_pfnBankCallback, RuntimeObject* ___4_in_pCookie, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -41085,7 +41085,7 @@ IL_0029:
 		return (int32_t)(L_10);
 	}
 }
-// Method Definition Index: 35300
+// Method Definition Index: 35406
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetMedia_m7FB993D5CE8BCD47AC2B7C5C03A63224D7AC498B (AkSourceSettingsArray_tEFB7C653CD6F68494F65CA396176857D64625388* ___0_in_pSourceSettings, uint32_t ___1_in_uNumSourceSettings, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -41108,7 +41108,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetMedia_m7FB993D5CE8BC
 		return (int32_t)(L_3);
 	}
 }
-// Method Definition Index: 35301
+// Method Definition Index: 35407
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_UnsetMedia_m34CA33BAA1F245666B331E875E8D50DE672A6783 (AkSourceSettingsArray_tEFB7C653CD6F68494F65CA396176857D64625388* ___0_in_pSourceSettings, uint32_t ___1_in_uNumSourceSettings, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -41131,7 +41131,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_UnsetMedia_m34CA33BAA1F
 		return (int32_t)(L_3);
 	}
 }
-// Method Definition Index: 35302
+// Method Definition Index: 35408
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PrepareGameSyncs_m97ECEA2A995CD94C52B7897955746157B07BB15A (int32_t ___0_in_PreparationType, int32_t ___1_in_eGameSyncType, String_t* ___2_in_pszGroupName, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___3_in_ppszGameSyncName, uint32_t ___4_in_uNumGameSyncs, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -41322,7 +41322,7 @@ IL_00ca:
 		return L_48;
 	}
 }
-// Method Definition Index: 35303
+// Method Definition Index: 35409
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PrepareGameSyncs_m09FD0D2999758F0CEDF51E94E55E57D1F3041C1E (int32_t ___0_in_PreparationType, int32_t ___1_in_eGameSyncType, uint32_t ___2_in_GroupID, UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___3_in_paGameSyncID, uint32_t ___4_in_uNumGameSyncs, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -41344,7 +41344,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PrepareGameSyncs_m09FD0
 		return (int32_t)(L_5);
 	}
 }
-// Method Definition Index: 35304
+// Method Definition Index: 35410
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PrepareGameSyncs_mCDBD007E7D6D75D8F98A9A7DB6A19A51067EF185 (int32_t ___0_in_PreparationType, int32_t ___1_in_eGameSyncType, String_t* ___2_in_pszGroupName, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___3_in_ppszGameSyncName, uint32_t ___4_in_uNumGameSyncs, BankCallback_t7A379AE9BCC29624A86C693A194D8BC8447FDB1C* ___5_in_pfnBankCallback, RuntimeObject* ___6_in_pCookie, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -41618,7 +41618,7 @@ IL_00f0:
 		return L_55;
 	}
 }
-// Method Definition Index: 35305
+// Method Definition Index: 35411
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PrepareGameSyncs_m09CA762D5B28B70F52AFAB2A5A360DFBC9870D6B (int32_t ___0_in_PreparationType, int32_t ___1_in_eGameSyncType, uint32_t ___2_in_GroupID, UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___3_in_paGameSyncID, uint32_t ___4_in_uNumGameSyncs, BankCallback_t7A379AE9BCC29624A86C693A194D8BC8447FDB1C* ___5_in_pfnBankCallback, RuntimeObject* ___6_in_pCookie, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -41718,7 +41718,7 @@ IL_002d:
 		return (int32_t)(L_12);
 	}
 }
-// Method Definition Index: 35306
+// Method Definition Index: 35412
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_AddListener_m8AA5826740A832373BF4B8AF81BC715CDD92A248 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_in_emitterGameObj, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_listenerGameObj, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -41759,7 +41759,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_AddListener_m8AA5826740
 		return (int32_t)(L_10);
 	}
 }
-// Method Definition Index: 35307
+// Method Definition Index: 35413
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_RemoveListener_mE22504975B2A35B3F5EBD961DBF00CCC4054C316 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_in_emitterGameObj, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_listenerGameObj, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -41800,7 +41800,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_RemoveListener_mE225049
 		return (int32_t)(L_10);
 	}
 }
-// Method Definition Index: 35308
+// Method Definition Index: 35414
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_AddDefaultListener_m27DFBDD24E9D45128CC7818948FB6912F0556B0D (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_in_listenerGameObj, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -41830,7 +41830,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_AddDefaultListener_m27D
 		return (int32_t)(L_5);
 	}
 }
-// Method Definition Index: 35309
+// Method Definition Index: 35415
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_RemoveDefaultListener_m38C4AE37715D78DE7882B7CF6F2F8E23BDEF1A8C (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_in_listenerGameObj, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -41860,7 +41860,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_RemoveDefaultListener_m
 		return (int32_t)(L_5);
 	}
 }
-// Method Definition Index: 35310
+// Method Definition Index: 35416
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ResetListenersToDefault_m6C08C825F5B91FD2504C670F1CBFE1C415F13BF2 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_in_emitterGameObj, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -41890,7 +41890,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ResetListenersToDefault
 		return (int32_t)(L_5);
 	}
 }
-// Method Definition Index: 35311
+// Method Definition Index: 35417
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetListenerSpatialization_m6B7420CD2EE190BF4DE009CD7FF494CB3DB9FFD6 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_in_uListenerID, bool ___1_in_bSpatialized, AkChannelConfig_tFD865141B037719DDB40F88440BFA32D1BF3652B* ___2_in_channelConfig, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___3_in_pVolumeOffsets, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -41925,7 +41925,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetListenerSpatializati
 		return (int32_t)(L_9);
 	}
 }
-// Method Definition Index: 35312
+// Method Definition Index: 35418
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetListenerSpatialization_m705D1A391E757CEE8FF45912E946526811441650 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_in_uListenerID, bool ___1_in_bSpatialized, AkChannelConfig_tFD865141B037719DDB40F88440BFA32D1BF3652B* ___2_in_channelConfig, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -41959,7 +41959,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetListenerSpatializati
 		return (int32_t)(L_8);
 	}
 }
-// Method Definition Index: 35313
+// Method Definition Index: 35419
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetRTPCValue_m8526CA4579521AB86BF926035E97E7FE1981C264 (uint32_t ___0_in_rtpcID, float ___1_in_value, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___2_in_gameObjectID, int32_t ___3_in_uValueChangeDuration, int32_t ___4_in_eFadeCurve, bool ___5_in_bBypassInternalValueInterpolation, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -41994,7 +41994,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetRTPCValue_m8526CA457
 		return (int32_t)(L_10);
 	}
 }
-// Method Definition Index: 35314
+// Method Definition Index: 35420
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetRTPCValue_m5CAE458636E86BB3BF055DA27A9C3EF5F58E6C63 (uint32_t ___0_in_rtpcID, float ___1_in_value, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___2_in_gameObjectID, int32_t ___3_in_uValueChangeDuration, int32_t ___4_in_eFadeCurve, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -42028,7 +42028,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetRTPCValue_m5CAE45863
 		return (int32_t)(L_9);
 	}
 }
-// Method Definition Index: 35315
+// Method Definition Index: 35421
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetRTPCValue_mCC1BD9F3E5BCF591B3DD0F21A2304A4237713C7B (uint32_t ___0_in_rtpcID, float ___1_in_value, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___2_in_gameObjectID, int32_t ___3_in_uValueChangeDuration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -42061,7 +42061,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetRTPCValue_mCC1BD9F3E
 		return (int32_t)(L_8);
 	}
 }
-// Method Definition Index: 35316
+// Method Definition Index: 35422
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetRTPCValue_m29450297176D241D9DD6B2DF72CC06F713DAD845 (uint32_t ___0_in_rtpcID, float ___1_in_value, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___2_in_gameObjectID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -42093,7 +42093,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetRTPCValue_m294502971
 		return (int32_t)(L_7);
 	}
 }
-// Method Definition Index: 35317
+// Method Definition Index: 35423
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetRTPCValue_mD98C0E083379114D3344AB79AAC0BFC559E7E880 (uint32_t ___0_in_rtpcID, float ___1_in_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -42112,7 +42112,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetRTPCValue_mD98C0E083
 		return (int32_t)(L_2);
 	}
 }
-// Method Definition Index: 35318
+// Method Definition Index: 35424
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetRTPCValue_m3D9E6577C15DBF7A50A84485276D457AD5D1B908 (String_t* ___0_in_pszRtpcName, float ___1_in_value, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___2_in_gameObjectID, int32_t ___3_in_uValueChangeDuration, int32_t ___4_in_eFadeCurve, bool ___5_in_bBypassInternalValueInterpolation, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -42147,7 +42147,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetRTPCValue_m3D9E6577C
 		return (int32_t)(L_10);
 	}
 }
-// Method Definition Index: 35319
+// Method Definition Index: 35425
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetRTPCValue_m3D2513F8EFF8D474E6254ED2E70A0B245B85FAD4 (String_t* ___0_in_pszRtpcName, float ___1_in_value, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___2_in_gameObjectID, int32_t ___3_in_uValueChangeDuration, int32_t ___4_in_eFadeCurve, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -42181,7 +42181,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetRTPCValue_m3D2513F8E
 		return (int32_t)(L_9);
 	}
 }
-// Method Definition Index: 35320
+// Method Definition Index: 35426
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetRTPCValue_m8E689BE446844318C5D247DE5604BE36C7E5AF75 (String_t* ___0_in_pszRtpcName, float ___1_in_value, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___2_in_gameObjectID, int32_t ___3_in_uValueChangeDuration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -42214,7 +42214,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetRTPCValue_m8E689BE44
 		return (int32_t)(L_8);
 	}
 }
-// Method Definition Index: 35321
+// Method Definition Index: 35427
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetRTPCValue_m6B6076B1BBD87DDC109479018815D712B76FDE4D (String_t* ___0_in_pszRtpcName, float ___1_in_value, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___2_in_gameObjectID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -42246,7 +42246,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetRTPCValue_m6B6076B1B
 		return (int32_t)(L_7);
 	}
 }
-// Method Definition Index: 35322
+// Method Definition Index: 35428
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetRTPCValue_m8F16186E884D968DB83A934947D67149566CB986 (String_t* ___0_in_pszRtpcName, float ___1_in_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -42265,7 +42265,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetRTPCValue_m8F16186E8
 		return (int32_t)(L_2);
 	}
 }
-// Method Definition Index: 35323
+// Method Definition Index: 35429
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetRTPCValueByPlayingID_m19065F14086CA9B1E72E9F4C6DC2830C0D062D5E (uint32_t ___0_in_rtpcID, float ___1_in_value, uint32_t ___2_in_playingID, int32_t ___3_in_uValueChangeDuration, int32_t ___4_in_eFadeCurve, bool ___5_in_bBypassInternalValueInterpolation, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -42288,7 +42288,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetRTPCValueByPlayingID
 		return (int32_t)(L_6);
 	}
 }
-// Method Definition Index: 35324
+// Method Definition Index: 35430
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetRTPCValueByPlayingID_m81C372A06A6E19B0F026940648AB5BA7F1500C6B (uint32_t ___0_in_rtpcID, float ___1_in_value, uint32_t ___2_in_playingID, int32_t ___3_in_uValueChangeDuration, int32_t ___4_in_eFadeCurve, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -42310,7 +42310,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetRTPCValueByPlayingID
 		return (int32_t)(L_5);
 	}
 }
-// Method Definition Index: 35325
+// Method Definition Index: 35431
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetRTPCValueByPlayingID_m635E0EF8AC61B9CA9124D6F1DE332E8FA949ACFE (uint32_t ___0_in_rtpcID, float ___1_in_value, uint32_t ___2_in_playingID, int32_t ___3_in_uValueChangeDuration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -42331,7 +42331,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetRTPCValueByPlayingID
 		return (int32_t)(L_4);
 	}
 }
-// Method Definition Index: 35326
+// Method Definition Index: 35432
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetRTPCValueByPlayingID_mA42FC7410B248EEC6B42A58B331832E7E9E76A72 (uint32_t ___0_in_rtpcID, float ___1_in_value, uint32_t ___2_in_playingID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -42351,7 +42351,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetRTPCValueByPlayingID
 		return (int32_t)(L_3);
 	}
 }
-// Method Definition Index: 35327
+// Method Definition Index: 35433
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetRTPCValueByPlayingID_mA09B483C2D29B0180180DE7A49BDA3E4BA63591A (String_t* ___0_in_pszRtpcName, float ___1_in_value, uint32_t ___2_in_playingID, int32_t ___3_in_uValueChangeDuration, int32_t ___4_in_eFadeCurve, bool ___5_in_bBypassInternalValueInterpolation, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -42374,7 +42374,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetRTPCValueByPlayingID
 		return (int32_t)(L_6);
 	}
 }
-// Method Definition Index: 35328
+// Method Definition Index: 35434
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetRTPCValueByPlayingID_mC1296142E7EA09EF0915B3176EFC5CD98EFB2663 (String_t* ___0_in_pszRtpcName, float ___1_in_value, uint32_t ___2_in_playingID, int32_t ___3_in_uValueChangeDuration, int32_t ___4_in_eFadeCurve, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -42396,7 +42396,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetRTPCValueByPlayingID
 		return (int32_t)(L_5);
 	}
 }
-// Method Definition Index: 35329
+// Method Definition Index: 35435
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetRTPCValueByPlayingID_mEB7B775F0068792EF8EA3F7455ED8BFADDD2E0E4 (String_t* ___0_in_pszRtpcName, float ___1_in_value, uint32_t ___2_in_playingID, int32_t ___3_in_uValueChangeDuration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -42417,7 +42417,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetRTPCValueByPlayingID
 		return (int32_t)(L_4);
 	}
 }
-// Method Definition Index: 35330
+// Method Definition Index: 35436
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetRTPCValueByPlayingID_m793B2B145486F780728E11FF5BE3CFCDD2AD20FC (String_t* ___0_in_pszRtpcName, float ___1_in_value, uint32_t ___2_in_playingID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -42437,7 +42437,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetRTPCValueByPlayingID
 		return (int32_t)(L_3);
 	}
 }
-// Method Definition Index: 35331
+// Method Definition Index: 35437
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ResetRTPCValue_mFC527F656B91154254AE80CAE7E26EF38A7C692D (uint32_t ___0_in_rtpcID, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_gameObjectID, int32_t ___2_in_uValueChangeDuration, int32_t ___3_in_eFadeCurve, bool ___4_in_bBypassInternalValueInterpolation, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -42471,7 +42471,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ResetRTPCValue_mFC527F6
 		return (int32_t)(L_9);
 	}
 }
-// Method Definition Index: 35332
+// Method Definition Index: 35438
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ResetRTPCValue_m8654D2144A418AC9F6B2DE817C851496B68F4425 (uint32_t ___0_in_rtpcID, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_gameObjectID, int32_t ___2_in_uValueChangeDuration, int32_t ___3_in_eFadeCurve, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -42504,7 +42504,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ResetRTPCValue_m8654D21
 		return (int32_t)(L_8);
 	}
 }
-// Method Definition Index: 35333
+// Method Definition Index: 35439
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ResetRTPCValue_mA8FD2D65C408E8F008DA66FA5036A0729CF7087C (uint32_t ___0_in_rtpcID, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_gameObjectID, int32_t ___2_in_uValueChangeDuration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -42536,7 +42536,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ResetRTPCValue_mA8FD2D6
 		return (int32_t)(L_7);
 	}
 }
-// Method Definition Index: 35334
+// Method Definition Index: 35440
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ResetRTPCValue_m72FF3B4AE562B22624CA1B78B438B4264768ADD2 (uint32_t ___0_in_rtpcID, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_gameObjectID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -42567,7 +42567,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ResetRTPCValue_m72FF3B4
 		return (int32_t)(L_6);
 	}
 }
-// Method Definition Index: 35335
+// Method Definition Index: 35441
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ResetRTPCValue_mBBC7F5D6B748F31335DD8EF66C0D9EC37F5BDC6E (uint32_t ___0_in_rtpcID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -42585,7 +42585,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ResetRTPCValue_mBBC7F5D
 		return (int32_t)(L_1);
 	}
 }
-// Method Definition Index: 35336
+// Method Definition Index: 35442
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ResetRTPCValue_m025D8C6DB4DFD383F09FE00DEDBDA0616179EC37 (String_t* ___0_in_pszRtpcName, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_gameObjectID, int32_t ___2_in_uValueChangeDuration, int32_t ___3_in_eFadeCurve, bool ___4_in_bBypassInternalValueInterpolation, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -42619,7 +42619,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ResetRTPCValue_m025D8C6
 		return (int32_t)(L_9);
 	}
 }
-// Method Definition Index: 35337
+// Method Definition Index: 35443
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ResetRTPCValue_m3227A441A0D74E537CC6ED88CF9305D1C2FDE609 (String_t* ___0_in_pszRtpcName, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_gameObjectID, int32_t ___2_in_uValueChangeDuration, int32_t ___3_in_eFadeCurve, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -42652,7 +42652,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ResetRTPCValue_m3227A44
 		return (int32_t)(L_8);
 	}
 }
-// Method Definition Index: 35338
+// Method Definition Index: 35444
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ResetRTPCValue_mC5BBC6C18167A65F79642BE7BC218D56D133B632 (String_t* ___0_in_pszRtpcName, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_gameObjectID, int32_t ___2_in_uValueChangeDuration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -42684,7 +42684,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ResetRTPCValue_mC5BBC6C
 		return (int32_t)(L_7);
 	}
 }
-// Method Definition Index: 35339
+// Method Definition Index: 35445
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ResetRTPCValue_mDD41370D57697FB5214839F4A157896BBA471EB1 (String_t* ___0_in_pszRtpcName, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_gameObjectID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -42715,7 +42715,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ResetRTPCValue_mDD41370
 		return (int32_t)(L_6);
 	}
 }
-// Method Definition Index: 35340
+// Method Definition Index: 35446
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ResetRTPCValue_mAB44E0B9D459A78A640666B9C66DCC9F4AA28985 (String_t* ___0_in_pszRtpcName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -42733,7 +42733,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ResetRTPCValue_mAB44E0B
 		return (int32_t)(L_1);
 	}
 }
-// Method Definition Index: 35341
+// Method Definition Index: 35447
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetSwitch_m62E1BEB220EDC40C55E71334CEE5963563CCE6D9 (uint32_t ___0_in_switchGroup, uint32_t ___1_in_switchState, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___2_in_gameObjectID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -42765,7 +42765,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetSwitch_m62E1BEB220ED
 		return (int32_t)(L_7);
 	}
 }
-// Method Definition Index: 35342
+// Method Definition Index: 35448
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetSwitch_m68F32CB8D265C5B9E3A1EFF8FA06618D69474911 (String_t* ___0_in_pszSwitchGroup, String_t* ___1_in_pszSwitchState, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___2_in_gameObjectID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -42797,7 +42797,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetSwitch_m68F32CB8D265
 		return (int32_t)(L_7);
 	}
 }
-// Method Definition Index: 35343
+// Method Definition Index: 35449
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PostTrigger_m8FD6125B7E885C8CE30231A1B685418C0497C7B7 (uint32_t ___0_in_triggerID, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_gameObjectID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -42828,7 +42828,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PostTrigger_m8FD6125B7E
 		return (int32_t)(L_6);
 	}
 }
-// Method Definition Index: 35344
+// Method Definition Index: 35450
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PostTrigger_m866100FDB22A2B58140B88778808AA1BD798C29F (String_t* ___0_in_pszTrigger, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_gameObjectID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -42859,7 +42859,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PostTrigger_m866100FDB2
 		return (int32_t)(L_6);
 	}
 }
-// Method Definition Index: 35345
+// Method Definition Index: 35451
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetState_m7B013B87DF4AE8DF9A4C29B28B6ADFEC1B7E8D1B (uint32_t ___0_in_stateGroup, uint32_t ___1_in_state, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -42878,7 +42878,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetState_m7B013B87DF4AE
 		return (int32_t)(L_2);
 	}
 }
-// Method Definition Index: 35346
+// Method Definition Index: 35452
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetState_m4B0492C31E1CE89D2D2A800C0247AD6DA3AE4BA2 (String_t* ___0_in_pszStateGroup, String_t* ___1_in_pszState, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -42897,7 +42897,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetState_m4B0492C31E1CE
 		return (int32_t)(L_2);
 	}
 }
-// Method Definition Index: 35347
+// Method Definition Index: 35453
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetGameObjectAuxSendValues_m43F2DBE030FC1DECAAFAE1091942FC399833E0D0 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_in_gameObjectID, AkAuxSendArray_t785AE3F6352F927E924EDC6A21EA9FD31D352B07* ___1_in_aAuxSendValues, uint32_t ___2_in_uNumSendValues, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -42932,7 +42932,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetGameObjectAuxSendVal
 		return (int32_t)(L_8);
 	}
 }
-// Method Definition Index: 35348
+// Method Definition Index: 35454
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetGameObjectOutputBusVolume_mA0C1295744F14B1484A1831B915071E4DB0EBEED (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_in_emitterObjID, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_listenerObjID, float ___2_in_fControlValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -42974,7 +42974,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetGameObjectOutputBusV
 		return (int32_t)(L_11);
 	}
 }
-// Method Definition Index: 35349
+// Method Definition Index: 35455
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetActorMixerEffect_mCE69E586C7613DB77DDF5DCA41B7BAA5346AC5C3 (uint32_t ___0_in_audioNodeID, uint32_t ___1_in_uFXIndex, uint32_t ___2_in_shareSetID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -42994,7 +42994,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetActorMixerEffect_mCE
 		return (int32_t)(L_3);
 	}
 }
-// Method Definition Index: 35350
+// Method Definition Index: 35456
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetBusEffect_mD39E440C74D8EF240B879E37EF3611DE8FB7593C (uint32_t ___0_in_audioNodeID, uint32_t ___1_in_uFXIndex, uint32_t ___2_in_shareSetID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43014,7 +43014,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetBusEffect_mD39E440C7
 		return (int32_t)(L_3);
 	}
 }
-// Method Definition Index: 35351
+// Method Definition Index: 35457
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetBusEffect_m7FED98E0A11966211D579BB88742FB480340E4EF (String_t* ___0_in_pszBusName, uint32_t ___1_in_uFXIndex, uint32_t ___2_in_shareSetID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43034,7 +43034,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetBusEffect_m7FED98E0A
 		return (int32_t)(L_3);
 	}
 }
-// Method Definition Index: 35352
+// Method Definition Index: 35458
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetMixer_mF08C2DD19431CB3858410F907E72A7DAD0C6827B (uint32_t ___0_in_audioNodeID, uint32_t ___1_in_shareSetID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43053,7 +43053,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetMixer_mF08C2DD19431C
 		return (int32_t)(L_2);
 	}
 }
-// Method Definition Index: 35353
+// Method Definition Index: 35459
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetMixer_m0EC446694DC4702E5715726C53033F93D8C3C6DE (String_t* ___0_in_pszBusName, uint32_t ___1_in_shareSetID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43072,7 +43072,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetMixer_m0EC446694DC47
 		return (int32_t)(L_2);
 	}
 }
-// Method Definition Index: 35354
+// Method Definition Index: 35460
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetBusConfig_m84C02E35647AB04AEE77C2F219016E7D49AC5DA2 (uint32_t ___0_in_audioNodeID, AkChannelConfig_tFD865141B037719DDB40F88440BFA32D1BF3652B* ___1_in_channelConfig, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43093,7 +43093,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetBusConfig_m84C02E356
 		return (int32_t)(L_3);
 	}
 }
-// Method Definition Index: 35355
+// Method Definition Index: 35461
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetBusConfig_m7CA44CA9689220A3FDF9A3363B760BFD42149F0E (String_t* ___0_in_pszBusName, AkChannelConfig_tFD865141B037719DDB40F88440BFA32D1BF3652B* ___1_in_channelConfig, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43114,7 +43114,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetBusConfig_m7CA44CA96
 		return (int32_t)(L_3);
 	}
 }
-// Method Definition Index: 35356
+// Method Definition Index: 35462
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetObjectObstructionAndOcclusion_m60AF3C4CD56D9EE0ED4CAA3764466E3E64E98444 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_in_EmitterID, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_ListenerID, float ___2_in_fObstructionLevel, float ___3_in_fOcclusionLevel, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43157,7 +43157,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetObjectObstructionAnd
 		return (int32_t)(L_12);
 	}
 }
-// Method Definition Index: 35357
+// Method Definition Index: 35463
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetMultipleObstructionAndOcclusion_m560C1661F60B837E48BA9C614A572021FD5F42FD (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_in_EmitterID, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_uListenerID, AkObstructionOcclusionValuesArray_tC6DB4B6B11FAF1B14B05C627D2ED2EC6AD065A94* ___2_in_fObstructionOcclusionValues, uint32_t ___3_in_uNumOcclusionObstruction, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43204,7 +43204,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetMultipleObstructionA
 		return (int32_t)(L_13);
 	}
 }
-// Method Definition Index: 35358
+// Method Definition Index: 35464
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_StartOutputCapture_m31C0E8B865802654FD37036A3F061E446E729539 (String_t* ___0_in_CaptureFileName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43222,7 +43222,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_StartOutputCapture_m31C
 		return (int32_t)(L_1);
 	}
 }
-// Method Definition Index: 35359
+// Method Definition Index: 35465
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_StopOutputCapture_m29CD0E3A0332ED76012DE29CA598BC30B97820E3 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43239,7 +43239,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_StopOutputCapture_m29CD
 		return (int32_t)(L_0);
 	}
 }
-// Method Definition Index: 35360
+// Method Definition Index: 35466
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_AddOutputCaptureMarker_m101879B2FAE6E7D391FD91B63A8C9C885E26E699 (String_t* ___0_in_MarkerText, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43257,7 +43257,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_AddOutputCaptureMarker_
 		return (int32_t)(L_1);
 	}
 }
-// Method Definition Index: 35361
+// Method Definition Index: 35467
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_StartProfilerCapture_m922E1FAD38C775A5E3544B609A278B236C680F8D (String_t* ___0_in_CaptureFileName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43275,7 +43275,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_StartProfilerCapture_m9
 		return (int32_t)(L_1);
 	}
 }
-// Method Definition Index: 35362
+// Method Definition Index: 35468
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_StopProfilerCapture_mCFDF2B977832A0906B4AB3B37BC9BC30A505D9BC (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43292,7 +43292,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_StopProfilerCapture_mCF
 		return (int32_t)(L_0);
 	}
 }
-// Method Definition Index: 35363
+// Method Definition Index: 35469
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_RemoveOutput_m471784E00E0B2D61F925EFC629278DAB5B284A76 (uint64_t ___0_in_idOutput, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43310,7 +43310,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_RemoveOutput_m471784E00
 		return (int32_t)(L_1);
 	}
 }
-// Method Definition Index: 35364
+// Method Definition Index: 35470
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ReplaceOutput_m8552EA15787DE8EFE5064FEB88D54B16B9EE32F4 (AkOutputSettings_t340FC311B9819E180B2840CE4A7430DB05F0E7A4* ___0_in_Settings, uint64_t ___1_in_outputDeviceId, uint64_t* ___2_out_pOutputDeviceId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43332,7 +43332,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ReplaceOutput_m8552EA15
 		return (int32_t)(L_4);
 	}
 }
-// Method Definition Index: 35365
+// Method Definition Index: 35471
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ReplaceOutput_m2BECE56E92C7F703104B19D1B37BA9FC381080FF (AkOutputSettings_t340FC311B9819E180B2840CE4A7430DB05F0E7A4* ___0_in_Settings, uint64_t ___1_in_outputDeviceId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43353,7 +43353,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ReplaceOutput_m2BECE56E
 		return (int32_t)(L_3);
 	}
 }
-// Method Definition Index: 35366
+// Method Definition Index: 35472
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t AkSoundEngine_GetOutputID_m34A439C8176690CA0686B22150BFBEBF545B36EF (uint32_t ___0_in_idShareset, uint32_t ___1_in_idDevice, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43372,7 +43372,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t AkSoundEngine_GetOutputID_m34A439C81
 		return L_2;
 	}
 }
-// Method Definition Index: 35367
+// Method Definition Index: 35473
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t AkSoundEngine_GetOutputID_m05A81661EF93FE29B75B25DA2C07CA31CD68448F (String_t* ___0_in_szShareSet, uint32_t ___1_in_idDevice, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43391,7 +43391,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t AkSoundEngine_GetOutputID_m05A81661E
 		return L_2;
 	}
 }
-// Method Definition Index: 35368
+// Method Definition Index: 35474
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetBusDevice_m0D66A8231C6AFAD5D67B8CAFFD6BBBD5E74CAD3B (uint32_t ___0_in_idBus, uint32_t ___1_in_idNewDevice, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43410,7 +43410,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetBusDevice_m0D66A8231
 		return (int32_t)(L_2);
 	}
 }
-// Method Definition Index: 35369
+// Method Definition Index: 35475
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetBusDevice_m2DDD27E935E09A45E5D8BAF4E5226441F1FCB11D (String_t* ___0_in_BusName, String_t* ___1_in_DeviceName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43429,7 +43429,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetBusDevice_m2DDD27E93
 		return (int32_t)(L_2);
 	}
 }
-// Method Definition Index: 35370
+// Method Definition Index: 35476
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetDeviceList_mAA657769C0A16C551F24BD5CD10FA5A53D27AA61 (uint32_t ___0_in_ulCompanyID, uint32_t ___1_in_ulPluginID, uint32_t* ___2_io_maxNumDevices, AkDeviceDescriptionArray_tABAC059860FAB989E2B66CE3218CF964042F6F06* ___3_out_deviceDescriptions, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43454,7 +43454,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetDeviceList_mAA657769
 		return (int32_t)(L_5);
 	}
 }
-// Method Definition Index: 35371
+// Method Definition Index: 35477
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetDeviceList_m758A6458A58FE2E8018B604681759F4602EB56E0 (uint32_t ___0_in_audioDeviceShareSetID, uint32_t* ___1_io_maxNumDevices, AkDeviceDescriptionArray_tABAC059860FAB989E2B66CE3218CF964042F6F06* ___2_out_deviceDescriptions, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43478,7 +43478,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetDeviceList_m758A6458
 		return (int32_t)(L_4);
 	}
 }
-// Method Definition Index: 35372
+// Method Definition Index: 35478
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetOutputVolume_mC2D66B245316BCCE379E321775480083BC371ABB (uint64_t ___0_in_idOutput, float ___1_in_fVolume, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43497,7 +43497,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetOutputVolume_mC2D66B
 		return (int32_t)(L_2);
 	}
 }
-// Method Definition Index: 35373
+// Method Definition Index: 35479
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetDeviceSpatialAudioSupport_m837CA30ADCED8C50299226F063F541954ED472F5 (uint32_t ___0_in_idDevice, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43515,7 +43515,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetDeviceSpatialAudioSu
 		return (int32_t)(L_1);
 	}
 }
-// Method Definition Index: 35374
+// Method Definition Index: 35480
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_Suspend_m67C33DA6046D1D04B28AF0034421C5114DEA0BF7 (bool ___0_in_bRenderAnyway, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43533,7 +43533,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_Suspend_m67C33DA6046D1D
 		return (int32_t)(L_1);
 	}
 }
-// Method Definition Index: 35375
+// Method Definition Index: 35481
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_Suspend_m586412397FF0E359FB553E8ADFBA1A235F90A62E (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43550,7 +43550,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_Suspend_m586412397FF0E3
 		return (int32_t)(L_0);
 	}
 }
-// Method Definition Index: 35376
+// Method Definition Index: 35482
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_WakeupFromSuspend_mE2453F7517E12A593B1363FE684F4530473953FD (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43567,7 +43567,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_WakeupFromSuspend_mE245
 		return (int32_t)(L_0);
 	}
 }
-// Method Definition Index: 35377
+// Method Definition Index: 35483
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_GetBufferTick_mD289C496C86889F130C00EE6F1DC050E70D238B5 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43584,7 +43584,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_GetBufferTick_mD289C49
 		return L_0;
 	}
 }
-// Method Definition Index: 35378
+// Method Definition Index: 35484
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEngine_get_AK_INVALID_MIDI_CHANNEL_m3FBD44D906E275CE69172E117C9B311631AB7599 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43601,7 +43601,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEngine_get_AK_INVALID_MIDI_CHA
 		return L_0;
 	}
 }
-// Method Definition Index: 35379
+// Method Definition Index: 35485
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEngine_get_AK_INVALID_MIDI_NOTE_mE41CE354D9AD494AFA2747E7406226EB6D3727D2 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43618,7 +43618,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEngine_get_AK_INVALID_MIDI_NOT
 		return L_0;
 	}
 }
-// Method Definition Index: 35380
+// Method Definition Index: 35486
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetPlayingSegmentInfo_m7F40CA99F327EDB1FB84703C1B3BEEAB2FB0D8B5 (uint32_t ___0_in_PlayingID, AkSegmentInfo_t5CA7AE7230D6DDA58E5D0B1ACB6098F959283A14* ___1_out_segmentInfo, bool ___2_in_bExtrapolate, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43640,7 +43640,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetPlayingSegmentInfo_m
 		return (int32_t)(L_4);
 	}
 }
-// Method Definition Index: 35381
+// Method Definition Index: 35487
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetPlayingSegmentInfo_m3B53DF039BAD8FD812CD21332141224B13483201 (uint32_t ___0_in_PlayingID, AkSegmentInfo_t5CA7AE7230D6DDA58E5D0B1ACB6098F959283A14* ___1_out_segmentInfo, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43661,7 +43661,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetPlayingSegmentInfo_m
 		return (int32_t)(L_3);
 	}
 }
-// Method Definition Index: 35382
+// Method Definition Index: 35488
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_LocalOutput_mBA6B6AACE75138B31C2E3E890EB4BFDA781C899E (int32_t ___0_in_eErrorCode, String_t* ___1_in_pszError, int32_t ___2_in_eErrorLevel, uint32_t ___3_in_playingID, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___4_in_gameObjID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43695,7 +43695,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_LocalOutput_mBA6B6AACE7513
 		return;
 	}
 }
-// Method Definition Index: 35383
+// Method Definition Index: 35489
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PostCode_mB88D9DF8BB5B9E5201AAFD8F3A7BC0CC07F5D670 (int32_t ___0_in_eError, int32_t ___1_in_eErrorLevel, uint32_t ___2_in_playingID, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___3_in_gameObjID, uint32_t ___4_in_audioNodeID, bool ___5_in_bIsBus, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43730,7 +43730,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PostCode_mB88D9DF8BB5B9
 		return (int32_t)(L_10);
 	}
 }
-// Method Definition Index: 35384
+// Method Definition Index: 35490
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PostCode_m7C28012490B17E1A1C266E671A03DBCB83564E06 (int32_t ___0_in_eError, int32_t ___1_in_eErrorLevel, uint32_t ___2_in_playingID, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___3_in_gameObjID, uint32_t ___4_in_audioNodeID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43764,7 +43764,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PostCode_m7C28012490B17
 		return (int32_t)(L_9);
 	}
 }
-// Method Definition Index: 35385
+// Method Definition Index: 35491
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PostCode_m9170E79C997B55AF9B8B9CA2748C63B3AFBFFF16 (int32_t ___0_in_eError, int32_t ___1_in_eErrorLevel, uint32_t ___2_in_playingID, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___3_in_gameObjID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43797,7 +43797,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PostCode_m9170E79C997B5
 		return (int32_t)(L_8);
 	}
 }
-// Method Definition Index: 35386
+// Method Definition Index: 35492
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PostCode_m4FBE93ADED6D27F4C3B5CBF8BAEFAF3C0850A317 (int32_t ___0_in_eError, int32_t ___1_in_eErrorLevel, uint32_t ___2_in_playingID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43817,7 +43817,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PostCode_m4FBE93ADED6D2
 		return (int32_t)(L_3);
 	}
 }
-// Method Definition Index: 35387
+// Method Definition Index: 35493
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PostCode_m12240816785320600DB7E1B3B5C3D59F35E1D00C (int32_t ___0_in_eError, int32_t ___1_in_eErrorLevel, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43836,7 +43836,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PostCode_m1224081678532
 		return (int32_t)(L_2);
 	}
 }
-// Method Definition Index: 35388
+// Method Definition Index: 35494
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PostString_mB073E2B2EFBEBB3E9808A6D6B9038E827BBFAECF (String_t* ___0_in_pszError, int32_t ___1_in_eErrorLevel, uint32_t ___2_in_playingID, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___3_in_gameObjID, uint32_t ___4_in_audioNodeID, bool ___5_in_bIsBus, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43871,7 +43871,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PostString_mB073E2B2EFB
 		return (int32_t)(L_10);
 	}
 }
-// Method Definition Index: 35389
+// Method Definition Index: 35495
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PostString_m34CBC41D66C8F8C978503224F39EA3AC2494D9C9 (String_t* ___0_in_pszError, int32_t ___1_in_eErrorLevel, uint32_t ___2_in_playingID, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___3_in_gameObjID, uint32_t ___4_in_audioNodeID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43905,7 +43905,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PostString_m34CBC41D66C
 		return (int32_t)(L_9);
 	}
 }
-// Method Definition Index: 35390
+// Method Definition Index: 35496
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PostString_m8AC665BD2E1E597AB05533CDD4882343703037A9 (String_t* ___0_in_pszError, int32_t ___1_in_eErrorLevel, uint32_t ___2_in_playingID, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___3_in_gameObjID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43938,7 +43938,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PostString_m8AC665BD2E1
 		return (int32_t)(L_8);
 	}
 }
-// Method Definition Index: 35391
+// Method Definition Index: 35497
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PostString_m933112705B8CB1649F970085B530453561F61AE8 (String_t* ___0_in_pszError, int32_t ___1_in_eErrorLevel, uint32_t ___2_in_playingID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43958,7 +43958,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PostString_m933112705B8
 		return (int32_t)(L_3);
 	}
 }
-// Method Definition Index: 35392
+// Method Definition Index: 35498
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PostString_mB91F555FAFB4BD2307302D50AA913812525458C5 (String_t* ___0_in_pszError, int32_t ___1_in_eErrorLevel, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43977,7 +43977,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_PostString_mB91F555FAFB
 		return (int32_t)(L_2);
 	}
 }
-// Method Definition Index: 35393
+// Method Definition Index: 35499
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetTimeStamp_mDBC8EFF2CC404772896BCA4C953EF95E86CE33C1 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43994,7 +43994,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetTimeStamp_mDBC8EFF2C
 		return L_0;
 	}
 }
-// Method Definition Index: 35394
+// Method Definition Index: 35500
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_GetNumNonZeroBits_m1829DC7E9F669CDD5E9F2607FB387EDFEE4103D6 (uint32_t ___0_in_uWord, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44012,7 +44012,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_GetNumNonZeroBits_m182
 		return L_1;
 	}
 }
-// Method Definition Index: 35395
+// Method Definition Index: 35501
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_AkGetDefaultHighPriorityThreadProperties_m66C4F8D2082FE46CCE7C435684C423C044F81D5C (AkThreadProperties_t0810A2AB3ADCC6743605805A6861023DC9172CEE* ___0_out_threadProperties, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44032,7 +44032,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_AkGetDefaultHighPriorityTh
 		return;
 	}
 }
-// Method Definition Index: 35396
+// Method Definition Index: 35502
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_ResolveDialogueEvent_m2A340D04AFC9B17FB42720AF74ECC364727C5215 (uint32_t ___0_in_eventID, UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___1_in_aArgumentValues, uint32_t ___2_in_uNumArguments, uint32_t ___3_in_idSequence, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44053,7 +44053,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_ResolveDialogueEvent_m
 		return L_4;
 	}
 }
-// Method Definition Index: 35397
+// Method Definition Index: 35503
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_ResolveDialogueEvent_mC158256C4AE7450B6FEDD836C883F515805CA354 (uint32_t ___0_in_eventID, UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___1_in_aArgumentValues, uint32_t ___2_in_uNumArguments, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44073,7 +44073,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_ResolveDialogueEvent_m
 		return L_3;
 	}
 }
-// Method Definition Index: 35398
+// Method Definition Index: 35504
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetDialogueEventCustomPropertyValue_m1B78436E7729C56E372333333FE4F2B8B84B22BF (uint32_t ___0_in_eventID, uint32_t ___1_in_uPropID, int32_t* ___2_out_iValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44093,7 +44093,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetDialogueEventCustomP
 		return (int32_t)(L_3);
 	}
 }
-// Method Definition Index: 35399
+// Method Definition Index: 35505
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetDialogueEventCustomPropertyValue_mF75FC51F9C5BFD24F7C9FB3A8AC2174CF8293B6E (uint32_t ___0_in_eventID, uint32_t ___1_in_uPropID, float* ___2_out_fValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44113,7 +44113,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetDialogueEventCustomP
 		return (int32_t)(L_3);
 	}
 }
-// Method Definition Index: 35400
+// Method Definition Index: 35506
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetPosition_m22D179BAE68352CCADA9877BCCECF15855A129EA (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_in_GameObjectID, AkTransform_tA000159588AFB04BD21335BA166ED73FD972A07D* ___1_out_rPosition, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44138,7 +44138,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetPosition_m22D179BAE6
 		return (int32_t)(L_4);
 	}
 }
-// Method Definition Index: 35401
+// Method Definition Index: 35507
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetListenerPosition_m53CF699DCBF4557C90489D19907517A238B4AEB9 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_in_uIndex, AkTransform_tA000159588AFB04BD21335BA166ED73FD972A07D* ___1_out_rPosition, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44171,7 +44171,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetListenerPosition_m53
 		return (int32_t)(L_7);
 	}
 }
-// Method Definition Index: 35402
+// Method Definition Index: 35508
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetRTPCValue_m300E225ED94C9AC64963D30CE71FD68677395271 (uint32_t ___0_in_rtpcID, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_gameObjectID, uint32_t ___2_in_playingID, float* ___3_out_rValue, int32_t* ___4_io_rValueType, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44205,7 +44205,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetRTPCValue_m300E225ED
 		return (int32_t)(L_9);
 	}
 }
-// Method Definition Index: 35403
+// Method Definition Index: 35509
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetRTPCValue_mF7EA94ACBA12C5CDA3D4C282516D3C6C721D47F8 (String_t* ___0_in_pszRtpcName, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_gameObjectID, uint32_t ___2_in_playingID, float* ___3_out_rValue, int32_t* ___4_io_rValueType, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44239,7 +44239,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetRTPCValue_mF7EA94ACB
 		return (int32_t)(L_9);
 	}
 }
-// Method Definition Index: 35404
+// Method Definition Index: 35510
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetSwitch_m15DFBCCD1985035C918F820AE7DD07335B102756 (uint32_t ___0_in_switchGroup, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_gameObjectID, uint32_t* ___2_out_rSwitchState, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44271,7 +44271,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetSwitch_m15DFBCCD1985
 		return (int32_t)(L_7);
 	}
 }
-// Method Definition Index: 35405
+// Method Definition Index: 35511
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetSwitch_mC278AF5A1A91D392006166C60BC2667C8F0785A9 (String_t* ___0_in_pstrSwitchGroupName, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_GameObj, uint32_t* ___2_out_rSwitchState, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44295,7 +44295,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetSwitch_mC278AF5A1A91
 		return (int32_t)(L_4);
 	}
 }
-// Method Definition Index: 35406
+// Method Definition Index: 35512
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetState_m547B7BCC86B15F9981A82B8347F68E7FD3FC3EBB (uint32_t ___0_in_stateGroup, uint32_t* ___1_out_rState, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44314,7 +44314,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetState_m547B7BCC86B15
 		return (int32_t)(L_2);
 	}
 }
-// Method Definition Index: 35407
+// Method Definition Index: 35513
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetState_mD1041B69317E0DA43B5BD0C09CAEDE267D6DE77F (String_t* ___0_in_pstrStateGroupName, uint32_t* ___1_out_rState, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44333,7 +44333,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetState_mD1041B69317E0
 		return (int32_t)(L_2);
 	}
 }
-// Method Definition Index: 35408
+// Method Definition Index: 35514
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetGameObjectAuxSendValues_m1D14F99D19B68952BA6B523A1498A5E7AFB10072 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_in_gameObjectID, AkAuxSendArray_t785AE3F6352F927E924EDC6A21EA9FD31D352B07* ___1_out_paAuxSendValues, uint32_t* ___2_io_ruNumSendValues, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44368,7 +44368,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetGameObjectAuxSendVal
 		return (int32_t)(L_8);
 	}
 }
-// Method Definition Index: 35409
+// Method Definition Index: 35515
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetGameObjectDryLevelValue_m2DD8F5DE900F9D8239E8C4D14AE314057B888AF5 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_in_EmitterID, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_ListenerID, float* ___2_out_rfControlValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44410,7 +44410,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetGameObjectDryLevelVa
 		return (int32_t)(L_11);
 	}
 }
-// Method Definition Index: 35410
+// Method Definition Index: 35516
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetObjectObstructionAndOcclusion_m0B55AA56CAB9D532BA5521583B85822B115A810B (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_in_EmitterID, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_ListenerID, float* ___2_out_rfObstructionLevel, float* ___3_out_rfOcclusionLevel, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44453,7 +44453,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetObjectObstructionAnd
 		return (int32_t)(L_12);
 	}
 }
-// Method Definition Index: 35411
+// Method Definition Index: 35517
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_QueryAudioObjectIDs_mBD92E4008CABF873F65A99DC112A7E16BBA123B0 (uint32_t ___0_in_eventID, uint32_t* ___1_io_ruNumItems, AkObjectInfoArray_t98EFCA738273EC56B6C03D58ED238F2A26E7CB00* ___2_out_aObjectInfos, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44477,7 +44477,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_QueryAudioObjectIDs_mBD
 		return (int32_t)(L_4);
 	}
 }
-// Method Definition Index: 35412
+// Method Definition Index: 35518
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_QueryAudioObjectIDs_m36917C234B1A5A57B8FC51BFAECCEB0E37E40F11 (String_t* ___0_in_pszEventName, uint32_t* ___1_io_ruNumItems, AkObjectInfoArray_t98EFCA738273EC56B6C03D58ED238F2A26E7CB00* ___2_out_aObjectInfos, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44501,7 +44501,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_QueryAudioObjectIDs_m36
 		return (int32_t)(L_4);
 	}
 }
-// Method Definition Index: 35413
+// Method Definition Index: 35519
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetPositioningInfo_mF306BD9363C280F01327965147C83BA0D9CD23E6 (uint32_t ___0_in_ObjectID, AkPositioningInfo_t5266875AA2F2CC6B290ACF92A8F58FEB790544EF* ___1_out_rPositioningInfo, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44522,7 +44522,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetPositioningInfo_mF30
 		return (int32_t)(L_3);
 	}
 }
-// Method Definition Index: 35414
+// Method Definition Index: 35520
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEngine_GetIsGameObjectActive_m384F6AE66A2C76DC2E6618AB213FC192C98259BE (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_in_GameObjId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44552,7 +44552,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEngine_GetIsGameObjectActive_m384
 		return L_5;
 	}
 }
-// Method Definition Index: 35415
+// Method Definition Index: 35521
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEngine_GetMaxRadius_m4859098B258AF5F67BCA12F06D414AD0872AEF52 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_in_GameObjId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44582,7 +44582,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEngine_GetMaxRadius_m4859098B258
 		return L_5;
 	}
 }
-// Method Definition Index: 35416
+// Method Definition Index: 35522
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_GetEventIDFromPlayingID_mDC7BEAEBA7ACDAE1AE467AB96A51C230A175908F (uint32_t ___0_in_playingID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44600,7 +44600,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_GetEventIDFromPlayingI
 		return L_1;
 	}
 }
-// Method Definition Index: 35417
+// Method Definition Index: 35523
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t AkSoundEngine_GetGameObjectFromPlayingID_mFACDF6A2B8F1DDD2E354F68358076AAE8B1DAE18 (uint32_t ___0_in_playingID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44618,7 +44618,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t AkSoundEngine_GetGameObjectFromPlayi
 		return L_1;
 	}
 }
-// Method Definition Index: 35418
+// Method Definition Index: 35524
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetPlayingIDsFromGameObject_mEF0841B7768FA1C78EDD1B0628F51B780BC8393D (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_in_GameObjId, uint32_t* ___1_io_ruNumIDs, UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___2_out_aPlayingIDs, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44650,7 +44650,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetPlayingIDsFromGameOb
 		return (int32_t)(L_7);
 	}
 }
-// Method Definition Index: 35419
+// Method Definition Index: 35525
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetCustomPropertyValue_m7DD7BF55A59841529BBAD28D90D30FC1F3A9CE2A (uint32_t ___0_in_ObjectID, uint32_t ___1_in_uPropID, int32_t* ___2_out_iValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44670,7 +44670,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetCustomPropertyValue_
 		return (int32_t)(L_3);
 	}
 }
-// Method Definition Index: 35420
+// Method Definition Index: 35526
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetCustomPropertyValue_m49C837A913CB01EE8AE91DBA448E868A44C6E5AB (uint32_t ___0_in_ObjectID, uint32_t ___1_in_uPropID, float* ___2_out_fValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44690,7 +44690,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetCustomPropertyValue_
 		return (int32_t)(L_3);
 	}
 }
-// Method Definition Index: 35421
+// Method Definition Index: 35527
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_AK_SPEAKER_SETUP_FIX_LEFT_TO_CENTER_m9344C163E039835C64B61EF823C04A29119DCA25 (uint32_t* ___0_io_uChannelMask, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44708,7 +44708,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_AK_SPEAKER_SETUP_FIX_LEFT_
 		return;
 	}
 }
-// Method Definition Index: 35422
+// Method Definition Index: 35528
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_AK_SPEAKER_SETUP_FIX_REAR_TO_SIDE_m1E533532713689CEAB4EDABF47BC396F69D3D886 (uint32_t* ___0_io_uChannelMask, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44726,7 +44726,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_AK_SPEAKER_SETUP_FIX_REAR_
 		return;
 	}
 }
-// Method Definition Index: 35423
+// Method Definition Index: 35529
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_AK_SPEAKER_SETUP_CONVERT_TO_SUPPORTED_m7D127BCF9E6CC6B8DD1184B22A8A6691B0B59ACB (uint32_t* ___0_io_uChannelMask, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44744,7 +44744,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_AK_SPEAKER_SETUP_CONVERT_T
 		return;
 	}
 }
-// Method Definition Index: 35424
+// Method Definition Index: 35530
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEngine_ChannelMaskToNumChannels_m38ADE712D128EA61FE9E5D8212649FB4AAD485E5 (uint32_t ___0_in_uChannelMask, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44762,7 +44762,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEngine_ChannelMaskToNumChannel
 		return L_1;
 	}
 }
-// Method Definition Index: 35425
+// Method Definition Index: 35531
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_ChannelMaskFromNumChannels_m1E9A624A41E9177D4A98FA2E3D7B7D93F185DCDF (uint32_t ___0_in_uNumChannels, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44780,7 +44780,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_ChannelMaskFromNumChan
 		return L_1;
 	}
 }
-// Method Definition Index: 35426
+// Method Definition Index: 35532
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEngine_ChannelBitToIndex_m64D3865C071523E06CE7E9C751A85E8124299DE4 (uint32_t ___0_in_uChannelBit, uint32_t ___1_in_uChannelMask, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44799,7 +44799,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkSoundEngine_ChannelBitToIndex_m64D3
 		return L_2;
 	}
 }
-// Method Definition Index: 35427
+// Method Definition Index: 35533
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEngine_HasSurroundChannels_m01A08185A0C4E4E824403D85B02022124AACACE9 (uint32_t ___0_in_uChannelMask, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44817,7 +44817,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEngine_HasSurroundChannels_m01A08
 		return L_1;
 	}
 }
-// Method Definition Index: 35428
+// Method Definition Index: 35534
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEngine_HasStrictlyOnePairOfSurroundChannels_mC32795EBC5BC4F04A8A2CC6108BDC48617342AC6 (uint32_t ___0_in_uChannelMask, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44835,7 +44835,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEngine_HasStrictlyOnePairOfSurrou
 		return L_1;
 	}
 }
-// Method Definition Index: 35429
+// Method Definition Index: 35535
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEngine_HasSideAndRearChannels_m5ADFCD9EF4C947517635F1022DC1A32118617ACD (uint32_t ___0_in_uChannelMask, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44853,7 +44853,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEngine_HasSideAndRearChannels_m5A
 		return L_1;
 	}
 }
-// Method Definition Index: 35430
+// Method Definition Index: 35536
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEngine_HasHeightChannels_m064FC84A19B2D67CF1D646591CD30039C3B5AD04 (uint32_t ___0_in_uChannelMask, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44871,7 +44871,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEngine_HasHeightChannels_m064FC84
 		return L_1;
 	}
 }
-// Method Definition Index: 35431
+// Method Definition Index: 35537
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_BackToSideChannels_m023B1D6A6B813CC2FA0C52573C7808E3C573E03D (uint32_t ___0_in_uChannelMask, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44889,7 +44889,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_BackToSideChannels_m02
 		return L_1;
 	}
 }
-// Method Definition Index: 35432
+// Method Definition Index: 35538
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_StdChannelIndexToDisplayIndex_mFC948B6686EFD5FCC093270684A8B5F5B691F794 (int32_t ___0_in_eOrdering, uint32_t ___1_in_uChannelMask, uint32_t ___2_in_uChannelIdx, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44909,7 +44909,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_StdChannelIndexToDispl
 		return L_3;
 	}
 }
-// Method Definition Index: 35433
+// Method Definition Index: 35539
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEngine_get_kDefaultMaxPathLength_m9BD3CD6A7256766FBE531724095F511058E727D1 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44926,7 +44926,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEngine_get_kDefaultMaxPathLength
 		return L_0;
 	}
 }
-// Method Definition Index: 35434
+// Method Definition Index: 35540
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_get_kDefaultDiffractionMaxEdges_m4265580A9707A3A504AD722502C8FC3C7CABCEB0 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44943,7 +44943,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_get_kDefaultDiffractio
 		return L_0;
 	}
 }
-// Method Definition Index: 35435
+// Method Definition Index: 35541
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_get_kDefaultDiffractionMaxPaths_m367529E27FC39F2FD3C31E4CBBE6B023F3679F07 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44960,7 +44960,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_get_kDefaultDiffractio
 		return L_0;
 	}
 }
-// Method Definition Index: 35436
+// Method Definition Index: 35542
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEngine_get_kMaxDiffraction_m9B8A1971E8415F8D4674847F149EAE81558D8E23 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44977,7 +44977,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkSoundEngine_get_kMaxDiffraction_m9B8A
 		return L_0;
 	}
 }
-// Method Definition Index: 35437
+// Method Definition Index: 35543
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_get_kDiffractionMaxEdges_mB038C77D34CC0128418A1A5E6E59215B27C31C25 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44994,7 +44994,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_get_kDiffractionMaxEdg
 		return L_0;
 	}
 }
-// Method Definition Index: 35438
+// Method Definition Index: 35544
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_get_kDiffractionMaxPaths_m230D4137CB2D73A41DF5D1A5BC6A3635C0D25473 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -45011,7 +45011,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_get_kDiffractionMaxPat
 		return L_0;
 	}
 }
-// Method Definition Index: 35439
+// Method Definition Index: 35545
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_get_kPortalToPortalDiffractionMaxPaths_m482959969F9B1C2BF7111E93825BABE90D4CB4FA (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -45028,7 +45028,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_get_kPortalToPortalDif
 		return L_0;
 	}
 }
-// Method Definition Index: 35440
+// Method Definition Index: 35546
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetImageSource_m79205C370272142C3967AA0F74A604567FCCD604 (uint32_t ___0_in_srcID, AkImageSourceSettings_tCF82607175DA0D76611346C6467733B3EEFE024C* ___1_in_info, uint32_t ___2_in_AuxBusID, uint64_t ___3_in_roomID, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___4_in_gameObjectID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -45064,7 +45064,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetImageSource_m79205C3
 		return (int32_t)(L_10);
 	}
 }
-// Method Definition Index: 35441
+// Method Definition Index: 35547
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_RemoveImageSource_m28B26D6B26BE80ECF815C1023CD2508D82041AE3 (uint32_t ___0_in_srcID, uint32_t ___1_in_AuxBusID, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___2_in_gameObjectID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -45096,7 +45096,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_RemoveImageSource_m28B2
 		return (int32_t)(L_7);
 	}
 }
-// Method Definition Index: 35442
+// Method Definition Index: 35548
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ClearImageSources_mDA4AE68D01D198617A39FF7A70C037DCE2EF9BA5 (uint32_t ___0_in_AuxBusID, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_in_gameObjectID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -45127,7 +45127,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ClearImageSources_mDA4A
 		return (int32_t)(L_6);
 	}
 }
-// Method Definition Index: 35443
+// Method Definition Index: 35549
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ClearImageSources_m1FAA3A3F9B354271548A85192A9E5F582FA3518E (uint32_t ___0_in_AuxBusID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -45145,7 +45145,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ClearImageSources_m1FAA
 		return (int32_t)(L_1);
 	}
 }
-// Method Definition Index: 35444
+// Method Definition Index: 35550
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ClearImageSources_mF8C510E20F1543EDA2D8AF91482AF4F5771A2042 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -45162,7 +45162,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_ClearImageSources_mF8C5
 		return (int32_t)(L_0);
 	}
 }
-// Method Definition Index: 35445
+// Method Definition Index: 35551
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_RemoveGeometry_mFA9976AE93C451983F68FA51E924B85E4BA4BA53 (uint64_t ___0_in_SetID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -45180,7 +45180,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_RemoveGeometry_mFA9976A
 		return (int32_t)(L_1);
 	}
 }
-// Method Definition Index: 35446
+// Method Definition Index: 35552
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_QueryReflectionPaths_m6A968C5A91C085E67C1AACF3DB581717EF745095 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_in_gameObjectID, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___1_out_listenerPos, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___2_out_emitterPos, AkReflectionPathInfoArray_tBABB15D8FBE53C4BBDDB1AFD22D6C9F5EE550BFE* ___3_out_aPaths, uint32_t* ___4_io_uArraySize, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -45218,7 +45218,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_QueryReflectionPaths_m6
 		return (int32_t)(L_10);
 	}
 }
-// Method Definition Index: 35447
+// Method Definition Index: 35553
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_RemoveRoom_mFC37AA79DF19D9D949782600ECEAB822EC28E9C3 (uint64_t ___0_in_RoomID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -45236,7 +45236,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_RemoveRoom_mFC37AA79DF1
 		return (int32_t)(L_1);
 	}
 }
-// Method Definition Index: 35448
+// Method Definition Index: 35554
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_RemovePortal_m13F5CAF35B2F6382FF8672173E5499882041A0DE (uint64_t ___0_in_PortalID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -45254,7 +45254,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_RemovePortal_m13F5CAF35
 		return (int32_t)(L_1);
 	}
 }
-// Method Definition Index: 35449
+// Method Definition Index: 35555
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetGameObjectInRoom_m2E84C12157329DD3EEFFA4C0F6EE8483C7EF2418 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_in_gameObjectID, uint64_t ___1_in_CurrentRoomID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -45285,7 +45285,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetGameObjectInRoom_m2E
 		return (int32_t)(L_6);
 	}
 }
-// Method Definition Index: 35450
+// Method Definition Index: 35556
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetReflectionsOrder_m36E738126F831D9ABA6A2B8654B4FB9B0453A61B (uint32_t ___0_in_uReflectionsOrder, bool ___1_in_bUpdatePaths, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -45304,7 +45304,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetReflectionsOrder_m36
 		return (int32_t)(L_2);
 	}
 }
-// Method Definition Index: 35451
+// Method Definition Index: 35557
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetNumberOfPrimaryRays_m052D75C26793FBE49372EF6D6D1E4CFE374B436C (uint32_t ___0_in_uNbPrimaryRays, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -45322,7 +45322,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetNumberOfPrimaryRays_
 		return (int32_t)(L_1);
 	}
 }
-// Method Definition Index: 35452
+// Method Definition Index: 35558
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetEarlyReflectionsAuxSend_mAF69D4AB64689103D004AB5909FD086F46D69F2C (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_in_gameObjectID, uint32_t ___1_in_auxBusID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -45353,7 +45353,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetEarlyReflectionsAuxS
 		return (int32_t)(L_6);
 	}
 }
-// Method Definition Index: 35453
+// Method Definition Index: 35559
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetEarlyReflectionsVolume_m95E87441F88F841B81E9886FCDEB9456F3790783 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_in_gameObjectID, float ___1_in_fSendVolume, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -45384,7 +45384,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetEarlyReflectionsVolu
 		return (int32_t)(L_6);
 	}
 }
-// Method Definition Index: 35454
+// Method Definition Index: 35560
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetPortalObstructionAndOcclusion_mC6357EF401CA691397F0E846C7294D096C4F7269 (uint64_t ___0_in_PortalID, float ___1_in_fObstruction, float ___2_in_fOcclusion, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -45404,7 +45404,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetPortalObstructionAnd
 		return (int32_t)(L_3);
 	}
 }
-// Method Definition Index: 35455
+// Method Definition Index: 35561
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_QueryWetDiffraction_m54EDEA967C7F86B67121B2301B6C14AB60C13EED (uint64_t ___0_in_portal, float* ___1_out_wetDiffraction, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -45423,7 +45423,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_QueryWetDiffraction_m54
 		return (int32_t)(L_2);
 	}
 }
-// Method Definition Index: 35456
+// Method Definition Index: 35562
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_QueryDiffractionPaths_m0F4485EE08A03F9CCEACA439CEEC5A0F03BE752D (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_in_gameObjectID, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___1_out_listenerPos, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___2_out_emitterPos, AkDiffractionPathInfoArray_t4DE92E5473EF8941182A0D081604C1A194735E0D* ___3_out_aPaths, uint32_t* ___4_io_uArraySize, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -45461,7 +45461,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_QueryDiffractionPaths_m
 		return (int32_t)(L_10);
 	}
 }
-// Method Definition Index: 35457
+// Method Definition Index: 35563
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetFastPathSettings_m58E1E063CEBC36B05CE2EDC3D02120ABC4BB16B0 (AkInitSettings_t457552174755CBC42DF32F9C317D0A2904260A1A* ___0_in_settings, AkPlatformInitSettings_t171CB8351D03371547B67FFD9C14D6906ADA2A85* ___1_in_pfSettings, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -45484,7 +45484,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetFastPathSettings_m58
 		return (int32_t)(L_4);
 	}
 }
-// Method Definition Index: 35458
+// Method Definition Index: 35564
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_SetErrorLogger_m52681036819DE948E50E117B4D8ACD1B737FC109 (ErrorLoggerInteropDelegate_t6EBAD2E4052136CE0F1C35555261F37DEE1F0B1F* ___0_logger, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -45502,7 +45502,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_SetErrorLogger_m5268103681
 		return;
 	}
 }
-// Method Definition Index: 35459
+// Method Definition Index: 35565
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_SetErrorLogger_m308CB3F4921888576F46BC6E90C2DC33B3A4916E (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -45519,7 +45519,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_SetErrorLogger_m308CB3F492
 		return;
 	}
 }
-// Method Definition Index: 35460
+// Method Definition Index: 35566
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_SetAudioInputCallbacks_m59755F3DDB79DC408F350811E75BFD1EF724D510 (AudioSamplesInteropDelegate_t42419D8749A75CD7E08101DB0DC7ACD6A06A8254* ___0_getAudioSamples, AudioFormatInteropDelegate_tC7792587E7EC00E1A31A209EF0FA11EAFA1EAE09* ___1_getAudioFormat, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -45538,7 +45538,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_SetAudioInputCallbacks_m59
 		return;
 	}
 }
-// Method Definition Index: 35461
+// Method Definition Index: 35567
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_Init_m0AE674B9B0F54561E7955DE7B1B8BDB8BF965E11 (AkInitializationSettings_tAAC8EB0FBD58998D50805E934AAAAE85D054D424* ___0_settings, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -45558,7 +45558,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_Init_m0AE674B9B0F54561E
 		return (int32_t)(L_2);
 	}
 }
-// Method Definition Index: 35462
+// Method Definition Index: 35568
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_InitSpatialAudio_m178A53C51BFF9134BBFB861759944FD0C634310B (AkSpatialAudioInitSettings_t3AA3E0AA877350300E0EBD5330C97E4B58960FC5* ___0_settings, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -45578,7 +45578,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_InitSpatialAudio_m178A5
 		return (int32_t)(L_2);
 	}
 }
-// Method Definition Index: 35463
+// Method Definition Index: 35569
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_InitCommunication_m36B4C569FAAB81253DB34C6D72E93F45021D6FF3 (AkCommunicationSettings_t4DBE269D131C21F38493B7F93517DBEAFC973899* ___0_settings, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -45598,7 +45598,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_InitCommunication_m36B4
 		return (int32_t)(L_2);
 	}
 }
-// Method Definition Index: 35464
+// Method Definition Index: 35570
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_Term_mDC9E704FA7D3E99D9A0D8B92851538AAC82A86AA (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -45615,7 +45615,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_Term_mDC9E704FA7D3E99D9A0D
 		return;
 	}
 }
-// Method Definition Index: 35465
+// Method Definition Index: 35571
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_RegisterGameObjInternal_mBD27225D9DB00BEC683132622A48E77416C740FC (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_in_GameObj, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -45637,7 +45637,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_RegisterGameObjInternal
 		return (int32_t)(L_2);
 	}
 }
-// Method Definition Index: 35466
+// Method Definition Index: 35572
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_UnregisterGameObjInternal_m560AD3C9530D7A558F51B0FF0C1354CCEEBA212F (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_in_GameObj, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -45659,7 +45659,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_UnregisterGameObjIntern
 		return (int32_t)(L_2);
 	}
 }
-// Method Definition Index: 35467
+// Method Definition Index: 35573
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_RegisterGameObjInternal_WithName_m158604A894E3F241B8741F550EF5FDF6A1424E46 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_in_GameObj, String_t* ___1_in_pszObjName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -45682,7 +45682,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_RegisterGameObjInternal
 		return (int32_t)(L_3);
 	}
 }
-// Method Definition Index: 35468
+// Method Definition Index: 35574
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetBasePath_m4A27C51A8426A25C652C1B62A722B8091DC2C942 (String_t* ___0_in_pszBasePath, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -45700,7 +45700,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetBasePath_m4A27C51A84
 		return (int32_t)(L_1);
 	}
 }
-// Method Definition Index: 35469
+// Method Definition Index: 35575
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetCurrentLanguage_m25F8C6A0C6AB8672143B22FBC97C5F5B1E531C50 (String_t* ___0_in_pszAudioSrcPath, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -45718,7 +45718,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetCurrentLanguage_m25F
 		return (int32_t)(L_1);
 	}
 }
-// Method Definition Index: 35470
+// Method Definition Index: 35576
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_LoadFilePackage_mCAD9D7D80429DAD72C8A3748D7E20405D2C0C2C5 (String_t* ___0_in_pszFilePackageName, uint32_t* ___1_out_uPackageID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -45737,7 +45737,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_LoadFilePackage_mCAD9D7
 		return (int32_t)(L_2);
 	}
 }
-// Method Definition Index: 35471
+// Method Definition Index: 35577
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_AddBasePath_m17EB4F9671160D31EBE4B3AEF4CF8479C536C944 (String_t* ___0_in_pszBasePath, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -45755,7 +45755,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_AddBasePath_m17EB4F9671
 		return (int32_t)(L_1);
 	}
 }
-// Method Definition Index: 35472
+// Method Definition Index: 35578
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetGameName_m743CC83614D4D61A76AD651A1F9FFE0CAACF4912 (String_t* ___0_in_GameName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -45773,7 +45773,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetGameName_m743CC83614
 		return (int32_t)(L_1);
 	}
 }
-// Method Definition Index: 35473
+// Method Definition Index: 35579
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetDecodedBankPath_m470FB3D3844F1D3E4E8F87D5D21696D10E1E04BD (String_t* ___0_in_DecodedPath, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -45791,7 +45791,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetDecodedBankPath_m470
 		return (int32_t)(L_1);
 	}
 }
-// Method Definition Index: 35474
+// Method Definition Index: 35580
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_LoadAndDecodeBank_mD316F65C348C72CF8076807935F4F8BD85635042 (String_t* ___0_in_pszString, bool ___1_in_bSaveDecodedBank, uint32_t* ___2_out_bankID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -45811,7 +45811,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_LoadAndDecodeBank_mD316
 		return (int32_t)(L_3);
 	}
 }
-// Method Definition Index: 35475
+// Method Definition Index: 35581
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_LoadAndDecodeBankFromMemory_mE96C81F2C78B724E2D8B2BE3AA3E62C3BBBD34D3 (intptr_t ___0_in_BankData, uint32_t ___1_in_BankDataSize, bool ___2_in_bSaveDecodedBank, String_t* ___3_in_DecodedBankName, bool ___4_in_bIsLanguageSpecific, uint32_t* ___5_out_bankID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -45834,7 +45834,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_LoadAndDecodeBankFromMe
 		return (int32_t)(L_6);
 	}
 }
-// Method Definition Index: 35476
+// Method Definition Index: 35582
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_PostEventOnRoom_m5EE1ECDB4FBB669AEF62F160CCF352C79BB653C7 (String_t* ___0_in_pszEventName, uint64_t ___1_in_roomID, uint32_t ___2_in_uFlags, EventCallback_tC131EB7ACC070D9F34CFD326C871BE0753542992* ___3_in_pfnCallback, RuntimeObject* ___4_in_pCookie, uint32_t ___5_in_cExternals, AkExternalSourceInfoArray_t2328B945C52A1FE41490ACF9707757D084BAD56E* ___6_in_pExternalSources, uint32_t ___7_in_PlayingID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -45973,7 +45973,7 @@ IL_0036:
 		return L_17;
 	}
 }
-// Method Definition Index: 35477
+// Method Definition Index: 35583
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_PostEventOnRoom_mAE98390504680012A67E7ED82DC59C908F31DF01 (String_t* ___0_in_pszEventName, uint64_t ___1_in_roomID, uint32_t ___2_in_uFlags, EventCallback_tC131EB7ACC070D9F34CFD326C871BE0753542992* ___3_in_pfnCallback, RuntimeObject* ___4_in_pCookie, uint32_t ___5_in_cExternals, AkExternalSourceInfoArray_t2328B945C52A1FE41490ACF9707757D084BAD56E* ___6_in_pExternalSources, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -46111,7 +46111,7 @@ IL_0036:
 		return L_16;
 	}
 }
-// Method Definition Index: 35478
+// Method Definition Index: 35584
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_PostEventOnRoom_m2B4BB623860A6F39A96A241E6B5A738A30B8D2C7 (String_t* ___0_in_pszEventName, uint64_t ___1_in_roomID, uint32_t ___2_in_uFlags, EventCallback_tC131EB7ACC070D9F34CFD326C871BE0753542992* ___3_in_pfnCallback, RuntimeObject* ___4_in_pCookie, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -46243,7 +46243,7 @@ IL_0036:
 		return L_13;
 	}
 }
-// Method Definition Index: 35479
+// Method Definition Index: 35585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_PostEventOnRoom_mEF8C01F8EE302907CADD5FE0ADD68F0CFDC8C1E5 (String_t* ___0_in_pszEventName, uint64_t ___1_in_roomID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -46268,7 +46268,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_PostEventOnRoom_mEF8C0
 		return L_3;
 	}
 }
-// Method Definition Index: 35480
+// Method Definition Index: 35586
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AkSoundEngine_GetCurrentLanguage_m035CEB2880B5AFE0592737D2CCD46DCE3857CC71 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -46289,7 +46289,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AkSoundEngine_GetCurrentLanguage_m0
 		return L_1;
 	}
 }
-// Method Definition Index: 35481
+// Method Definition Index: 35587
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_UnloadFilePackage_m7C5F07CD98219A9AEF5F9DF43AFB99B4E8E40E67 (uint32_t ___0_in_uPackageID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -46307,7 +46307,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_UnloadFilePackage_m7C5F
 		return (int32_t)(L_1);
 	}
 }
-// Method Definition Index: 35482
+// Method Definition Index: 35588
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_UnloadAllFilePackages_mB61B5B72A3473D2813FA6CF5D163A08F0D184825 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -46324,7 +46324,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_UnloadAllFilePackages_m
 		return (int32_t)(L_0);
 	}
 }
-// Method Definition Index: 35483
+// Method Definition Index: 35589
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetObjectPosition_mB3A5378BC19A6CD98088C31C8CF9E0B559A2FE90 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_in_GameObjectID, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_Pos, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_Front, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___3_Top, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -46349,7 +46349,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetObjectPosition_mB3A5
 		return (int32_t)(L_5);
 	}
 }
-// Method Definition Index: 35484
+// Method Definition Index: 35590
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetSourceMultiplePlayPositions_mC33DEC6F92645BC217DBB2C539B19B6EDBF93E44 (uint32_t ___0_in_PlayingID, UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___1_out_audioNodeID, UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___2_out_mediaID, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___3_out_msTime, uint32_t* ___4_io_pcPositions, bool ___5_in_bExtrapolate, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -46372,7 +46372,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetSourceMultiplePlayPo
 		return (int32_t)(L_6);
 	}
 }
-// Method Definition Index: 35485
+// Method Definition Index: 35591
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetSourceMultiplePlayPositions_m1C9388FB82D4C65023123748DAE9BF7CD6E06B93 (uint32_t ___0_in_PlayingID, UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___1_out_audioNodeID, UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___2_out_mediaID, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___3_out_msTime, uint32_t* ___4_io_pcPositions, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -46394,7 +46394,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_GetSourceMultiplePlayPo
 		return (int32_t)(L_5);
 	}
 }
-// Method Definition Index: 35486
+// Method Definition Index: 35592
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetListeners_mE1E7CFDBF32D6E302B236C70F22ED0F413211DD5 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_in_emitterGameObj, UInt64U5BU5D_tAB1A62450AC0899188486EDB9FC066B8BEED9299* ___1_in_pListenerGameObjs, uint32_t ___2_in_uNumListeners, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -46426,7 +46426,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetListeners_mE1E7CFDBF
 		return (int32_t)(L_7);
 	}
 }
-// Method Definition Index: 35487
+// Method Definition Index: 35593
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetDefaultListeners_mBE2D56DBFC04747DD5E61B57AFDEE7FE03998BEC (UInt64U5BU5D_tAB1A62450AC0899188486EDB9FC066B8BEED9299* ___0_in_pListenerObjs, uint32_t ___1_in_uNumListeners, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -46445,7 +46445,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetDefaultListeners_mBE
 		return (int32_t)(L_2);
 	}
 }
-// Method Definition Index: 35488
+// Method Definition Index: 35594
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_AddOutput_mD761261B8C619770A29C9CAD459C1E0C90586B5C (AkOutputSettings_t340FC311B9819E180B2840CE4A7430DB05F0E7A4* ___0_in_Settings, uint64_t* ___1_out_pDeviceID, UInt64U5BU5D_tAB1A62450AC0899188486EDB9FC066B8BEED9299* ___2_in_pListenerIDs, uint32_t ___3_in_uNumListeners, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -46468,7 +46468,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_AddOutput_mD761261B8C61
 		return (int32_t)(L_5);
 	}
 }
-// Method Definition Index: 35489
+// Method Definition Index: 35595
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_AddOutput_m9F576BCF9EF342EB521E1F7CB0E8B10885213B79 (AkOutputSettings_t340FC311B9819E180B2840CE4A7430DB05F0E7A4* ___0_in_Settings, uint64_t* ___1_out_pDeviceID, UInt64U5BU5D_tAB1A62450AC0899188486EDB9FC066B8BEED9299* ___2_in_pListenerIDs, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -46490,7 +46490,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_AddOutput_m9F576BCF9EF3
 		return (int32_t)(L_4);
 	}
 }
-// Method Definition Index: 35490
+// Method Definition Index: 35596
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_AddOutput_m14A9B42BB3FF562F856D8912442EA1688E098BAD (AkOutputSettings_t340FC311B9819E180B2840CE4A7430DB05F0E7A4* ___0_in_Settings, uint64_t* ___1_out_pDeviceID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -46511,7 +46511,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_AddOutput_m14A9B42BB3FF
 		return (int32_t)(L_3);
 	}
 }
-// Method Definition Index: 35491
+// Method Definition Index: 35597
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_AddOutput_mD0A840F2A13EFA26492A0D6EEC7A5DCCB6F67711 (AkOutputSettings_t340FC311B9819E180B2840CE4A7430DB05F0E7A4* ___0_in_Settings, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -46531,7 +46531,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_AddOutput_mD0A840F2A13E
 		return (int32_t)(L_2);
 	}
 }
-// Method Definition Index: 35492
+// Method Definition Index: 35598
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_GetDefaultStreamSettings_m46BF017686397555DC2036673692D40597C8A80D (AkStreamMgrSettings_t20751F97A63BB143B46BE06D56B2F5B0767DC940* ___0_out_settings, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -46551,7 +46551,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_GetDefaultStreamSettings_m
 		return;
 	}
 }
-// Method Definition Index: 35493
+// Method Definition Index: 35599
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_GetDefaultDeviceSettings_mDB54737EF9FEA54B302802C741C36FB169054D5F (AkDeviceSettings_tEF6BA0FC2D6D6A0E8F51629443D4B8533C1D9978* ___0_out_settings, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -46571,7 +46571,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_GetDefaultDeviceSettings_m
 		return;
 	}
 }
-// Method Definition Index: 35494
+// Method Definition Index: 35600
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_GetDefaultMusicSettings_m0589F5561892FF3547DC07234488C24C7943DAA4 (AkMusicSettings_t8413D30172114CB80F2433E30DE5CBF901D263C2* ___0_out_settings, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -46591,7 +46591,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_GetDefaultMusicSettings_m0
 		return;
 	}
 }
-// Method Definition Index: 35495
+// Method Definition Index: 35601
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_GetDefaultInitSettings_mB10A0948907059D38F3E593F8ACD54A0089D9C29 (AkInitSettings_t457552174755CBC42DF32F9C317D0A2904260A1A* ___0_out_settings, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -46611,7 +46611,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_GetDefaultInitSettings_mB1
 		return;
 	}
 }
-// Method Definition Index: 35496
+// Method Definition Index: 35602
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_GetDefaultPlatformInitSettings_mCFFB0372F365E67B8ED77A6A765E617EA0190F0E (AkPlatformInitSettings_t171CB8351D03371547B67FFD9C14D6906ADA2A85* ___0_out_settings, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -46631,7 +46631,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_GetDefaultPlatformInitSett
 		return;
 	}
 }
-// Method Definition Index: 35497
+// Method Definition Index: 35603
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_GetMajorMinorVersion_m0FAA612AB05D61873A1806D42FEFCC2034E1BC62 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -46648,7 +46648,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_GetMajorMinorVersion_m
 		return L_0;
 	}
 }
-// Method Definition Index: 35498
+// Method Definition Index: 35604
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_GetSubminorBuildVersion_m16D6A780E168BF6773299511B19FEDDE9155DC24 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -46665,7 +46665,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_GetSubminorBuildVersio
 		return L_0;
 	}
 }
-// Method Definition Index: 35499
+// Method Definition Index: 35605
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_StartResourceMonitoring_m9BF36665055D100EBAE322C6D6B40BC246AB4DEB (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -46682,7 +46682,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_StartResourceMonitoring_m9
 		return;
 	}
 }
-// Method Definition Index: 35500
+// Method Definition Index: 35606
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_StopResourceMonitoring_mE1A6F9244D0DD1DD4FEC731573A137716584C086 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -46699,7 +46699,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_StopResourceMonitoring_mE1
 		return;
 	}
 }
-// Method Definition Index: 35501
+// Method Definition Index: 35607
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_GetResourceMonitorDataSummary_mC6C8DE630A4F912B2B645C6B4FB6068006BA9C9F (AkResourceMonitorDataSummary_t6B7BF7EB9B603D982D700F0490AF35E09D96BD0A* ___0_resourceMonitorDataSummary, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -46719,7 +46719,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_GetResourceMonitorDataSumm
 		return;
 	}
 }
-// Method Definition Index: 35502
+// Method Definition Index: 35608
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetRoomPortal_mE8668C8393152C006D7527641F4D3B06A387817E (uint64_t ___0_in_PortalID, AkTransform_tA000159588AFB04BD21335BA166ED73FD972A07D* ___1_Transform, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_Extent, bool ___3_bEnabled, uint64_t ___4_FrontRoom, uint64_t ___5_BackRoom, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -46744,7 +46744,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetRoomPortal_mE8668C83
 		return (int32_t)(L_7);
 	}
 }
-// Method Definition Index: 35503
+// Method Definition Index: 35609
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetRoom_m937FC0986B57BC61505249D3DF6A232D79790776 (uint64_t ___0_in_RoomID, AkRoomParams_tA58D4480417190C0AE69033FBCFDA7D2FCE80CA9* ___1_in_roomParams, String_t* ___2_in_pName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -46766,7 +46766,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetRoom_m937FC0986B57BC
 		return (int32_t)(L_4);
 	}
 }
-// Method Definition Index: 35504
+// Method Definition Index: 35610
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_RegisterSpatialAudioListener_m59BF826FA706FA9ACC24584B5F959A1537294211 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_in_gameObjectID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -46796,7 +46796,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_RegisterSpatialAudioLis
 		return (int32_t)(L_5);
 	}
 }
-// Method Definition Index: 35505
+// Method Definition Index: 35611
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_UnregisterSpatialAudioListener_mE6F3E47D674466D7667E3592EDFAD9E35B6A4894 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_in_gameObjectID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -46826,7 +46826,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_UnregisterSpatialAudioL
 		return (int32_t)(L_5);
 	}
 }
-// Method Definition Index: 35506
+// Method Definition Index: 35612
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetGeometry_m91383832F679DE950215F0DBB5A6E2EE179B2DC1 (uint64_t ___0_in_GeomSetID, AkTriangleArray_t44A0D3BA6849AA61C96D1180B4E350B56A60FE46* ___1_Triangles, uint32_t ___2_NumTriangles, Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___3_Vertices, uint32_t ___4_NumVertices, AkAcousticSurfaceArray_tA4CF922244F83FCC4880B036136877BC18464DA9* ___5_Surfaces, uint32_t ___6_NumSurfaces, uint64_t ___7_RoomID, bool ___8_EnableDiffraction, bool ___9_EnableDiffractionOnBoundaryEdges, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -46861,7 +46861,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetGeometry_m91383832F6
 		return (int32_t)(L_12);
 	}
 }
-// Method Definition Index: 35507
+// Method Definition Index: 35613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_PostEventOnRoom_mC63BA5CDFB114703511AC1DBF72ABB3153BDE4CF (uint32_t ___0_in_eventID, uint64_t ___1_in_roomID, uint32_t ___2_in_uFlags, EventCallback_tC131EB7ACC070D9F34CFD326C871BE0753542992* ___3_in_pfnCallback, RuntimeObject* ___4_in_pCookie, uint32_t ___5_in_cExternals, AkExternalSourceInfoArray_t2328B945C52A1FE41490ACF9707757D084BAD56E* ___6_in_pExternalSources, uint32_t ___7_in_PlayingID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -47000,7 +47000,7 @@ IL_0036:
 		return L_17;
 	}
 }
-// Method Definition Index: 35508
+// Method Definition Index: 35614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_PostEventOnRoom_m538FBCBAA4E0ADB233ACE2BCCA9EEFFDF379625C (uint32_t ___0_in_eventID, uint64_t ___1_in_roomID, uint32_t ___2_in_uFlags, EventCallback_tC131EB7ACC070D9F34CFD326C871BE0753542992* ___3_in_pfnCallback, RuntimeObject* ___4_in_pCookie, uint32_t ___5_in_cExternals, AkExternalSourceInfoArray_t2328B945C52A1FE41490ACF9707757D084BAD56E* ___6_in_pExternalSources, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -47138,7 +47138,7 @@ IL_0036:
 		return L_16;
 	}
 }
-// Method Definition Index: 35509
+// Method Definition Index: 35615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_PostEventOnRoom_mB69BC1BEED1C637B942F54AF5C43889044E1109E (uint32_t ___0_in_eventID, uint64_t ___1_in_roomID, uint32_t ___2_in_uFlags, EventCallback_tC131EB7ACC070D9F34CFD326C871BE0753542992* ___3_in_pfnCallback, RuntimeObject* ___4_in_pCookie, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -47270,7 +47270,7 @@ IL_0036:
 		return L_13;
 	}
 }
-// Method Definition Index: 35510
+// Method Definition Index: 35616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_PostEventOnRoom_m0190C6DBE32E99B4712701BA3819F87EE036BF64 (uint32_t ___0_in_eventID, uint64_t ___1_in_roomID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -47295,7 +47295,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkSoundEngine_PostEventOnRoom_m0190C
 		return L_3;
 	}
 }
-// Method Definition Index: 35511
+// Method Definition Index: 35617
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AkSoundEngine_StringFromIntPtrOSString_mC51EDBCC6B9F38C16BCE9E41A23247C7C01436A9 (intptr_t ___0_ptr, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -47313,7 +47313,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AkSoundEngine_StringFromIntPtrOSStr
 		return L_1;
 	}
 }
-// Method Definition Index: 35512
+// Method Definition Index: 35618
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AkSoundEngine_StringFromIntPtrString_mBF1378D6E95897BB84FD8AF1DFE811A529F40B6B (intptr_t ___0_ptr, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -47331,7 +47331,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AkSoundEngine_StringFromIntPtrStrin
 		return L_1;
 	}
 }
-// Method Definition Index: 35513
+// Method Definition Index: 35619
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AkSoundEngine_StringFromIntPtrWString_m7575ED0E12743A9B2D45033C44547E82B2CFDA5E (intptr_t ___0_ptr, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -47349,7 +47349,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AkSoundEngine_StringFromIntPtrWStri
 		return L_1;
 	}
 }
-// Method Definition Index: 35514
+// Method Definition Index: 35620
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t AkSoundEngine_InternalGameObjectHash_m1F311212FB6A55475485412309A5C24F26C44752 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_gameObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -47382,7 +47382,7 @@ IL_0011:
 		return ((int64_t)(-1));
 	}
 }
-// Method Definition Index: 35515
+// Method Definition Index: 35621
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_set_GameObjectHash_m6A52E69D1D19432E8FA4957D3D9BD0E93CDFB779 (GameObjectHashFunction_t13E458EEF67306FECA46C4DEF5C24984B9F3108C* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -47424,7 +47424,7 @@ IL_0012:
 		return;
 	}
 }
-// Method Definition Index: 35516
+// Method Definition Index: 35622
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t AkSoundEngine_GetAkGameObjectID_m491B7E6A0BAFE7F5D241C92EF7EDF3A5786FC9FC (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_gameObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -47444,7 +47444,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t AkSoundEngine_GetAkGameObjectID_m491
 		return L_2;
 	}
 }
-// Method Definition Index: 35517
+// Method Definition Index: 35623
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_RegisterGameObj_mFCCA2E405D078804B142992E45834303109BE04D (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_gameObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -47476,7 +47476,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_RegisterGameObj_mFCCA2E
 		return (int32_t)(L_4);
 	}
 }
-// Method Definition Index: 35518
+// Method Definition Index: 35624
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_RegisterGameObj_m8874AF701D978E10390B4271B5379D6C2052A9B1 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_gameObject, String_t* ___1_name, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -47509,7 +47509,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_RegisterGameObj_m8874AF
 		return (int32_t)(L_5);
 	}
 }
-// Method Definition Index: 35519
+// Method Definition Index: 35625
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_UnregisterGameObj_m20E173610896286DB81B36DCEEF120FA7307D24F (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_gameObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -47541,7 +47541,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_UnregisterGameObj_m20E1
 		return (int32_t)(L_4);
 	}
 }
-// Method Definition Index: 35520
+// Method Definition Index: 35626
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AkSoundEngine_get_WwiseVersion_mBA0C9978ADDB2D9C776C001896F23556A63C55F3 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -47613,7 +47613,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AkSoundEngine_get_WwiseVersion_mBA0
 		return L_22;
 	}
 }
-// Method Definition Index: 35521
+// Method Definition Index: 35627
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetObjectPosition_mDD094B434204BA6A76B2791DF828D3B39889CD7F (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_gameObject, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_transform, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -47648,7 +47648,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetObjectPosition_mDD09
 		return (int32_t)(L_8);
 	}
 }
-// Method Definition Index: 35522
+// Method Definition Index: 35628
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetObjectPosition_m4B872AE2D82F2D8EA721A942C542D296DEC281A1 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_gameObject, float ___1_posX, float ___2_posY, float ___3_posZ, float ___4_frontX, float ___5_frontY, float ___6_frontZ, float ___7_topX, float ___8_topY, float ___9_topZ, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -47695,7 +47695,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkSoundEngine_SetObjectPosition_m4B87
 		return (int32_t)(L_14);
 	}
 }
-// Method Definition Index: 35523
+// Method Definition Index: 35629
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_PreGameObjectAPICall_mC54611AA0D2D908C16ABC15A0DAE14B5B288814A (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_gameObject, uint64_t ___1_id, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -47714,7 +47714,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_PreGameObjectAPICall_mC546
 		return;
 	}
 }
-// Method Definition Index: 35524
+// Method Definition Index: 35630
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_PreGameObjectAPICallUserHook_m8C540AA9BCB9364234FCF84E2EE089AF8DA8704C (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_gameObject, uint64_t ___1_id, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -47757,7 +47757,7 @@ IL_0016:
 		return;
 	}
 }
-// Method Definition Index: 35525
+// Method Definition Index: 35631
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_PostRegisterGameObjUserHook_m03424C07BB4BFBC9B00836E938E0299C4B1F478E (int32_t ___0_result, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_gameObject, uint64_t ___2_id, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -47791,7 +47791,7 @@ IL_0010:
 		return;
 	}
 }
-// Method Definition Index: 35526
+// Method Definition Index: 35632
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_PostUnregisterGameObjUserHook_m793A29D26FAA50CAAB5F2DFC5021C86DD0E3FEF3 (int32_t ___0_result, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_gameObject, uint64_t ___2_id, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -47825,7 +47825,7 @@ IL_0010:
 		return;
 	}
 }
-// Method Definition Index: 35527
+// Method Definition Index: 35633
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine_AutoRegister_mFF19167332110798458421B8C90B6F6D2DC78EEE (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_gameObject, uint64_t ___1_id, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -47897,7 +47897,7 @@ IL_002e:
 		return;
 	}
 }
-// Method Definition Index: 35528
+// Method Definition Index: 35634
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEngine_IsInRegisteredList_m446F199159B97948CA631B0673ACB0EDDD7B542F (uint64_t ___0_id, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -47918,7 +47918,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEngine_IsInRegisteredList_m446F19
 		return L_2;
 	}
 }
-// Method Definition Index: 35529
+// Method Definition Index: 35635
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEngine_IsGameObjectRegistered_m1814D15A09711C5295381ED6A8517BF13DEF0BE9 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_in_gameObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -47938,7 +47938,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkSoundEngine_IsGameObjectRegistered_m18
 		return L_2;
 	}
 }
-// Method Definition Index: 35530
+// Method Definition Index: 35636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine__ctor_m083A16A4574C2F58FF8AEE83B9E793053C316EF5 (AkSoundEngine_t7FCD40508678578DF78594F908EC51BBC396682C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -47946,7 +47946,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine__ctor_m083A16A4574C2F58FF8
 		return;
 	}
 }
-// Method Definition Index: 35531
+// Method Definition Index: 35637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkSoundEngine__cctor_m0D79EF0012734938FCC88E9666F1B58BCA991C74 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -48006,7 +48006,7 @@ uint64_t GameObjectHashFunction_Invoke_m1065BA3C0E33E6F5463E5CF49CD35ED58D424783
 	typedef uint64_t (*FunctionPointerType) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_gameObject, method);
 }
-// Method Definition Index: 35532
+// Method Definition Index: 35638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObjectHashFunction__ctor_mF7EA3DBA9A4A2852DC8E4ADC50957D2226538DF7 (GameObjectHashFunction_t13E458EEF67306FECA46C4DEF5C24984B9F3108C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -48043,20 +48043,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObjectHashFunction__ctor_mF7EA3DBA9A
 	}
 	__this->___extra_arg = (intptr_t)&GameObjectHashFunction_Invoke_m1065BA3C0E33E6F5463E5CF49CD35ED58D424783_Multicast;
 }
-// Method Definition Index: 35533
+// Method Definition Index: 35639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t GameObjectHashFunction_Invoke_m1065BA3C0E33E6F5463E5CF49CD35ED58D424783 (GameObjectHashFunction_t13E458EEF67306FECA46C4DEF5C24984B9F3108C* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_gameObject, const RuntimeMethod* method) 
 {
 	typedef uint64_t (*FunctionPointerType) (RuntimeObject*, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_gameObject, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 35534
+// Method Definition Index: 35640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObjectHashFunction_BeginInvoke_mDFB8FBDCA17AD723798ED829D6D4ADBC0966BA26 (GameObjectHashFunction_t13E458EEF67306FECA46C4DEF5C24984B9F3108C* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_gameObject, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
 {
 	void *__d_args[2] = {0};
 	__d_args[0] = ___0_gameObject;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
 }
-// Method Definition Index: 35535
+// Method Definition Index: 35641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t GameObjectHashFunction_EndInvoke_mE7B75DD1CD90687183A8883D6985A4370973CFB3 (GameObjectHashFunction_t13E458EEF67306FECA46C4DEF5C24984B9F3108C* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -48070,7 +48070,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t GameObjectHashFunction_EndInvoke_mE7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 35536
+// Method Definition Index: 35642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutoObject__ctor_m5522EBCEE8F87C72949A5A188F7F8FB034B4E8C8 (AutoObject_t0AC956270897A630469C6A30A04FDF9A8092A3F3* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_go, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -48133,7 +48133,7 @@ IL_003d:
 		return;
 	}
 }
-// Method Definition Index: 35537
+// Method Definition Index: 35643
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutoObject_Finalize_mF2B281FB3A8BF16B83063ADD319AF81208E41056 (AutoObject_t0AC956270897A630469C6A30A04FDF9A8092A3F3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -48182,7 +48182,7 @@ IL_0015:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 35538
+// Method Definition Index: 35644
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkThreadProperties__ctor_m8E6C307ED0179BACF387E1D55154B88B2CDF50CD (AkThreadProperties_t0810A2AB3ADCC6743605805A6861023DC9172CEE* __this, intptr_t ___0_cPtr, bool ___1_cMemoryOwn, const RuntimeMethod* method) 
 {
 	{
@@ -48198,7 +48198,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkThreadProperties__ctor_m8E6C307ED0179B
 		return;
 	}
 }
-// Method Definition Index: 35539
+// Method Definition Index: 35645
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkThreadProperties_getCPtr_m58425B5CCD4EA697AA78493F33F2365969860924 (AkThreadProperties_t0810A2AB3ADCC6743605805A6861023DC9172CEE* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -48221,7 +48221,7 @@ IL_000a:
 		return 0;
 	}
 }
-// Method Definition Index: 35540
+// Method Definition Index: 35646
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkThreadProperties_setCPtr_mB0CD50229FE54B0CA6BCE4C226659AE8DAD35845 (AkThreadProperties_t0810A2AB3ADCC6743605805A6861023DC9172CEE* __this, intptr_t ___0_cPtr, const RuntimeMethod* method) 
 {
 	{
@@ -48234,7 +48234,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkThreadProperties_setCPtr_mB0CD50229FE5
 		return;
 	}
 }
-// Method Definition Index: 35541
+// Method Definition Index: 35647
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkThreadProperties_Finalize_m5F6AD7354C4987285107D07F9456B7032B3EF5E0 (AkThreadProperties_t0810A2AB3ADCC6743605805A6861023DC9172CEE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -48266,7 +48266,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 35542
+// Method Definition Index: 35648
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkThreadProperties_Dispose_m04469B90F178FA50A9FF30161A32ABC38E89B836 (AkThreadProperties_t0810A2AB3ADCC6743605805A6861023DC9172CEE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -48365,7 +48365,7 @@ IL_0055:
 		return;
 	}
 }
-// Method Definition Index: 35543
+// Method Definition Index: 35649
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkThreadProperties_set_nPriority_m9A69FA1AEAA4AAE37C94D7DF77C2A36D0FE1C844 (AkThreadProperties_t0810A2AB3ADCC6743605805A6861023DC9172CEE* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -48384,7 +48384,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkThreadProperties_set_nPriority_m9A69FA
 		return;
 	}
 }
-// Method Definition Index: 35544
+// Method Definition Index: 35650
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkThreadProperties_get_nPriority_mE78B9208F15D4F76CF5CA2A98A5E9F041D79B668 (AkThreadProperties_t0810A2AB3ADCC6743605805A6861023DC9172CEE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -48402,7 +48402,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkThreadProperties_get_nPriority_mE78
 		return L_1;
 	}
 }
-// Method Definition Index: 35545
+// Method Definition Index: 35651
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkThreadProperties_set_uStackSize_mB80E964CEAAE28CDA75F6F48D79C3F21597FE37A (AkThreadProperties_t0810A2AB3ADCC6743605805A6861023DC9172CEE* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -48421,7 +48421,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkThreadProperties_set_uStackSize_mB80E9
 		return;
 	}
 }
-// Method Definition Index: 35546
+// Method Definition Index: 35652
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkThreadProperties_get_uStackSize_m667D4C4486707FC357300CEB7FEC0CAD8464E82A (AkThreadProperties_t0810A2AB3ADCC6743605805A6861023DC9172CEE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -48439,7 +48439,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkThreadProperties_get_uStackSize_m6
 		return L_1;
 	}
 }
-// Method Definition Index: 35547
+// Method Definition Index: 35653
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkThreadProperties_set_uSchedPolicy_mCDD450B9A4DE210D9950BF4C732D500FE78FB38F (AkThreadProperties_t0810A2AB3ADCC6743605805A6861023DC9172CEE* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -48458,7 +48458,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkThreadProperties_set_uSchedPolicy_mCDD
 		return;
 	}
 }
-// Method Definition Index: 35548
+// Method Definition Index: 35654
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkThreadProperties_get_uSchedPolicy_m972351490073A16EAD7AF1C4F3A883A4C64C5D04 (AkThreadProperties_t0810A2AB3ADCC6743605805A6861023DC9172CEE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -48476,7 +48476,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkThreadProperties_get_uSchedPolicy_m
 		return L_1;
 	}
 }
-// Method Definition Index: 35549
+// Method Definition Index: 35655
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkThreadProperties_set_dwAffinityMask_m9287830C167B8D35AB0D9E339405D8201278AEF9 (AkThreadProperties_t0810A2AB3ADCC6743605805A6861023DC9172CEE* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -48495,7 +48495,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkThreadProperties_set_dwAffinityMask_m9
 		return;
 	}
 }
-// Method Definition Index: 35550
+// Method Definition Index: 35656
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkThreadProperties_get_dwAffinityMask_m2300F56BC400313B9045A07DFF7FC02AA226E07F (AkThreadProperties_t0810A2AB3ADCC6743605805A6861023DC9172CEE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -48513,7 +48513,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkThreadProperties_get_dwAffinityMas
 		return L_1;
 	}
 }
-// Method Definition Index: 35551
+// Method Definition Index: 35657
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkThreadProperties__ctor_m916DF24F982DD555976278F9A78D2BF366EE37CF (AkThreadProperties_t0810A2AB3ADCC6743605805A6861023DC9172CEE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -48540,7 +48540,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkThreadProperties__ctor_m916DF24F982DD5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 35552
+// Method Definition Index: 35658
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkUnityPlatformSpecificSettings__ctor_mFF5D6C5CAA111560031CB70361476C0D99B63806 (AkUnityPlatformSpecificSettings_tAE47E97EBB9812CC4A8CDA9276A8EA8358A5F28B* __this, intptr_t ___0_cPtr, bool ___1_cMemoryOwn, const RuntimeMethod* method) 
 {
 	{
@@ -48556,7 +48556,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkUnityPlatformSpecificSettings__ctor_mF
 		return;
 	}
 }
-// Method Definition Index: 35553
+// Method Definition Index: 35659
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkUnityPlatformSpecificSettings_getCPtr_m5F09C116BD8C240D53FD50502055A0DF94203F43 (AkUnityPlatformSpecificSettings_tAE47E97EBB9812CC4A8CDA9276A8EA8358A5F28B* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -48579,7 +48579,7 @@ IL_000a:
 		return 0;
 	}
 }
-// Method Definition Index: 35554
+// Method Definition Index: 35660
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkUnityPlatformSpecificSettings_setCPtr_m7783E191B086A8F8918E5C5C741F861E6BE678E9 (AkUnityPlatformSpecificSettings_tAE47E97EBB9812CC4A8CDA9276A8EA8358A5F28B* __this, intptr_t ___0_cPtr, const RuntimeMethod* method) 
 {
 	{
@@ -48592,7 +48592,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkUnityPlatformSpecificSettings_setCPtr_
 		return;
 	}
 }
-// Method Definition Index: 35555
+// Method Definition Index: 35661
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkUnityPlatformSpecificSettings_Finalize_mE6E874CC44F46CF3D2EFDE67AC6D464BE5120279 (AkUnityPlatformSpecificSettings_tAE47E97EBB9812CC4A8CDA9276A8EA8358A5F28B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -48624,7 +48624,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 35556
+// Method Definition Index: 35662
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkUnityPlatformSpecificSettings_Dispose_m67A0E1F91957F0108D0AC78D2334093EC66A1B96 (AkUnityPlatformSpecificSettings_tAE47E97EBB9812CC4A8CDA9276A8EA8358A5F28B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -48747,7 +48747,7 @@ IL_0055:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 35557
+// Method Definition Index: 35663
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAcousticSurface__ctor_mBA53B067BCBF096CF2F4B6CADA375AA434AC67D2 (AkAcousticSurface_t5092DA1853F2DCB439AACE5D2DCCD79708AF7D9B* __this, intptr_t ___0_cPtr, bool ___1_cMemoryOwn, const RuntimeMethod* method) 
 {
 	{
@@ -48763,7 +48763,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAcousticSurface__ctor_mBA53B067BCBF096
 		return;
 	}
 }
-// Method Definition Index: 35558
+// Method Definition Index: 35664
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkAcousticSurface_getCPtr_m6C50DA4F5BB590A93C5A9DAA2733D6AF543EADDE (AkAcousticSurface_t5092DA1853F2DCB439AACE5D2DCCD79708AF7D9B* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -48786,7 +48786,7 @@ IL_000a:
 		return 0;
 	}
 }
-// Method Definition Index: 35559
+// Method Definition Index: 35665
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAcousticSurface_setCPtr_m536459E73264EF061DE8F9479053F2F084524D8B (AkAcousticSurface_t5092DA1853F2DCB439AACE5D2DCCD79708AF7D9B* __this, intptr_t ___0_cPtr, const RuntimeMethod* method) 
 {
 	{
@@ -48799,7 +48799,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAcousticSurface_setCPtr_m536459E73264E
 		return;
 	}
 }
-// Method Definition Index: 35560
+// Method Definition Index: 35666
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAcousticSurface_Finalize_m4060BC87786E832078C65727DFBFAA0DAF85CB12 (AkAcousticSurface_t5092DA1853F2DCB439AACE5D2DCCD79708AF7D9B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -48831,7 +48831,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 35561
+// Method Definition Index: 35667
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAcousticSurface_Dispose_mC145BE008ADD2BDBB2D06794AAAB505BA4E8C287 (AkAcousticSurface_t5092DA1853F2DCB439AACE5D2DCCD79708AF7D9B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -48930,7 +48930,7 @@ IL_0055:
 		return;
 	}
 }
-// Method Definition Index: 35562
+// Method Definition Index: 35668
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAcousticSurface__ctor_m4BC7A5EAF6149BDF41A52557917E43EA173233EF (AkAcousticSurface_t5092DA1853F2DCB439AACE5D2DCCD79708AF7D9B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -48949,7 +48949,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAcousticSurface__ctor_m4BC7A5EAF6149BD
 		return;
 	}
 }
-// Method Definition Index: 35563
+// Method Definition Index: 35669
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAcousticSurface_set_textureID_mDC6D1DC9C4FA781F6C89C3ADF84201B49B97C443 (AkAcousticSurface_t5092DA1853F2DCB439AACE5D2DCCD79708AF7D9B* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -48968,7 +48968,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAcousticSurface_set_textureID_mDC6D1DC
 		return;
 	}
 }
-// Method Definition Index: 35564
+// Method Definition Index: 35670
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkAcousticSurface_get_textureID_m3FAF764F019C74C182A265689B75C32929F063F8 (AkAcousticSurface_t5092DA1853F2DCB439AACE5D2DCCD79708AF7D9B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -48986,7 +48986,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkAcousticSurface_get_textureID_m3FA
 		return L_1;
 	}
 }
-// Method Definition Index: 35565
+// Method Definition Index: 35671
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAcousticSurface_set_occlusion_mA571586A49040018696163F97A6928F511D5219B (AkAcousticSurface_t5092DA1853F2DCB439AACE5D2DCCD79708AF7D9B* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -49005,7 +49005,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAcousticSurface_set_occlusion_mA571586
 		return;
 	}
 }
-// Method Definition Index: 35566
+// Method Definition Index: 35672
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkAcousticSurface_get_occlusion_m06A2208797E6969E95F3C9EE95D6DC25EC72A562 (AkAcousticSurface_t5092DA1853F2DCB439AACE5D2DCCD79708AF7D9B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -49023,7 +49023,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkAcousticSurface_get_occlusion_m06A220
 		return L_1;
 	}
 }
-// Method Definition Index: 35567
+// Method Definition Index: 35673
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAcousticSurface_set_strName_mBC6CCCE82D9F13727790D7E29079EC08C04E84CC (AkAcousticSurface_t5092DA1853F2DCB439AACE5D2DCCD79708AF7D9B* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -49042,7 +49042,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAcousticSurface_set_strName_mBC6CCCE82
 		return;
 	}
 }
-// Method Definition Index: 35568
+// Method Definition Index: 35674
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AkAcousticSurface_get_strName_mE30E96FFA2AE87D634F78A8A3FF644A84FB22CA0 (AkAcousticSurface_t5092DA1853F2DCB439AACE5D2DCCD79708AF7D9B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -49064,7 +49064,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AkAcousticSurface_get_strName_mE30E
 		return L_2;
 	}
 }
-// Method Definition Index: 35569
+// Method Definition Index: 35675
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAcousticSurface_Clear_mA75BCB78E940C3831853EA7CC2EB6D88D6900DE6 (AkAcousticSurface_t5092DA1853F2DCB439AACE5D2DCCD79708AF7D9B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -49082,7 +49082,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAcousticSurface_Clear_mA75BCB78E940C38
 		return;
 	}
 }
-// Method Definition Index: 35570
+// Method Definition Index: 35676
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAcousticSurface_DeleteName_m349F7EBF826947E8323171B3E6CD8B94F5A2C084 (AkAcousticSurface_t5092DA1853F2DCB439AACE5D2DCCD79708AF7D9B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -49100,7 +49100,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAcousticSurface_DeleteName_m349F7EBF82
 		return;
 	}
 }
-// Method Definition Index: 35571
+// Method Definition Index: 35677
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkAcousticSurface_GetSizeOf_mFCA23AFD544418D31E01EBE9218BB043B5D583DE (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -49117,7 +49117,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkAcousticSurface_GetSizeOf_mFCA23AFD
 		return L_0;
 	}
 }
-// Method Definition Index: 35572
+// Method Definition Index: 35678
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAcousticSurface_Clone_m02F84353ACC58C223ED3C2879B07C63F9EF5FE2B (AkAcousticSurface_t5092DA1853F2DCB439AACE5D2DCCD79708AF7D9B* __this, AkAcousticSurface_t5092DA1853F2DCB439AACE5D2DCCD79708AF7D9B* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -49162,7 +49162,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAcousticSurface_Clone_m02F84353ACC58C2
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 35573
+// Method Definition Index: 35679
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioFormat__ctor_m1E22EB1AE578507D2089EAD774C9A58B49DD248E (AkAudioFormat_tAB01275E6730979C93F011368481978AE15007DE* __this, intptr_t ___0_cPtr, bool ___1_cMemoryOwn, const RuntimeMethod* method) 
 {
 	{
@@ -49178,7 +49178,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioFormat__ctor_m1E22EB1AE578507D208
 		return;
 	}
 }
-// Method Definition Index: 35574
+// Method Definition Index: 35680
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkAudioFormat_getCPtr_m5E2B35E5196336762AAA994073C06F7B2E6396F6 (AkAudioFormat_tAB01275E6730979C93F011368481978AE15007DE* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -49201,7 +49201,7 @@ IL_000a:
 		return 0;
 	}
 }
-// Method Definition Index: 35575
+// Method Definition Index: 35681
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioFormat_setCPtr_m28F4091CC9A4F9493A230F99A54879D72C603B5E (AkAudioFormat_tAB01275E6730979C93F011368481978AE15007DE* __this, intptr_t ___0_cPtr, const RuntimeMethod* method) 
 {
 	{
@@ -49214,7 +49214,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioFormat_setCPtr_m28F4091CC9A4F9493
 		return;
 	}
 }
-// Method Definition Index: 35576
+// Method Definition Index: 35682
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioFormat_Finalize_m6D83B1D6551E9D7F8F18C32ED9DC183AA319E676 (AkAudioFormat_tAB01275E6730979C93F011368481978AE15007DE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -49246,7 +49246,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 35577
+// Method Definition Index: 35683
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioFormat_Dispose_mB653E371ECA4869150A4E4A9AD38876A8A7D09F9 (AkAudioFormat_tAB01275E6730979C93F011368481978AE15007DE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -49345,7 +49345,7 @@ IL_0055:
 		return;
 	}
 }
-// Method Definition Index: 35578
+// Method Definition Index: 35684
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioFormat_set_uSampleRate_m0FD010F66C98F4EC080F0A259FC19A4E9BE1253C (AkAudioFormat_tAB01275E6730979C93F011368481978AE15007DE* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -49364,7 +49364,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioFormat_set_uSampleRate_m0FD010F66
 		return;
 	}
 }
-// Method Definition Index: 35579
+// Method Definition Index: 35685
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkAudioFormat_get_uSampleRate_mE0D3DF63BB7D439F97FC0FF38099457940EF2EDD (AkAudioFormat_tAB01275E6730979C93F011368481978AE15007DE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -49382,7 +49382,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkAudioFormat_get_uSampleRate_mE0D3D
 		return L_1;
 	}
 }
-// Method Definition Index: 35580
+// Method Definition Index: 35686
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioFormat_set_channelConfig_mF088AB337D87F6F5829089497CCBBF9FA8A69AD2 (AkAudioFormat_tAB01275E6730979C93F011368481978AE15007DE* __this, AkChannelConfig_tFD865141B037719DDB40F88440BFA32D1BF3652B* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -49403,7 +49403,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioFormat_set_channelConfig_mF088AB3
 		return;
 	}
 }
-// Method Definition Index: 35581
+// Method Definition Index: 35687
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AkChannelConfig_tFD865141B037719DDB40F88440BFA32D1BF3652B* AkAudioFormat_get_channelConfig_mF76CDE6432362846EE6FA6DCB7F325FA1798103D (AkAudioFormat_tAB01275E6730979C93F011368481978AE15007DE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -49444,7 +49444,7 @@ IL_0021:
 		return (AkChannelConfig_tFD865141B037719DDB40F88440BFA32D1BF3652B*)NULL;
 	}
 }
-// Method Definition Index: 35582
+// Method Definition Index: 35688
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioFormat_set_uBitsPerSample_mF6B12D0D41B156C1A85F69EB704D2BC56A84E222 (AkAudioFormat_tAB01275E6730979C93F011368481978AE15007DE* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -49463,7 +49463,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioFormat_set_uBitsPerSample_mF6B12D
 		return;
 	}
 }
-// Method Definition Index: 35583
+// Method Definition Index: 35689
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkAudioFormat_get_uBitsPerSample_m2BCD4BEB87BFAEAC03504E3ECC644A0B4C870F72 (AkAudioFormat_tAB01275E6730979C93F011368481978AE15007DE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -49481,7 +49481,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkAudioFormat_get_uBitsPerSample_m2B
 		return L_1;
 	}
 }
-// Method Definition Index: 35584
+// Method Definition Index: 35690
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioFormat_set_uBlockAlign_m76DF7EE2A7D39C9B3D8E721DEA7E938BB4F00C50 (AkAudioFormat_tAB01275E6730979C93F011368481978AE15007DE* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -49500,7 +49500,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioFormat_set_uBlockAlign_m76DF7EE2A
 		return;
 	}
 }
-// Method Definition Index: 35585
+// Method Definition Index: 35691
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkAudioFormat_get_uBlockAlign_mD0CA680C0EC0BA227FBE7F0ED88ED7CF439332EE (AkAudioFormat_tAB01275E6730979C93F011368481978AE15007DE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -49518,7 +49518,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkAudioFormat_get_uBlockAlign_mD0CA6
 		return L_1;
 	}
 }
-// Method Definition Index: 35586
+// Method Definition Index: 35692
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioFormat_set_uTypeID_mDDCE707725F297144FD98D83704BE57EBDDA4508 (AkAudioFormat_tAB01275E6730979C93F011368481978AE15007DE* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -49537,7 +49537,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioFormat_set_uTypeID_mDDCE707725F29
 		return;
 	}
 }
-// Method Definition Index: 35587
+// Method Definition Index: 35693
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkAudioFormat_get_uTypeID_mBE2E07E82EA50F34B76C7D422DC0069E41F0869B (AkAudioFormat_tAB01275E6730979C93F011368481978AE15007DE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -49555,7 +49555,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkAudioFormat_get_uTypeID_mBE2E07E82
 		return L_1;
 	}
 }
-// Method Definition Index: 35588
+// Method Definition Index: 35694
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioFormat_set_uInterleaveID_m153E93CBDF4896F55F7FE7454213B38122773D6D (AkAudioFormat_tAB01275E6730979C93F011368481978AE15007DE* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -49574,7 +49574,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioFormat_set_uInterleaveID_m153E93C
 		return;
 	}
 }
-// Method Definition Index: 35589
+// Method Definition Index: 35695
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkAudioFormat_get_uInterleaveID_mC31DCC879DFD181A24BF9D6EF60D56636E909FB4 (AkAudioFormat_tAB01275E6730979C93F011368481978AE15007DE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -49592,7 +49592,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkAudioFormat_get_uInterleaveID_mC31
 		return L_1;
 	}
 }
-// Method Definition Index: 35590
+// Method Definition Index: 35696
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkAudioFormat_GetNumChannels_m92AB68D05F517BAEB1C8126F43DA7B7EC43101E1 (AkAudioFormat_tAB01275E6730979C93F011368481978AE15007DE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -49610,7 +49610,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkAudioFormat_GetNumChannels_m92AB68
 		return L_1;
 	}
 }
-// Method Definition Index: 35591
+// Method Definition Index: 35697
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkAudioFormat_GetBitsPerSample_m375EB9386E0AD7F8C4EA9AA238D82B88DA3E8006 (AkAudioFormat_tAB01275E6730979C93F011368481978AE15007DE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -49628,7 +49628,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkAudioFormat_GetBitsPerSample_m375E
 		return L_1;
 	}
 }
-// Method Definition Index: 35592
+// Method Definition Index: 35698
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkAudioFormat_GetBlockAlign_m4C6B15581F1A8966DC3351070BB7C91511E3E184 (AkAudioFormat_tAB01275E6730979C93F011368481978AE15007DE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -49646,7 +49646,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkAudioFormat_GetBlockAlign_m4C6B155
 		return L_1;
 	}
 }
-// Method Definition Index: 35593
+// Method Definition Index: 35699
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkAudioFormat_GetTypeID_m674C649AFCA61643E156100C672E7043528D994D (AkAudioFormat_tAB01275E6730979C93F011368481978AE15007DE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -49664,7 +49664,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkAudioFormat_GetTypeID_m674C649AFCA
 		return L_1;
 	}
 }
-// Method Definition Index: 35594
+// Method Definition Index: 35700
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkAudioFormat_GetInterleaveID_mAFE2DF3E82BDDEEB236A2D9B00B91386D270753F (AkAudioFormat_tAB01275E6730979C93F011368481978AE15007DE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -49682,7 +49682,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkAudioFormat_GetInterleaveID_mAFE2D
 		return L_1;
 	}
 }
-// Method Definition Index: 35595
+// Method Definition Index: 35701
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioFormat_SetAll_mA6946A6823DF1CD852D174EAD2F238963084A99D (AkAudioFormat_tAB01275E6730979C93F011368481978AE15007DE* __this, uint32_t ___0_in_uSampleRate, AkChannelConfig_tFD865141B037719DDB40F88440BFA32D1BF3652B* ___1_in_channelConfig, uint32_t ___2_in_uBitsPerSample, uint32_t ___3_in_uBlockAlign, uint32_t ___4_in_uTypeID, uint32_t ___5_in_uInterleaveID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -49708,7 +49708,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioFormat_SetAll_mA6946A6823DF1CD852
 		return;
 	}
 }
-// Method Definition Index: 35596
+// Method Definition Index: 35702
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkAudioFormat_IsChannelConfigSupported_m9EAB199749566D2B7770C19AA8DCA250F789E746 (AkAudioFormat_tAB01275E6730979C93F011368481978AE15007DE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -49726,7 +49726,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkAudioFormat_IsChannelConfigSupported_m
 		return L_1;
 	}
 }
-// Method Definition Index: 35597
+// Method Definition Index: 35703
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioFormat__ctor_mB3F77A9F47AC5CC502F66CED096F5FBBE5EBBE8C (AkAudioFormat_tAB01275E6730979C93F011368481978AE15007DE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -49753,7 +49753,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioFormat__ctor_mB3F77A9F47AC5CC502F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 35598
+// Method Definition Index: 35704
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioInterruptionCallbackInfo__ctor_mB0E2443F09716C4584336E595CBE7A3966883FF9 (AkAudioInterruptionCallbackInfo_tE502E500D3CE02E82ACD89F38BE7DA56DB56B2F6* __this, intptr_t ___0_cPtr, bool ___1_cMemoryOwn, const RuntimeMethod* method) 
 {
 	{
@@ -49769,7 +49769,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioInterruptionCallbackInfo__ctor_mB
 		return;
 	}
 }
-// Method Definition Index: 35599
+// Method Definition Index: 35705
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkAudioInterruptionCallbackInfo_getCPtr_mAE13C2220381F1E4A241A091F730EC545FD1C67B (AkAudioInterruptionCallbackInfo_tE502E500D3CE02E82ACD89F38BE7DA56DB56B2F6* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -49792,7 +49792,7 @@ IL_000a:
 		return 0;
 	}
 }
-// Method Definition Index: 35600
+// Method Definition Index: 35706
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioInterruptionCallbackInfo_setCPtr_m7BEABE415A96C929B99FC659621225B39AB7B322 (AkAudioInterruptionCallbackInfo_tE502E500D3CE02E82ACD89F38BE7DA56DB56B2F6* __this, intptr_t ___0_cPtr, const RuntimeMethod* method) 
 {
 	{
@@ -49805,7 +49805,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioInterruptionCallbackInfo_setCPtr_
 		return;
 	}
 }
-// Method Definition Index: 35601
+// Method Definition Index: 35707
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioInterruptionCallbackInfo_Finalize_m446C0BAD70F23FD15E41E38E939970AF72BA9A5B (AkAudioInterruptionCallbackInfo_tE502E500D3CE02E82ACD89F38BE7DA56DB56B2F6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -49837,7 +49837,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 35602
+// Method Definition Index: 35708
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioInterruptionCallbackInfo_Dispose_mDA1470854BD4D381EB8ECC18BD126811A596D90E (AkAudioInterruptionCallbackInfo_tE502E500D3CE02E82ACD89F38BE7DA56DB56B2F6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -49936,7 +49936,7 @@ IL_0055:
 		return;
 	}
 }
-// Method Definition Index: 35603
+// Method Definition Index: 35709
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkAudioInterruptionCallbackInfo_get_bEnterInterruption_mC7398788250EF49B127EFAB52AA613F63E4C214F (AkAudioInterruptionCallbackInfo_tE502E500D3CE02E82ACD89F38BE7DA56DB56B2F6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -49954,7 +49954,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkAudioInterruptionCallbackInfo_get_bEnt
 		return L_1;
 	}
 }
-// Method Definition Index: 35604
+// Method Definition Index: 35710
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioInterruptionCallbackInfo__ctor_m29B357CC0E6BC1B1F0FE144EEF4120B887B17707 (AkAudioInterruptionCallbackInfo_tE502E500D3CE02E82ACD89F38BE7DA56DB56B2F6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -49981,7 +49981,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioInterruptionCallbackInfo__ctor_m2
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 35605
+// Method Definition Index: 35711
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioSettings__ctor_mFE892ED46702F6E60BC37B3D3E17112F86032E6A (AkAudioSettings_tDA0E9634CDDBE90529DEAC9BB4F337B62239B1CA* __this, intptr_t ___0_cPtr, bool ___1_cMemoryOwn, const RuntimeMethod* method) 
 {
 	{
@@ -49997,7 +49997,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioSettings__ctor_mFE892ED46702F6E60
 		return;
 	}
 }
-// Method Definition Index: 35606
+// Method Definition Index: 35712
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkAudioSettings_getCPtr_m5CB034ACAB544985ED37337BF75F1E439050C266 (AkAudioSettings_tDA0E9634CDDBE90529DEAC9BB4F337B62239B1CA* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -50020,7 +50020,7 @@ IL_000a:
 		return 0;
 	}
 }
-// Method Definition Index: 35607
+// Method Definition Index: 35713
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioSettings_setCPtr_mC602A0175DB771A53FBD809B92DA7DC2BA0AFCBE (AkAudioSettings_tDA0E9634CDDBE90529DEAC9BB4F337B62239B1CA* __this, intptr_t ___0_cPtr, const RuntimeMethod* method) 
 {
 	{
@@ -50033,7 +50033,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioSettings_setCPtr_mC602A0175DB771A
 		return;
 	}
 }
-// Method Definition Index: 35608
+// Method Definition Index: 35714
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioSettings_Finalize_m53C9605D6A39EB59BA297A8FA8B056BA3EEE9FC9 (AkAudioSettings_tDA0E9634CDDBE90529DEAC9BB4F337B62239B1CA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -50065,7 +50065,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 35609
+// Method Definition Index: 35715
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioSettings_Dispose_m2A8931A96F4E40D948EBAF5D2F58176AA2FA268E (AkAudioSettings_tDA0E9634CDDBE90529DEAC9BB4F337B62239B1CA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -50164,7 +50164,7 @@ IL_0055:
 		return;
 	}
 }
-// Method Definition Index: 35610
+// Method Definition Index: 35716
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioSettings_set_uNumSamplesPerFrame_m83A1B0A42670C43174C707C517A73C8E56DA7931 (AkAudioSettings_tDA0E9634CDDBE90529DEAC9BB4F337B62239B1CA* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -50183,7 +50183,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioSettings_set_uNumSamplesPerFrame_
 		return;
 	}
 }
-// Method Definition Index: 35611
+// Method Definition Index: 35717
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkAudioSettings_get_uNumSamplesPerFrame_mA621838616B8502F8DC5E3EDB327375ABED380D2 (AkAudioSettings_tDA0E9634CDDBE90529DEAC9BB4F337B62239B1CA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -50201,7 +50201,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkAudioSettings_get_uNumSamplesPerFr
 		return L_1;
 	}
 }
-// Method Definition Index: 35612
+// Method Definition Index: 35718
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioSettings_set_uNumSamplesPerSecond_m24BEC0CE463CA35F67DA3F8ACF7FF1DABBE375A4 (AkAudioSettings_tDA0E9634CDDBE90529DEAC9BB4F337B62239B1CA* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -50220,7 +50220,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioSettings_set_uNumSamplesPerSecond
 		return;
 	}
 }
-// Method Definition Index: 35613
+// Method Definition Index: 35719
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkAudioSettings_get_uNumSamplesPerSecond_m9E685193B3FB6348B9CBA59E1900D5649DEACB59 (AkAudioSettings_tDA0E9634CDDBE90529DEAC9BB4F337B62239B1CA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -50238,7 +50238,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkAudioSettings_get_uNumSamplesPerSe
 		return L_1;
 	}
 }
-// Method Definition Index: 35614
+// Method Definition Index: 35720
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioSettings__ctor_m58E524EE70A9D232D4D980BBAEED8CC8135AF7EF (AkAudioSettings_tDA0E9634CDDBE90529DEAC9BB4F337B62239B1CA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -50265,7 +50265,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioSettings__ctor_m58E524EE70A9D232D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 35615
+// Method Definition Index: 35721
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioSourceChangeCallbackInfo__ctor_mCE9DEC8CF69608A42408CDB5D2F1516607C64F99 (AkAudioSourceChangeCallbackInfo_tD63CB3555B6115EAEC647BBF258246BFAFB6881A* __this, intptr_t ___0_cPtr, bool ___1_cMemoryOwn, const RuntimeMethod* method) 
 {
 	{
@@ -50281,7 +50281,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioSourceChangeCallbackInfo__ctor_mC
 		return;
 	}
 }
-// Method Definition Index: 35616
+// Method Definition Index: 35722
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkAudioSourceChangeCallbackInfo_getCPtr_m545277D552AFCC95C1C582FCA040C0F94E19BF34 (AkAudioSourceChangeCallbackInfo_tD63CB3555B6115EAEC647BBF258246BFAFB6881A* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -50304,7 +50304,7 @@ IL_000a:
 		return 0;
 	}
 }
-// Method Definition Index: 35617
+// Method Definition Index: 35723
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioSourceChangeCallbackInfo_setCPtr_mBF198C1AA00299A6B0EEFEBFABBA3B2811229D2F (AkAudioSourceChangeCallbackInfo_tD63CB3555B6115EAEC647BBF258246BFAFB6881A* __this, intptr_t ___0_cPtr, const RuntimeMethod* method) 
 {
 	{
@@ -50317,7 +50317,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioSourceChangeCallbackInfo_setCPtr_
 		return;
 	}
 }
-// Method Definition Index: 35618
+// Method Definition Index: 35724
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioSourceChangeCallbackInfo_Finalize_mEFB2AD33584471014B9753B312D3CFAF2A3B8594 (AkAudioSourceChangeCallbackInfo_tD63CB3555B6115EAEC647BBF258246BFAFB6881A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -50349,7 +50349,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 35619
+// Method Definition Index: 35725
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioSourceChangeCallbackInfo_Dispose_mC5823A8B942D1831FA3B943F1E94BF1BEA59232F (AkAudioSourceChangeCallbackInfo_tD63CB3555B6115EAEC647BBF258246BFAFB6881A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -50448,7 +50448,7 @@ IL_0055:
 		return;
 	}
 }
-// Method Definition Index: 35620
+// Method Definition Index: 35726
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkAudioSourceChangeCallbackInfo_get_bOtherAudioPlaying_m417842C4181C5454C4B8636269C532E40CF00324 (AkAudioSourceChangeCallbackInfo_tD63CB3555B6115EAEC647BBF258246BFAFB6881A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -50466,7 +50466,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkAudioSourceChangeCallbackInfo_get_bOth
 		return L_1;
 	}
 }
-// Method Definition Index: 35621
+// Method Definition Index: 35727
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioSourceChangeCallbackInfo__ctor_m5723B70D4FD30BC4DC611D317AC5B01CCC0B2313 (AkAudioSourceChangeCallbackInfo_tD63CB3555B6115EAEC647BBF258246BFAFB6881A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -50493,7 +50493,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAudioSourceChangeCallbackInfo__ctor_m5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 35622
+// Method Definition Index: 35728
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAuxSendValue__ctor_mE8DF04ED97164F20B28304B217A2B31A8BEF8D30 (AkAuxSendValue_t292B99401F8DBC1041939EFDF22D0CD2A63FD01B* __this, intptr_t ___0_cPtr, bool ___1_cMemoryOwn, const RuntimeMethod* method) 
 {
 	{
@@ -50509,7 +50509,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAuxSendValue__ctor_mE8DF04ED97164F20B2
 		return;
 	}
 }
-// Method Definition Index: 35623
+// Method Definition Index: 35729
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkAuxSendValue_getCPtr_m30ECDF1B63EFE152B564AC63DECD1D54455122D1 (AkAuxSendValue_t292B99401F8DBC1041939EFDF22D0CD2A63FD01B* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -50532,7 +50532,7 @@ IL_000a:
 		return 0;
 	}
 }
-// Method Definition Index: 35624
+// Method Definition Index: 35730
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAuxSendValue_setCPtr_m7F0156CC1CE1C89A382C1CB17B8C8C189B0D85B5 (AkAuxSendValue_t292B99401F8DBC1041939EFDF22D0CD2A63FD01B* __this, intptr_t ___0_cPtr, const RuntimeMethod* method) 
 {
 	{
@@ -50545,7 +50545,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAuxSendValue_setCPtr_m7F0156CC1CE1C89A
 		return;
 	}
 }
-// Method Definition Index: 35625
+// Method Definition Index: 35731
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAuxSendValue_Finalize_mB4A3052F405275A850E2394A832CC21591FA5C97 (AkAuxSendValue_t292B99401F8DBC1041939EFDF22D0CD2A63FD01B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -50577,7 +50577,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 35626
+// Method Definition Index: 35732
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAuxSendValue_Dispose_m7B56CCABB3CE1755691F55B56A709F3C3EA5FD31 (AkAuxSendValue_t292B99401F8DBC1041939EFDF22D0CD2A63FD01B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -50676,7 +50676,7 @@ IL_0055:
 		return;
 	}
 }
-// Method Definition Index: 35627
+// Method Definition Index: 35733
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAuxSendValue_set_listenerID_m0D253CD986444AB9A75F89BCA479FF8F96DD9E53 (AkAuxSendValue_t292B99401F8DBC1041939EFDF22D0CD2A63FD01B* __this, uint64_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -50695,7 +50695,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAuxSendValue_set_listenerID_m0D253CD98
 		return;
 	}
 }
-// Method Definition Index: 35628
+// Method Definition Index: 35734
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t AkAuxSendValue_get_listenerID_m22054BC012CCA4E67846B3EB1D898BECC1FC1B28 (AkAuxSendValue_t292B99401F8DBC1041939EFDF22D0CD2A63FD01B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -50713,7 +50713,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t AkAuxSendValue_get_listenerID_m22054
 		return L_1;
 	}
 }
-// Method Definition Index: 35629
+// Method Definition Index: 35735
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAuxSendValue_set_auxBusID_m9660B641635468149459E111384892BB303802C7 (AkAuxSendValue_t292B99401F8DBC1041939EFDF22D0CD2A63FD01B* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -50732,7 +50732,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAuxSendValue_set_auxBusID_m9660B641635
 		return;
 	}
 }
-// Method Definition Index: 35630
+// Method Definition Index: 35736
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkAuxSendValue_get_auxBusID_m7FAA8F49AE95563665E762F6F5397292138DD4B3 (AkAuxSendValue_t292B99401F8DBC1041939EFDF22D0CD2A63FD01B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -50750,7 +50750,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkAuxSendValue_get_auxBusID_m7FAA8F4
 		return L_1;
 	}
 }
-// Method Definition Index: 35631
+// Method Definition Index: 35737
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAuxSendValue_set_fControlValue_m0BC20DF65F2D97CB16DFD8BE85F8A36BF7143A8D (AkAuxSendValue_t292B99401F8DBC1041939EFDF22D0CD2A63FD01B* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -50769,7 +50769,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAuxSendValue_set_fControlValue_m0BC20D
 		return;
 	}
 }
-// Method Definition Index: 35632
+// Method Definition Index: 35738
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkAuxSendValue_get_fControlValue_m2F40B764FB57C7775DAFDA0958E9145BA72C0EF7 (AkAuxSendValue_t292B99401F8DBC1041939EFDF22D0CD2A63FD01B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -50787,7 +50787,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkAuxSendValue_get_fControlValue_m2F40B
 		return L_1;
 	}
 }
-// Method Definition Index: 35633
+// Method Definition Index: 35739
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAuxSendValue_Set_m2F76F57A74558635499523C7DB3E5DCA7AF4DD87 (AkAuxSendValue_t292B99401F8DBC1041939EFDF22D0CD2A63FD01B* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_listener, uint32_t ___1_id, float ___2_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -50820,7 +50820,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkAuxSendValue_Set_m2F76F57A745586354995
 		return;
 	}
 }
-// Method Definition Index: 35634
+// Method Definition Index: 35740
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkAuxSendValue_IsSame_m2DDB8285E864D2CC3D94DBEDEF9B6DF8BBCD4AA5 (AkAuxSendValue_t292B99401F8DBC1041939EFDF22D0CD2A63FD01B* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_listener, uint32_t ___1_id, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -50852,7 +50852,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkAuxSendValue_IsSame_m2DDB8285E864D2CC3
 		return L_7;
 	}
 }
-// Method Definition Index: 35635
+// Method Definition Index: 35741
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkAuxSendValue_GetSizeOf_mDD29B3114A7DD29D06EC0ACBF89D33CC6533F772 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -50877,7 +50877,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkAuxSendValue_GetSizeOf_mDD29B3114A7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 35636
+// Method Definition Index: 35742
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkBankCallbackInfo__ctor_m6F2E73990B9FD0C9F72E29BAC9E432751B4B4612 (AkBankCallbackInfo_tFECA2D82F15D536F9A8BEA060BABE615760C5582* __this, intptr_t ___0_cPtr, bool ___1_cMemoryOwn, const RuntimeMethod* method) 
 {
 	{
@@ -50893,7 +50893,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkBankCallbackInfo__ctor_m6F2E73990B9FD0
 		return;
 	}
 }
-// Method Definition Index: 35637
+// Method Definition Index: 35743
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkBankCallbackInfo_getCPtr_m53E927A07AABF8EBCADDC944EAB444069B18802D (AkBankCallbackInfo_tFECA2D82F15D536F9A8BEA060BABE615760C5582* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -50916,7 +50916,7 @@ IL_000a:
 		return 0;
 	}
 }
-// Method Definition Index: 35638
+// Method Definition Index: 35744
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkBankCallbackInfo_setCPtr_mD5B6326E2A24F01836B3C9EFC42CDF39AFE6CECE (AkBankCallbackInfo_tFECA2D82F15D536F9A8BEA060BABE615760C5582* __this, intptr_t ___0_cPtr, const RuntimeMethod* method) 
 {
 	{
@@ -50929,7 +50929,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkBankCallbackInfo_setCPtr_mD5B6326E2A24
 		return;
 	}
 }
-// Method Definition Index: 35639
+// Method Definition Index: 35745
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkBankCallbackInfo_Finalize_mB9522B60F6DB8A7E6BEC55C565E7AD4944E73E6B (AkBankCallbackInfo_tFECA2D82F15D536F9A8BEA060BABE615760C5582* __this, const RuntimeMethod* method) 
 {
 	{
@@ -50961,7 +50961,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 35640
+// Method Definition Index: 35746
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkBankCallbackInfo_Dispose_m8824EE79BA21AF0A2E8B0B2C4A20E837CF3237B9 (AkBankCallbackInfo_tFECA2D82F15D536F9A8BEA060BABE615760C5582* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -51060,7 +51060,7 @@ IL_0055:
 		return;
 	}
 }
-// Method Definition Index: 35641
+// Method Definition Index: 35747
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkBankCallbackInfo_get_bankID_m09F707A501137338FBE8758C26D88BDE4799D0FF (AkBankCallbackInfo_tFECA2D82F15D536F9A8BEA060BABE615760C5582* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -51078,7 +51078,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkBankCallbackInfo_get_bankID_m09F70
 		return L_1;
 	}
 }
-// Method Definition Index: 35642
+// Method Definition Index: 35748
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkBankCallbackInfo_get_inMemoryBankPtr_mD83BA31545AE6A9FD490F59EF840D109CAEF0444 (AkBankCallbackInfo_tFECA2D82F15D536F9A8BEA060BABE615760C5582* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -51096,7 +51096,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkBankCallbackInfo_get_inMemoryBankP
 		return L_1;
 	}
 }
-// Method Definition Index: 35643
+// Method Definition Index: 35749
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkBankCallbackInfo_get_loadResult_mCACBF551B3DE74C27F1A25F2B5C7FB5900ED1E68 (AkBankCallbackInfo_tFECA2D82F15D536F9A8BEA060BABE615760C5582* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -51114,7 +51114,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkBankCallbackInfo_get_loadResult_mCA
 		return (int32_t)(L_1);
 	}
 }
-// Method Definition Index: 35644
+// Method Definition Index: 35750
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkBankCallbackInfo__ctor_mBB00CE46D402AC5CC5031D0510174B8AFC0A2B44 (AkBankCallbackInfo_tFECA2D82F15D536F9A8BEA060BABE615760C5582* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -51157,7 +51157,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkBankCallbackInfo__ctor_mBB00CE46D402AC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 35645
+// Method Definition Index: 35751
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkCallbackInfo__ctor_mA4687E311D700A170F5B9AF87F96E07B84FB0930 (AkCallbackInfo_t8709083C5D74C6E19B7AA4DAB0CD5A177E7F3D11* __this, intptr_t ___0_cPtr, bool ___1_cMemoryOwn, const RuntimeMethod* method) 
 {
 	{
@@ -51173,7 +51173,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkCallbackInfo__ctor_mA4687E311D700A170F
 		return;
 	}
 }
-// Method Definition Index: 35646
+// Method Definition Index: 35752
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkCallbackInfo_getCPtr_mB847763327B5D20AB73F44BD4EF908E7FB66B6E8 (AkCallbackInfo_t8709083C5D74C6E19B7AA4DAB0CD5A177E7F3D11* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -51196,7 +51196,7 @@ IL_000a:
 		return 0;
 	}
 }
-// Method Definition Index: 35647
+// Method Definition Index: 35753
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkCallbackInfo_setCPtr_m33530897BDB9F494151989DA8D52232F2AFDD785 (AkCallbackInfo_t8709083C5D74C6E19B7AA4DAB0CD5A177E7F3D11* __this, intptr_t ___0_cPtr, const RuntimeMethod* method) 
 {
 	{
@@ -51209,7 +51209,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkCallbackInfo_setCPtr_m33530897BDB9F494
 		return;
 	}
 }
-// Method Definition Index: 35648
+// Method Definition Index: 35754
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkCallbackInfo_Finalize_m509FC6055317AC33E51BD00992F4B6D525F90F01 (AkCallbackInfo_t8709083C5D74C6E19B7AA4DAB0CD5A177E7F3D11* __this, const RuntimeMethod* method) 
 {
 	{
@@ -51241,7 +51241,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 35649
+// Method Definition Index: 35755
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkCallbackInfo_Dispose_m40737A54BB9D41CE9C9A8BD05527B4D6F9626BA6 (AkCallbackInfo_t8709083C5D74C6E19B7AA4DAB0CD5A177E7F3D11* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -51340,7 +51340,7 @@ IL_0055:
 		return;
 	}
 }
-// Method Definition Index: 35650
+// Method Definition Index: 35756
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkCallbackInfo_get_pCookie_mFDFDE384C0B7BAFFFB5DC6785D11A4A7DA02B434 (AkCallbackInfo_t8709083C5D74C6E19B7AA4DAB0CD5A177E7F3D11* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -51358,7 +51358,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkCallbackInfo_get_pCookie_mFDFDE384
 		return L_1;
 	}
 }
-// Method Definition Index: 35651
+// Method Definition Index: 35757
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t AkCallbackInfo_get_gameObjID_mCA1162954E2C0357A31F9A5D1CA26C39B18C6163 (AkCallbackInfo_t8709083C5D74C6E19B7AA4DAB0CD5A177E7F3D11* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -51376,7 +51376,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t AkCallbackInfo_get_gameObjID_mCA1162
 		return L_1;
 	}
 }
-// Method Definition Index: 35652
+// Method Definition Index: 35758
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkCallbackInfo__ctor_mC42B5C376D0C95F3F73998E34CC85886983745D1 (AkCallbackInfo_t8709083C5D74C6E19B7AA4DAB0CD5A177E7F3D11* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -51403,7 +51403,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkCallbackInfo__ctor_mC42B5C376D0C95F3F7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 35653
+// Method Definition Index: 35759
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkCallbackSerializer__ctor_mE32F6CFA525D95E6A55A95E5D17DA1CBAA60EB05 (AkCallbackSerializer_t01EABBE352FD0E7B13B7B96B029A9201BFAB2DDF* __this, intptr_t ___0_cPtr, bool ___1_cMemoryOwn, const RuntimeMethod* method) 
 {
 	{
@@ -51419,7 +51419,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkCallbackSerializer__ctor_mE32F6CFA525D
 		return;
 	}
 }
-// Method Definition Index: 35654
+// Method Definition Index: 35760
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkCallbackSerializer_getCPtr_m8C8155B43E9F9399109E94F92AE33CE43C47F1E3 (AkCallbackSerializer_t01EABBE352FD0E7B13B7B96B029A9201BFAB2DDF* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -51442,7 +51442,7 @@ IL_000a:
 		return 0;
 	}
 }
-// Method Definition Index: 35655
+// Method Definition Index: 35761
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkCallbackSerializer_setCPtr_mD653623FCDCB992FE9230AD1DC2A50F10ACA553E (AkCallbackSerializer_t01EABBE352FD0E7B13B7B96B029A9201BFAB2DDF* __this, intptr_t ___0_cPtr, const RuntimeMethod* method) 
 {
 	{
@@ -51455,7 +51455,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkCallbackSerializer_setCPtr_mD653623FCD
 		return;
 	}
 }
-// Method Definition Index: 35656
+// Method Definition Index: 35762
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkCallbackSerializer_Finalize_m39E8BA2F050B92BB647A659CF2F5554C2703B130 (AkCallbackSerializer_t01EABBE352FD0E7B13B7B96B029A9201BFAB2DDF* __this, const RuntimeMethod* method) 
 {
 	{
@@ -51487,7 +51487,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 35657
+// Method Definition Index: 35763
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkCallbackSerializer_Dispose_mD531D27AF3B253460CE9BDA5E3EE4A3C09F4C9E9 (AkCallbackSerializer_t01EABBE352FD0E7B13B7B96B029A9201BFAB2DDF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -51586,7 +51586,7 @@ IL_0055:
 		return;
 	}
 }
-// Method Definition Index: 35658
+// Method Definition Index: 35764
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkCallbackSerializer_Init_m55C4979A5C6EA68C899510C8AFF8D666256DF601 (intptr_t ___0_in_pMemory, uint32_t ___1_in_uSize, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -51605,7 +51605,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkCallbackSerializer_Init_m55C4979A5C
 		return (int32_t)(L_2);
 	}
 }
-// Method Definition Index: 35659
+// Method Definition Index: 35765
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkCallbackSerializer_Term_m013A2C49E674EFDB1E5EC125B4E69FBE923B1929 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -51622,7 +51622,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkCallbackSerializer_Term_m013A2C49E674E
 		return;
 	}
 }
-// Method Definition Index: 35660
+// Method Definition Index: 35766
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkCallbackSerializer_Lock_m4A63422B01481F4E5CE92060F51CBE04AE048DE3 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -51639,7 +51639,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkCallbackSerializer_Lock_m4A63422B0
 		return L_0;
 	}
 }
-// Method Definition Index: 35661
+// Method Definition Index: 35767
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkCallbackSerializer_Unlock_m89197A50335082368EE4D1E16697C3F33914D7CA (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -51656,7 +51656,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkCallbackSerializer_Unlock_m89197A50335
 		return;
 	}
 }
-// Method Definition Index: 35662
+// Method Definition Index: 35768
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkCallbackSerializer_SetLocalOutput_m421743E6B14EE8882A17C575CA6A9EB0D05DA1CC (uint32_t ___0_in_uErrorLevel, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -51674,7 +51674,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkCallbackSerializer_SetLocalOutput_m421
 		return;
 	}
 }
-// Method Definition Index: 35663
+// Method Definition Index: 35769
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkCallbackSerializer_AudioSourceChangeCallbackFunc_m54812E18499168A1116416E9BBD36177AABFB9F5 (bool ___0_in_bOtherAudioPlaying, RuntimeObject* ___1_in_pCookie, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -51725,7 +51725,7 @@ IL_0016:
 		return (int32_t)(L_5);
 	}
 }
-// Method Definition Index: 35664
+// Method Definition Index: 35770
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkCallbackSerializer__ctor_m09F8A74B93692BB530875C5B3D8112C98CE68FA1 (AkCallbackSerializer_t01EABBE352FD0E7B13B7B96B029A9201BFAB2DDF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -51760,7 +51760,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkCallbackSerializer__ctor_m09F8A74B9369
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 35665
+// Method Definition Index: 35771
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkChannelConfig__ctor_m631F8AD47741427F649DA6AD47499AF615031DBF (AkChannelConfig_tFD865141B037719DDB40F88440BFA32D1BF3652B* __this, intptr_t ___0_cPtr, bool ___1_cMemoryOwn, const RuntimeMethod* method) 
 {
 	{
@@ -51776,7 +51776,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkChannelConfig__ctor_m631F8AD47741427F6
 		return;
 	}
 }
-// Method Definition Index: 35666
+// Method Definition Index: 35772
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkChannelConfig_getCPtr_m14DC30D9ED061F694AE74ED5C7DC69717F439529 (AkChannelConfig_tFD865141B037719DDB40F88440BFA32D1BF3652B* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -51799,7 +51799,7 @@ IL_000a:
 		return 0;
 	}
 }
-// Method Definition Index: 35667
+// Method Definition Index: 35773
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkChannelConfig_setCPtr_m5ABF262896C035EF927A445164D1D951F1C3E8E4 (AkChannelConfig_tFD865141B037719DDB40F88440BFA32D1BF3652B* __this, intptr_t ___0_cPtr, const RuntimeMethod* method) 
 {
 	{
@@ -51812,7 +51812,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkChannelConfig_setCPtr_m5ABF262896C035E
 		return;
 	}
 }
-// Method Definition Index: 35668
+// Method Definition Index: 35774
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkChannelConfig_Finalize_m881983A0771775F84272C543474BCB86F3DDEA61 (AkChannelConfig_tFD865141B037719DDB40F88440BFA32D1BF3652B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -51844,7 +51844,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 35669
+// Method Definition Index: 35775
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkChannelConfig_Dispose_m048D6B7D7A39848BD12B444B9599EA6DFC4E43F0 (AkChannelConfig_tFD865141B037719DDB40F88440BFA32D1BF3652B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -51943,7 +51943,7 @@ IL_0055:
 		return;
 	}
 }
-// Method Definition Index: 35670
+// Method Definition Index: 35776
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkChannelConfig_set_uNumChannels_m3787857073859AFE76BEFFF70B0EEC86FEEE2D91 (AkChannelConfig_tFD865141B037719DDB40F88440BFA32D1BF3652B* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -51962,7 +51962,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkChannelConfig_set_uNumChannels_m378785
 		return;
 	}
 }
-// Method Definition Index: 35671
+// Method Definition Index: 35777
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkChannelConfig_get_uNumChannels_mAC9873654BF7BDC72B6FCF43DEF66C0399562422 (AkChannelConfig_tFD865141B037719DDB40F88440BFA32D1BF3652B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -51980,7 +51980,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkChannelConfig_get_uNumChannels_mAC
 		return L_1;
 	}
 }
-// Method Definition Index: 35672
+// Method Definition Index: 35778
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkChannelConfig_set_eConfigType_m712EB5D41A2C59136FB7DB0E7893F9EF05B51DE4 (AkChannelConfig_tFD865141B037719DDB40F88440BFA32D1BF3652B* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -51999,7 +51999,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkChannelConfig_set_eConfigType_m712EB5D
 		return;
 	}
 }
-// Method Definition Index: 35673
+// Method Definition Index: 35779
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkChannelConfig_get_eConfigType_mB353BEC278DDC3EC3157845352718D088ABE957B (AkChannelConfig_tFD865141B037719DDB40F88440BFA32D1BF3652B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -52017,7 +52017,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkChannelConfig_get_eConfigType_mB35
 		return L_1;
 	}
 }
-// Method Definition Index: 35674
+// Method Definition Index: 35780
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkChannelConfig_set_uChannelMask_mBCC62F6C7CAB2723FA7E62B31003B547464BA072 (AkChannelConfig_tFD865141B037719DDB40F88440BFA32D1BF3652B* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -52036,7 +52036,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkChannelConfig_set_uChannelMask_mBCC62F
 		return;
 	}
 }
-// Method Definition Index: 35675
+// Method Definition Index: 35781
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkChannelConfig_get_uChannelMask_m2D580189770F1120E586D931950ECE3F3F8005EE (AkChannelConfig_tFD865141B037719DDB40F88440BFA32D1BF3652B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -52054,7 +52054,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkChannelConfig_get_uChannelMask_m2D
 		return L_1;
 	}
 }
-// Method Definition Index: 35676
+// Method Definition Index: 35782
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkChannelConfig__ctor_m5B25ADAE23C1BF4AC817648EEB7E5ACB3B74B5D6 (AkChannelConfig_tFD865141B037719DDB40F88440BFA32D1BF3652B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -52073,7 +52073,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkChannelConfig__ctor_m5B25ADAE23C1BF4AC
 		return;
 	}
 }
-// Method Definition Index: 35677
+// Method Definition Index: 35783
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkChannelConfig__ctor_m13C951C5EAC9AF23E9BBDC6FE4B6B3A4E7BB7E52 (AkChannelConfig_tFD865141B037719DDB40F88440BFA32D1BF3652B* __this, uint32_t ___0_in_uNumChannels, uint32_t ___1_in_uChannelMask, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -52094,7 +52094,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkChannelConfig__ctor_m13C951C5EAC9AF23E
 		return;
 	}
 }
-// Method Definition Index: 35678
+// Method Definition Index: 35784
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkChannelConfig_Clear_m61B51CA16AB81D10423A20B72FF96F6741733A4A (AkChannelConfig_tFD865141B037719DDB40F88440BFA32D1BF3652B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -52112,7 +52112,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkChannelConfig_Clear_m61B51CA16AB81D104
 		return;
 	}
 }
-// Method Definition Index: 35679
+// Method Definition Index: 35785
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkChannelConfig_SetStandard_m5B14D36474A0AB0B69206477B3A141E591D6C278 (AkChannelConfig_tFD865141B037719DDB40F88440BFA32D1BF3652B* __this, uint32_t ___0_in_uChannelMask, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -52131,7 +52131,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkChannelConfig_SetStandard_m5B14D36474A
 		return;
 	}
 }
-// Method Definition Index: 35680
+// Method Definition Index: 35786
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkChannelConfig_SetStandardOrAnonymous_mF4110E00FE0B2F4189F310FCF96ABEAEBC813659 (AkChannelConfig_tFD865141B037719DDB40F88440BFA32D1BF3652B* __this, uint32_t ___0_in_uNumChannels, uint32_t ___1_in_uChannelMask, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -52151,7 +52151,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkChannelConfig_SetStandardOrAnonymous_m
 		return;
 	}
 }
-// Method Definition Index: 35681
+// Method Definition Index: 35787
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkChannelConfig_SetAnonymous_m8050B95EF0A3E362F5808D537649DEFA42CA9F2B (AkChannelConfig_tFD865141B037719DDB40F88440BFA32D1BF3652B* __this, uint32_t ___0_in_uNumChannels, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -52170,7 +52170,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkChannelConfig_SetAnonymous_m8050B95EF0
 		return;
 	}
 }
-// Method Definition Index: 35682
+// Method Definition Index: 35788
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkChannelConfig_SetAmbisonic_m5871B7B563207A1F18741AEB66AE3E6FD0F6456C (AkChannelConfig_tFD865141B037719DDB40F88440BFA32D1BF3652B* __this, uint32_t ___0_in_uNumChannels, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -52189,7 +52189,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkChannelConfig_SetAmbisonic_m5871B7B563
 		return;
 	}
 }
-// Method Definition Index: 35683
+// Method Definition Index: 35789
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkChannelConfig_IsValid_mC3F21AE8FF321DEABD851489D6757343DC4C4370 (AkChannelConfig_tFD865141B037719DDB40F88440BFA32D1BF3652B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -52207,7 +52207,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkChannelConfig_IsValid_mC3F21AE8FF321DE
 		return L_1;
 	}
 }
-// Method Definition Index: 35684
+// Method Definition Index: 35790
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkChannelConfig_Serialize_m45E277F0C58917CE6E4DB225C0F136B806DAC8D0 (AkChannelConfig_tFD865141B037719DDB40F88440BFA32D1BF3652B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -52225,7 +52225,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkChannelConfig_Serialize_m45E277F0C
 		return L_1;
 	}
 }
-// Method Definition Index: 35685
+// Method Definition Index: 35791
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkChannelConfig_Deserialize_m3005307A8FFD5451DBA3321605D994BDAFCF6751 (AkChannelConfig_tFD865141B037719DDB40F88440BFA32D1BF3652B* __this, uint32_t ___0_in_uChannelConfig, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -52244,7 +52244,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkChannelConfig_Deserialize_m3005307A8FF
 		return;
 	}
 }
-// Method Definition Index: 35686
+// Method Definition Index: 35792
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AkChannelConfig_tFD865141B037719DDB40F88440BFA32D1BF3652B* AkChannelConfig_RemoveLFE_m722D48BDC6864394D10F1DDCE73310AEFBDE0983 (AkChannelConfig_tFD865141B037719DDB40F88440BFA32D1BF3652B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -52266,7 +52266,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AkChannelConfig_tFD865141B037719DDB40F88440BF
 		return L_2;
 	}
 }
-// Method Definition Index: 35687
+// Method Definition Index: 35793
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AkChannelConfig_tFD865141B037719DDB40F88440BFA32D1BF3652B* AkChannelConfig_RemoveCenter_m6A92EB8E0D5FBC4562B529019DB739AF71129587 (AkChannelConfig_tFD865141B037719DDB40F88440BFA32D1BF3652B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -52288,7 +52288,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AkChannelConfig_tFD865141B037719DDB40F88440BF
 		return L_2;
 	}
 }
-// Method Definition Index: 35688
+// Method Definition Index: 35794
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkChannelConfig_IsChannelConfigSupported_m582941D969B4EF93EF3884181B57924E247CCAB6 (AkChannelConfig_tFD865141B037719DDB40F88440BFA32D1BF3652B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -52322,7 +52322,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkChannelConfig_IsChannelConfigSupported
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 35689
+// Method Definition Index: 35795
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkChannelEmitter__ctor_m98F8E00C8A66042EEE3231B8925089B57F3A7780 (AkChannelEmitter_t16D87B58ED4FB8D666020A8A5116DD5D7BE11D83* __this, intptr_t ___0_cPtr, bool ___1_cMemoryOwn, const RuntimeMethod* method) 
 {
 	{
@@ -52338,7 +52338,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkChannelEmitter__ctor_m98F8E00C8A66042E
 		return;
 	}
 }
-// Method Definition Index: 35690
+// Method Definition Index: 35796
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkChannelEmitter_getCPtr_m1E99BE34BE7F2FC29F5045667A7C8F830392BD7A (AkChannelEmitter_t16D87B58ED4FB8D666020A8A5116DD5D7BE11D83* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -52361,7 +52361,7 @@ IL_000a:
 		return 0;
 	}
 }
-// Method Definition Index: 35691
+// Method Definition Index: 35797
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkChannelEmitter_setCPtr_m4E5D1259711C70F7042F4A280A26A95620D5C4CE (AkChannelEmitter_t16D87B58ED4FB8D666020A8A5116DD5D7BE11D83* __this, intptr_t ___0_cPtr, const RuntimeMethod* method) 
 {
 	{
@@ -52374,7 +52374,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkChannelEmitter_setCPtr_m4E5D1259711C70
 		return;
 	}
 }
-// Method Definition Index: 35692
+// Method Definition Index: 35798
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkChannelEmitter_Finalize_m607B4B40029D85EEEAD9E2AC71A293A770DFE743 (AkChannelEmitter_t16D87B58ED4FB8D666020A8A5116DD5D7BE11D83* __this, const RuntimeMethod* method) 
 {
 	{
@@ -52406,7 +52406,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 35693
+// Method Definition Index: 35799
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkChannelEmitter_Dispose_mDD2B38B57B3480DD1C4293A53FD1FF6A2B604BA0 (AkChannelEmitter_t16D87B58ED4FB8D666020A8A5116DD5D7BE11D83* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -52505,7 +52505,7 @@ IL_0055:
 		return;
 	}
 }
-// Method Definition Index: 35694
+// Method Definition Index: 35800
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkChannelEmitter_set_position_mFD2618A4C81883817A9359359EFBA51E28D1A7E5 (AkChannelEmitter_t16D87B58ED4FB8D666020A8A5116DD5D7BE11D83* __this, AkTransform_tA000159588AFB04BD21335BA166ED73FD972A07D* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -52526,7 +52526,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkChannelEmitter_set_position_mFD2618A4C
 		return;
 	}
 }
-// Method Definition Index: 35695
+// Method Definition Index: 35801
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AkTransform_tA000159588AFB04BD21335BA166ED73FD972A07D* AkChannelEmitter_get_position_m246C209B7B14F4DDEE62AB20869BB3DD13D75A15 (AkChannelEmitter_t16D87B58ED4FB8D666020A8A5116DD5D7BE11D83* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -52567,7 +52567,7 @@ IL_0021:
 		return (AkTransform_tA000159588AFB04BD21335BA166ED73FD972A07D*)NULL;
 	}
 }
-// Method Definition Index: 35696
+// Method Definition Index: 35802
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkChannelEmitter_set_uInputChannels_mE6E3ED7819B79DBF5E35108EDD3DE07A1BD00754 (AkChannelEmitter_t16D87B58ED4FB8D666020A8A5116DD5D7BE11D83* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -52586,7 +52586,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkChannelEmitter_set_uInputChannels_mE6E
 		return;
 	}
 }
-// Method Definition Index: 35697
+// Method Definition Index: 35803
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkChannelEmitter_get_uInputChannels_mBDC04F5C1648C955341B18EE8DBCE2FB81E3E876 (AkChannelEmitter_t16D87B58ED4FB8D666020A8A5116DD5D7BE11D83* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -52636,7 +52636,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkChannelEmitter_get_uInputChannels_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 35698
+// Method Definition Index: 35804
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceDescription__ctor_m8E4E22686CC964B7DCD886B4F063FEF30110B08C (AkDeviceDescription_t2FE8C2AA4C9483B7AA2753C3DDA376C15E4E4437* __this, intptr_t ___0_cPtr, bool ___1_cMemoryOwn, const RuntimeMethod* method) 
 {
 	{
@@ -52652,7 +52652,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceDescription__ctor_m8E4E22686CC96
 		return;
 	}
 }
-// Method Definition Index: 35699
+// Method Definition Index: 35805
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkDeviceDescription_getCPtr_m9AAE8142E7E2301B6959C6DE13D139EC18E18F54 (AkDeviceDescription_t2FE8C2AA4C9483B7AA2753C3DDA376C15E4E4437* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -52675,7 +52675,7 @@ IL_000a:
 		return 0;
 	}
 }
-// Method Definition Index: 35700
+// Method Definition Index: 35806
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceDescription_setCPtr_m05B417E8135460A3D3F19B22BF636EB14DA397A4 (AkDeviceDescription_t2FE8C2AA4C9483B7AA2753C3DDA376C15E4E4437* __this, intptr_t ___0_cPtr, const RuntimeMethod* method) 
 {
 	{
@@ -52688,7 +52688,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceDescription_setCPtr_m05B417E8135
 		return;
 	}
 }
-// Method Definition Index: 35701
+// Method Definition Index: 35807
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceDescription_Finalize_m568600AFE42B61C98DE0AB991BB23338253C6213 (AkDeviceDescription_t2FE8C2AA4C9483B7AA2753C3DDA376C15E4E4437* __this, const RuntimeMethod* method) 
 {
 	{
@@ -52720,7 +52720,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 35702
+// Method Definition Index: 35808
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceDescription_Dispose_mB48AFF19A6468E1E2944AE01407DAE82AB09F91E (AkDeviceDescription_t2FE8C2AA4C9483B7AA2753C3DDA376C15E4E4437* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -52819,7 +52819,7 @@ IL_0055:
 		return;
 	}
 }
-// Method Definition Index: 35703
+// Method Definition Index: 35809
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceDescription_set_idDevice_mB947819D26EB915F496057B147DC53B92307F214 (AkDeviceDescription_t2FE8C2AA4C9483B7AA2753C3DDA376C15E4E4437* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -52838,7 +52838,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceDescription_set_idDevice_mB94781
 		return;
 	}
 }
-// Method Definition Index: 35704
+// Method Definition Index: 35810
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkDeviceDescription_get_idDevice_m602B772F384F3655A66855866783743D876C2320 (AkDeviceDescription_t2FE8C2AA4C9483B7AA2753C3DDA376C15E4E4437* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -52856,7 +52856,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkDeviceDescription_get_idDevice_m60
 		return L_1;
 	}
 }
-// Method Definition Index: 35705
+// Method Definition Index: 35811
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceDescription_set_deviceName_m7CE6E19B0EBED013172EC4DAE6C65943E9081127 (AkDeviceDescription_t2FE8C2AA4C9483B7AA2753C3DDA376C15E4E4437* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -52875,7 +52875,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceDescription_set_deviceName_m7CE6
 		return;
 	}
 }
-// Method Definition Index: 35706
+// Method Definition Index: 35812
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AkDeviceDescription_get_deviceName_m0ADD276E091627B75C9103F72A084B1DF9388718 (AkDeviceDescription_t2FE8C2AA4C9483B7AA2753C3DDA376C15E4E4437* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -52897,7 +52897,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AkDeviceDescription_get_deviceName_
 		return L_2;
 	}
 }
-// Method Definition Index: 35707
+// Method Definition Index: 35813
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceDescription_set_deviceStateMask_m323B1F204CB835EACBBE13DEDDFF4CC72DEEEAE6 (AkDeviceDescription_t2FE8C2AA4C9483B7AA2753C3DDA376C15E4E4437* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -52916,7 +52916,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceDescription_set_deviceStateMask_
 		return;
 	}
 }
-// Method Definition Index: 35708
+// Method Definition Index: 35814
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkDeviceDescription_get_deviceStateMask_mF2E9886723052B49CA696EFB9DD65996284680AB (AkDeviceDescription_t2FE8C2AA4C9483B7AA2753C3DDA376C15E4E4437* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -52934,7 +52934,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkDeviceDescription_get_deviceStateMa
 		return (int32_t)(L_1);
 	}
 }
-// Method Definition Index: 35709
+// Method Definition Index: 35815
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceDescription_set_isDefaultDevice_mB4731C051C92BE15B3D73661651E466C290D1949 (AkDeviceDescription_t2FE8C2AA4C9483B7AA2753C3DDA376C15E4E4437* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -52953,7 +52953,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceDescription_set_isDefaultDevice_
 		return;
 	}
 }
-// Method Definition Index: 35710
+// Method Definition Index: 35816
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkDeviceDescription_get_isDefaultDevice_m36B817BD359A28F3F93A4D39FD3A6045831E7894 (AkDeviceDescription_t2FE8C2AA4C9483B7AA2753C3DDA376C15E4E4437* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -52971,7 +52971,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkDeviceDescription_get_isDefaultDevice_
 		return L_1;
 	}
 }
-// Method Definition Index: 35711
+// Method Definition Index: 35817
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceDescription_Clear_m218795956D4C69941ABD9434A76EFED6F192A4AD (AkDeviceDescription_t2FE8C2AA4C9483B7AA2753C3DDA376C15E4E4437* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -52989,7 +52989,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceDescription_Clear_m218795956D4C6
 		return;
 	}
 }
-// Method Definition Index: 35712
+// Method Definition Index: 35818
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkDeviceDescription_GetSizeOf_m453E233ABD08137E25A81F9F9409EDCFBF2E042B (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -53006,7 +53006,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkDeviceDescription_GetSizeOf_m453E23
 		return L_0;
 	}
 }
-// Method Definition Index: 35713
+// Method Definition Index: 35819
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceDescription_Clone_mE18CD9D9C5EF0E784C04848BB80B4ABF0A33BF4C (AkDeviceDescription_t2FE8C2AA4C9483B7AA2753C3DDA376C15E4E4437* __this, AkDeviceDescription_t2FE8C2AA4C9483B7AA2753C3DDA376C15E4E4437* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -53027,7 +53027,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceDescription_Clone_mE18CD9D9C5EF0
 		return;
 	}
 }
-// Method Definition Index: 35714
+// Method Definition Index: 35820
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceDescription__ctor_m05368D5E6E7125085DDD483747B6CC655F50F5B1 (AkDeviceDescription_t2FE8C2AA4C9483B7AA2753C3DDA376C15E4E4437* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -53054,7 +53054,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceDescription__ctor_m05368D5E6E712
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 35715
+// Method Definition Index: 35821
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceSettings__ctor_m931070D77B5EFCF51355297A393459BFBB80313F (AkDeviceSettings_tEF6BA0FC2D6D6A0E8F51629443D4B8533C1D9978* __this, intptr_t ___0_cPtr, bool ___1_cMemoryOwn, const RuntimeMethod* method) 
 {
 	{
@@ -53070,7 +53070,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceSettings__ctor_m931070D77B5EFCF5
 		return;
 	}
 }
-// Method Definition Index: 35716
+// Method Definition Index: 35822
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkDeviceSettings_getCPtr_mB8BCE52FD981473C103104DEC63A1B695FC61D80 (AkDeviceSettings_tEF6BA0FC2D6D6A0E8F51629443D4B8533C1D9978* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -53093,7 +53093,7 @@ IL_000a:
 		return 0;
 	}
 }
-// Method Definition Index: 35717
+// Method Definition Index: 35823
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceSettings_setCPtr_mE69710BFBD00780B2646D2A6746D754478660D0C (AkDeviceSettings_tEF6BA0FC2D6D6A0E8F51629443D4B8533C1D9978* __this, intptr_t ___0_cPtr, const RuntimeMethod* method) 
 {
 	{
@@ -53106,7 +53106,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceSettings_setCPtr_mE69710BFBD0078
 		return;
 	}
 }
-// Method Definition Index: 35718
+// Method Definition Index: 35824
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceSettings_Finalize_m51355C82649654A980ADEB6726DD498EA5CF26FE (AkDeviceSettings_tEF6BA0FC2D6D6A0E8F51629443D4B8533C1D9978* __this, const RuntimeMethod* method) 
 {
 	{
@@ -53138,7 +53138,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 35719
+// Method Definition Index: 35825
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceSettings_Dispose_mDDB3BA16BA8DC4013B7FE8AE0A6320B1F911A762 (AkDeviceSettings_tEF6BA0FC2D6D6A0E8F51629443D4B8533C1D9978* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -53237,7 +53237,7 @@ IL_0055:
 		return;
 	}
 }
-// Method Definition Index: 35720
+// Method Definition Index: 35826
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceSettings_set_pIOMemory_mED2737C2D545D9979B3E22DBBECBC6EB68CEC7B5 (AkDeviceSettings_tEF6BA0FC2D6D6A0E8F51629443D4B8533C1D9978* __this, intptr_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -53256,7 +53256,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceSettings_set_pIOMemory_mED2737C2
 		return;
 	}
 }
-// Method Definition Index: 35721
+// Method Definition Index: 35827
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkDeviceSettings_get_pIOMemory_m3A0D928920F92223C46ED0D9720744B9869FE9EF (AkDeviceSettings_tEF6BA0FC2D6D6A0E8F51629443D4B8533C1D9978* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -53274,7 +53274,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkDeviceSettings_get_pIOMemory_m3A0D
 		return L_1;
 	}
 }
-// Method Definition Index: 35722
+// Method Definition Index: 35828
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceSettings_set_uIOMemorySize_mEDB17C0462E05BB2FF4C1459DA0CE485E0933530 (AkDeviceSettings_tEF6BA0FC2D6D6A0E8F51629443D4B8533C1D9978* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -53293,7 +53293,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceSettings_set_uIOMemorySize_mEDB1
 		return;
 	}
 }
-// Method Definition Index: 35723
+// Method Definition Index: 35829
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkDeviceSettings_get_uIOMemorySize_m14C09DD07FFB7EBF14E211E4918691E3F334C24A (AkDeviceSettings_tEF6BA0FC2D6D6A0E8F51629443D4B8533C1D9978* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -53311,7 +53311,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkDeviceSettings_get_uIOMemorySize_m
 		return L_1;
 	}
 }
-// Method Definition Index: 35724
+// Method Definition Index: 35830
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceSettings_set_uIOMemoryAlignment_m63C827C80255B37307E940DE67DB6099675BE5E5 (AkDeviceSettings_tEF6BA0FC2D6D6A0E8F51629443D4B8533C1D9978* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -53330,7 +53330,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceSettings_set_uIOMemoryAlignment_
 		return;
 	}
 }
-// Method Definition Index: 35725
+// Method Definition Index: 35831
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkDeviceSettings_get_uIOMemoryAlignment_m301091DDCAB1BD119F0EEB305A64798153C9ED2A (AkDeviceSettings_tEF6BA0FC2D6D6A0E8F51629443D4B8533C1D9978* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -53348,7 +53348,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkDeviceSettings_get_uIOMemoryAlignm
 		return L_1;
 	}
 }
-// Method Definition Index: 35726
+// Method Definition Index: 35832
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceSettings_set_ePoolAttributes_mF4108842EDBB47C66695FBF973494821E08D012C (AkDeviceSettings_tEF6BA0FC2D6D6A0E8F51629443D4B8533C1D9978* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -53367,7 +53367,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceSettings_set_ePoolAttributes_mF4
 		return;
 	}
 }
-// Method Definition Index: 35727
+// Method Definition Index: 35833
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkDeviceSettings_get_ePoolAttributes_m63BDDF2BC3C6AC6751F71B8198E5E733D9D98581 (AkDeviceSettings_tEF6BA0FC2D6D6A0E8F51629443D4B8533C1D9978* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -53385,7 +53385,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkDeviceSettings_get_ePoolAttributes
 		return L_1;
 	}
 }
-// Method Definition Index: 35728
+// Method Definition Index: 35834
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceSettings_set_uGranularity_m477BF7593D81BFC7A5A6CD732F7FE9911104FE47 (AkDeviceSettings_tEF6BA0FC2D6D6A0E8F51629443D4B8533C1D9978* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -53404,7 +53404,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceSettings_set_uGranularity_m477BF
 		return;
 	}
 }
-// Method Definition Index: 35729
+// Method Definition Index: 35835
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkDeviceSettings_get_uGranularity_mFF3522A3A3EDC349B93340373C5C3A08BE8B2294 (AkDeviceSettings_tEF6BA0FC2D6D6A0E8F51629443D4B8533C1D9978* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -53422,7 +53422,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkDeviceSettings_get_uGranularity_mF
 		return L_1;
 	}
 }
-// Method Definition Index: 35730
+// Method Definition Index: 35836
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceSettings_set_uSchedulerTypeFlags_m8A3329E7E4342C6102AC176BB30637FB6782F62E (AkDeviceSettings_tEF6BA0FC2D6D6A0E8F51629443D4B8533C1D9978* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -53441,7 +53441,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceSettings_set_uSchedulerTypeFlags
 		return;
 	}
 }
-// Method Definition Index: 35731
+// Method Definition Index: 35837
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkDeviceSettings_get_uSchedulerTypeFlags_mF51F3377B77E150D27E418F6034FCEF405AB4A4E (AkDeviceSettings_tEF6BA0FC2D6D6A0E8F51629443D4B8533C1D9978* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -53459,7 +53459,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkDeviceSettings_get_uSchedulerTypeF
 		return L_1;
 	}
 }
-// Method Definition Index: 35732
+// Method Definition Index: 35838
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceSettings_set_threadProperties_m791D2AC673996FD0053E291F22CDF8B2E5137F0C (AkDeviceSettings_tEF6BA0FC2D6D6A0E8F51629443D4B8533C1D9978* __this, AkThreadProperties_t0810A2AB3ADCC6743605805A6861023DC9172CEE* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -53480,7 +53480,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceSettings_set_threadProperties_m7
 		return;
 	}
 }
-// Method Definition Index: 35733
+// Method Definition Index: 35839
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AkThreadProperties_t0810A2AB3ADCC6743605805A6861023DC9172CEE* AkDeviceSettings_get_threadProperties_mB21E761407B895C3877C99662B0D63E819A12823 (AkDeviceSettings_tEF6BA0FC2D6D6A0E8F51629443D4B8533C1D9978* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -53521,7 +53521,7 @@ IL_0021:
 		return (AkThreadProperties_t0810A2AB3ADCC6743605805A6861023DC9172CEE*)NULL;
 	}
 }
-// Method Definition Index: 35734
+// Method Definition Index: 35840
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceSettings_set_fTargetAutoStmBufferLength_mE7EB385E48E5AF8FADF8568B86607D29873AB136 (AkDeviceSettings_tEF6BA0FC2D6D6A0E8F51629443D4B8533C1D9978* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -53540,7 +53540,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceSettings_set_fTargetAutoStmBuffe
 		return;
 	}
 }
-// Method Definition Index: 35735
+// Method Definition Index: 35841
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkDeviceSettings_get_fTargetAutoStmBufferLength_m7BC256294D320476CF45D9C0C5D753C4675EC951 (AkDeviceSettings_tEF6BA0FC2D6D6A0E8F51629443D4B8533C1D9978* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -53558,7 +53558,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkDeviceSettings_get_fTargetAutoStmBuff
 		return L_1;
 	}
 }
-// Method Definition Index: 35736
+// Method Definition Index: 35842
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceSettings_set_uMaxConcurrentIO_mD93F2E13314961E743E0D2E3F3EDE0E872C30F7F (AkDeviceSettings_tEF6BA0FC2D6D6A0E8F51629443D4B8533C1D9978* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -53577,7 +53577,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceSettings_set_uMaxConcurrentIO_mD
 		return;
 	}
 }
-// Method Definition Index: 35737
+// Method Definition Index: 35843
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkDeviceSettings_get_uMaxConcurrentIO_m8CDA275F9C9862D6A27FAA3211A8DADFDE11497C (AkDeviceSettings_tEF6BA0FC2D6D6A0E8F51629443D4B8533C1D9978* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -53595,7 +53595,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkDeviceSettings_get_uMaxConcurrentI
 		return L_1;
 	}
 }
-// Method Definition Index: 35738
+// Method Definition Index: 35844
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceSettings_set_bUseStreamCache_mFBDE61D2242140ABD0C4ED2B12186375A877E182 (AkDeviceSettings_tEF6BA0FC2D6D6A0E8F51629443D4B8533C1D9978* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -53614,7 +53614,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceSettings_set_bUseStreamCache_mFB
 		return;
 	}
 }
-// Method Definition Index: 35739
+// Method Definition Index: 35845
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkDeviceSettings_get_bUseStreamCache_mEFD5D03F8965CCB0FB9B06F627FDAF58AEB9CB00 (AkDeviceSettings_tEF6BA0FC2D6D6A0E8F51629443D4B8533C1D9978* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -53632,7 +53632,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkDeviceSettings_get_bUseStreamCache_mEF
 		return L_1;
 	}
 }
-// Method Definition Index: 35740
+// Method Definition Index: 35846
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceSettings_set_uMaxCachePinnedBytes_mBB31B990EBC939C98CA76851CF0DC3C8860C7EC4 (AkDeviceSettings_tEF6BA0FC2D6D6A0E8F51629443D4B8533C1D9978* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -53651,7 +53651,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDeviceSettings_set_uMaxCachePinnedByte
 		return;
 	}
 }
-// Method Definition Index: 35741
+// Method Definition Index: 35847
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkDeviceSettings_get_uMaxCachePinnedBytes_m1291E34D0489B6A98A0E227AF0266E6A7E6FE7E6 (AkDeviceSettings_tEF6BA0FC2D6D6A0E8F51629443D4B8533C1D9978* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -53685,7 +53685,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkDeviceSettings_get_uMaxCachePinned
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 35742
+// Method Definition Index: 35848
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDiffractionPathInfo__ctor_m24D95A7445C465FE27B56FD7CFD3DF832BDE84D2 (AkDiffractionPathInfo_tD5301970E5C6937254022B83A84491184997721D* __this, intptr_t ___0_cPtr, bool ___1_cMemoryOwn, const RuntimeMethod* method) 
 {
 	{
@@ -53701,7 +53701,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDiffractionPathInfo__ctor_m24D95A7445C
 		return;
 	}
 }
-// Method Definition Index: 35743
+// Method Definition Index: 35849
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkDiffractionPathInfo_getCPtr_mF06AF71A752A9EDDEA80B86B4E410DD476FF4B76 (AkDiffractionPathInfo_tD5301970E5C6937254022B83A84491184997721D* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -53724,7 +53724,7 @@ IL_000a:
 		return 0;
 	}
 }
-// Method Definition Index: 35744
+// Method Definition Index: 35850
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDiffractionPathInfo_setCPtr_mFD5280814ADCC5D4B8B94960256840AD9FBDE503 (AkDiffractionPathInfo_tD5301970E5C6937254022B83A84491184997721D* __this, intptr_t ___0_cPtr, const RuntimeMethod* method) 
 {
 	{
@@ -53737,7 +53737,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDiffractionPathInfo_setCPtr_mFD5280814
 		return;
 	}
 }
-// Method Definition Index: 35745
+// Method Definition Index: 35851
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDiffractionPathInfo_Finalize_m0A6A63862FF2E4D13DE668AB86C958CA52286F85 (AkDiffractionPathInfo_tD5301970E5C6937254022B83A84491184997721D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -53769,7 +53769,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 35746
+// Method Definition Index: 35852
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDiffractionPathInfo_Dispose_mEBA5C9F43DC97BC9C81F4E60690B2BA1ADC19061 (AkDiffractionPathInfo_tD5301970E5C6937254022B83A84491184997721D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -53868,7 +53868,7 @@ IL_0055:
 		return;
 	}
 }
-// Method Definition Index: 35747
+// Method Definition Index: 35853
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDiffractionPathInfo_set_virtualPos_m65B1219924D164EBCD990CB1ED888AD71B9CCB50 (AkDiffractionPathInfo_tD5301970E5C6937254022B83A84491184997721D* __this, AkTransform_tA000159588AFB04BD21335BA166ED73FD972A07D* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -53889,7 +53889,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDiffractionPathInfo_set_virtualPos_m65
 		return;
 	}
 }
-// Method Definition Index: 35748
+// Method Definition Index: 35854
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AkTransform_tA000159588AFB04BD21335BA166ED73FD972A07D* AkDiffractionPathInfo_get_virtualPos_m47824AD65C3F2B26C54B5B438FC844C794CAC824 (AkDiffractionPathInfo_tD5301970E5C6937254022B83A84491184997721D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -53930,7 +53930,7 @@ IL_0021:
 		return (AkTransform_tA000159588AFB04BD21335BA166ED73FD972A07D*)NULL;
 	}
 }
-// Method Definition Index: 35749
+// Method Definition Index: 35855
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDiffractionPathInfo_set_nodeCount_m36DB949C1E79962C143EF98DCB48AF522091A374 (AkDiffractionPathInfo_tD5301970E5C6937254022B83A84491184997721D* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -53949,7 +53949,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDiffractionPathInfo_set_nodeCount_m36D
 		return;
 	}
 }
-// Method Definition Index: 35750
+// Method Definition Index: 35856
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkDiffractionPathInfo_get_nodeCount_mC217F3678C6ACC5B01C0C644CF00523DFD416593 (AkDiffractionPathInfo_tD5301970E5C6937254022B83A84491184997721D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -53967,7 +53967,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkDiffractionPathInfo_get_nodeCount_
 		return L_1;
 	}
 }
-// Method Definition Index: 35751
+// Method Definition Index: 35857
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDiffractionPathInfo_set_diffraction_mA798355AC602078C8DBE42AE1F184838E6982EA2 (AkDiffractionPathInfo_tD5301970E5C6937254022B83A84491184997721D* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -53986,7 +53986,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDiffractionPathInfo_set_diffraction_mA
 		return;
 	}
 }
-// Method Definition Index: 35752
+// Method Definition Index: 35858
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkDiffractionPathInfo_get_diffraction_m6CF22D5F666D78D19BF2BEB3E622EDB25F2EFB17 (AkDiffractionPathInfo_tD5301970E5C6937254022B83A84491184997721D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -54004,7 +54004,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkDiffractionPathInfo_get_diffraction_m
 		return L_1;
 	}
 }
-// Method Definition Index: 35753
+// Method Definition Index: 35859
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDiffractionPathInfo_set_totLength_m7AB891FA9F3C645AB04F56AFF3B096FE52B4335A (AkDiffractionPathInfo_tD5301970E5C6937254022B83A84491184997721D* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -54023,7 +54023,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDiffractionPathInfo_set_totLength_m7AB
 		return;
 	}
 }
-// Method Definition Index: 35754
+// Method Definition Index: 35860
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkDiffractionPathInfo_get_totLength_m5BAFDDB5C6666C90FDC5ACF4655735935DD49E65 (AkDiffractionPathInfo_tD5301970E5C6937254022B83A84491184997721D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -54041,7 +54041,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkDiffractionPathInfo_get_totLength_m5B
 		return L_1;
 	}
 }
-// Method Definition Index: 35755
+// Method Definition Index: 35861
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDiffractionPathInfo_set_obstructionValue_m18F97CBCCEC8E8186C4FA04D2830ECCABAFE0A3F (AkDiffractionPathInfo_tD5301970E5C6937254022B83A84491184997721D* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -54060,7 +54060,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDiffractionPathInfo_set_obstructionVal
 		return;
 	}
 }
-// Method Definition Index: 35756
+// Method Definition Index: 35862
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkDiffractionPathInfo_get_obstructionValue_m48CB709E300D3D0176884DA8CA11BCFAC159392F (AkDiffractionPathInfo_tD5301970E5C6937254022B83A84491184997721D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -54078,7 +54078,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkDiffractionPathInfo_get_obstructionVa
 		return L_1;
 	}
 }
-// Method Definition Index: 35757
+// Method Definition Index: 35863
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkDiffractionPathInfo_GetSizeOf_m1402655FEC70CC3662F41D32FB5ACD6E6BE98F69 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -54095,7 +54095,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkDiffractionPathInfo_GetSizeOf_m1402
 		return L_0;
 	}
 }
-// Method Definition Index: 35758
+// Method Definition Index: 35864
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 AkDiffractionPathInfo_GetNodes_mBB43D85D97162CF81F419125114B6C0917CC501B (AkDiffractionPathInfo_tD5301970E5C6937254022B83A84491184997721D* __this, uint32_t ___0_idx, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -54114,7 +54114,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_2;
 	}
 }
-// Method Definition Index: 35759
+// Method Definition Index: 35865
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkDiffractionPathInfo_GetAngles_mE3E224E374EC9A8CA8BDC4F0FFC0FD74456F107F (AkDiffractionPathInfo_tD5301970E5C6937254022B83A84491184997721D* __this, uint32_t ___0_idx, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -54133,7 +54133,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkDiffractionPathInfo_GetAngles_mE3E224
 		return L_2;
 	}
 }
-// Method Definition Index: 35760
+// Method Definition Index: 35866
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t AkDiffractionPathInfo_GetPortals_m86C03396D31F06575361FFCA040498B27C12618B (AkDiffractionPathInfo_tD5301970E5C6937254022B83A84491184997721D* __this, uint32_t ___0_idx, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -54152,7 +54152,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t AkDiffractionPathInfo_GetPortals_m86
 		return L_2;
 	}
 }
-// Method Definition Index: 35761
+// Method Definition Index: 35867
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t AkDiffractionPathInfo_GetRooms_mE70D212A77013F3F6209872591685BD35A62101C (AkDiffractionPathInfo_tD5301970E5C6937254022B83A84491184997721D* __this, uint32_t ___0_idx, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -54171,7 +54171,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t AkDiffractionPathInfo_GetRooms_mE70D
 		return L_2;
 	}
 }
-// Method Definition Index: 35762
+// Method Definition Index: 35868
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDiffractionPathInfo_Clone_mEB610BA64DFA73ED15D630A75BC9F726241EA9A7 (AkDiffractionPathInfo_tD5301970E5C6937254022B83A84491184997721D* __this, AkDiffractionPathInfo_tD5301970E5C6937254022B83A84491184997721D* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -54192,7 +54192,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDiffractionPathInfo_Clone_mEB610BA64DF
 		return;
 	}
 }
-// Method Definition Index: 35763
+// Method Definition Index: 35869
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDiffractionPathInfo__ctor_mCEFB480604356AC3737E8DCF176A85682DF52F50 (AkDiffractionPathInfo_tD5301970E5C6937254022B83A84491184997721D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -54219,7 +54219,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDiffractionPathInfo__ctor_mCEFB4806043
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 35764
+// Method Definition Index: 35870
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDurationCallbackInfo__ctor_mC3E3369164CCD5BA8473E67DC61DA33941FE9A7B (AkDurationCallbackInfo_t1729EBC4EA17C8096DA6F6E02418662BF54AECAF* __this, intptr_t ___0_cPtr, bool ___1_cMemoryOwn, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -54243,7 +54243,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDurationCallbackInfo__ctor_mC3E3369164
 		return;
 	}
 }
-// Method Definition Index: 35765
+// Method Definition Index: 35871
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkDurationCallbackInfo_getCPtr_m1C1A1AFEB63F678286624B09685E66327DAB77BB (AkDurationCallbackInfo_t1729EBC4EA17C8096DA6F6E02418662BF54AECAF* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -54266,7 +54266,7 @@ IL_000a:
 		return 0;
 	}
 }
-// Method Definition Index: 35766
+// Method Definition Index: 35872
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDurationCallbackInfo_setCPtr_m6CB031F1EB0848592066D9B2CDD81B212EA6DB61 (AkDurationCallbackInfo_t1729EBC4EA17C8096DA6F6E02418662BF54AECAF* __this, intptr_t ___0_cPtr, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -54289,7 +54289,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDurationCallbackInfo_setCPtr_m6CB031F1
 		return;
 	}
 }
-// Method Definition Index: 35767
+// Method Definition Index: 35873
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDurationCallbackInfo_Finalize_m9010A294DE70F2A8A766FE5C24E4EE6CB8B39D03 (AkDurationCallbackInfo_t1729EBC4EA17C8096DA6F6E02418662BF54AECAF* __this, const RuntimeMethod* method) 
 {
 	{
@@ -54321,7 +54321,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 35768
+// Method Definition Index: 35874
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDurationCallbackInfo_Dispose_m496E6EE3D5494E546E874F99A3120054F435CDA3 (AkDurationCallbackInfo_t1729EBC4EA17C8096DA6F6E02418662BF54AECAF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -54422,7 +54422,7 @@ IL_005b:
 		return;
 	}
 }
-// Method Definition Index: 35769
+// Method Definition Index: 35875
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkDurationCallbackInfo_get_fDuration_mE37C8954633AD4AFB5BCBB6C6AA3B2A9305AC3E2 (AkDurationCallbackInfo_t1729EBC4EA17C8096DA6F6E02418662BF54AECAF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -54440,7 +54440,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkDurationCallbackInfo_get_fDuration_mE
 		return L_1;
 	}
 }
-// Method Definition Index: 35770
+// Method Definition Index: 35876
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkDurationCallbackInfo_get_fEstimatedDuration_mA779EAC0B3B06A07BA1C5EE2588AD9775086ADDD (AkDurationCallbackInfo_t1729EBC4EA17C8096DA6F6E02418662BF54AECAF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -54458,7 +54458,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkDurationCallbackInfo_get_fEstimatedDu
 		return L_1;
 	}
 }
-// Method Definition Index: 35771
+// Method Definition Index: 35877
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkDurationCallbackInfo_get_audioNodeID_mF2251A6027B984D387C4F2AF397A810F08EBA388 (AkDurationCallbackInfo_t1729EBC4EA17C8096DA6F6E02418662BF54AECAF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -54476,7 +54476,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkDurationCallbackInfo_get_audioNode
 		return L_1;
 	}
 }
-// Method Definition Index: 35772
+// Method Definition Index: 35878
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkDurationCallbackInfo_get_mediaID_m3F200C3FDB4C6E461CB51F8A09C7A967853FAFC7 (AkDurationCallbackInfo_t1729EBC4EA17C8096DA6F6E02418662BF54AECAF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -54494,7 +54494,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkDurationCallbackInfo_get_mediaID_m
 		return L_1;
 	}
 }
-// Method Definition Index: 35773
+// Method Definition Index: 35879
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkDurationCallbackInfo_get_bStreaming_mBB0D67B209A0AB8E7FF87F067E7D67DF8A5DB8A8 (AkDurationCallbackInfo_t1729EBC4EA17C8096DA6F6E02418662BF54AECAF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -54512,7 +54512,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkDurationCallbackInfo_get_bStreaming_mB
 		return L_1;
 	}
 }
-// Method Definition Index: 35774
+// Method Definition Index: 35880
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDurationCallbackInfo__ctor_m6DDC102F8FEE1AD6699E48E555F86F6570E30AF4 (AkDurationCallbackInfo_t1729EBC4EA17C8096DA6F6E02418662BF54AECAF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -54539,7 +54539,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDurationCallbackInfo__ctor_m6DDC102F8F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 35775
+// Method Definition Index: 35881
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDynamicSequenceItemCallbackInfo__ctor_m8E475CB6F3115CB3D1A782B9113422195B100462 (AkDynamicSequenceItemCallbackInfo_tDDAAA292E9A9E064F9F480872F6BB60BFA0BACE3* __this, intptr_t ___0_cPtr, bool ___1_cMemoryOwn, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -54563,7 +54563,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDynamicSequenceItemCallbackInfo__ctor_
 		return;
 	}
 }
-// Method Definition Index: 35776
+// Method Definition Index: 35882
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkDynamicSequenceItemCallbackInfo_getCPtr_m391AA782A5A59E1FC31D1E1902CB84A693568999 (AkDynamicSequenceItemCallbackInfo_tDDAAA292E9A9E064F9F480872F6BB60BFA0BACE3* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -54586,7 +54586,7 @@ IL_000a:
 		return 0;
 	}
 }
-// Method Definition Index: 35777
+// Method Definition Index: 35883
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDynamicSequenceItemCallbackInfo_setCPtr_mCDB8C878DD08548680F5F77966C097A0AE967844 (AkDynamicSequenceItemCallbackInfo_tDDAAA292E9A9E064F9F480872F6BB60BFA0BACE3* __this, intptr_t ___0_cPtr, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -54609,7 +54609,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDynamicSequenceItemCallbackInfo_setCPt
 		return;
 	}
 }
-// Method Definition Index: 35778
+// Method Definition Index: 35884
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDynamicSequenceItemCallbackInfo_Finalize_m9EF45FD4C7E3E61072BCA0B3FA5B85E61D1507DA (AkDynamicSequenceItemCallbackInfo_tDDAAA292E9A9E064F9F480872F6BB60BFA0BACE3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -54641,7 +54641,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 35779
+// Method Definition Index: 35885
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDynamicSequenceItemCallbackInfo_Dispose_m1248E42DCBA84B80D4269AB6BA8D86F9F4DB04B6 (AkDynamicSequenceItemCallbackInfo_tDDAAA292E9A9E064F9F480872F6BB60BFA0BACE3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -54742,7 +54742,7 @@ IL_005b:
 		return;
 	}
 }
-// Method Definition Index: 35780
+// Method Definition Index: 35886
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkDynamicSequenceItemCallbackInfo_get_playingID_m22737EE72EE835599E53F32B30D2A7D20F8E9673 (AkDynamicSequenceItemCallbackInfo_tDDAAA292E9A9E064F9F480872F6BB60BFA0BACE3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -54760,7 +54760,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkDynamicSequenceItemCallbackInfo_ge
 		return L_1;
 	}
 }
-// Method Definition Index: 35781
+// Method Definition Index: 35887
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkDynamicSequenceItemCallbackInfo_get_audioNodeID_mB698C8199C459CEC4F75717EE87508D23DAFA9EC (AkDynamicSequenceItemCallbackInfo_tDDAAA292E9A9E064F9F480872F6BB60BFA0BACE3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -54778,7 +54778,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkDynamicSequenceItemCallbackInfo_ge
 		return L_1;
 	}
 }
-// Method Definition Index: 35782
+// Method Definition Index: 35888
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkDynamicSequenceItemCallbackInfo_get_pCustomInfo_mFE4D3C4903C56709BFB7D9A8D2667FECDB297A1F (AkDynamicSequenceItemCallbackInfo_tDDAAA292E9A9E064F9F480872F6BB60BFA0BACE3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -54796,7 +54796,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkDynamicSequenceItemCallbackInfo_ge
 		return L_1;
 	}
 }
-// Method Definition Index: 35783
+// Method Definition Index: 35889
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDynamicSequenceItemCallbackInfo__ctor_m832D26B843A8B6BF82610339DE8491E62218F357 (AkDynamicSequenceItemCallbackInfo_tDDAAA292E9A9E064F9F480872F6BB60BFA0BACE3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -54831,7 +54831,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkDynamicSequenceItemCallbackInfo__ctor_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 35784
+// Method Definition Index: 35890
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkEventCallbackInfo__ctor_mC19D3AA7C62EC08231E2F77910CCAD1D579704BD (AkEventCallbackInfo_t47E1083C67C2D32E9E297364B6B28F280D5F0CD3* __this, intptr_t ___0_cPtr, bool ___1_cMemoryOwn, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -54855,7 +54855,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkEventCallbackInfo__ctor_mC19D3AA7C62EC
 		return;
 	}
 }
-// Method Definition Index: 35785
+// Method Definition Index: 35891
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkEventCallbackInfo_getCPtr_m421693DA617E631FAABAC52DE002A675F3BB73C2 (AkEventCallbackInfo_t47E1083C67C2D32E9E297364B6B28F280D5F0CD3* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -54878,7 +54878,7 @@ IL_000a:
 		return 0;
 	}
 }
-// Method Definition Index: 35786
+// Method Definition Index: 35892
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkEventCallbackInfo_setCPtr_m16E1532ED2D439AB2B6AD19A184F2DF38E54E9BE (AkEventCallbackInfo_t47E1083C67C2D32E9E297364B6B28F280D5F0CD3* __this, intptr_t ___0_cPtr, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -54901,7 +54901,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkEventCallbackInfo_setCPtr_m16E1532ED2D
 		return;
 	}
 }
-// Method Definition Index: 35787
+// Method Definition Index: 35893
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkEventCallbackInfo_Finalize_m1F42EE73127C0EC9A3D35B472A56F5FBF7D839A8 (AkEventCallbackInfo_t47E1083C67C2D32E9E297364B6B28F280D5F0CD3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -54933,7 +54933,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 35788
+// Method Definition Index: 35894
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkEventCallbackInfo_Dispose_mD07754870DF91F65B62BB204710563853690B8E8 (AkEventCallbackInfo_t47E1083C67C2D32E9E297364B6B28F280D5F0CD3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -55034,7 +55034,7 @@ IL_005b:
 		return;
 	}
 }
-// Method Definition Index: 35789
+// Method Definition Index: 35895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkEventCallbackInfo_get_playingID_m94A34F027B435565C6968F7A22C9E04FBDDF5DEE (AkEventCallbackInfo_t47E1083C67C2D32E9E297364B6B28F280D5F0CD3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -55052,7 +55052,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkEventCallbackInfo_get_playingID_m9
 		return L_1;
 	}
 }
-// Method Definition Index: 35790
+// Method Definition Index: 35896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkEventCallbackInfo_get_eventID_m4346057AD070856DFD36F83245E783BAE05E1EE2 (AkEventCallbackInfo_t47E1083C67C2D32E9E297364B6B28F280D5F0CD3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -55070,7 +55070,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkEventCallbackInfo_get_eventID_m434
 		return L_1;
 	}
 }
-// Method Definition Index: 35791
+// Method Definition Index: 35897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkEventCallbackInfo__ctor_m7B7BAC16872F61BC807A2D5AD363114F7EF2959D (AkEventCallbackInfo_t47E1083C67C2D32E9E297364B6B28F280D5F0CD3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -55097,7 +55097,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkEventCallbackInfo__ctor_m7B7BAC16872F6
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 35792
+// Method Definition Index: 35898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkExternalSourceInfo__ctor_m360A85D2C18941C1F8C7619BF9202AC4B1A916F1 (AkExternalSourceInfo_tA7537089546AFDA1CF754E58FE18631E0E60A2AB* __this, intptr_t ___0_cPtr, bool ___1_cMemoryOwn, const RuntimeMethod* method) 
 {
 	{
@@ -55113,7 +55113,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkExternalSourceInfo__ctor_m360A85D2C189
 		return;
 	}
 }
-// Method Definition Index: 35793
+// Method Definition Index: 35899
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkExternalSourceInfo_getCPtr_mA7C7D3CD52914DD67401A4CBDFE1AB4499C9D40F (AkExternalSourceInfo_tA7537089546AFDA1CF754E58FE18631E0E60A2AB* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -55136,7 +55136,7 @@ IL_000a:
 		return 0;
 	}
 }
-// Method Definition Index: 35794
+// Method Definition Index: 35900
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkExternalSourceInfo_setCPtr_m8E99FF058EEC405F113AD987DC6ACB369DF64411 (AkExternalSourceInfo_tA7537089546AFDA1CF754E58FE18631E0E60A2AB* __this, intptr_t ___0_cPtr, const RuntimeMethod* method) 
 {
 	{
@@ -55149,7 +55149,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkExternalSourceInfo_setCPtr_m8E99FF058E
 		return;
 	}
 }
-// Method Definition Index: 35795
+// Method Definition Index: 35901
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkExternalSourceInfo_Finalize_m17ABCFDC0719A33BC5DD46E66B9E932948EAAFE9 (AkExternalSourceInfo_tA7537089546AFDA1CF754E58FE18631E0E60A2AB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -55181,7 +55181,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 35796
+// Method Definition Index: 35902
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkExternalSourceInfo_Dispose_mB4FA67E819A661A2E509253C2E4857FF7D978515 (AkExternalSourceInfo_tA7537089546AFDA1CF754E58FE18631E0E60A2AB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -55280,7 +55280,7 @@ IL_0055:
 		return;
 	}
 }
-// Method Definition Index: 35797
+// Method Definition Index: 35903
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkExternalSourceInfo__ctor_m023E3FC9BACB4A4FA6F30CE4BDB8689A83BDC67E (AkExternalSourceInfo_tA7537089546AFDA1CF754E58FE18631E0E60A2AB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -55299,7 +55299,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkExternalSourceInfo__ctor_m023E3FC9BACB
 		return;
 	}
 }
-// Method Definition Index: 35798
+// Method Definition Index: 35904
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkExternalSourceInfo__ctor_m60DE94C480C72B6D1D8DD38E659689FE8BE9D4B7 (AkExternalSourceInfo_tA7537089546AFDA1CF754E58FE18631E0E60A2AB* __this, intptr_t ___0_in_pInMemory, uint32_t ___1_in_uiMemorySize, uint32_t ___2_in_iExternalSrcCookie, uint32_t ___3_in_idCodec, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -55322,7 +55322,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkExternalSourceInfo__ctor_m60DE94C480C7
 		return;
 	}
 }
-// Method Definition Index: 35799
+// Method Definition Index: 35905
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkExternalSourceInfo__ctor_m4908DFE6CD4AEE0EB557A385046C485044668F29 (AkExternalSourceInfo_tA7537089546AFDA1CF754E58FE18631E0E60A2AB* __this, String_t* ___0_in_pszFileName, uint32_t ___1_in_iExternalSrcCookie, uint32_t ___2_in_idCodec, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -55344,7 +55344,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkExternalSourceInfo__ctor_m4908DFE6CD4A
 		return;
 	}
 }
-// Method Definition Index: 35800
+// Method Definition Index: 35906
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkExternalSourceInfo__ctor_m77DD636E2A7E95A6C553A68EA403490F2C141683 (AkExternalSourceInfo_tA7537089546AFDA1CF754E58FE18631E0E60A2AB* __this, uint32_t ___0_in_idFile, uint32_t ___1_in_iExternalSrcCookie, uint32_t ___2_in_idCodec, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -55366,7 +55366,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkExternalSourceInfo__ctor_m77DD636E2A7E
 		return;
 	}
 }
-// Method Definition Index: 35801
+// Method Definition Index: 35907
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkExternalSourceInfo_Clear_mB6452A5C4874EA13AF6E0060DEACD084141779D3 (AkExternalSourceInfo_tA7537089546AFDA1CF754E58FE18631E0E60A2AB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -55384,7 +55384,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkExternalSourceInfo_Clear_mB6452A5C4874
 		return;
 	}
 }
-// Method Definition Index: 35802
+// Method Definition Index: 35908
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkExternalSourceInfo_Clone_m6A02BCA04E53A5E0050F71B90F93A7B02B769CDB (AkExternalSourceInfo_tA7537089546AFDA1CF754E58FE18631E0E60A2AB* __this, AkExternalSourceInfo_tA7537089546AFDA1CF754E58FE18631E0E60A2AB* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -55405,7 +55405,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkExternalSourceInfo_Clone_m6A02BCA04E53
 		return;
 	}
 }
-// Method Definition Index: 35803
+// Method Definition Index: 35909
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkExternalSourceInfo_GetSizeOf_mC42E10F6AEC304637A8CFB789B208844A4FD3241 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -55422,7 +55422,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkExternalSourceInfo_GetSizeOf_mC42E1
 		return L_0;
 	}
 }
-// Method Definition Index: 35804
+// Method Definition Index: 35910
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkExternalSourceInfo_set_iExternalSrcCookie_mF43DCBC34984AB00F6922994FAEBE9EF22F4185F (AkExternalSourceInfo_tA7537089546AFDA1CF754E58FE18631E0E60A2AB* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -55441,7 +55441,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkExternalSourceInfo_set_iExternalSrcCoo
 		return;
 	}
 }
-// Method Definition Index: 35805
+// Method Definition Index: 35911
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkExternalSourceInfo_get_iExternalSrcCookie_m3B473756356A090922DEB2FAB506A4F897ABBF7A (AkExternalSourceInfo_tA7537089546AFDA1CF754E58FE18631E0E60A2AB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -55459,7 +55459,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkExternalSourceInfo_get_iExternalSr
 		return L_1;
 	}
 }
-// Method Definition Index: 35806
+// Method Definition Index: 35912
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkExternalSourceInfo_set_idCodec_m8C70159B05705B6498599F170BF12AE3ED7E7D14 (AkExternalSourceInfo_tA7537089546AFDA1CF754E58FE18631E0E60A2AB* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -55478,7 +55478,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkExternalSourceInfo_set_idCodec_m8C7015
 		return;
 	}
 }
-// Method Definition Index: 35807
+// Method Definition Index: 35913
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkExternalSourceInfo_get_idCodec_m384DCCB9E6B0DE8D08B21568F00C69643426EBD7 (AkExternalSourceInfo_tA7537089546AFDA1CF754E58FE18631E0E60A2AB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -55496,7 +55496,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkExternalSourceInfo_get_idCodec_m38
 		return L_1;
 	}
 }
-// Method Definition Index: 35808
+// Method Definition Index: 35914
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkExternalSourceInfo_set_szFile_mC4A9507F423F1CF4B350DB1CD61D51662DC1E94B (AkExternalSourceInfo_tA7537089546AFDA1CF754E58FE18631E0E60A2AB* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -55515,7 +55515,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkExternalSourceInfo_set_szFile_mC4A9507
 		return;
 	}
 }
-// Method Definition Index: 35809
+// Method Definition Index: 35915
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AkExternalSourceInfo_get_szFile_m4DCBC74C3EC4368D650695803FEB02851D09E333 (AkExternalSourceInfo_tA7537089546AFDA1CF754E58FE18631E0E60A2AB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -55537,7 +55537,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AkExternalSourceInfo_get_szFile_m4D
 		return L_2;
 	}
 }
-// Method Definition Index: 35810
+// Method Definition Index: 35916
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkExternalSourceInfo_set_pInMemory_mAE079ED9597C438168414041526F6B708780963B (AkExternalSourceInfo_tA7537089546AFDA1CF754E58FE18631E0E60A2AB* __this, intptr_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -55556,7 +55556,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkExternalSourceInfo_set_pInMemory_mAE07
 		return;
 	}
 }
-// Method Definition Index: 35811
+// Method Definition Index: 35917
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkExternalSourceInfo_get_pInMemory_m8F87F69885DB15A6A62B2FDA1CCA2FC84DB4867D (AkExternalSourceInfo_tA7537089546AFDA1CF754E58FE18631E0E60A2AB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -55574,7 +55574,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkExternalSourceInfo_get_pInMemory_m
 		return L_1;
 	}
 }
-// Method Definition Index: 35812
+// Method Definition Index: 35918
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkExternalSourceInfo_set_uiMemorySize_m180CCA0B7BAB1734C65EA6CD524F6E6B59E40F11 (AkExternalSourceInfo_tA7537089546AFDA1CF754E58FE18631E0E60A2AB* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -55593,7 +55593,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkExternalSourceInfo_set_uiMemorySize_m1
 		return;
 	}
 }
-// Method Definition Index: 35813
+// Method Definition Index: 35919
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkExternalSourceInfo_get_uiMemorySize_mF0BCC11E294DC167B5659CC5769ED9E26BE411EB (AkExternalSourceInfo_tA7537089546AFDA1CF754E58FE18631E0E60A2AB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -55611,7 +55611,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkExternalSourceInfo_get_uiMemorySiz
 		return L_1;
 	}
 }
-// Method Definition Index: 35814
+// Method Definition Index: 35920
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkExternalSourceInfo_set_idFile_m4AEA889F99C6167ED19411B520E56CF204B80913 (AkExternalSourceInfo_tA7537089546AFDA1CF754E58FE18631E0E60A2AB* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -55630,7 +55630,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkExternalSourceInfo_set_idFile_m4AEA889
 		return;
 	}
 }
-// Method Definition Index: 35815
+// Method Definition Index: 35921
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkExternalSourceInfo_get_idFile_m9AAE9BFC9EEAF471F0210AC846B4995CA5C852AF (AkExternalSourceInfo_tA7537089546AFDA1CF754E58FE18631E0E60A2AB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -55680,7 +55680,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkExternalSourceInfo_get_idFile_m9AA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 35816
+// Method Definition Index: 35922
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkImageSourceParams__ctor_m555A4FA0B74CC9707321A83965E8952A38DF43E6 (AkImageSourceParams_tD374A4D64895DC7561F321FF0D433D65F4AAEB06* __this, intptr_t ___0_cPtr, bool ___1_cMemoryOwn, const RuntimeMethod* method) 
 {
 	{
@@ -55696,7 +55696,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkImageSourceParams__ctor_m555A4FA0B74CC
 		return;
 	}
 }
-// Method Definition Index: 35817
+// Method Definition Index: 35923
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkImageSourceParams_getCPtr_m3BF4A63DC344BC89F795C2D6FF550B2E255BDCC9 (AkImageSourceParams_tD374A4D64895DC7561F321FF0D433D65F4AAEB06* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -55719,7 +55719,7 @@ IL_000a:
 		return 0;
 	}
 }
-// Method Definition Index: 35818
+// Method Definition Index: 35924
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkImageSourceParams_setCPtr_m231ABE73AB5DFD47F86FCE2E1869CD99FFD6FAED (AkImageSourceParams_tD374A4D64895DC7561F321FF0D433D65F4AAEB06* __this, intptr_t ___0_cPtr, const RuntimeMethod* method) 
 {
 	{
@@ -55732,7 +55732,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkImageSourceParams_setCPtr_m231ABE73AB5
 		return;
 	}
 }
-// Method Definition Index: 35819
+// Method Definition Index: 35925
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkImageSourceParams_Finalize_m0F30F87A7CB02062D9C769A12F800C7747583D1F (AkImageSourceParams_tD374A4D64895DC7561F321FF0D433D65F4AAEB06* __this, const RuntimeMethod* method) 
 {
 	{
@@ -55764,7 +55764,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 35820
+// Method Definition Index: 35926
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkImageSourceParams_Dispose_mFB00CE42D35D2330B3638235F9CDF184A41A058A (AkImageSourceParams_tD374A4D64895DC7561F321FF0D433D65F4AAEB06* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -55863,7 +55863,7 @@ IL_0055:
 		return;
 	}
 }
-// Method Definition Index: 35821
+// Method Definition Index: 35927
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkImageSourceParams__ctor_m36E988E910ABC032852454FA5E088FA558BE3ABA (AkImageSourceParams_tD374A4D64895DC7561F321FF0D433D65F4AAEB06* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -55882,7 +55882,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkImageSourceParams__ctor_m36E988E910ABC
 		return;
 	}
 }
-// Method Definition Index: 35822
+// Method Definition Index: 35928
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkImageSourceParams__ctor_mCD5DF9EEFE8653A426F2603C68629EFA5754ECF2 (AkImageSourceParams_tD374A4D64895DC7561F321FF0D433D65F4AAEB06* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_in_sourcePosition, float ___1_in_fDistanceScalingFactor, float ___2_in_fLevel, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -55904,7 +55904,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkImageSourceParams__ctor_mCD5DF9EEFE865
 		return;
 	}
 }
-// Method Definition Index: 35823
+// Method Definition Index: 35929
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkImageSourceParams_set_sourcePosition_m8872F6554202198CBFD7B7F575139CA6B865E7DE (AkImageSourceParams_tD374A4D64895DC7561F321FF0D433D65F4AAEB06* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -55923,7 +55923,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkImageSourceParams_set_sourcePosition_m
 		return;
 	}
 }
-// Method Definition Index: 35824
+// Method Definition Index: 35930
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 AkImageSourceParams_get_sourcePosition_m4762253DF7B1EE716BC6CBC2DABF89A3FDB20AF6 (AkImageSourceParams_tD374A4D64895DC7561F321FF0D433D65F4AAEB06* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -55941,7 +55941,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_1;
 	}
 }
-// Method Definition Index: 35825
+// Method Definition Index: 35931
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkImageSourceParams_set_fDistanceScalingFactor_m54FF4F008C39A567C39DE58855EF560C3FB911AB (AkImageSourceParams_tD374A4D64895DC7561F321FF0D433D65F4AAEB06* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -55960,7 +55960,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkImageSourceParams_set_fDistanceScaling
 		return;
 	}
 }
-// Method Definition Index: 35826
+// Method Definition Index: 35932
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkImageSourceParams_get_fDistanceScalingFactor_mE24B09CAC6F03843CCF63CA9665A50DD415AC9CC (AkImageSourceParams_tD374A4D64895DC7561F321FF0D433D65F4AAEB06* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -55978,7 +55978,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkImageSourceParams_get_fDistanceScalin
 		return L_1;
 	}
 }
-// Method Definition Index: 35827
+// Method Definition Index: 35933
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkImageSourceParams_set_fLevel_m0D1B2C3ECA5BDAB6429EB7BC83204C2C88E2881F (AkImageSourceParams_tD374A4D64895DC7561F321FF0D433D65F4AAEB06* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -55997,7 +55997,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkImageSourceParams_set_fLevel_m0D1B2C3E
 		return;
 	}
 }
-// Method Definition Index: 35828
+// Method Definition Index: 35934
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkImageSourceParams_get_fLevel_m6A875AE9B2FAAB8F312CDD8D1CF6583B2849FAFC (AkImageSourceParams_tD374A4D64895DC7561F321FF0D433D65F4AAEB06* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -56015,7 +56015,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkImageSourceParams_get_fLevel_m6A875AE
 		return L_1;
 	}
 }
-// Method Definition Index: 35829
+// Method Definition Index: 35935
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkImageSourceParams_set_fDiffraction_m540A2EDFD93B993D64C08503D8C52A1CFCD69201 (AkImageSourceParams_tD374A4D64895DC7561F321FF0D433D65F4AAEB06* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -56034,7 +56034,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkImageSourceParams_set_fDiffraction_m54
 		return;
 	}
 }
-// Method Definition Index: 35830
+// Method Definition Index: 35936
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkImageSourceParams_get_fDiffraction_mB4C1C867A7CB0B57D1FBE10CBE2AA22B54D18EBC (AkImageSourceParams_tD374A4D64895DC7561F321FF0D433D65F4AAEB06* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -56052,7 +56052,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkImageSourceParams_get_fDiffraction_mB
 		return L_1;
 	}
 }
-// Method Definition Index: 35831
+// Method Definition Index: 35937
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkImageSourceParams_set_uDiffractionEmitterSide_m2ABE6D83BF06EF80585913CC4FBA4D16843D8E29 (AkImageSourceParams_tD374A4D64895DC7561F321FF0D433D65F4AAEB06* __this, uint8_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -56071,7 +56071,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkImageSourceParams_set_uDiffractionEmit
 		return;
 	}
 }
-// Method Definition Index: 35832
+// Method Definition Index: 35938
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkImageSourceParams_get_uDiffractionEmitterSide_mD82961D955AC1B73CF35FCCE3814F7B26C0843DF (AkImageSourceParams_tD374A4D64895DC7561F321FF0D433D65F4AAEB06* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -56089,7 +56089,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkImageSourceParams_get_uDiffractionE
 		return L_1;
 	}
 }
-// Method Definition Index: 35833
+// Method Definition Index: 35939
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkImageSourceParams_set_uDiffractionListenerSide_mC2EC08554FEB838271D8AE010507BA2A056D7E25 (AkImageSourceParams_tD374A4D64895DC7561F321FF0D433D65F4AAEB06* __this, uint8_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -56108,7 +56108,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkImageSourceParams_set_uDiffractionList
 		return;
 	}
 }
-// Method Definition Index: 35834
+// Method Definition Index: 35940
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkImageSourceParams_get_uDiffractionListenerSide_m26E5AC38F4A9742D1BAD043F5F7A4C78CB90A7BA (AkImageSourceParams_tD374A4D64895DC7561F321FF0D433D65F4AAEB06* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -56134,7 +56134,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AkImageSourceParams_get_uDiffractionL
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 35835
+// Method Definition Index: 35941
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkImageSourceSettings__ctor_m615E7F4D3EA4BB3D6BA3A325C87FE1DD1C2EF06F (AkImageSourceSettings_tCF82607175DA0D76611346C6467733B3EEFE024C* __this, intptr_t ___0_cPtr, bool ___1_cMemoryOwn, const RuntimeMethod* method) 
 {
 	{
@@ -56150,7 +56150,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkImageSourceSettings__ctor_m615E7F4D3EA
 		return;
 	}
 }
-// Method Definition Index: 35836
+// Method Definition Index: 35942
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkImageSourceSettings_getCPtr_m3A872FAF5C0AF01A41DFB55F589F7E0A48D6B989 (AkImageSourceSettings_tCF82607175DA0D76611346C6467733B3EEFE024C* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -56173,7 +56173,7 @@ IL_000a:
 		return 0;
 	}
 }
-// Method Definition Index: 35837
+// Method Definition Index: 35943
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkImageSourceSettings_setCPtr_m43B84A7BFD8F4C6836E8E1EA1A7DC00A6A5C4BA0 (AkImageSourceSettings_tCF82607175DA0D76611346C6467733B3EEFE024C* __this, intptr_t ___0_cPtr, const RuntimeMethod* method) 
 {
 	{
@@ -56186,7 +56186,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkImageSourceSettings_setCPtr_m43B84A7BF
 		return;
 	}
 }
-// Method Definition Index: 35838
+// Method Definition Index: 35944
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkImageSourceSettings_Finalize_m422AC6B5F55CF8CCDBFB3FDAA6C7C13C74A3AC6F (AkImageSourceSettings_tCF82607175DA0D76611346C6467733B3EEFE024C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -56218,7 +56218,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 35839
+// Method Definition Index: 35945
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkImageSourceSettings_Dispose_m05C3F7F6B06E2802ADF9DFAC67F9B243D3D0065D (AkImageSourceSettings_tCF82607175DA0D76611346C6467733B3EEFE024C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -56317,7 +56317,7 @@ IL_0055:
 		return;
 	}
 }
-// Method Definition Index: 35840
+// Method Definition Index: 35946
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkImageSourceSettings__ctor_m403D810FBB28C643AA2305E5AEBAC106A8D09C98 (AkImageSourceSettings_tCF82607175DA0D76611346C6467733B3EEFE024C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -56336,7 +56336,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkImageSourceSettings__ctor_m403D810FBB2
 		return;
 	}
 }
-// Method Definition Index: 35841
+// Method Definition Index: 35947
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkImageSourceSettings__ctor_m0EE111F740421C10E22CD8A3BDED6AB53A300FF3 (AkImageSourceSettings_tCF82607175DA0D76611346C6467733B3EEFE024C* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_in_sourcePosition, float ___1_in_fDistanceScalingFactor, float ___2_in_fLevel, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -56358,7 +56358,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkImageSourceSettings__ctor_m0EE111F7404
 		return;
 	}
 }
-// Method Definition Index: 35842
+// Method Definition Index: 35948
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkImageSourceSettings_SetOneTexture_m110AE9BEE070A5054B60587A3A428ACD0FCBB794 (AkImageSourceSettings_tCF82607175DA0D76611346C6467733B3EEFE024C* __this, uint32_t ___0_in_texture, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -56377,7 +56377,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkImageSourceSettings_SetOneTexture_m110
 		return;
 	}
 }
-// Method Definition Index: 35843
+// Method Definition Index: 35949
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkImageSourceSettings_SetName_m23333246705C0BA4E82028CD2F127116C79D1F73 (AkImageSourceSettings_tCF82607175DA0D76611346C6467733B3EEFE024C* __this, String_t* ___0_in_pName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -56396,7 +56396,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkImageSourceSettings_SetName_m233332467
 		return;
 	}
 }
-// Method Definition Index: 35844
+// Method Definition Index: 35950
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkImageSourceSettings_set_params__m8D549BEAAAA3701D0A74CACD8A0175413A95281E (AkImageSourceSettings_tCF82607175DA0D76611346C6467733B3EEFE024C* __this, AkImageSourceParams_tD374A4D64895DC7561F321FF0D433D65F4AAEB06* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -56417,7 +56417,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkImageSourceSettings_set_params__m8D549
 		return;
 	}
 }
-// Method Definition Index: 35845
+// Method Definition Index: 35951
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AkImageSourceParams_tD374A4D64895DC7561F321FF0D433D65F4AAEB06* AkImageSourceSettings_get_params__m54A39602C67674F75CAA31A49350DD5D877B9E57 (AkImageSourceSettings_tCF82607175DA0D76611346C6467733B3EEFE024C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -56466,7 +56466,7 @@ IL_0021:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 35846
+// Method Definition Index: 35952
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitializationSettings__ctor_m0717339AC29A5F439C3E96DBDD2EB7B155260BBD (AkInitializationSettings_tAAC8EB0FBD58998D50805E934AAAAE85D054D424* __this, intptr_t ___0_cPtr, bool ___1_cMemoryOwn, const RuntimeMethod* method) 
 {
 	{
@@ -56482,7 +56482,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitializationSettings__ctor_m0717339A
 		return;
 	}
 }
-// Method Definition Index: 35847
+// Method Definition Index: 35953
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkInitializationSettings_getCPtr_mC48B1D4C02726F06FB1B39ED9D6A0BD197D206E8 (AkInitializationSettings_tAAC8EB0FBD58998D50805E934AAAAE85D054D424* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -56505,7 +56505,7 @@ IL_000a:
 		return 0;
 	}
 }
-// Method Definition Index: 35848
+// Method Definition Index: 35954
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitializationSettings_setCPtr_m517F8A8C618CD289EEE25278BF926E701251B27F (AkInitializationSettings_tAAC8EB0FBD58998D50805E934AAAAE85D054D424* __this, intptr_t ___0_cPtr, const RuntimeMethod* method) 
 {
 	{
@@ -56518,7 +56518,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitializationSettings_setCPtr_m517F8A
 		return;
 	}
 }
-// Method Definition Index: 35849
+// Method Definition Index: 35955
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitializationSettings_Finalize_m2FC19C06E1E26F6A679E269E358B277D2C4AB30F (AkInitializationSettings_tAAC8EB0FBD58998D50805E934AAAAE85D054D424* __this, const RuntimeMethod* method) 
 {
 	{
@@ -56550,7 +56550,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 35850
+// Method Definition Index: 35956
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitializationSettings_Dispose_m573D618DB2B2333052DAF4524E4F46A0E36C7977 (AkInitializationSettings_tAAC8EB0FBD58998D50805E934AAAAE85D054D424* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -56649,7 +56649,7 @@ IL_0055:
 		return;
 	}
 }
-// Method Definition Index: 35851
+// Method Definition Index: 35957
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitializationSettings__ctor_m1FD3E44F361C443137944A587EA884E8AC33E9B4 (AkInitializationSettings_tAAC8EB0FBD58998D50805E934AAAAE85D054D424* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -56668,7 +56668,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitializationSettings__ctor_m1FD3E44F
 		return;
 	}
 }
-// Method Definition Index: 35852
+// Method Definition Index: 35958
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitializationSettings_set_streamMgrSettings_mA76697A4886D8C9C20758320E017B1E76F0EBC7E (AkInitializationSettings_tAAC8EB0FBD58998D50805E934AAAAE85D054D424* __this, AkStreamMgrSettings_t20751F97A63BB143B46BE06D56B2F5B0767DC940* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -56689,7 +56689,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitializationSettings_set_streamMgrSe
 		return;
 	}
 }
-// Method Definition Index: 35853
+// Method Definition Index: 35959
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AkStreamMgrSettings_t20751F97A63BB143B46BE06D56B2F5B0767DC940* AkInitializationSettings_get_streamMgrSettings_m6EF0854FAD0D3614124393A1EA5C929558637439 (AkInitializationSettings_tAAC8EB0FBD58998D50805E934AAAAE85D054D424* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -56730,7 +56730,7 @@ IL_0021:
 		return (AkStreamMgrSettings_t20751F97A63BB143B46BE06D56B2F5B0767DC940*)NULL;
 	}
 }
-// Method Definition Index: 35854
+// Method Definition Index: 35960
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitializationSettings_set_deviceSettings_m14CCD992D5B7B7B889BFC8F154EA5DE161616313 (AkInitializationSettings_tAAC8EB0FBD58998D50805E934AAAAE85D054D424* __this, AkDeviceSettings_tEF6BA0FC2D6D6A0E8F51629443D4B8533C1D9978* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -56751,7 +56751,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitializationSettings_set_deviceSetti
 		return;
 	}
 }
-// Method Definition Index: 35855
+// Method Definition Index: 35961
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AkDeviceSettings_tEF6BA0FC2D6D6A0E8F51629443D4B8533C1D9978* AkInitializationSettings_get_deviceSettings_m0467BA45FA6E724D8E25DAF7DCE8F46054A7D000 (AkInitializationSettings_tAAC8EB0FBD58998D50805E934AAAAE85D054D424* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -56792,7 +56792,7 @@ IL_0021:
 		return (AkDeviceSettings_tEF6BA0FC2D6D6A0E8F51629443D4B8533C1D9978*)NULL;
 	}
 }
-// Method Definition Index: 35856
+// Method Definition Index: 35962
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitializationSettings_set_initSettings_mA948DB4BB879FE0407735ED42F3B9D8F3AC7F7EF (AkInitializationSettings_tAAC8EB0FBD58998D50805E934AAAAE85D054D424* __this, AkInitSettings_t457552174755CBC42DF32F9C317D0A2904260A1A* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -56813,7 +56813,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitializationSettings_set_initSetting
 		return;
 	}
 }
-// Method Definition Index: 35857
+// Method Definition Index: 35963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AkInitSettings_t457552174755CBC42DF32F9C317D0A2904260A1A* AkInitializationSettings_get_initSettings_m21573A460712C3101BB309455D4F5F0976FB6CF6 (AkInitializationSettings_tAAC8EB0FBD58998D50805E934AAAAE85D054D424* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -56854,7 +56854,7 @@ IL_0021:
 		return (AkInitSettings_t457552174755CBC42DF32F9C317D0A2904260A1A*)NULL;
 	}
 }
-// Method Definition Index: 35858
+// Method Definition Index: 35964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitializationSettings_set_platformSettings_mD73D27E9856BED068EB70A3E79D39D8443693D68 (AkInitializationSettings_tAAC8EB0FBD58998D50805E934AAAAE85D054D424* __this, AkPlatformInitSettings_t171CB8351D03371547B67FFD9C14D6906ADA2A85* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -56875,7 +56875,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitializationSettings_set_platformSet
 		return;
 	}
 }
-// Method Definition Index: 35859
+// Method Definition Index: 35965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AkPlatformInitSettings_t171CB8351D03371547B67FFD9C14D6906ADA2A85* AkInitializationSettings_get_platformSettings_m4514EB8A10573193C5412E1C8375EC372369FD96 (AkInitializationSettings_tAAC8EB0FBD58998D50805E934AAAAE85D054D424* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -56916,7 +56916,7 @@ IL_0021:
 		return (AkPlatformInitSettings_t171CB8351D03371547B67FFD9C14D6906ADA2A85*)NULL;
 	}
 }
-// Method Definition Index: 35860
+// Method Definition Index: 35966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitializationSettings_set_musicSettings_m6A569228880CEE90CDF8D73909B3FE6F8DD500A4 (AkInitializationSettings_tAAC8EB0FBD58998D50805E934AAAAE85D054D424* __this, AkMusicSettings_t8413D30172114CB80F2433E30DE5CBF901D263C2* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -56937,7 +56937,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitializationSettings_set_musicSettin
 		return;
 	}
 }
-// Method Definition Index: 35861
+// Method Definition Index: 35967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AkMusicSettings_t8413D30172114CB80F2433E30DE5CBF901D263C2* AkInitializationSettings_get_musicSettings_mBE7C2DC55B3160DD930FE9F3250CA2A2E779CCFE (AkInitializationSettings_tAAC8EB0FBD58998D50805E934AAAAE85D054D424* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -56978,7 +56978,7 @@ IL_0021:
 		return (AkMusicSettings_t8413D30172114CB80F2433E30DE5CBF901D263C2*)NULL;
 	}
 }
-// Method Definition Index: 35862
+// Method Definition Index: 35968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitializationSettings_set_unityPlatformSpecificSettings_m4F4133E0FF993A8869F812F4015B6B973D5A5C93 (AkInitializationSettings_tAAC8EB0FBD58998D50805E934AAAAE85D054D424* __this, AkUnityPlatformSpecificSettings_tAE47E97EBB9812CC4A8CDA9276A8EA8358A5F28B* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -56999,7 +56999,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitializationSettings_set_unityPlatfo
 		return;
 	}
 }
-// Method Definition Index: 35863
+// Method Definition Index: 35969
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AkUnityPlatformSpecificSettings_tAE47E97EBB9812CC4A8CDA9276A8EA8358A5F28B* AkInitializationSettings_get_unityPlatformSpecificSettings_mCDBCF48488B84ED76364FF9FBFE0D2F83BF2B390 (AkInitializationSettings_tAAC8EB0FBD58998D50805E934AAAAE85D054D424* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -57040,7 +57040,7 @@ IL_0021:
 		return (AkUnityPlatformSpecificSettings_tAE47E97EBB9812CC4A8CDA9276A8EA8358A5F28B*)NULL;
 	}
 }
-// Method Definition Index: 35864
+// Method Definition Index: 35970
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitializationSettings_set_useAsyncOpen_m052D589498D14F04E4B25F3BED2A59BCF5BD37C3 (AkInitializationSettings_tAAC8EB0FBD58998D50805E934AAAAE85D054D424* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -57059,7 +57059,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitializationSettings_set_useAsyncOpe
 		return;
 	}
 }
-// Method Definition Index: 35865
+// Method Definition Index: 35971
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkInitializationSettings_get_useAsyncOpen_m2605EE2FFDEFEEB79273E21F519F66001C7FCDCE (AkInitializationSettings_tAAC8EB0FBD58998D50805E934AAAAE85D054D424* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -57085,7 +57085,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkInitializationSettings_get_useAsyncOpe
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 35866
+// Method Definition Index: 35972
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitSettings__ctor_mA90419AF89D81EBE877B9EB2119DF0D9168A5AD0 (AkInitSettings_t457552174755CBC42DF32F9C317D0A2904260A1A* __this, intptr_t ___0_cPtr, bool ___1_cMemoryOwn, const RuntimeMethod* method) 
 {
 	{
@@ -57101,7 +57101,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitSettings__ctor_mA90419AF89D81EBE87
 		return;
 	}
 }
-// Method Definition Index: 35867
+// Method Definition Index: 35973
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AkInitSettings_getCPtr_mC8011EA979639F5586A2C8D8A5E8A7B1FCA49E82 (AkInitSettings_t457552174755CBC42DF32F9C317D0A2904260A1A* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -57124,7 +57124,7 @@ IL_000a:
 		return 0;
 	}
 }
-// Method Definition Index: 35868
+// Method Definition Index: 35974
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitSettings_setCPtr_m64BD01861062C633AFC149B80F6B2C5A5E2C4606 (AkInitSettings_t457552174755CBC42DF32F9C317D0A2904260A1A* __this, intptr_t ___0_cPtr, const RuntimeMethod* method) 
 {
 	{
@@ -57137,7 +57137,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitSettings_setCPtr_m64BD01861062C633
 		return;
 	}
 }
-// Method Definition Index: 35869
+// Method Definition Index: 35975
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitSettings_Finalize_m4CD78FC15BDF6372654344F87BA39334E9931D53 (AkInitSettings_t457552174755CBC42DF32F9C317D0A2904260A1A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -57169,7 +57169,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 35870
+// Method Definition Index: 35976
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitSettings_Dispose_mD91ABB0CB2EA2CC90FDB3D81D50C201C8688F184 (AkInitSettings_t457552174755CBC42DF32F9C317D0A2904260A1A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -57268,7 +57268,7 @@ IL_0055:
 		return;
 	}
 }
-// Method Definition Index: 35871
+// Method Definition Index: 35977
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitSettings_set_uMaxNumPaths_mF24B859AE81C0F959A56822F41E3A49149F6034A (AkInitSettings_t457552174755CBC42DF32F9C317D0A2904260A1A* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -57287,7 +57287,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitSettings_set_uMaxNumPaths_mF24B859
 		return;
 	}
 }
-// Method Definition Index: 35872
+// Method Definition Index: 35978
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkInitSettings_get_uMaxNumPaths_m7A07C46267400A370B47FB62BBE7EF54C47AF813 (AkInitSettings_t457552174755CBC42DF32F9C317D0A2904260A1A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -57305,7 +57305,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkInitSettings_get_uMaxNumPaths_m7A0
 		return L_1;
 	}
 }
-// Method Definition Index: 35873
+// Method Definition Index: 35979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitSettings_set_uCommandQueueSize_mA9FF5C1A2CA19D22B2919587389EFDD503B2E04C (AkInitSettings_t457552174755CBC42DF32F9C317D0A2904260A1A* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -57324,7 +57324,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitSettings_set_uCommandQueueSize_mA9
 		return;
 	}
 }
-// Method Definition Index: 35874
+// Method Definition Index: 35980
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkInitSettings_get_uCommandQueueSize_m2D930EF2EAB5D548EFFEB35E2D806FD73F84D331 (AkInitSettings_t457552174755CBC42DF32F9C317D0A2904260A1A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -57342,7 +57342,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkInitSettings_get_uCommandQueueSize
 		return L_1;
 	}
 }
-// Method Definition Index: 35875
+// Method Definition Index: 35981
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitSettings_set_bEnableGameSyncPreparation_mB21ACDFBF39373D6FF23509B7C442BDBEA6D30E2 (AkInitSettings_t457552174755CBC42DF32F9C317D0A2904260A1A* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -57361,7 +57361,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitSettings_set_bEnableGameSyncPrepar
 		return;
 	}
 }
-// Method Definition Index: 35876
+// Method Definition Index: 35982
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkInitSettings_get_bEnableGameSyncPreparation_m0C295C25C23277677F525D6EBCA1BCC6AA486168 (AkInitSettings_t457552174755CBC42DF32F9C317D0A2904260A1A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -57379,7 +57379,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkInitSettings_get_bEnableGameSyncPrepar
 		return L_1;
 	}
 }
-// Method Definition Index: 35877
+// Method Definition Index: 35983
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitSettings_set_uContinuousPlaybackLookAhead_mC65535B239D5EC8FD4F5F8C9C54D4FC924E6A942 (AkInitSettings_t457552174755CBC42DF32F9C317D0A2904260A1A* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -57398,7 +57398,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitSettings_set_uContinuousPlaybackLo
 		return;
 	}
 }
-// Method Definition Index: 35878
+// Method Definition Index: 35984
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkInitSettings_get_uContinuousPlaybackLookAhead_m30AEE337B23C5729D5BE7FA3994E080211CD5F66 (AkInitSettings_t457552174755CBC42DF32F9C317D0A2904260A1A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -57416,7 +57416,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkInitSettings_get_uContinuousPlayba
 		return L_1;
 	}
 }
-// Method Definition Index: 35879
+// Method Definition Index: 35985
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitSettings_set_uNumSamplesPerFrame_m3259CE203D6358CF455A26919B75FA5CCEB4982F (AkInitSettings_t457552174755CBC42DF32F9C317D0A2904260A1A* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -57435,7 +57435,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitSettings_set_uNumSamplesPerFrame_m
 		return;
 	}
 }
-// Method Definition Index: 35880
+// Method Definition Index: 35986
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkInitSettings_get_uNumSamplesPerFrame_mCF5721EEFB9554A4EC9519F0377B13FF3F110E31 (AkInitSettings_t457552174755CBC42DF32F9C317D0A2904260A1A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -57453,7 +57453,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkInitSettings_get_uNumSamplesPerFra
 		return L_1;
 	}
 }
-// Method Definition Index: 35881
+// Method Definition Index: 35987
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitSettings_set_uMonitorQueuePoolSize_mE011BCD1C04DE394473A53B5F44D90C621A47FB7 (AkInitSettings_t457552174755CBC42DF32F9C317D0A2904260A1A* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -57472,7 +57472,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitSettings_set_uMonitorQueuePoolSize
 		return;
 	}
 }
-// Method Definition Index: 35882
+// Method Definition Index: 35988
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkInitSettings_get_uMonitorQueuePoolSize_mABEE720899E47D77FA2C96DC10A6B123D6BFE5F5 (AkInitSettings_t457552174755CBC42DF32F9C317D0A2904260A1A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -57490,7 +57490,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkInitSettings_get_uMonitorQueuePool
 		return L_1;
 	}
 }
-// Method Definition Index: 35883
+// Method Definition Index: 35989
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitSettings_set_settingsMainOutput_m3271525A4DB13718FD96B55122203EF2C49CA0D8 (AkInitSettings_t457552174755CBC42DF32F9C317D0A2904260A1A* __this, AkOutputSettings_t340FC311B9819E180B2840CE4A7430DB05F0E7A4* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -57511,7 +57511,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitSettings_set_settingsMainOutput_m3
 		return;
 	}
 }
-// Method Definition Index: 35884
+// Method Definition Index: 35990
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AkOutputSettings_t340FC311B9819E180B2840CE4A7430DB05F0E7A4* AkInitSettings_get_settingsMainOutput_mF17B7F8BC15EC94CB3F647BEEB0F7D8E3FA60988 (AkInitSettings_t457552174755CBC42DF32F9C317D0A2904260A1A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -57552,7 +57552,7 @@ IL_0021:
 		return (AkOutputSettings_t340FC311B9819E180B2840CE4A7430DB05F0E7A4*)NULL;
 	}
 }
-// Method Definition Index: 35885
+// Method Definition Index: 35991
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitSettings_set_uMaxHardwareTimeoutMs_mC3930FB35248E0143CF5AA42DF4ACBF3C99AC955 (AkInitSettings_t457552174755CBC42DF32F9C317D0A2904260A1A* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -57571,7 +57571,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitSettings_set_uMaxHardwareTimeoutMs
 		return;
 	}
 }
-// Method Definition Index: 35886
+// Method Definition Index: 35992
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkInitSettings_get_uMaxHardwareTimeoutMs_m342ECC538C4C89A23DD2F0777456899848E5E578 (AkInitSettings_t457552174755CBC42DF32F9C317D0A2904260A1A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -57589,7 +57589,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkInitSettings_get_uMaxHardwareTimeo
 		return L_1;
 	}
 }
-// Method Definition Index: 35887
+// Method Definition Index: 35993
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitSettings_set_bUseSoundBankMgrThread_m84A99F2C8E039D4E5BA4F53AA65FF0ED9ED5BA71 (AkInitSettings_t457552174755CBC42DF32F9C317D0A2904260A1A* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -57608,7 +57608,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitSettings_set_bUseSoundBankMgrThrea
 		return;
 	}
 }
-// Method Definition Index: 35888
+// Method Definition Index: 35994
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkInitSettings_get_bUseSoundBankMgrThread_mDEB00F94218BC01C4D26EA607E2011A94A5039EB (AkInitSettings_t457552174755CBC42DF32F9C317D0A2904260A1A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -57626,7 +57626,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkInitSettings_get_bUseSoundBankMgrThrea
 		return L_1;
 	}
 }
-// Method Definition Index: 35889
+// Method Definition Index: 35995
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitSettings_set_bUseLEngineThread_m9E6D2128A6F58E5D12A1B108E8EAFDC9B257CC98 (AkInitSettings_t457552174755CBC42DF32F9C317D0A2904260A1A* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -57645,7 +57645,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitSettings_set_bUseLEngineThread_m9E
 		return;
 	}
 }
-// Method Definition Index: 35890
+// Method Definition Index: 35996
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkInitSettings_get_bUseLEngineThread_m6C01766E6BEBBD566D1075C8A93EB7B46BC9FF3F (AkInitSettings_t457552174755CBC42DF32F9C317D0A2904260A1A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -57663,7 +57663,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkInitSettings_get_bUseLEngineThread_m6C
 		return L_1;
 	}
 }
-// Method Definition Index: 35891
+// Method Definition Index: 35997
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitSettings_set_szPluginDLLPath_m747538AD9F0622ED2E41ACF8D230D48BED5F8727 (AkInitSettings_t457552174755CBC42DF32F9C317D0A2904260A1A* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -57682,7 +57682,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitSettings_set_szPluginDLLPath_m7475
 		return;
 	}
 }
-// Method Definition Index: 35892
+// Method Definition Index: 35998
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AkInitSettings_get_szPluginDLLPath_mA9EB277C3386F4A8FF83BE40D1DB9C73576171DD (AkInitSettings_t457552174755CBC42DF32F9C317D0A2904260A1A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -57704,7 +57704,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AkInitSettings_get_szPluginDLLPath_
 		return L_2;
 	}
 }
-// Method Definition Index: 35893
+// Method Definition Index: 35999
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitSettings_set_eFloorPlane_m3159DDEE7D2339F3FE197202CC3CE05DB65E9F9C (AkInitSettings_t457552174755CBC42DF32F9C317D0A2904260A1A* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -57723,7 +57723,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitSettings_set_eFloorPlane_m3159DDEE
 		return;
 	}
 }
-// Method Definition Index: 35894
+// Method Definition Index: 36000
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkInitSettings_get_eFloorPlane_m4A2432848D0EC101D712EBF86787C1861883960B (AkInitSettings_t457552174755CBC42DF32F9C317D0A2904260A1A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -57741,7 +57741,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkInitSettings_get_eFloorPlane_m4A243
 		return (int32_t)(L_1);
 	}
 }
-// Method Definition Index: 35895
+// Method Definition Index: 36001
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitSettings_set_uBankReadBufferSize_m3AE305B0B85EB479FAB18AD348DD947DA53B19F5 (AkInitSettings_t457552174755CBC42DF32F9C317D0A2904260A1A* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -57760,7 +57760,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitSettings_set_uBankReadBufferSize_m
 		return;
 	}
 }
-// Method Definition Index: 35896
+// Method Definition Index: 36002
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkInitSettings_get_uBankReadBufferSize_m8EC119B4352868D3B48DC6393C4C4913A0EA82A8 (AkInitSettings_t457552174755CBC42DF32F9C317D0A2904260A1A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -57778,7 +57778,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AkInitSettings_get_uBankReadBufferSi
 		return L_1;
 	}
 }
-// Method Definition Index: 35897
+// Method Definition Index: 36003
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitSettings_set_fDebugOutOfRangeLimit_m496DC9DAEA2111057CBD08979691C9123E403C56 (AkInitSettings_t457552174755CBC42DF32F9C317D0A2904260A1A* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -57797,7 +57797,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitSettings_set_fDebugOutOfRangeLimit
 		return;
 	}
 }
-// Method Definition Index: 35898
+// Method Definition Index: 36004
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkInitSettings_get_fDebugOutOfRangeLimit_m24AEB42CB64DFD8EDDB0C0E6CF5647F580DDD759 (AkInitSettings_t457552174755CBC42DF32F9C317D0A2904260A1A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -57815,7 +57815,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AkInitSettings_get_fDebugOutOfRangeLimi
 		return L_1;
 	}
 }
-// Method Definition Index: 35899
+// Method Definition Index: 36005
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitSettings_set_bDebugOutOfRangeCheckEnabled_mB77EF2D9BC50D30B84211CF913BD4BD50A0030D2 (AkInitSettings_t457552174755CBC42DF32F9C317D0A2904260A1A* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -57834,7 +57834,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkInitSettings_set_bDebugOutOfRangeCheck
 		return;
 	}
 }
-// Method Definition Index: 35900
+// Method Definition Index: 36006
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkInitSettings_get_bDebugOutOfRangeCheckEnabled_m70FFA7EE3473B2BC51DC5265FDDE1805482B0212 (AkInitSettings_t457552174755CBC42DF32F9C317D0A2904260A1A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -57855,7 +57855,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AkInitSettings_get_bDebugOutOfRangeCheck
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 33959
+// Method Definition Index: 34065
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t LanguageManager_get_GetSelectedLanguag_m1D04CE7312456234B62E020A01D8859D04FC4104_inline (LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -57864,7 +57864,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t LanguageManager_get_GetSe
 		return L_0;
 	}
 }
-// Method Definition Index: 45640
+// Method Definition Index: 45755
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_RoundToInt_m60F8B66CF27F1FA75AA219342BD184B75771EB4B_inline (float ___0_f, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -57889,7 +57889,7 @@ IL_000c:
 		return L_2;
 	}
 }
-// Method Definition Index: 36763
+// Method Definition Index: 36869
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t AkMIDIPostArray_GetBuffer_mDDFF563D2FAC49098228629E8A38245A9093F8E8_inline (AkMIDIPostArray_t0E1E1B04B113A9A717F0507DEA9EA79EE5910581* __this, const RuntimeMethod* method) 
 {
 	{
@@ -57898,7 +57898,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t AkMIDIPostArray_GetBuffe
 		return L_0;
 	}
 }
-// Method Definition Index: 688
+// Method Definition Index: 689
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline (String_t* __this, const RuntimeMethod* method) 
 {
 	{
@@ -57906,7 +57906,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D
 		return L_0;
 	}
 }
-// Method Definition Index: 36717
+// Method Definition Index: 36823
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t AkAuxSendArray_GetBuffer_m699046DA079AC9A6B68917D436E0598E582AE574_inline (AkAuxSendArray_t785AE3F6352F927E924EDC6A21EA9FD31D352B07* __this, const RuntimeMethod* method) 
 {
 	{
@@ -57915,13 +57915,13 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t AkAuxSendArray_GetBuffer
 		return L_0;
 	}
 }
-// Method Definition Index: 35533
+// Method Definition Index: 35639
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t GameObjectHashFunction_Invoke_m1065BA3C0E33E6F5463E5CF49CD35ED58D424783_inline (GameObjectHashFunction_t13E458EEF67306FECA46C4DEF5C24984B9F3108C* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_gameObject, const RuntimeMethod* method) 
 {
 	typedef uint64_t (*FunctionPointerType) (RuntimeObject*, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_gameObject, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 45555
+// Method Definition Index: 45670
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
 	{
@@ -57934,7 +57934,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999E
 		return;
 	}
 }
-// Method Definition Index: 36733
+// Method Definition Index: 36839
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t AkBaseArray_1_GetBuffer_mA2A632CC2A2942543F7C51FB7FA212DCBEE3A310_gshared_inline (AkBaseArray_1_tCAA933E0A2113CBD05B484767491F35C4BE28DB5* __this, const RuntimeMethod* method) 
 {
 	{

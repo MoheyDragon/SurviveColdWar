@@ -137,7 +137,7 @@ public class Tutorial : MonoBehaviour
         {
             Next(false);
             GameManager.Info.transform.GetChild(21).GetComponent<Button>().interactable = false;
-            GameManager.Info.transform.GetChild(24).GetComponent<Button>().interactable = true;
+            GameManager.Info.transform.GetChild(22).GetComponent<Button>().interactable = true;
         }
 
         if (Level == 19 && !WarLock)
@@ -152,7 +152,7 @@ public class Tutorial : MonoBehaviour
         if (Level == 20 && !FactoryLock)
         {
             GameManager.Info.transform.GetChild(21).GetComponent<Button>().interactable = true;
-            GameManager.Info.transform.GetChild(24).GetComponent<Button>().interactable = false;
+            GameManager.Info.transform.GetChild(22).GetComponent<Button>().interactable = false;
             DeActivitingArrows(CantRes, 0);
             FactoryLock= ActivitatingReturn(Factory);
             GameManager.Singleton.ShowInfo(false);
@@ -357,7 +357,6 @@ public class Tutorial : MonoBehaviour
     }
     public void Next(bool IsButton)
     {
-        print("next");
         if (IsButton)
             this.GetComponent<CountryManager>().ClickSound.Post(gameObject);
         Level++;

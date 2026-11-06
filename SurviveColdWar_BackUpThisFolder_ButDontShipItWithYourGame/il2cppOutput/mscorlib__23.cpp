@@ -1123,7 +1123,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformNotSupportedException__ctor_mD5D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 12087
+// Method Definition Index: 12094
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BinaryPrimitives_ReverseEndianness_mF7B5C36D507C0D85537E18A1141554A99093BD78 (int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -1133,7 +1133,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BinaryPrimitives_ReverseEndianness_mF
 		return L_1;
 	}
 }
-// Method Definition Index: 12088
+// Method Definition Index: 12095
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t BinaryPrimitives_ReverseEndianness_mDBF226C2D52CAFF6DE538F8245444B5CF87A02D0 (uint16_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -1142,7 +1142,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t BinaryPrimitives_ReverseEndianness_m
 		return (uint16_t)((int32_t)(uint16_t)((int32_t)il2cpp_codegen_add(((int32_t)((int32_t)L_0>>8)), ((int32_t)((int32_t)L_1<<8)))));
 	}
 }
-// Method Definition Index: 12089
+// Method Definition Index: 12096
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t BinaryPrimitives_ReverseEndianness_mCCA2099164ECA9672968898DD996A9F04B392FFF (uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	uint32_t V_0 = 0;
@@ -1167,7 +1167,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t BinaryPrimitives_ReverseEndianness_m
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 12090
+// Method Definition Index: 12097
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FormattingHelpers_CountDigits_mC01C8C5301C555C927118C5FAA3DCFC7D542487F (uint64_t ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -1299,7 +1299,7 @@ IL_008a:
 		return L_19;
 	}
 }
-// Method Definition Index: 12091
+// Method Definition Index: 12098
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FormattingHelpers_CountDigits_mE01337E47EFAB38CB85A419CECA05B3535330A30 (uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -1379,7 +1379,7 @@ IL_0047:
 		return L_11;
 	}
 }
-// Method Definition Index: 12092
+// Method Definition Index: 12099
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FormattingHelpers_CountHexDigits_m2A0168ACE924C7DFBCFFD60AF8FEA1C6CC0420B7 (uint64_t ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -1455,7 +1455,7 @@ IL_0040:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 12093
+// Method Definition Index: 12100
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t U3CPrivateImplementationDetailsU3E_ComputeStringHash_m52370B9D7DEAF095B34C6AE27338067A3A1CF886 (String_t* ___0_s, const RuntimeMethod* method) 
 {
 	uint32_t V_0 = 0;
@@ -1945,7 +1945,7 @@ IL_002a:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 12094
+// Method Definition Index: 12101
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThrowStub_ThrowNotSupportedException_m02C318CA8F5812C025CBEDEA07A5DE5D0FDBB25F (const RuntimeMethod* method) 
 {
 	{
@@ -1957,7 +1957,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThrowStub_ThrowNotSupportedException_m02
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 12089
+// Method Definition Index: 12096
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t BinaryPrimitives_ReverseEndianness_mCCA2099164ECA9672968898DD996A9F04B392FFF_inline (uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	uint32_t V_0 = 0;
@@ -1974,7 +1974,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t BinaryPrimitives_Reverse
 		return ((int32_t)il2cpp_codegen_add(((int32_t)(((int32_t)((uint32_t)L_2>>8))|((int32_t)((int32_t)L_3<<((int32_t)24))))), ((int32_t)(((int32_t)((int32_t)L_4<<8))|((int32_t)((uint32_t)L_5>>((int32_t)24)))))));
 	}
 }
-// Method Definition Index: 688
+// Method Definition Index: 689
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline (String_t* __this, const RuntimeMethod* method) 
 {
 	{

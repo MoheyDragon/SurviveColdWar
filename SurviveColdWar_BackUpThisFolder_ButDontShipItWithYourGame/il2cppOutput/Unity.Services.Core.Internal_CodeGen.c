@@ -35,8 +35,8 @@ extern void CorePackageRegistry_Lock_m4C3243DA139AB0398555E608BFB5AFEBF2BFE2A1 (
 extern void CoreRegistration__ctor_mBD89C7177367442E29CDDB5C17527B9C556256E1 (void);
 extern void CoreRegistry_get_Instance_m73A64BD3CB78EF5AC698D1635B5872CEB9F9AFE2 (void);
 extern void CoreRegistry_set_Instance_mBFC9CEE6661027ED4103B95A82ABD453555803D7 (void);
-extern void CoreRegistry_get_Type_m4AF53950970280B903127A44FAD55A3D299732C0 (void);
-extern void CoreRegistry_set_Type_m3A381E447C027551608E66912DBD90EB6A1260A5 (void);
+extern void CoreRegistry_get_Type_mCBC95E2563778A4477FC075CA63B88426D5F1AD9 (void);
+extern void CoreRegistry_set_Type_m2E5441BD1612E76A28454EF66E3DED579BDA1908 (void);
 extern void CoreRegistry_get_Options_m38BF83E7ADFB48E1F4D00E33287EE500159E4B1A (void);
 extern void CoreRegistry_set_Options_m9024B165E3C573BF8EE213B71ADAEADB3FB5EBB3 (void);
 extern void CoreRegistry_get_PackageRegistry_m0A95E6723D8237E6E9D6D0067FB0EDFCC3C29063 (void);
@@ -44,7 +44,7 @@ extern void CoreRegistry_set_PackageRegistry_mCA3C399854251D17A72BBE1E9121AF7050
 extern void CoreRegistry_get_ComponentRegistry_mF7CA9E9CEEFF316027E6D59B2AA30AEBA7FAAC13 (void);
 extern void CoreRegistry_set_ComponentRegistry_mF5BBBCDFF2103D1F60E6FA3A7779B06AF3838D8E (void);
 extern void CoreRegistry_set_ServiceRegistry_m5CF74C0F9167102E8822DC0D31886F3E8C3ED62C (void);
-extern void CoreRegistry__ctor_mBA92BC251BFE18FBCD0333205685EE7CC74985AF (void);
+extern void CoreRegistry__ctor_mE9D70FB7340F07D764B02DD13667AD5504C5BBA7 (void);
 extern void CoreRegistry_LockComponentRegistration_mB4ED90ED4F7621588195C9922C9A669C69C831BC (void);
 extern void CoreRegistryInitializer__ctor_mBE9C46715DF41A8B1CF31CCAC9166A212318B156 (void);
 extern void CoreRegistryInitializer_InitializeRegistryAsync_m3E1030C1B0E033F76CF20DC208555AB915C62BF8 (void);
@@ -100,10 +100,12 @@ extern void CoreDiagnostics_get_Instance_m190590CB1205EE50B22E6BA144371BD3976C09
 extern void CoreDiagnostics_set_Instance_mFEA5BC5137F5C737B49419FA33F79339B1D43F2C (void);
 extern void CoreDiagnostics_set_DiagnosticsComponentProvider_m4980F8DAE6FC5015B00AB0A083327BDAB8F8A5B3 (void);
 extern void CoreDiagnostics__ctor_mFCD549A6812E3CEAB8A7E42B75A777F9061B3330 (void);
+extern void CoreMetrics_get_Instance_mE2CA807AAB4F16D20C28256A23E407E5DF5DE74E (void);
 extern void CoreMetrics_set_Instance_mC18703DE5A475E77CBA000AA1602A2A9305AEFD2 (void);
 extern void CoreMetrics__ctor_mF17592A929926B30C9FC2D17569B55740B15D7D2 (void);
 extern void UnityServicesInitializer_CreateStaticInstance_m11C921F54756626B2102628C99180975D8907EB9 (void);
 extern void UnityServicesInitializer_EnableServicesInitializationAsync_m16A565849C8E0FC0A11F2ADE7AA87B6EAA29B890 (void);
+extern void UnityServicesInitializer_CreateInstance_mD82FB54B144D4FDBB0C2206A9A990BAFA000F4D6 (void);
 extern void U3CEnableServicesInitializationAsyncU3Ed__1_MoveNext_mE98AC7044CBFAF74DE70A249383A271C2018B81E (void);
 extern void U3CEnableServicesInitializationAsyncU3Ed__1_SetStateMachine_mF049794791F6718DA52FC0A1861464C37CBBD553 (void);
 extern void UnityServicesInternal_get_State_mDBBCB10039E6F2A9E04A054AD914C7204E5D39D4 (void);
@@ -111,30 +113,33 @@ extern void UnityServicesInternal_set_State_mE9661C52A8B99CE53279A6D197F263F082A
 extern void UnityServicesInternal_get_Registry_m523CDA2793D02C2E7966D8B25FF533248D8437A4 (void);
 extern void UnityServicesInternal__ctor_mDA89BB80FC660F4AAE12F656B10C5A3EAB719252 (void);
 extern void UnityServicesInternal_InitializeAsync_m964BF1654D9A647F2216029243F3CB1ED6F600C4 (void);
+extern void UnityServicesInternal_TriggerInitializeSuccess_m963C8305FF346E41CF7A7A777FC363E87FB1D180 (void);
+extern void UnityServicesInternal_TriggerInitializeFailed_m3DC6FB963BCB8C1BBCDB766A24CC71CF4404C0BF (void);
 extern void UnityServicesInternal_HasRequestedInitialization_m1E00108399C4206684219675F75D7269F06C5A03 (void);
 extern void UnityServicesInternal_InitializeServicesAsync_mD1A530783D1BAC5937E64849348EFFCD3B26AB9E (void);
+extern void UnityServicesInternal_EnableInitialization_m22C8228B658003BA234EB36E085AEFC987490E47 (void);
 extern void UnityServicesInternal_EnableInitializationAsync_m55FC6F901CD841698285288DA3F2AC772F2B7E35 (void);
-extern void UnityServicesInternal_U3CInitializeAsyncU3Eg__HasInitializationFailedU7C19_0_mB2307E67A9F90AB4A77573EA6B400FFF96458C0A (void);
-extern void U3CU3Ec__DisplayClass22_0__ctor_mDBB05CBB8FBBCD2F03D5B8743AFC609009C0CCEC (void);
-extern void U3CU3Ec__DisplayClass22_0_U3CInitializeServicesAsyncU3Eg__SortPackagesU7C0_m3EF4EFD7DF837E39D66E554ED45A6057383A3162 (void);
-extern void U3CU3Ec__DisplayClass22_0_U3CInitializeServicesAsyncU3Eg__InitializePackagesAsyncU7C1_mEE77880AC081204F2488D583F410718E26B285FA (void);
-extern void U3CU3Ec__DisplayClass22_0_U3CInitializeServicesAsyncU3Eg__FailServicesInitializationU7C2_mBFC7350F4146AB29FE8C595C05249A3595824B04 (void);
-extern void U3CU3Ec__DisplayClass22_0_U3CInitializeServicesAsyncU3Eg__SucceedServicesInitializationU7C3_m405CF9855B1CEED7DF649B633CB7F269244F15A3 (void);
-extern void U3CU3CInitializeServicesAsyncU3Eg__InitializePackagesAsyncU7C1U3Ed_MoveNext_m1A0F587F4E5C48CFBB69476DC6FF0E8D71A8C89E (void);
-extern void U3CU3CInitializeServicesAsyncU3Eg__InitializePackagesAsyncU7C1U3Ed_SetStateMachine_mAAD9750957C9D2A753833C40E201F4141C56143D (void);
-extern void U3CEnableInitializationAsyncU3Ed__25_MoveNext_mDD855653BC14915A8D38F78ABDE3C3B44AE1ADD3 (void);
-extern void U3CEnableInitializationAsyncU3Ed__25_SetStateMachine_m6AC925AA5E8A235D126A0AE1BD10BADE6DF9CAC6 (void);
-extern void U3CInitializeAsyncU3Ed__19_MoveNext_m7AFB4839B4E9FA4F8BB3EA34EABDD0B1F68CA6DA (void);
-extern void U3CInitializeAsyncU3Ed__19_SetStateMachine_m6314E1E5F87506D2AAEE6875D9C8466712157B3F (void);
-extern void U3CInitializeServicesAsyncU3Ed__22_MoveNext_m8CBE33D50A5251F774381D3A21B3B78F1F3B439B (void);
-extern void U3CInitializeServicesAsyncU3Ed__22_SetStateMachine_mFC5FA0E2CD3782B01DA1B4624BD5E80D966BFF33 (void);
+extern void UnityServicesInternal_U3CInitializeAsyncU3Eg__HasInitializationFailedU7C27_0_m69C2C45E9B9F887D6048EA0E6DCAFA0A2DB1DE90 (void);
+extern void U3CU3Ec__DisplayClass33_0__ctor_m78BB1194E2E6CED065EABE285D1A5DFA849FA703 (void);
+extern void U3CU3Ec__DisplayClass33_0_U3CInitializeServicesAsyncU3Eg__SortPackagesU7C0_m54ABA60A588FA9E89AA5B3C96961A379E60C59D2 (void);
+extern void U3CU3Ec__DisplayClass33_0_U3CInitializeServicesAsyncU3Eg__InitializePackagesAsyncU7C1_m2AFEAA74C836C43D8E1E40EE6B7C33FD669111B1 (void);
+extern void U3CU3Ec__DisplayClass33_0_U3CInitializeServicesAsyncU3Eg__FailServicesInitializationU7C2_m2E4B2049B9F5C32F9DFDCDF23E236FE1BAFBAFB6 (void);
+extern void U3CU3Ec__DisplayClass33_0_U3CInitializeServicesAsyncU3Eg__SucceedServicesInitializationU7C3_m57F26291930C5986799CFEE48CC8AF6335F0F6B6 (void);
+extern void U3CU3CInitializeServicesAsyncU3Eg__InitializePackagesAsyncU7C1U3Ed_MoveNext_m0B75802846862A9D3776D99F03B8E7618E36FB03 (void);
+extern void U3CU3CInitializeServicesAsyncU3Eg__InitializePackagesAsyncU7C1U3Ed_SetStateMachine_m4E439BB31E1B66436A92AA7F3EEF5D5BEB0D7684 (void);
+extern void U3CEnableInitializationAsyncU3Ed__36_MoveNext_mAFA1D776202998838B68E506B9D4831949CFC4B9 (void);
+extern void U3CEnableInitializationAsyncU3Ed__36_SetStateMachine_m7E43A9F4EEBE6615D05ECA8BB0AC0ADA52883092 (void);
+extern void U3CInitializeAsyncU3Ed__27_MoveNext_mC8E6C55E839353393F6B46007E88E035DC7C72DD (void);
+extern void U3CInitializeAsyncU3Ed__27_SetStateMachine_m30539AE6931B6227E33BB6CEBB849F23CB73A186 (void);
+extern void U3CInitializeServicesAsyncU3Ed__33_MoveNext_m257AB518D169547C9B5BC356673164A5E2033FF7 (void);
+extern void U3CInitializeServicesAsyncU3Ed__33_SetStateMachine_mF119355789990F958900F558B0612CA359249FC7 (void);
 extern void UnityWebRequestUtils_HasSucceeded_m06CCE15DA3423C35C7629483DD6BEB166AE4C32D (void);
 extern void UnityWebRequestUtils_GetTextAsync_m2503C3E630F795B5151BBD61295F45AE38AD7EC2 (void);
 extern void U3CU3Ec__DisplayClass2_0__ctor_m075F5F3DE1F9440556035D45480BD01F7A8932C1 (void);
 extern void U3CU3Ec__DisplayClass2_0_U3CGetTextAsyncU3Eg__CompleteFetchTaskOnRequestCompletedU7C0_mFF438AD39102AD7C40D5BB5BE65A4E3AD3AFE759 (void);
 extern void NewtonsoftSerializer__ctor_mB0CCDC64B219681F77D699C1E806E595491B1875 (void);
 extern void NewtonsoftSerializer__ctor_mE05B438480C96C31986036D084A95025C5E5D563 (void);
-static Il2CppMethodPointer s_methodPointers[166] = 
+static Il2CppMethodPointer s_methodPointers[171] = 
 {
 	NULL,
 	NULL,
@@ -180,8 +185,8 @@ static Il2CppMethodPointer s_methodPointers[166] =
 	NULL,
 	CoreRegistry_get_Instance_m73A64BD3CB78EF5AC698D1635B5872CEB9F9AFE2,
 	CoreRegistry_set_Instance_mBFC9CEE6661027ED4103B95A82ABD453555803D7,
-	CoreRegistry_get_Type_m4AF53950970280B903127A44FAD55A3D299732C0,
-	CoreRegistry_set_Type_m3A381E447C027551608E66912DBD90EB6A1260A5,
+	CoreRegistry_get_Type_mCBC95E2563778A4477FC075CA63B88426D5F1AD9,
+	CoreRegistry_set_Type_m2E5441BD1612E76A28454EF66E3DED579BDA1908,
 	CoreRegistry_get_Options_m38BF83E7ADFB48E1F4D00E33287EE500159E4B1A,
 	CoreRegistry_set_Options_m9024B165E3C573BF8EE213B71ADAEADB3FB5EBB3,
 	CoreRegistry_get_PackageRegistry_m0A95E6723D8237E6E9D6D0067FB0EDFCC3C29063,
@@ -189,7 +194,7 @@ static Il2CppMethodPointer s_methodPointers[166] =
 	CoreRegistry_get_ComponentRegistry_mF7CA9E9CEEFF316027E6D59B2AA30AEBA7FAAC13,
 	CoreRegistry_set_ComponentRegistry_mF5BBBCDFF2103D1F60E6FA3A7779B06AF3838D8E,
 	CoreRegistry_set_ServiceRegistry_m5CF74C0F9167102E8822DC0D31886F3E8C3ED62C,
-	CoreRegistry__ctor_mBA92BC251BFE18FBCD0333205685EE7CC74985AF,
+	CoreRegistry__ctor_mE9D70FB7340F07D764B02DD13667AD5504C5BBA7,
 	NULL,
 	NULL,
 	NULL,
@@ -263,10 +268,12 @@ static Il2CppMethodPointer s_methodPointers[166] =
 	CoreDiagnostics_set_Instance_mFEA5BC5137F5C737B49419FA33F79339B1D43F2C,
 	CoreDiagnostics_set_DiagnosticsComponentProvider_m4980F8DAE6FC5015B00AB0A083327BDAB8F8A5B3,
 	CoreDiagnostics__ctor_mFCD549A6812E3CEAB8A7E42B75A777F9061B3330,
+	CoreMetrics_get_Instance_mE2CA807AAB4F16D20C28256A23E407E5DF5DE74E,
 	CoreMetrics_set_Instance_mC18703DE5A475E77CBA000AA1602A2A9305AEFD2,
 	CoreMetrics__ctor_mF17592A929926B30C9FC2D17569B55740B15D7D2,
 	UnityServicesInitializer_CreateStaticInstance_m11C921F54756626B2102628C99180975D8907EB9,
 	UnityServicesInitializer_EnableServicesInitializationAsync_m16A565849C8E0FC0A11F2ADE7AA87B6EAA29B890,
+	UnityServicesInitializer_CreateInstance_mD82FB54B144D4FDBB0C2206A9A990BAFA000F4D6,
 	U3CEnableServicesInitializationAsyncU3Ed__1_MoveNext_mE98AC7044CBFAF74DE70A249383A271C2018B81E,
 	U3CEnableServicesInitializationAsyncU3Ed__1_SetStateMachine_mF049794791F6718DA52FC0A1861464C37CBBD553,
 	UnityServicesInternal_get_State_mDBBCB10039E6F2A9E04A054AD914C7204E5D39D4,
@@ -274,23 +281,26 @@ static Il2CppMethodPointer s_methodPointers[166] =
 	UnityServicesInternal_get_Registry_m523CDA2793D02C2E7966D8B25FF533248D8437A4,
 	UnityServicesInternal__ctor_mDA89BB80FC660F4AAE12F656B10C5A3EAB719252,
 	UnityServicesInternal_InitializeAsync_m964BF1654D9A647F2216029243F3CB1ED6F600C4,
+	UnityServicesInternal_TriggerInitializeSuccess_m963C8305FF346E41CF7A7A777FC363E87FB1D180,
+	UnityServicesInternal_TriggerInitializeFailed_m3DC6FB963BCB8C1BBCDB766A24CC71CF4404C0BF,
 	UnityServicesInternal_HasRequestedInitialization_m1E00108399C4206684219675F75D7269F06C5A03,
 	UnityServicesInternal_InitializeServicesAsync_mD1A530783D1BAC5937E64849348EFFCD3B26AB9E,
+	UnityServicesInternal_EnableInitialization_m22C8228B658003BA234EB36E085AEFC987490E47,
 	UnityServicesInternal_EnableInitializationAsync_m55FC6F901CD841698285288DA3F2AC772F2B7E35,
-	UnityServicesInternal_U3CInitializeAsyncU3Eg__HasInitializationFailedU7C19_0_mB2307E67A9F90AB4A77573EA6B400FFF96458C0A,
-	U3CU3Ec__DisplayClass22_0__ctor_mDBB05CBB8FBBCD2F03D5B8743AFC609009C0CCEC,
-	U3CU3Ec__DisplayClass22_0_U3CInitializeServicesAsyncU3Eg__SortPackagesU7C0_m3EF4EFD7DF837E39D66E554ED45A6057383A3162,
-	U3CU3Ec__DisplayClass22_0_U3CInitializeServicesAsyncU3Eg__InitializePackagesAsyncU7C1_mEE77880AC081204F2488D583F410718E26B285FA,
-	U3CU3Ec__DisplayClass22_0_U3CInitializeServicesAsyncU3Eg__FailServicesInitializationU7C2_mBFC7350F4146AB29FE8C595C05249A3595824B04,
-	U3CU3Ec__DisplayClass22_0_U3CInitializeServicesAsyncU3Eg__SucceedServicesInitializationU7C3_m405CF9855B1CEED7DF649B633CB7F269244F15A3,
-	U3CU3CInitializeServicesAsyncU3Eg__InitializePackagesAsyncU7C1U3Ed_MoveNext_m1A0F587F4E5C48CFBB69476DC6FF0E8D71A8C89E,
-	U3CU3CInitializeServicesAsyncU3Eg__InitializePackagesAsyncU7C1U3Ed_SetStateMachine_mAAD9750957C9D2A753833C40E201F4141C56143D,
-	U3CEnableInitializationAsyncU3Ed__25_MoveNext_mDD855653BC14915A8D38F78ABDE3C3B44AE1ADD3,
-	U3CEnableInitializationAsyncU3Ed__25_SetStateMachine_m6AC925AA5E8A235D126A0AE1BD10BADE6DF9CAC6,
-	U3CInitializeAsyncU3Ed__19_MoveNext_m7AFB4839B4E9FA4F8BB3EA34EABDD0B1F68CA6DA,
-	U3CInitializeAsyncU3Ed__19_SetStateMachine_m6314E1E5F87506D2AAEE6875D9C8466712157B3F,
-	U3CInitializeServicesAsyncU3Ed__22_MoveNext_m8CBE33D50A5251F774381D3A21B3B78F1F3B439B,
-	U3CInitializeServicesAsyncU3Ed__22_SetStateMachine_mFC5FA0E2CD3782B01DA1B4624BD5E80D966BFF33,
+	UnityServicesInternal_U3CInitializeAsyncU3Eg__HasInitializationFailedU7C27_0_m69C2C45E9B9F887D6048EA0E6DCAFA0A2DB1DE90,
+	U3CU3Ec__DisplayClass33_0__ctor_m78BB1194E2E6CED065EABE285D1A5DFA849FA703,
+	U3CU3Ec__DisplayClass33_0_U3CInitializeServicesAsyncU3Eg__SortPackagesU7C0_m54ABA60A588FA9E89AA5B3C96961A379E60C59D2,
+	U3CU3Ec__DisplayClass33_0_U3CInitializeServicesAsyncU3Eg__InitializePackagesAsyncU7C1_m2AFEAA74C836C43D8E1E40EE6B7C33FD669111B1,
+	U3CU3Ec__DisplayClass33_0_U3CInitializeServicesAsyncU3Eg__FailServicesInitializationU7C2_m2E4B2049B9F5C32F9DFDCDF23E236FE1BAFBAFB6,
+	U3CU3Ec__DisplayClass33_0_U3CInitializeServicesAsyncU3Eg__SucceedServicesInitializationU7C3_m57F26291930C5986799CFEE48CC8AF6335F0F6B6,
+	U3CU3CInitializeServicesAsyncU3Eg__InitializePackagesAsyncU7C1U3Ed_MoveNext_m0B75802846862A9D3776D99F03B8E7618E36FB03,
+	U3CU3CInitializeServicesAsyncU3Eg__InitializePackagesAsyncU7C1U3Ed_SetStateMachine_m4E439BB31E1B66436A92AA7F3EEF5D5BEB0D7684,
+	U3CEnableInitializationAsyncU3Ed__36_MoveNext_mAFA1D776202998838B68E506B9D4831949CFC4B9,
+	U3CEnableInitializationAsyncU3Ed__36_SetStateMachine_m7E43A9F4EEBE6615D05ECA8BB0AC0ADA52883092,
+	U3CInitializeAsyncU3Ed__27_MoveNext_mC8E6C55E839353393F6B46007E88E035DC7C72DD,
+	U3CInitializeAsyncU3Ed__27_SetStateMachine_m30539AE6931B6227E33BB6CEBB849F23CB73A186,
+	U3CInitializeServicesAsyncU3Ed__33_MoveNext_m257AB518D169547C9B5BC356673164A5E2033FF7,
+	U3CInitializeServicesAsyncU3Ed__33_SetStateMachine_mF119355789990F958900F558B0612CA359249FC7,
 	NULL,
 	NULL,
 	NULL,
@@ -322,14 +332,14 @@ extern void DependencyTreeInitializeOrderSorter_GetPackageTypeHashFor_mD0F3091C1
 extern void DependencyTreeInitializeOrderSorter_GetDependencyTypeHashesFor_mE4896E6FD46EC6A8D6E60540C9036B58ABC124AF_AdjustorThunk (void);
 extern void U3CEnableServicesInitializationAsyncU3Ed__1_MoveNext_mE98AC7044CBFAF74DE70A249383A271C2018B81E_AdjustorThunk (void);
 extern void U3CEnableServicesInitializationAsyncU3Ed__1_SetStateMachine_mF049794791F6718DA52FC0A1861464C37CBBD553_AdjustorThunk (void);
-extern void U3CU3CInitializeServicesAsyncU3Eg__InitializePackagesAsyncU7C1U3Ed_MoveNext_m1A0F587F4E5C48CFBB69476DC6FF0E8D71A8C89E_AdjustorThunk (void);
-extern void U3CU3CInitializeServicesAsyncU3Eg__InitializePackagesAsyncU7C1U3Ed_SetStateMachine_mAAD9750957C9D2A753833C40E201F4141C56143D_AdjustorThunk (void);
-extern void U3CEnableInitializationAsyncU3Ed__25_MoveNext_mDD855653BC14915A8D38F78ABDE3C3B44AE1ADD3_AdjustorThunk (void);
-extern void U3CEnableInitializationAsyncU3Ed__25_SetStateMachine_m6AC925AA5E8A235D126A0AE1BD10BADE6DF9CAC6_AdjustorThunk (void);
-extern void U3CInitializeAsyncU3Ed__19_MoveNext_m7AFB4839B4E9FA4F8BB3EA34EABDD0B1F68CA6DA_AdjustorThunk (void);
-extern void U3CInitializeAsyncU3Ed__19_SetStateMachine_m6314E1E5F87506D2AAEE6875D9C8466712157B3F_AdjustorThunk (void);
-extern void U3CInitializeServicesAsyncU3Ed__22_MoveNext_m8CBE33D50A5251F774381D3A21B3B78F1F3B439B_AdjustorThunk (void);
-extern void U3CInitializeServicesAsyncU3Ed__22_SetStateMachine_mFC5FA0E2CD3782B01DA1B4624BD5E80D966BFF33_AdjustorThunk (void);
+extern void U3CU3CInitializeServicesAsyncU3Eg__InitializePackagesAsyncU7C1U3Ed_MoveNext_m0B75802846862A9D3776D99F03B8E7618E36FB03_AdjustorThunk (void);
+extern void U3CU3CInitializeServicesAsyncU3Eg__InitializePackagesAsyncU7C1U3Ed_SetStateMachine_m4E439BB31E1B66436A92AA7F3EEF5D5BEB0D7684_AdjustorThunk (void);
+extern void U3CEnableInitializationAsyncU3Ed__36_MoveNext_mAFA1D776202998838B68E506B9D4831949CFC4B9_AdjustorThunk (void);
+extern void U3CEnableInitializationAsyncU3Ed__36_SetStateMachine_m7E43A9F4EEBE6615D05ECA8BB0AC0ADA52883092_AdjustorThunk (void);
+extern void U3CInitializeAsyncU3Ed__27_MoveNext_mC8E6C55E839353393F6B46007E88E035DC7C72DD_AdjustorThunk (void);
+extern void U3CInitializeAsyncU3Ed__27_SetStateMachine_m30539AE6931B6227E33BB6CEBB849F23CB73A186_AdjustorThunk (void);
+extern void U3CInitializeServicesAsyncU3Ed__33_MoveNext_m257AB518D169547C9B5BC356673164A5E2033FF7_AdjustorThunk (void);
+extern void U3CInitializeServicesAsyncU3Ed__33_SetStateMachine_mF119355789990F958900F558B0612CA359249FC7_AdjustorThunk (void);
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[27] = 
 {
 	{ 0x06000027, CoreRegistration__ctor_mBD89C7177367442E29CDDB5C17527B9C556256E1_AdjustorThunk },
@@ -349,18 +359,18 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[27] =
 	{ 0x06000059, DependencyTreeInitializeOrderSorter_GetPackageTypeHashes_mF3163B612844917C07D74BB7B78FD5C48ECE4653_AdjustorThunk },
 	{ 0x0600005A, DependencyTreeInitializeOrderSorter_GetPackageTypeHashFor_mD0F3091C18741606134FBB1F6F1465F5EB8C0634_AdjustorThunk },
 	{ 0x0600005B, DependencyTreeInitializeOrderSorter_GetDependencyTypeHashesFor_mE4896E6FD46EC6A8D6E60540C9036B58ABC124AF_AdjustorThunk },
-	{ 0x06000084, U3CEnableServicesInitializationAsyncU3Ed__1_MoveNext_mE98AC7044CBFAF74DE70A249383A271C2018B81E_AdjustorThunk },
-	{ 0x06000085, U3CEnableServicesInitializationAsyncU3Ed__1_SetStateMachine_mF049794791F6718DA52FC0A1861464C37CBBD553_AdjustorThunk },
-	{ 0x06000094, U3CU3CInitializeServicesAsyncU3Eg__InitializePackagesAsyncU7C1U3Ed_MoveNext_m1A0F587F4E5C48CFBB69476DC6FF0E8D71A8C89E_AdjustorThunk },
-	{ 0x06000095, U3CU3CInitializeServicesAsyncU3Eg__InitializePackagesAsyncU7C1U3Ed_SetStateMachine_mAAD9750957C9D2A753833C40E201F4141C56143D_AdjustorThunk },
-	{ 0x06000096, U3CEnableInitializationAsyncU3Ed__25_MoveNext_mDD855653BC14915A8D38F78ABDE3C3B44AE1ADD3_AdjustorThunk },
-	{ 0x06000097, U3CEnableInitializationAsyncU3Ed__25_SetStateMachine_m6AC925AA5E8A235D126A0AE1BD10BADE6DF9CAC6_AdjustorThunk },
-	{ 0x06000098, U3CInitializeAsyncU3Ed__19_MoveNext_m7AFB4839B4E9FA4F8BB3EA34EABDD0B1F68CA6DA_AdjustorThunk },
-	{ 0x06000099, U3CInitializeAsyncU3Ed__19_SetStateMachine_m6314E1E5F87506D2AAEE6875D9C8466712157B3F_AdjustorThunk },
-	{ 0x0600009A, U3CInitializeServicesAsyncU3Ed__22_MoveNext_m8CBE33D50A5251F774381D3A21B3B78F1F3B439B_AdjustorThunk },
-	{ 0x0600009B, U3CInitializeServicesAsyncU3Ed__22_SetStateMachine_mFC5FA0E2CD3782B01DA1B4624BD5E80D966BFF33_AdjustorThunk },
+	{ 0x06000086, U3CEnableServicesInitializationAsyncU3Ed__1_MoveNext_mE98AC7044CBFAF74DE70A249383A271C2018B81E_AdjustorThunk },
+	{ 0x06000087, U3CEnableServicesInitializationAsyncU3Ed__1_SetStateMachine_mF049794791F6718DA52FC0A1861464C37CBBD553_AdjustorThunk },
+	{ 0x06000099, U3CU3CInitializeServicesAsyncU3Eg__InitializePackagesAsyncU7C1U3Ed_MoveNext_m0B75802846862A9D3776D99F03B8E7618E36FB03_AdjustorThunk },
+	{ 0x0600009A, U3CU3CInitializeServicesAsyncU3Eg__InitializePackagesAsyncU7C1U3Ed_SetStateMachine_m4E439BB31E1B66436A92AA7F3EEF5D5BEB0D7684_AdjustorThunk },
+	{ 0x0600009B, U3CEnableInitializationAsyncU3Ed__36_MoveNext_mAFA1D776202998838B68E506B9D4831949CFC4B9_AdjustorThunk },
+	{ 0x0600009C, U3CEnableInitializationAsyncU3Ed__36_SetStateMachine_m7E43A9F4EEBE6615D05ECA8BB0AC0ADA52883092_AdjustorThunk },
+	{ 0x0600009D, U3CInitializeAsyncU3Ed__27_MoveNext_mC8E6C55E839353393F6B46007E88E035DC7C72DD_AdjustorThunk },
+	{ 0x0600009E, U3CInitializeAsyncU3Ed__27_SetStateMachine_m30539AE6931B6227E33BB6CEBB849F23CB73A186_AdjustorThunk },
+	{ 0x0600009F, U3CInitializeServicesAsyncU3Ed__33_MoveNext_m257AB518D169547C9B5BC356673164A5E2033FF7_AdjustorThunk },
+	{ 0x060000A0, U3CInitializeServicesAsyncU3Ed__33_SetStateMachine_mF119355789990F958900F558B0612CA359249FC7_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[166] = 
+static const int32_t s_InvokerIndices[171] = 
 {
 	0,
 	0,
@@ -371,162 +381,167 @@ static const int32_t s_InvokerIndices[166] =
 	0,
 	0,
 	0,
-	5792,
+	5802,
 	0,
-	5792,
-	9214,
-	9056,
-	9056,
-	9056,
-	6008,
-	5885,
-	6008,
-	0,
-	0,
-	3472,
-	4887,
+	5802,
+	9221,
+	9063,
+	9063,
+	9063,
+	6018,
+	5895,
+	6018,
 	0,
 	0,
-	0,
-	5885,
-	4887,
-	0,
-	0,
-	4887,
-	9178,
-	9056,
-	5885,
-	4887,
-	6008,
-	0,
-	6008,
-	2727,
+	3480,
+	4895,
 	0,
 	0,
 	0,
-	9178,
-	9056,
-	5852,
-	4857,
-	5885,
-	4887,
-	5885,
-	4887,
-	5885,
-	4887,
-	4887,
-	1498,
+	5895,
+	4895,
+	0,
+	0,
+	4895,
+	9185,
+	9063,
+	5895,
+	4895,
+	6018,
+	0,
+	6018,
+	2735,
 	0,
 	0,
 	0,
-	6008,
-	2731,
-	5885,
-	6008,
-	4325,
-	4322,
-	4325,
-	6008,
-	6008,
-	4887,
-	6008,
-	4887,
-	6008,
-	4887,
-	6008,
-	1095,
-	1517,
-	7525,
-	8164,
-	7898,
-	7898,
-	8160,
-	8160,
-	8804,
-	2731,
-	6008,
-	6008,
-	4887,
-	4857,
-	4887,
-	2507,
-	5885,
-	4063,
-	4322,
-	5852,
-	2535,
-	1459,
-	2535,
-	1459,
-	2535,
-	0,
-	0,
-	5885,
-	4887,
-	6008,
+	9185,
+	9063,
+	5862,
+	4865,
+	5895,
+	4895,
+	5895,
+	4895,
+	5895,
+	4895,
+	4895,
+	1506,
 	0,
 	0,
 	0,
+	6018,
+	2739,
+	5895,
+	6018,
+	4333,
+	4330,
+	4333,
+	6018,
+	6018,
+	4895,
+	6018,
+	4895,
+	6018,
+	4895,
+	6018,
+	1097,
+	1525,
+	7532,
+	8169,
+	7902,
+	7902,
+	8165,
+	8165,
+	8811,
+	2739,
+	6018,
+	6018,
+	4895,
+	4865,
+	4895,
+	2515,
+	5895,
+	4071,
+	4330,
+	5862,
+	2543,
+	1467,
+	2543,
+	1467,
+	2543,
 	0,
 	0,
-	5885,
-	4887,
-	5885,
+	5895,
+	4895,
+	6018,
 	0,
 	0,
 	0,
 	0,
-	5885,
-	4887,
-	4887,
+	0,
+	5895,
+	4895,
+	5895,
 	0,
 	0,
 	0,
 	0,
-	2507,
-	6008,
-	9178,
-	9056,
-	4887,
-	6008,
-	9056,
-	6008,
-	9214,
-	9214,
-	6008,
-	4887,
-	5852,
-	4857,
-	5885,
-	1517,
-	4325,
-	5792,
-	5885,
-	5885,
-	5792,
-	6008,
-	6008,
-	5885,
-	4887,
-	6008,
-	6008,
-	4887,
-	6008,
-	4887,
-	6008,
-	4887,
-	6008,
-	4887,
+	5895,
+	4895,
+	4895,
 	0,
 	0,
 	0,
-	8585,
-	8804,
-	6008,
-	4887,
 	0,
-	4887,
-	4887,
+	2515,
+	6018,
+	9185,
+	9063,
+	4895,
+	6018,
+	9185,
+	9063,
+	6018,
+	9221,
+	9221,
+	8811,
+	6018,
+	4895,
+	5862,
+	4865,
+	5895,
+	1525,
+	4333,
+	6018,
+	4895,
+	5802,
+	5895,
+	6018,
+	5895,
+	5802,
+	6018,
+	6018,
+	5895,
+	4895,
+	6018,
+	6018,
+	4895,
+	6018,
+	4895,
+	6018,
+	4895,
+	6018,
+	4895,
+	0,
+	0,
+	0,
+	8591,
+	8811,
+	6018,
+	4895,
+	0,
+	4895,
+	4895,
 	0,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[18] = 
@@ -545,10 +560,10 @@ static const Il2CppTokenRangePair s_rgctxIndices[18] =
 	{ 0x06000077, { 20, 1 } },
 	{ 0x06000078, { 21, 1 } },
 	{ 0x06000079, { 22, 1 } },
-	{ 0x0600009C, { 23, 13 } },
-	{ 0x0600009D, { 36, 5 } },
-	{ 0x0600009E, { 41, 18 } },
-	{ 0x060000A6, { 59, 2 } },
+	{ 0x060000A1, { 23, 13 } },
+	{ 0x060000A2, { 36, 5 } },
+	{ 0x060000A3, { 41, 18 } },
+	{ 0x060000AB, { 59, 2 } },
 };
 extern const uint32_t g_rgctx_TComponent_t023831A30B470AB24FFA7F336E6DA44C483CFB19;
 extern const uint32_t g_rgctx_TComponent_t023831A30B470AB24FFA7F336E6DA44C483CFB19;
@@ -679,7 +694,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_Services_Core_Internal_CodeGen
 const Il2CppCodeGenModule g_Unity_Services_Core_Internal_CodeGenModule = 
 {
 	"Unity.Services.Core.Internal.dll",
-	166,
+	171,
 	s_methodPointers,
 	27,
 	s_adjustorThunks,

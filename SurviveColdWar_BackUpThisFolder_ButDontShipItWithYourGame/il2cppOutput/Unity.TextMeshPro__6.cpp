@@ -1342,7 +1342,7 @@ struct U3CPrivateImplementationDetailsU3E_t04635BCB4D7C7C21D10547072BD307E80F347
 {
 	__StaticArrayInitTypeSizeU3D12_tEC1CC026789295E8A8AD93E72B867C89C1B7F043 ___1C3635C112D556F4C11A4FE6BDE6ED3F126C4B2B546811BDB64DE7BDED3A05CB;
 	__StaticArrayInitTypeSizeU3D3551_t5385B01A353E0876CE0F469ABBC006C2FD6ED581 ___8888F405A0F13565CE61E72C16289D7F52D50B6F9F074009144957058CC0160C;
-	__StaticArrayInitTypeSizeU3D5236_t15425BF169C3FBC37AFAD293EE8CCCA86C08A7B0 ___9D028655AFAE91C3E1DB7EE86E6C6B634E96034878BED6725E35EC35BAA5E23E;
+	__StaticArrayInitTypeSizeU3D5236_t15425BF169C3FBC37AFAD293EE8CCCA86C08A7B0 ___A0BB68DF4543FF935410ECA29946D43697DAD4F551DD546985F312A295B87E9D;
 };
 struct String_t_StaticFields
 {
@@ -1624,17 +1624,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Clear_m50BAA3751899858B097D3FF2ED3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 44513
+// Method Definition Index: 44619
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineSegment__ctor_mD12FAF67166FBF4154B4C71793A87AC3EB9EEF0B (LineSegment_t31E432A164E8EA041C4E2279C6C0F243636EC294* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_p1, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_p2, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_TextUtilities.cs:2056>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_TextUtilities.cs:2056>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_p1;
 		__this->___Point1 = L_0;
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_TextUtilities.cs:2057>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_TextUtilities.cs:2057>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___1_p2;
 		__this->___Point2 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_TextUtilities.cs:2058>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_TextUtilities.cs:2058>
 		return;
 	}
 }
@@ -1653,7 +1653,7 @@ IL2CPP_EXTERN_C  void LineSegment__ctor_mD12FAF67166FBF4154B4C71793A87AC3EB9EEF0
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 44514
+// Method Definition Index: 44620
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2* TMP_UpdateManager_get_instance_m1650984C00D47E778930C9063DFDA10409C87D4E (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1663,7 +1663,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A643
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:40>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:40>
 		il2cpp_codegen_runtime_class_init_inline(TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2_il2cpp_TypeInfo_var);
 		TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2* L_0 = ((TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2_StaticFields*)il2cpp_codegen_static_fields_for(TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2_il2cpp_TypeInfo_var))->___s_Instance;
 		if (L_0)
@@ -1672,7 +1672,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A643
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:41>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:41>
 		TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2* L_1 = (TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2*)il2cpp_codegen_object_new(TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2_il2cpp_TypeInfo_var);
 		TMP_UpdateManager__ctor_m69A0A84DD4CD9C719AC6241795E327E198F3B8D5(L_1, NULL);
 		il2cpp_codegen_runtime_class_init_inline(TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2_il2cpp_TypeInfo_var);
@@ -1682,13 +1682,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A643
 
 IL_0011:
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:43>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:43>
 		il2cpp_codegen_runtime_class_init_inline(TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2_il2cpp_TypeInfo_var);
 		TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2* L_2 = ((TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2_StaticFields*)il2cpp_codegen_static_fields_for(TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2_il2cpp_TypeInfo_var))->___s_Instance;
 		return L_2;
 	}
 }
-// Method Definition Index: 44515
+// Method Definition Index: 44621
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateManager__ctor_m69A0A84DD4CD9C719AC6241795E327E198F3B8D5 (TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1703,57 +1703,57 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateManager__ctor_m69A0A84DD4CD9C7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:14>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:14>
 		HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2* L_0 = (HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2*)il2cpp_codegen_object_new(HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2_il2cpp_TypeInfo_var);
 		HashSet_1__ctor_m90EA29D74B137C5317CDC485AA1D799F0B6726FF(L_0, HashSet_1__ctor_m90EA29D74B137C5317CDC485AA1D799F0B6726FF_RuntimeMethod_var);
 		__this->___m_LayoutQueueLookup = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_LayoutQueueLookup), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:15>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:15>
 		List_1_t2147F3FC8B4F16EE577CAF4E40F9D9A684B4CBBD* L_1 = (List_1_t2147F3FC8B4F16EE577CAF4E40F9D9A684B4CBBD*)il2cpp_codegen_object_new(List_1_t2147F3FC8B4F16EE577CAF4E40F9D9A684B4CBBD_il2cpp_TypeInfo_var);
 		List_1__ctor_m4FD3935AD5218E810AAD31879DE6CE05117475A0(L_1, List_1__ctor_m4FD3935AD5218E810AAD31879DE6CE05117475A0_RuntimeMethod_var);
 		__this->___m_LayoutRebuildQueue = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_LayoutRebuildQueue), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:17>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:17>
 		HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2* L_2 = (HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2*)il2cpp_codegen_object_new(HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2_il2cpp_TypeInfo_var);
 		HashSet_1__ctor_m90EA29D74B137C5317CDC485AA1D799F0B6726FF(L_2, HashSet_1__ctor_m90EA29D74B137C5317CDC485AA1D799F0B6726FF_RuntimeMethod_var);
 		__this->___m_GraphicQueueLookup = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_GraphicQueueLookup), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:18>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:18>
 		List_1_t2147F3FC8B4F16EE577CAF4E40F9D9A684B4CBBD* L_3 = (List_1_t2147F3FC8B4F16EE577CAF4E40F9D9A684B4CBBD*)il2cpp_codegen_object_new(List_1_t2147F3FC8B4F16EE577CAF4E40F9D9A684B4CBBD_il2cpp_TypeInfo_var);
 		List_1__ctor_m4FD3935AD5218E810AAD31879DE6CE05117475A0(L_3, List_1__ctor_m4FD3935AD5218E810AAD31879DE6CE05117475A0_RuntimeMethod_var);
 		__this->___m_GraphicRebuildQueue = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_GraphicRebuildQueue), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:20>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:20>
 		HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2* L_4 = (HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2*)il2cpp_codegen_object_new(HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2_il2cpp_TypeInfo_var);
 		HashSet_1__ctor_m90EA29D74B137C5317CDC485AA1D799F0B6726FF(L_4, HashSet_1__ctor_m90EA29D74B137C5317CDC485AA1D799F0B6726FF_RuntimeMethod_var);
 		__this->___m_InternalUpdateLookup = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_InternalUpdateLookup), (void*)L_4);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:21>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:21>
 		List_1_t2147F3FC8B4F16EE577CAF4E40F9D9A684B4CBBD* L_5 = (List_1_t2147F3FC8B4F16EE577CAF4E40F9D9A684B4CBBD*)il2cpp_codegen_object_new(List_1_t2147F3FC8B4F16EE577CAF4E40F9D9A684B4CBBD_il2cpp_TypeInfo_var);
 		List_1__ctor_m4FD3935AD5218E810AAD31879DE6CE05117475A0(L_5, List_1__ctor_m4FD3935AD5218E810AAD31879DE6CE05117475A0_RuntimeMethod_var);
 		__this->___m_InternalUpdateQueue = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_InternalUpdateQueue), (void*)L_5);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:23>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:23>
 		HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2* L_6 = (HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2*)il2cpp_codegen_object_new(HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2_il2cpp_TypeInfo_var);
 		HashSet_1__ctor_m90EA29D74B137C5317CDC485AA1D799F0B6726FF(L_6, HashSet_1__ctor_m90EA29D74B137C5317CDC485AA1D799F0B6726FF_RuntimeMethod_var);
 		__this->___m_CullingUpdateLookup = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_CullingUpdateLookup), (void*)L_6);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:24>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:24>
 		List_1_t2147F3FC8B4F16EE577CAF4E40F9D9A684B4CBBD* L_7 = (List_1_t2147F3FC8B4F16EE577CAF4E40F9D9A684B4CBBD*)il2cpp_codegen_object_new(List_1_t2147F3FC8B4F16EE577CAF4E40F9D9A684B4CBBD_il2cpp_TypeInfo_var);
 		List_1__ctor_m4FD3935AD5218E810AAD31879DE6CE05117475A0(L_7, List_1__ctor_m4FD3935AD5218E810AAD31879DE6CE05117475A0_RuntimeMethod_var);
 		__this->___m_CullingUpdateQueue = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_CullingUpdateQueue), (void*)L_7);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:50>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:50>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:52>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:52>
 		WillRenderCanvases_tA4A6E66DBA797DCB45B995DBA449A9D1D80D0FBC* L_8 = (WillRenderCanvases_tA4A6E66DBA797DCB45B995DBA449A9D1D80D0FBC*)il2cpp_codegen_object_new(WillRenderCanvases_tA4A6E66DBA797DCB45B995DBA449A9D1D80D0FBC_il2cpp_TypeInfo_var);
 		WillRenderCanvases__ctor_mD8174C0964F8864D65270FFCAF275BD0BAC8DCF3(L_8, __this, (intptr_t)((void*)TMP_UpdateManager_DoRebuilds_m14F711CC2FA9DA7B2B8964059CB6CA4B776F6BE8_RuntimeMethod_var), NULL);
 		Canvas_add_willRenderCanvases_m687D781C0082C147C4E9C2F5A82C59A696129E74(L_8, NULL);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:53>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:53>
 		return;
 	}
 }
-// Method Definition Index: 44516
+// Method Definition Index: 44622
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateManager_RegisterTextObjectForUpdate_m18247DEF67E359156574B001461A8995D6CD027D (TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___0_textObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1763,18 +1763,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateManager_RegisterTextObjectForU
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:63>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:63>
 		il2cpp_codegen_runtime_class_init_inline(TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2_il2cpp_TypeInfo_var);
 		TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2* L_0;
 		L_0 = TMP_UpdateManager_get_instance_m1650984C00D47E778930C9063DFDA10409C87D4E(NULL);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1 = ___0_textObject;
 		NullCheck(L_0);
 		TMP_UpdateManager_InternalRegisterTextObjectForUpdate_m3BE2C4BF2F7380096474A113CEA612A72B5E5BF7(L_0, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:66>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:66>
 		return;
 	}
 }
-// Method Definition Index: 44517
+// Method Definition Index: 44623
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateManager_InternalRegisterTextObjectForUpdate_m3BE2C4BF2F7380096474A113CEA612A72B5E5BF7 (TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2* __this, TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___0_textObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1787,13 +1787,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateManager_InternalRegisterTextOb
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:70>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:70>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = ___0_textObject;
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = Object_GetInstanceID_m554FF4073C9465F3835574CC084E68AAEEC6CC6A(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:72>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:72>
 		HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2* L_2 = __this->___m_InternalUpdateLookup;
 		int32_t L_3 = V_0;
 		NullCheck(L_2);
@@ -1805,28 +1805,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateManager_InternalRegisterTextOb
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:73>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:73>
 		return;
 	}
 
 IL_0016:
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:75>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:75>
 		HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2* L_5 = __this->___m_InternalUpdateLookup;
 		int32_t L_6 = V_0;
 		NullCheck(L_5);
 		bool L_7;
 		L_7 = HashSet_1_Add_m9B0DD9902395EE95D3DC522264BE1EBBBD3513EB(L_5, L_6, HashSet_1_Add_m9B0DD9902395EE95D3DC522264BE1EBBBD3513EB_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:76>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:76>
 		List_1_t2147F3FC8B4F16EE577CAF4E40F9D9A684B4CBBD* L_8 = __this->___m_InternalUpdateQueue;
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_9 = ___0_textObject;
 		NullCheck(L_8);
 		List_1_Add_m763D56CC188B1CACC098A5D4EA9F0B5FD1C21BC6_inline(L_8, L_9, List_1_Add_m763D56CC188B1CACC098A5D4EA9F0B5FD1C21BC6_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:77>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:77>
 		return;
 	}
 }
-// Method Definition Index: 44518
+// Method Definition Index: 44624
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateManager_RegisterTextElementForLayoutRebuild_m6AE3A0CF4112A8963AB4C0EFA7B7ACC4505C158E (TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___0_element, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1836,18 +1836,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateManager_RegisterTextElementFor
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:85>
 		il2cpp_codegen_runtime_class_init_inline(TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2_il2cpp_TypeInfo_var);
 		TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2* L_0;
 		L_0 = TMP_UpdateManager_get_instance_m1650984C00D47E778930C9063DFDA10409C87D4E(NULL);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1 = ___0_element;
 		NullCheck(L_0);
 		TMP_UpdateManager_InternalRegisterTextElementForLayoutRebuild_m99DD6449E8F765D5F10D2C272EB26673D29BAE97(L_0, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:86>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:86>
 		return;
 	}
 }
-// Method Definition Index: 44519
+// Method Definition Index: 44625
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateManager_InternalRegisterTextElementForLayoutRebuild_m99DD6449E8F765D5F10D2C272EB26673D29BAE97 (TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2* __this, TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___0_element, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1860,13 +1860,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateManager_InternalRegisterTextEl
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:90>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:90>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = ___0_element;
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = Object_GetInstanceID_m554FF4073C9465F3835574CC084E68AAEEC6CC6A(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:92>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:92>
 		HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2* L_2 = __this->___m_LayoutQueueLookup;
 		int32_t L_3 = V_0;
 		NullCheck(L_2);
@@ -1878,28 +1878,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateManager_InternalRegisterTextEl
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:93>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:93>
 		return;
 	}
 
 IL_0016:
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:95>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:95>
 		HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2* L_5 = __this->___m_LayoutQueueLookup;
 		int32_t L_6 = V_0;
 		NullCheck(L_5);
 		bool L_7;
 		L_7 = HashSet_1_Add_m9B0DD9902395EE95D3DC522264BE1EBBBD3513EB(L_5, L_6, HashSet_1_Add_m9B0DD9902395EE95D3DC522264BE1EBBBD3513EB_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:96>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:96>
 		List_1_t2147F3FC8B4F16EE577CAF4E40F9D9A684B4CBBD* L_8 = __this->___m_LayoutRebuildQueue;
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_9 = ___0_element;
 		NullCheck(L_8);
 		List_1_Add_m763D56CC188B1CACC098A5D4EA9F0B5FD1C21BC6_inline(L_8, L_9, List_1_Add_m763D56CC188B1CACC098A5D4EA9F0B5FD1C21BC6_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:97>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:97>
 		return;
 	}
 }
-// Method Definition Index: 44520
+// Method Definition Index: 44626
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateManager_RegisterTextElementForGraphicRebuild_m483FB163F9D2AF1712185A874B980724B19BFFD5 (TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___0_element, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1909,18 +1909,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateManager_RegisterTextElementFor
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:107>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:107>
 		il2cpp_codegen_runtime_class_init_inline(TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2_il2cpp_TypeInfo_var);
 		TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2* L_0;
 		L_0 = TMP_UpdateManager_get_instance_m1650984C00D47E778930C9063DFDA10409C87D4E(NULL);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1 = ___0_element;
 		NullCheck(L_0);
 		TMP_UpdateManager_InternalRegisterTextElementForGraphicRebuild_m2BB7D188B607FAE033CCE3B65F6D5DBF13562524(L_0, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:110>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:110>
 		return;
 	}
 }
-// Method Definition Index: 44521
+// Method Definition Index: 44627
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateManager_InternalRegisterTextElementForGraphicRebuild_m2BB7D188B607FAE033CCE3B65F6D5DBF13562524 (TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2* __this, TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___0_element, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1933,13 +1933,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateManager_InternalRegisterTextEl
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:114>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:114>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = ___0_element;
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = Object_GetInstanceID_m554FF4073C9465F3835574CC084E68AAEEC6CC6A(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:116>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:116>
 		HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2* L_2 = __this->___m_GraphicQueueLookup;
 		int32_t L_3 = V_0;
 		NullCheck(L_2);
@@ -1951,28 +1951,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateManager_InternalRegisterTextEl
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:117>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:117>
 		return;
 	}
 
 IL_0016:
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:119>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:119>
 		HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2* L_5 = __this->___m_GraphicQueueLookup;
 		int32_t L_6 = V_0;
 		NullCheck(L_5);
 		bool L_7;
 		L_7 = HashSet_1_Add_m9B0DD9902395EE95D3DC522264BE1EBBBD3513EB(L_5, L_6, HashSet_1_Add_m9B0DD9902395EE95D3DC522264BE1EBBBD3513EB_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:120>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:120>
 		List_1_t2147F3FC8B4F16EE577CAF4E40F9D9A684B4CBBD* L_8 = __this->___m_GraphicRebuildQueue;
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_9 = ___0_element;
 		NullCheck(L_8);
 		List_1_Add_m763D56CC188B1CACC098A5D4EA9F0B5FD1C21BC6_inline(L_8, L_9, List_1_Add_m763D56CC188B1CACC098A5D4EA9F0B5FD1C21BC6_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:121>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:121>
 		return;
 	}
 }
-// Method Definition Index: 44522
+// Method Definition Index: 44628
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateManager_RegisterTextElementForCullingUpdate_m20855E80BBE3AB418B5350D58782FC57A1E65841 (TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___0_element, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1982,18 +1982,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateManager_RegisterTextElementFor
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:127>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:127>
 		il2cpp_codegen_runtime_class_init_inline(TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2_il2cpp_TypeInfo_var);
 		TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2* L_0;
 		L_0 = TMP_UpdateManager_get_instance_m1650984C00D47E778930C9063DFDA10409C87D4E(NULL);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1 = ___0_element;
 		NullCheck(L_0);
 		TMP_UpdateManager_InternalRegisterTextElementForCullingUpdate_m41E41B6A7F27C62897A7369DA43163AEADCC908F(L_0, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:130>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:130>
 		return;
 	}
 }
-// Method Definition Index: 44523
+// Method Definition Index: 44629
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateManager_InternalRegisterTextElementForCullingUpdate_m41E41B6A7F27C62897A7369DA43163AEADCC908F (TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2* __this, TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___0_element, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2006,13 +2006,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateManager_InternalRegisterTextEl
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:134>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:134>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = ___0_element;
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = Object_GetInstanceID_m554FF4073C9465F3835574CC084E68AAEEC6CC6A(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:136>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:136>
 		HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2* L_2 = __this->___m_CullingUpdateLookup;
 		int32_t L_3 = V_0;
 		NullCheck(L_2);
@@ -2024,38 +2024,38 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateManager_InternalRegisterTextEl
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:137>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:137>
 		return;
 	}
 
 IL_0016:
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:139>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:139>
 		HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2* L_5 = __this->___m_CullingUpdateLookup;
 		int32_t L_6 = V_0;
 		NullCheck(L_5);
 		bool L_7;
 		L_7 = HashSet_1_Add_m9B0DD9902395EE95D3DC522264BE1EBBBD3513EB(L_5, L_6, HashSet_1_Add_m9B0DD9902395EE95D3DC522264BE1EBBBD3513EB_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:140>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:140>
 		List_1_t2147F3FC8B4F16EE577CAF4E40F9D9A684B4CBBD* L_8 = __this->___m_CullingUpdateQueue;
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_9 = ___0_element;
 		NullCheck(L_8);
 		List_1_Add_m763D56CC188B1CACC098A5D4EA9F0B5FD1C21BC6_inline(L_8, L_9, List_1_Add_m763D56CC188B1CACC098A5D4EA9F0B5FD1C21BC6_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:141>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:141>
 		return;
 	}
 }
-// Method Definition Index: 44524
+// Method Definition Index: 44630
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateManager_OnCameraPreCull_m265431745A965ECAA26603D4B5519043E7D99D98 (TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:148>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:148>
 		TMP_UpdateManager_DoRebuilds_m14F711CC2FA9DA7B2B8964059CB6CA4B776F6BE8(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:149>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:149>
 		return;
 	}
 }
-// Method Definition Index: 44525
+// Method Definition Index: 44631
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateManager_DoRebuilds_m14F711CC2FA9DA7B2B8964059CB6CA4B776F6BE8 (TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2072,14 +2072,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateManager_DoRebuilds_m14F711CC2F
 	int32_t V_2 = 0;
 	int32_t V_3 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:157>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:157>
 		V_0 = 0;
 		goto IL_0019;
 	}
 
 IL_0004:
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:159>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:159>
 		List_1_t2147F3FC8B4F16EE577CAF4E40F9D9A684B4CBBD* L_0 = __this->___m_InternalUpdateQueue;
 		int32_t L_1 = V_0;
 		NullCheck(L_0);
@@ -2087,14 +2087,14 @@ IL_0004:
 		L_2 = List_1_get_Item_mC1F85E68DFB8A7463D800F9550D1A168E899AA23(L_0, L_1, List_1_get_Item_mC1F85E68DFB8A7463D800F9550D1A168E899AA23_RuntimeMethod_var);
 		NullCheck(L_2);
 		VirtualActionInvoker0::Invoke(132, L_2);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:157>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:157>
 		int32_t L_3 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_3, 1));
 	}
 
 IL_0019:
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:157>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:157>
 		int32_t L_4 = V_0;
 		List_1_t2147F3FC8B4F16EE577CAF4E40F9D9A684B4CBBD* L_5 = __this->___m_InternalUpdateQueue;
 		NullCheck(L_5);
@@ -2106,14 +2106,14 @@ IL_0019:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:163>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:163>
 		V_1 = 0;
 		goto IL_0041;
 	}
 
 IL_002b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:165>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:165>
 		List_1_t2147F3FC8B4F16EE577CAF4E40F9D9A684B4CBBD* L_7 = __this->___m_LayoutRebuildQueue;
 		int32_t L_8 = V_1;
 		NullCheck(L_7);
@@ -2121,14 +2121,14 @@ IL_002b:
 		L_9 = List_1_get_Item_mC1F85E68DFB8A7463D800F9550D1A168E899AA23(L_7, L_8, List_1_get_Item_mC1F85E68DFB8A7463D800F9550D1A168E899AA23_RuntimeMethod_var);
 		NullCheck(L_9);
 		VirtualActionInvoker1< int32_t >::Invoke(37, L_9, 0);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:163>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:163>
 		int32_t L_10 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_10, 1));
 	}
 
 IL_0041:
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:163>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:163>
 		int32_t L_11 = V_1;
 		List_1_t2147F3FC8B4F16EE577CAF4E40F9D9A684B4CBBD* L_12 = __this->___m_LayoutRebuildQueue;
 		NullCheck(L_12);
@@ -2140,7 +2140,7 @@ IL_0041:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:168>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:168>
 		List_1_t2147F3FC8B4F16EE577CAF4E40F9D9A684B4CBBD* L_14 = __this->___m_LayoutRebuildQueue;
 		NullCheck(L_14);
 		int32_t L_15;
@@ -2151,11 +2151,11 @@ IL_0041:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:170>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:170>
 		List_1_t2147F3FC8B4F16EE577CAF4E40F9D9A684B4CBBD* L_16 = __this->___m_LayoutRebuildQueue;
 		NullCheck(L_16);
 		List_1_Clear_m1FED5AA259B61C431F79CFA15977E2A00748B854_inline(L_16, List_1_Clear_m1FED5AA259B61C431F79CFA15977E2A00748B854_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:171>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:171>
 		HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2* L_17 = __this->___m_LayoutQueueLookup;
 		NullCheck(L_17);
 		HashSet_1_Clear_m88C3BA6617F6667126635140414D44D76C42AE92(L_17, HashSet_1_Clear_m88C3BA6617F6667126635140414D44D76C42AE92_RuntimeMethod_var);
@@ -2163,14 +2163,14 @@ IL_0041:
 
 IL_0073:
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:175>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:175>
 		V_2 = 0;
 		goto IL_008d;
 	}
 
 IL_0077:
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:177>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:177>
 		List_1_t2147F3FC8B4F16EE577CAF4E40F9D9A684B4CBBD* L_18 = __this->___m_GraphicRebuildQueue;
 		int32_t L_19 = V_2;
 		NullCheck(L_18);
@@ -2178,14 +2178,14 @@ IL_0077:
 		L_20 = List_1_get_Item_mC1F85E68DFB8A7463D800F9550D1A168E899AA23(L_18, L_19, List_1_get_Item_mC1F85E68DFB8A7463D800F9550D1A168E899AA23_RuntimeMethod_var);
 		NullCheck(L_20);
 		VirtualActionInvoker1< int32_t >::Invoke(37, L_20, 3);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:175>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:175>
 		int32_t L_21 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_21, 1));
 	}
 
 IL_008d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:175>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:175>
 		int32_t L_22 = V_2;
 		List_1_t2147F3FC8B4F16EE577CAF4E40F9D9A684B4CBBD* L_23 = __this->___m_GraphicRebuildQueue;
 		NullCheck(L_23);
@@ -2197,7 +2197,7 @@ IL_008d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:181>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:181>
 		List_1_t2147F3FC8B4F16EE577CAF4E40F9D9A684B4CBBD* L_25 = __this->___m_GraphicRebuildQueue;
 		NullCheck(L_25);
 		int32_t L_26;
@@ -2208,11 +2208,11 @@ IL_008d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:183>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:183>
 		List_1_t2147F3FC8B4F16EE577CAF4E40F9D9A684B4CBBD* L_27 = __this->___m_GraphicRebuildQueue;
 		NullCheck(L_27);
 		List_1_Clear_m1FED5AA259B61C431F79CFA15977E2A00748B854_inline(L_27, List_1_Clear_m1FED5AA259B61C431F79CFA15977E2A00748B854_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:184>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:184>
 		HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2* L_28 = __this->___m_GraphicQueueLookup;
 		NullCheck(L_28);
 		HashSet_1_Clear_m88C3BA6617F6667126635140414D44D76C42AE92(L_28, HashSet_1_Clear_m88C3BA6617F6667126635140414D44D76C42AE92_RuntimeMethod_var);
@@ -2220,14 +2220,14 @@ IL_008d:
 
 IL_00bf:
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:188>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:188>
 		V_3 = 0;
 		goto IL_00d8;
 	}
 
 IL_00c3:
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:190>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:190>
 		List_1_t2147F3FC8B4F16EE577CAF4E40F9D9A684B4CBBD* L_29 = __this->___m_CullingUpdateQueue;
 		int32_t L_30 = V_3;
 		NullCheck(L_29);
@@ -2235,14 +2235,14 @@ IL_00c3:
 		L_31 = List_1_get_Item_mC1F85E68DFB8A7463D800F9550D1A168E899AA23(L_29, L_30, List_1_get_Item_mC1F85E68DFB8A7463D800F9550D1A168E899AA23_RuntimeMethod_var);
 		NullCheck(L_31);
 		VirtualActionInvoker0::Invoke(102, L_31);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:188>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:188>
 		int32_t L_32 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_32, 1));
 	}
 
 IL_00d8:
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:188>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:188>
 		int32_t L_33 = V_3;
 		List_1_t2147F3FC8B4F16EE577CAF4E40F9D9A684B4CBBD* L_34 = __this->___m_CullingUpdateQueue;
 		NullCheck(L_34);
@@ -2254,7 +2254,7 @@ IL_00d8:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:194>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:194>
 		List_1_t2147F3FC8B4F16EE577CAF4E40F9D9A684B4CBBD* L_36 = __this->___m_CullingUpdateQueue;
 		NullCheck(L_36);
 		int32_t L_37;
@@ -2265,11 +2265,11 @@ IL_00d8:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:196>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:196>
 		List_1_t2147F3FC8B4F16EE577CAF4E40F9D9A684B4CBBD* L_38 = __this->___m_CullingUpdateQueue;
 		NullCheck(L_38);
 		List_1_Clear_m1FED5AA259B61C431F79CFA15977E2A00748B854_inline(L_38, List_1_Clear_m1FED5AA259B61C431F79CFA15977E2A00748B854_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:197>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:197>
 		HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2* L_39 = __this->___m_CullingUpdateLookup;
 		NullCheck(L_39);
 		HashSet_1_Clear_m88C3BA6617F6667126635140414D44D76C42AE92(L_39, HashSet_1_Clear_m88C3BA6617F6667126635140414D44D76C42AE92_RuntimeMethod_var);
@@ -2277,11 +2277,11 @@ IL_00d8:
 
 IL_010a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:199>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:199>
 		return;
 	}
 }
-// Method Definition Index: 44526
+// Method Definition Index: 44632
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateManager_UnRegisterTextObjectForUpdate_mEFBA4B82356AAFD89692D3A3DA55B760977A8D40 (TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___0_textObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2291,18 +2291,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateManager_UnRegisterTextObjectFo
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:205>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:205>
 		il2cpp_codegen_runtime_class_init_inline(TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2_il2cpp_TypeInfo_var);
 		TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2* L_0;
 		L_0 = TMP_UpdateManager_get_instance_m1650984C00D47E778930C9063DFDA10409C87D4E(NULL);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1 = ___0_textObject;
 		NullCheck(L_0);
 		TMP_UpdateManager_InternalUnRegisterTextObjectForUpdate_m2856DE05E46E68058986301E3DBEE17C8153B2E8(L_0, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:208>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:208>
 		return;
 	}
 }
-// Method Definition Index: 44527
+// Method Definition Index: 44633
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateManager_UnRegisterTextElementForRebuild_m024BF55859F2F2FB7ABF6994059D74FF4F9B3548 (TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___0_element, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2312,30 +2312,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateManager_UnRegisterTextElementF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:216>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:216>
 		il2cpp_codegen_runtime_class_init_inline(TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2_il2cpp_TypeInfo_var);
 		TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2* L_0;
 		L_0 = TMP_UpdateManager_get_instance_m1650984C00D47E778930C9063DFDA10409C87D4E(NULL);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1 = ___0_element;
 		NullCheck(L_0);
 		TMP_UpdateManager_InternalUnRegisterTextElementForGraphicRebuild_m9E12886C94B95F5EF2F4DE0F32C8CD9C4A597198(L_0, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:217>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:217>
 		TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2* L_2;
 		L_2 = TMP_UpdateManager_get_instance_m1650984C00D47E778930C9063DFDA10409C87D4E(NULL);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_3 = ___0_element;
 		NullCheck(L_2);
 		TMP_UpdateManager_InternalUnRegisterTextElementForLayoutRebuild_mA216D19431D7C825E187253D6D68B5EDB3B8FCEF(L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:218>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:218>
 		TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2* L_4;
 		L_4 = TMP_UpdateManager_get_instance_m1650984C00D47E778930C9063DFDA10409C87D4E(NULL);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_5 = ___0_element;
 		NullCheck(L_4);
 		TMP_UpdateManager_InternalUnRegisterTextObjectForUpdate_m2856DE05E46E68058986301E3DBEE17C8153B2E8(L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:219>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:219>
 		return;
 	}
 }
-// Method Definition Index: 44528
+// Method Definition Index: 44634
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateManager_InternalUnRegisterTextElementForGraphicRebuild_m9E12886C94B95F5EF2F4DE0F32C8CD9C4A597198 (TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2* __this, TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___0_element, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2347,29 +2347,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateManager_InternalUnRegisterText
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:225>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:225>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = ___0_element;
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = Object_GetInstanceID_m554FF4073C9465F3835574CC084E68AAEEC6CC6A(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:227>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:227>
 		List_1_t2147F3FC8B4F16EE577CAF4E40F9D9A684B4CBBD* L_2 = __this->___m_GraphicRebuildQueue;
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_3 = ___0_element;
 		NullCheck(L_2);
 		bool L_4;
 		L_4 = List_1_Remove_m6ED5BAB986A55B3B55F49C302A15A8F0AA41A863(L_2, L_3, List_1_Remove_m6ED5BAB986A55B3B55F49C302A15A8F0AA41A863_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:228>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:228>
 		HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2* L_5 = __this->___m_GraphicQueueLookup;
 		int32_t L_6 = V_0;
 		NullCheck(L_5);
 		bool L_7;
 		L_7 = HashSet_1_Remove_mF4C8539185EBCAAE0803DF227E006B701007DD65(L_5, L_6, HashSet_1_Remove_mF4C8539185EBCAAE0803DF227E006B701007DD65_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:231>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:231>
 		return;
 	}
 }
-// Method Definition Index: 44529
+// Method Definition Index: 44635
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateManager_InternalUnRegisterTextElementForLayoutRebuild_mA216D19431D7C825E187253D6D68B5EDB3B8FCEF (TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2* __this, TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___0_element, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2381,29 +2381,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateManager_InternalUnRegisterText
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:235>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:235>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = ___0_element;
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = Object_GetInstanceID_m554FF4073C9465F3835574CC084E68AAEEC6CC6A(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:237>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:237>
 		List_1_t2147F3FC8B4F16EE577CAF4E40F9D9A684B4CBBD* L_2 = __this->___m_LayoutRebuildQueue;
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_3 = ___0_element;
 		NullCheck(L_2);
 		bool L_4;
 		L_4 = List_1_Remove_m6ED5BAB986A55B3B55F49C302A15A8F0AA41A863(L_2, L_3, List_1_Remove_m6ED5BAB986A55B3B55F49C302A15A8F0AA41A863_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:238>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:238>
 		HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2* L_5 = __this->___m_LayoutQueueLookup;
 		int32_t L_6 = V_0;
 		NullCheck(L_5);
 		bool L_7;
 		L_7 = HashSet_1_Remove_mF4C8539185EBCAAE0803DF227E006B701007DD65(L_5, L_6, HashSet_1_Remove_mF4C8539185EBCAAE0803DF227E006B701007DD65_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:239>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:239>
 		return;
 	}
 }
-// Method Definition Index: 44530
+// Method Definition Index: 44636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateManager_InternalUnRegisterTextObjectForUpdate_m2856DE05E46E68058986301E3DBEE17C8153B2E8 (TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2* __this, TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___0_textObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2415,29 +2415,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateManager_InternalUnRegisterText
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:243>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:243>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = ___0_textObject;
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = Object_GetInstanceID_m554FF4073C9465F3835574CC084E68AAEEC6CC6A(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:245>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:245>
 		List_1_t2147F3FC8B4F16EE577CAF4E40F9D9A684B4CBBD* L_2 = __this->___m_InternalUpdateQueue;
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_3 = ___0_textObject;
 		NullCheck(L_2);
 		bool L_4;
 		L_4 = List_1_Remove_m6ED5BAB986A55B3B55F49C302A15A8F0AA41A863(L_2, L_3, List_1_Remove_m6ED5BAB986A55B3B55F49C302A15A8F0AA41A863_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:246>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:246>
 		HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2* L_5 = __this->___m_InternalUpdateLookup;
 		int32_t L_6 = V_0;
 		NullCheck(L_5);
 		bool L_7;
 		L_7 = HashSet_1_Remove_mF4C8539185EBCAAE0803DF227E006B701007DD65(L_5, L_6, HashSet_1_Remove_mF4C8539185EBCAAE0803DF227E006B701007DD65_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:247>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:247>
 		return;
 	}
 }
-// Method Definition Index: 44531
+// Method Definition Index: 44637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateManager__cctor_mEF08DEAFD5C6000A5E8AF447E12B4D82D91DD634 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2452,27 +2452,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateManager__cctor_mEF08DEAFD5C600
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:27>
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&L_0), _stringLiteral996659EC38C0F61B23141AE82D150D258D3E21E6, NULL);
 		((TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2_StaticFields*)il2cpp_codegen_static_fields_for(TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2_il2cpp_TypeInfo_var))->___k_RegisterTextObjectForUpdateMarker = L_0;
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:28>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:28>
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_1;
 		memset((&L_1), 0, sizeof(L_1));
 		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&L_1), _stringLiteral5915D045A3DCD7E37FEF137C08A94B3BA0842B87, NULL);
 		((TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2_StaticFields*)il2cpp_codegen_static_fields_for(TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2_il2cpp_TypeInfo_var))->___k_RegisterTextElementForGraphicRebuildMarker = L_1;
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:29>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:29>
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&L_2), _stringLiteralECCA7D3167824BCF0D51CC29342CC6EE634437DF, NULL);
 		((TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2_StaticFields*)il2cpp_codegen_static_fields_for(TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2_il2cpp_TypeInfo_var))->___k_RegisterTextElementForCullingUpdateMarker = L_2;
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:30>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:30>
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_3;
 		memset((&L_3), 0, sizeof(L_3));
 		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&L_3), _stringLiteral86CFE05CA4FDAC032BC9802F156E675CAC753C8C, NULL);
 		((TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2_StaticFields*)il2cpp_codegen_static_fields_for(TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2_il2cpp_TypeInfo_var))->___k_UnregisterTextObjectForUpdateMarker = L_3;
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateManager.cs:31>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateManager.cs:31>
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_4;
 		memset((&L_4), 0, sizeof(L_4));
 		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&L_4), _stringLiteral7322B70C8ED55C917FB0AF74C8A7685589D953E2, NULL);
@@ -2488,7 +2488,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateManager__cctor_mEF08DEAFD5C600
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 44532
+// Method Definition Index: 44638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TMP_UpdateRegistry_t3F736F6AF07215FFC11BAFFAB576AFFE4F0C85F4* TMP_UpdateRegistry_get_instance_m6DDAF8DA224196A7AC60D0F1FF65752D6C03548A (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2498,7 +2498,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TMP_UpdateRegistry_t3F736F6AF07215FFC11BAFFAB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:33>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:33>
 		TMP_UpdateRegistry_t3F736F6AF07215FFC11BAFFAB576AFFE4F0C85F4* L_0 = ((TMP_UpdateRegistry_t3F736F6AF07215FFC11BAFFAB576AFFE4F0C85F4_StaticFields*)il2cpp_codegen_static_fields_for(TMP_UpdateRegistry_t3F736F6AF07215FFC11BAFFAB576AFFE4F0C85F4_il2cpp_TypeInfo_var))->___s_Instance;
 		if (L_0)
 		{
@@ -2506,7 +2506,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TMP_UpdateRegistry_t3F736F6AF07215FFC11BAFFAB
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:34>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:34>
 		TMP_UpdateRegistry_t3F736F6AF07215FFC11BAFFAB576AFFE4F0C85F4* L_1 = (TMP_UpdateRegistry_t3F736F6AF07215FFC11BAFFAB576AFFE4F0C85F4*)il2cpp_codegen_object_new(TMP_UpdateRegistry_t3F736F6AF07215FFC11BAFFAB576AFFE4F0C85F4_il2cpp_TypeInfo_var);
 		TMP_UpdateRegistry__ctor_mAD466DAAF6A8867F7D24D9B00AD6D5E113D2649E(L_1, NULL);
 		((TMP_UpdateRegistry_t3F736F6AF07215FFC11BAFFAB576AFFE4F0C85F4_StaticFields*)il2cpp_codegen_static_fields_for(TMP_UpdateRegistry_t3F736F6AF07215FFC11BAFFAB576AFFE4F0C85F4_il2cpp_TypeInfo_var))->___s_Instance = L_1;
@@ -2515,12 +2515,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TMP_UpdateRegistry_t3F736F6AF07215FFC11BAFFAB
 
 IL_0011:
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:35>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:35>
 		TMP_UpdateRegistry_t3F736F6AF07215FFC11BAFFAB576AFFE4F0C85F4* L_2 = ((TMP_UpdateRegistry_t3F736F6AF07215FFC11BAFFAB576AFFE4F0C85F4_StaticFields*)il2cpp_codegen_static_fields_for(TMP_UpdateRegistry_t3F736F6AF07215FFC11BAFFAB576AFFE4F0C85F4_il2cpp_TypeInfo_var))->___s_Instance;
 		return L_2;
 	}
 }
-// Method Definition Index: 44533
+// Method Definition Index: 44639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateRegistry__ctor_mAD466DAAF6A8867F7D24D9B00AD6D5E113D2649E (TMP_UpdateRegistry_t3F736F6AF07215FFC11BAFFAB576AFFE4F0C85F4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2535,52 +2535,52 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateRegistry__ctor_mAD466DAAF6A886
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:17>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:17>
 		List_1_t02DF1539DF01B1631C7DD0DE0AD7ACE8839CB2D1* L_0 = (List_1_t02DF1539DF01B1631C7DD0DE0AD7ACE8839CB2D1*)il2cpp_codegen_object_new(List_1_t02DF1539DF01B1631C7DD0DE0AD7ACE8839CB2D1_il2cpp_TypeInfo_var);
 		List_1__ctor_m8A505118A7178D5C9ADB2985680B732B4CCCAD0A(L_0, List_1__ctor_m8A505118A7178D5C9ADB2985680B732B4CCCAD0A_RuntimeMethod_var);
 		__this->___m_LayoutRebuildQueue = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_LayoutRebuildQueue), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:18>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:18>
 		HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2* L_1 = (HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2*)il2cpp_codegen_object_new(HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2_il2cpp_TypeInfo_var);
 		HashSet_1__ctor_m90EA29D74B137C5317CDC485AA1D799F0B6726FF(L_1, HashSet_1__ctor_m90EA29D74B137C5317CDC485AA1D799F0B6726FF_RuntimeMethod_var);
 		__this->___m_LayoutQueueLookup = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_LayoutQueueLookup), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:20>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:20>
 		List_1_t02DF1539DF01B1631C7DD0DE0AD7ACE8839CB2D1* L_2 = (List_1_t02DF1539DF01B1631C7DD0DE0AD7ACE8839CB2D1*)il2cpp_codegen_object_new(List_1_t02DF1539DF01B1631C7DD0DE0AD7ACE8839CB2D1_il2cpp_TypeInfo_var);
 		List_1__ctor_m8A505118A7178D5C9ADB2985680B732B4CCCAD0A(L_2, List_1__ctor_m8A505118A7178D5C9ADB2985680B732B4CCCAD0A_RuntimeMethod_var);
 		__this->___m_GraphicRebuildQueue = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_GraphicRebuildQueue), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:21>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:21>
 		HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2* L_3 = (HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2*)il2cpp_codegen_object_new(HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2_il2cpp_TypeInfo_var);
 		HashSet_1__ctor_m90EA29D74B137C5317CDC485AA1D799F0B6726FF(L_3, HashSet_1__ctor_m90EA29D74B137C5317CDC485AA1D799F0B6726FF_RuntimeMethod_var);
 		__this->___m_GraphicQueueLookup = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_GraphicQueueLookup), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:43>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:43>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:46>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:46>
 		WillRenderCanvases_tA4A6E66DBA797DCB45B995DBA449A9D1D80D0FBC* L_4 = (WillRenderCanvases_tA4A6E66DBA797DCB45B995DBA449A9D1D80D0FBC*)il2cpp_codegen_object_new(WillRenderCanvases_tA4A6E66DBA797DCB45B995DBA449A9D1D80D0FBC_il2cpp_TypeInfo_var);
 		WillRenderCanvases__ctor_mD8174C0964F8864D65270FFCAF275BD0BAC8DCF3(L_4, __this, (intptr_t)((void*)TMP_UpdateRegistry_PerformUpdateForCanvasRendererObjects_m0C118FBD3B2ADDD2FE9E40136F45D38D5C8975B9_RuntimeMethod_var), NULL);
 		Canvas_add_willRenderCanvases_m687D781C0082C147C4E9C2F5A82C59A696129E74(L_4, NULL);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:47>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:47>
 		return;
 	}
 }
-// Method Definition Index: 44534
+// Method Definition Index: 44640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateRegistry_RegisterCanvasElementForLayoutRebuild_mA9F9146A5AC0DBAB51A11A85026673AB0362BD11 (RuntimeObject* ___0_element, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:56>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:56>
 		TMP_UpdateRegistry_t3F736F6AF07215FFC11BAFFAB576AFFE4F0C85F4* L_0;
 		L_0 = TMP_UpdateRegistry_get_instance_m6DDAF8DA224196A7AC60D0F1FF65752D6C03548A(NULL);
 		RuntimeObject* L_1 = ___0_element;
 		NullCheck(L_0);
 		bool L_2;
 		L_2 = TMP_UpdateRegistry_InternalRegisterCanvasElementForLayoutRebuild_mD0B965C049EBEB2E71B2BC8D2C7F16ECD47F0E53(L_0, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:57>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:57>
 		return;
 	}
 }
-// Method Definition Index: 44535
+// Method Definition Index: 44641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TMP_UpdateRegistry_InternalRegisterCanvasElementForLayoutRebuild_mD0B965C049EBEB2E71B2BC8D2C7F16ECD47F0E53 (TMP_UpdateRegistry_t3F736F6AF07215FFC11BAFFAB576AFFE4F0C85F4* __this, RuntimeObject* ___0_element, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2594,13 +2594,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TMP_UpdateRegistry_InternalRegisterCanva
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:61>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:61>
 		RuntimeObject* L_0 = ___0_element;
 		NullCheck(((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)IsInstClass((RuntimeObject*)L_0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var)));
 		int32_t L_1;
 		L_1 = Object_GetInstanceID_m554FF4073C9465F3835574CC084E68AAEEC6CC6A(((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)IsInstClass((RuntimeObject*)L_0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var)), NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:63>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:63>
 		HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2* L_2 = __this->___m_LayoutQueueLookup;
 		int32_t L_3 = V_0;
 		NullCheck(L_2);
@@ -2612,43 +2612,43 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TMP_UpdateRegistry_InternalRegisterCanva
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:64>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:64>
 		return (bool)0;
 	}
 
 IL_001c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:66>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:66>
 		HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2* L_5 = __this->___m_LayoutQueueLookup;
 		int32_t L_6 = V_0;
 		NullCheck(L_5);
 		bool L_7;
 		L_7 = HashSet_1_Add_m9B0DD9902395EE95D3DC522264BE1EBBBD3513EB(L_5, L_6, HashSet_1_Add_m9B0DD9902395EE95D3DC522264BE1EBBBD3513EB_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:67>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:67>
 		List_1_t02DF1539DF01B1631C7DD0DE0AD7ACE8839CB2D1* L_8 = __this->___m_LayoutRebuildQueue;
 		RuntimeObject* L_9 = ___0_element;
 		NullCheck(L_8);
 		List_1_Add_m0CC3C8873AF63F66DA03C8231852DA0C91B9106F_inline(L_8, L_9, List_1_Add_m0CC3C8873AF63F66DA03C8231852DA0C91B9106F_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:69>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:69>
 		return (bool)1;
 	}
 }
-// Method Definition Index: 44536
+// Method Definition Index: 44642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateRegistry_RegisterCanvasElementForGraphicRebuild_mB7AAD68EA73E63195616E956AB75DB961228DCD2 (RuntimeObject* ___0_element, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:79>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:79>
 		TMP_UpdateRegistry_t3F736F6AF07215FFC11BAFFAB576AFFE4F0C85F4* L_0;
 		L_0 = TMP_UpdateRegistry_get_instance_m6DDAF8DA224196A7AC60D0F1FF65752D6C03548A(NULL);
 		RuntimeObject* L_1 = ___0_element;
 		NullCheck(L_0);
 		bool L_2;
 		L_2 = TMP_UpdateRegistry_InternalRegisterCanvasElementForGraphicRebuild_m3D71D7AB720191114A3CAD60899ED945D8614F3A(L_0, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:80>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:80>
 		return;
 	}
 }
-// Method Definition Index: 44537
+// Method Definition Index: 44643
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TMP_UpdateRegistry_InternalRegisterCanvasElementForGraphicRebuild_m3D71D7AB720191114A3CAD60899ED945D8614F3A (TMP_UpdateRegistry_t3F736F6AF07215FFC11BAFFAB576AFFE4F0C85F4* __this, RuntimeObject* ___0_element, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2662,13 +2662,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TMP_UpdateRegistry_InternalRegisterCanva
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:84>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:84>
 		RuntimeObject* L_0 = ___0_element;
 		NullCheck(((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)IsInstClass((RuntimeObject*)L_0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var)));
 		int32_t L_1;
 		L_1 = Object_GetInstanceID_m554FF4073C9465F3835574CC084E68AAEEC6CC6A(((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)IsInstClass((RuntimeObject*)L_0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var)), NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:86>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:86>
 		HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2* L_2 = __this->___m_GraphicQueueLookup;
 		int32_t L_3 = V_0;
 		NullCheck(L_2);
@@ -2680,28 +2680,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TMP_UpdateRegistry_InternalRegisterCanva
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:87>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:87>
 		return (bool)0;
 	}
 
 IL_001c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:89>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:89>
 		HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2* L_5 = __this->___m_GraphicQueueLookup;
 		int32_t L_6 = V_0;
 		NullCheck(L_5);
 		bool L_7;
 		L_7 = HashSet_1_Add_m9B0DD9902395EE95D3DC522264BE1EBBBD3513EB(L_5, L_6, HashSet_1_Add_m9B0DD9902395EE95D3DC522264BE1EBBBD3513EB_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:90>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:90>
 		List_1_t02DF1539DF01B1631C7DD0DE0AD7ACE8839CB2D1* L_8 = __this->___m_GraphicRebuildQueue;
 		RuntimeObject* L_9 = ___0_element;
 		NullCheck(L_8);
 		List_1_Add_m0CC3C8873AF63F66DA03C8231852DA0C91B9106F_inline(L_8, L_9, List_1_Add_m0CC3C8873AF63F66DA03C8231852DA0C91B9106F_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:92>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:92>
 		return (bool)1;
 	}
 }
-// Method Definition Index: 44538
+// Method Definition Index: 44644
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateRegistry_PerformUpdateForCanvasRendererObjects_m0C118FBD3B2ADDD2FE9E40136F45D38D5C8975B9 (TMP_UpdateRegistry_t3F736F6AF07215FFC11BAFFAB576AFFE4F0C85F4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2717,14 +2717,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateRegistry_PerformUpdateForCanva
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:105>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:105>
 		V_0 = 0;
 		goto IL_001e;
 	}
 
 IL_0004:
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:107>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:107>
 		TMP_UpdateRegistry_t3F736F6AF07215FFC11BAFFAB576AFFE4F0C85F4* L_0;
 		L_0 = TMP_UpdateRegistry_get_instance_m6DDAF8DA224196A7AC60D0F1FF65752D6C03548A(NULL);
 		NullCheck(L_0);
@@ -2733,17 +2733,17 @@ IL_0004:
 		NullCheck(L_1);
 		RuntimeObject* L_3;
 		L_3 = List_1_get_Item_mEC330D8CC5421C036D96DCB2D444A6DE4591062F(L_1, L_2, List_1_get_Item_mEC330D8CC5421C036D96DCB2D444A6DE4591062F_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:109>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:109>
 		NullCheck(L_3);
 		InterfaceActionInvoker1< int32_t >::Invoke(0, ICanvasElement_t7F0ABB1280486B82E3267F9C26130FD4AAACAE91_il2cpp_TypeInfo_var, L_3, 0);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:105>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:105>
 		int32_t L_4 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_4, 1));
 	}
 
 IL_001e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:105>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:105>
 		int32_t L_5 = V_0;
 		List_1_t02DF1539DF01B1631C7DD0DE0AD7ACE8839CB2D1* L_6 = __this->___m_LayoutRebuildQueue;
 		NullCheck(L_6);
@@ -2755,7 +2755,7 @@ IL_001e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:112>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:112>
 		List_1_t02DF1539DF01B1631C7DD0DE0AD7ACE8839CB2D1* L_8 = __this->___m_LayoutRebuildQueue;
 		NullCheck(L_8);
 		int32_t L_9;
@@ -2766,11 +2766,11 @@ IL_001e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:114>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:114>
 		List_1_t02DF1539DF01B1631C7DD0DE0AD7ACE8839CB2D1* L_10 = __this->___m_LayoutRebuildQueue;
 		NullCheck(L_10);
 		List_1_Clear_mA9EB78E313F046C500325DEDE20DDF7C6F15CCBB_inline(L_10, List_1_Clear_mA9EB78E313F046C500325DEDE20DDF7C6F15CCBB_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:115>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:115>
 		HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2* L_11 = __this->___m_LayoutQueueLookup;
 		NullCheck(L_11);
 		HashSet_1_Clear_m88C3BA6617F6667126635140414D44D76C42AE92(L_11, HashSet_1_Clear_m88C3BA6617F6667126635140414D44D76C42AE92_RuntimeMethod_var);
@@ -2778,14 +2778,14 @@ IL_001e:
 
 IL_0050:
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:122>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:122>
 		V_1 = 0;
 		goto IL_006e;
 	}
 
 IL_0054:
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:124>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:124>
 		TMP_UpdateRegistry_t3F736F6AF07215FFC11BAFFAB576AFFE4F0C85F4* L_12;
 		L_12 = TMP_UpdateRegistry_get_instance_m6DDAF8DA224196A7AC60D0F1FF65752D6C03548A(NULL);
 		NullCheck(L_12);
@@ -2794,17 +2794,17 @@ IL_0054:
 		NullCheck(L_13);
 		RuntimeObject* L_15;
 		L_15 = List_1_get_Item_mEC330D8CC5421C036D96DCB2D444A6DE4591062F(L_13, L_14, List_1_get_Item_mEC330D8CC5421C036D96DCB2D444A6DE4591062F_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:126>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:126>
 		NullCheck(L_15);
 		InterfaceActionInvoker1< int32_t >::Invoke(0, ICanvasElement_t7F0ABB1280486B82E3267F9C26130FD4AAACAE91_il2cpp_TypeInfo_var, L_15, 3);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:122>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:122>
 		int32_t L_16 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_16, 1));
 	}
 
 IL_006e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:122>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:122>
 		int32_t L_17 = V_1;
 		List_1_t02DF1539DF01B1631C7DD0DE0AD7ACE8839CB2D1* L_18 = __this->___m_GraphicRebuildQueue;
 		NullCheck(L_18);
@@ -2816,7 +2816,7 @@ IL_006e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:130>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:130>
 		List_1_t02DF1539DF01B1631C7DD0DE0AD7ACE8839CB2D1* L_20 = __this->___m_GraphicRebuildQueue;
 		NullCheck(L_20);
 		int32_t L_21;
@@ -2827,11 +2827,11 @@ IL_006e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:132>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:132>
 		List_1_t02DF1539DF01B1631C7DD0DE0AD7ACE8839CB2D1* L_22 = __this->___m_GraphicRebuildQueue;
 		NullCheck(L_22);
 		List_1_Clear_mA9EB78E313F046C500325DEDE20DDF7C6F15CCBB_inline(L_22, List_1_Clear_mA9EB78E313F046C500325DEDE20DDF7C6F15CCBB_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:133>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:133>
 		HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2* L_23 = __this->___m_GraphicQueueLookup;
 		NullCheck(L_23);
 		HashSet_1_Clear_m88C3BA6617F6667126635140414D44D76C42AE92(L_23, HashSet_1_Clear_m88C3BA6617F6667126635140414D44D76C42AE92_RuntimeMethod_var);
@@ -2839,11 +2839,11 @@ IL_006e:
 
 IL_00a0:
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:135>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:135>
 		return;
 	}
 }
-// Method Definition Index: 44539
+// Method Definition Index: 44645
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateRegistry_PerformUpdateForMeshRendererObjects_mA5D3656421524B3258494141D9A73D3A5EA49D4E (TMP_UpdateRegistry_t3F736F6AF07215FFC11BAFFAB576AFFE4F0C85F4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2854,34 +2854,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateRegistry_PerformUpdateForMeshR
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:143>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:143>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralBD9676747DCD99A0578C5B0B4D09EA47A139DA4B, NULL);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:144>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:144>
 		return;
 	}
 }
-// Method Definition Index: 44540
+// Method Definition Index: 44646
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateRegistry_UnRegisterCanvasElementForRebuild_m7ADDF5C250DDEBBD803615D0B62A0B2A25BF08C5 (RuntimeObject* ___0_element, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:153>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:153>
 		TMP_UpdateRegistry_t3F736F6AF07215FFC11BAFFAB576AFFE4F0C85F4* L_0;
 		L_0 = TMP_UpdateRegistry_get_instance_m6DDAF8DA224196A7AC60D0F1FF65752D6C03548A(NULL);
 		RuntimeObject* L_1 = ___0_element;
 		NullCheck(L_0);
 		TMP_UpdateRegistry_InternalUnRegisterCanvasElementForLayoutRebuild_mA9A8EC29FC4587BAB47D3A48725299C9F3251BEC(L_0, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:154>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:154>
 		TMP_UpdateRegistry_t3F736F6AF07215FFC11BAFFAB576AFFE4F0C85F4* L_2;
 		L_2 = TMP_UpdateRegistry_get_instance_m6DDAF8DA224196A7AC60D0F1FF65752D6C03548A(NULL);
 		RuntimeObject* L_3 = ___0_element;
 		NullCheck(L_2);
 		TMP_UpdateRegistry_InternalUnRegisterCanvasElementForGraphicRebuild_mA2012BE5D69C00E5865F9C4428F9D85A39B4331A(L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:155>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:155>
 		return;
 	}
 }
-// Method Definition Index: 44541
+// Method Definition Index: 44647
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateRegistry_InternalUnRegisterCanvasElementForLayoutRebuild_mA9A8EC29FC4587BAB47D3A48725299C9F3251BEC (TMP_UpdateRegistry_t3F736F6AF07215FFC11BAFFAB576AFFE4F0C85F4* __this, RuntimeObject* ___0_element, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2894,13 +2894,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateRegistry_InternalUnRegisterCan
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:160>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:160>
 		RuntimeObject* L_0 = ___0_element;
 		NullCheck(((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)IsInstClass((RuntimeObject*)L_0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var)));
 		int32_t L_1;
 		L_1 = Object_GetInstanceID_m554FF4073C9465F3835574CC084E68AAEEC6CC6A(((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)IsInstClass((RuntimeObject*)L_0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var)), NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:163>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:163>
 		TMP_UpdateRegistry_t3F736F6AF07215FFC11BAFFAB576AFFE4F0C85F4* L_2;
 		L_2 = TMP_UpdateRegistry_get_instance_m6DDAF8DA224196A7AC60D0F1FF65752D6C03548A(NULL);
 		NullCheck(L_2);
@@ -2909,17 +2909,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateRegistry_InternalUnRegisterCan
 		NullCheck(L_3);
 		bool L_5;
 		L_5 = List_1_Remove_m948E7372BBD151264569B8C3F67DE346CAE6CD7B(L_3, L_4, List_1_Remove_m948E7372BBD151264569B8C3F67DE346CAE6CD7B_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:164>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:164>
 		HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2* L_6 = __this->___m_GraphicQueueLookup;
 		int32_t L_7 = V_0;
 		NullCheck(L_6);
 		bool L_8;
 		L_8 = HashSet_1_Remove_mF4C8539185EBCAAE0803DF227E006B701007DD65(L_6, L_7, HashSet_1_Remove_mF4C8539185EBCAAE0803DF227E006B701007DD65_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:165>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:165>
 		return;
 	}
 }
-// Method Definition Index: 44542
+// Method Definition Index: 44648
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateRegistry_InternalUnRegisterCanvasElementForGraphicRebuild_mA2012BE5D69C00E5865F9C4428F9D85A39B4331A (TMP_UpdateRegistry_t3F736F6AF07215FFC11BAFFAB576AFFE4F0C85F4* __this, RuntimeObject* ___0_element, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2932,13 +2932,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateRegistry_InternalUnRegisterCan
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:170>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:170>
 		RuntimeObject* L_0 = ___0_element;
 		NullCheck(((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)IsInstClass((RuntimeObject*)L_0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var)));
 		int32_t L_1;
 		L_1 = Object_GetInstanceID_m554FF4073C9465F3835574CC084E68AAEEC6CC6A(((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)IsInstClass((RuntimeObject*)L_0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var)), NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:173>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:173>
 		TMP_UpdateRegistry_t3F736F6AF07215FFC11BAFFAB576AFFE4F0C85F4* L_2;
 		L_2 = TMP_UpdateRegistry_get_instance_m6DDAF8DA224196A7AC60D0F1FF65752D6C03548A(NULL);
 		NullCheck(L_2);
@@ -2947,13 +2947,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateRegistry_InternalUnRegisterCan
 		NullCheck(L_3);
 		bool L_5;
 		L_5 = List_1_Remove_m948E7372BBD151264569B8C3F67DE346CAE6CD7B(L_3, L_4, List_1_Remove_m948E7372BBD151264569B8C3F67DE346CAE6CD7B_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:174>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:174>
 		HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2* L_6 = __this->___m_LayoutQueueLookup;
 		int32_t L_7 = V_0;
 		NullCheck(L_6);
 		bool L_8;
 		L_8 = HashSet_1_Remove_mF4C8539185EBCAAE0803DF227E006B701007DD65(L_6, L_7, HashSet_1_Remove_mF4C8539185EBCAAE0803DF227E006B701007DD65_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_UpdateRegistery.cs:175>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_UpdateRegistery.cs:175>
 		return;
 	}
 }
@@ -2973,7 +2973,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_UpdateRegistry_InternalUnRegisterCan
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 44543
+// Method Definition Index: 44649
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TexturePacker_JsonArray__ctor_mA7347C642D7784A142849ED55983E779C997D853 (TexturePacker_JsonArray_tA532E720E5D2DFB9915DC17B15B654708DFC7FA7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2989,7 +2989,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TexturePacker_JsonArray__ctor_mA7347C642
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 44544
+// Method Definition Index: 44650
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SpriteFrame_ToString_m74A323FCED2C3503F98BEB090A2EF8FE20B53E0C (SpriteFrame_t0AD908328349FA1B90D428FEBAAD7B480B6D59F4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3004,7 +3004,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SpriteFrame_ToString_m74A323FCED2C3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_SpriteAssetImportFormats.cs:21>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_SpriteAssetImportFormats.cs:21>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)8);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = L_0;
 		NullCheck(L_1);
@@ -3044,7 +3044,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SpriteFrame_ToString_m74A323FCED2C3
 		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(7), (String_t*)L_16);
 		String_t* L_17;
 		L_17 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_14, NULL);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_SpriteAssetImportFormats.cs:22>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_SpriteAssetImportFormats.cs:22>
 		return L_17;
 	}
 }
@@ -3065,7 +3065,7 @@ IL2CPP_EXTERN_C  String_t* SpriteFrame_ToString_m74A323FCED2C3503F98BEB090A2EF8F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 44545
+// Method Definition Index: 44651
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SpriteSize_ToString_mED85E2303923FBF7A05A012E064705856A4CC2DB (SpriteSize_tF99BB7603AE2E6587E6184ACAB6CD209FE6569B3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3077,7 +3077,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SpriteSize_ToString_mED85E2303923FB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_SpriteAssetImportFormats.cs:34>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_SpriteAssetImportFormats.cs:34>
 		float* L_0 = (float*)(&__this->___w);
 		String_t* L_1;
 		L_1 = Single_ToString_m3F2C4433B6ADFA5ED8E3F14ED19CD23014E5179D(L_0, _stringLiteral36967F33A1482179FE45CD9CCC3AE6241AA43F85, NULL);
@@ -3086,7 +3086,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SpriteSize_ToString_mED85E2303923FB
 		L_3 = Single_ToString_m3F2C4433B6ADFA5ED8E3F14ED19CD23014E5179D(L_2, _stringLiteral36967F33A1482179FE45CD9CCC3AE6241AA43F85, NULL);
 		String_t* L_4;
 		L_4 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteral4ECA4ACF6B856BD63138D010DEA72B85D6666ABB, L_1, _stringLiteral4807BC6986CBA743F29DC7F522B791C3E1B44BEA, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_SpriteAssetImportFormats.cs:35>
+		//<source_info:./Library/PackageCache/com.unity.textmeshpro@3.0.7/Scripts/Runtime/TMP_SpriteAssetImportFormats.cs:35>
 		return L_4;
 	}
 }
@@ -3293,7 +3293,7 @@ IL2CPP_EXTERN_C void Meta_tCCCCDDA9D2E4CBAC052062C6FBE9029798702B47_marshal_com_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 44546
+// Method Definition Index: 44652
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteDataObject__ctor_m89C520B855B17B46E4B43024C4941688A276CBE1 (SpriteDataObject_t9D25639DD8A0581779E5EEBBD10DB66EB1A1978F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3336,7 +3336,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteDataObject__ctor_m89C520B855B17B46
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 44595
+// Method Definition Index: 44701
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline (ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD* __this, String_t* ___0_name, const RuntimeMethod* method) 
 {
 	{
@@ -3347,7 +3347,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerMarker__ctor_mDD68B0
 		return;
 	}
 }
-// Method Definition Index: 11773
+// Method Definition Index: 11780
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
 {
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
@@ -3385,7 +3385,7 @@ IL_0034:
 		return;
 	}
 }
-// Method Definition Index: 11762
+// Method Definition Index: 11769
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3393,7 +3393,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C
 		return L_0;
 	}
 }
-// Method Definition Index: 11781
+// Method Definition Index: 11788
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
