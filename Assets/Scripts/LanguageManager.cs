@@ -22,7 +22,12 @@ public class LanguageManager:MonoBehaviour
         else
             Destroy(gameObject);
         DontDestroyOnLoad(gameObject);
+#if UNITY_ANDROID || UNITY_IOS
         haveAds= PlayerPrefs.GetString("Ads", "true") == "true" ? true : false;
+#else
+        // Desktop builds such as Steam are paid up front, so they never show ads.
+        haveAds= false;
+#endif
     }
 
     public void BuyNoAds()

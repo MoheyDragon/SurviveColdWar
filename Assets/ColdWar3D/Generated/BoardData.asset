@@ -1,0 +1,5334 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e489c1f65a475b42875660849a1dd09, type: 3}
+  m_Name: BoardData
+  m_EditorClassIdentifier: Assembly-CSharp::BoardData
+  hexRadius: 0.5
+  boardSize: {x: 51.961525, y: 30.299776}
+  land:
+  - position: {x: 6.928203, y: 6.1498876}
+    redThreshold: 0.000805153
+    elevation: 0.44794455
+  - position: {x: 6.0621753, y: 6.1498876}
+    redThreshold: 0.002415459
+    elevation: 0.44871023
+  - position: {x: 7.7942276, y: 6.1498876}
+    redThreshold: 0.0040257648
+    elevation: 0.46919206
+  - position: {x: 7.361215, y: 5.399888}
+    redThreshold: 0.005636071
+    elevation: 0.4599058
+  - position: {x: 16.454483, y: 3.1498883}
+    redThreshold: 0.007246377
+    elevation: 0.25977215
+  - position: {x: 6.4951906, y: 5.399888}
+    redThreshold: 0.008856683
+    elevation: 0.45237213
+  - position: {x: 16.021471, y: 2.3998876}
+    redThreshold: 0.010466989
+    elevation: 0.27487493
+  - position: {x: 15.588455, y: 3.1498883}
+    redThreshold: 0.012077294
+    elevation: 0.23186746
+  - position: {x: 16.887491, y: 2.3998876}
+    redThreshold: 0.0136876
+    elevation: 0.32345125
+  - position: {x: 8.227242, y: 5.399888}
+    redThreshold: 0.0152979065
+    elevation: 0.4779629
+  - position: {x: 8.660253, y: 6.1498876}
+    redThreshold: 0.016908212
+    elevation: 0.4897325
+  - position: {x: 7.361215, y: 6.899888}
+    redThreshold: 0.018518519
+    elevation: 0.4471823
+  - position: {x: 6.4951906, y: 6.899888}
+    redThreshold: 0.020128824
+    elevation: 0.41641948
+  - position: {x: 8.227242, y: 6.899888}
+    redThreshold: 0.02173913
+    elevation: 0.49220273
+  - position: {x: 15.155446, y: 2.3998876}
+    redThreshold: 0.023349436
+    elevation: 0.23611546
+  - position: {x: 9.093265, y: 5.399888}
+    redThreshold: 0.024959743
+    elevation: 0.48426297
+  - position: {x: 9.526279, y: 6.1498876}
+    redThreshold: 0.026570048
+    elevation: 0.48718393
+  - position: {x: 9.093265, y: 6.899888}
+    redThreshold: 0.028180353
+    elevation: 0.52129424
+  - position: {x: 14.72243, y: 3.1498883}
+    redThreshold: 0.02979066
+    elevation: 0.22336502
+  - position: {x: 17.320507, y: 3.1498883}
+    redThreshold: 0.031400967
+    elevation: 0.28631097
+  - position: {x: 5.629163, y: 5.399888}
+    redThreshold: 0.033011273
+    elevation: 0.47250852
+  - position: {x: 7.7942276, y: 4.6498885}
+    redThreshold: 0.034621578
+    elevation: 0.46932676
+  - position: {x: 9.959289, y: 5.399888}
+    redThreshold: 0.036231883
+    elevation: 0.46228835
+  - position: {x: 5.629163, y: 6.899888}
+    redThreshold: 0.03784219
+    elevation: 0.42314517
+  - position: {x: 9.959289, y: 6.899888}
+    redThreshold: 0.039452497
+    elevation: 0.512078
+  - position: {x: 10.392304, y: 6.1498876}
+    redThreshold: 0.041062802
+    elevation: 0.4512509
+  - position: {x: 16.021471, y: 3.8998878}
+    redThreshold: 0.042673107
+    elevation: 0.25361094
+  - position: {x: 7.7942276, y: 7.649888}
+    redThreshold: 0.044283412
+    elevation: 0.46959135
+  - position: {x: 8.660253, y: 4.6498885}
+    redThreshold: 0.04589372
+    elevation: 0.49428168
+  - position: {x: 5.196151, y: 6.1498876}
+    redThreshold: 0.047504026
+    elevation: 0.48280153
+  - position: {x: 8.660253, y: 7.649888}
+    redThreshold: 0.04911433
+    elevation: 0.5327087
+  - position: {x: 6.928203, y: 4.6498885}
+    redThreshold: 0.050724637
+    elevation: 0.443625
+  - position: {x: 15.155446, y: 3.8998878}
+    redThreshold: 0.052334942
+    elevation: 0.24514613
+  - position: {x: 14.289418, y: 2.3998876}
+    redThreshold: 0.05394525
+    elevation: 0.23680314
+  - position: {x: 6.928203, y: 7.649888}
+    redThreshold: 0.055555556
+    elevation: 0.40563604
+  - position: {x: 13.856406, y: 3.1498883}
+    redThreshold: 0.05716586
+    elevation: 0.2543821
+  - position: {x: 9.526279, y: 7.649888}
+    redThreshold: 0.058776166
+    elevation: 0.560637
+  - position: {x: 9.526279, y: 4.6498885}
+    redThreshold: 0.060386475
+    elevation: 0.4948487
+  - position: {x: 10.825316, y: 6.899888}
+    redThreshold: 0.06199678
+    elevation: 0.46474546
+  - position: {x: 10.825316, y: 5.399888}
+    redThreshold: 0.06360708
+    elevation: 0.41218033
+  - position: {x: 11.258329, y: 6.1498876}
+    redThreshold: 0.06521739
+    elevation: 0.39547873
+  - position: {x: 16.887491, y: 3.8998878}
+    redThreshold: 0.0668277
+    elevation: 0.25930864
+  - position: {x: 14.289418, y: 3.8998878}
+    redThreshold: 0.068438
+    elevation: 0.2518549
+  - position: {x: 10.392304, y: 7.649888}
+    redThreshold: 0.07004831
+    elevation: 0.53745323
+  - position: {x: 10.392304, y: 4.6498885}
+    redThreshold: 0.07165862
+    elevation: 0.4601531
+  - position: {x: 6.0621753, y: 7.649888}
+    redThreshold: 0.07326892
+    elevation: 0.3755712
+  - position: {x: 11.691341, y: 6.899888}
+    redThreshold: 0.07487923
+    elevation: 0.41391727
+  - position: {x: 11.691341, y: 5.399888}
+    redThreshold: 0.07648953
+    elevation: 0.35873535
+  - position: {x: 12.124356, y: 6.1498876}
+    redThreshold: 0.07809984
+    elevation: 0.35836017
+  - position: {x: 13.423393, y: 2.3998876}
+    redThreshold: 0.07971015
+    elevation: 0.29008722
+  - position: {x: 11.258329, y: 7.649888}
+    redThreshold: 0.08132045
+    elevation: 0.4835156
+  - position: {x: 8.227242, y: 8.399888}
+    redThreshold: 0.08293076
+    elevation: 0.50057197
+  - position: {x: 9.093265, y: 8.399888}
+    redThreshold: 0.08454106
+    elevation: 0.5580225
+  - position: {x: 12.990378, y: 3.1498883}
+    redThreshold: 0.08615137
+    elevation: 0.32436597
+  - position: {x: 13.423393, y: 3.8998878}
+    redThreshold: 0.08776168
+    elevation: 0.28631574
+  - position: {x: 11.258329, y: 4.6498885}
+    redThreshold: 0.08937198
+    elevation: 0.40385368
+  - position: {x: 9.959289, y: 8.399888}
+    redThreshold: 0.09098229
+    elevation: 0.56924367
+  - position: {x: 7.361215, y: 8.399888}
+    redThreshold: 0.09259259
+    elevation: 0.4255041
+  - position: {x: 12.557365, y: 6.899888}
+    redThreshold: 0.0942029
+    elevation: 0.3995566
+  - position: {x: 12.124356, y: 7.649888}
+    redThreshold: 0.09581321
+    elevation: 0.44894958
+  - position: {x: 10.825316, y: 8.399888}
+    redThreshold: 0.09742351
+    elevation: 0.53324354
+  - position: {x: 15.588455, y: 1.649888}
+    redThreshold: 0.09903382
+    elevation: 0.2935859
+  - position: {x: 15.588455, y: 4.6498885}
+    redThreshold: 0.10064412
+    elevation: 0.30450487
+  - position: {x: 6.0621753, y: 4.6498885}
+    redThreshold: 0.10225443
+    elevation: 0.4411748
+  - position: {x: 14.72243, y: 4.6498885}
+    redThreshold: 0.10386474
+    elevation: 0.29823554
+  - position: {x: 14.72243, y: 1.649888}
+    redThreshold: 0.10547504
+    elevation: 0.2523788
+  - position: {x: 9.093265, y: 3.8998878}
+    redThreshold: 0.10708535
+    elevation: 0.5271616
+  - position: {x: 11.691341, y: 8.399888}
+    redThreshold: 0.10869565
+    elevation: 0.4909079
+  - position: {x: 9.959289, y: 3.8998878}
+    redThreshold: 0.11030596
+    elevation: 0.5199668
+  - position: {x: 13.856406, y: 4.6498885}
+    redThreshold: 0.11191627
+    elevation: 0.29604483
+  - position: {x: 12.557365, y: 3.8998878}
+    redThreshold: 0.11352657
+    elevation: 0.34536687
+  - position: {x: 8.227242, y: 3.8998878}
+    redThreshold: 0.11513688
+    elevation: 0.4944589
+  - position: {x: 6.4951906, y: 8.399888}
+    redThreshold: 0.116747186
+    elevation: 0.36993712
+  - position: {x: 12.990378, y: 7.649888}
+    redThreshold: 0.11835749
+    elevation: 0.45738986
+  - position: {x: 12.557365, y: 2.3998876}
+    redThreshold: 0.119967796
+    elevation: 0.3795744
+  - position: {x: 16.454483, y: 4.6498885}
+    redThreshold: 0.1215781
+    elevation: 0.2983649
+  - position: {x: 12.124356, y: 3.1498883}
+    redThreshold: 0.123188406
+    elevation: 0.41039318
+  - position: {x: 13.856406, y: 1.649888}
+    redThreshold: 0.124798715
+    elevation: 0.2625349
+  - position: {x: 10.825316, y: 3.8998878}
+    redThreshold: 0.12640902
+    elevation: 0.47307402
+  - position: {x: 12.557365, y: 8.399888}
+    redThreshold: 0.12801932
+    elevation: 0.48330975
+  - position: {x: 12.990378, y: 4.6498885}
+    redThreshold: 0.12962963
+    elevation: 0.31208864
+  - position: {x: 10.392304, y: 9.149888}
+    redThreshold: 0.13123994
+    elevation: 0.5355941
+  - position: {x: 5.196151, y: 7.649888}
+    redThreshold: 0.13285024
+    elevation: 0.39656755
+  - position: {x: 11.258329, y: 9.149888}
+    redThreshold: 0.13446055
+    elevation: 0.50579107
+  - position: {x: 17.75352, y: 3.8998878}
+    redThreshold: 0.13607085
+    elevation: 0.26109806
+  - position: {x: 4.7631383, y: 6.899888}
+    redThreshold: 0.13768116
+    elevation: 0.46887162
+  - position: {x: 11.691341, y: 3.8998878}
+    redThreshold: 0.13929147
+    elevation: 0.41250598
+  - position: {x: 13.423393, y: 8.399888}
+    redThreshold: 0.14090177
+    elevation: 0.51322985
+  - position: {x: 7.361215, y: 3.8998878}
+    redThreshold: 0.14251208
+    elevation: 0.44516635
+  - position: {x: 12.124356, y: 9.149888}
+    redThreshold: 0.14412238
+    elevation: 0.4937937
+  - position: {x: 12.990378, y: 1.649888}
+    redThreshold: 0.14573269
+    elevation: 0.3265074
+  - position: {x: 11.691341, y: 2.3998876}
+    redThreshold: 0.147343
+    elevation: 0.46890464
+  - position: {x: 12.124356, y: 4.6498885}
+    redThreshold: 0.1489533
+    elevation: 0.35031798
+  - position: {x: 11.258329, y: 3.1498883}
+    redThreshold: 0.15056361
+    elevation: 0.4837868
+  - position: {x: 12.990378, y: 9.149888}
+    redThreshold: 0.1521739
+    elevation: 0.51602805
+  - position: {x: 12.990378, y: 6.1498876}
+    redThreshold: 0.15378422
+    elevation: 0.36196825
+  - position: {x: 14.289418, y: 5.399888}
+    redThreshold: 0.15539452
+    elevation: 0.35678127
+  - position: {x: 12.557365, y: 5.399888}
+    redThreshold: 0.15700483
+    elevation: 0.329922
+  - position: {x: 15.155446, y: 5.399888}
+    redThreshold: 0.15861514
+    elevation: 0.37986258
+  - position: {x: 5.629163, y: 8.399888}
+    redThreshold: 0.16022544
+    elevation: 0.36133233
+  - position: {x: 13.423393, y: 5.399888}
+    redThreshold: 0.16183574
+    elevation: 0.33293107
+  - position: {x: 17.320507, y: 4.6498885}
+    redThreshold: 0.16344605
+    elevation: 0.27608448
+  - position: {x: 13.423393, y: 6.899888}
+    redThreshold: 0.16505636
+    elevation: 0.427024
+  - position: {x: 13.856406, y: 9.149888}
+    redThreshold: 0.16666667
+    elevation: 0.55701685
+  - position: {x: 16.454483, y: 1.649888}
+    redThreshold: 0.16827697
+    elevation: 0.3567942
+  - position: {x: 12.124356, y: 1.649888}
+    redThreshold: 0.16988727
+    elevation: 0.4159122
+  - position: {x: 16.021471, y: 5.399888}
+    redThreshold: 0.17149758
+    elevation: 0.38040072
+  - position: {x: 12.557365, y: 9.899888}
+    redThreshold: 0.17310789
+    elevation: 0.5055591
+  - position: {x: 10.392304, y: 3.1498883}
+    redThreshold: 0.1747182
+    elevation: 0.5401102
+  - position: {x: 10.825316, y: 2.3998876}
+    redThreshold: 0.1763285
+    elevation: 0.5339676
+  - position: {x: 13.423393, y: 9.899888}
+    redThreshold: 0.1779388
+    elevation: 0.54694784
+  - position: {x: 9.526279, y: 3.1498883}
+    redThreshold: 0.17954911
+    elevation: 0.5636912
+  - position: {x: 13.856406, y: 7.649888}
+    redThreshold: 0.18115942
+    elevation: 0.4990657
+  - position: {x: 14.289418, y: 9.899888}
+    redThreshold: 0.18276973
+    elevation: 0.57962626
+  - position: {x: 11.258329, y: 1.649888}
+    redThreshold: 0.18438004
+    elevation: 0.49260366
+  - position: {x: 8.660253, y: 3.1498883}
+    redThreshold: 0.18599033
+    elevation: 0.53514105
+  - position: {x: 16.887491, y: 5.399888}
+    redThreshold: 0.18760064
+    elevation: 0.3498481
+  - position: {x: 13.856406, y: 6.1498876}
+    redThreshold: 0.18921095
+    elevation: 0.3981383
+  - position: {x: 14.289418, y: 8.399888}
+    redThreshold: 0.19082126
+    elevation: 0.55914915
+  - position: {x: 14.72243, y: 6.1498876}
+    redThreshold: 0.19243157
+    elevation: 0.44120908
+  - position: {x: 15.588455, y: 6.1498876}
+    redThreshold: 0.19404186
+    elevation: 0.462091
+  - position: {x: 10.392304, y: 1.649888}
+    redThreshold: 0.19565217
+    elevation: 0.54901254
+  - position: {x: 9.959289, y: 2.3998876}
+    redThreshold: 0.19726248
+    elevation: 0.5776452
+  - position: {x: 14.72243, y: 9.149888}
+    redThreshold: 0.19887279
+    elevation: 0.5902608
+  - position: {x: 13.423393, y: 0.89988834}
+    redThreshold: 0.2004831
+    elevation: 0.27623937
+  - position: {x: 12.557365, y: 11.399888}
+    redThreshold: 0.2020934
+    elevation: 0.51429665
+  - position: {x: 12.557365, y: 0.89988834}
+    redThreshold: 0.2037037
+    elevation: 0.33982122
+  - position: {x: 4.7631383, y: 8.399888}
+    redThreshold: 0.20531401
+    elevation: 0.40028292
+  - position: {x: 14.289418, y: 0.89988834}
+    redThreshold: 0.20692432
+    elevation: 0.2609855
+  - position: {x: 16.454483, y: 6.1498876}
+    redThreshold: 0.20853463
+    elevation: 0.44289762
+  - position: {x: 7.7942276, y: 3.1498883}
+    redThreshold: 0.21014492
+    elevation: 0.47053647
+  - position: {x: 11.691341, y: 0.89988834}
+    redThreshold: 0.21175523
+    elevation: 0.41790846
+  - position: {x: 18.186531, y: 3.1498883}
+    redThreshold: 0.21336554
+    elevation: 0.3183682
+  - position: {x: 14.289418, y: 6.899888}
+    redThreshold: 0.21497585
+    elevation: 0.47573128
+  - position: {x: 18.186531, y: 4.6498885}
+    redThreshold: 0.21658616
+    elevation: 0.2572654
+  - position: {x: 15.155446, y: 9.899888}
+    redThreshold: 0.21819645
+    elevation: 0.58298975
+  - position: {x: 17.75352, y: 5.399888}
+    redThreshold: 0.21980676
+    elevation: 0.30620304
+  - position: {x: 10.825316, y: 0.89988834}
+    redThreshold: 0.22141707
+    elevation: 0.48140308
+  - position: {x: 15.155446, y: 6.899888}
+    redThreshold: 0.22302738
+    elevation: 0.5145135
+  - position: {x: 4.3301263, y: 7.649888}
+    redThreshold: 0.22463769
+    elevation: 0.4511376
+  - position: {x: 9.526279, y: 1.649888}
+    redThreshold: 0.22624798
+    elevation: 0.57135606
+  - position: {x: 9.959289, y: 0.89988834}
+    redThreshold: 0.22785829
+    elevation: 0.52785605
+  - position: {x: 16.021471, y: 6.899888}
+    redThreshold: 0.2294686
+    elevation: 0.5169969
+  - position: {x: 17.320507, y: 6.1498876}
+    redThreshold: 0.23107891
+    elevation: 0.39205104
+  - position: {x: 14.72243, y: 7.649888}
+    redThreshold: 0.23268922
+    elevation: 0.5462217
+  - position: {x: 9.093265, y: 2.3998876}
+    redThreshold: 0.23429951
+    elevation: 0.57006013
+  - position: {x: 15.155446, y: 0.89988834}
+    redThreshold: 0.23590982
+    elevation: 0.30162877
+  - position: {x: 15.155446, y: 8.399888}
+    redThreshold: 0.23752013
+    elevation: 0.5917446
+  - position: {x: 4.7631383, y: 5.399888}
+    redThreshold: 0.23913044
+    elevation: 0.5214311
+  - position: {x: 17.75352, y: 2.3998876}
+    redThreshold: 0.24074075
+    elevation: 0.36954346
+  - position: {x: 16.887491, y: 6.899888}
+    redThreshold: 0.24235104
+    elevation: 0.47697625
+  - position: {x: 15.588455, y: 9.149888}
+    redThreshold: 0.24396135
+    elevation: 0.5941005
+  - position: {x: 15.588455, y: 7.649888}
+    redThreshold: 0.24557166
+    elevation: 0.5685125
+  - position: {x: 11.258329, y: 0.14988777}
+    redThreshold: 0.24718197
+    elevation: 0.39934936
+  - position: {x: 12.124356, y: 0.14988777}
+    redThreshold: 0.24879228
+    elevation: 0.33353585
+  - position: {x: 16.454483, y: 7.649888}
+    redThreshold: 0.25040257
+    elevation: 0.5481784
+  - position: {x: 18.619545, y: 3.8998878}
+    redThreshold: 0.25201288
+    elevation: 0.27811134
+  - position: {x: 9.526279, y: 0.14988777}
+    redThreshold: 0.2536232
+    elevation: 0.48970997
+  - position: {x: 18.186531, y: 6.1498876}
+    redThreshold: 0.2552335
+    elevation: 0.3395965
+  - position: {x: 8.227242, y: 2.3998876}
+    redThreshold: 0.2568438
+    elevation: 0.5109549
+  - position: {x: 6.928203, y: 3.1498883}
+    redThreshold: 0.2584541
+    elevation: 0.40482798
+  - position: {x: 12.990378, y: 0.14988777}
+    redThreshold: 0.26006442
+    elevation: 0.27432486
+  - position: {x: 18.619545, y: 5.399888}
+    redThreshold: 0.26167473
+    elevation: 0.27383047
+  - position: {x: 17.75352, y: 6.899888}
+    redThreshold: 0.263285
+    elevation: 0.41965234
+  - position: {x: 16.021471, y: 8.399888}
+    redThreshold: 0.26489532
+    elevation: 0.5884744
+  - position: {x: 17.320507, y: 7.649888}
+    redThreshold: 0.26650563
+    elevation: 0.49490952
+  - position: {x: 5.196151, y: 4.6498885}
+    redThreshold: 0.26811594
+    elevation: 0.47392505
+  - position: {x: 13.856406, y: 0.14988777}
+    redThreshold: 0.26972625
+    elevation: 0.25594375
+  - position: {x: 16.887491, y: 8.399888}
+    redThreshold: 0.27133656
+    elevation: 0.54626715
+  - position: {x: 8.660253, y: 0.14988777}
+    redThreshold: 0.27294686
+    elevation: 0.49016643
+  - position: {x: 9.093265, y: -0.6001128}
+    redThreshold: 0.27455717
+    elevation: 0.43480802
+  - position: {x: 18.619545, y: 6.899888}
+    redThreshold: 0.27616748
+    elevation: 0.37022907
+  - position: {x: 16.454483, y: 9.149888}
+    redThreshold: 0.2777778
+    elevation: 0.5619591
+  - position: {x: 18.186531, y: 7.649888}
+    redThreshold: 0.27938807
+    elevation: 0.43945602
+  - position: {x: 17.75352, y: 8.399888}
+    redThreshold: 0.28099838
+    elevation: 0.48889494
+  - position: {x: 19.052559, y: 4.6498885}
+    redThreshold: 0.2826087
+    elevation: 0.26030454
+  - position: {x: 19.052559, y: 6.1498876}
+    redThreshold: 0.284219
+    elevation: 0.30474693
+  - position: {x: 8.660253, y: 1.649888}
+    redThreshold: 0.2858293
+    elevation: 0.53969026
+  - position: {x: 11.691341, y: -0.6001128}
+    redThreshold: 0.2874396
+    elevation: 0.3116148
+  - position: {x: 17.320507, y: 9.149888}
+    redThreshold: 0.28904992
+    elevation: 0.5069119
+  - position: {x: 4.7631383, y: 11.399888}
+    redThreshold: 0.29066023
+    elevation: 0.5243885
+  - position: {x: 7.361215, y: 2.3998876}
+    redThreshold: 0.29227054
+    elevation: 0.4304269
+  - position: {x: 12.557365, y: -0.6001128}
+    redThreshold: 0.29388085
+    elevation: 0.26207212
+  - position: {x: 18.619545, y: 8.399888}
+    redThreshold: 0.29549113
+    elevation: 0.43945885
+  - position: {x: 19.052559, y: 7.649888}
+    redThreshold: 0.29710144
+    elevation: 0.40077424
+  - position: {x: 18.186531, y: 9.149888}
+    redThreshold: 0.29871175
+    elevation: 0.45145833
+  - position: {x: 16.021471, y: 0.89988834}
+    redThreshold: 0.30032206
+    elevation: 0.37406558
+  - position: {x: 19.485569, y: 6.899888}
+    redThreshold: 0.30193236
+    elevation: 0.34649885
+  - position: {x: 14.72243, y: 0.14988777}
+    redThreshold: 0.30354267
+    elevation: 0.29457954
+  - position: {x: 3.8971138, y: 6.899888}
+    redThreshold: 0.30515298
+    elevation: 0.5258292
+  - position: {x: 19.485569, y: 5.399888}
+    redThreshold: 0.3067633
+    elevation: 0.26861903
+  - position: {x: 19.052559, y: 9.149888}
+    redThreshold: 0.3083736
+    elevation: 0.4127766
+  - position: {x: 19.485569, y: 8.399888}
+    redThreshold: 0.3099839
+    elevation: 0.41571313
+  - position: {x: 5.629163, y: 3.8998878}
+    redThreshold: 0.3115942
+    elevation: 0.41532388
+  - position: {x: 19.918585, y: 7.649888}
+    redThreshold: 0.3132045
+    elevation: 0.39454883
+  - position: {x: 7.7942276, y: 1.649888}
+    redThreshold: 0.3148148
+    elevation: 0.47067118
+  - position: {x: 19.918585, y: 9.149888}
+    redThreshold: 0.3164251
+    elevation: 0.40655115
+  - position: {x: 12.124356, y: -1.3501115}
+    redThreshold: 0.31803542
+    elevation: 0.25113803
+  - position: {x: 20.351597, y: 8.399888}
+    redThreshold: 0.31964573
+    elevation: 0.42735228
+  - position: {x: 20.351597, y: 6.899888}
+    redThreshold: 0.32125604
+    elevation: 0.3581521
+  - position: {x: 8.227242, y: 0.89988834}
+    redThreshold: 0.32286635
+    elevation: 0.49671522
+  - position: {x: 20.784605, y: 7.649888}
+    redThreshold: 0.32447666
+    elevation: 0.42191505
+  - position: {x: 8.227242, y: -0.6001128}
+    redThreshold: 0.32608697
+    elevation: 0.44794694
+  - position: {x: 6.0621753, y: 3.1498883}
+    redThreshold: 0.32769728
+    elevation: 0.37349355
+  - position: {x: 21.21762, y: 8.399888}
+    redThreshold: 0.32930756
+    elevation: 0.46598363
+  - position: {x: 12.990378, y: -1.3501115}
+    redThreshold: 0.33091787
+    elevation: 0.23614688
+  - position: {x: 6.4951906, y: 2.3998876}
+    redThreshold: 0.33252817
+    elevation: 0.3690739
+  - position: {x: 21.21762, y: 6.899888}
+    redThreshold: 0.33413848
+    elevation: 0.39679286
+  - position: {x: 21.650633, y: 7.649888}
+    redThreshold: 0.3357488
+    elevation: 0.46558076
+  - position: {x: 22.083645, y: 8.399888}
+    redThreshold: 0.3373591
+    elevation: 0.5076397
+  - position: {x: 7.7942276, y: 0.14988777}
+    redThreshold: 0.3389694
+    elevation: 0.46746033
+  - position: {x: 6.928203, y: 1.649888}
+    redThreshold: 0.34057972
+    elevation: 0.40050834
+  - position: {x: 19.918585, y: 4.6498885}
+    redThreshold: 0.34219003
+    elevation: 0.29074612
+  - position: {x: 15.588455, y: 0.14988777}
+    redThreshold: 0.34380034
+    elevation: 0.37399733
+  - position: {x: 7.361215, y: 0.89988834}
+    redThreshold: 0.34541062
+    elevation: 0.44315028
+  - position: {x: 22.949673, y: 8.399888}
+    redThreshold: 0.34702092
+    elevation: 0.5280736
+  - position: {x: 22.516659, y: 7.649888}
+    redThreshold: 0.34863123
+    elevation: 0.49872696
+  - position: {x: 22.083645, y: 6.899888}
+    redThreshold: 0.35024154
+    elevation: 0.43845308
+  - position: {x: 23.815699, y: 8.399888}
+    redThreshold: 0.35185185
+    elevation: 0.5283288
+  - position: {x: 21.650633, y: 6.1498876}
+    redThreshold: 0.35346216
+    elevation: 0.37767133
+  - position: {x: 23.382683, y: 7.649888}
+    redThreshold: 0.35507247
+    elevation: 0.506698
+  - position: {x: 15.155446, y: -0.6001128}
+    redThreshold: 0.35668278
+    elevation: 0.35172927
+  - position: {x: 19.485569, y: 3.8998878}
+    redThreshold: 0.3582931
+    elevation: 0.31682846
+  - position: {x: 22.949673, y: 6.899888}
+    redThreshold: 0.3599034
+    elevation: 0.4588878
+  - position: {x: 7.361215, y: -0.6001128}
+    redThreshold: 0.36151367
+    elevation: 0.45831364
+  - position: {x: 6.928203, y: 0.14988777}
+    redThreshold: 0.36312398
+    elevation: 0.4445239
+  - position: {x: 6.4951906, y: 0.89988834}
+    redThreshold: 0.3647343
+    elevation: 0.40502623
+  - position: {x: 17.320507, y: 1.649888}
+    redThreshold: 0.3663446
+    elevation: 0.414611
+  - position: {x: 22.083645, y: 5.399888}
+    redThreshold: 0.3679549
+    elevation: 0.38620308
+  - position: {x: 6.4951906, y: -0.6001128}
+    redThreshold: 0.36956522
+    elevation: 0.47862563
+  - position: {x: 6.0621753, y: 0.14988777}
+    redThreshold: 0.37117553
+    elevation: 0.44435358
+  - position: {x: 5.629163, y: 2.3998876}
+    redThreshold: 0.37278584
+    elevation: 0.35813934
+  - position: {x: 15.588455, y: -1.3501115}
+    redThreshold: 0.37439615
+    elevation: 0.4051029
+  - position: {x: 15.588455, y: -2.8501127}
+    redThreshold: 0.37600645
+    elevation: 0.3993111
+  - position: {x: 16.021471, y: -0.6001128}
+    redThreshold: 0.37761673
+    elevation: 0.44274208
+  - position: {x: 5.629163, y: -0.6001128}
+    redThreshold: 0.37922704
+    elevation: 0.5164619
+  - position: {x: 5.629163, y: 0.89988834}
+    redThreshold: 0.38083735
+    elevation: 0.4075022
+  - position: {x: 16.454483, y: 0.14988777}
+    redThreshold: 0.38244766
+    elevation: 0.45639703
+  - position: {x: 5.196151, y: 3.1498883}
+    redThreshold: 0.38405797
+    elevation: 0.39419886
+  - position: {x: 16.887491, y: 0.89988834}
+    redThreshold: 0.38566828
+    elevation: 0.4426661
+  - position: {x: 5.196151, y: 0.14988777}
+    redThreshold: 0.3872786
+    elevation: 0.478156
+  - position: {x: 4.7631383, y: -0.6001128}
+    redThreshold: 0.3888889
+    elevation: 0.569927
+  - position: {x: 5.196151, y: 1.649888}
+    redThreshold: 0.3904992
+    elevation: 0.3853222
+  - position: {x: 16.454483, y: -1.3501115}
+    redThreshold: 0.3921095
+    elevation: 0.478245
+  - position: {x: 17.320507, y: -2.8501127}
+    redThreshold: 0.3937198
+    elevation: 0.44444206
+  - position: {x: 4.7631383, y: 0.89988834}
+    redThreshold: 0.3953301
+    elevation: 0.45221576
+  - position: {x: 3.8971138, y: -0.6001128}
+    redThreshold: 0.3969404
+    elevation: 0.62162566
+  - position: {x: 4.3301263, y: 0.14988777}
+    redThreshold: 0.39855072
+    elevation: 0.5336555
+  - position: {x: 16.021471, y: -3.6001115}
+    redThreshold: 0.40016103
+    elevation: 0.405409
+  - position: {x: 7.7942276, y: -1.3501115}
+    redThreshold: 0.40177134
+    elevation: 0.4210871
+  - position: {x: 3.031089, y: 6.899888}
+    redThreshold: 0.40338165
+    elevation: 0.5707124
+  - position: {x: 4.7631383, y: 3.8998878}
+    redThreshold: 0.40499195
+    elevation: 0.46054396
+  - position: {x: 3.031089, y: -0.6001128}
+    redThreshold: 0.40660226
+    elevation: 0.63599217
+  - position: {x: 3.4640985, y: 0.14988777}
+    redThreshold: 0.40821257
+    elevation: 0.57112855
+  - position: {x: 16.887491, y: -3.6001115}
+    redThreshold: 0.40982288
+    elevation: 0.4085418
+  - position: {x: 3.8971138, y: 0.89988834}
+    redThreshold: 0.41143316
+    elevation: 0.50419366
+  - position: {x: 4.3301263, y: 1.649888}
+    redThreshold: 0.41304347
+    elevation: 0.43964866
+  - position: {x: 2.1650615, y: -0.6001128}
+    redThreshold: 0.41465378
+    elevation: 0.604115
+  - position: {x: 2.5980768, y: 0.14988777}
+    redThreshold: 0.4162641
+    elevation: 0.56510544
+  - position: {x: 6.928203, y: -1.3501115}
+    redThreshold: 0.4178744
+    elevation: 0.47642457
+  - position: {x: 1.2990369, y: -0.6001128}
+    redThreshold: 0.4194847
+    elevation: 0.54578906
+  - position: {x: 17.75352, y: -3.6001115}
+    redThreshold: 0.421095
+    elevation: 0.41957492
+  - position: {x: 17.320507, y: 0.14988777}
+    redThreshold: 0.42270532
+    elevation: 0.51836795
+  - position: {x: 0.4330123, y: -0.6001128}
+    redThreshold: 0.42431563
+    elevation: 0.49413294
+  - position: {x: 3.031089, y: 0.89988834}
+    redThreshold: 0.42592594
+    elevation: 0.5211143
+  - position: {x: 1.7320492, y: 0.14988777}
+    redThreshold: 0.42753622
+    elevation: 0.5235358
+  - position: {x: 0.8660246, y: -1.3501115}
+    redThreshold: 0.42914653
+    elevation: 0.5454875
+  - position: {x: 1.7320492, y: -1.3501115}
+    redThreshold: 0.43075684
+    elevation: 0.6208776
+  - position: {x: 3.4640985, y: 1.649888}
+    redThreshold: 0.43236715
+    elevation: 0.4768868
+  - position: {x: 18.619545, y: -3.6001115}
+    redThreshold: 0.43397745
+    elevation: 0.44123766
+  - position: {x: 2.5980768, y: -1.3501115}
+    redThreshold: 0.43558776
+    elevation: 0.68083495
+  - position: {x: 6.0621753, y: -1.3501115}
+    redThreshold: 0.43719807
+    elevation: 0.53976226
+  - position: {x: 4.3301263, y: 3.1498883}
+    redThreshold: 0.43880838
+    elevation: 0.4486011
+  - position: {x: 0.8660246, y: 0.14988777}
+    redThreshold: 0.4404187
+    elevation: 0.47379196
+  - position: {x: 3.4640985, y: -1.3501115}
+    redThreshold: 0.442029
+    elevation: 0.6958671
+  - position: {x: 5.196151, y: -1.3501115}
+    redThreshold: 0.44363928
+    elevation: 0.60255116
+  - position: {x: 4.3301263, y: -1.3501115}
+    redThreshold: 0.4452496
+    elevation: 0.66050595
+  - position: {x: 3.4640985, y: 6.1498876}
+    redThreshold: 0.4468599
+    elevation: 0.5867597
+  - position: {x: 2.1650615, y: 0.89988834}
+    redThreshold: 0.4484702
+    elevation: 0.4956496
+  - position: {x: 4.3301263, y: 4.6498885}
+    redThreshold: 0.4500805
+    elevation: 0.52940387
+  - position: {x: 8.227242, y: -2.1001122}
+    redThreshold: 0.45169082
+    elevation: 0.34207845
+  - position: {x: 1.2990369, y: 0.89988834}
+    redThreshold: 0.45330113
+    elevation: 0.4473156
+  - position: {x: 2.5980768, y: 1.649888}
+    redThreshold: 0.45491144
+    elevation: 0.46997702
+  - position: {x: 7.361215, y: -2.1001122}
+    redThreshold: 0.45652175
+    elevation: 0.41897202
+  - position: {x: 3.8971138, y: 5.399888}
+    redThreshold: 0.45813206
+    elevation: 0.57530934
+  - position: {x: 1.7320492, y: 1.649888}
+    redThreshold: 0.45974234
+    elevation: 0.4267507
+  - position: {x: 16.454483, y: -4.350112}
+    redThreshold: 0.46135265
+    elevation: 0.41299674
+  - position: {x: 3.031089, y: 2.3998876}
+    redThreshold: 0.46296296
+    elevation: 0.46459222
+  - position: {x: 17.75352, y: 0.89988834}
+    redThreshold: 0.46457326
+    elevation: 0.5006349
+  - position: {x: 1.2990369, y: -2.1001122}
+    redThreshold: 0.46618357
+    elevation: 0.60030895
+  - position: {x: 6.4951906, y: -2.1001122}
+    redThreshold: 0.46779388
+    elevation: 0.51242864
+  - position: {x: 2.1650615, y: -2.1001122}
+    redThreshold: 0.4694042
+    elevation: 0.6841115
+  - position: {x: 2.1650615, y: 2.3998876}
+    redThreshold: 0.4710145
+    elevation: 0.4300347
+  - position: {x: 3.8971138, y: 3.8998878}
+    redThreshold: 0.4726248
+    elevation: 0.5121695
+  - position: {x: -6.062178, y: 7.649888}
+    redThreshold: 0.47423512
+    elevation: 0.57282805
+  - position: {x: 3.031089, y: -2.1001122}
+    redThreshold: 0.4758454
+    elevation: 0.72923774
+  - position: {x: 5.629163, y: -2.1001122}
+    redThreshold: 0.4774557
+    elevation: 0.60014886
+  - position: {x: 3.8971138, y: -2.1001122}
+    redThreshold: 0.479066
+    elevation: 0.71855885
+  - position: {x: 4.7631383, y: -2.1001122}
+    redThreshold: 0.48067632
+    elevation: 0.66703093
+  - position: {x: 7.7942276, y: -2.8501127}
+    redThreshold: 0.48228663
+    elevation: 0.3306731
+  - position: {x: 18.619545, y: 2.3998876}
+    redThreshold: 0.48389694
+    elevation: 0.4233449
+  - position: {x: -8.660255, y: 7.649888}
+    redThreshold: 0.48550725
+    elevation: 0.41261333
+  - position: {x: -9.093267, y: 6.899888}
+    redThreshold: 0.48711756
+    elevation: 0.39083955
+  - position: {x: 20.784605, y: -4.350112}
+    redThreshold: 0.48872787
+    elevation: 0.5044727
+  - position: {x: -9.526279, y: 7.649888}
+    redThreshold: 0.49033818
+    elevation: 0.36426824
+  - position: {x: 21.650633, y: -4.350112}
+    redThreshold: 0.49194846
+    elevation: 0.4837273
+  - position: {x: -23.382687, y: 9.149888}
+    redThreshold: 0.49355876
+    elevation: 0.4331612
+  - position: {x: -18.619547, y: 9.899888}
+    redThreshold: 0.49516907
+    elevation: 0.30518392
+  - position: {x: 6.928203, y: -2.8501127}
+    redThreshold: 0.49677938
+    elevation: 0.4308006
+  - position: {x: -22.51666, y: 9.149888}
+    redThreshold: 0.4983897
+    elevation: 0.3734283
+  - position: {x: -21.650635, y: 9.149888}
+    redThreshold: 0.5
+    elevation: 0.32106826
+  - position: {x: -20.78461, y: 9.149888}
+    redThreshold: 0.5016103
+    elevation: 0.2981482
+  - position: {x: -17.320509, y: 9.149888}
+    redThreshold: 0.5032206
+    elevation: 0.37667686
+  - position: {x: -16.454483, y: 9.149888}
+    redThreshold: 0.5048309
+    elevation: 0.409679
+  - position: {x: -17.753521, y: 9.899888}
+    redThreshold: 0.50644124
+    elevation: 0.36430624
+  - position: {x: -19.052559, y: 9.149888}
+    redThreshold: 0.5080515
+    elevation: 0.30946276
+  - position: {x: -23.815699, y: 8.399888}
+    redThreshold: 0.50966185
+    elevation: 0.4917747
+  - position: {x: -22.949675, y: 8.399888}
+    redThreshold: 0.51127213
+    elevation: 0.4535551
+  - position: {x: 6.0621753, y: -2.8501127}
+    redThreshold: 0.5128825
+    elevation: 0.5406334
+  - position: {x: -15.588458, y: 9.149888}
+    redThreshold: 0.51449275
+    elevation: 0.4270885
+  - position: {x: -9.959293, y: 6.899888}
+    redThreshold: 0.5161031
+    elevation: 0.35976997
+  - position: {x: 1.7320492, y: 3.1498883}
+    redThreshold: 0.51771337
+    elevation: 0.4039859
+  - position: {x: -16.887495, y: 9.899888}
+    redThreshold: 0.51932365
+    elevation: 0.42522356
+  - position: {x: -14.28942, y: 8.399888}
+    redThreshold: 0.520934
+    elevation: 0.4085147
+  - position: {x: -22.083649, y: 8.399888}
+    redThreshold: 0.52254426
+    elevation: 0.4028809
+  - position: {x: -12.557369, y: 8.399888}
+    redThreshold: 0.5241546
+    elevation: 0.37730762
+  - position: {x: -21.217623, y: 8.399888}
+    redThreshold: 0.5257649
+    elevation: 0.3671293
+  - position: {x: 3.4640985, y: -2.8501127}
+    redThreshold: 0.5273752
+    elevation: 0.7254188
+  - position: {x: -15.155445, y: 8.399888}
+    redThreshold: 0.5289855
+    elevation: 0.41088992
+  - position: {x: -14.722432, y: 9.149888}
+    redThreshold: 0.53059584
+    elevation: 0.42623287
+  - position: {x: -20.351597, y: 8.399888}
+    redThreshold: 0.5322061
+    elevation: 0.359067
+  - position: {x: -12.124356, y: 7.649888}
+    redThreshold: 0.5338164
+    elevation: 0.38355044
+  - position: {x: 5.196151, y: -2.8501127}
+    redThreshold: 0.53542674
+    elevation: 0.6278769
+  - position: {x: -11.691342, y: 8.399888}
+    redThreshold: 0.537037
+    elevation: 0.3456693
+  - position: {x: -23.382687, y: 7.649888}
+    redThreshold: 0.53864735
+    elevation: 0.5274208
+  - position: {x: -16.021471, y: 9.899888}
+    redThreshold: 0.54025763
+    elevation: 0.46611607
+  - position: {x: -19.485573, y: 8.399888}
+    redThreshold: 0.541868
+    elevation: 0.36069918
+  - position: {x: -16.021471, y: 8.399888}
+    redThreshold: 0.54347825
+    elevation: 0.40717164
+  - position: {x: 4.3301263, y: -2.8501127}
+    redThreshold: 0.5450886
+    elevation: 0.68819624
+  - position: {x: -18.619547, y: 8.399888}
+    redThreshold: 0.54669887
+    elevation: 0.36865255
+  - position: {x: -16.887495, y: 8.399888}
+    redThreshold: 0.5483092
+    elevation: 0.39663875
+  - position: {x: -17.753521, y: 8.399888}
+    redThreshold: 0.5499195
+    elevation: 0.38215265
+  - position: {x: -22.51666, y: 7.649888}
+    redThreshold: 0.55152977
+    elevation: 0.48726386
+  - position: {x: -13.856407, y: 9.149888}
+    redThreshold: 0.5531401
+    elevation: 0.41443297
+  - position: {x: -8.2272415, y: 8.399888}
+    redThreshold: 0.5547504
+    elevation: 0.42296135
+  - position: {x: -9.959293, y: 8.399888}
+    redThreshold: 0.5563607
+    elevation: 0.33786017
+  - position: {x: -16.454483, y: 10.649888}
+    redThreshold: 0.557971
+    elevation: 0.5073925
+  - position: {x: -9.093267, y: 8.399888}
+    redThreshold: 0.55958134
+    elevation: 0.37424392
+  - position: {x: -23.815699, y: 6.899888}
+    redThreshold: 0.5611916
+    elevation: 0.588699
+  - position: {x: -21.650635, y: 7.649888}
+    redThreshold: 0.56280196
+    elevation: 0.44510293
+  - position: {x: -12.990381, y: 7.649888}
+    redThreshold: 0.56441224
+    elevation: 0.41670695
+  - position: {x: -15.155445, y: 9.899888}
+    redThreshold: 0.5660225
+    elevation: 0.47579214
+  - position: {x: 3.031089, y: 3.8998878}
+    redThreshold: 0.56763285
+    elevation: 0.5233919
+  - position: {x: -20.78461, y: 7.649888}
+    redThreshold: 0.56924313
+    elevation: 0.42493978
+  - position: {x: -12.990381, y: 9.149888}
+    redThreshold: 0.5708535
+    elevation: 0.39387164
+  - position: {x: -22.949675, y: 6.899888}
+    redThreshold: 0.57246375
+    elevation: 0.5608355
+  - position: {x: -13.856407, y: 7.649888}
+    redThreshold: 0.5740741
+    elevation: 0.42988318
+  - position: {x: -19.918585, y: 7.649888}
+    redThreshold: 0.57568437
+    elevation: 0.42382905
+  - position: {x: -14.28942, y: 9.899888}
+    redThreshold: 0.5772947
+    elevation: 0.4591477
+  - position: {x: -22.083649, y: 6.899888}
+    redThreshold: 0.578905
+    elevation: 0.51712644
+  - position: {x: -19.052559, y: 7.649888}
+    redThreshold: 0.5805153
+    elevation: 0.42439875
+  - position: {x: -14.722432, y: 7.649888}
+    redThreshold: 0.5821256
+    elevation: 0.43053788
+  - position: {x: -23.382687, y: 6.1498876}
+    redThreshold: 0.5837359
+    elevation: 0.6124379
+  - position: {x: -12.124356, y: 9.149888}
+    redThreshold: 0.5853462
+    elevation: 0.36277688
+  - position: {x: -18.186535, y: 7.649888}
+    redThreshold: 0.5869565
+    elevation: 0.42582375
+  - position: {x: -15.588458, y: 7.649888}
+    redThreshold: 0.58856684
+    elevation: 0.43042988
+  - position: {x: -17.320509, y: 7.649888}
+    redThreshold: 0.5901771
+    elevation: 0.4277174
+  - position: {x: -16.454483, y: 7.649888}
+    redThreshold: 0.59178746
+    elevation: 0.42943248
+  - position: {x: -21.217623, y: 6.899888}
+    redThreshold: 0.59339774
+    elevation: 0.48439667
+  - position: {x: 7.361215, y: -3.6001115}
+    redThreshold: 0.5950081
+    elevation: 0.33221057
+  - position: {x: -14.722432, y: 10.649888}
+    redThreshold: 0.59661835
+    elevation: 0.52128637
+  - position: {x: 20.351597, y: 2.3998876}
+    redThreshold: 0.5982287
+    elevation: 0.5165037
+  - position: {x: 3.4640985, y: 4.6498885}
+    redThreshold: 0.599839
+    elevation: 0.5677442
+  - position: {x: -13.423394, y: 9.899888}
+    redThreshold: 0.60144925
+    elevation: 0.43326455
+  - position: {x: -20.351597, y: 6.899888}
+    redThreshold: 0.6030596
+    elevation: 0.47679812
+  - position: {x: -15.155445, y: 11.399888}
+    redThreshold: 0.60466987
+    elevation: 0.5747379
+  - position: {x: -19.485573, y: 6.899888}
+    redThreshold: 0.6062802
+    elevation: 0.47680312
+  - position: {x: -13.856407, y: 10.649888}
+    redThreshold: 0.6078905
+    elevation: 0.4858653
+  - position: {x: 6.4951906, y: -3.6001115}
+    redThreshold: 0.6095008
+    elevation: 0.4373222
+  - position: {x: -18.619547, y: 6.899888}
+    redThreshold: 0.6111111
+    elevation: 0.47680905
+  - position: {x: -20.78461, y: 6.1498876}
+    redThreshold: 0.61272144
+    elevation: 0.51825416
+  - position: {x: -13.423394, y: 6.899888}
+    redThreshold: 0.6143317
+    elevation: 0.47261608
+  - position: {x: -9.526279, y: 9.149888}
+    redThreshold: 0.615942
+    elevation: 0.34589496
+  - position: {x: -17.753521, y: 6.899888}
+    redThreshold: 0.61755234
+    elevation: 0.47681347
+  - position: {x: -6.928203, y: 9.149888}
+    redThreshold: 0.6191626
+    elevation: 0.44812843
+  - position: {x: -18.619547, y: -2.1001122}
+    redThreshold: 0.62077296
+    elevation: 0.5387259
+  - position: {x: -8.660255, y: 9.149888}
+    redThreshold: 0.62238324
+    elevation: 0.37696666
+  - position: {x: -16.887495, y: 6.899888}
+    redThreshold: 0.6239936
+    elevation: 0.47681394
+  - position: {x: 5.629163, y: -3.6001115}
+    redThreshold: 0.62560385
+    elevation: 0.5407518
+  - position: {x: -7.794229, y: 9.149888}
+    redThreshold: 0.6272142
+    elevation: 0.4101151
+  - position: {x: -19.918585, y: 6.1498876}
+    redThreshold: 0.6288245
+    elevation: 0.51846915
+  - position: {x: -16.021471, y: 6.899888}
+    redThreshold: 0.6304348
+    elevation: 0.47681022
+  - position: {x: 3.8971138, y: -3.6001115}
+    redThreshold: 0.6320451
+    elevation: 0.66660666
+  - position: {x: 4.7631383, y: -3.6001115}
+    redThreshold: 0.63365537
+    elevation: 0.61317074
+  - position: {x: -16.887495, y: -2.1001122}
+    redThreshold: 0.6352657
+    elevation: 0.6087996
+  - position: {x: 2.1650615, y: 3.8998878}
+    redThreshold: 0.636876
+    elevation: 0.47814715
+  - position: {x: -13.856407, y: 12.149888}
+    redThreshold: 0.6384863
+    elevation: 0.5096501
+  - position: {x: -13.423394, y: 11.399888}
+    redThreshold: 0.6400966
+    elevation: 0.4889041
+  - position: {x: -19.052559, y: 6.1498876}
+    redThreshold: 0.64170694
+    elevation: 0.520066
+  - position: {x: -20.351597, y: 5.399888}
+    redThreshold: 0.6433172
+    elevation: 0.5293964
+  - position: {x: -18.186535, y: 6.1498876}
+    redThreshold: 0.64492756
+    elevation: 0.52164257
+  - position: {x: -12.124356, y: 6.1498876}
+    redThreshold: 0.64653784
+    elevation: 0.4553775
+  - position: {x: -18.186535, y: -1.3501115}
+    redThreshold: 0.6481481
+    elevation: 0.64420867
+  - position: {x: -13.423394, y: 12.899888}
+    redThreshold: 0.64975846
+    elevation: 0.45120555
+  - position: {x: -17.320509, y: -2.8501127}
+    redThreshold: 0.65136874
+    elevation: 0.51044905
+  - position: {x: 3.031089, y: 5.399888}
+    redThreshold: 0.6529791
+    elevation: 0.59956557
+  - position: {x: -17.320509, y: -1.3501115}
+    redThreshold: 0.65458935
+    elevation: 0.68037367
+  - position: {x: -17.320509, y: 6.1498876}
+    redThreshold: 0.6561997
+    elevation: 0.52239317
+  - position: {x: -19.485573, y: 5.399888}
+    redThreshold: 0.65781
+    elevation: 0.5367676
+  - position: {x: -12.990381, y: 12.149888}
+    redThreshold: 0.6594203
+    elevation: 0.4650274
+  - position: {x: -16.454483, y: -2.8501127}
+    redThreshold: 0.6610306
+    elevation: 0.5326503
+  - position: {x: -12.990381, y: 6.1498876}
+    redThreshold: 0.6626409
+    elevation: 0.5001
+  - position: {x: -9.959293, y: 9.899888}
+    redThreshold: 0.6642512
+    elevation: 0.34812063
+  - position: {x: -16.454483, y: 6.1498876}
+    redThreshold: 0.6658615
+    elevation: 0.5218897
+  - position: {x: 19.052559, y: -5.850111}
+    redThreshold: 0.6674718
+    elevation: 0.54185456
+  - position: {x: -18.619547, y: -0.6001128}
+    redThreshold: 0.6690821
+    elevation: 0.6555859
+  - position: {x: -15.588458, y: 6.1498876}
+    redThreshold: 0.67069244
+    elevation: 0.5204209
+  - position: {x: -19.918585, y: 4.6498885}
+    redThreshold: 0.6723027
+    elevation: 0.5174206
+  - position: {x: -18.619547, y: 5.399888}
+    redThreshold: 0.67391306
+    elevation: 0.5455115
+  - position: {x: -12.557369, y: 12.899888}
+    redThreshold: 0.67552334
+    elevation: 0.42651507
+  - position: {x: -14.28942, y: -12.600113}
+    redThreshold: 0.6771337
+    elevation: 0.5219779
+  - position: {x: -17.753521, y: -0.6001128}
+    redThreshold: 0.67874396
+    elevation: 0.71065193
+  - position: {x: -9.093267, y: 9.899888}
+    redThreshold: 0.68035424
+    elevation: 0.3573382
+  - position: {x: -19.052559, y: 0.14988777}
+    redThreshold: 0.6819646
+    elevation: 0.6082356
+  - position: {x: -12.124356, y: 12.149888}
+    redThreshold: 0.68357486
+    elevation: 0.44684392
+  - position: {x: 19.918585, y: -5.850111}
+    redThreshold: 0.6851852
+    elevation: 0.58432055
+  - position: {x: -11.691342, y: 11.399888}
+    redThreshold: 0.6867955
+    elevation: 0.4334318
+  - position: {x: -17.753521, y: 5.399888}
+    redThreshold: 0.6884058
+    elevation: 0.5520354
+  - position: {x: 6.928203, y: -4.350112}
+    redThreshold: 0.6900161
+    elevation: 0.3343048
+  - position: {x: -19.052559, y: 4.6498885}
+    redThreshold: 0.6916264
+    elevation: 0.5379979
+  - position: {x: -16.887495, y: -0.6001128}
+    redThreshold: 0.6932367
+    elevation: 0.7199306
+  - position: {x: -19.485573, y: 0.89988834}
+    redThreshold: 0.69484705
+    elevation: 0.5248792
+  - position: {x: -8.2272415, y: 9.899888}
+    redThreshold: 0.6964573
+    elevation: 0.36858112
+  - position: {x: -19.918585, y: 1.649888}
+    redThreshold: 0.6980676
+    elevation: 0.44881776
+  - position: {x: -11.691342, y: 5.399888}
+    redThreshold: 0.69967794
+    elevation: 0.44022864
+  - position: {x: -19.918585, y: 3.1498883}
+    redThreshold: 0.7012882
+    elevation: 0.4498665
+  - position: {x: -19.485573, y: 3.8998878}
+    redThreshold: 0.70289856
+    elevation: 0.50084144
+  - position: {x: -10.392306, y: 10.649888}
+    redThreshold: 0.70450884
+    elevation: 0.38222525
+  - position: {x: -6.495192, y: 9.899888}
+    redThreshold: 0.7061192
+    elevation: 0.41008675
+  - position: {x: -11.691342, y: 12.899888}
+    redThreshold: 0.70772946
+    elevation: 0.43959534
+  - position: {x: -14.722432, y: -11.850112}
+    redThreshold: 0.7093398
+    elevation: 0.4390629
+  - position: {x: -16.887495, y: 5.399888}
+    redThreshold: 0.7109501
+    elevation: 0.5527299
+  - position: {x: -18.186535, y: 0.14988777}
+    redThreshold: 0.7125604
+    elevation: 0.6793812
+  - position: {x: 17.75352, y: -6.600112}
+    redThreshold: 0.7141707
+    elevation: 0.52655524
+  - position: {x: -7.3612165, y: 9.899888}
+    redThreshold: 0.715781
+    elevation: 0.37899274
+  - position: {x: -13.856407, y: -11.850112}
+    redThreshold: 0.7173913
+    elevation: 0.4935187
+  - position: {x: 6.0621753, y: -4.350112}
+    redThreshold: 0.7190016
+    elevation: 0.43040916
+  - position: {x: -16.021471, y: -3.6001115}
+    redThreshold: 0.72061193
+    elevation: 0.48379156
+  - position: {x: -15.155445, y: -0.6001128}
+    redThreshold: 0.7222222
+    elevation: 0.6077264
+  - position: {x: -18.186535, y: 4.6498885}
+    redThreshold: 0.72383255
+    elevation: 0.5583131
+  - position: {x: 4.3301263, y: -4.350112}
+    redThreshold: 0.7254428
+    elevation: 0.5762141
+  - position: {x: -19.485573, y: 2.3998876}
+    redThreshold: 0.72705317
+    elevation: 0.46491522
+  - position: {x: 5.196151, y: -4.350112}
+    redThreshold: 0.72866344
+    elevation: 0.5155866
+  - position: {x: -16.021471, y: 5.399888}
+    redThreshold: 0.7302737
+    elevation: 0.54719514
+  - position: {x: -18.619547, y: 0.89988834}
+    redThreshold: 0.73188406
+    elevation: 0.60134417
+  - position: {x: -11.258332, y: 12.149888}
+    redThreshold: 0.73349434
+    elevation: 0.45214716
+  - position: {x: -10.825318, y: 11.399888}
+    redThreshold: 0.7351047
+    elevation: 0.4269371
+  - position: {x: -12.557369, y: 5.399888}
+    redThreshold: 0.73671496
+    elevation: 0.48802364
+  - position: {x: -17.320509, y: 0.14988777}
+    redThreshold: 0.7383253
+    elevation: 0.71357876
+  - position: {x: -19.052559, y: 1.649888}
+    redThreshold: 0.7399356
+    elevation: 0.5198062
+  - position: {x: -15.155445, y: -3.6001115}
+    redThreshold: 0.7415459
+    elevation: 0.47040227
+  - position: {x: -18.619547, y: 3.8998878}
+    redThreshold: 0.7431562
+    elevation: 0.5390768
+  - position: {x: -19.052559, y: 3.1498883}
+    redThreshold: 0.74476653
+    elevation: 0.5018746
+  - position: {x: -15.155445, y: 5.399888}
+    redThreshold: 0.7463768
+    elevation: 0.53854364
+  - position: {x: -13.423394, y: 5.399888}
+    redThreshold: 0.7479871
+    elevation: 0.52038145
+  - position: {x: -9.526279, y: 10.649888}
+    redThreshold: 0.74959743
+    elevation: 0.37677878
+  - position: {x: -14.28942, y: -11.100112}
+    redThreshold: 0.7512077
+    elevation: 0.41826546
+  - position: {x: -17.320509, y: 4.6498885}
+    redThreshold: 0.75281805
+    elevation: 0.5679852
+  - position: {x: -14.28942, y: -3.6001115}
+    redThreshold: 0.7544283
+    elevation: 0.423443
+  - position: {x: -10.825318, y: 12.899888}
+    redThreshold: 0.75603867
+    elevation: 0.47462136
+  - position: {x: -16.454483, y: 0.14988777}
+    redThreshold: 0.75764894
+    elevation: 0.6912889
+  - position: {x: -13.423394, y: -11.100112}
+    redThreshold: 0.7592593
+    elevation: 0.4754507
+  - position: {x: -17.753521, y: 0.89988834}
+    redThreshold: 0.76086956
+    elevation: 0.65839535
+  - position: {x: -18.619547, y: 2.3998876}
+    redThreshold: 0.76247984
+    elevation: 0.5326421
+  - position: {x: 17.320507, y: -7.3501124}
+    redThreshold: 0.7640902
+    elevation: 0.5238623
+  - position: {x: 18.619545, y: -6.600112}
+    redThreshold: 0.76570046
+    elevation: 0.5488119
+  - position: {x: 24.24871, y: -10.350113}
+    redThreshold: 0.7673108
+    elevation: 0.40244547
+  - position: {x: -18.186535, y: 1.649888}
+    redThreshold: 0.7689211
+    elevation: 0.58989054
+  - position: {x: -15.588458, y: 0.14988777}
+    redThreshold: 0.7705314
+    elevation: 0.6252691
+  - position: {x: -17.753521, y: 3.8998878}
+    redThreshold: 0.7721417
+    elevation: 0.56760466
+  - position: {x: -18.186535, y: 3.1498883}
+    redThreshold: 0.77375203
+    elevation: 0.5532203
+  - position: {x: -10.392306, y: 12.149888}
+    redThreshold: 0.7753623
+    elevation: 0.4650464
+  - position: {x: -11.258332, y: 4.6498885}
+    redThreshold: 0.77697265
+    elevation: 0.4194003
+  - position: {x: -16.454483, y: 4.6498885}
+    redThreshold: 0.77858293
+    elevation: 0.5614973
+  - position: {x: -9.959293, y: 11.399888}
+    redThreshold: 0.7801932
+    elevation: 0.4229497
+  - position: {x: 24.681726, y: -9.600112}
+    redThreshold: 0.78180355
+    elevation: 0.3928917
+  - position: {x: -14.722432, y: -10.350113}
+    redThreshold: 0.7834138
+    elevation: 0.37543514
+  - position: {x: -15.588458, y: -4.350112}
+    redThreshold: 0.78502417
+    elevation: 0.47535235
+  - position: {x: -14.722432, y: 0.14988777}
+    redThreshold: 0.78663445
+    elevation: 0.55065936
+  - position: {x: -8.660255, y: 10.649888}
+    redThreshold: 0.7882448
+    elevation: 0.36873934
+  - position: {x: -16.887495, y: 0.89988834}
+    redThreshold: 0.78985506
+    elevation: 0.66446877
+  - position: {x: 8.660253, y: -5.850111}
+    redThreshold: 0.7914654
+    elevation: 0.3019266
+  - position: {x: -13.856407, y: -10.350113}
+    redThreshold: 0.7930757
+    elevation: 0.4218731
+  - position: {x: 7.361215, y: -5.1001124}
+    redThreshold: 0.794686
+    elevation: 0.27263972
+  - position: {x: -9.959293, y: 12.899888}
+    redThreshold: 0.7962963
+    elevation: 0.50465316
+  - position: {x: -12.990381, y: -10.350113}
+    redThreshold: 0.7979066
+    elevation: 0.4736009
+  - position: {x: -17.753521, y: 2.3998876}
+    redThreshold: 0.7995169
+    elevation: 0.58317393
+  - position: {x: 1.2990369, y: 5.399888}
+    redThreshold: 0.8011272
+    elevation: 0.5049956
+  - position: {x: -17.320509, y: 1.649888}
+    redThreshold: 0.80273753
+    elevation: 0.6232578
+  - position: {x: -15.588458, y: 4.6498885}
+    redThreshold: 0.8043478
+    elevation: 0.5425711
+  - position: {x: -14.722432, y: -4.350112}
+    redThreshold: 0.80595815
+    elevation: 0.44956577
+  - position: {x: 19.485569, y: -6.600112}
+    redThreshold: 0.80756843
+    elevation: 0.58913404
+  - position: {x: 17.320507, y: -8.850112}
+    redThreshold: 0.80917877
+    elevation: 0.44723293
+  - position: {x: -16.887495, y: 3.8998878}
+    redThreshold: 0.81078905
+    elevation: 0.5706415
+  - position: {x: -16.021471, y: -5.1001124}
+    redThreshold: 0.8123993
+    elevation: 0.5007231
+  - position: {x: -12.124356, y: 4.6498885}
+    redThreshold: 0.81400967
+    elevation: 0.44768974
+  - position: {x: -16.021471, y: 0.89988834}
+    redThreshold: 0.81561995
+    elevation: 0.6160672
+  - position: {x: -17.320509, y: 3.1498883}
+    redThreshold: 0.8172303
+    elevation: 0.57766604
+  - position: {x: -7.794229, y: 10.649888}
+    redThreshold: 0.81884056
+    elevation: 0.3535724
+  - position: {x: 3.8971138, y: -5.1001124}
+    redThreshold: 0.8204509
+    elevation: 0.54282737
+  - position: {x: -14.722432, y: 4.6498885}
+    redThreshold: 0.8220612
+    elevation: 0.5212949
+  - position: {x: -13.856407, y: -4.350112}
+    redThreshold: 0.8236715
+    elevation: 0.39490712
+  - position: {x: -14.28942, y: -9.600112}
+    redThreshold: 0.8252818
+    elevation: 0.41141182
+  - position: {x: 18.186531, y: -7.3501124}
+    redThreshold: 0.82689214
+    elevation: 0.5251107
+  - position: {x: 2.5980768, y: 4.6498885}
+    redThreshold: 0.8285024
+    elevation: 0.55632955
+  - position: {x: -9.526279, y: 12.149888}
+    redThreshold: 0.8301127
+    elevation: 0.46587935
+  - position: {x: -9.093267, y: 11.399888}
+    redThreshold: 0.83172303
+    elevation: 0.4094578
+  - position: {x: 6.4951906, y: -5.1001124}
+    redThreshold: 0.8333333
+    elevation: 0.3355569
+  - position: {x: 20.351597, y: -6.600112}
+    redThreshold: 0.83494365
+    elevation: 0.62311447
+  - position: {x: -6.062178, y: 10.649888}
+    redThreshold: 0.83655393
+    elevation: 0.38194194
+  - position: {x: -12.990381, y: 4.6498885}
+    redThreshold: 0.83816427
+    elevation: 0.48049432
+  - position: {x: 5.196151, y: -8.850112}
+    redThreshold: 0.83977455
+    elevation: 0.3352691
+  - position: {x: -10.825318, y: 3.8998878}
+    redThreshold: 0.8413849
+    elevation: 0.4187189
+  - position: {x: 21.21762, y: -6.600112}
+    redThreshold: 0.84299517
+    elevation: 0.62954634
+  - position: {x: -13.856407, y: 4.6498885}
+    redThreshold: 0.84460545
+    elevation: 0.5039634
+  - position: {x: -6.928203, y: 10.649888}
+    redThreshold: 0.8462158
+    elevation: 0.34806058
+  - position: {x: 17.75352, y: -8.100111}
+    redThreshold: 0.84782606
+    elevation: 0.4843638
+  - position: {x: -13.423394, y: -9.600112}
+    redThreshold: 0.8494364
+    elevation: 0.44463497
+  - position: {x: -15.155445, y: 0.89988834}
+    redThreshold: 0.8510467
+    elevation: 0.5404106
+  - position: {x: -16.887495, y: 2.3998876}
+    redThreshold: 0.852657
+    elevation: 0.58855325
+  - position: {x: -16.454483, y: 1.649888}
+    redThreshold: 0.8542673
+    elevation: 0.6008753
+  - position: {x: -12.990381, y: -4.350112}
+    redThreshold: 0.85587764
+    elevation: 0.3462142
+  - position: {x: 4.7631383, y: -5.1001124}
+    redThreshold: 0.8574879
+    elevation: 0.48629493
+  - position: {x: -9.093267, y: 12.899888}
+    redThreshold: 0.85909826
+    elevation: 0.5051452
+  - position: {x: -15.155445, y: -5.1001124}
+    redThreshold: 0.86070853
+    elevation: 0.4993217
+  - position: {x: -16.021471, y: 3.8998878}
+    redThreshold: 0.8623188
+    elevation: 0.54643893
+  - position: {x: -12.557369, y: -9.600112}
+    redThreshold: 0.86392915
+    elevation: 0.48056248
+  - position: {x: 5.629163, y: -5.1001124}
+    redThreshold: 0.86553943
+    elevation: 0.418142
+  - position: {x: -14.722432, y: -8.850112}
+    redThreshold: 0.8671498
+    elevation: 0.44832373
+  - position: {x: -16.454483, y: 3.1498883}
+    redThreshold: 0.86876005
+    elevation: 0.56126803
+  - position: {x: -14.28942, y: 0.89988834}
+    redThreshold: 0.8703704
+    elevation: 0.4725198
+  - position: {x: 2.1650615, y: 5.399888}
+    redThreshold: 0.87198067
+    elevation: 0.5745052
+  - position: {x: -15.588458, y: -5.850111}
+    redThreshold: 0.873591
+    elevation: 0.5538281
+  - position: {x: 8.227242, y: -6.600112}
+    redThreshold: 0.8752013
+    elevation: 0.28266057
+  - position: {x: -14.28942, y: -5.1001124}
+    redThreshold: 0.8768116
+    elevation: 0.45639274
+  - position: {x: -13.856407, y: -8.850112}
+    redThreshold: 0.8784219
+    elevation: 0.4564775
+  - position: {x: -15.588458, y: 1.649888}
+    redThreshold: 0.8800322
+    elevation: 0.53558314
+  - position: {x: -15.155445, y: 3.8998878}
+    redThreshold: 0.8816425
+    elevation: 0.5086077
+  - position: {x: -8.2272415, y: 11.399888}
+    redThreshold: 0.8832528
+    elevation: 0.37989366
+  - position: {x: -16.021471, y: 2.3998876}
+    redThreshold: 0.88486314
+    elevation: 0.5456828
+  - position: {x: -8.660255, y: 12.149888}
+    redThreshold: 0.8864734
+    elevation: 0.44093785
+  - position: {x: 19.052559, y: -7.3501124}
+    redThreshold: 0.88808376
+    elevation: 0.54980737
+  - position: {x: -12.990381, y: -8.850112}
+    redThreshold: 0.88969404
+    elevation: 0.4658766
+  - position: {x: -8.2272415, y: 12.899888}
+    redThreshold: 0.8913044
+    elevation: 0.4674803
+  - position: {x: -15.155445, y: -6.600112}
+    redThreshold: 0.89291465
+    elevation: 0.5756995
+  - position: {x: -14.722432, y: -5.850111}
+    redThreshold: 0.89452493
+    elevation: 0.5303859
+  - position: {x: -13.423394, y: -5.1001124}
+    redThreshold: 0.8961353
+    elevation: 0.39961395
+  - position: {x: -12.124356, y: -8.850112}
+    redThreshold: 0.89774555
+    elevation: 0.475481
+  - position: {x: 4.7631383, y: -8.100111}
+    redThreshold: 0.8993559
+    elevation: 0.34682077
+  - position: {x: -15.588458, y: 3.1498883}
+    redThreshold: 0.90096617
+    elevation: 0.51343316
+  - position: {x: -14.28942, y: -8.100111}
+    redThreshold: 0.9025765
+    elevation: 0.50026554
+  - position: {x: 18.619545, y: -8.100111}
+    redThreshold: 0.9041868
+    elevation: 0.48346737
+  - position: {x: 5.629163, y: -8.100111}
+    redThreshold: 0.9057971
+    elevation: 0.2882817
+  - position: {x: -14.28942, y: 3.8998878}
+    redThreshold: 0.9074074
+    elevation: 0.47465968
+  - position: {x: -14.722432, y: -7.3501124}
+    redThreshold: 0.90901774
+    elevation: 0.55118626
+  - position: {x: -14.722432, y: 1.649888}
+    redThreshold: 0.910628
+    elevation: 0.46218354
+  - position: {x: -12.557369, y: -5.1001124}
+    redThreshold: 0.9122383
+    elevation: 0.35615963
+  - position: {x: 6.928203, y: -5.850111}
+    redThreshold: 0.91384864
+    elevation: 0.27437988
+  - position: {x: -12.557369, y: 3.8998878}
+    redThreshold: 0.9154589
+    elevation: 0.42192045
+  - position: {x: 4.3301263, y: -5.850111}
+    redThreshold: 0.91706926
+    elevation: 0.4644785
+  - position: {x: -13.423394, y: -8.100111}
+    redThreshold: 0.91867954
+    elevation: 0.48273942
+  - position: {x: -13.423394, y: 3.8998878}
+    redThreshold: 0.9202899
+    elevation: 0.44589752
+  - position: {x: -7.3612165, y: 11.399888}
+    redThreshold: 0.92190015
+    elevation: 0.34339058
+  - position: {x: -15.155445, y: 2.3998876}
+    redThreshold: 0.9235105
+    elevation: 0.4786717
+  - position: {x: -13.856407, y: -5.850111}
+    redThreshold: 0.9251208
+    elevation: 0.47609678
+  - position: {x: -14.28942, y: -6.600112}
+    redThreshold: 0.92673105
+    elevation: 0.53656816
+  - position: {x: 19.918585, y: -7.3501124}
+    redThreshold: 0.9283414
+    elevation: 0.5844131
+  - position: {x: -7.3612165, y: 12.899888}
+    redThreshold: 0.92995167
+    elevation: 0.41242677
+  - position: {x: -13.856407, y: 1.649888}
+    redThreshold: 0.931562
+    elevation: 0.40309292
+  - position: {x: 21.650633, y: -7.3501124}
+    redThreshold: 0.9331723
+    elevation: 0.6033035
+  - position: {x: -13.856407, y: -7.3501124}
+    redThreshold: 0.9347826
+    elevation: 0.51441056
+  - position: {x: -12.557369, y: -8.100111}
+    redThreshold: 0.9363929
+    elevation: 0.46351057
+  - position: {x: -7.794229, y: 12.149888}
+    redThreshold: 0.93800324
+    elevation: 0.39275414
+  - position: {x: 4.3301263, y: -7.3501124}
+    redThreshold: 0.9396135
+    elevation: 0.38460296
+  - position: {x: -14.722432, y: 3.1498883}
+    redThreshold: 0.94122386
+    elevation: 0.45965862
+  - position: {x: -11.691342, y: -8.100111}
+    redThreshold: 0.94283414
+    elevation: 0.44646123
+  - position: {x: 5.196151, y: -5.850111}
+    redThreshold: 0.9444444
+    elevation: 0.4047493
+  - position: {x: 20.784605, y: -7.3501124}
+    redThreshold: 0.94605476
+    elevation: 0.60711396
+  - position: {x: 6.0621753, y: -5.850111}
+    redThreshold: 0.94766504
+    elevation: 0.33419755
+  - position: {x: -6.495192, y: 11.399888}
+    redThreshold: 0.9492754
+    elevation: 0.33749238
+  - position: {x: -6.495192, y: 12.899888}
+    redThreshold: 0.95088565
+    elevation: 0.3848514
+  - position: {x: -12.990381, y: -5.850111}
+    redThreshold: 0.952496
+    elevation: 0.41951585
+  - position: {x: 19.918585, y: -8.850112}
+    redThreshold: 0.9541063
+    elevation: 0.4286469
+  - position: {x: 21.650633, y: -8.850112}
+    redThreshold: 0.9557166
+    elevation: 0.47318065
+  - position: {x: 19.485569, y: -8.100111}
+    redThreshold: 0.9573269
+    elevation: 0.50309885
+  - position: {x: -13.423394, y: -6.600112}
+    redThreshold: 0.9589372
+    elevation: 0.48300102
+  - position: {x: 22.083645, y: -8.100111}
+    redThreshold: 0.9605475
+    elevation: 0.54206234
+  - position: {x: -10.392306, y: -5.850111}
+    redThreshold: 0.9621578
+    elevation: 0.37905127
+  - position: {x: -12.990381, y: -7.3501124}
+    redThreshold: 0.9637681
+    elevation: 0.47269455
+  - position: {x: -14.28942, y: 2.3998876}
+    redThreshold: 0.9653784
+    elevation: 0.41853908
+  - position: {x: 5.196151, y: -7.3501124}
+    redThreshold: 0.96698874
+    elevation: 0.32586324
+  - position: {x: 6.0621753, y: -7.3501124}
+    redThreshold: 0.968599
+    elevation: 0.2675689
+  - position: {x: -12.124356, y: 3.1498883}
+    redThreshold: 0.97020936
+    elevation: 0.38140464
+  - position: {x: -12.124356, y: -5.850111}
+    redThreshold: 0.97181964
+    elevation: 0.37627003
+  - position: {x: 20.784605, y: -8.850112}
+    redThreshold: 0.97343
+    elevation: 0.45364216
+  - position: {x: -13.856407, y: 3.1498883}
+    redThreshold: 0.97504026
+    elevation: 0.4163056
+  - position: {x: -11.258332, y: -5.850111}
+    redThreshold: 0.97665054
+    elevation: 0.36191428
+  - position: {x: 4.7631383, y: -6.600112}
+    redThreshold: 0.9782609
+    elevation: 0.38853535
+  - position: {x: -12.124356, y: -7.3501124}
+    redThreshold: 0.97987115
+    elevation: 0.43171108
+  - position: {x: 6.4951906, y: -6.600112}
+    redThreshold: 0.9814815
+    elevation: 0.26816693
+  - position: {x: -11.258332, y: -7.3501124}
+    redThreshold: 0.9830918
+    elevation: 0.40314853
+  - position: {x: -6.928203, y: 12.149888}
+    redThreshold: 0.9847021
+    elevation: 0.35239255
+  - position: {x: -12.557369, y: -6.600112}
+    redThreshold: 0.9863124
+    elevation: 0.42896268
+  - position: {x: -12.990381, y: 3.1498883}
+    redThreshold: 0.9879227
+    elevation: 0.38502127
+  - position: {x: -13.423394, y: 2.3998876}
+    redThreshold: 0.989533
+    elevation: 0.37141356
+  - position: {x: 20.351597, y: -8.100111}
+    redThreshold: 0.99114335
+    elevation: 0.5298642
+  - position: {x: 21.21762, y: -8.100111}
+    redThreshold: 0.9927536
+    elevation: 0.5466949
+  - position: {x: -10.825318, y: -6.600112}
+    redThreshold: 0.9943639
+    elevation: 0.37236074
+  - position: {x: -6.062178, y: 12.149888}
+    redThreshold: 0.99597424
+    elevation: 0.3574516
+  - position: {x: -11.691342, y: -6.600112}
+    redThreshold: 0.9975845
+    elevation: 0.38789243
+  - position: {x: 5.629163, y: -6.600112}
+    redThreshold: 0.99919486
+    elevation: 0.3262973
+  sea:
+  - {x: -31.609928, y: 20.399887}
+  - {x: -30.743902, y: 20.399887}
+  - {x: -29.877876, y: 20.399887}
+  - {x: -29.01185, y: 20.399887}
+  - {x: -28.145826, y: 20.399887}
+  - {x: -27.2798, y: 20.399887}
+  - {x: -26.413774, y: 20.399887}
+  - {x: -25.54775, y: 20.399887}
+  - {x: -24.681725, y: 20.399887}
+  - {x: -23.815699, y: 20.399887}
+  - {x: -22.949675, y: 20.399887}
+  - {x: -22.083649, y: 20.399887}
+  - {x: -21.217623, y: 20.399887}
+  - {x: -20.351597, y: 20.399887}
+  - {x: -19.485573, y: 20.399887}
+  - {x: -18.619547, y: 20.399887}
+  - {x: -17.753521, y: 20.399887}
+  - {x: -16.887495, y: 20.399887}
+  - {x: -16.021471, y: 20.399887}
+  - {x: -15.155445, y: 20.399887}
+  - {x: -14.28942, y: 20.399887}
+  - {x: -13.423394, y: 20.399887}
+  - {x: -12.557369, y: 20.399887}
+  - {x: -11.691342, y: 20.399887}
+  - {x: -10.825318, y: 20.399887}
+  - {x: -9.959293, y: 20.399887}
+  - {x: -9.093267, y: 20.399887}
+  - {x: -8.2272415, y: 20.399887}
+  - {x: -7.3612165, y: 20.399887}
+  - {x: -6.495192, y: 20.399887}
+  - {x: -5.629166, y: 20.399887}
+  - {x: -4.7631397, y: 20.399887}
+  - {x: -3.8971152, y: 20.399887}
+  - {x: -3.031089, y: 20.399887}
+  - {x: -2.1650646, y: 20.399887}
+  - {x: -1.29904, y: 20.399887}
+  - {x: -0.43301386, y: 20.399887}
+  - {x: 0.4330123, y: 20.399887}
+  - {x: 1.2990369, y: 20.399887}
+  - {x: 2.1650615, y: 20.399887}
+  - {x: 3.031089, y: 20.399887}
+  - {x: 3.8971138, y: 20.399887}
+  - {x: 4.7631383, y: 20.399887}
+  - {x: 5.629163, y: 20.399887}
+  - {x: 6.4951906, y: 20.399887}
+  - {x: 7.361215, y: 20.399887}
+  - {x: 8.227242, y: 20.399887}
+  - {x: 9.093265, y: 20.399887}
+  - {x: 9.959289, y: 20.399887}
+  - {x: 10.825316, y: 20.399887}
+  - {x: 11.691341, y: 20.399887}
+  - {x: 12.557365, y: 20.399887}
+  - {x: 13.423393, y: 20.399887}
+  - {x: 14.289418, y: 20.399887}
+  - {x: 15.155446, y: 20.399887}
+  - {x: 16.021471, y: 20.399887}
+  - {x: 16.887491, y: 20.399887}
+  - {x: 17.75352, y: 20.399887}
+  - {x: 18.619545, y: 20.399887}
+  - {x: 19.485569, y: 20.399887}
+  - {x: 20.351597, y: 20.399887}
+  - {x: 21.21762, y: 20.399887}
+  - {x: 22.083645, y: 20.399887}
+  - {x: 22.949673, y: 20.399887}
+  - {x: 23.815699, y: 20.399887}
+  - {x: 24.681726, y: 20.399887}
+  - {x: 25.547747, y: 20.399887}
+  - {x: 26.413774, y: 20.399887}
+  - {x: 27.279799, y: 20.399887}
+  - {x: 28.145824, y: 20.399887}
+  - {x: 29.011848, y: 20.399887}
+  - {x: 29.87788, y: 20.399887}
+  - {x: 30.743898, y: 20.399887}
+  - {x: 31.609922, y: 20.399887}
+  - {x: -32.04294, y: 19.649889}
+  - {x: -31.176914, y: 19.649889}
+  - {x: -30.31089, y: 19.649889}
+  - {x: -29.444864, y: 19.649889}
+  - {x: -28.578838, y: 19.649889}
+  - {x: -27.712812, y: 19.649889}
+  - {x: -26.846788, y: 19.649889}
+  - {x: -25.980762, y: 19.649889}
+  - {x: -25.114737, y: 19.649889}
+  - {x: -24.248713, y: 19.649889}
+  - {x: -23.382687, y: 19.649889}
+  - {x: -22.51666, y: 19.649889}
+  - {x: -21.650635, y: 19.649889}
+  - {x: -20.78461, y: 19.649889}
+  - {x: -19.918585, y: 19.649889}
+  - {x: -19.052559, y: 19.649889}
+  - {x: -18.186535, y: 19.649889}
+  - {x: -17.320509, y: 19.649889}
+  - {x: -16.454483, y: 19.649889}
+  - {x: -15.588458, y: 19.649889}
+  - {x: -14.722432, y: 19.649889}
+  - {x: -13.856407, y: 19.649889}
+  - {x: -12.990381, y: 19.649889}
+  - {x: -12.124356, y: 19.649889}
+  - {x: -11.258332, y: 19.649889}
+  - {x: -10.392306, y: 19.649889}
+  - {x: -9.526279, y: 19.649889}
+  - {x: -8.660255, y: 19.649889}
+  - {x: -7.794229, y: 19.649889}
+  - {x: -6.928203, y: 19.649889}
+  - {x: -6.062178, y: 19.649889}
+  - {x: -5.1961536, y: 19.649889}
+  - {x: -4.3301277, y: 19.649889}
+  - {x: -3.4641016, y: 19.649889}
+  - {x: -2.5980785, y: 19.649889}
+  - {x: -1.7320523, y: 19.649889}
+  - {x: -0.86602616, y: 19.649889}
+  - {x: 0, y: 19.649889}
+  - {x: 0.8660246, y: 19.649889}
+  - {x: 1.7320492, y: 19.649889}
+  - {x: 2.5980768, y: 19.649889}
+  - {x: 3.4640985, y: 19.649889}
+  - {x: 4.3301263, y: 19.649889}
+  - {x: 5.196151, y: 19.649889}
+  - {x: 6.0621753, y: 19.649889}
+  - {x: 6.928203, y: 19.649889}
+  - {x: 7.7942276, y: 19.649889}
+  - {x: 8.660253, y: 19.649889}
+  - {x: 9.526279, y: 19.649889}
+  - {x: 10.392304, y: 19.649889}
+  - {x: 11.258329, y: 19.649889}
+  - {x: 12.124356, y: 19.649889}
+  - {x: 12.990378, y: 19.649889}
+  - {x: 13.856406, y: 19.649889}
+  - {x: 14.72243, y: 19.649889}
+  - {x: 15.588455, y: 19.649889}
+  - {x: 16.454483, y: 19.649889}
+  - {x: 17.320507, y: 19.649889}
+  - {x: 18.186531, y: 19.649889}
+  - {x: 19.052559, y: 19.649889}
+  - {x: 19.918585, y: 19.649889}
+  - {x: 20.784605, y: 19.649889}
+  - {x: 21.650633, y: 19.649889}
+  - {x: 22.516659, y: 19.649889}
+  - {x: 23.382683, y: 19.649889}
+  - {x: 24.24871, y: 19.649889}
+  - {x: 25.114735, y: 19.649889}
+  - {x: 25.980762, y: 19.649889}
+  - {x: 26.846786, y: 19.649889}
+  - {x: 27.712812, y: 19.649889}
+  - {x: 28.578836, y: 19.649889}
+  - {x: 29.44486, y: 19.649889}
+  - {x: 30.310886, y: 19.649889}
+  - {x: 31.176916, y: 19.649889}
+  - {x: -31.609928, y: 18.899889}
+  - {x: -30.743902, y: 18.899889}
+  - {x: -29.877876, y: 18.899889}
+  - {x: -29.01185, y: 18.899889}
+  - {x: -28.145826, y: 18.899889}
+  - {x: -27.2798, y: 18.899889}
+  - {x: -26.413774, y: 18.899889}
+  - {x: -25.54775, y: 18.899889}
+  - {x: -24.681725, y: 18.899889}
+  - {x: -23.815699, y: 18.899889}
+  - {x: -22.949675, y: 18.899889}
+  - {x: -22.083649, y: 18.899889}
+  - {x: -21.217623, y: 18.899889}
+  - {x: -20.351597, y: 18.899889}
+  - {x: -19.485573, y: 18.899889}
+  - {x: -18.619547, y: 18.899889}
+  - {x: -17.753521, y: 18.899889}
+  - {x: -16.887495, y: 18.899889}
+  - {x: -16.021471, y: 18.899889}
+  - {x: -15.155445, y: 18.899889}
+  - {x: -14.28942, y: 18.899889}
+  - {x: -13.423394, y: 18.899889}
+  - {x: -12.557369, y: 18.899889}
+  - {x: -11.691342, y: 18.899889}
+  - {x: -10.825318, y: 18.899889}
+  - {x: -9.959293, y: 18.899889}
+  - {x: -9.093267, y: 18.899889}
+  - {x: -8.2272415, y: 18.899889}
+  - {x: -7.3612165, y: 18.899889}
+  - {x: -6.495192, y: 18.899889}
+  - {x: -5.629166, y: 18.899889}
+  - {x: -4.7631397, y: 18.899889}
+  - {x: -3.8971152, y: 18.899889}
+  - {x: -3.031089, y: 18.899889}
+  - {x: -2.1650646, y: 18.899889}
+  - {x: -1.29904, y: 18.899889}
+  - {x: -0.43301386, y: 18.899889}
+  - {x: 0.4330123, y: 18.899889}
+  - {x: 1.2990369, y: 18.899889}
+  - {x: 2.1650615, y: 18.899889}
+  - {x: 3.031089, y: 18.899889}
+  - {x: 3.8971138, y: 18.899889}
+  - {x: 4.7631383, y: 18.899889}
+  - {x: 5.629163, y: 18.899889}
+  - {x: 6.4951906, y: 18.899889}
+  - {x: 7.361215, y: 18.899889}
+  - {x: 8.227242, y: 18.899889}
+  - {x: 9.093265, y: 18.899889}
+  - {x: 9.959289, y: 18.899889}
+  - {x: 10.825316, y: 18.899889}
+  - {x: 11.691341, y: 18.899889}
+  - {x: 12.557365, y: 18.899889}
+  - {x: 13.423393, y: 18.899889}
+  - {x: 14.289418, y: 18.899889}
+  - {x: 15.155446, y: 18.899889}
+  - {x: 16.021471, y: 18.899889}
+  - {x: 16.887491, y: 18.899889}
+  - {x: 17.75352, y: 18.899889}
+  - {x: 18.619545, y: 18.899889}
+  - {x: 19.485569, y: 18.899889}
+  - {x: 20.351597, y: 18.899889}
+  - {x: 21.21762, y: 18.899889}
+  - {x: 22.083645, y: 18.899889}
+  - {x: 22.949673, y: 18.899889}
+  - {x: 23.815699, y: 18.899889}
+  - {x: 24.681726, y: 18.899889}
+  - {x: 25.547747, y: 18.899889}
+  - {x: 26.413774, y: 18.899889}
+  - {x: 27.279799, y: 18.899889}
+  - {x: 28.145824, y: 18.899889}
+  - {x: 29.011848, y: 18.899889}
+  - {x: 29.87788, y: 18.899889}
+  - {x: 30.743898, y: 18.899889}
+  - {x: 31.609922, y: 18.899889}
+  - {x: -32.04294, y: 18.149887}
+  - {x: -31.176914, y: 18.149887}
+  - {x: -30.31089, y: 18.149887}
+  - {x: -29.444864, y: 18.149887}
+  - {x: -28.578838, y: 18.149887}
+  - {x: -27.712812, y: 18.149887}
+  - {x: -26.846788, y: 18.149887}
+  - {x: -25.980762, y: 18.149887}
+  - {x: -25.114737, y: 18.149887}
+  - {x: -24.248713, y: 18.149887}
+  - {x: -23.382687, y: 18.149887}
+  - {x: -22.51666, y: 18.149887}
+  - {x: -21.650635, y: 18.149887}
+  - {x: -20.78461, y: 18.149887}
+  - {x: -19.918585, y: 18.149887}
+  - {x: -19.052559, y: 18.149887}
+  - {x: -18.186535, y: 18.149887}
+  - {x: -17.320509, y: 18.149887}
+  - {x: -16.454483, y: 18.149887}
+  - {x: -15.588458, y: 18.149887}
+  - {x: -14.722432, y: 18.149887}
+  - {x: -13.856407, y: 18.149887}
+  - {x: -12.990381, y: 18.149887}
+  - {x: -12.124356, y: 18.149887}
+  - {x: -11.258332, y: 18.149887}
+  - {x: -10.392306, y: 18.149887}
+  - {x: -9.526279, y: 18.149887}
+  - {x: -8.660255, y: 18.149887}
+  - {x: -7.794229, y: 18.149887}
+  - {x: -6.928203, y: 18.149887}
+  - {x: -6.062178, y: 18.149887}
+  - {x: -5.1961536, y: 18.149887}
+  - {x: -4.3301277, y: 18.149887}
+  - {x: -3.4641016, y: 18.149887}
+  - {x: -2.5980785, y: 18.149887}
+  - {x: -1.7320523, y: 18.149887}
+  - {x: -0.86602616, y: 18.149887}
+  - {x: 0, y: 18.149887}
+  - {x: 0.8660246, y: 18.149887}
+  - {x: 1.7320492, y: 18.149887}
+  - {x: 2.5980768, y: 18.149887}
+  - {x: 3.4640985, y: 18.149887}
+  - {x: 4.3301263, y: 18.149887}
+  - {x: 5.196151, y: 18.149887}
+  - {x: 6.0621753, y: 18.149887}
+  - {x: 6.928203, y: 18.149887}
+  - {x: 7.7942276, y: 18.149887}
+  - {x: 8.660253, y: 18.149887}
+  - {x: 9.526279, y: 18.149887}
+  - {x: 10.392304, y: 18.149887}
+  - {x: 11.258329, y: 18.149887}
+  - {x: 12.124356, y: 18.149887}
+  - {x: 12.990378, y: 18.149887}
+  - {x: 13.856406, y: 18.149887}
+  - {x: 14.72243, y: 18.149887}
+  - {x: 15.588455, y: 18.149887}
+  - {x: 16.454483, y: 18.149887}
+  - {x: 17.320507, y: 18.149887}
+  - {x: 18.186531, y: 18.149887}
+  - {x: 19.052559, y: 18.149887}
+  - {x: 19.918585, y: 18.149887}
+  - {x: 20.784605, y: 18.149887}
+  - {x: 21.650633, y: 18.149887}
+  - {x: 22.516659, y: 18.149887}
+  - {x: 23.382683, y: 18.149887}
+  - {x: 24.24871, y: 18.149887}
+  - {x: 25.114735, y: 18.149887}
+  - {x: 25.980762, y: 18.149887}
+  - {x: 26.846786, y: 18.149887}
+  - {x: 27.712812, y: 18.149887}
+  - {x: 28.578836, y: 18.149887}
+  - {x: 29.44486, y: 18.149887}
+  - {x: 30.310886, y: 18.149887}
+  - {x: 31.176916, y: 18.149887}
+  - {x: -31.609928, y: 17.399889}
+  - {x: -30.743902, y: 17.399889}
+  - {x: -29.877876, y: 17.399889}
+  - {x: -29.01185, y: 17.399889}
+  - {x: -28.145826, y: 17.399889}
+  - {x: -27.2798, y: 17.399889}
+  - {x: -26.413774, y: 17.399889}
+  - {x: -25.54775, y: 17.399889}
+  - {x: -24.681725, y: 17.399889}
+  - {x: -23.815699, y: 17.399889}
+  - {x: -22.949675, y: 17.399889}
+  - {x: -22.083649, y: 17.399889}
+  - {x: -21.217623, y: 17.399889}
+  - {x: -20.351597, y: 17.399889}
+  - {x: -19.485573, y: 17.399889}
+  - {x: -18.619547, y: 17.399889}
+  - {x: -17.753521, y: 17.399889}
+  - {x: -16.887495, y: 17.399889}
+  - {x: -16.021471, y: 17.399889}
+  - {x: -15.155445, y: 17.399889}
+  - {x: -14.28942, y: 17.399889}
+  - {x: -13.423394, y: 17.399889}
+  - {x: -12.557369, y: 17.399889}
+  - {x: -11.691342, y: 17.399889}
+  - {x: -10.825318, y: 17.399889}
+  - {x: -9.959293, y: 17.399889}
+  - {x: -9.093267, y: 17.399889}
+  - {x: -8.2272415, y: 17.399889}
+  - {x: -7.3612165, y: 17.399889}
+  - {x: -6.495192, y: 17.399889}
+  - {x: -5.629166, y: 17.399889}
+  - {x: -4.7631397, y: 17.399889}
+  - {x: -3.8971152, y: 17.399889}
+  - {x: -3.031089, y: 17.399889}
+  - {x: -2.1650646, y: 17.399889}
+  - {x: -1.29904, y: 17.399889}
+  - {x: -0.43301386, y: 17.399889}
+  - {x: 0.4330123, y: 17.399889}
+  - {x: 1.2990369, y: 17.399889}
+  - {x: 2.1650615, y: 17.399889}
+  - {x: 3.031089, y: 17.399889}
+  - {x: 3.8971138, y: 17.399889}
+  - {x: 4.7631383, y: 17.399889}
+  - {x: 5.629163, y: 17.399889}
+  - {x: 6.4951906, y: 17.399889}
+  - {x: 7.361215, y: 17.399889}
+  - {x: 8.227242, y: 17.399889}
+  - {x: 9.093265, y: 17.399889}
+  - {x: 9.959289, y: 17.399889}
+  - {x: 10.825316, y: 17.399889}
+  - {x: 11.691341, y: 17.399889}
+  - {x: 12.557365, y: 17.399889}
+  - {x: 13.423393, y: 17.399889}
+  - {x: 14.289418, y: 17.399889}
+  - {x: 15.155446, y: 17.399889}
+  - {x: 16.021471, y: 17.399889}
+  - {x: 16.887491, y: 17.399889}
+  - {x: 17.75352, y: 17.399889}
+  - {x: 18.619545, y: 17.399889}
+  - {x: 19.485569, y: 17.399889}
+  - {x: 20.351597, y: 17.399889}
+  - {x: 21.21762, y: 17.399889}
+  - {x: 22.083645, y: 17.399889}
+  - {x: 22.949673, y: 17.399889}
+  - {x: 23.815699, y: 17.399889}
+  - {x: 24.681726, y: 17.399889}
+  - {x: 25.547747, y: 17.399889}
+  - {x: 26.413774, y: 17.399889}
+  - {x: 27.279799, y: 17.399889}
+  - {x: 28.145824, y: 17.399889}
+  - {x: 29.011848, y: 17.399889}
+  - {x: 29.87788, y: 17.399889}
+  - {x: 30.743898, y: 17.399889}
+  - {x: 31.609922, y: 17.399889}
+  - {x: -32.04294, y: 16.649887}
+  - {x: -31.176914, y: 16.649887}
+  - {x: -30.31089, y: 16.649887}
+  - {x: -29.444864, y: 16.649887}
+  - {x: -28.578838, y: 16.649887}
+  - {x: -27.712812, y: 16.649887}
+  - {x: -26.846788, y: 16.649887}
+  - {x: -25.980762, y: 16.649887}
+  - {x: -25.114737, y: 16.649887}
+  - {x: -24.248713, y: 16.649887}
+  - {x: -23.382687, y: 16.649887}
+  - {x: -22.51666, y: 16.649887}
+  - {x: -21.650635, y: 16.649887}
+  - {x: -20.78461, y: 16.649887}
+  - {x: -19.918585, y: 16.649887}
+  - {x: -19.052559, y: 16.649887}
+  - {x: -18.186535, y: 16.649887}
+  - {x: -17.320509, y: 16.649887}
+  - {x: -16.454483, y: 16.649887}
+  - {x: -15.588458, y: 16.649887}
+  - {x: -14.722432, y: 16.649887}
+  - {x: -13.856407, y: 16.649887}
+  - {x: -12.990381, y: 16.649887}
+  - {x: -12.124356, y: 16.649887}
+  - {x: -11.258332, y: 16.649887}
+  - {x: -10.392306, y: 16.649887}
+  - {x: -9.526279, y: 16.649887}
+  - {x: -8.660255, y: 16.649887}
+  - {x: -7.794229, y: 16.649887}
+  - {x: -6.928203, y: 16.649887}
+  - {x: -6.062178, y: 16.649887}
+  - {x: -5.1961536, y: 16.649887}
+  - {x: -4.3301277, y: 16.649887}
+  - {x: -3.4641016, y: 16.649887}
+  - {x: -2.5980785, y: 16.649887}
+  - {x: -1.7320523, y: 16.649887}
+  - {x: -0.86602616, y: 16.649887}
+  - {x: 0, y: 16.649887}
+  - {x: 0.8660246, y: 16.649887}
+  - {x: 1.7320492, y: 16.649887}
+  - {x: 2.5980768, y: 16.649887}
+  - {x: 3.4640985, y: 16.649887}
+  - {x: 4.3301263, y: 16.649887}
+  - {x: 5.196151, y: 16.649887}
+  - {x: 6.0621753, y: 16.649887}
+  - {x: 6.928203, y: 16.649887}
+  - {x: 7.7942276, y: 16.649887}
+  - {x: 8.660253, y: 16.649887}
+  - {x: 9.526279, y: 16.649887}
+  - {x: 10.392304, y: 16.649887}
+  - {x: 11.258329, y: 16.649887}
+  - {x: 12.124356, y: 16.649887}
+  - {x: 12.990378, y: 16.649887}
+  - {x: 13.856406, y: 16.649887}
+  - {x: 14.72243, y: 16.649887}
+  - {x: 15.588455, y: 16.649887}
+  - {x: 16.454483, y: 16.649887}
+  - {x: 17.320507, y: 16.649887}
+  - {x: 18.186531, y: 16.649887}
+  - {x: 19.052559, y: 16.649887}
+  - {x: 19.918585, y: 16.649887}
+  - {x: 20.784605, y: 16.649887}
+  - {x: 21.650633, y: 16.649887}
+  - {x: 22.516659, y: 16.649887}
+  - {x: 23.382683, y: 16.649887}
+  - {x: 24.24871, y: 16.649887}
+  - {x: 25.114735, y: 16.649887}
+  - {x: 25.980762, y: 16.649887}
+  - {x: 26.846786, y: 16.649887}
+  - {x: 27.712812, y: 16.649887}
+  - {x: 28.578836, y: 16.649887}
+  - {x: 29.44486, y: 16.649887}
+  - {x: 30.310886, y: 16.649887}
+  - {x: 31.176916, y: 16.649887}
+  - {x: -31.609928, y: 15.899888}
+  - {x: -30.743902, y: 15.899888}
+  - {x: -29.877876, y: 15.899888}
+  - {x: -29.01185, y: 15.899888}
+  - {x: -28.145826, y: 15.899888}
+  - {x: -27.2798, y: 15.899888}
+  - {x: -26.413774, y: 15.899888}
+  - {x: -25.54775, y: 15.899888}
+  - {x: -24.681725, y: 15.899888}
+  - {x: -23.815699, y: 15.899888}
+  - {x: -22.949675, y: 15.899888}
+  - {x: -22.083649, y: 15.899888}
+  - {x: -21.217623, y: 15.899888}
+  - {x: -20.351597, y: 15.899888}
+  - {x: -19.485573, y: 15.899888}
+  - {x: -18.619547, y: 15.899888}
+  - {x: -17.753521, y: 15.899888}
+  - {x: -16.887495, y: 15.899888}
+  - {x: -16.021471, y: 15.899888}
+  - {x: -15.155445, y: 15.899888}
+  - {x: -14.28942, y: 15.899888}
+  - {x: -13.423394, y: 15.899888}
+  - {x: -12.557369, y: 15.899888}
+  - {x: -11.691342, y: 15.899888}
+  - {x: -10.825318, y: 15.899888}
+  - {x: -9.959293, y: 15.899888}
+  - {x: -9.093267, y: 15.899888}
+  - {x: -8.2272415, y: 15.899888}
+  - {x: -7.3612165, y: 15.899888}
+  - {x: -6.495192, y: 15.899888}
+  - {x: -5.629166, y: 15.899888}
+  - {x: -4.7631397, y: 15.899888}
+  - {x: -3.8971152, y: 15.899888}
+  - {x: -3.031089, y: 15.899888}
+  - {x: -2.1650646, y: 15.899888}
+  - {x: -1.29904, y: 15.899888}
+  - {x: -0.43301386, y: 15.899888}
+  - {x: 0.4330123, y: 15.899888}
+  - {x: 1.2990369, y: 15.899888}
+  - {x: 2.1650615, y: 15.899888}
+  - {x: 3.031089, y: 15.899888}
+  - {x: 3.8971138, y: 15.899888}
+  - {x: 4.7631383, y: 15.899888}
+  - {x: 5.629163, y: 15.899888}
+  - {x: 6.4951906, y: 15.899888}
+  - {x: 7.361215, y: 15.899888}
+  - {x: 8.227242, y: 15.899888}
+  - {x: 9.093265, y: 15.899888}
+  - {x: 9.959289, y: 15.899888}
+  - {x: 10.825316, y: 15.899888}
+  - {x: 11.691341, y: 15.899888}
+  - {x: 12.557365, y: 15.899888}
+  - {x: 13.423393, y: 15.899888}
+  - {x: 14.289418, y: 15.899888}
+  - {x: 15.155446, y: 15.899888}
+  - {x: 16.021471, y: 15.899888}
+  - {x: 16.887491, y: 15.899888}
+  - {x: 17.75352, y: 15.899888}
+  - {x: 18.619545, y: 15.899888}
+  - {x: 19.485569, y: 15.899888}
+  - {x: 20.351597, y: 15.899888}
+  - {x: 21.21762, y: 15.899888}
+  - {x: 22.083645, y: 15.899888}
+  - {x: 22.949673, y: 15.899888}
+  - {x: 23.815699, y: 15.899888}
+  - {x: 24.681726, y: 15.899888}
+  - {x: 25.547747, y: 15.899888}
+  - {x: 26.413774, y: 15.899888}
+  - {x: 27.279799, y: 15.899888}
+  - {x: 28.145824, y: 15.899888}
+  - {x: 29.011848, y: 15.899888}
+  - {x: 29.87788, y: 15.899888}
+  - {x: 30.743898, y: 15.899888}
+  - {x: 31.609922, y: 15.899888}
+  - {x: -32.04294, y: 15.149888}
+  - {x: -31.176914, y: 15.149888}
+  - {x: -30.31089, y: 15.149888}
+  - {x: -29.444864, y: 15.149888}
+  - {x: -28.578838, y: 15.149888}
+  - {x: -27.712812, y: 15.149888}
+  - {x: -26.846788, y: 15.149888}
+  - {x: -25.980762, y: 15.149888}
+  - {x: -25.114737, y: 15.149888}
+  - {x: -24.248713, y: 15.149888}
+  - {x: -23.382687, y: 15.149888}
+  - {x: -22.51666, y: 15.149888}
+  - {x: -21.650635, y: 15.149888}
+  - {x: -20.78461, y: 15.149888}
+  - {x: -19.918585, y: 15.149888}
+  - {x: -19.052559, y: 15.149888}
+  - {x: -18.186535, y: 15.149888}
+  - {x: -17.320509, y: 15.149888}
+  - {x: -16.454483, y: 15.149888}
+  - {x: -15.588458, y: 15.149888}
+  - {x: -14.722432, y: 15.149888}
+  - {x: -13.856407, y: 15.149888}
+  - {x: -12.990381, y: 15.149888}
+  - {x: -12.124356, y: 15.149888}
+  - {x: -11.258332, y: 15.149888}
+  - {x: -10.392306, y: 15.149888}
+  - {x: -9.526279, y: 15.149888}
+  - {x: -8.660255, y: 15.149888}
+  - {x: -7.794229, y: 15.149888}
+  - {x: -6.928203, y: 15.149888}
+  - {x: -6.062178, y: 15.149888}
+  - {x: -5.1961536, y: 15.149888}
+  - {x: -4.3301277, y: 15.149888}
+  - {x: -3.4641016, y: 15.149888}
+  - {x: -2.5980785, y: 15.149888}
+  - {x: -1.7320523, y: 15.149888}
+  - {x: -0.86602616, y: 15.149888}
+  - {x: 0, y: 15.149888}
+  - {x: 0.8660246, y: 15.149888}
+  - {x: 1.7320492, y: 15.149888}
+  - {x: 2.5980768, y: 15.149888}
+  - {x: 3.4640985, y: 15.149888}
+  - {x: 4.3301263, y: 15.149888}
+  - {x: 5.196151, y: 15.149888}
+  - {x: 6.0621753, y: 15.149888}
+  - {x: 6.928203, y: 15.149888}
+  - {x: 7.7942276, y: 15.149888}
+  - {x: 8.660253, y: 15.149888}
+  - {x: 9.526279, y: 15.149888}
+  - {x: 10.392304, y: 15.149888}
+  - {x: 11.258329, y: 15.149888}
+  - {x: 12.124356, y: 15.149888}
+  - {x: 12.990378, y: 15.149888}
+  - {x: 13.856406, y: 15.149888}
+  - {x: 14.72243, y: 15.149888}
+  - {x: 15.588455, y: 15.149888}
+  - {x: 16.454483, y: 15.149888}
+  - {x: 17.320507, y: 15.149888}
+  - {x: 18.186531, y: 15.149888}
+  - {x: 19.052559, y: 15.149888}
+  - {x: 19.918585, y: 15.149888}
+  - {x: 20.784605, y: 15.149888}
+  - {x: 21.650633, y: 15.149888}
+  - {x: 22.516659, y: 15.149888}
+  - {x: 23.382683, y: 15.149888}
+  - {x: 24.24871, y: 15.149888}
+  - {x: 25.114735, y: 15.149888}
+  - {x: 25.980762, y: 15.149888}
+  - {x: 26.846786, y: 15.149888}
+  - {x: 27.712812, y: 15.149888}
+  - {x: 28.578836, y: 15.149888}
+  - {x: 29.44486, y: 15.149888}
+  - {x: 30.310886, y: 15.149888}
+  - {x: 31.176916, y: 15.149888}
+  - {x: -31.609928, y: 14.399888}
+  - {x: -30.743902, y: 14.399888}
+  - {x: -29.877876, y: 14.399888}
+  - {x: -29.01185, y: 14.399888}
+  - {x: -28.145826, y: 14.399888}
+  - {x: -27.2798, y: 14.399888}
+  - {x: -26.413774, y: 14.399888}
+  - {x: -25.54775, y: 14.399888}
+  - {x: -24.681725, y: 14.399888}
+  - {x: -23.815699, y: 14.399888}
+  - {x: -22.949675, y: 14.399888}
+  - {x: -22.083649, y: 14.399888}
+  - {x: -21.217623, y: 14.399888}
+  - {x: -20.351597, y: 14.399888}
+  - {x: -19.485573, y: 14.399888}
+  - {x: -18.619547, y: 14.399888}
+  - {x: -17.753521, y: 14.399888}
+  - {x: -16.887495, y: 14.399888}
+  - {x: -16.021471, y: 14.399888}
+  - {x: -15.155445, y: 14.399888}
+  - {x: -14.28942, y: 14.399888}
+  - {x: -13.423394, y: 14.399888}
+  - {x: -12.557369, y: 14.399888}
+  - {x: -11.691342, y: 14.399888}
+  - {x: -10.825318, y: 14.399888}
+  - {x: -9.959293, y: 14.399888}
+  - {x: -9.093267, y: 14.399888}
+  - {x: -8.2272415, y: 14.399888}
+  - {x: -7.3612165, y: 14.399888}
+  - {x: -6.495192, y: 14.399888}
+  - {x: -5.629166, y: 14.399888}
+  - {x: -4.7631397, y: 14.399888}
+  - {x: -3.8971152, y: 14.399888}
+  - {x: -3.031089, y: 14.399888}
+  - {x: -2.1650646, y: 14.399888}
+  - {x: -1.29904, y: 14.399888}
+  - {x: -0.43301386, y: 14.399888}
+  - {x: 0.4330123, y: 14.399888}
+  - {x: 1.2990369, y: 14.399888}
+  - {x: 2.1650615, y: 14.399888}
+  - {x: 3.031089, y: 14.399888}
+  - {x: 3.8971138, y: 14.399888}
+  - {x: 4.7631383, y: 14.399888}
+  - {x: 5.629163, y: 14.399888}
+  - {x: 6.4951906, y: 14.399888}
+  - {x: 7.361215, y: 14.399888}
+  - {x: 8.227242, y: 14.399888}
+  - {x: 9.093265, y: 14.399888}
+  - {x: 9.959289, y: 14.399888}
+  - {x: 10.825316, y: 14.399888}
+  - {x: 11.691341, y: 14.399888}
+  - {x: 12.557365, y: 14.399888}
+  - {x: 13.423393, y: 14.399888}
+  - {x: 14.289418, y: 14.399888}
+  - {x: 15.155446, y: 14.399888}
+  - {x: 16.021471, y: 14.399888}
+  - {x: 16.887491, y: 14.399888}
+  - {x: 17.75352, y: 14.399888}
+  - {x: 18.619545, y: 14.399888}
+  - {x: 19.485569, y: 14.399888}
+  - {x: 20.351597, y: 14.399888}
+  - {x: 21.21762, y: 14.399888}
+  - {x: 22.083645, y: 14.399888}
+  - {x: 22.949673, y: 14.399888}
+  - {x: 23.815699, y: 14.399888}
+  - {x: 24.681726, y: 14.399888}
+  - {x: 25.547747, y: 14.399888}
+  - {x: 26.413774, y: 14.399888}
+  - {x: 27.279799, y: 14.399888}
+  - {x: 28.145824, y: 14.399888}
+  - {x: 29.011848, y: 14.399888}
+  - {x: 29.87788, y: 14.399888}
+  - {x: 30.743898, y: 14.399888}
+  - {x: 31.609922, y: 14.399888}
+  - {x: -32.04294, y: 13.649888}
+  - {x: -31.176914, y: 13.649888}
+  - {x: -30.31089, y: 13.649888}
+  - {x: -29.444864, y: 13.649888}
+  - {x: -28.578838, y: 13.649888}
+  - {x: -27.712812, y: 13.649888}
+  - {x: -26.846788, y: 13.649888}
+  - {x: -25.980762, y: 13.649888}
+  - {x: -25.114737, y: 13.649888}
+  - {x: -24.248713, y: 13.649888}
+  - {x: -23.382687, y: 13.649888}
+  - {x: -22.51666, y: 13.649888}
+  - {x: -21.650635, y: 13.649888}
+  - {x: -20.78461, y: 13.649888}
+  - {x: -19.918585, y: 13.649888}
+  - {x: -19.052559, y: 13.649888}
+  - {x: -18.186535, y: 13.649888}
+  - {x: -17.320509, y: 13.649888}
+  - {x: -16.454483, y: 13.649888}
+  - {x: -15.588458, y: 13.649888}
+  - {x: -14.722432, y: 13.649888}
+  - {x: -13.856407, y: 13.649888}
+  - {x: -12.990381, y: 13.649888}
+  - {x: -12.124356, y: 13.649888}
+  - {x: -11.258332, y: 13.649888}
+  - {x: -10.392306, y: 13.649888}
+  - {x: -9.526279, y: 13.649888}
+  - {x: -8.660255, y: 13.649888}
+  - {x: -7.794229, y: 13.649888}
+  - {x: -6.928203, y: 13.649888}
+  - {x: -6.062178, y: 13.649888}
+  - {x: -5.1961536, y: 13.649888}
+  - {x: -4.3301277, y: 13.649888}
+  - {x: -3.4641016, y: 13.649888}
+  - {x: -2.5980785, y: 13.649888}
+  - {x: -1.7320523, y: 13.649888}
+  - {x: -0.86602616, y: 13.649888}
+  - {x: 0, y: 13.649888}
+  - {x: 0.8660246, y: 13.649888}
+  - {x: 1.7320492, y: 13.649888}
+  - {x: 2.5980768, y: 13.649888}
+  - {x: 3.4640985, y: 13.649888}
+  - {x: 4.3301263, y: 13.649888}
+  - {x: 5.196151, y: 13.649888}
+  - {x: 6.0621753, y: 13.649888}
+  - {x: 6.928203, y: 13.649888}
+  - {x: 7.7942276, y: 13.649888}
+  - {x: 8.660253, y: 13.649888}
+  - {x: 9.526279, y: 13.649888}
+  - {x: 10.392304, y: 13.649888}
+  - {x: 11.258329, y: 13.649888}
+  - {x: 12.124356, y: 13.649888}
+  - {x: 12.990378, y: 13.649888}
+  - {x: 13.856406, y: 13.649888}
+  - {x: 14.72243, y: 13.649888}
+  - {x: 15.588455, y: 13.649888}
+  - {x: 16.454483, y: 13.649888}
+  - {x: 17.320507, y: 13.649888}
+  - {x: 18.186531, y: 13.649888}
+  - {x: 19.052559, y: 13.649888}
+  - {x: 19.918585, y: 13.649888}
+  - {x: 20.784605, y: 13.649888}
+  - {x: 21.650633, y: 13.649888}
+  - {x: 22.516659, y: 13.649888}
+  - {x: 23.382683, y: 13.649888}
+  - {x: 24.24871, y: 13.649888}
+  - {x: 25.114735, y: 13.649888}
+  - {x: 25.980762, y: 13.649888}
+  - {x: 26.846786, y: 13.649888}
+  - {x: 27.712812, y: 13.649888}
+  - {x: 28.578836, y: 13.649888}
+  - {x: 29.44486, y: 13.649888}
+  - {x: 30.310886, y: 13.649888}
+  - {x: 31.176916, y: 13.649888}
+  - {x: -31.609928, y: 12.899888}
+  - {x: -30.743902, y: 12.899888}
+  - {x: -29.877876, y: 12.899888}
+  - {x: -29.01185, y: 12.899888}
+  - {x: -28.145826, y: 12.899888}
+  - {x: -27.2798, y: 12.899888}
+  - {x: -26.413774, y: 12.899888}
+  - {x: -25.54775, y: 12.899888}
+  - {x: -24.681725, y: 12.899888}
+  - {x: -23.815699, y: 12.899888}
+  - {x: -22.949675, y: 12.899888}
+  - {x: -22.083649, y: 12.899888}
+  - {x: -21.217623, y: 12.899888}
+  - {x: -20.351597, y: 12.899888}
+  - {x: -19.485573, y: 12.899888}
+  - {x: -18.619547, y: 12.899888}
+  - {x: -17.753521, y: 12.899888}
+  - {x: -16.887495, y: 12.899888}
+  - {x: -16.021471, y: 12.899888}
+  - {x: -15.155445, y: 12.899888}
+  - {x: -14.28942, y: 12.899888}
+  - {x: -5.629166, y: 12.899888}
+  - {x: -4.7631397, y: 12.899888}
+  - {x: -3.8971152, y: 12.899888}
+  - {x: -3.031089, y: 12.899888}
+  - {x: -2.1650646, y: 12.899888}
+  - {x: -1.29904, y: 12.899888}
+  - {x: -0.43301386, y: 12.899888}
+  - {x: 0.4330123, y: 12.899888}
+  - {x: 1.2990369, y: 12.899888}
+  - {x: 2.1650615, y: 12.899888}
+  - {x: 3.031089, y: 12.899888}
+  - {x: 3.8971138, y: 12.899888}
+  - {x: 4.7631383, y: 12.899888}
+  - {x: 5.629163, y: 12.899888}
+  - {x: 6.4951906, y: 12.899888}
+  - {x: 7.361215, y: 12.899888}
+  - {x: 8.227242, y: 12.899888}
+  - {x: 9.093265, y: 12.899888}
+  - {x: 9.959289, y: 12.899888}
+  - {x: 10.825316, y: 12.899888}
+  - {x: 11.691341, y: 12.899888}
+  - {x: 12.557365, y: 12.899888}
+  - {x: 13.423393, y: 12.899888}
+  - {x: 14.289418, y: 12.899888}
+  - {x: 15.155446, y: 12.899888}
+  - {x: 16.021471, y: 12.899888}
+  - {x: 16.887491, y: 12.899888}
+  - {x: 17.75352, y: 12.899888}
+  - {x: 18.619545, y: 12.899888}
+  - {x: 19.485569, y: 12.899888}
+  - {x: 20.351597, y: 12.899888}
+  - {x: 21.21762, y: 12.899888}
+  - {x: 22.083645, y: 12.899888}
+  - {x: 22.949673, y: 12.899888}
+  - {x: 23.815699, y: 12.899888}
+  - {x: 24.681726, y: 12.899888}
+  - {x: 25.547747, y: 12.899888}
+  - {x: 26.413774, y: 12.899888}
+  - {x: 27.279799, y: 12.899888}
+  - {x: 28.145824, y: 12.899888}
+  - {x: 29.011848, y: 12.899888}
+  - {x: 29.87788, y: 12.899888}
+  - {x: 30.743898, y: 12.899888}
+  - {x: 31.609922, y: 12.899888}
+  - {x: -32.04294, y: 12.149888}
+  - {x: -31.176914, y: 12.149888}
+  - {x: -30.31089, y: 12.149888}
+  - {x: -29.444864, y: 12.149888}
+  - {x: -28.578838, y: 12.149888}
+  - {x: -27.712812, y: 12.149888}
+  - {x: -26.846788, y: 12.149888}
+  - {x: -25.980762, y: 12.149888}
+  - {x: -25.114737, y: 12.149888}
+  - {x: -24.248713, y: 12.149888}
+  - {x: -23.382687, y: 12.149888}
+  - {x: -22.51666, y: 12.149888}
+  - {x: -21.650635, y: 12.149888}
+  - {x: -20.78461, y: 12.149888}
+  - {x: -19.918585, y: 12.149888}
+  - {x: -19.052559, y: 12.149888}
+  - {x: -18.186535, y: 12.149888}
+  - {x: -17.320509, y: 12.149888}
+  - {x: -16.454483, y: 12.149888}
+  - {x: -15.588458, y: 12.149888}
+  - {x: -14.722432, y: 12.149888}
+  - {x: -5.1961536, y: 12.149888}
+  - {x: -4.3301277, y: 12.149888}
+  - {x: -3.4641016, y: 12.149888}
+  - {x: -2.5980785, y: 12.149888}
+  - {x: -1.7320523, y: 12.149888}
+  - {x: -0.86602616, y: 12.149888}
+  - {x: 0, y: 12.149888}
+  - {x: 0.8660246, y: 12.149888}
+  - {x: 1.7320492, y: 12.149888}
+  - {x: 2.5980768, y: 12.149888}
+  - {x: 3.4640985, y: 12.149888}
+  - {x: 4.3301263, y: 12.149888}
+  - {x: 5.196151, y: 12.149888}
+  - {x: 6.0621753, y: 12.149888}
+  - {x: 6.928203, y: 12.149888}
+  - {x: 7.7942276, y: 12.149888}
+  - {x: 8.660253, y: 12.149888}
+  - {x: 9.526279, y: 12.149888}
+  - {x: 10.392304, y: 12.149888}
+  - {x: 11.258329, y: 12.149888}
+  - {x: 12.124356, y: 12.149888}
+  - {x: 12.990378, y: 12.149888}
+  - {x: 13.856406, y: 12.149888}
+  - {x: 14.72243, y: 12.149888}
+  - {x: 15.588455, y: 12.149888}
+  - {x: 16.454483, y: 12.149888}
+  - {x: 17.320507, y: 12.149888}
+  - {x: 18.186531, y: 12.149888}
+  - {x: 19.052559, y: 12.149888}
+  - {x: 19.918585, y: 12.149888}
+  - {x: 20.784605, y: 12.149888}
+  - {x: 21.650633, y: 12.149888}
+  - {x: 22.516659, y: 12.149888}
+  - {x: 23.382683, y: 12.149888}
+  - {x: 24.24871, y: 12.149888}
+  - {x: 25.114735, y: 12.149888}
+  - {x: 25.980762, y: 12.149888}
+  - {x: 26.846786, y: 12.149888}
+  - {x: 27.712812, y: 12.149888}
+  - {x: 28.578836, y: 12.149888}
+  - {x: 29.44486, y: 12.149888}
+  - {x: 30.310886, y: 12.149888}
+  - {x: 31.176916, y: 12.149888}
+  - {x: -31.609928, y: 11.399888}
+  - {x: -30.743902, y: 11.399888}
+  - {x: -29.877876, y: 11.399888}
+  - {x: -29.01185, y: 11.399888}
+  - {x: -28.145826, y: 11.399888}
+  - {x: -27.2798, y: 11.399888}
+  - {x: -26.413774, y: 11.399888}
+  - {x: -25.54775, y: 11.399888}
+  - {x: -24.681725, y: 11.399888}
+  - {x: -23.815699, y: 11.399888}
+  - {x: -22.949675, y: 11.399888}
+  - {x: -22.083649, y: 11.399888}
+  - {x: -21.217623, y: 11.399888}
+  - {x: -20.351597, y: 11.399888}
+  - {x: -19.485573, y: 11.399888}
+  - {x: -18.619547, y: 11.399888}
+  - {x: -17.753521, y: 11.399888}
+  - {x: -16.887495, y: 11.399888}
+  - {x: -16.021471, y: 11.399888}
+  - {x: -14.28942, y: 11.399888}
+  - {x: -12.557369, y: 11.399888}
+  - {x: -5.629166, y: 11.399888}
+  - {x: -4.7631397, y: 11.399888}
+  - {x: -3.8971152, y: 11.399888}
+  - {x: -3.031089, y: 11.399888}
+  - {x: -2.1650646, y: 11.399888}
+  - {x: -1.29904, y: 11.399888}
+  - {x: -0.43301386, y: 11.399888}
+  - {x: 0.4330123, y: 11.399888}
+  - {x: 1.2990369, y: 11.399888}
+  - {x: 2.1650615, y: 11.399888}
+  - {x: 3.031089, y: 11.399888}
+  - {x: 3.8971138, y: 11.399888}
+  - {x: 5.629163, y: 11.399888}
+  - {x: 6.4951906, y: 11.399888}
+  - {x: 7.361215, y: 11.399888}
+  - {x: 8.227242, y: 11.399888}
+  - {x: 9.093265, y: 11.399888}
+  - {x: 9.959289, y: 11.399888}
+  - {x: 10.825316, y: 11.399888}
+  - {x: 11.691341, y: 11.399888}
+  - {x: 13.423393, y: 11.399888}
+  - {x: 14.289418, y: 11.399888}
+  - {x: 15.155446, y: 11.399888}
+  - {x: 16.021471, y: 11.399888}
+  - {x: 16.887491, y: 11.399888}
+  - {x: 17.75352, y: 11.399888}
+  - {x: 18.619545, y: 11.399888}
+  - {x: 19.485569, y: 11.399888}
+  - {x: 20.351597, y: 11.399888}
+  - {x: 21.21762, y: 11.399888}
+  - {x: 22.083645, y: 11.399888}
+  - {x: 22.949673, y: 11.399888}
+  - {x: 23.815699, y: 11.399888}
+  - {x: 24.681726, y: 11.399888}
+  - {x: 25.547747, y: 11.399888}
+  - {x: 26.413774, y: 11.399888}
+  - {x: 27.279799, y: 11.399888}
+  - {x: 28.145824, y: 11.399888}
+  - {x: 29.011848, y: 11.399888}
+  - {x: 29.87788, y: 11.399888}
+  - {x: 30.743898, y: 11.399888}
+  - {x: 31.609922, y: 11.399888}
+  - {x: -32.04294, y: 10.649888}
+  - {x: -31.176914, y: 10.649888}
+  - {x: -30.31089, y: 10.649888}
+  - {x: -29.444864, y: 10.649888}
+  - {x: -28.578838, y: 10.649888}
+  - {x: -27.712812, y: 10.649888}
+  - {x: -26.846788, y: 10.649888}
+  - {x: -25.980762, y: 10.649888}
+  - {x: -25.114737, y: 10.649888}
+  - {x: -24.248713, y: 10.649888}
+  - {x: -23.382687, y: 10.649888}
+  - {x: -22.51666, y: 10.649888}
+  - {x: -21.650635, y: 10.649888}
+  - {x: -20.78461, y: 10.649888}
+  - {x: -19.918585, y: 10.649888}
+  - {x: -19.052559, y: 10.649888}
+  - {x: -18.186535, y: 10.649888}
+  - {x: -17.320509, y: 10.649888}
+  - {x: -15.588458, y: 10.649888}
+  - {x: -12.990381, y: 10.649888}
+  - {x: -12.124356, y: 10.649888}
+  - {x: -11.258332, y: 10.649888}
+  - {x: -5.1961536, y: 10.649888}
+  - {x: -4.3301277, y: 10.649888}
+  - {x: -3.4641016, y: 10.649888}
+  - {x: -2.5980785, y: 10.649888}
+  - {x: -1.7320523, y: 10.649888}
+  - {x: -0.86602616, y: 10.649888}
+  - {x: 0, y: 10.649888}
+  - {x: 0.8660246, y: 10.649888}
+  - {x: 1.7320492, y: 10.649888}
+  - {x: 2.5980768, y: 10.649888}
+  - {x: 3.4640985, y: 10.649888}
+  - {x: 4.3301263, y: 10.649888}
+  - {x: 5.196151, y: 10.649888}
+  - {x: 6.0621753, y: 10.649888}
+  - {x: 6.928203, y: 10.649888}
+  - {x: 7.7942276, y: 10.649888}
+  - {x: 8.660253, y: 10.649888}
+  - {x: 9.526279, y: 10.649888}
+  - {x: 10.392304, y: 10.649888}
+  - {x: 11.258329, y: 10.649888}
+  - {x: 12.124356, y: 10.649888}
+  - {x: 12.990378, y: 10.649888}
+  - {x: 13.856406, y: 10.649888}
+  - {x: 14.72243, y: 10.649888}
+  - {x: 15.588455, y: 10.649888}
+  - {x: 16.454483, y: 10.649888}
+  - {x: 17.320507, y: 10.649888}
+  - {x: 18.186531, y: 10.649888}
+  - {x: 19.052559, y: 10.649888}
+  - {x: 19.918585, y: 10.649888}
+  - {x: 20.784605, y: 10.649888}
+  - {x: 21.650633, y: 10.649888}
+  - {x: 22.516659, y: 10.649888}
+  - {x: 23.382683, y: 10.649888}
+  - {x: 24.24871, y: 10.649888}
+  - {x: 25.114735, y: 10.649888}
+  - {x: 25.980762, y: 10.649888}
+  - {x: 26.846786, y: 10.649888}
+  - {x: 27.712812, y: 10.649888}
+  - {x: 28.578836, y: 10.649888}
+  - {x: 29.44486, y: 10.649888}
+  - {x: 30.310886, y: 10.649888}
+  - {x: 31.176916, y: 10.649888}
+  - {x: -31.609928, y: 9.899888}
+  - {x: -30.743902, y: 9.899888}
+  - {x: -29.877876, y: 9.899888}
+  - {x: -29.01185, y: 9.899888}
+  - {x: -28.145826, y: 9.899888}
+  - {x: -27.2798, y: 9.899888}
+  - {x: -26.413774, y: 9.899888}
+  - {x: -25.54775, y: 9.899888}
+  - {x: -24.681725, y: 9.899888}
+  - {x: -23.815699, y: 9.899888}
+  - {x: -22.949675, y: 9.899888}
+  - {x: -22.083649, y: 9.899888}
+  - {x: -21.217623, y: 9.899888}
+  - {x: -20.351597, y: 9.899888}
+  - {x: -19.485573, y: 9.899888}
+  - {x: -12.557369, y: 9.899888}
+  - {x: -11.691342, y: 9.899888}
+  - {x: -10.825318, y: 9.899888}
+  - {x: -5.629166, y: 9.899888}
+  - {x: -4.7631397, y: 9.899888}
+  - {x: -3.8971152, y: 9.899888}
+  - {x: -3.031089, y: 9.899888}
+  - {x: -2.1650646, y: 9.899888}
+  - {x: -1.29904, y: 9.899888}
+  - {x: -0.43301386, y: 9.899888}
+  - {x: 0.4330123, y: 9.899888}
+  - {x: 1.2990369, y: 9.899888}
+  - {x: 2.1650615, y: 9.899888}
+  - {x: 3.031089, y: 9.899888}
+  - {x: 3.8971138, y: 9.899888}
+  - {x: 4.7631383, y: 9.899888}
+  - {x: 5.629163, y: 9.899888}
+  - {x: 6.4951906, y: 9.899888}
+  - {x: 7.361215, y: 9.899888}
+  - {x: 8.227242, y: 9.899888}
+  - {x: 9.093265, y: 9.899888}
+  - {x: 9.959289, y: 9.899888}
+  - {x: 10.825316, y: 9.899888}
+  - {x: 11.691341, y: 9.899888}
+  - {x: 16.021471, y: 9.899888}
+  - {x: 16.887491, y: 9.899888}
+  - {x: 17.75352, y: 9.899888}
+  - {x: 18.619545, y: 9.899888}
+  - {x: 19.485569, y: 9.899888}
+  - {x: 20.351597, y: 9.899888}
+  - {x: 21.21762, y: 9.899888}
+  - {x: 22.083645, y: 9.899888}
+  - {x: 22.949673, y: 9.899888}
+  - {x: 23.815699, y: 9.899888}
+  - {x: 24.681726, y: 9.899888}
+  - {x: 25.547747, y: 9.899888}
+  - {x: 26.413774, y: 9.899888}
+  - {x: 27.279799, y: 9.899888}
+  - {x: 28.145824, y: 9.899888}
+  - {x: 29.011848, y: 9.899888}
+  - {x: 29.87788, y: 9.899888}
+  - {x: 30.743898, y: 9.899888}
+  - {x: 31.609922, y: 9.899888}
+  - {x: -32.04294, y: 9.149888}
+  - {x: -31.176914, y: 9.149888}
+  - {x: -30.31089, y: 9.149888}
+  - {x: -29.444864, y: 9.149888}
+  - {x: -28.578838, y: 9.149888}
+  - {x: -27.712812, y: 9.149888}
+  - {x: -26.846788, y: 9.149888}
+  - {x: -25.980762, y: 9.149888}
+  - {x: -25.114737, y: 9.149888}
+  - {x: -24.248713, y: 9.149888}
+  - {x: -19.918585, y: 9.149888}
+  - {x: -18.186535, y: 9.149888}
+  - {x: -11.258332, y: 9.149888}
+  - {x: -10.392306, y: 9.149888}
+  - {x: -6.062178, y: 9.149888}
+  - {x: -5.1961536, y: 9.149888}
+  - {x: -4.3301277, y: 9.149888}
+  - {x: -3.4641016, y: 9.149888}
+  - {x: -2.5980785, y: 9.149888}
+  - {x: -1.7320523, y: 9.149888}
+  - {x: -0.86602616, y: 9.149888}
+  - {x: 0, y: 9.149888}
+  - {x: 0.8660246, y: 9.149888}
+  - {x: 1.7320492, y: 9.149888}
+  - {x: 2.5980768, y: 9.149888}
+  - {x: 3.4640985, y: 9.149888}
+  - {x: 4.3301263, y: 9.149888}
+  - {x: 5.196151, y: 9.149888}
+  - {x: 6.0621753, y: 9.149888}
+  - {x: 6.928203, y: 9.149888}
+  - {x: 7.7942276, y: 9.149888}
+  - {x: 8.660253, y: 9.149888}
+  - {x: 9.526279, y: 9.149888}
+  - {x: 20.784605, y: 9.149888}
+  - {x: 21.650633, y: 9.149888}
+  - {x: 22.516659, y: 9.149888}
+  - {x: 23.382683, y: 9.149888}
+  - {x: 24.24871, y: 9.149888}
+  - {x: 25.114735, y: 9.149888}
+  - {x: 25.980762, y: 9.149888}
+  - {x: 26.846786, y: 9.149888}
+  - {x: 27.712812, y: 9.149888}
+  - {x: 28.578836, y: 9.149888}
+  - {x: 29.44486, y: 9.149888}
+  - {x: 30.310886, y: 9.149888}
+  - {x: 31.176916, y: 9.149888}
+  - {x: -31.609928, y: 8.399888}
+  - {x: -30.743902, y: 8.399888}
+  - {x: -29.877876, y: 8.399888}
+  - {x: -29.01185, y: 8.399888}
+  - {x: -28.145826, y: 8.399888}
+  - {x: -27.2798, y: 8.399888}
+  - {x: -26.413774, y: 8.399888}
+  - {x: -25.54775, y: 8.399888}
+  - {x: -24.681725, y: 8.399888}
+  - {x: -13.423394, y: 8.399888}
+  - {x: -10.825318, y: 8.399888}
+  - {x: -7.3612165, y: 8.399888}
+  - {x: -6.495192, y: 8.399888}
+  - {x: -5.629166, y: 8.399888}
+  - {x: -4.7631397, y: 8.399888}
+  - {x: -3.8971152, y: 8.399888}
+  - {x: -3.031089, y: 8.399888}
+  - {x: -2.1650646, y: 8.399888}
+  - {x: -1.29904, y: 8.399888}
+  - {x: -0.43301386, y: 8.399888}
+  - {x: 0.4330123, y: 8.399888}
+  - {x: 1.2990369, y: 8.399888}
+  - {x: 2.1650615, y: 8.399888}
+  - {x: 3.031089, y: 8.399888}
+  - {x: 3.8971138, y: 8.399888}
+  - {x: 24.681726, y: 8.399888}
+  - {x: 25.547747, y: 8.399888}
+  - {x: 26.413774, y: 8.399888}
+  - {x: 27.279799, y: 8.399888}
+  - {x: 28.145824, y: 8.399888}
+  - {x: 29.011848, y: 8.399888}
+  - {x: 29.87788, y: 8.399888}
+  - {x: 30.743898, y: 8.399888}
+  - {x: 31.609922, y: 8.399888}
+  - {x: -32.04294, y: 7.649888}
+  - {x: -31.176914, y: 7.649888}
+  - {x: -30.31089, y: 7.649888}
+  - {x: -29.444864, y: 7.649888}
+  - {x: -28.578838, y: 7.649888}
+  - {x: -27.712812, y: 7.649888}
+  - {x: -26.846788, y: 7.649888}
+  - {x: -25.980762, y: 7.649888}
+  - {x: -25.114737, y: 7.649888}
+  - {x: -24.248713, y: 7.649888}
+  - {x: -11.258332, y: 7.649888}
+  - {x: -10.392306, y: 7.649888}
+  - {x: -7.794229, y: 7.649888}
+  - {x: -6.928203, y: 7.649888}
+  - {x: -5.1961536, y: 7.649888}
+  - {x: -4.3301277, y: 7.649888}
+  - {x: -3.4641016, y: 7.649888}
+  - {x: -2.5980785, y: 7.649888}
+  - {x: -1.7320523, y: 7.649888}
+  - {x: -0.86602616, y: 7.649888}
+  - {x: 0, y: 7.649888}
+  - {x: 0.8660246, y: 7.649888}
+  - {x: 1.7320492, y: 7.649888}
+  - {x: 2.5980768, y: 7.649888}
+  - {x: 3.4640985, y: 7.649888}
+  - {x: 24.24871, y: 7.649888}
+  - {x: 25.114735, y: 7.649888}
+  - {x: 25.980762, y: 7.649888}
+  - {x: 26.846786, y: 7.649888}
+  - {x: 27.712812, y: 7.649888}
+  - {x: 28.578836, y: 7.649888}
+  - {x: 29.44486, y: 7.649888}
+  - {x: 30.310886, y: 7.649888}
+  - {x: 31.176916, y: 7.649888}
+  - {x: -31.609928, y: 6.899888}
+  - {x: -30.743902, y: 6.899888}
+  - {x: -29.877876, y: 6.899888}
+  - {x: -29.01185, y: 6.899888}
+  - {x: -28.145826, y: 6.899888}
+  - {x: -27.2798, y: 6.899888}
+  - {x: -26.413774, y: 6.899888}
+  - {x: -25.54775, y: 6.899888}
+  - {x: -24.681725, y: 6.899888}
+  - {x: -15.155445, y: 6.899888}
+  - {x: -14.28942, y: 6.899888}
+  - {x: -12.557369, y: 6.899888}
+  - {x: -11.691342, y: 6.899888}
+  - {x: -10.825318, y: 6.899888}
+  - {x: -8.2272415, y: 6.899888}
+  - {x: -7.3612165, y: 6.899888}
+  - {x: -6.495192, y: 6.899888}
+  - {x: -5.629166, y: 6.899888}
+  - {x: -4.7631397, y: 6.899888}
+  - {x: -3.8971152, y: 6.899888}
+  - {x: -3.031089, y: 6.899888}
+  - {x: -2.1650646, y: 6.899888}
+  - {x: -1.29904, y: 6.899888}
+  - {x: -0.43301386, y: 6.899888}
+  - {x: 0.4330123, y: 6.899888}
+  - {x: 1.2990369, y: 6.899888}
+  - {x: 2.1650615, y: 6.899888}
+  - {x: 23.815699, y: 6.899888}
+  - {x: 24.681726, y: 6.899888}
+  - {x: 25.547747, y: 6.899888}
+  - {x: 26.413774, y: 6.899888}
+  - {x: 27.279799, y: 6.899888}
+  - {x: 28.145824, y: 6.899888}
+  - {x: 29.011848, y: 6.899888}
+  - {x: 29.87788, y: 6.899888}
+  - {x: 30.743898, y: 6.899888}
+  - {x: 31.609922, y: 6.899888}
+  - {x: -32.04294, y: 6.1498876}
+  - {x: -31.176914, y: 6.1498876}
+  - {x: -30.31089, y: 6.1498876}
+  - {x: -29.444864, y: 6.1498876}
+  - {x: -28.578838, y: 6.1498876}
+  - {x: -27.712812, y: 6.1498876}
+  - {x: -26.846788, y: 6.1498876}
+  - {x: -25.980762, y: 6.1498876}
+  - {x: -25.114737, y: 6.1498876}
+  - {x: -24.248713, y: 6.1498876}
+  - {x: -22.51666, y: 6.1498876}
+  - {x: -21.650635, y: 6.1498876}
+  - {x: -14.722432, y: 6.1498876}
+  - {x: -13.856407, y: 6.1498876}
+  - {x: -11.258332, y: 6.1498876}
+  - {x: -10.392306, y: 6.1498876}
+  - {x: -9.526279, y: 6.1498876}
+  - {x: -8.660255, y: 6.1498876}
+  - {x: -7.794229, y: 6.1498876}
+  - {x: -6.928203, y: 6.1498876}
+  - {x: -6.062178, y: 6.1498876}
+  - {x: -5.1961536, y: 6.1498876}
+  - {x: -4.3301277, y: 6.1498876}
+  - {x: -3.4641016, y: 6.1498876}
+  - {x: -2.5980785, y: 6.1498876}
+  - {x: -1.7320523, y: 6.1498876}
+  - {x: -0.86602616, y: 6.1498876}
+  - {x: 0, y: 6.1498876}
+  - {x: 0.8660246, y: 6.1498876}
+  - {x: 1.7320492, y: 6.1498876}
+  - {x: 2.5980768, y: 6.1498876}
+  - {x: 4.3301263, y: 6.1498876}
+  - {x: 19.918585, y: 6.1498876}
+  - {x: 20.784605, y: 6.1498876}
+  - {x: 22.516659, y: 6.1498876}
+  - {x: 23.382683, y: 6.1498876}
+  - {x: 24.24871, y: 6.1498876}
+  - {x: 25.114735, y: 6.1498876}
+  - {x: 25.980762, y: 6.1498876}
+  - {x: 26.846786, y: 6.1498876}
+  - {x: 27.712812, y: 6.1498876}
+  - {x: 28.578836, y: 6.1498876}
+  - {x: 29.44486, y: 6.1498876}
+  - {x: 30.310886, y: 6.1498876}
+  - {x: 31.176916, y: 6.1498876}
+  - {x: -31.609928, y: 5.399888}
+  - {x: -30.743902, y: 5.399888}
+  - {x: -29.877876, y: 5.399888}
+  - {x: -29.01185, y: 5.399888}
+  - {x: -28.145826, y: 5.399888}
+  - {x: -27.2798, y: 5.399888}
+  - {x: -26.413774, y: 5.399888}
+  - {x: -25.54775, y: 5.399888}
+  - {x: -24.681725, y: 5.399888}
+  - {x: -23.815699, y: 5.399888}
+  - {x: -22.949675, y: 5.399888}
+  - {x: -22.083649, y: 5.399888}
+  - {x: -21.217623, y: 5.399888}
+  - {x: -14.28942, y: 5.399888}
+  - {x: -10.825318, y: 5.399888}
+  - {x: -9.959293, y: 5.399888}
+  - {x: -9.093267, y: 5.399888}
+  - {x: -8.2272415, y: 5.399888}
+  - {x: -7.3612165, y: 5.399888}
+  - {x: -6.495192, y: 5.399888}
+  - {x: -5.629166, y: 5.399888}
+  - {x: -4.7631397, y: 5.399888}
+  - {x: -3.8971152, y: 5.399888}
+  - {x: -3.031089, y: 5.399888}
+  - {x: -2.1650646, y: 5.399888}
+  - {x: -1.29904, y: 5.399888}
+  - {x: -0.43301386, y: 5.399888}
+  - {x: 0.4330123, y: 5.399888}
+  - {x: 20.351597, y: 5.399888}
+  - {x: 21.21762, y: 5.399888}
+  - {x: 22.949673, y: 5.399888}
+  - {x: 23.815699, y: 5.399888}
+  - {x: 24.681726, y: 5.399888}
+  - {x: 25.547747, y: 5.399888}
+  - {x: 26.413774, y: 5.399888}
+  - {x: 27.279799, y: 5.399888}
+  - {x: 28.145824, y: 5.399888}
+  - {x: 29.011848, y: 5.399888}
+  - {x: 29.87788, y: 5.399888}
+  - {x: 30.743898, y: 5.399888}
+  - {x: 31.609922, y: 5.399888}
+  - {x: -32.04294, y: 4.6498885}
+  - {x: -31.176914, y: 4.6498885}
+  - {x: -30.31089, y: 4.6498885}
+  - {x: -29.444864, y: 4.6498885}
+  - {x: -28.578838, y: 4.6498885}
+  - {x: -27.712812, y: 4.6498885}
+  - {x: -26.846788, y: 4.6498885}
+  - {x: -25.980762, y: 4.6498885}
+  - {x: -25.114737, y: 4.6498885}
+  - {x: -24.248713, y: 4.6498885}
+  - {x: -23.382687, y: 4.6498885}
+  - {x: -22.51666, y: 4.6498885}
+  - {x: -21.650635, y: 4.6498885}
+  - {x: -20.78461, y: 4.6498885}
+  - {x: -10.392306, y: 4.6498885}
+  - {x: -9.526279, y: 4.6498885}
+  - {x: -8.660255, y: 4.6498885}
+  - {x: -7.794229, y: 4.6498885}
+  - {x: -6.928203, y: 4.6498885}
+  - {x: -6.062178, y: 4.6498885}
+  - {x: -5.1961536, y: 4.6498885}
+  - {x: -4.3301277, y: 4.6498885}
+  - {x: -3.4641016, y: 4.6498885}
+  - {x: -2.5980785, y: 4.6498885}
+  - {x: -1.7320523, y: 4.6498885}
+  - {x: -0.86602616, y: 4.6498885}
+  - {x: 0, y: 4.6498885}
+  - {x: 0.8660246, y: 4.6498885}
+  - {x: 1.7320492, y: 4.6498885}
+  - {x: 20.784605, y: 4.6498885}
+  - {x: 21.650633, y: 4.6498885}
+  - {x: 22.516659, y: 4.6498885}
+  - {x: 23.382683, y: 4.6498885}
+  - {x: 24.24871, y: 4.6498885}
+  - {x: 25.114735, y: 4.6498885}
+  - {x: 25.980762, y: 4.6498885}
+  - {x: 26.846786, y: 4.6498885}
+  - {x: 27.712812, y: 4.6498885}
+  - {x: 28.578836, y: 4.6498885}
+  - {x: 29.44486, y: 4.6498885}
+  - {x: 30.310886, y: 4.6498885}
+  - {x: 31.176916, y: 4.6498885}
+  - {x: -31.609928, y: 3.8998878}
+  - {x: -30.743902, y: 3.8998878}
+  - {x: -29.877876, y: 3.8998878}
+  - {x: -29.01185, y: 3.8998878}
+  - {x: -28.145826, y: 3.8998878}
+  - {x: -27.2798, y: 3.8998878}
+  - {x: -26.413774, y: 3.8998878}
+  - {x: -25.54775, y: 3.8998878}
+  - {x: -24.681725, y: 3.8998878}
+  - {x: -23.815699, y: 3.8998878}
+  - {x: -22.949675, y: 3.8998878}
+  - {x: -22.083649, y: 3.8998878}
+  - {x: -21.217623, y: 3.8998878}
+  - {x: -20.351597, y: 3.8998878}
+  - {x: -11.691342, y: 3.8998878}
+  - {x: -9.959293, y: 3.8998878}
+  - {x: -9.093267, y: 3.8998878}
+  - {x: -8.2272415, y: 3.8998878}
+  - {x: -7.3612165, y: 3.8998878}
+  - {x: -6.495192, y: 3.8998878}
+  - {x: -5.629166, y: 3.8998878}
+  - {x: -4.7631397, y: 3.8998878}
+  - {x: -3.8971152, y: 3.8998878}
+  - {x: -3.031089, y: 3.8998878}
+  - {x: -2.1650646, y: 3.8998878}
+  - {x: -1.29904, y: 3.8998878}
+  - {x: -0.43301386, y: 3.8998878}
+  - {x: 0.4330123, y: 3.8998878}
+  - {x: 1.2990369, y: 3.8998878}
+  - {x: 6.4951906, y: 3.8998878}
+  - {x: 20.351597, y: 3.8998878}
+  - {x: 21.21762, y: 3.8998878}
+  - {x: 22.083645, y: 3.8998878}
+  - {x: 22.949673, y: 3.8998878}
+  - {x: 23.815699, y: 3.8998878}
+  - {x: 24.681726, y: 3.8998878}
+  - {x: 25.547747, y: 3.8998878}
+  - {x: 26.413774, y: 3.8998878}
+  - {x: 27.279799, y: 3.8998878}
+  - {x: 28.145824, y: 3.8998878}
+  - {x: 29.011848, y: 3.8998878}
+  - {x: 29.87788, y: 3.8998878}
+  - {x: 30.743898, y: 3.8998878}
+  - {x: 31.609922, y: 3.8998878}
+  - {x: -32.04294, y: 3.1498883}
+  - {x: -31.176914, y: 3.1498883}
+  - {x: -30.31089, y: 3.1498883}
+  - {x: -29.444864, y: 3.1498883}
+  - {x: -28.578838, y: 3.1498883}
+  - {x: -27.712812, y: 3.1498883}
+  - {x: -26.846788, y: 3.1498883}
+  - {x: -25.980762, y: 3.1498883}
+  - {x: -25.114737, y: 3.1498883}
+  - {x: -24.248713, y: 3.1498883}
+  - {x: -23.382687, y: 3.1498883}
+  - {x: -22.51666, y: 3.1498883}
+  - {x: -21.650635, y: 3.1498883}
+  - {x: -20.78461, y: 3.1498883}
+  - {x: -11.258332, y: 3.1498883}
+  - {x: -10.392306, y: 3.1498883}
+  - {x: -9.526279, y: 3.1498883}
+  - {x: -8.660255, y: 3.1498883}
+  - {x: -7.794229, y: 3.1498883}
+  - {x: -6.928203, y: 3.1498883}
+  - {x: -6.062178, y: 3.1498883}
+  - {x: -5.1961536, y: 3.1498883}
+  - {x: -4.3301277, y: 3.1498883}
+  - {x: -3.4641016, y: 3.1498883}
+  - {x: -2.5980785, y: 3.1498883}
+  - {x: -1.7320523, y: 3.1498883}
+  - {x: -0.86602616, y: 3.1498883}
+  - {x: 0, y: 3.1498883}
+  - {x: 0.8660246, y: 3.1498883}
+  - {x: 2.5980768, y: 3.1498883}
+  - {x: 3.4640985, y: 3.1498883}
+  - {x: 19.052559, y: 3.1498883}
+  - {x: 19.918585, y: 3.1498883}
+  - {x: 20.784605, y: 3.1498883}
+  - {x: 21.650633, y: 3.1498883}
+  - {x: 22.516659, y: 3.1498883}
+  - {x: 23.382683, y: 3.1498883}
+  - {x: 24.24871, y: 3.1498883}
+  - {x: 25.114735, y: 3.1498883}
+  - {x: 25.980762, y: 3.1498883}
+  - {x: 26.846786, y: 3.1498883}
+  - {x: 27.712812, y: 3.1498883}
+  - {x: 28.578836, y: 3.1498883}
+  - {x: 29.44486, y: 3.1498883}
+  - {x: 30.310886, y: 3.1498883}
+  - {x: 31.176916, y: 3.1498883}
+  - {x: -31.609928, y: 2.3998876}
+  - {x: -30.743902, y: 2.3998876}
+  - {x: -29.877876, y: 2.3998876}
+  - {x: -29.01185, y: 2.3998876}
+  - {x: -28.145826, y: 2.3998876}
+  - {x: -27.2798, y: 2.3998876}
+  - {x: -26.413774, y: 2.3998876}
+  - {x: -25.54775, y: 2.3998876}
+  - {x: -24.681725, y: 2.3998876}
+  - {x: -23.815699, y: 2.3998876}
+  - {x: -22.949675, y: 2.3998876}
+  - {x: -22.083649, y: 2.3998876}
+  - {x: -21.217623, y: 2.3998876}
+  - {x: -20.351597, y: 2.3998876}
+  - {x: -12.557369, y: 2.3998876}
+  - {x: -11.691342, y: 2.3998876}
+  - {x: -10.825318, y: 2.3998876}
+  - {x: -9.959293, y: 2.3998876}
+  - {x: -9.093267, y: 2.3998876}
+  - {x: -8.2272415, y: 2.3998876}
+  - {x: -7.3612165, y: 2.3998876}
+  - {x: -6.495192, y: 2.3998876}
+  - {x: -5.629166, y: 2.3998876}
+  - {x: -4.7631397, y: 2.3998876}
+  - {x: -3.8971152, y: 2.3998876}
+  - {x: -3.031089, y: 2.3998876}
+  - {x: -2.1650646, y: 2.3998876}
+  - {x: -1.29904, y: 2.3998876}
+  - {x: -0.43301386, y: 2.3998876}
+  - {x: 0.4330123, y: 2.3998876}
+  - {x: 1.2990369, y: 2.3998876}
+  - {x: 3.8971138, y: 2.3998876}
+  - {x: 4.7631383, y: 2.3998876}
+  - {x: 19.485569, y: 2.3998876}
+  - {x: 21.21762, y: 2.3998876}
+  - {x: 22.083645, y: 2.3998876}
+  - {x: 22.949673, y: 2.3998876}
+  - {x: 23.815699, y: 2.3998876}
+  - {x: 24.681726, y: 2.3998876}
+  - {x: 25.547747, y: 2.3998876}
+  - {x: 26.413774, y: 2.3998876}
+  - {x: 27.279799, y: 2.3998876}
+  - {x: 28.145824, y: 2.3998876}
+  - {x: 29.011848, y: 2.3998876}
+  - {x: 29.87788, y: 2.3998876}
+  - {x: 30.743898, y: 2.3998876}
+  - {x: 31.609922, y: 2.3998876}
+  - {x: -32.04294, y: 1.649888}
+  - {x: -31.176914, y: 1.649888}
+  - {x: -30.31089, y: 1.649888}
+  - {x: -29.444864, y: 1.649888}
+  - {x: -28.578838, y: 1.649888}
+  - {x: -27.712812, y: 1.649888}
+  - {x: -26.846788, y: 1.649888}
+  - {x: -25.980762, y: 1.649888}
+  - {x: -25.114737, y: 1.649888}
+  - {x: -24.248713, y: 1.649888}
+  - {x: -23.382687, y: 1.649888}
+  - {x: -22.51666, y: 1.649888}
+  - {x: -21.650635, y: 1.649888}
+  - {x: -20.78461, y: 1.649888}
+  - {x: -12.990381, y: 1.649888}
+  - {x: -12.124356, y: 1.649888}
+  - {x: -11.258332, y: 1.649888}
+  - {x: -10.392306, y: 1.649888}
+  - {x: -9.526279, y: 1.649888}
+  - {x: -8.660255, y: 1.649888}
+  - {x: -7.794229, y: 1.649888}
+  - {x: -6.928203, y: 1.649888}
+  - {x: -6.062178, y: 1.649888}
+  - {x: -5.1961536, y: 1.649888}
+  - {x: -4.3301277, y: 1.649888}
+  - {x: -3.4641016, y: 1.649888}
+  - {x: -2.5980785, y: 1.649888}
+  - {x: -1.7320523, y: 1.649888}
+  - {x: -0.86602616, y: 1.649888}
+  - {x: 0, y: 1.649888}
+  - {x: 0.8660246, y: 1.649888}
+  - {x: 6.0621753, y: 1.649888}
+  - {x: 18.186531, y: 1.649888}
+  - {x: 19.052559, y: 1.649888}
+  - {x: 19.918585, y: 1.649888}
+  - {x: 20.784605, y: 1.649888}
+  - {x: 21.650633, y: 1.649888}
+  - {x: 22.516659, y: 1.649888}
+  - {x: 23.382683, y: 1.649888}
+  - {x: 24.24871, y: 1.649888}
+  - {x: 25.114735, y: 1.649888}
+  - {x: 25.980762, y: 1.649888}
+  - {x: 26.846786, y: 1.649888}
+  - {x: 27.712812, y: 1.649888}
+  - {x: 28.578836, y: 1.649888}
+  - {x: 29.44486, y: 1.649888}
+  - {x: 30.310886, y: 1.649888}
+  - {x: 31.176916, y: 1.649888}
+  - {x: -31.609928, y: 0.89988834}
+  - {x: -30.743902, y: 0.89988834}
+  - {x: -29.877876, y: 0.89988834}
+  - {x: -29.01185, y: 0.89988834}
+  - {x: -28.145826, y: 0.89988834}
+  - {x: -27.2798, y: 0.89988834}
+  - {x: -26.413774, y: 0.89988834}
+  - {x: -25.54775, y: 0.89988834}
+  - {x: -24.681725, y: 0.89988834}
+  - {x: -23.815699, y: 0.89988834}
+  - {x: -22.949675, y: 0.89988834}
+  - {x: -22.083649, y: 0.89988834}
+  - {x: -21.217623, y: 0.89988834}
+  - {x: -20.351597, y: 0.89988834}
+  - {x: -13.423394, y: 0.89988834}
+  - {x: -12.557369, y: 0.89988834}
+  - {x: -11.691342, y: 0.89988834}
+  - {x: -10.825318, y: 0.89988834}
+  - {x: -9.959293, y: 0.89988834}
+  - {x: -9.093267, y: 0.89988834}
+  - {x: -8.2272415, y: 0.89988834}
+  - {x: -7.3612165, y: 0.89988834}
+  - {x: -6.495192, y: 0.89988834}
+  - {x: -5.629166, y: 0.89988834}
+  - {x: -4.7631397, y: 0.89988834}
+  - {x: -3.8971152, y: 0.89988834}
+  - {x: -3.031089, y: 0.89988834}
+  - {x: -2.1650646, y: 0.89988834}
+  - {x: -1.29904, y: 0.89988834}
+  - {x: -0.43301386, y: 0.89988834}
+  - {x: 0.4330123, y: 0.89988834}
+  - {x: 9.093265, y: 0.89988834}
+  - {x: 18.619545, y: 0.89988834}
+  - {x: 19.485569, y: 0.89988834}
+  - {x: 20.351597, y: 0.89988834}
+  - {x: 21.21762, y: 0.89988834}
+  - {x: 22.083645, y: 0.89988834}
+  - {x: 22.949673, y: 0.89988834}
+  - {x: 23.815699, y: 0.89988834}
+  - {x: 24.681726, y: 0.89988834}
+  - {x: 25.547747, y: 0.89988834}
+  - {x: 26.413774, y: 0.89988834}
+  - {x: 27.279799, y: 0.89988834}
+  - {x: 28.145824, y: 0.89988834}
+  - {x: 29.011848, y: 0.89988834}
+  - {x: 29.87788, y: 0.89988834}
+  - {x: 30.743898, y: 0.89988834}
+  - {x: 31.609922, y: 0.89988834}
+  - {x: -32.04294, y: 0.14988777}
+  - {x: -31.176914, y: 0.14988777}
+  - {x: -30.31089, y: 0.14988777}
+  - {x: -29.444864, y: 0.14988777}
+  - {x: -28.578838, y: 0.14988777}
+  - {x: -27.712812, y: 0.14988777}
+  - {x: -26.846788, y: 0.14988777}
+  - {x: -25.980762, y: 0.14988777}
+  - {x: -25.114737, y: 0.14988777}
+  - {x: -24.248713, y: 0.14988777}
+  - {x: -23.382687, y: 0.14988777}
+  - {x: -22.51666, y: 0.14988777}
+  - {x: -21.650635, y: 0.14988777}
+  - {x: -20.78461, y: 0.14988777}
+  - {x: -19.918585, y: 0.14988777}
+  - {x: -13.856407, y: 0.14988777}
+  - {x: -12.990381, y: 0.14988777}
+  - {x: -12.124356, y: 0.14988777}
+  - {x: -11.258332, y: 0.14988777}
+  - {x: -10.392306, y: 0.14988777}
+  - {x: -9.526279, y: 0.14988777}
+  - {x: -8.660255, y: 0.14988777}
+  - {x: -7.794229, y: 0.14988777}
+  - {x: -6.928203, y: 0.14988777}
+  - {x: -6.062178, y: 0.14988777}
+  - {x: -5.1961536, y: 0.14988777}
+  - {x: -4.3301277, y: 0.14988777}
+  - {x: -3.4641016, y: 0.14988777}
+  - {x: -2.5980785, y: 0.14988777}
+  - {x: -1.7320523, y: 0.14988777}
+  - {x: -0.86602616, y: 0.14988777}
+  - {x: 0, y: 0.14988777}
+  - {x: 10.392304, y: 0.14988777}
+  - {x: 18.186531, y: 0.14988777}
+  - {x: 19.052559, y: 0.14988777}
+  - {x: 19.918585, y: 0.14988777}
+  - {x: 20.784605, y: 0.14988777}
+  - {x: 21.650633, y: 0.14988777}
+  - {x: 22.516659, y: 0.14988777}
+  - {x: 23.382683, y: 0.14988777}
+  - {x: 24.24871, y: 0.14988777}
+  - {x: 25.114735, y: 0.14988777}
+  - {x: 25.980762, y: 0.14988777}
+  - {x: 26.846786, y: 0.14988777}
+  - {x: 27.712812, y: 0.14988777}
+  - {x: 28.578836, y: 0.14988777}
+  - {x: 29.44486, y: 0.14988777}
+  - {x: 30.310886, y: 0.14988777}
+  - {x: 31.176916, y: 0.14988777}
+  - {x: -31.609928, y: -0.6001128}
+  - {x: -30.743902, y: -0.6001128}
+  - {x: -29.877876, y: -0.6001128}
+  - {x: -29.01185, y: -0.6001128}
+  - {x: -28.145826, y: -0.6001128}
+  - {x: -27.2798, y: -0.6001128}
+  - {x: -26.413774, y: -0.6001128}
+  - {x: -25.54775, y: -0.6001128}
+  - {x: -24.681725, y: -0.6001128}
+  - {x: -23.815699, y: -0.6001128}
+  - {x: -22.949675, y: -0.6001128}
+  - {x: -22.083649, y: -0.6001128}
+  - {x: -21.217623, y: -0.6001128}
+  - {x: -20.351597, y: -0.6001128}
+  - {x: -19.485573, y: -0.6001128}
+  - {x: -16.021471, y: -0.6001128}
+  - {x: -14.28942, y: -0.6001128}
+  - {x: -13.423394, y: -0.6001128}
+  - {x: -12.557369, y: -0.6001128}
+  - {x: -11.691342, y: -0.6001128}
+  - {x: -10.825318, y: -0.6001128}
+  - {x: -9.959293, y: -0.6001128}
+  - {x: -9.093267, y: -0.6001128}
+  - {x: -8.2272415, y: -0.6001128}
+  - {x: -7.3612165, y: -0.6001128}
+  - {x: -6.495192, y: -0.6001128}
+  - {x: -5.629166, y: -0.6001128}
+  - {x: -4.7631397, y: -0.6001128}
+  - {x: -3.8971152, y: -0.6001128}
+  - {x: -3.031089, y: -0.6001128}
+  - {x: -2.1650646, y: -0.6001128}
+  - {x: -1.29904, y: -0.6001128}
+  - {x: -0.43301386, y: -0.6001128}
+  - {x: 9.959289, y: -0.6001128}
+  - {x: 10.825316, y: -0.6001128}
+  - {x: 13.423393, y: -0.6001128}
+  - {x: 14.289418, y: -0.6001128}
+  - {x: 16.887491, y: -0.6001128}
+  - {x: 17.75352, y: -0.6001128}
+  - {x: 18.619545, y: -0.6001128}
+  - {x: 19.485569, y: -0.6001128}
+  - {x: 20.351597, y: -0.6001128}
+  - {x: 21.21762, y: -0.6001128}
+  - {x: 22.083645, y: -0.6001128}
+  - {x: 22.949673, y: -0.6001128}
+  - {x: 23.815699, y: -0.6001128}
+  - {x: 24.681726, y: -0.6001128}
+  - {x: 25.547747, y: -0.6001128}
+  - {x: 26.413774, y: -0.6001128}
+  - {x: 27.279799, y: -0.6001128}
+  - {x: 28.145824, y: -0.6001128}
+  - {x: 29.011848, y: -0.6001128}
+  - {x: 29.87788, y: -0.6001128}
+  - {x: 30.743898, y: -0.6001128}
+  - {x: 31.609922, y: -0.6001128}
+  - {x: -32.04294, y: -1.3501115}
+  - {x: -31.176914, y: -1.3501115}
+  - {x: -30.31089, y: -1.3501115}
+  - {x: -29.444864, y: -1.3501115}
+  - {x: -28.578838, y: -1.3501115}
+  - {x: -27.712812, y: -1.3501115}
+  - {x: -26.846788, y: -1.3501115}
+  - {x: -25.980762, y: -1.3501115}
+  - {x: -25.114737, y: -1.3501115}
+  - {x: -24.248713, y: -1.3501115}
+  - {x: -23.382687, y: -1.3501115}
+  - {x: -22.51666, y: -1.3501115}
+  - {x: -21.650635, y: -1.3501115}
+  - {x: -20.78461, y: -1.3501115}
+  - {x: -19.918585, y: -1.3501115}
+  - {x: -19.052559, y: -1.3501115}
+  - {x: -16.454483, y: -1.3501115}
+  - {x: -15.588458, y: -1.3501115}
+  - {x: -14.722432, y: -1.3501115}
+  - {x: -13.856407, y: -1.3501115}
+  - {x: -12.990381, y: -1.3501115}
+  - {x: -12.124356, y: -1.3501115}
+  - {x: -11.258332, y: -1.3501115}
+  - {x: -10.392306, y: -1.3501115}
+  - {x: -9.526279, y: -1.3501115}
+  - {x: -8.660255, y: -1.3501115}
+  - {x: -7.794229, y: -1.3501115}
+  - {x: -6.928203, y: -1.3501115}
+  - {x: -6.062178, y: -1.3501115}
+  - {x: -5.1961536, y: -1.3501115}
+  - {x: -4.3301277, y: -1.3501115}
+  - {x: -3.4641016, y: -1.3501115}
+  - {x: -2.5980785, y: -1.3501115}
+  - {x: -1.7320523, y: -1.3501115}
+  - {x: -0.86602616, y: -1.3501115}
+  - {x: 0, y: -1.3501115}
+  - {x: 8.660253, y: -1.3501115}
+  - {x: 9.526279, y: -1.3501115}
+  - {x: 10.392304, y: -1.3501115}
+  - {x: 11.258329, y: -1.3501115}
+  - {x: 13.856406, y: -1.3501115}
+  - {x: 14.72243, y: -1.3501115}
+  - {x: 17.320507, y: -1.3501115}
+  - {x: 18.186531, y: -1.3501115}
+  - {x: 19.052559, y: -1.3501115}
+  - {x: 19.918585, y: -1.3501115}
+  - {x: 20.784605, y: -1.3501115}
+  - {x: 21.650633, y: -1.3501115}
+  - {x: 22.516659, y: -1.3501115}
+  - {x: 23.382683, y: -1.3501115}
+  - {x: 24.24871, y: -1.3501115}
+  - {x: 25.114735, y: -1.3501115}
+  - {x: 25.980762, y: -1.3501115}
+  - {x: 26.846786, y: -1.3501115}
+  - {x: 27.712812, y: -1.3501115}
+  - {x: 28.578836, y: -1.3501115}
+  - {x: 29.44486, y: -1.3501115}
+  - {x: 30.310886, y: -1.3501115}
+  - {x: 31.176916, y: -1.3501115}
+  - {x: -31.609928, y: -2.1001122}
+  - {x: -30.743902, y: -2.1001122}
+  - {x: -29.877876, y: -2.1001122}
+  - {x: -29.01185, y: -2.1001122}
+  - {x: -28.145826, y: -2.1001122}
+  - {x: -27.2798, y: -2.1001122}
+  - {x: -26.413774, y: -2.1001122}
+  - {x: -25.54775, y: -2.1001122}
+  - {x: -24.681725, y: -2.1001122}
+  - {x: -23.815699, y: -2.1001122}
+  - {x: -22.949675, y: -2.1001122}
+  - {x: -22.083649, y: -2.1001122}
+  - {x: -21.217623, y: -2.1001122}
+  - {x: -20.351597, y: -2.1001122}
+  - {x: -19.485573, y: -2.1001122}
+  - {x: -17.753521, y: -2.1001122}
+  - {x: -16.021471, y: -2.1001122}
+  - {x: -15.155445, y: -2.1001122}
+  - {x: -14.28942, y: -2.1001122}
+  - {x: -13.423394, y: -2.1001122}
+  - {x: -12.557369, y: -2.1001122}
+  - {x: -11.691342, y: -2.1001122}
+  - {x: -10.825318, y: -2.1001122}
+  - {x: -9.959293, y: -2.1001122}
+  - {x: -9.093267, y: -2.1001122}
+  - {x: -8.2272415, y: -2.1001122}
+  - {x: -7.3612165, y: -2.1001122}
+  - {x: -6.495192, y: -2.1001122}
+  - {x: -5.629166, y: -2.1001122}
+  - {x: -4.7631397, y: -2.1001122}
+  - {x: -3.8971152, y: -2.1001122}
+  - {x: -3.031089, y: -2.1001122}
+  - {x: -2.1650646, y: -2.1001122}
+  - {x: -1.29904, y: -2.1001122}
+  - {x: -0.43301386, y: -2.1001122}
+  - {x: 0.4330123, y: -2.1001122}
+  - {x: 9.093265, y: -2.1001122}
+  - {x: 9.959289, y: -2.1001122}
+  - {x: 10.825316, y: -2.1001122}
+  - {x: 11.691341, y: -2.1001122}
+  - {x: 12.557365, y: -2.1001122}
+  - {x: 13.423393, y: -2.1001122}
+  - {x: 14.289418, y: -2.1001122}
+  - {x: 15.155446, y: -2.1001122}
+  - {x: 16.021471, y: -2.1001122}
+  - {x: 16.887491, y: -2.1001122}
+  - {x: 17.75352, y: -2.1001122}
+  - {x: 18.619545, y: -2.1001122}
+  - {x: 19.485569, y: -2.1001122}
+  - {x: 20.351597, y: -2.1001122}
+  - {x: 21.21762, y: -2.1001122}
+  - {x: 22.083645, y: -2.1001122}
+  - {x: 22.949673, y: -2.1001122}
+  - {x: 23.815699, y: -2.1001122}
+  - {x: 24.681726, y: -2.1001122}
+  - {x: 25.547747, y: -2.1001122}
+  - {x: 26.413774, y: -2.1001122}
+  - {x: 27.279799, y: -2.1001122}
+  - {x: 28.145824, y: -2.1001122}
+  - {x: 29.011848, y: -2.1001122}
+  - {x: 29.87788, y: -2.1001122}
+  - {x: 30.743898, y: -2.1001122}
+  - {x: 31.609922, y: -2.1001122}
+  - {x: -32.04294, y: -2.8501127}
+  - {x: -31.176914, y: -2.8501127}
+  - {x: -30.31089, y: -2.8501127}
+  - {x: -29.444864, y: -2.8501127}
+  - {x: -28.578838, y: -2.8501127}
+  - {x: -27.712812, y: -2.8501127}
+  - {x: -26.846788, y: -2.8501127}
+  - {x: -25.980762, y: -2.8501127}
+  - {x: -25.114737, y: -2.8501127}
+  - {x: -24.248713, y: -2.8501127}
+  - {x: -23.382687, y: -2.8501127}
+  - {x: -22.51666, y: -2.8501127}
+  - {x: -21.650635, y: -2.8501127}
+  - {x: -20.78461, y: -2.8501127}
+  - {x: -19.918585, y: -2.8501127}
+  - {x: -19.052559, y: -2.8501127}
+  - {x: -18.186535, y: -2.8501127}
+  - {x: -15.588458, y: -2.8501127}
+  - {x: -14.722432, y: -2.8501127}
+  - {x: -13.856407, y: -2.8501127}
+  - {x: -12.990381, y: -2.8501127}
+  - {x: -12.124356, y: -2.8501127}
+  - {x: -11.258332, y: -2.8501127}
+  - {x: -10.392306, y: -2.8501127}
+  - {x: -9.526279, y: -2.8501127}
+  - {x: -8.660255, y: -2.8501127}
+  - {x: -7.794229, y: -2.8501127}
+  - {x: -6.928203, y: -2.8501127}
+  - {x: -6.062178, y: -2.8501127}
+  - {x: -5.1961536, y: -2.8501127}
+  - {x: -4.3301277, y: -2.8501127}
+  - {x: -3.4641016, y: -2.8501127}
+  - {x: -2.5980785, y: -2.8501127}
+  - {x: -1.7320523, y: -2.8501127}
+  - {x: -0.86602616, y: -2.8501127}
+  - {x: 0, y: -2.8501127}
+  - {x: 0.8660246, y: -2.8501127}
+  - {x: 1.7320492, y: -2.8501127}
+  - {x: 2.5980768, y: -2.8501127}
+  - {x: 8.660253, y: -2.8501127}
+  - {x: 9.526279, y: -2.8501127}
+  - {x: 10.392304, y: -2.8501127}
+  - {x: 11.258329, y: -2.8501127}
+  - {x: 12.124356, y: -2.8501127}
+  - {x: 12.990378, y: -2.8501127}
+  - {x: 13.856406, y: -2.8501127}
+  - {x: 14.72243, y: -2.8501127}
+  - {x: 16.454483, y: -2.8501127}
+  - {x: 18.186531, y: -2.8501127}
+  - {x: 19.052559, y: -2.8501127}
+  - {x: 19.918585, y: -2.8501127}
+  - {x: 20.784605, y: -2.8501127}
+  - {x: 21.650633, y: -2.8501127}
+  - {x: 22.516659, y: -2.8501127}
+  - {x: 23.382683, y: -2.8501127}
+  - {x: 24.24871, y: -2.8501127}
+  - {x: 25.114735, y: -2.8501127}
+  - {x: 25.980762, y: -2.8501127}
+  - {x: 26.846786, y: -2.8501127}
+  - {x: 27.712812, y: -2.8501127}
+  - {x: 28.578836, y: -2.8501127}
+  - {x: 29.44486, y: -2.8501127}
+  - {x: 30.310886, y: -2.8501127}
+  - {x: 31.176916, y: -2.8501127}
+  - {x: -31.609928, y: -3.6001115}
+  - {x: -30.743902, y: -3.6001115}
+  - {x: -29.877876, y: -3.6001115}
+  - {x: -29.01185, y: -3.6001115}
+  - {x: -28.145826, y: -3.6001115}
+  - {x: -27.2798, y: -3.6001115}
+  - {x: -26.413774, y: -3.6001115}
+  - {x: -25.54775, y: -3.6001115}
+  - {x: -24.681725, y: -3.6001115}
+  - {x: -23.815699, y: -3.6001115}
+  - {x: -22.949675, y: -3.6001115}
+  - {x: -22.083649, y: -3.6001115}
+  - {x: -21.217623, y: -3.6001115}
+  - {x: -20.351597, y: -3.6001115}
+  - {x: -19.485573, y: -3.6001115}
+  - {x: -18.619547, y: -3.6001115}
+  - {x: -17.753521, y: -3.6001115}
+  - {x: -16.887495, y: -3.6001115}
+  - {x: -13.423394, y: -3.6001115}
+  - {x: -12.557369, y: -3.6001115}
+  - {x: -11.691342, y: -3.6001115}
+  - {x: -10.825318, y: -3.6001115}
+  - {x: -9.959293, y: -3.6001115}
+  - {x: -9.093267, y: -3.6001115}
+  - {x: -8.2272415, y: -3.6001115}
+  - {x: -7.3612165, y: -3.6001115}
+  - {x: -6.495192, y: -3.6001115}
+  - {x: -5.629166, y: -3.6001115}
+  - {x: -4.7631397, y: -3.6001115}
+  - {x: -3.8971152, y: -3.6001115}
+  - {x: -3.031089, y: -3.6001115}
+  - {x: -2.1650646, y: -3.6001115}
+  - {x: -1.29904, y: -3.6001115}
+  - {x: -0.43301386, y: -3.6001115}
+  - {x: 0.4330123, y: -3.6001115}
+  - {x: 1.2990369, y: -3.6001115}
+  - {x: 2.1650615, y: -3.6001115}
+  - {x: 3.031089, y: -3.6001115}
+  - {x: 8.227242, y: -3.6001115}
+  - {x: 9.093265, y: -3.6001115}
+  - {x: 9.959289, y: -3.6001115}
+  - {x: 10.825316, y: -3.6001115}
+  - {x: 11.691341, y: -3.6001115}
+  - {x: 12.557365, y: -3.6001115}
+  - {x: 13.423393, y: -3.6001115}
+  - {x: 14.289418, y: -3.6001115}
+  - {x: 15.155446, y: -3.6001115}
+  - {x: 19.485569, y: -3.6001115}
+  - {x: 20.351597, y: -3.6001115}
+  - {x: 21.21762, y: -3.6001115}
+  - {x: 22.083645, y: -3.6001115}
+  - {x: 22.949673, y: -3.6001115}
+  - {x: 23.815699, y: -3.6001115}
+  - {x: 24.681726, y: -3.6001115}
+  - {x: 25.547747, y: -3.6001115}
+  - {x: 26.413774, y: -3.6001115}
+  - {x: 27.279799, y: -3.6001115}
+  - {x: 28.145824, y: -3.6001115}
+  - {x: 29.011848, y: -3.6001115}
+  - {x: 29.87788, y: -3.6001115}
+  - {x: 30.743898, y: -3.6001115}
+  - {x: 31.609922, y: -3.6001115}
+  - {x: -32.04294, y: -4.350112}
+  - {x: -31.176914, y: -4.350112}
+  - {x: -30.31089, y: -4.350112}
+  - {x: -29.444864, y: -4.350112}
+  - {x: -28.578838, y: -4.350112}
+  - {x: -27.712812, y: -4.350112}
+  - {x: -26.846788, y: -4.350112}
+  - {x: -25.980762, y: -4.350112}
+  - {x: -25.114737, y: -4.350112}
+  - {x: -24.248713, y: -4.350112}
+  - {x: -23.382687, y: -4.350112}
+  - {x: -22.51666, y: -4.350112}
+  - {x: -21.650635, y: -4.350112}
+  - {x: -20.78461, y: -4.350112}
+  - {x: -19.918585, y: -4.350112}
+  - {x: -19.052559, y: -4.350112}
+  - {x: -18.186535, y: -4.350112}
+  - {x: -17.320509, y: -4.350112}
+  - {x: -16.454483, y: -4.350112}
+  - {x: -12.124356, y: -4.350112}
+  - {x: -11.258332, y: -4.350112}
+  - {x: -10.392306, y: -4.350112}
+  - {x: -9.526279, y: -4.350112}
+  - {x: -8.660255, y: -4.350112}
+  - {x: -7.794229, y: -4.350112}
+  - {x: -6.928203, y: -4.350112}
+  - {x: -6.062178, y: -4.350112}
+  - {x: -5.1961536, y: -4.350112}
+  - {x: -4.3301277, y: -4.350112}
+  - {x: -3.4641016, y: -4.350112}
+  - {x: -2.5980785, y: -4.350112}
+  - {x: -1.7320523, y: -4.350112}
+  - {x: -0.86602616, y: -4.350112}
+  - {x: 0, y: -4.350112}
+  - {x: 0.8660246, y: -4.350112}
+  - {x: 1.7320492, y: -4.350112}
+  - {x: 2.5980768, y: -4.350112}
+  - {x: 3.4640985, y: -4.350112}
+  - {x: 7.7942276, y: -4.350112}
+  - {x: 8.660253, y: -4.350112}
+  - {x: 9.526279, y: -4.350112}
+  - {x: 10.392304, y: -4.350112}
+  - {x: 11.258329, y: -4.350112}
+  - {x: 12.124356, y: -4.350112}
+  - {x: 12.990378, y: -4.350112}
+  - {x: 13.856406, y: -4.350112}
+  - {x: 14.72243, y: -4.350112}
+  - {x: 15.588455, y: -4.350112}
+  - {x: 17.320507, y: -4.350112}
+  - {x: 18.186531, y: -4.350112}
+  - {x: 19.052559, y: -4.350112}
+  - {x: 19.918585, y: -4.350112}
+  - {x: 22.516659, y: -4.350112}
+  - {x: 23.382683, y: -4.350112}
+  - {x: 24.24871, y: -4.350112}
+  - {x: 25.114735, y: -4.350112}
+  - {x: 25.980762, y: -4.350112}
+  - {x: 26.846786, y: -4.350112}
+  - {x: 27.712812, y: -4.350112}
+  - {x: 28.578836, y: -4.350112}
+  - {x: 29.44486, y: -4.350112}
+  - {x: 30.310886, y: -4.350112}
+  - {x: 31.176916, y: -4.350112}
+  - {x: -31.609928, y: -5.1001124}
+  - {x: -30.743902, y: -5.1001124}
+  - {x: -29.877876, y: -5.1001124}
+  - {x: -29.01185, y: -5.1001124}
+  - {x: -28.145826, y: -5.1001124}
+  - {x: -27.2798, y: -5.1001124}
+  - {x: -26.413774, y: -5.1001124}
+  - {x: -25.54775, y: -5.1001124}
+  - {x: -24.681725, y: -5.1001124}
+  - {x: -23.815699, y: -5.1001124}
+  - {x: -22.949675, y: -5.1001124}
+  - {x: -22.083649, y: -5.1001124}
+  - {x: -21.217623, y: -5.1001124}
+  - {x: -20.351597, y: -5.1001124}
+  - {x: -19.485573, y: -5.1001124}
+  - {x: -18.619547, y: -5.1001124}
+  - {x: -17.753521, y: -5.1001124}
+  - {x: -16.887495, y: -5.1001124}
+  - {x: -11.691342, y: -5.1001124}
+  - {x: -10.825318, y: -5.1001124}
+  - {x: -9.959293, y: -5.1001124}
+  - {x: -9.093267, y: -5.1001124}
+  - {x: -8.2272415, y: -5.1001124}
+  - {x: -7.3612165, y: -5.1001124}
+  - {x: -6.495192, y: -5.1001124}
+  - {x: -5.629166, y: -5.1001124}
+  - {x: -4.7631397, y: -5.1001124}
+  - {x: -3.8971152, y: -5.1001124}
+  - {x: -3.031089, y: -5.1001124}
+  - {x: -2.1650646, y: -5.1001124}
+  - {x: -1.29904, y: -5.1001124}
+  - {x: -0.43301386, y: -5.1001124}
+  - {x: 0.4330123, y: -5.1001124}
+  - {x: 1.2990369, y: -5.1001124}
+  - {x: 2.1650615, y: -5.1001124}
+  - {x: 3.031089, y: -5.1001124}
+  - {x: 8.227242, y: -5.1001124}
+  - {x: 9.093265, y: -5.1001124}
+  - {x: 9.959289, y: -5.1001124}
+  - {x: 10.825316, y: -5.1001124}
+  - {x: 11.691341, y: -5.1001124}
+  - {x: 12.557365, y: -5.1001124}
+  - {x: 13.423393, y: -5.1001124}
+  - {x: 14.289418, y: -5.1001124}
+  - {x: 15.155446, y: -5.1001124}
+  - {x: 16.021471, y: -5.1001124}
+  - {x: 16.887491, y: -5.1001124}
+  - {x: 17.75352, y: -5.1001124}
+  - {x: 18.619545, y: -5.1001124}
+  - {x: 19.485569, y: -5.1001124}
+  - {x: 20.351597, y: -5.1001124}
+  - {x: 21.21762, y: -5.1001124}
+  - {x: 22.083645, y: -5.1001124}
+  - {x: 22.949673, y: -5.1001124}
+  - {x: 23.815699, y: -5.1001124}
+  - {x: 24.681726, y: -5.1001124}
+  - {x: 25.547747, y: -5.1001124}
+  - {x: 26.413774, y: -5.1001124}
+  - {x: 27.279799, y: -5.1001124}
+  - {x: 28.145824, y: -5.1001124}
+  - {x: 29.011848, y: -5.1001124}
+  - {x: 29.87788, y: -5.1001124}
+  - {x: 30.743898, y: -5.1001124}
+  - {x: 31.609922, y: -5.1001124}
+  - {x: -32.04294, y: -5.850111}
+  - {x: -31.176914, y: -5.850111}
+  - {x: -30.31089, y: -5.850111}
+  - {x: -29.444864, y: -5.850111}
+  - {x: -28.578838, y: -5.850111}
+  - {x: -27.712812, y: -5.850111}
+  - {x: -26.846788, y: -5.850111}
+  - {x: -25.980762, y: -5.850111}
+  - {x: -25.114737, y: -5.850111}
+  - {x: -24.248713, y: -5.850111}
+  - {x: -23.382687, y: -5.850111}
+  - {x: -22.51666, y: -5.850111}
+  - {x: -21.650635, y: -5.850111}
+  - {x: -20.78461, y: -5.850111}
+  - {x: -19.918585, y: -5.850111}
+  - {x: -19.052559, y: -5.850111}
+  - {x: -18.186535, y: -5.850111}
+  - {x: -17.320509, y: -5.850111}
+  - {x: -16.454483, y: -5.850111}
+  - {x: -9.526279, y: -5.850111}
+  - {x: -8.660255, y: -5.850111}
+  - {x: -7.794229, y: -5.850111}
+  - {x: -6.928203, y: -5.850111}
+  - {x: -6.062178, y: -5.850111}
+  - {x: -5.1961536, y: -5.850111}
+  - {x: -4.3301277, y: -5.850111}
+  - {x: -3.4641016, y: -5.850111}
+  - {x: -2.5980785, y: -5.850111}
+  - {x: -1.7320523, y: -5.850111}
+  - {x: -0.86602616, y: -5.850111}
+  - {x: 0, y: -5.850111}
+  - {x: 0.8660246, y: -5.850111}
+  - {x: 1.7320492, y: -5.850111}
+  - {x: 2.5980768, y: -5.850111}
+  - {x: 3.4640985, y: -5.850111}
+  - {x: 7.7942276, y: -5.850111}
+  - {x: 9.526279, y: -5.850111}
+  - {x: 10.392304, y: -5.850111}
+  - {x: 11.258329, y: -5.850111}
+  - {x: 12.124356, y: -5.850111}
+  - {x: 12.990378, y: -5.850111}
+  - {x: 13.856406, y: -5.850111}
+  - {x: 14.72243, y: -5.850111}
+  - {x: 15.588455, y: -5.850111}
+  - {x: 16.454483, y: -5.850111}
+  - {x: 17.320507, y: -5.850111}
+  - {x: 18.186531, y: -5.850111}
+  - {x: 20.784605, y: -5.850111}
+  - {x: 21.650633, y: -5.850111}
+  - {x: 22.516659, y: -5.850111}
+  - {x: 23.382683, y: -5.850111}
+  - {x: 24.24871, y: -5.850111}
+  - {x: 25.114735, y: -5.850111}
+  - {x: 25.980762, y: -5.850111}
+  - {x: 26.846786, y: -5.850111}
+  - {x: 27.712812, y: -5.850111}
+  - {x: 28.578836, y: -5.850111}
+  - {x: 29.44486, y: -5.850111}
+  - {x: 30.310886, y: -5.850111}
+  - {x: 31.176916, y: -5.850111}
+  - {x: -31.609928, y: -6.600112}
+  - {x: -30.743902, y: -6.600112}
+  - {x: -29.877876, y: -6.600112}
+  - {x: -29.01185, y: -6.600112}
+  - {x: -28.145826, y: -6.600112}
+  - {x: -27.2798, y: -6.600112}
+  - {x: -26.413774, y: -6.600112}
+  - {x: -25.54775, y: -6.600112}
+  - {x: -24.681725, y: -6.600112}
+  - {x: -23.815699, y: -6.600112}
+  - {x: -22.949675, y: -6.600112}
+  - {x: -22.083649, y: -6.600112}
+  - {x: -21.217623, y: -6.600112}
+  - {x: -20.351597, y: -6.600112}
+  - {x: -19.485573, y: -6.600112}
+  - {x: -18.619547, y: -6.600112}
+  - {x: -17.753521, y: -6.600112}
+  - {x: -16.887495, y: -6.600112}
+  - {x: -16.021471, y: -6.600112}
+  - {x: -9.959293, y: -6.600112}
+  - {x: -9.093267, y: -6.600112}
+  - {x: -8.2272415, y: -6.600112}
+  - {x: -7.3612165, y: -6.600112}
+  - {x: -6.495192, y: -6.600112}
+  - {x: -5.629166, y: -6.600112}
+  - {x: -4.7631397, y: -6.600112}
+  - {x: -3.8971152, y: -6.600112}
+  - {x: -3.031089, y: -6.600112}
+  - {x: -2.1650646, y: -6.600112}
+  - {x: -1.29904, y: -6.600112}
+  - {x: -0.43301386, y: -6.600112}
+  - {x: 0.4330123, y: -6.600112}
+  - {x: 1.2990369, y: -6.600112}
+  - {x: 2.1650615, y: -6.600112}
+  - {x: 3.031089, y: -6.600112}
+  - {x: 3.8971138, y: -6.600112}
+  - {x: 7.361215, y: -6.600112}
+  - {x: 9.093265, y: -6.600112}
+  - {x: 9.959289, y: -6.600112}
+  - {x: 10.825316, y: -6.600112}
+  - {x: 11.691341, y: -6.600112}
+  - {x: 12.557365, y: -6.600112}
+  - {x: 13.423393, y: -6.600112}
+  - {x: 14.289418, y: -6.600112}
+  - {x: 15.155446, y: -6.600112}
+  - {x: 16.021471, y: -6.600112}
+  - {x: 16.887491, y: -6.600112}
+  - {x: 22.083645, y: -6.600112}
+  - {x: 22.949673, y: -6.600112}
+  - {x: 23.815699, y: -6.600112}
+  - {x: 24.681726, y: -6.600112}
+  - {x: 25.547747, y: -6.600112}
+  - {x: 26.413774, y: -6.600112}
+  - {x: 27.279799, y: -6.600112}
+  - {x: 28.145824, y: -6.600112}
+  - {x: 29.011848, y: -6.600112}
+  - {x: 29.87788, y: -6.600112}
+  - {x: 30.743898, y: -6.600112}
+  - {x: 31.609922, y: -6.600112}
+  - {x: -32.04294, y: -7.3501124}
+  - {x: -31.176914, y: -7.3501124}
+  - {x: -30.31089, y: -7.3501124}
+  - {x: -29.444864, y: -7.3501124}
+  - {x: -28.578838, y: -7.3501124}
+  - {x: -27.712812, y: -7.3501124}
+  - {x: -26.846788, y: -7.3501124}
+  - {x: -25.980762, y: -7.3501124}
+  - {x: -25.114737, y: -7.3501124}
+  - {x: -24.248713, y: -7.3501124}
+  - {x: -23.382687, y: -7.3501124}
+  - {x: -22.51666, y: -7.3501124}
+  - {x: -21.650635, y: -7.3501124}
+  - {x: -20.78461, y: -7.3501124}
+  - {x: -19.918585, y: -7.3501124}
+  - {x: -19.052559, y: -7.3501124}
+  - {x: -18.186535, y: -7.3501124}
+  - {x: -17.320509, y: -7.3501124}
+  - {x: -16.454483, y: -7.3501124}
+  - {x: -15.588458, y: -7.3501124}
+  - {x: -10.392306, y: -7.3501124}
+  - {x: -9.526279, y: -7.3501124}
+  - {x: -8.660255, y: -7.3501124}
+  - {x: -7.794229, y: -7.3501124}
+  - {x: -6.928203, y: -7.3501124}
+  - {x: -6.062178, y: -7.3501124}
+  - {x: -5.1961536, y: -7.3501124}
+  - {x: -4.3301277, y: -7.3501124}
+  - {x: -3.4641016, y: -7.3501124}
+  - {x: -2.5980785, y: -7.3501124}
+  - {x: -1.7320523, y: -7.3501124}
+  - {x: -0.86602616, y: -7.3501124}
+  - {x: 0, y: -7.3501124}
+  - {x: 0.8660246, y: -7.3501124}
+  - {x: 1.7320492, y: -7.3501124}
+  - {x: 2.5980768, y: -7.3501124}
+  - {x: 3.4640985, y: -7.3501124}
+  - {x: 6.928203, y: -7.3501124}
+  - {x: 7.7942276, y: -7.3501124}
+  - {x: 8.660253, y: -7.3501124}
+  - {x: 9.526279, y: -7.3501124}
+  - {x: 10.392304, y: -7.3501124}
+  - {x: 11.258329, y: -7.3501124}
+  - {x: 12.124356, y: -7.3501124}
+  - {x: 12.990378, y: -7.3501124}
+  - {x: 13.856406, y: -7.3501124}
+  - {x: 14.72243, y: -7.3501124}
+  - {x: 15.588455, y: -7.3501124}
+  - {x: 16.454483, y: -7.3501124}
+  - {x: 22.516659, y: -7.3501124}
+  - {x: 23.382683, y: -7.3501124}
+  - {x: 24.24871, y: -7.3501124}
+  - {x: 25.114735, y: -7.3501124}
+  - {x: 25.980762, y: -7.3501124}
+  - {x: 26.846786, y: -7.3501124}
+  - {x: 27.712812, y: -7.3501124}
+  - {x: 28.578836, y: -7.3501124}
+  - {x: 29.44486, y: -7.3501124}
+  - {x: 30.310886, y: -7.3501124}
+  - {x: 31.176916, y: -7.3501124}
+  - {x: -31.609928, y: -8.100111}
+  - {x: -30.743902, y: -8.100111}
+  - {x: -29.877876, y: -8.100111}
+  - {x: -29.01185, y: -8.100111}
+  - {x: -28.145826, y: -8.100111}
+  - {x: -27.2798, y: -8.100111}
+  - {x: -26.413774, y: -8.100111}
+  - {x: -25.54775, y: -8.100111}
+  - {x: -24.681725, y: -8.100111}
+  - {x: -23.815699, y: -8.100111}
+  - {x: -22.949675, y: -8.100111}
+  - {x: -22.083649, y: -8.100111}
+  - {x: -21.217623, y: -8.100111}
+  - {x: -20.351597, y: -8.100111}
+  - {x: -19.485573, y: -8.100111}
+  - {x: -18.619547, y: -8.100111}
+  - {x: -17.753521, y: -8.100111}
+  - {x: -16.887495, y: -8.100111}
+  - {x: -16.021471, y: -8.100111}
+  - {x: -15.155445, y: -8.100111}
+  - {x: -10.825318, y: -8.100111}
+  - {x: -9.959293, y: -8.100111}
+  - {x: -9.093267, y: -8.100111}
+  - {x: -8.2272415, y: -8.100111}
+  - {x: -7.3612165, y: -8.100111}
+  - {x: -6.495192, y: -8.100111}
+  - {x: -5.629166, y: -8.100111}
+  - {x: -4.7631397, y: -8.100111}
+  - {x: -3.8971152, y: -8.100111}
+  - {x: -3.031089, y: -8.100111}
+  - {x: -2.1650646, y: -8.100111}
+  - {x: -1.29904, y: -8.100111}
+  - {x: -0.43301386, y: -8.100111}
+  - {x: 0.4330123, y: -8.100111}
+  - {x: 1.2990369, y: -8.100111}
+  - {x: 2.1650615, y: -8.100111}
+  - {x: 3.031089, y: -8.100111}
+  - {x: 3.8971138, y: -8.100111}
+  - {x: 6.4951906, y: -8.100111}
+  - {x: 7.361215, y: -8.100111}
+  - {x: 8.227242, y: -8.100111}
+  - {x: 9.093265, y: -8.100111}
+  - {x: 9.959289, y: -8.100111}
+  - {x: 10.825316, y: -8.100111}
+  - {x: 11.691341, y: -8.100111}
+  - {x: 12.557365, y: -8.100111}
+  - {x: 13.423393, y: -8.100111}
+  - {x: 14.289418, y: -8.100111}
+  - {x: 15.155446, y: -8.100111}
+  - {x: 16.021471, y: -8.100111}
+  - {x: 16.887491, y: -8.100111}
+  - {x: 22.949673, y: -8.100111}
+  - {x: 23.815699, y: -8.100111}
+  - {x: 24.681726, y: -8.100111}
+  - {x: 25.547747, y: -8.100111}
+  - {x: 26.413774, y: -8.100111}
+  - {x: 27.279799, y: -8.100111}
+  - {x: 28.145824, y: -8.100111}
+  - {x: 29.011848, y: -8.100111}
+  - {x: 29.87788, y: -8.100111}
+  - {x: 30.743898, y: -8.100111}
+  - {x: 31.609922, y: -8.100111}
+  - {x: -32.04294, y: -8.850112}
+  - {x: -31.176914, y: -8.850112}
+  - {x: -30.31089, y: -8.850112}
+  - {x: -29.444864, y: -8.850112}
+  - {x: -28.578838, y: -8.850112}
+  - {x: -27.712812, y: -8.850112}
+  - {x: -26.846788, y: -8.850112}
+  - {x: -25.980762, y: -8.850112}
+  - {x: -25.114737, y: -8.850112}
+  - {x: -24.248713, y: -8.850112}
+  - {x: -23.382687, y: -8.850112}
+  - {x: -22.51666, y: -8.850112}
+  - {x: -21.650635, y: -8.850112}
+  - {x: -20.78461, y: -8.850112}
+  - {x: -19.918585, y: -8.850112}
+  - {x: -19.052559, y: -8.850112}
+  - {x: -18.186535, y: -8.850112}
+  - {x: -17.320509, y: -8.850112}
+  - {x: -16.454483, y: -8.850112}
+  - {x: -15.588458, y: -8.850112}
+  - {x: -11.258332, y: -8.850112}
+  - {x: -10.392306, y: -8.850112}
+  - {x: -9.526279, y: -8.850112}
+  - {x: -8.660255, y: -8.850112}
+  - {x: -7.794229, y: -8.850112}
+  - {x: -6.928203, y: -8.850112}
+  - {x: -6.062178, y: -8.850112}
+  - {x: -5.1961536, y: -8.850112}
+  - {x: -4.3301277, y: -8.850112}
+  - {x: -3.4641016, y: -8.850112}
+  - {x: -2.5980785, y: -8.850112}
+  - {x: -1.7320523, y: -8.850112}
+  - {x: -0.86602616, y: -8.850112}
+  - {x: 0, y: -8.850112}
+  - {x: 0.8660246, y: -8.850112}
+  - {x: 1.7320492, y: -8.850112}
+  - {x: 2.5980768, y: -8.850112}
+  - {x: 3.4640985, y: -8.850112}
+  - {x: 4.3301263, y: -8.850112}
+  - {x: 6.0621753, y: -8.850112}
+  - {x: 6.928203, y: -8.850112}
+  - {x: 7.7942276, y: -8.850112}
+  - {x: 8.660253, y: -8.850112}
+  - {x: 9.526279, y: -8.850112}
+  - {x: 10.392304, y: -8.850112}
+  - {x: 11.258329, y: -8.850112}
+  - {x: 12.124356, y: -8.850112}
+  - {x: 12.990378, y: -8.850112}
+  - {x: 13.856406, y: -8.850112}
+  - {x: 14.72243, y: -8.850112}
+  - {x: 15.588455, y: -8.850112}
+  - {x: 16.454483, y: -8.850112}
+  - {x: 18.186531, y: -8.850112}
+  - {x: 19.052559, y: -8.850112}
+  - {x: 22.516659, y: -8.850112}
+  - {x: 23.382683, y: -8.850112}
+  - {x: 24.24871, y: -8.850112}
+  - {x: 25.114735, y: -8.850112}
+  - {x: 25.980762, y: -8.850112}
+  - {x: 26.846786, y: -8.850112}
+  - {x: 27.712812, y: -8.850112}
+  - {x: 28.578836, y: -8.850112}
+  - {x: 29.44486, y: -8.850112}
+  - {x: 30.310886, y: -8.850112}
+  - {x: 31.176916, y: -8.850112}
+  - {x: -31.609928, y: -9.600112}
+  - {x: -30.743902, y: -9.600112}
+  - {x: -29.877876, y: -9.600112}
+  - {x: -29.01185, y: -9.600112}
+  - {x: -28.145826, y: -9.600112}
+  - {x: -27.2798, y: -9.600112}
+  - {x: -26.413774, y: -9.600112}
+  - {x: -25.54775, y: -9.600112}
+  - {x: -24.681725, y: -9.600112}
+  - {x: -23.815699, y: -9.600112}
+  - {x: -22.949675, y: -9.600112}
+  - {x: -22.083649, y: -9.600112}
+  - {x: -21.217623, y: -9.600112}
+  - {x: -20.351597, y: -9.600112}
+  - {x: -19.485573, y: -9.600112}
+  - {x: -18.619547, y: -9.600112}
+  - {x: -17.753521, y: -9.600112}
+  - {x: -16.887495, y: -9.600112}
+  - {x: -16.021471, y: -9.600112}
+  - {x: -15.155445, y: -9.600112}
+  - {x: -11.691342, y: -9.600112}
+  - {x: -10.825318, y: -9.600112}
+  - {x: -9.959293, y: -9.600112}
+  - {x: -9.093267, y: -9.600112}
+  - {x: -8.2272415, y: -9.600112}
+  - {x: -7.3612165, y: -9.600112}
+  - {x: -6.495192, y: -9.600112}
+  - {x: -5.629166, y: -9.600112}
+  - {x: -4.7631397, y: -9.600112}
+  - {x: -3.8971152, y: -9.600112}
+  - {x: -3.031089, y: -9.600112}
+  - {x: -2.1650646, y: -9.600112}
+  - {x: -1.29904, y: -9.600112}
+  - {x: -0.43301386, y: -9.600112}
+  - {x: 0.4330123, y: -9.600112}
+  - {x: 1.2990369, y: -9.600112}
+  - {x: 2.1650615, y: -9.600112}
+  - {x: 3.031089, y: -9.600112}
+  - {x: 3.8971138, y: -9.600112}
+  - {x: 4.7631383, y: -9.600112}
+  - {x: 5.629163, y: -9.600112}
+  - {x: 6.4951906, y: -9.600112}
+  - {x: 7.361215, y: -9.600112}
+  - {x: 8.227242, y: -9.600112}
+  - {x: 9.093265, y: -9.600112}
+  - {x: 9.959289, y: -9.600112}
+  - {x: 10.825316, y: -9.600112}
+  - {x: 11.691341, y: -9.600112}
+  - {x: 12.557365, y: -9.600112}
+  - {x: 13.423393, y: -9.600112}
+  - {x: 14.289418, y: -9.600112}
+  - {x: 15.155446, y: -9.600112}
+  - {x: 16.021471, y: -9.600112}
+  - {x: 16.887491, y: -9.600112}
+  - {x: 17.75352, y: -9.600112}
+  - {x: 18.619545, y: -9.600112}
+  - {x: 19.485569, y: -9.600112}
+  - {x: 20.351597, y: -9.600112}
+  - {x: 21.21762, y: -9.600112}
+  - {x: 22.083645, y: -9.600112}
+  - {x: 22.949673, y: -9.600112}
+  - {x: 23.815699, y: -9.600112}
+  - {x: 25.547747, y: -9.600112}
+  - {x: 26.413774, y: -9.600112}
+  - {x: 27.279799, y: -9.600112}
+  - {x: 28.145824, y: -9.600112}
+  - {x: 29.011848, y: -9.600112}
+  - {x: 29.87788, y: -9.600112}
+  - {x: 30.743898, y: -9.600112}
+  - {x: 31.609922, y: -9.600112}
+  - {x: -32.04294, y: -10.350113}
+  - {x: -31.176914, y: -10.350113}
+  - {x: -30.31089, y: -10.350113}
+  - {x: -29.444864, y: -10.350113}
+  - {x: -28.578838, y: -10.350113}
+  - {x: -27.712812, y: -10.350113}
+  - {x: -26.846788, y: -10.350113}
+  - {x: -25.980762, y: -10.350113}
+  - {x: -25.114737, y: -10.350113}
+  - {x: -24.248713, y: -10.350113}
+  - {x: -23.382687, y: -10.350113}
+  - {x: -22.51666, y: -10.350113}
+  - {x: -21.650635, y: -10.350113}
+  - {x: -20.78461, y: -10.350113}
+  - {x: -19.918585, y: -10.350113}
+  - {x: -19.052559, y: -10.350113}
+  - {x: -18.186535, y: -10.350113}
+  - {x: -17.320509, y: -10.350113}
+  - {x: -16.454483, y: -10.350113}
+  - {x: -15.588458, y: -10.350113}
+  - {x: -12.124356, y: -10.350113}
+  - {x: -11.258332, y: -10.350113}
+  - {x: -10.392306, y: -10.350113}
+  - {x: -9.526279, y: -10.350113}
+  - {x: -8.660255, y: -10.350113}
+  - {x: -7.794229, y: -10.350113}
+  - {x: -6.928203, y: -10.350113}
+  - {x: -6.062178, y: -10.350113}
+  - {x: -5.1961536, y: -10.350113}
+  - {x: -4.3301277, y: -10.350113}
+  - {x: -3.4641016, y: -10.350113}
+  - {x: -2.5980785, y: -10.350113}
+  - {x: -1.7320523, y: -10.350113}
+  - {x: -0.86602616, y: -10.350113}
+  - {x: 0, y: -10.350113}
+  - {x: 0.8660246, y: -10.350113}
+  - {x: 1.7320492, y: -10.350113}
+  - {x: 2.5980768, y: -10.350113}
+  - {x: 3.4640985, y: -10.350113}
+  - {x: 4.3301263, y: -10.350113}
+  - {x: 5.196151, y: -10.350113}
+  - {x: 6.0621753, y: -10.350113}
+  - {x: 6.928203, y: -10.350113}
+  - {x: 7.7942276, y: -10.350113}
+  - {x: 8.660253, y: -10.350113}
+  - {x: 9.526279, y: -10.350113}
+  - {x: 10.392304, y: -10.350113}
+  - {x: 11.258329, y: -10.350113}
+  - {x: 12.124356, y: -10.350113}
+  - {x: 12.990378, y: -10.350113}
+  - {x: 13.856406, y: -10.350113}
+  - {x: 14.72243, y: -10.350113}
+  - {x: 15.588455, y: -10.350113}
+  - {x: 16.454483, y: -10.350113}
+  - {x: 17.320507, y: -10.350113}
+  - {x: 18.186531, y: -10.350113}
+  - {x: 19.052559, y: -10.350113}
+  - {x: 19.918585, y: -10.350113}
+  - {x: 20.784605, y: -10.350113}
+  - {x: 21.650633, y: -10.350113}
+  - {x: 22.516659, y: -10.350113}
+  - {x: 23.382683, y: -10.350113}
+  - {x: 25.114735, y: -10.350113}
+  - {x: 25.980762, y: -10.350113}
+  - {x: 26.846786, y: -10.350113}
+  - {x: 27.712812, y: -10.350113}
+  - {x: 28.578836, y: -10.350113}
+  - {x: 29.44486, y: -10.350113}
+  - {x: 30.310886, y: -10.350113}
+  - {x: 31.176916, y: -10.350113}
+  - {x: -31.609928, y: -11.100112}
+  - {x: -30.743902, y: -11.100112}
+  - {x: -29.877876, y: -11.100112}
+  - {x: -29.01185, y: -11.100112}
+  - {x: -28.145826, y: -11.100112}
+  - {x: -27.2798, y: -11.100112}
+  - {x: -26.413774, y: -11.100112}
+  - {x: -25.54775, y: -11.100112}
+  - {x: -24.681725, y: -11.100112}
+  - {x: -23.815699, y: -11.100112}
+  - {x: -22.949675, y: -11.100112}
+  - {x: -22.083649, y: -11.100112}
+  - {x: -21.217623, y: -11.100112}
+  - {x: -20.351597, y: -11.100112}
+  - {x: -19.485573, y: -11.100112}
+  - {x: -18.619547, y: -11.100112}
+  - {x: -17.753521, y: -11.100112}
+  - {x: -16.887495, y: -11.100112}
+  - {x: -16.021471, y: -11.100112}
+  - {x: -15.155445, y: -11.100112}
+  - {x: -12.557369, y: -11.100112}
+  - {x: -11.691342, y: -11.100112}
+  - {x: -10.825318, y: -11.100112}
+  - {x: -9.959293, y: -11.100112}
+  - {x: -9.093267, y: -11.100112}
+  - {x: -8.2272415, y: -11.100112}
+  - {x: -7.3612165, y: -11.100112}
+  - {x: -6.495192, y: -11.100112}
+  - {x: -5.629166, y: -11.100112}
+  - {x: -4.7631397, y: -11.100112}
+  - {x: -3.8971152, y: -11.100112}
+  - {x: -3.031089, y: -11.100112}
+  - {x: -2.1650646, y: -11.100112}
+  - {x: -1.29904, y: -11.100112}
+  - {x: -0.43301386, y: -11.100112}
+  - {x: 0.4330123, y: -11.100112}
+  - {x: 1.2990369, y: -11.100112}
+  - {x: 2.1650615, y: -11.100112}
+  - {x: 3.031089, y: -11.100112}
+  - {x: 3.8971138, y: -11.100112}
+  - {x: 4.7631383, y: -11.100112}
+  - {x: 5.629163, y: -11.100112}
+  - {x: 6.4951906, y: -11.100112}
+  - {x: 7.361215, y: -11.100112}
+  - {x: 8.227242, y: -11.100112}
+  - {x: 9.093265, y: -11.100112}
+  - {x: 9.959289, y: -11.100112}
+  - {x: 10.825316, y: -11.100112}
+  - {x: 11.691341, y: -11.100112}
+  - {x: 12.557365, y: -11.100112}
+  - {x: 13.423393, y: -11.100112}
+  - {x: 14.289418, y: -11.100112}
+  - {x: 15.155446, y: -11.100112}
+  - {x: 16.021471, y: -11.100112}
+  - {x: 16.887491, y: -11.100112}
+  - {x: 17.75352, y: -11.100112}
+  - {x: 18.619545, y: -11.100112}
+  - {x: 19.485569, y: -11.100112}
+  - {x: 20.351597, y: -11.100112}
+  - {x: 21.21762, y: -11.100112}
+  - {x: 22.083645, y: -11.100112}
+  - {x: 22.949673, y: -11.100112}
+  - {x: 23.815699, y: -11.100112}
+  - {x: 24.681726, y: -11.100112}
+  - {x: 25.547747, y: -11.100112}
+  - {x: 26.413774, y: -11.100112}
+  - {x: 27.279799, y: -11.100112}
+  - {x: 28.145824, y: -11.100112}
+  - {x: 29.011848, y: -11.100112}
+  - {x: 29.87788, y: -11.100112}
+  - {x: 30.743898, y: -11.100112}
+  - {x: 31.609922, y: -11.100112}
+  - {x: -32.04294, y: -11.850112}
+  - {x: -31.176914, y: -11.850112}
+  - {x: -30.31089, y: -11.850112}
+  - {x: -29.444864, y: -11.850112}
+  - {x: -28.578838, y: -11.850112}
+  - {x: -27.712812, y: -11.850112}
+  - {x: -26.846788, y: -11.850112}
+  - {x: -25.980762, y: -11.850112}
+  - {x: -25.114737, y: -11.850112}
+  - {x: -24.248713, y: -11.850112}
+  - {x: -23.382687, y: -11.850112}
+  - {x: -22.51666, y: -11.850112}
+  - {x: -21.650635, y: -11.850112}
+  - {x: -20.78461, y: -11.850112}
+  - {x: -19.918585, y: -11.850112}
+  - {x: -19.052559, y: -11.850112}
+  - {x: -18.186535, y: -11.850112}
+  - {x: -17.320509, y: -11.850112}
+  - {x: -16.454483, y: -11.850112}
+  - {x: -15.588458, y: -11.850112}
+  - {x: -12.990381, y: -11.850112}
+  - {x: -12.124356, y: -11.850112}
+  - {x: -11.258332, y: -11.850112}
+  - {x: -10.392306, y: -11.850112}
+  - {x: -9.526279, y: -11.850112}
+  - {x: -8.660255, y: -11.850112}
+  - {x: -7.794229, y: -11.850112}
+  - {x: -6.928203, y: -11.850112}
+  - {x: -6.062178, y: -11.850112}
+  - {x: -5.1961536, y: -11.850112}
+  - {x: -4.3301277, y: -11.850112}
+  - {x: -3.4641016, y: -11.850112}
+  - {x: -2.5980785, y: -11.850112}
+  - {x: -1.7320523, y: -11.850112}
+  - {x: -0.86602616, y: -11.850112}
+  - {x: 0, y: -11.850112}
+  - {x: 0.8660246, y: -11.850112}
+  - {x: 1.7320492, y: -11.850112}
+  - {x: 2.5980768, y: -11.850112}
+  - {x: 3.4640985, y: -11.850112}
+  - {x: 4.3301263, y: -11.850112}
+  - {x: 5.196151, y: -11.850112}
+  - {x: 6.0621753, y: -11.850112}
+  - {x: 6.928203, y: -11.850112}
+  - {x: 7.7942276, y: -11.850112}
+  - {x: 8.660253, y: -11.850112}
+  - {x: 9.526279, y: -11.850112}
+  - {x: 10.392304, y: -11.850112}
+  - {x: 11.258329, y: -11.850112}
+  - {x: 12.124356, y: -11.850112}
+  - {x: 12.990378, y: -11.850112}
+  - {x: 13.856406, y: -11.850112}
+  - {x: 14.72243, y: -11.850112}
+  - {x: 15.588455, y: -11.850112}
+  - {x: 16.454483, y: -11.850112}
+  - {x: 17.320507, y: -11.850112}
+  - {x: 18.186531, y: -11.850112}
+  - {x: 19.052559, y: -11.850112}
+  - {x: 19.918585, y: -11.850112}
+  - {x: 20.784605, y: -11.850112}
+  - {x: 21.650633, y: -11.850112}
+  - {x: 22.516659, y: -11.850112}
+  - {x: 23.382683, y: -11.850112}
+  - {x: 24.24871, y: -11.850112}
+  - {x: 25.114735, y: -11.850112}
+  - {x: 25.980762, y: -11.850112}
+  - {x: 26.846786, y: -11.850112}
+  - {x: 27.712812, y: -11.850112}
+  - {x: 28.578836, y: -11.850112}
+  - {x: 29.44486, y: -11.850112}
+  - {x: 30.310886, y: -11.850112}
+  - {x: 31.176916, y: -11.850112}
+  - {x: -31.609928, y: -12.600113}
+  - {x: -30.743902, y: -12.600113}
+  - {x: -29.877876, y: -12.600113}
+  - {x: -29.01185, y: -12.600113}
+  - {x: -28.145826, y: -12.600113}
+  - {x: -27.2798, y: -12.600113}
+  - {x: -26.413774, y: -12.600113}
+  - {x: -25.54775, y: -12.600113}
+  - {x: -24.681725, y: -12.600113}
+  - {x: -23.815699, y: -12.600113}
+  - {x: -22.949675, y: -12.600113}
+  - {x: -22.083649, y: -12.600113}
+  - {x: -21.217623, y: -12.600113}
+  - {x: -20.351597, y: -12.600113}
+  - {x: -19.485573, y: -12.600113}
+  - {x: -18.619547, y: -12.600113}
+  - {x: -17.753521, y: -12.600113}
+  - {x: -16.887495, y: -12.600113}
+  - {x: -16.021471, y: -12.600113}
+  - {x: -15.155445, y: -12.600113}
+  - {x: -13.423394, y: -12.600113}
+  - {x: -12.557369, y: -12.600113}
+  - {x: -11.691342, y: -12.600113}
+  - {x: -10.825318, y: -12.600113}
+  - {x: -9.959293, y: -12.600113}
+  - {x: -9.093267, y: -12.600113}
+  - {x: -8.2272415, y: -12.600113}
+  - {x: -7.3612165, y: -12.600113}
+  - {x: -6.495192, y: -12.600113}
+  - {x: -5.629166, y: -12.600113}
+  - {x: -4.7631397, y: -12.600113}
+  - {x: -3.8971152, y: -12.600113}
+  - {x: -3.031089, y: -12.600113}
+  - {x: -2.1650646, y: -12.600113}
+  - {x: -1.29904, y: -12.600113}
+  - {x: -0.43301386, y: -12.600113}
+  - {x: 0.4330123, y: -12.600113}
+  - {x: 1.2990369, y: -12.600113}
+  - {x: 2.1650615, y: -12.600113}
+  - {x: 3.031089, y: -12.600113}
+  - {x: 3.8971138, y: -12.600113}
+  - {x: 4.7631383, y: -12.600113}
+  - {x: 5.629163, y: -12.600113}
+  - {x: 6.4951906, y: -12.600113}
+  - {x: 7.361215, y: -12.600113}
+  - {x: 8.227242, y: -12.600113}
+  - {x: 9.093265, y: -12.600113}
+  - {x: 9.959289, y: -12.600113}
+  - {x: 10.825316, y: -12.600113}
+  - {x: 11.691341, y: -12.600113}
+  - {x: 12.557365, y: -12.600113}
+  - {x: 13.423393, y: -12.600113}
+  - {x: 14.289418, y: -12.600113}
+  - {x: 15.155446, y: -12.600113}
+  - {x: 16.021471, y: -12.600113}
+  - {x: 16.887491, y: -12.600113}
+  - {x: 17.75352, y: -12.600113}
+  - {x: 18.619545, y: -12.600113}
+  - {x: 19.485569, y: -12.600113}
+  - {x: 20.351597, y: -12.600113}
+  - {x: 21.21762, y: -12.600113}
+  - {x: 22.083645, y: -12.600113}
+  - {x: 22.949673, y: -12.600113}
+  - {x: 23.815699, y: -12.600113}
+  - {x: 24.681726, y: -12.600113}
+  - {x: 25.547747, y: -12.600113}
+  - {x: 26.413774, y: -12.600113}
+  - {x: 27.279799, y: -12.600113}
+  - {x: 28.145824, y: -12.600113}
+  - {x: 29.011848, y: -12.600113}
+  - {x: 29.87788, y: -12.600113}
+  - {x: 30.743898, y: -12.600113}
+  - {x: 31.609922, y: -12.600113}
+  - {x: -32.04294, y: -13.350111}
+  - {x: -31.176914, y: -13.350111}
+  - {x: -30.31089, y: -13.350111}
+  - {x: -29.444864, y: -13.350111}
+  - {x: -28.578838, y: -13.350111}
+  - {x: -27.712812, y: -13.350111}
+  - {x: -26.846788, y: -13.350111}
+  - {x: -25.980762, y: -13.350111}
+  - {x: -25.114737, y: -13.350111}
+  - {x: -24.248713, y: -13.350111}
+  - {x: -23.382687, y: -13.350111}
+  - {x: -22.51666, y: -13.350111}
+  - {x: -21.650635, y: -13.350111}
+  - {x: -20.78461, y: -13.350111}
+  - {x: -19.918585, y: -13.350111}
+  - {x: -19.052559, y: -13.350111}
+  - {x: -18.186535, y: -13.350111}
+  - {x: -17.320509, y: -13.350111}
+  - {x: -16.454483, y: -13.350111}
+  - {x: -15.588458, y: -13.350111}
+  - {x: -14.722432, y: -13.350111}
+  - {x: -13.856407, y: -13.350111}
+  - {x: -12.990381, y: -13.350111}
+  - {x: -12.124356, y: -13.350111}
+  - {x: -11.258332, y: -13.350111}
+  - {x: -10.392306, y: -13.350111}
+  - {x: -9.526279, y: -13.350111}
+  - {x: -8.660255, y: -13.350111}
+  - {x: -7.794229, y: -13.350111}
+  - {x: -6.928203, y: -13.350111}
+  - {x: -6.062178, y: -13.350111}
+  - {x: -5.1961536, y: -13.350111}
+  - {x: -4.3301277, y: -13.350111}
+  - {x: -3.4641016, y: -13.350111}
+  - {x: -2.5980785, y: -13.350111}
+  - {x: -1.7320523, y: -13.350111}
+  - {x: -0.86602616, y: -13.350111}
+  - {x: 0, y: -13.350111}
+  - {x: 0.8660246, y: -13.350111}
+  - {x: 1.7320492, y: -13.350111}
+  - {x: 2.5980768, y: -13.350111}
+  - {x: 3.4640985, y: -13.350111}
+  - {x: 4.3301263, y: -13.350111}
+  - {x: 5.196151, y: -13.350111}
+  - {x: 6.0621753, y: -13.350111}
+  - {x: 6.928203, y: -13.350111}
+  - {x: 7.7942276, y: -13.350111}
+  - {x: 8.660253, y: -13.350111}
+  - {x: 9.526279, y: -13.350111}
+  - {x: 10.392304, y: -13.350111}
+  - {x: 11.258329, y: -13.350111}
+  - {x: 12.124356, y: -13.350111}
+  - {x: 12.990378, y: -13.350111}
+  - {x: 13.856406, y: -13.350111}
+  - {x: 14.72243, y: -13.350111}
+  - {x: 15.588455, y: -13.350111}
+  - {x: 16.454483, y: -13.350111}
+  - {x: 17.320507, y: -13.350111}
+  - {x: 18.186531, y: -13.350111}
+  - {x: 19.052559, y: -13.350111}
+  - {x: 19.918585, y: -13.350111}
+  - {x: 20.784605, y: -13.350111}
+  - {x: 21.650633, y: -13.350111}
+  - {x: 22.516659, y: -13.350111}
+  - {x: 23.382683, y: -13.350111}
+  - {x: 24.24871, y: -13.350111}
+  - {x: 25.114735, y: -13.350111}
+  - {x: 25.980762, y: -13.350111}
+  - {x: 26.846786, y: -13.350111}
+  - {x: 27.712812, y: -13.350111}
+  - {x: 28.578836, y: -13.350111}
+  - {x: 29.44486, y: -13.350111}
+  - {x: 30.310886, y: -13.350111}
+  - {x: 31.176916, y: -13.350111}
+  - {x: -31.609928, y: -14.100112}
+  - {x: -30.743902, y: -14.100112}
+  - {x: -29.877876, y: -14.100112}
+  - {x: -29.01185, y: -14.100112}
+  - {x: -28.145826, y: -14.100112}
+  - {x: -27.2798, y: -14.100112}
+  - {x: -26.413774, y: -14.100112}
+  - {x: -25.54775, y: -14.100112}
+  - {x: -24.681725, y: -14.100112}
+  - {x: -23.815699, y: -14.100112}
+  - {x: -22.949675, y: -14.100112}
+  - {x: -22.083649, y: -14.100112}
+  - {x: -21.217623, y: -14.100112}
+  - {x: -20.351597, y: -14.100112}
+  - {x: -19.485573, y: -14.100112}
+  - {x: -18.619547, y: -14.100112}
+  - {x: -17.753521, y: -14.100112}
+  - {x: -16.887495, y: -14.100112}
+  - {x: -16.021471, y: -14.100112}
+  - {x: -15.155445, y: -14.100112}
+  - {x: -14.28942, y: -14.100112}
+  - {x: -13.423394, y: -14.100112}
+  - {x: -12.557369, y: -14.100112}
+  - {x: -11.691342, y: -14.100112}
+  - {x: -10.825318, y: -14.100112}
+  - {x: -9.959293, y: -14.100112}
+  - {x: -9.093267, y: -14.100112}
+  - {x: -8.2272415, y: -14.100112}
+  - {x: -7.3612165, y: -14.100112}
+  - {x: -6.495192, y: -14.100112}
+  - {x: -5.629166, y: -14.100112}
+  - {x: -4.7631397, y: -14.100112}
+  - {x: -3.8971152, y: -14.100112}
+  - {x: -3.031089, y: -14.100112}
+  - {x: -2.1650646, y: -14.100112}
+  - {x: -1.29904, y: -14.100112}
+  - {x: -0.43301386, y: -14.100112}
+  - {x: 0.4330123, y: -14.100112}
+  - {x: 1.2990369, y: -14.100112}
+  - {x: 2.1650615, y: -14.100112}
+  - {x: 3.031089, y: -14.100112}
+  - {x: 3.8971138, y: -14.100112}
+  - {x: 4.7631383, y: -14.100112}
+  - {x: 5.629163, y: -14.100112}
+  - {x: 6.4951906, y: -14.100112}
+  - {x: 7.361215, y: -14.100112}
+  - {x: 8.227242, y: -14.100112}
+  - {x: 9.093265, y: -14.100112}
+  - {x: 9.959289, y: -14.100112}
+  - {x: 10.825316, y: -14.100112}
+  - {x: 11.691341, y: -14.100112}
+  - {x: 12.557365, y: -14.100112}
+  - {x: 13.423393, y: -14.100112}
+  - {x: 14.289418, y: -14.100112}
+  - {x: 15.155446, y: -14.100112}
+  - {x: 16.021471, y: -14.100112}
+  - {x: 16.887491, y: -14.100112}
+  - {x: 17.75352, y: -14.100112}
+  - {x: 18.619545, y: -14.100112}
+  - {x: 19.485569, y: -14.100112}
+  - {x: 20.351597, y: -14.100112}
+  - {x: 21.21762, y: -14.100112}
+  - {x: 22.083645, y: -14.100112}
+  - {x: 22.949673, y: -14.100112}
+  - {x: 23.815699, y: -14.100112}
+  - {x: 24.681726, y: -14.100112}
+  - {x: 25.547747, y: -14.100112}
+  - {x: 26.413774, y: -14.100112}
+  - {x: 27.279799, y: -14.100112}
+  - {x: 28.145824, y: -14.100112}
+  - {x: 29.011848, y: -14.100112}
+  - {x: 29.87788, y: -14.100112}
+  - {x: 30.743898, y: -14.100112}
+  - {x: 31.609922, y: -14.100112}
+  - {x: -32.04294, y: -14.850113}
+  - {x: -31.176914, y: -14.850113}
+  - {x: -30.31089, y: -14.850113}
+  - {x: -29.444864, y: -14.850113}
+  - {x: -28.578838, y: -14.850113}
+  - {x: -27.712812, y: -14.850113}
+  - {x: -26.846788, y: -14.850113}
+  - {x: -25.980762, y: -14.850113}
+  - {x: -25.114737, y: -14.850113}
+  - {x: -24.248713, y: -14.850113}
+  - {x: -23.382687, y: -14.850113}
+  - {x: -22.51666, y: -14.850113}
+  - {x: -21.650635, y: -14.850113}
+  - {x: -20.78461, y: -14.850113}
+  - {x: -19.918585, y: -14.850113}
+  - {x: -19.052559, y: -14.850113}
+  - {x: -18.186535, y: -14.850113}
+  - {x: -17.320509, y: -14.850113}
+  - {x: -16.454483, y: -14.850113}
+  - {x: -15.588458, y: -14.850113}
+  - {x: -14.722432, y: -14.850113}
+  - {x: -13.856407, y: -14.850113}
+  - {x: -12.990381, y: -14.850113}
+  - {x: -12.124356, y: -14.850113}
+  - {x: -11.258332, y: -14.850113}
+  - {x: -10.392306, y: -14.850113}
+  - {x: -9.526279, y: -14.850113}
+  - {x: -8.660255, y: -14.850113}
+  - {x: -7.794229, y: -14.850113}
+  - {x: -6.928203, y: -14.850113}
+  - {x: -6.062178, y: -14.850113}
+  - {x: -5.1961536, y: -14.850113}
+  - {x: -4.3301277, y: -14.850113}
+  - {x: -3.4641016, y: -14.850113}
+  - {x: -2.5980785, y: -14.850113}
+  - {x: -1.7320523, y: -14.850113}
+  - {x: -0.86602616, y: -14.850113}
+  - {x: 0, y: -14.850113}
+  - {x: 0.8660246, y: -14.850113}
+  - {x: 1.7320492, y: -14.850113}
+  - {x: 2.5980768, y: -14.850113}
+  - {x: 3.4640985, y: -14.850113}
+  - {x: 4.3301263, y: -14.850113}
+  - {x: 5.196151, y: -14.850113}
+  - {x: 6.0621753, y: -14.850113}
+  - {x: 6.928203, y: -14.850113}
+  - {x: 7.7942276, y: -14.850113}
+  - {x: 8.660253, y: -14.850113}
+  - {x: 9.526279, y: -14.850113}
+  - {x: 10.392304, y: -14.850113}
+  - {x: 11.258329, y: -14.850113}
+  - {x: 12.124356, y: -14.850113}
+  - {x: 12.990378, y: -14.850113}
+  - {x: 13.856406, y: -14.850113}
+  - {x: 14.72243, y: -14.850113}
+  - {x: 15.588455, y: -14.850113}
+  - {x: 16.454483, y: -14.850113}
+  - {x: 17.320507, y: -14.850113}
+  - {x: 18.186531, y: -14.850113}
+  - {x: 19.052559, y: -14.850113}
+  - {x: 19.918585, y: -14.850113}
+  - {x: 20.784605, y: -14.850113}
+  - {x: 21.650633, y: -14.850113}
+  - {x: 22.516659, y: -14.850113}
+  - {x: 23.382683, y: -14.850113}
+  - {x: 24.24871, y: -14.850113}
+  - {x: 25.114735, y: -14.850113}
+  - {x: 25.980762, y: -14.850113}
+  - {x: 26.846786, y: -14.850113}
+  - {x: 27.712812, y: -14.850113}
+  - {x: 28.578836, y: -14.850113}
+  - {x: 29.44486, y: -14.850113}
+  - {x: 30.310886, y: -14.850113}
+  - {x: 31.176916, y: -14.850113}
+  - {x: -31.609928, y: -15.600111}
+  - {x: -30.743902, y: -15.600111}
+  - {x: -29.877876, y: -15.600111}
+  - {x: -29.01185, y: -15.600111}
+  - {x: -28.145826, y: -15.600111}
+  - {x: -27.2798, y: -15.600111}
+  - {x: -26.413774, y: -15.600111}
+  - {x: -25.54775, y: -15.600111}
+  - {x: -24.681725, y: -15.600111}
+  - {x: -23.815699, y: -15.600111}
+  - {x: -22.949675, y: -15.600111}
+  - {x: -22.083649, y: -15.600111}
+  - {x: -21.217623, y: -15.600111}
+  - {x: -20.351597, y: -15.600111}
+  - {x: -19.485573, y: -15.600111}
+  - {x: -18.619547, y: -15.600111}
+  - {x: -17.753521, y: -15.600111}
+  - {x: -16.887495, y: -15.600111}
+  - {x: -16.021471, y: -15.600111}
+  - {x: -15.155445, y: -15.600111}
+  - {x: -14.28942, y: -15.600111}
+  - {x: -13.423394, y: -15.600111}
+  - {x: -12.557369, y: -15.600111}
+  - {x: -11.691342, y: -15.600111}
+  - {x: -10.825318, y: -15.600111}
+  - {x: -9.959293, y: -15.600111}
+  - {x: -9.093267, y: -15.600111}
+  - {x: -8.2272415, y: -15.600111}
+  - {x: -7.3612165, y: -15.600111}
+  - {x: -6.495192, y: -15.600111}
+  - {x: -5.629166, y: -15.600111}
+  - {x: -4.7631397, y: -15.600111}
+  - {x: -3.8971152, y: -15.600111}
+  - {x: -3.031089, y: -15.600111}
+  - {x: -2.1650646, y: -15.600111}
+  - {x: -1.29904, y: -15.600111}
+  - {x: -0.43301386, y: -15.600111}
+  - {x: 0.4330123, y: -15.600111}
+  - {x: 1.2990369, y: -15.600111}
+  - {x: 2.1650615, y: -15.600111}
+  - {x: 3.031089, y: -15.600111}
+  - {x: 3.8971138, y: -15.600111}
+  - {x: 4.7631383, y: -15.600111}
+  - {x: 5.629163, y: -15.600111}
+  - {x: 6.4951906, y: -15.600111}
+  - {x: 7.361215, y: -15.600111}
+  - {x: 8.227242, y: -15.600111}
+  - {x: 9.093265, y: -15.600111}
+  - {x: 9.959289, y: -15.600111}
+  - {x: 10.825316, y: -15.600111}
+  - {x: 11.691341, y: -15.600111}
+  - {x: 12.557365, y: -15.600111}
+  - {x: 13.423393, y: -15.600111}
+  - {x: 14.289418, y: -15.600111}
+  - {x: 15.155446, y: -15.600111}
+  - {x: 16.021471, y: -15.600111}
+  - {x: 16.887491, y: -15.600111}
+  - {x: 17.75352, y: -15.600111}
+  - {x: 18.619545, y: -15.600111}
+  - {x: 19.485569, y: -15.600111}
+  - {x: 20.351597, y: -15.600111}
+  - {x: 21.21762, y: -15.600111}
+  - {x: 22.083645, y: -15.600111}
+  - {x: 22.949673, y: -15.600111}
+  - {x: 23.815699, y: -15.600111}
+  - {x: 24.681726, y: -15.600111}
+  - {x: 25.547747, y: -15.600111}
+  - {x: 26.413774, y: -15.600111}
+  - {x: 27.279799, y: -15.600111}
+  - {x: 28.145824, y: -15.600111}
+  - {x: 29.011848, y: -15.600111}
+  - {x: 29.87788, y: -15.600111}
+  - {x: 30.743898, y: -15.600111}
+  - {x: 31.609922, y: -15.600111}
+  - {x: -32.04294, y: -16.350113}
+  - {x: -31.176914, y: -16.350113}
+  - {x: -30.31089, y: -16.350113}
+  - {x: -29.444864, y: -16.350113}
+  - {x: -28.578838, y: -16.350113}
+  - {x: -27.712812, y: -16.350113}
+  - {x: -26.846788, y: -16.350113}
+  - {x: -25.980762, y: -16.350113}
+  - {x: -25.114737, y: -16.350113}
+  - {x: -24.248713, y: -16.350113}
+  - {x: -23.382687, y: -16.350113}
+  - {x: -22.51666, y: -16.350113}
+  - {x: -21.650635, y: -16.350113}
+  - {x: -20.78461, y: -16.350113}
+  - {x: -19.918585, y: -16.350113}
+  - {x: -19.052559, y: -16.350113}
+  - {x: -18.186535, y: -16.350113}
+  - {x: -17.320509, y: -16.350113}
+  - {x: -16.454483, y: -16.350113}
+  - {x: -15.588458, y: -16.350113}
+  - {x: -14.722432, y: -16.350113}
+  - {x: -13.856407, y: -16.350113}
+  - {x: -12.990381, y: -16.350113}
+  - {x: -12.124356, y: -16.350113}
+  - {x: -11.258332, y: -16.350113}
+  - {x: -10.392306, y: -16.350113}
+  - {x: -9.526279, y: -16.350113}
+  - {x: -8.660255, y: -16.350113}
+  - {x: -7.794229, y: -16.350113}
+  - {x: -6.928203, y: -16.350113}
+  - {x: -6.062178, y: -16.350113}
+  - {x: -5.1961536, y: -16.350113}
+  - {x: -4.3301277, y: -16.350113}
+  - {x: -3.4641016, y: -16.350113}
+  - {x: -2.5980785, y: -16.350113}
+  - {x: -1.7320523, y: -16.350113}
+  - {x: -0.86602616, y: -16.350113}
+  - {x: 0, y: -16.350113}
+  - {x: 0.8660246, y: -16.350113}
+  - {x: 1.7320492, y: -16.350113}
+  - {x: 2.5980768, y: -16.350113}
+  - {x: 3.4640985, y: -16.350113}
+  - {x: 4.3301263, y: -16.350113}
+  - {x: 5.196151, y: -16.350113}
+  - {x: 6.0621753, y: -16.350113}
+  - {x: 6.928203, y: -16.350113}
+  - {x: 7.7942276, y: -16.350113}
+  - {x: 8.660253, y: -16.350113}
+  - {x: 9.526279, y: -16.350113}
+  - {x: 10.392304, y: -16.350113}
+  - {x: 11.258329, y: -16.350113}
+  - {x: 12.124356, y: -16.350113}
+  - {x: 12.990378, y: -16.350113}
+  - {x: 13.856406, y: -16.350113}
+  - {x: 14.72243, y: -16.350113}
+  - {x: 15.588455, y: -16.350113}
+  - {x: 16.454483, y: -16.350113}
+  - {x: 17.320507, y: -16.350113}
+  - {x: 18.186531, y: -16.350113}
+  - {x: 19.052559, y: -16.350113}
+  - {x: 19.918585, y: -16.350113}
+  - {x: 20.784605, y: -16.350113}
+  - {x: 21.650633, y: -16.350113}
+  - {x: 22.516659, y: -16.350113}
+  - {x: 23.382683, y: -16.350113}
+  - {x: 24.24871, y: -16.350113}
+  - {x: 25.114735, y: -16.350113}
+  - {x: 25.980762, y: -16.350113}
+  - {x: 26.846786, y: -16.350113}
+  - {x: 27.712812, y: -16.350113}
+  - {x: 28.578836, y: -16.350113}
+  - {x: 29.44486, y: -16.350113}
+  - {x: 30.310886, y: -16.350113}
+  - {x: 31.176916, y: -16.350113}
+  - {x: -31.609928, y: -17.100113}
+  - {x: -30.743902, y: -17.100113}
+  - {x: -29.877876, y: -17.100113}
+  - {x: -29.01185, y: -17.100113}
+  - {x: -28.145826, y: -17.100113}
+  - {x: -27.2798, y: -17.100113}
+  - {x: -26.413774, y: -17.100113}
+  - {x: -25.54775, y: -17.100113}
+  - {x: -24.681725, y: -17.100113}
+  - {x: -23.815699, y: -17.100113}
+  - {x: -22.949675, y: -17.100113}
+  - {x: -22.083649, y: -17.100113}
+  - {x: -21.217623, y: -17.100113}
+  - {x: -20.351597, y: -17.100113}
+  - {x: -19.485573, y: -17.100113}
+  - {x: -18.619547, y: -17.100113}
+  - {x: -17.753521, y: -17.100113}
+  - {x: -16.887495, y: -17.100113}
+  - {x: -16.021471, y: -17.100113}
+  - {x: -15.155445, y: -17.100113}
+  - {x: -14.28942, y: -17.100113}
+  - {x: -13.423394, y: -17.100113}
+  - {x: -12.557369, y: -17.100113}
+  - {x: -11.691342, y: -17.100113}
+  - {x: -10.825318, y: -17.100113}
+  - {x: -9.959293, y: -17.100113}
+  - {x: -9.093267, y: -17.100113}
+  - {x: -8.2272415, y: -17.100113}
+  - {x: -7.3612165, y: -17.100113}
+  - {x: -6.495192, y: -17.100113}
+  - {x: -5.629166, y: -17.100113}
+  - {x: -4.7631397, y: -17.100113}
+  - {x: -3.8971152, y: -17.100113}
+  - {x: -3.031089, y: -17.100113}
+  - {x: -2.1650646, y: -17.100113}
+  - {x: -1.29904, y: -17.100113}
+  - {x: -0.43301386, y: -17.100113}
+  - {x: 0.4330123, y: -17.100113}
+  - {x: 1.2990369, y: -17.100113}
+  - {x: 2.1650615, y: -17.100113}
+  - {x: 3.031089, y: -17.100113}
+  - {x: 3.8971138, y: -17.100113}
+  - {x: 4.7631383, y: -17.100113}
+  - {x: 5.629163, y: -17.100113}
+  - {x: 6.4951906, y: -17.100113}
+  - {x: 7.361215, y: -17.100113}
+  - {x: 8.227242, y: -17.100113}
+  - {x: 9.093265, y: -17.100113}
+  - {x: 9.959289, y: -17.100113}
+  - {x: 10.825316, y: -17.100113}
+  - {x: 11.691341, y: -17.100113}
+  - {x: 12.557365, y: -17.100113}
+  - {x: 13.423393, y: -17.100113}
+  - {x: 14.289418, y: -17.100113}
+  - {x: 15.155446, y: -17.100113}
+  - {x: 16.021471, y: -17.100113}
+  - {x: 16.887491, y: -17.100113}
+  - {x: 17.75352, y: -17.100113}
+  - {x: 18.619545, y: -17.100113}
+  - {x: 19.485569, y: -17.100113}
+  - {x: 20.351597, y: -17.100113}
+  - {x: 21.21762, y: -17.100113}
+  - {x: 22.083645, y: -17.100113}
+  - {x: 22.949673, y: -17.100113}
+  - {x: 23.815699, y: -17.100113}
+  - {x: 24.681726, y: -17.100113}
+  - {x: 25.547747, y: -17.100113}
+  - {x: 26.413774, y: -17.100113}
+  - {x: 27.279799, y: -17.100113}
+  - {x: 28.145824, y: -17.100113}
+  - {x: 29.011848, y: -17.100113}
+  - {x: 29.87788, y: -17.100113}
+  - {x: 30.743898, y: -17.100113}
+  - {x: 31.609922, y: -17.100113}
+  - {x: -32.04294, y: -17.850111}
+  - {x: -31.176914, y: -17.850111}
+  - {x: -30.31089, y: -17.850111}
+  - {x: -29.444864, y: -17.850111}
+  - {x: -28.578838, y: -17.850111}
+  - {x: -27.712812, y: -17.850111}
+  - {x: -26.846788, y: -17.850111}
+  - {x: -25.980762, y: -17.850111}
+  - {x: -25.114737, y: -17.850111}
+  - {x: -24.248713, y: -17.850111}
+  - {x: -23.382687, y: -17.850111}
+  - {x: -22.51666, y: -17.850111}
+  - {x: -21.650635, y: -17.850111}
+  - {x: -20.78461, y: -17.850111}
+  - {x: -19.918585, y: -17.850111}
+  - {x: -19.052559, y: -17.850111}
+  - {x: -18.186535, y: -17.850111}
+  - {x: -17.320509, y: -17.850111}
+  - {x: -16.454483, y: -17.850111}
+  - {x: -15.588458, y: -17.850111}
+  - {x: -14.722432, y: -17.850111}
+  - {x: -13.856407, y: -17.850111}
+  - {x: -12.990381, y: -17.850111}
+  - {x: -12.124356, y: -17.850111}
+  - {x: -11.258332, y: -17.850111}
+  - {x: -10.392306, y: -17.850111}
+  - {x: -9.526279, y: -17.850111}
+  - {x: -8.660255, y: -17.850111}
+  - {x: -7.794229, y: -17.850111}
+  - {x: -6.928203, y: -17.850111}
+  - {x: -6.062178, y: -17.850111}
+  - {x: -5.1961536, y: -17.850111}
+  - {x: -4.3301277, y: -17.850111}
+  - {x: -3.4641016, y: -17.850111}
+  - {x: -2.5980785, y: -17.850111}
+  - {x: -1.7320523, y: -17.850111}
+  - {x: -0.86602616, y: -17.850111}
+  - {x: 0, y: -17.850111}
+  - {x: 0.8660246, y: -17.850111}
+  - {x: 1.7320492, y: -17.850111}
+  - {x: 2.5980768, y: -17.850111}
+  - {x: 3.4640985, y: -17.850111}
+  - {x: 4.3301263, y: -17.850111}
+  - {x: 5.196151, y: -17.850111}
+  - {x: 6.0621753, y: -17.850111}
+  - {x: 6.928203, y: -17.850111}
+  - {x: 7.7942276, y: -17.850111}
+  - {x: 8.660253, y: -17.850111}
+  - {x: 9.526279, y: -17.850111}
+  - {x: 10.392304, y: -17.850111}
+  - {x: 11.258329, y: -17.850111}
+  - {x: 12.124356, y: -17.850111}
+  - {x: 12.990378, y: -17.850111}
+  - {x: 13.856406, y: -17.850111}
+  - {x: 14.72243, y: -17.850111}
+  - {x: 15.588455, y: -17.850111}
+  - {x: 16.454483, y: -17.850111}
+  - {x: 17.320507, y: -17.850111}
+  - {x: 18.186531, y: -17.850111}
+  - {x: 19.052559, y: -17.850111}
+  - {x: 19.918585, y: -17.850111}
+  - {x: 20.784605, y: -17.850111}
+  - {x: 21.650633, y: -17.850111}
+  - {x: 22.516659, y: -17.850111}
+  - {x: 23.382683, y: -17.850111}
+  - {x: 24.24871, y: -17.850111}
+  - {x: 25.114735, y: -17.850111}
+  - {x: 25.980762, y: -17.850111}
+  - {x: 26.846786, y: -17.850111}
+  - {x: 27.712812, y: -17.850111}
+  - {x: 28.578836, y: -17.850111}
+  - {x: 29.44486, y: -17.850111}
+  - {x: 30.310886, y: -17.850111}
+  - {x: 31.176916, y: -17.850111}
+  - {x: -31.609928, y: -18.600113}
+  - {x: -30.743902, y: -18.600113}
+  - {x: -29.877876, y: -18.600113}
+  - {x: -29.01185, y: -18.600113}
+  - {x: -28.145826, y: -18.600113}
+  - {x: -27.2798, y: -18.600113}
+  - {x: -26.413774, y: -18.600113}
+  - {x: -25.54775, y: -18.600113}
+  - {x: -24.681725, y: -18.600113}
+  - {x: -23.815699, y: -18.600113}
+  - {x: -22.949675, y: -18.600113}
+  - {x: -22.083649, y: -18.600113}
+  - {x: -21.217623, y: -18.600113}
+  - {x: -20.351597, y: -18.600113}
+  - {x: -19.485573, y: -18.600113}
+  - {x: -18.619547, y: -18.600113}
+  - {x: -17.753521, y: -18.600113}
+  - {x: -16.887495, y: -18.600113}
+  - {x: -16.021471, y: -18.600113}
+  - {x: -15.155445, y: -18.600113}
+  - {x: -14.28942, y: -18.600113}
+  - {x: -13.423394, y: -18.600113}
+  - {x: -12.557369, y: -18.600113}
+  - {x: -11.691342, y: -18.600113}
+  - {x: -10.825318, y: -18.600113}
+  - {x: -9.959293, y: -18.600113}
+  - {x: -9.093267, y: -18.600113}
+  - {x: -8.2272415, y: -18.600113}
+  - {x: -7.3612165, y: -18.600113}
+  - {x: -6.495192, y: -18.600113}
+  - {x: -5.629166, y: -18.600113}
+  - {x: -4.7631397, y: -18.600113}
+  - {x: -3.8971152, y: -18.600113}
+  - {x: -3.031089, y: -18.600113}
+  - {x: -2.1650646, y: -18.600113}
+  - {x: -1.29904, y: -18.600113}
+  - {x: -0.43301386, y: -18.600113}
+  - {x: 0.4330123, y: -18.600113}
+  - {x: 1.2990369, y: -18.600113}
+  - {x: 2.1650615, y: -18.600113}
+  - {x: 3.031089, y: -18.600113}
+  - {x: 3.8971138, y: -18.600113}
+  - {x: 4.7631383, y: -18.600113}
+  - {x: 5.629163, y: -18.600113}
+  - {x: 6.4951906, y: -18.600113}
+  - {x: 7.361215, y: -18.600113}
+  - {x: 8.227242, y: -18.600113}
+  - {x: 9.093265, y: -18.600113}
+  - {x: 9.959289, y: -18.600113}
+  - {x: 10.825316, y: -18.600113}
+  - {x: 11.691341, y: -18.600113}
+  - {x: 12.557365, y: -18.600113}
+  - {x: 13.423393, y: -18.600113}
+  - {x: 14.289418, y: -18.600113}
+  - {x: 15.155446, y: -18.600113}
+  - {x: 16.021471, y: -18.600113}
+  - {x: 16.887491, y: -18.600113}
+  - {x: 17.75352, y: -18.600113}
+  - {x: 18.619545, y: -18.600113}
+  - {x: 19.485569, y: -18.600113}
+  - {x: 20.351597, y: -18.600113}
+  - {x: 21.21762, y: -18.600113}
+  - {x: 22.083645, y: -18.600113}
+  - {x: 22.949673, y: -18.600113}
+  - {x: 23.815699, y: -18.600113}
+  - {x: 24.681726, y: -18.600113}
+  - {x: 25.547747, y: -18.600113}
+  - {x: 26.413774, y: -18.600113}
+  - {x: 27.279799, y: -18.600113}
+  - {x: 28.145824, y: -18.600113}
+  - {x: 29.011848, y: -18.600113}
+  - {x: 29.87788, y: -18.600113}
+  - {x: 30.743898, y: -18.600113}
+  - {x: 31.609922, y: -18.600113}
+  - {x: -32.04294, y: -19.350113}
+  - {x: -31.176914, y: -19.350113}
+  - {x: -30.31089, y: -19.350113}
+  - {x: -29.444864, y: -19.350113}
+  - {x: -28.578838, y: -19.350113}
+  - {x: -27.712812, y: -19.350113}
+  - {x: -26.846788, y: -19.350113}
+  - {x: -25.980762, y: -19.350113}
+  - {x: -25.114737, y: -19.350113}
+  - {x: -24.248713, y: -19.350113}
+  - {x: -23.382687, y: -19.350113}
+  - {x: -22.51666, y: -19.350113}
+  - {x: -21.650635, y: -19.350113}
+  - {x: -20.78461, y: -19.350113}
+  - {x: -19.918585, y: -19.350113}
+  - {x: -19.052559, y: -19.350113}
+  - {x: -18.186535, y: -19.350113}
+  - {x: -17.320509, y: -19.350113}
+  - {x: -16.454483, y: -19.350113}
+  - {x: -15.588458, y: -19.350113}
+  - {x: -14.722432, y: -19.350113}
+  - {x: -13.856407, y: -19.350113}
+  - {x: -12.990381, y: -19.350113}
+  - {x: -12.124356, y: -19.350113}
+  - {x: -11.258332, y: -19.350113}
+  - {x: -10.392306, y: -19.350113}
+  - {x: -9.526279, y: -19.350113}
+  - {x: -8.660255, y: -19.350113}
+  - {x: -7.794229, y: -19.350113}
+  - {x: -6.928203, y: -19.350113}
+  - {x: -6.062178, y: -19.350113}
+  - {x: -5.1961536, y: -19.350113}
+  - {x: -4.3301277, y: -19.350113}
+  - {x: -3.4641016, y: -19.350113}
+  - {x: -2.5980785, y: -19.350113}
+  - {x: -1.7320523, y: -19.350113}
+  - {x: -0.86602616, y: -19.350113}
+  - {x: 0, y: -19.350113}
+  - {x: 0.8660246, y: -19.350113}
+  - {x: 1.7320492, y: -19.350113}
+  - {x: 2.5980768, y: -19.350113}
+  - {x: 3.4640985, y: -19.350113}
+  - {x: 4.3301263, y: -19.350113}
+  - {x: 5.196151, y: -19.350113}
+  - {x: 6.0621753, y: -19.350113}
+  - {x: 6.928203, y: -19.350113}
+  - {x: 7.7942276, y: -19.350113}
+  - {x: 8.660253, y: -19.350113}
+  - {x: 9.526279, y: -19.350113}
+  - {x: 10.392304, y: -19.350113}
+  - {x: 11.258329, y: -19.350113}
+  - {x: 12.124356, y: -19.350113}
+  - {x: 12.990378, y: -19.350113}
+  - {x: 13.856406, y: -19.350113}
+  - {x: 14.72243, y: -19.350113}
+  - {x: 15.588455, y: -19.350113}
+  - {x: 16.454483, y: -19.350113}
+  - {x: 17.320507, y: -19.350113}
+  - {x: 18.186531, y: -19.350113}
+  - {x: 19.052559, y: -19.350113}
+  - {x: 19.918585, y: -19.350113}
+  - {x: 20.784605, y: -19.350113}
+  - {x: 21.650633, y: -19.350113}
+  - {x: 22.516659, y: -19.350113}
+  - {x: 23.382683, y: -19.350113}
+  - {x: 24.24871, y: -19.350113}
+  - {x: 25.114735, y: -19.350113}
+  - {x: 25.980762, y: -19.350113}
+  - {x: 26.846786, y: -19.350113}
+  - {x: 27.712812, y: -19.350113}
+  - {x: 28.578836, y: -19.350113}
+  - {x: 29.44486, y: -19.350113}
+  - {x: 30.310886, y: -19.350113}
+  - {x: 31.176916, y: -19.350113}
+  - {x: -31.609928, y: -20.100111}
+  - {x: -30.743902, y: -20.100111}
+  - {x: -29.877876, y: -20.100111}
+  - {x: -29.01185, y: -20.100111}
+  - {x: -28.145826, y: -20.100111}
+  - {x: -27.2798, y: -20.100111}
+  - {x: -26.413774, y: -20.100111}
+  - {x: -25.54775, y: -20.100111}
+  - {x: -24.681725, y: -20.100111}
+  - {x: -23.815699, y: -20.100111}
+  - {x: -22.949675, y: -20.100111}
+  - {x: -22.083649, y: -20.100111}
+  - {x: -21.217623, y: -20.100111}
+  - {x: -20.351597, y: -20.100111}
+  - {x: -19.485573, y: -20.100111}
+  - {x: -18.619547, y: -20.100111}
+  - {x: -17.753521, y: -20.100111}
+  - {x: -16.887495, y: -20.100111}
+  - {x: -16.021471, y: -20.100111}
+  - {x: -15.155445, y: -20.100111}
+  - {x: -14.28942, y: -20.100111}
+  - {x: -13.423394, y: -20.100111}
+  - {x: -12.557369, y: -20.100111}
+  - {x: -11.691342, y: -20.100111}
+  - {x: -10.825318, y: -20.100111}
+  - {x: -9.959293, y: -20.100111}
+  - {x: -9.093267, y: -20.100111}
+  - {x: -8.2272415, y: -20.100111}
+  - {x: -7.3612165, y: -20.100111}
+  - {x: -6.495192, y: -20.100111}
+  - {x: -5.629166, y: -20.100111}
+  - {x: -4.7631397, y: -20.100111}
+  - {x: -3.8971152, y: -20.100111}
+  - {x: -3.031089, y: -20.100111}
+  - {x: -2.1650646, y: -20.100111}
+  - {x: -1.29904, y: -20.100111}
+  - {x: -0.43301386, y: -20.100111}
+  - {x: 0.4330123, y: -20.100111}
+  - {x: 1.2990369, y: -20.100111}
+  - {x: 2.1650615, y: -20.100111}
+  - {x: 3.031089, y: -20.100111}
+  - {x: 3.8971138, y: -20.100111}
+  - {x: 4.7631383, y: -20.100111}
+  - {x: 5.629163, y: -20.100111}
+  - {x: 6.4951906, y: -20.100111}
+  - {x: 7.361215, y: -20.100111}
+  - {x: 8.227242, y: -20.100111}
+  - {x: 9.093265, y: -20.100111}
+  - {x: 9.959289, y: -20.100111}
+  - {x: 10.825316, y: -20.100111}
+  - {x: 11.691341, y: -20.100111}
+  - {x: 12.557365, y: -20.100111}
+  - {x: 13.423393, y: -20.100111}
+  - {x: 14.289418, y: -20.100111}
+  - {x: 15.155446, y: -20.100111}
+  - {x: 16.021471, y: -20.100111}
+  - {x: 16.887491, y: -20.100111}
+  - {x: 17.75352, y: -20.100111}
+  - {x: 18.619545, y: -20.100111}
+  - {x: 19.485569, y: -20.100111}
+  - {x: 20.351597, y: -20.100111}
+  - {x: 21.21762, y: -20.100111}
+  - {x: 22.083645, y: -20.100111}
+  - {x: 22.949673, y: -20.100111}
+  - {x: 23.815699, y: -20.100111}
+  - {x: 24.681726, y: -20.100111}
+  - {x: 25.547747, y: -20.100111}
+  - {x: 26.413774, y: -20.100111}
+  - {x: 27.279799, y: -20.100111}
+  - {x: 28.145824, y: -20.100111}
+  - {x: 29.011848, y: -20.100111}
+  - {x: 29.87788, y: -20.100111}
+  - {x: 30.743898, y: -20.100111}
+  - {x: 31.609922, y: -20.100111}
+  blueCapital: {x: -12.990381, y: 2.72698}
+  redCapital: {x: 6.754998, y: 5.9084563}
+  blueSilos: {x: -16.263956, y: 4.241968}
+  redSilos: {x: 13.250189, y: 6.9689484}

@@ -3,9 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+public enum Refusal { Power, Money, People, QueueFull, PresidentTooNew }
+
 public class CountryManager : MonoBehaviour
 {
     public static CountryManager instance;
+    public static event Action<Party, Refusal> Refused;
     public bool IsTutorial;
     Text PowerCapUI, MoneyCapUI, PeoplSatsfactionCapUI, PowerComUI, MoneyComUI, PeoplSatsfactionComUI;
     public static ArabicFixer titleFixer, briefFixer, doneFixer, QuoteFixer,timeFixer, InfoPartyName;
@@ -200,7 +203,7 @@ public class CountryManager : MonoBehaviour
         CheckForAssassination();
         MonthRevnue(Capitalism);
         MonthRevnue(Communism);
-        GameManager.Com += 0.0005f * (Communism.Power - Capitalism.Power) / 100;
+        GameManager.Com = Mathf.Clamp01(GameManager.Com + 0.0005f * (Communism.Power - Capitalism.Power) / 100);
         if (GameManager.Com > 0.5f)
         {
             Capitalism.Power -= (int)((1 - GameManager.Com) * 2);
@@ -211,6 +214,8 @@ public class CountryManager : MonoBehaviour
             Capitalism.Power+= (int)((1 - GameManager.Com) * 2);
             Communism.Power-= (int)(GameManager.Com * 2);
         }
+        Capitalism.ClampStats();
+        Communism.ClampStats();
         NukeMeterUpdater.nukeDanger = Nuke.Evaluate(GameManager.Com);
     }
     private void CheckForAssassination()
@@ -233,38 +238,7 @@ public class CountryManager : MonoBehaviour
                 Assassin.Stop(gameObject);
                 Assassin.Post(gameObject);
                 GetEnemy(party).Power = (GetEnemy(party).Power / 10) * UnityEngine.Random.Range(3, 7);
-                if (System.Array.IndexOf(party.Actions, action) == 2)
-                    party.Actions[2] = null;
-                else if (System.Array.IndexOf(party.Actions, action) == 1)
-                {
-
-                    if (party.Actions[2] != null)
-                    { 
-                        party.Actions[1] = party.Actions[2];
-                        party.Actions[2] = null;
-                    }
-                    else
-                        party.Actions[1] = null;
-                }
-                else if (System.Array.IndexOf(party.Actions, action) == 0)
-                {
-                    if (party.Actions[1] != null)
-                    {
-                        party.Actions[0] = party.Actions[1];
-                        if (party.Actions[2] != null)
-                        {
-                            party.Actions[1] = party.Actions[2];
-                            party.Actions[2] = null;
-                        }
-                        else
-                            party.Actions[1] = null;
-                    }
-                    else
-                    {
-                        party.Actions[0] = null;
-                    }
-                }
-                    party.ActionIndex--;
+                party.RemoveAction(action);
             }
         }
     }
@@ -362,18 +336,23 @@ public class CountryManager : MonoBehaviour
                         GameManager.Singleton.ShowInfo(false);
                     }
                     else
-                        CanText("You have three actions in progress you have to wait for one of them at least to finish",
-                            "لديك ثلاث أوامر فعالة حاليا، عليك الانتظار لينتهي احدها على الاقل", party,true);
+                        Refuse(party, Refusal.QueueFull);
                 }
                 else
-                    CanText("You don't have enough People satisfaction",
-                        "ليس لديك شعبية كافية", party,true);
+                    Refuse(party, Refusal.People);
             }
             else
-                CanText("You don't have enough Money","ليس لديك نقود كافية", party,true);
+                Refuse(party, Refusal.Money);
         }
         else
-            CanText("You don't have enough Power", "ليس لديك قوة كافية", party,true);
+            Refuse(party, Refusal.Power);
+    }
+
+    // The board and HUD show why an action was refused, so play isn't interrupted by a message.
+    void Refuse(Party party, Refusal reason)
+    {
+        Warning.Post(gameObject);
+        Refused?.Invoke(party, reason);
     }
 
     public void CanText(string message,string arabic_message, Party party,bool IsWarning)
@@ -649,9 +628,9 @@ public class CountryManager : MonoBehaviour
     }
     public void Elections(Party party)
     {
-        Time.timeScale = 0;
         if (party.ElectionIndex>party.TempPresedncy)
         {
+            Time.timeScale = 0;
             ActionMenu.SetActive(false);
             ElectionsLock = true;
             ELectionWindow.GetComponent<Image>().color = party.color;
@@ -684,10 +663,9 @@ public class CountryManager : MonoBehaviour
         }
         else
         {
-            CanText("You can't Change the president before one full year of his presidency", 
-                "لا يمكنك تغيير الرئيس قبل انتهاء سنة على رئاسته", party,true);
+            Refuse(party, Refusal.PresidentTooNew);
         }
-        
+
     }
     public void ElectionInstanatie()
     {
@@ -810,45 +788,15 @@ public class CountryManager : MonoBehaviour
                 party.WarTotalpeople += action.peoplSatsfaction;
             }
 
-            if (System.Array.IndexOf(party.Actions, action) == 2)
-                party.Actions[2] = null;
-            else if (System.Array.IndexOf(party.Actions, action) == 1)
-            {
-
-                if (party.Actions[2] != null)
-                {
-                    party.Actions[1] = party.Actions[2];
-                    party.Actions[2] = null;
-                }
-                else
-                    party.Actions[1] = null;
-
-
-            }
-            else if (System.Array.IndexOf(party.Actions, action) == 0)
-            {
-                if (party.Actions[1] != null)
-                {
-                    party.Actions[0] = party.Actions[1];
-                    if (party.Actions[2] != null)
-                    {
-                        party.Actions[1] = party.Actions[2];
-                        party.Actions[2] = null;
-                    }
-                    else
-                        party.Actions[1] = null;
-                }
-                else
-                {
-                    party.Actions[0] = null;
-                }
-            }
-            party.ActionIndex--;
+            party.RemoveAction(action);
             party.sources();
+            party.ClampStats();
         }
     }
     private void InfoNotifaction(ActionFunction action, Party party)
     {
+        // The 3D board shows every finished action, so the text ribbons only appear without it.
+        if (WarTable.IsRunning) return;
         Notification notification = Instantiate(notifactionPrefab, notifcationCenter);
         notification.InitiateMessage(action, party);
     }
@@ -950,6 +898,28 @@ public class Party
         PeoplSatsfactionUI = peoplSatsfactionUI;
         color = _color;
         PresedncyPeriod = _PresedncyPeriod;
+    }
+    public void ClampStats()
+    {
+        Power = Mathf.Clamp(Power, 0, 1000000);
+        Money = Mathf.Clamp(Money, 0, 10000000000000000000);
+        PeoplSatsfaction = Mathf.Clamp(PeoplSatsfaction, 0, 100);
+    }
+    // Closes the gap and recounts, so ActionIndex can't drift from what's in the slots.
+    public void RemoveAction(ActionFunction action)
+    {
+        int index = System.Array.IndexOf(Actions, action);
+        if (index >= 0)
+            Actions[index] = null;
+        int count = 0;
+        for (int i = 0; i < Actions.Length; i++)
+        {
+            ActionFunction current = Actions[i];
+            if (current == null) continue;
+            Actions[i] = null;
+            Actions[count++] = current;
+        }
+        ActionIndex = count;
     }
     public void sources()
     {

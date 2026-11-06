@@ -38,8 +38,8 @@ public class AdsManager : MonoBehaviour, IUnityAdsInitializationListener
             _gameId = _iOSGameId;
 #elif UNITY_ANDROID
         _gameId = _androidGameId;
-#elif UNITY_EDITOR
-            _gameId = _androidGameId; //Only for testing the functionality in the Editor
+#else
+        return; // No ads on desktop builds.
 #endif
         if (!Advertisement.isInitialized && Advertisement.isSupported)
         {

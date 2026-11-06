@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4969de5db53896d4e8578a561c274cc0, type: 3}
+  m_Name: BoardArt
+  m_EditorClassIdentifier: Assembly-CSharp::BoardArt
+  data: {fileID: 11400000, guid: e29927342aa7c414d89ffc2262a73ca5, type: 2}
+  boardMaterial: {fileID: 2100000, guid: e22b07700786dfe45beeaf0224997216, type: 2}
+  particleAlpha: {fileID: 2100000, guid: 8088c645fc1dba8418503c3d27613ce3, type: 2}
+  particleAdditive: {fileID: 2100000, guid: 8f02596cf7688b54c818a0a0c48b282e, type: 2}
+  factories:
+  - {fileID: 3931521358674859427, guid: c752f572d2f44d34986669f90df0f991, type: 3}
+  - {fileID: 7794931095666149424, guid: a7d4e8e649537104fa282131228470f6, type: 3}
+  - {fileID: 8258291434703056425, guid: 354fb5dfc46c78c4a8b95fdc894fd91e, type: 3}
+  - {fileID: 2585605939067680942, guid: 9d040954d1c648f419b5d6c61a8060dc, type: 3}
+  - {fileID: 6841141270634091853, guid: a08b2657a02064f4db2f5fb1e6a5a6f7, type: 3}
+  - {fileID: 5118532415034429368, guid: dddfb8c978e6cab45809d1394f8b944f, type: 3}
+  - {fileID: 5786465754706051522, guid: ba0df3e632eae4f4d82e04aba39d0090, type: 3}
+  blueCity:
+  - {fileID: 8064902875079572113, guid: 799665ac2b447f44a80e1b12b3b872c7, type: 3}
+  - {fileID: 7552659697026371213, guid: b6449901285dea54e89ebe262a3a690d, type: 3}
+  - {fileID: 7959848189108607349, guid: b2cdcc42d4203a347ad5ab3c4553951e, type: 3}
+  - {fileID: 1512191194458646232, guid: 7c13f91922f117c4583cb3d727d12df0, type: 3}
+  redCity:
+  - {fileID: 6324665141951267943, guid: 43b9ccf0606c6284bb6626101eeed4bd, type: 3}
+  - {fileID: 2637967505663532088, guid: 156ededc9f4ca3e4eb4f146523fcbe37, type: 3}
+  - {fileID: 7959848189108607349, guid: b2cdcc42d4203a347ad5ab3c4553951e, type: 3}
+  - {fileID: 1512191194458646232, guid: 7c13f91922f117c4583cb3d727d12df0, type: 3}
+  missile: {fileID: 132654, guid: 3db888a07c8c1ae42b3ff9ff707231d0, type: 3}
+  drone: {fileID: 6344612964349603796, guid: 6bb72f8fa50f23842a690a519e7fdd08, type: 3}

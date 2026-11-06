@@ -144,6 +144,7 @@ public class GameManager : MonoBehaviour
                 button.interactable = true;
     }
     bool winLock;
+    public bool HasWon => winLock;
     public void MonthEnd()
     {
         if (assassinWait)

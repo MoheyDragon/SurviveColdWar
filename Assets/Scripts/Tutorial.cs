@@ -25,6 +25,9 @@ public class Tutorial : MonoBehaviour
         FirstMonthLock = SecondMonthLock= FirstYear= ThreeWARS= TwoFactories=LongWait= ENDLOCK=true;
         MapSector = GameObject.FindGameObjectsWithTag("MapSector");
         arabicTexts = Translate(arabicVersion);
+        // Short captions replace the long lessons. The map and arrows do the explaining.
+        Texts = TutorialCaptions.English;
+        arabicTexts = TutorialCaptions.Arabic;
         tutorialTextFixer = TutWin.transform.GetChild(0).GetComponent<ArabicFixer>();
         tutorialText=tutorialTextFixer.GetComponent<Text>();
     }

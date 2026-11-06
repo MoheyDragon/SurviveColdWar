@@ -6,6 +6,9 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
 public class HoverInfo : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
+#if UNITY_STANDALONE || UNITY_EDITOR
+    , IPointerEnterHandler, IPointerExitHandler
+#endif
 {
     public new string name;
     public string title, breif,Quote,powerReq, PeopleReq, TimeReq, PowerGain, PeopleGain,doneMassage;
@@ -112,28 +115,8 @@ public class HoverInfo : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         CountryManager.doneMassage = doneMassage;
         CountryManager.arabicDone = arabicDoneMassage;
 
-        if (title == "Build a new Factory")
-            CountryManager.powerReq.text = (int.Parse(powerReq) + CountryManager.SelectedParty.FactoryLevel * 25).ToString();
-        else if (name == "War")
-            CountryManager.powerReq.text = (int.Parse(powerReq) + CountryManager.SelectedParty.WarLevel * 25).ToString();
-        else if (name == "Research")
-            CountryManager.powerReq.text = (int.Parse(powerReq) + ((int.Parse(powerReq)*CountryManager.SelectedParty.researchLevel/5))).ToString();
-        else if (name == "Spy")
-            CountryManager.powerReq.text = (int.Parse(powerReq) +((int.Parse(powerReq))* CountryManager.SelectedParty.SpiesLevel)).ToString();
-        else
-            CountryManager.powerReq.text = powerReq;
-        if (title == "Build a new Factory")
-            CountryManager.MoneyReq.text = MoneyTranslate(MoneyReq + ((ulong)CountryManager.SelectedParty.FactoryLevel * 500000000ul));
-        else if (name == "War")
-            CountryManager.MoneyReq.text = MoneyTranslate(MoneyReq + (CountryManager.SelectedParty.WarLevel * 1000000));
-        else if (name == "Research")
-            CountryManager.MoneyReq.text = MoneyTranslate(MoneyReq +(MoneyReq* CountryManager.SelectedParty.researchLevel));
-        else if (name == "Spy")
-            CountryManager.MoneyReq.text = MoneyTranslate(MoneyReq + (CountryManager.SelectedParty.SpiesLevel * 1000000000));
-        else if (name == "Assassin")
-            CountryManager.MoneyReq.text = MoneyTranslate(MoneyReq *Mathf.Pow(2,CountryManager.SelectedParty.assassinLevel));
-        else 
-            CountryManager.MoneyReq.text = MoneyTranslate(MoneyReq);
+        CountryManager.powerReq.text = PowerCost(CountryManager.SelectedParty).ToString();
+        CountryManager.MoneyReq.text = MoneyTranslate(MoneyCost(CountryManager.SelectedParty));
         CountryManager.PeopleReq.text = PeopleReq;
         if (LanguageManager.Singlton.GetSelectedLanguag == Language.Arabic)
         {
@@ -169,6 +152,54 @@ public class HoverInfo : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         //        if (button.tag != "SpeedUp" && button.tag != "MapSector" && button.tag != "InfoCenter")
         //            button.interactable = false;
     }
+    public int PowerCost(Party party)
+    {
+        int cost = int.Parse(powerReq);
+        if (title == "Build a new Factory")
+            return cost + party.FactoryLevel * 25;
+        if (name == "War")
+            return cost + party.WarLevel * 25;
+        if (name == "Research")
+            return cost + cost * party.researchLevel / 5;
+        if (name == "Spy")
+            return cost + cost * party.SpiesLevel;
+        return cost;
+    }
+    public float MoneyCost(Party party)
+    {
+        if (title == "Build a new Factory")
+            return MoneyReq + ((ulong)party.FactoryLevel * 500000000ul);
+        if (name == "War")
+            return MoneyReq + (party.WarLevel * 1000000);
+        if (name == "Research")
+            return MoneyReq + (MoneyReq * party.researchLevel);
+        if (name == "Spy")
+            return MoneyReq + (party.SpiesLevel * 1000000000);
+        if (name == "Assassin")
+            return MoneyReq * Mathf.Pow(2, party.assassinLevel);
+        return MoneyReq;
+    }
+    public int PeopleCost()
+    {
+        return int.Parse(PeopleReq);
+    }
+#if UNITY_STANDALONE || UNITY_EDITOR
+    // With a mouse, resting on a button previews its details without pressing it.
+    bool hovering;
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        if (manager == null || manager.IsTutorial || CountryManager.SelectedParty == null) return;
+        hovering = true;
+        SetupDetails();
+        ShowInfo(true);
+    }
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        if (!hovering) return;
+        hovering = false;
+        ShowInfo(false);
+    }
+#endif
     private void ShowInfo(bool show)
     {
         GameManager.Singleton.ShowInfo(show);
@@ -197,11 +228,13 @@ public class HoverInfo : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         else
             return (Mathf.Round(mon * 10 / 1000) / 10).ToString() + " K";
     }
+    bool quotePlaying;
     void QuoteEnd(object in_cookie, AkCallbackType in_type, object in_info)
     {
 
         if (in_type == AkCallbackType.AK_EndOfEvent)
         {
+            quotePlaying = false;
             if (name == "War")
             {
                 manager.gameObject.GetComponent<Tutorial>().Next(false);
@@ -216,6 +249,9 @@ public class HoverInfo : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     }
     void QuotePlay()
     {
+        // Each finished quote can advance the tutorial, so repeat taps must not queue more.
+        if (quotePlaying) return;
+        quotePlaying = true;
         Time.timeScale = 0;
         if (name != "Research"&&name!="Assassin" && name != "War")
             manager.gameObject.GetComponent<Tutorial>().Next(false);
