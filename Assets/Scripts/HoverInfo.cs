@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -42,25 +42,19 @@ public class HoverInfo : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     public void OnPointerDown(PointerEventData eventData)
     {
         SetupDetails();
-        if(manager.IsTutorial)
-        {
-            ShowInfo(true);
-            return;
-        }
         longPressTriggered = false;
         holdTimerCoroutine = StartCoroutine(HoldTimer());
     }
 
     public void OnPointerUp(PointerEventData eventData)
     {
-        if (manager.IsTutorial) return;
         if (holdTimerCoroutine != null)
         {
             StopCoroutine(holdTimerCoroutine);
             ShowInfo(false);
         }
 
-        if (!longPressTriggered)
+        if (!longPressTriggered && !Tutorial.ActionsLocked)
         {
             LaunchAction();
         }
@@ -72,26 +66,13 @@ public class HoverInfo : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         longPressTriggered = true;
         ShowInfo(true);
     }
+    // The tutorial plays an action's voice line as soon as the action wheel opens, before the action can be pressed.
+    public void PlayTutorialLine()
+    {
+        QuotePlay();
+    }
     private void SetupDetails()
     {
-        if (manager.IsTutorial)
-        {
-            if (Tutorial.Level < 50)
-            {
-                if (name == "War" && Tutorial.Level == 12)
-                    QuotePlay();
-                if (name == "Research" && Tutorial.Level == 33)
-                    QuotePlay();
-                if (name == "Factory" && Tutorial.Level == 20)
-                    QuotePlay();
-                if (name == "Spy" && Tutorial.Level == 31)
-                    QuotePlay();
-                if (name == "Assassin" && Tutorial.Level == 36)
-                    QuotePlay();
-            }
-
-        }
-
         GameManager.nameOfAction = name;
         GameManager.arabicNameOfAction = arabicTitle;
         if(LanguageManager.Singlton.GetSelectedLanguag==Language.Arabic)
@@ -115,9 +96,11 @@ public class HoverInfo : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         CountryManager.doneMassage = doneMassage;
         CountryManager.arabicDone = arabicDoneMassage;
 
-        CountryManager.powerReq.text = PowerCost(CountryManager.SelectedParty).ToString();
+        CountryManager.powerReq.text = CountryManager.PowerText(PowerCost(CountryManager.SelectedParty));
         CountryManager.MoneyReq.text = MoneyTranslate(MoneyCost(CountryManager.SelectedParty));
         CountryManager.PeopleReq.text = PeopleReq;
+        // Read directly later, because the Arabic text field is only rewritten on a later frame.
+        CountryManager.RequestedMonths = int.Parse(TimeReq);
         if (LanguageManager.Singlton.GetSelectedLanguag == Language.Arabic)
         {
             CountryManager.timeFixer.fixedText= "بعد " + TimeReq;
@@ -128,22 +111,10 @@ public class HoverInfo : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
             CountryManager.TimeReq.text = "after " + TimeReq;
             CountryManager.TimeReq.alignment = TextAnchor.MiddleLeft;
         }
-        if (title == "Build a new Factory")
-            CountryManager.PowerGain.text = (int.Parse(PowerGain) + CountryManager.SelectedParty.FactoryLevel * 2).ToString();
-        else if (name == "War")
-            CountryManager.PowerGain.text = (int.Parse(PowerGain) + CountryManager.SelectedParty.WarLevel * 5).ToString();
-        else if (name == "Research")
-            CountryManager.PowerGain.text = (int.Parse(PowerGain)+(int.Parse(PowerGain) * CountryManager.SelectedParty.researchLevel)).ToString();
-        else if (name == "Spy")
-            CountryManager.PowerGain.text = (int.Parse(PowerGain) +((int.Parse(PowerGain) *CountryManager.SelectedParty.SpiesLevel /5))).ToString();
-        else
-            CountryManager.PowerGain.text = PowerGain;
-        if (title == "Build a new Factory")
-            CountryManager.MoneyGain.text = MoneyTranslate((ulong)MoneyGain * 10 * (ulong)CountryManager.SelectedParty.FactoryLevel);
-        else if (name == "War")
-            CountryManager.MoneyGain.text = MoneyTranslate(MoneyGain + ((ulong)CountryManager.SelectedParty.WarLevel * 100000ul));
-        else
-            CountryManager.MoneyGain.text = MoneyTranslate(MoneyGain);
+        // Percentages keep their decimals (0.3); fixed amounts are whole numbers.
+        double gain = PowerGainFor(CountryManager.SelectedParty);
+        CountryManager.PowerGain.text = UsesPercent ? gain.ToString("0.###", System.Globalization.CultureInfo.InvariantCulture) : CountryManager.PowerText(gain);
+        CountryManager.MoneyGain.text = MoneyTranslate(MoneyGainFor(CountryManager.SelectedParty));
         CountryManager.PeopleGain.text = PeopleGain;
         CountryManager.monthly.gameObject.SetActive(Monthly);
         CountryManager.oneTime.gameObject.SetActive(!Monthly);
@@ -152,7 +123,28 @@ public class HoverInfo : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         //        if (button.tag != "SpeedUp" && button.tag != "MapSector" && button.tag != "InfoCenter")
         //            button.interactable = false;
     }
-    public int PowerCost(Party party)
+    static DifficultyManager Tuning => DifficultyManager.Current;
+    bool UsesPercent => manager != null && !manager.IsTutorial;
+
+    // Main game: a percentage of the side's own power, growing with each earlier use. Tutorial: the original amounts.
+    public double PowerCost(Party party)
+    {
+        if (UsesPercent)
+        {
+            DifficultyManager d = Tuning;
+            double percent = 0, perUse = 0;
+            int uses = 0;
+            if (name == "Factory") { percent = d.factoryCost; perUse = d.factoryCostPerUse; uses = party.FactoryLevel - 1; }
+            else if (name == "War") { percent = d.warCost; perUse = d.warCostPerUse; uses = party.WarLevel; }
+            else if (name == "Research") { percent = d.researchCost; perUse = d.researchCostPerUse; uses = party.researchLevel; }
+            else if (name == "Spy") { percent = d.spyCost; perUse = d.spyCostPerUse; uses = party.SpiesLevel; }
+            else if (name == "Assassin") percent = d.assassinCost;
+            return Math.Round(party.Power * percent / 100.0 * (1.0 + perUse * Math.Max(0, uses)));
+        }
+        return FixedPowerCost(party);
+    }
+
+    int FixedPowerCost(Party party)
     {
         int cost = int.Parse(powerReq);
         if (title == "Build a new Factory")
@@ -165,7 +157,16 @@ public class HoverInfo : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
             return cost + cost * party.SpiesLevel;
         return cost;
     }
+    // Money costs stay fixed amounts. In the main game they can also rise over the decades.
     public float MoneyCost(Party party)
+    {
+        float cost = FixedMoneyCost(party);
+        if (UsesPercent && Tuning.risingMoneyCosts)
+            cost *= Mathf.Lerp(1f, Tuning.moneyCostBy1991, Tuning.Era);
+        return cost;
+    }
+
+    float FixedMoneyCost(Party party)
     {
         if (title == "Build a new Factory")
             return MoneyReq + ((ulong)party.FactoryLevel * 500000000ul);
@@ -183,12 +184,60 @@ public class HoverInfo : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     {
         return int.Parse(PeopleReq);
     }
+    // Main game: a percentage of the side's own power (monthly for factories, wars and spies; once for research).
+    // Tutorial: the original fixed amounts.
+    public double PowerGainFor(Party party)
+    {
+        if (UsesPercent)
+        {
+            DifficultyManager d = Tuning;
+            if (name == "Factory") return d.factoryGain;
+            if (name == "War") return d.warGain;
+            if (name == "Spy") return d.spyGain;
+            if (name == "Research") return d.researchGain;
+            return 0;
+        }
+        return FixedPowerGain(party);
+    }
+
+    double FixedPowerGain(Party party)
+    {
+        int gain = int.Parse(PowerGain);
+        if (title == "Build a new Factory")
+            return gain + party.FactoryLevel * 2;
+        if (name == "War")
+            return gain + party.WarLevel * 5;
+        if (name == "Research")
+        {
+            // What finishing research gave before, now shown up front, or a share of current power once that is larger,
+            // so research stays worth it as the game grows.
+            int level = party.researchLevel;
+            return gain * (1 + level) * (2 + level);
+        }
+        if (name == "Spy")
+            return gain + gain * party.SpiesLevel / 5;
+        return gain;
+    }
+    public float MoneyGainFor(Party party)
+    {
+        if (title == "Build a new Factory")
+            return (ulong)MoneyGain * 10 * (ulong)party.FactoryLevel;
+        if (name == "War")
+            return MoneyGain + ((ulong)party.WarLevel * 100000ul);
+        return MoneyGain;
+    }
+    // Builds this action with the values it would have if the party launched it now.
+    public ActionFunction CreateAction(Party party)
+    {
+        return new ActionFunction(name, arabicTitle, doneMassage, arabicDoneMassage, PowerGainFor(party), int.Parse(PeopleGain),
+            int.Parse(TimeReq), MoneyGainFor(party), Monthly) { percent = UsesPercent };
+    }
 #if UNITY_STANDALONE || UNITY_EDITOR
     // With a mouse, resting on a button previews its details without pressing it.
     bool hovering;
     public void OnPointerEnter(PointerEventData eventData)
     {
-        if (manager == null || manager.IsTutorial || CountryManager.SelectedParty == null) return;
+        if (manager == null || CountryManager.SelectedParty == null) return;
         hovering = true;
         SetupDetails();
         ShowInfo(true);
@@ -229,12 +278,16 @@ public class HoverInfo : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
             return (Mathf.Round(mon * 10 / 1000) / 10).ToString() + " K";
     }
     bool quotePlaying;
+    static float voiceLineEnds;
+    // True while a tutorial voice line plays. Input waits for it, with a time limit in case the audio never reports its end.
+    public static bool VoiceLinePlaying => Time.realtimeSinceStartup < voiceLineEnds;
     void QuoteEnd(object in_cookie, AkCallbackType in_type, object in_info)
     {
 
         if (in_type == AkCallbackType.AK_EndOfEvent)
         {
             quotePlaying = false;
+            voiceLineEnds = 0f;
             if (name == "War")
             {
                 manager.gameObject.GetComponent<Tutorial>().Next(false);
@@ -244,7 +297,12 @@ public class HoverInfo : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
             else if (name == "Assassin")
             { }
             else
+            {
+                // The factory line leads into "build 2 factories", so the tutorial moves on once it has been heard.
+                if (name == "Factory")
+                    manager.gameObject.GetComponent<Tutorial>().Next(false);
                 Time.timeScale = 1;
+            }
         }
     }
     void QuotePlay()
@@ -252,9 +310,8 @@ public class HoverInfo : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         // Each finished quote can advance the tutorial, so repeat taps must not queue more.
         if (quotePlaying) return;
         quotePlaying = true;
+        voiceLineEnds = Time.realtimeSinceStartup + 15f;
         Time.timeScale = 0;
-        if (name != "Research"&&name!="Assassin" && name != "War")
-            manager.gameObject.GetComponent<Tutorial>().Next(false);
         TuorialSound.Post(gameObject, (uint)AkCallbackType.AK_EndOfEvent, QuoteEnd);
     }
 }

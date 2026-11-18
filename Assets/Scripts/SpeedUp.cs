@@ -44,6 +44,13 @@ public class SpeedUp : Button
         if (!IsInteractable()) return;
 
         holding = true;
+        // Skipping ahead closes any open action wheel. The tutorial controls the wheel itself, so it is left alone there.
+        CountryManager country = CountryManager.instance;
+        if (country != null && !country.IsTutorial && country.ActionMenu.activeSelf)
+        {
+            country.ActionMenu.SetActive(false);
+            GameManager.Singleton.ShowInfo(false);
+        }
         GameManager.AccelLock = true;
         if (Time.time < GameManager.DoubleGate)
             manager.Accelrator();

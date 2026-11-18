@@ -149,10 +149,96 @@ public class ProcMesh
         return new ProcMesh().Frustum(Vector3.zero, 0.5f, 0.5f, 1f, sides, color).ToMesh("Column");
     }
 
+    // One unit tall with its pivot at the base. A bright cap makes the top easy to read against the sea.
+    public static Mesh Tower(Color team)
+    {
+        Color cap = Color.Lerp(team, Color.white, 0.55f);
+        var m = new ProcMesh();
+        m.Frustum(Vector3.zero, 0.5f, 0.5f, 0.94f, 6, team, false);
+        m.Frustum(new Vector3(0f, 0.94f, 0f), 0.5f, 0.5f, 0.06f, 6, cap);
+        return m.ToMesh("Tower");
+    }
+
+    public static Mesh Platform()
+    {
+        Color steel = new Color(0.16f, 0.18f, 0.22f);
+        return new ProcMesh().Frustum(Vector3.zero, 0.58f, 0.52f, 0.14f, 6, steel).ToMesh("Platform");
+    }
+
+    // A flat hex token with one unit radius, its face pointing up.
+    public static Mesh Token(Color rim, Color face)
+    {
+        var m = new ProcMesh();
+        m.Frustum(new Vector3(0f, -0.2f, 0f), 1f, 1f, 0.28f, 6, rim, false);
+        m.Frustum(new Vector3(0f, 0.08f, 0f), 1f, 0.88f, 0.1f, 6, face);
+        return m.ToMesh("Token");
+    }
+
+    public static Mesh Glyph(string kind, Color color)
+    {
+        var m = new ProcMesh();
+        Color c = Glow(color, 0.25f);
+        const float y = 0.2f;
+        switch (kind)
+        {
+            case "speed":
+                m.Tri(new Vector3(-0.5f, y, 0.36f), new Vector3(0f, y, 0f), new Vector3(-0.5f, y, -0.36f), c);
+                m.Tri(new Vector3(0f, y, 0.36f), new Vector3(0.5f, y, 0f), new Vector3(0f, y, -0.36f), c);
+                break;
+            case "pause":
+                m.Box(new Vector3(-0.2f, y, 0f), new Vector3(0.2f, 0.02f, 0.72f), c);
+                m.Box(new Vector3(0.2f, y, 0f), new Vector3(0.2f, 0.02f, 0.72f), c);
+                break;
+            case "exit":
+                m.Box(new Vector3(-0.08f, y, 0f), new Vector3(0.5f, 0.02f, 0.76f), c);
+                m.Tri(new Vector3(0.14f, y + 0.02f, 0.2f), new Vector3(0.56f, y + 0.02f, 0f), new Vector3(0.14f, y + 0.02f, -0.2f), Glow(new Color(1f, 0.85f, 0.3f), 0.4f));
+                break;
+            case "repeat":
+                for (int i = 0; i < 12; i++)
+                {
+                    float a0 = i * Mathf.PI * 2f / 12f;
+                    float a1 = (i + 0.8f) * Mathf.PI * 2f / 12f;
+                    Vector3 d0 = new Vector3(Mathf.Cos(a0), 0f, Mathf.Sin(a0));
+                    Vector3 d1 = new Vector3(Mathf.Cos(a1), 0f, Mathf.Sin(a1));
+                    Vector3 up = Vector3.up * y;
+                    m.Quad(up + d1 * 0.32f, up + d1 * 0.48f, up + d0 * 0.48f, up + d0 * 0.32f, c);
+                }
+                break;
+            case "once":
+                m.Frustum(new Vector3(0f, y - 0.01f, 0f), 0.3f, 0.3f, 0.02f, 10, c);
+                break;
+        }
+
+        return m.ToMesh(kind);
+    }
+
+    // Points straight down the screen, with its tip at the origin and its length along +Y.
+    public static Mesh Arrow(Color color)
+    {
+        Color c = Glow(color, 0.55f);
+        var m = new ProcMesh();
+        m.Frustum(Vector3.zero, 0f, 0.62f, 0.85f, 8, c);
+        m.Frustum(new Vector3(0f, 0.85f, 0f), 0.26f, 0.26f, 1.1f, 8, c);
+        return m.ToMesh("Arrow");
+    }
+
     public static Mesh Coins()
     {
-        Color gold = Glow(new Color(0.98f, 0.73f, 0.16f), 0.12f);
-        return new ProcMesh().Frustum(Vector3.zero, 0.5f, 0.5f, 1f, 12, gold).ToMesh("Coins");
+        // Alternating bands read as a stack of separate coins.
+        Color gold = new Color(1f, 0.78f, 0.2f);
+        Color shade = new Color(0.72f, 0.48f, 0.08f);
+        var m = new ProcMesh();
+        const int coins = 7;
+        for (int i = 0; i < coins; i++)
+        {
+            float y = i / (float)coins;
+            float wobble = (i % 2 == 0) ? 0.5f : 0.47f;
+            m.Frustum(new Vector3(0f, y, 0f), wobble, wobble, 0.78f / coins, 12, gold, false);
+            m.Frustum(new Vector3(0f, y + 0.78f / coins, 0f), wobble - 0.03f, wobble - 0.03f, 0.22f / coins, 12, shade, i == coins - 1);
+        }
+
+        m.Frustum(new Vector3(0f, 1f, 0f), 0.47f, 0.47f, 0.001f, 12, gold);
+        return m.ToMesh("Coins");
     }
 
     public static Mesh Flag(Color team)

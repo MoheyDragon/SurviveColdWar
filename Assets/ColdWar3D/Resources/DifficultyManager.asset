@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a136563db32154e4baec2da21262f64d, type: 3}
+  m_Name: DifficultyManager
+  m_EditorClassIdentifier: Assembly-CSharp::DifficultyManager
+  warLimit:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 1947
+      value: 10
+      inSlope: -1.4
+      outSlope: -1.4
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1965
+      value: 2
+      inSlope: -0.0738469
+      outSlope: -0.0738469
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 1
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1991
+      value: 1.2
+      inSlope: 0.008777169
+      outSlope: 0.008777169
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.49076918
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  crisisMonths: 12
+  crisisRatioFactor: 0.7
+  minimumRatio: 1.5
+  driftStart: 0.01
+  driftEnd: 0.04
+  chaosChanceStart: 0.01
+  chaosChanceEnd: 0.2
+  crashLoss: {x: 20, y: 50}
+  armsRaceSwing: {x: 10, y: 35}
+  spiesLost: {x: 30, y: 40}
+  factoriesLost: {x: 20, y: 45}
+  warsLost: {x: 10, y: 40}
+  presidentPowerPercent: {x: 0.5, y: 5}
+  presidentMoneyPercent: {x: 0.2, y: 3}
+  presidentHappiness: {x: -20, y: 20}
+  negativePresidentChance: 0.05
+  unpopularBelow: 20
+  unhappyMonthsBeforeUprising: 12
+  uprisingChance: 0.08
+  vacancyMonths: {x: 6, y: 24}
+  newLeaderHappiness: 40
+  warGain: 1
+  spyGain: 3
+  factoryGain: 0.3
+  researchGain: 25
+  agendaResearchShare: 0.5
+  warCost: 3
+  spyCost: 5
+  factoryCost: 2
+  researchCost: 10
+  assassinCost: 0
+  warCostPerUse: 0.1
+  spyCostPerUse: 0.5
+  factoryCostPerUse: 0.1
+  researchCostPerUse: 0.2
+  risingMoneyCosts: 0
+  moneyCostBy1991: 4
+  useOpportunities: 1
+  actionsPerMonth: {x: 3, y: 4}

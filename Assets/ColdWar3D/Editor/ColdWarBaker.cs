@@ -281,6 +281,7 @@ public static class ColdWarBaker
         art.boardMaterial = GetMaterial("M_Board", Shader.Find("ColdWar/BoardLit"), _ => { });
         art.particleAlpha = GetMaterial("M_ParticleAlpha", Shader.Find("Universal Render Pipeline/Particles/Unlit"), m => SetupParticle(m, false));
         art.particleAdditive = GetMaterial("M_ParticleAdditive", Shader.Find("Universal Render Pipeline/Particles/Unlit"), m => SetupParticle(m, true));
+        art.iconMaterial = GetMaterial("M_Icon", Shader.Find("Universal Render Pipeline/Unlit"), m => SetupParticle(m, false));
 
         const string buildings = "Assets/JC_LP_MegaCity/Prefabs/Buildings/SM_Buildings_";
         art.factories = LoadPrefabs(buildings, "Factory_01", "Factory_02", "Factory_03", "Factory_04", "Factory_05", "Factory_06", "Factory_07");

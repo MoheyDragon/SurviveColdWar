@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
@@ -52,8 +53,11 @@ public class WarTable : MonoBehaviour
     const int MaxWarsShown = 8;
     const int MaxSpiesShown = 5;
     const int MaxSatellitesShown = 4;
-    const int SilosPerSide = 5;
     const float TileWidth = 0.86f;
+    const int UnrestBelow = 25;
+    const int NukesPerSide = 12;
+    const float PoolRadius = 3.3f;
+    static readonly Vector2 PoolSpot = new Vector2(0.42f, 0.72f);
 
     class ActionVisual
     {
@@ -79,20 +83,22 @@ public class WarTable : MonoBehaviour
         public Color color;
         public int capitalTile;
         public Vector3 capital;
-        public int siloTile;
-        public Transform power;
-        public Transform coins;
+        public Transform capitalRoot;
+        public float capitalTop;
         public GameObject[] flags;
         public readonly List<Transform> missiles = new List<Transform>();
         public readonly List<Vector3> missileHomes = new List<Vector3>();
+        public readonly List<Vector3> missileScales = new List<Vector3>();
+        public readonly List<ParticleSystem> fires = new List<ParticleSystem>();
         public readonly Dictionary<ActionFunction, ActionVisual> actions = new Dictionary<ActionFunction, ActionVisual>();
         public President president;
-        public ParticleSystem protest;
         public int factories;
         public int wars;
         public int spies;
         public int satellites;
         public int homeBuilds;
+        public Transform infoCenter;
+        public Transform infoSign;
     }
 
     BoardArt art;
@@ -116,12 +122,6 @@ public class WarTable : MonoBehaviour
 
     Vignette vignette;
     ColorAdjustments grading;
-    RectTransform capStar;
-    RectTransform capInfo;
-    RectTransform comStar;
-    RectTransform comInfo;
-    Image actionPanel;
-    RectTransform[] actionButtons;
 
     Mesh tankBlue;
     Mesh tankRed;
@@ -129,7 +129,47 @@ public class WarTable : MonoBehaviour
     bool IsMenu => country == null;
     public static bool IsRunning { get; private set; }
 
-    WarTableUi ui;
+    public Transform CapitalRoot(bool isRed) => (isRed ? red : blue).capitalRoot;
+    public Transform InfoCenter(bool isRed) => (isRed ? red : blue).infoCenter;
+
+    // Tutorial step 10 shows what unrest looks like: Red's capital is drawn as if its people were very unhappy.
+    const int DemoHappiness = 8;
+    bool ShowingUnrestDemo(Side side) => side.isRed && country != null && country.IsTutorial && Tutorial.Level == 9;
+    int ShownHappiness(Side side, Party party) => ShowingUnrestDemo(side) ? DemoHappiness : party.PeoplSatsfaction;
+
+    // Just south of Red's capital, where the demo fires burn.
+    public Vector3 DemoFireSpot => red.capital + new Vector3(0f, 0.2f, -2.3f);
+
+    // The top of the tallest flag still standing over a capital.
+    public Vector3 FlagsTop(bool isRed)
+    {
+        Side side = isRed ? red : blue;
+        Bounds? all = null;
+        foreach (GameObject flag in side.flags)
+        {
+            if (!flag.activeSelf)
+                continue;
+            Bounds bounds = WorldBounds(flag);
+            if (all.HasValue)
+            {
+                Bounds grown = all.Value;
+                grown.Encapsulate(bounds);
+                all = grown;
+            }
+            else
+                all = bounds;
+        }
+
+        return all.HasValue ? new Vector3(all.Value.center.x, all.Value.max.y, all.Value.center.z) : CapitalTop(isRed);
+    }
+
+    public Vector3 CapitalTop(bool isRed)
+    {
+        Side side = isRed ? red : blue;
+        return new Vector3(side.capital.x, side.capitalTop, side.capital.z);
+    }
+
+    World3DUi ui;
     bool peaceStarted;
     float nextFirework;
     float nextFocusPulse;
@@ -154,6 +194,7 @@ public class WarTable : MonoBehaviour
 
         blue = BuildSide(false, art.data.blueCapital, art.data.blueSilos, art.blueCity);
         red = BuildSide(true, art.data.redCapital, art.data.redSilos, art.redCity);
+        BuildNukePool();
 
         HideFlatMap();
         FrameCamera();
@@ -161,9 +202,11 @@ public class WarTable : MonoBehaviour
         if (!IsMenu)
         {
             IsRunning = true;
-            ui = gameObject.AddComponent<WarTableUi>();
+            ui = gameObject.AddComponent<World3DUi>();
             ui.enabled = false;
             CountryManager.Refused += OnRefused;
+            CountryManager.ActionCompletedInstantly += OnInstantAction;
+            CountryManager.ChaosStruck += OnChaos;
         }
     }
 
@@ -172,7 +215,7 @@ public class WarTable : MonoBehaviour
         // Waits for CountryManager.Start, which sets up the parties and hides the tutorial HUD.
         if (ui != null)
         {
-            ui.Begin(country);
+            ui.Begin(this, country, art, mainCamera);
             ui.enabled = true;
         }
     }
@@ -181,6 +224,34 @@ public class WarTable : MonoBehaviour
     {
         IsRunning = false;
         CountryManager.Refused -= OnRefused;
+        CountryManager.ActionCompletedInstantly -= OnInstantAction;
+        CountryManager.ChaosStruck -= OnChaos;
+    }
+
+    // A president's agenda finishes actions immediately, so their visuals jump straight to the result.
+    void OnInstantAction(Party party, ActionFunction action)
+    {
+        Side side = party == country.Communism ? red : blue;
+        ActionVisual visual = CreateActionVisual(side, action);
+        visual.onDone?.Invoke();
+    }
+
+    void OnChaos(Party party, ChaosKind kind, string english, string arabic)
+    {
+        Color warning = new Color(1f, 0.55f, 0.15f);
+        if (kind == ChaosKind.MissileCrisis)
+        {
+            StartCoroutine(ExpandingRing(poolCenter + Vector3.up * 0.6f, new Color(1f, 0.25f, 0.15f), PoolRadius + 2.5f));
+        }
+        else
+        {
+            foreach (Side side in party == null ? new[] { blue, red } : new[] { party == country.Communism ? red : blue })
+            {
+                StartCoroutine(ExpandingRing(side.capital + Vector3.up * 0.2f, warning, 4f));
+                fx.Burst(side.capital + Vector3.up * 1.5f, warning, 24, 0.3f, 2.2f, 0.8f);
+            }
+        }
+        shake = Mathf.Max(shake, 0.12f);
     }
 
     void OnRefused(Party party, Refusal reason)
@@ -189,8 +260,6 @@ public class WarTable : MonoBehaviour
         Color warning = new Color(1f, 0.2f, 0.12f);
         switch (reason)
         {
-            case Refusal.Power: StartCoroutine(ExpandingRing(side.power.position, warning, 1.8f)); break;
-            case Refusal.Money: StartCoroutine(ExpandingRing(side.coins.position, warning, 1.8f)); break;
             default: StartCoroutine(ExpandingRing(side.capital + Vector3.up * 0.2f, warning, 2.6f)); break;
         }
 
@@ -329,11 +398,6 @@ public class WarTable : MonoBehaviour
                 image.color = color;
             }
         }
-
-        capStar = map.Find("CapCenter") as RectTransform;
-        capInfo = map.Find("CapCenterInfo") as RectTransform;
-        comStar = map.Find("Com/ComCenter") as RectTransform;
-        comInfo = map.Find("Com/ComCenterInfo") as RectTransform;
     }
 
     static bool IsUnderCenterButton(Transform item, Transform stopAt)
@@ -354,65 +418,180 @@ public class WarTable : MonoBehaviour
         side.capital = board.TileTop(side.capitalTile);
         claimed.Add(side.capitalTile);
 
+        side.capitalRoot = new GameObject(isRed ? "RedCapital" : "BlueCapital").transform;
+        side.capitalRoot.SetParent(transform, false);
+        side.capitalRoot.position = side.capital;
+
         for (int i = 0; i < city.Length; i++)
         {
             int tile = i == 0 ? side.capitalTile : ClaimNear(capitalPoint, _ => true);
-            GameObject building = PlacePrefab(city[i], tile, i == 0 ? 2.1f : 1.5f, i == 0 ? 3.2f : 2.2f);
+            GameObject building = PlacePrefab(city[i], tile, i == 0 ? 2.9f : 1.9f, i == 0 ? 4.4f : 2.8f);
             building.name = "City";
+            building.transform.SetParent(side.capitalRoot, true);
+            side.capitalTop = Mathf.Max(side.capitalTop, WorldBounds(building).max.y);
         }
 
-        // Stat pieces stand on tiles next to the capital.
-        Vector3 powerSpot = board.TileTop(ClaimNear(capitalPoint + new Vector2(-1.6f, -0.6f), _ => true));
-        Vector3 coinSpot = board.TileTop(ClaimNear(capitalPoint + new Vector2(1.6f, -0.6f), _ => true));
-        Color glowing = ProcMesh.Glow(side.color, 0.75f);
+        BuildInfoCenter(side, capitalPoint);
+        BuildFlags(side);
+        return side;
+    }
 
-        GameObject column = ProcMesh.Spawn("PowerTower", ProcMesh.Column(glowing, 6), art.boardMaterial, transform);
-        column.transform.position = powerSpot;
-        column.transform.localScale = new Vector3(0.72f, 0.5f, 0.72f);
-        side.power = column.transform;
+    // A small radio station beside the capital, with a floating "i" sign. Tapping it opens the country report.
+    void BuildInfoCenter(Side side, Vector2 capitalPoint)
+    {
+        // A few tiles toward the camera and away from the coast, so the capital never hides it.
+        Vector2 spot = capitalPoint + new Vector2(side.isRed ? 2.4f : -2.4f, -2.6f);
+        int tile = ClaimNear(spot, _ => true);
+        var root = new GameObject("InfoCenter").transform;
+        root.SetParent(transform, false);
+        root.position = board.TileTop(tile);
 
-        GameObject coinStack = ProcMesh.Spawn("Coins", ProcMesh.Coins(), art.boardMaterial, transform);
-        coinStack.transform.position = coinSpot;
-        coinStack.transform.localScale = new Vector3(0.82f, 0.2f, 0.82f);
-        side.coins = coinStack.transform;
+        Color wall = Color.Lerp(side.color, Color.white, 0.6f);
+        Color roof = side.color * 0.55f;
+        roof.a = 1f;
+        Color steel = new Color(0.3f, 0.32f, 0.36f);
+        Color gold = new Color(0.95f, 0.72f, 0.22f);
+        Mesh building = new ProcMesh()
+            .Box(new Vector3(0f, 0.42f, 0f), new Vector3(1.25f, 0.84f, 1.05f), wall)
+            .Box(new Vector3(0f, 0.9f, 0f), new Vector3(1.38f, 0.12f, 1.18f), roof)
+            .Frustum(new Vector3(-0.28f, 0.96f, 0f), 0.34f, 0.1f, 0.34f, 10, wall)
+            .Box(new Vector3(0.36f, 1.62f, 0f), new Vector3(0.08f, 1.35f, 0.08f), steel)
+            .Box(new Vector3(0.36f, 2.32f, 0f), new Vector3(0.16f, 0.16f, 0.16f), ProcMesh.Glow(new Color(1f, 0.3f, 0.2f), 0.9f))
+            .ToMesh("InfoCenter");
+        ProcMesh.Spawn("Building", building, art.boardMaterial, root);
 
+        var sign = new GameObject("InfoSign").transform;
+        sign.SetParent(root, false);
+        sign.localPosition = Vector3.up * 2.9f;
+        GameObject disc = ProcMesh.Spawn("Disc", ProcMesh.Token(gold, new Color(0.13f, 0.17f, 0.29f)), art.boardMaterial, sign);
+        disc.transform.localScale = Vector3.one * 0.85f;
+
+        var letter = new GameObject("Letter").AddComponent<TextMeshPro>();
+        letter.transform.SetParent(sign, false);
+        letter.transform.localPosition = new Vector3(0f, 0.16f, 0f);
+        letter.transform.localRotation = Quaternion.Euler(90f, 0f, 0f);
+        letter.font = TMP_Settings.defaultFontAsset;
+        letter.text = "i";
+        letter.fontSize = 13f;
+        letter.fontStyle = FontStyles.Bold;
+        letter.color = gold;
+        letter.alignment = TextAlignmentOptions.Center;
+        letter.rectTransform.sizeDelta = new Vector2(1.2f, 1.2f);
+
+        side.infoCenter = root;
+        side.infoSign = sign;
+    }
+
+    // Big flags stand on the rooftops, one for every 20 points of happiness.
+    void BuildFlags(Side side)
+    {
         Mesh flagMesh = ProcMesh.Flag(side.color);
         side.flags = new GameObject[5];
         for (int i = 0; i < side.flags.Length; i++)
         {
-            GameObject flag = ProcMesh.Spawn("Flag", flagMesh, art.boardMaterial, transform);
-            float angle = i * Mathf.PI * 2f / side.flags.Length;
-            flag.transform.position = side.capital + new Vector3(Mathf.Cos(angle), 0f, Mathf.Sin(angle)) * 1.25f;
-            flag.transform.localScale = Vector3.one * 2f;
+            GameObject flag = ProcMesh.Spawn("Flag", flagMesh, art.boardMaterial, side.capitalRoot);
+            // Fans out across the skyline, tallest in the middle, so no flag hides behind another.
+            float x = (i - 2) * 1.2f;
+            float rise = 0.7f - Mathf.Abs(i - 2) * 0.55f;
+            flag.transform.position = new Vector3(side.capital.x + x, side.capitalTop + rise - 0.9f, side.capital.z);
+            flag.transform.localScale = Vector3.one * 5.6f;
             side.flags[i] = flag;
         }
-
-        BuildSilos(side, siloPoint);
-        return side;
     }
 
-    void BuildSilos(Side side, Vector2 site)
-    {
-        side.siloTile = board.NearestTile(site);
-        Mesh siloMesh = ProcMesh.Silo();
-        for (int i = 0; i < SilosPerSide; i++)
-        {
-            int tile = ClaimNear(site, _ => true);
-            Vector3 top = board.TileTop(tile);
-            GameObject silo = ProcMesh.Spawn("Silo", siloMesh, art.boardMaterial, transform);
-            silo.transform.position = top;
 
-            Transform missile = art.missile != null
-                ? InstantiateClean(art.missile, top).transform
-                : ProcMesh.Spawn("Missile", ProcMesh.Rocket(side.color), art.boardMaterial, transform).transform;
-            StandUpright(missile.gameObject, MissileBuried);
-            missile.position = top + Vector3.down * MissileBuried;
+    TextMeshPro poolLabel;
+    Vector3 poolCenter;
+    public Vector3 PoolTop => poolCenter + Vector3.up * 0.9f;
+
+    // A round pool in the South Atlantic, split down the middle. Each side's half fills with nukes as danger rises.
+    void BuildNukePool()
+    {
+        Vector2 size = art.data.boardSize;
+        poolCenter = new Vector3((PoolSpot.x - 0.5f) * size.x, 0f, (0.5f - PoolSpot.y) * size.y);
+
+        var pool = new GameObject("NukePool").transform;
+        pool.SetParent(transform, false);
+        pool.position = poolCenter;
+
+        Color steel = new Color(0.2f, 0.22f, 0.26f);
+        Color darkSteel = new Color(0.1f, 0.11f, 0.13f);
+        var mesh = new ProcMesh()
+            .Frustum(Vector3.zero, PoolRadius + 0.35f, PoolRadius + 0.25f, 0.55f, 24, steel, false)
+            .Frustum(new Vector3(0f, 0.55f, 0f), PoolRadius + 0.25f, PoolRadius + 0.25f, 0.001f, 24, darkSteel, false)
+            .Box(new Vector3(0f, 0.32f, 0f), new Vector3(0.22f, 0.5f, PoolRadius * 2f), steel);
+        ProcMesh.Spawn("Rim", mesh.ToMesh("PoolRim"), art.boardMaterial, pool);
+        AddPoolHalf(pool, false);
+        AddPoolHalf(pool, true);
+
+        PlaceNukes(blue, -1f);
+        PlaceNukes(red, 1f);
+
+        poolLabel = new GameObject("DangerLabel").AddComponent<TextMeshPro>();
+        poolLabel.transform.SetParent(pool, false);
+        poolLabel.transform.position = poolCenter + new Vector3(0f, 0.7f, -PoolRadius - 0.9f);
+        poolLabel.transform.rotation = cameraRotation;
+        poolLabel.font = TMP_Settings.defaultFontAsset;
+        poolLabel.fontSize = 9f;
+        poolLabel.fontStyle = FontStyles.Bold;
+        poolLabel.alignment = TextAlignmentOptions.Center;
+        poolLabel.rectTransform.sizeDelta = new Vector2(6f, 1.6f);
+        poolLabel.outlineWidth = 0.2f;
+        poolLabel.outlineColor = new Color32(0, 0, 0, 220);
+    }
+
+    void AddPoolHalf(Transform pool, bool isRed)
+    {
+        Color water = (isRed ? HexBoard.RedTop : HexBoard.BlueTop) * 0.35f;
+        water.a = 1f;
+        var half = new ProcMesh();
+        const int segments = 14;
+        for (int i = 0; i < segments; i++)
+        {
+            float a0 = Mathf.PI * (0.5f + (isRed ? -1f : 1f) * i / segments);
+            float a1 = Mathf.PI * (0.5f + (isRed ? -1f : 1f) * (i + 1) / segments);
+            Vector3 p0 = new Vector3(Mathf.Cos(a0), 0f, Mathf.Sin(a0)) * PoolRadius + Vector3.up * 0.3f;
+            Vector3 p1 = new Vector3(Mathf.Cos(a1), 0f, Mathf.Sin(a1)) * PoolRadius + Vector3.up * 0.3f;
+            Vector3 middle = Vector3.up * 0.3f;
+            if (isRed)
+                half.Tri(middle, p0, p1, ProcMesh.Glow(water, 0.2f));
+            else
+                half.Tri(middle, p1, p0, ProcMesh.Glow(water, 0.2f));
+        }
+
+        ProcMesh.Spawn(isRed ? "RedWater" : "BlueWater", half.ToMesh("PoolWater"), art.boardMaterial, pool);
+    }
+
+    // Fills the half nearest the middle line first, so the two sides read as a matching pair.
+    void PlaceNukes(Side side, float direction)
+    {
+        var spots = new List<Vector3>();
+        const float spacing = 0.82f;
+        for (float x = 0.5f; x < PoolRadius - 0.3f; x += spacing)
+        {
+            for (float z = -PoolRadius; z <= PoolRadius; z += spacing)
+            {
+                if (new Vector2(x, z).magnitude < PoolRadius - 0.45f)
+                    spots.Add(new Vector3(x * direction, 0.3f, z));
+            }
+        }
+
+        Mesh nukeMesh = ProcMesh.Rocket(side.color);
+        spots.Sort((a, b) => (Mathf.Abs(a.x) + Mathf.Abs(a.z) * 0.6f).CompareTo(Mathf.Abs(b.x) + Mathf.Abs(b.z) * 0.6f));
+        for (int i = 0; i < NukesPerSide && i < spots.Count; i++)
+        {
+            Vector3 home = poolCenter + spots[i];
+            // Chunky procedural missiles read better at this size than the thin pack model.
+            Transform missile = ProcMesh.Spawn("Nuke", nukeMesh, art.boardMaterial, transform).transform;
+            missile.position = home;
+            missile.localScale = Vector3.one * 1.9f;
             side.missiles.Add(missile);
-            side.missileHomes.Add(top);
+            side.missileHomes.Add(missile.position);
+            side.missileScales.Add(missile.localScale);
+            missile.localScale = Vector3.zero;
         }
     }
 
-    const float MissileBuried = 2.2f;
 
     GameObject InstantiateClean(GameObject prefab, Vector3 position)
     {
@@ -534,7 +713,10 @@ public class WarTable : MonoBehaviour
 
         fx.Tick();
         UpdateOrbiters();
+        UpdateRoamers();
         UpdateCamera();
+        BobInfoSign(blue);
+        BobInfoSign(red);
 
         if (IsMenu)
         {
@@ -550,6 +732,15 @@ public class WarTable : MonoBehaviour
         UpdatePeace();
         if (country.IsTutorial)
             UpdateTutorialFocus();
+    }
+
+    void BobInfoSign(Side side)
+    {
+        if (side.infoSign == null)
+            return;
+        side.infoSign.localPosition = Vector3.up * (2.9f + Mathf.Sin(Time.unscaledTime * 2.2f + (side.isRed ? 1f : 0f)) * 0.18f);
+        // The sign's face turns toward the camera so it reads as a badge, not a flat disc.
+        side.infoSign.rotation = cameraRotation * Quaternion.Euler(-90f, 0f, 0f);
     }
 
     // Surviving to 1991: the silos close and fireworks rise over both capitals.
@@ -583,86 +774,13 @@ public class WarTable : MonoBehaviour
                 StartCoroutine(ExpandingRing(blue.capital + Vector3.up * 0.2f, color, 3.2f));
                 StartCoroutine(ExpandingRing(red.capital + Vector3.up * 0.2f, color, 3.2f));
                 break;
-            case 8:
-            case 10:
-                StartCoroutine(ExpandingRing(blue.power.position, color, 1.6f));
-                StartCoroutine(ExpandingRing(red.power.position, color, 1.6f));
-                break;
             case 11:
-                StartCoroutine(ExpandingRing(board.TileTop(blue.siloTile), new Color(1f, 0.3f, 0.2f), 3f));
-                StartCoroutine(ExpandingRing(board.TileTop(red.siloTile), new Color(1f, 0.3f, 0.2f), 3f));
+                StartCoroutine(ExpandingRing(red.capital + Vector3.up * 0.2f, color, 3.2f));
+                break;
+            case 12:
+                StartCoroutine(ExpandingRing(poolCenter + Vector3.up * 0.6f, new Color(1f, 0.3f, 0.2f), PoolRadius + 1.5f));
                 break;
         }
-    }
-
-    void LateUpdate()
-    {
-        if (IsMenu)
-            return;
-
-        // The buttons follow the capitals, so they stay put on the 3D map on any screen shape.
-        AnchorToWorld(capStar, blue.capital, 0f, 0f, 0.15f);
-        AnchorToWorld(capInfo, blue.capital, 0f, 0f, -0.1f);
-        AnchorToWorld(comStar, red.capital, 0f, 0f, 0.15f);
-        AnchorToWorld(comInfo, red.capital, 0f, 0f, -0.1f);
-        LayoutActionRing();
-    }
-
-    // Shows the action buttons as a ring around the selected capital, leaving the map visible.
-    void LayoutActionRing()
-    {
-        GameObject menu = country.ActionMenu;
-        if (menu == null || !menu.activeInHierarchy)
-            return;
-
-        if (actionPanel == null)
-        {
-            actionPanel = menu.GetComponent<Image>();
-            actionPanel.enabled = false;
-            var buttons = new List<RectTransform>();
-            foreach (HoverInfo action in menu.GetComponentsInChildren<HoverInfo>(true))
-                buttons.Add((RectTransform)action.transform);
-            foreach (Transform child in menu.transform)
-            {
-                if (child.GetComponent<Button>() != null && !buttons.Contains((RectTransform)child))
-                    buttons.Add((RectTransform)child);
-            }
-
-            actionButtons = buttons.ToArray();
-        }
-
-        Side side = CountryManager.SelectedParty == country.Communism ? red : blue;
-        Vector3 center = mainCamera.WorldToScreenPoint(side.capital + Vector3.up * 0.8f);
-        float radius = Screen.height * 0.2f;
-        float margin = Screen.height * 0.075f;
-        float buttonScale = Screen.height * 0.13f;
-
-        // Keeps the whole ring on screen when a capital sits near an edge.
-        center.x = Mathf.Clamp(center.x, radius + margin, Screen.width - radius - margin);
-        center.y = Mathf.Clamp(center.y, radius + margin, Screen.height - radius - margin);
-
-        for (int i = 0; i < actionButtons.Length; i++)
-        {
-            RectTransform button = actionButtons[i];
-            float angle = Mathf.PI * 0.5f - i * Mathf.PI * 2f / actionButtons.Length;
-            button.position = new Vector3(center.x + Mathf.Cos(angle) * radius, center.y + Mathf.Sin(angle) * radius, 0f);
-
-            float width = button.rect.width * button.lossyScale.x / Mathf.Max(button.localScale.x, 0.0001f);
-            if (width > 0.001f)
-                button.localScale = Vector3.one * (buttonScale / width);
-        }
-    }
-
-    void AnchorToWorld(RectTransform target, Vector3 world, float lift, float offsetX, float offsetY)
-    {
-        if (target == null)
-            return;
-
-        Vector3 screen = mainCamera.WorldToScreenPoint(world + Vector3.up * lift);
-        screen.x += offsetX * Screen.height;
-        screen.y += offsetY * Screen.height;
-        screen.z = 0f;
-        target.position = screen;
     }
 
     void UpdateSide(Side side, Party party)
@@ -672,14 +790,8 @@ public class WarTable : MonoBehaviour
 
         float dt = Time.unscaledDeltaTime;
 
-        // A square root keeps a gap readable at low power without huge towers late in the game.
-        float powerHeight = 0.25f + 5.2f * Mathf.Sqrt(Mathf.Max(0, party.Power) / 8000f);
-        ScaleY(side.power, Mathf.Min(powerHeight, 8f), dt);
 
-        float magnitude = Mathf.Log10(Mathf.Max(party.Money, 1000000f));
-        ScaleY(side.coins, Mathf.Lerp(0.05f, 1.6f, Mathf.InverseLerp(6f, 12f, magnitude)), dt);
-
-        int flagsUp = Mathf.CeilToInt(Mathf.Clamp(party.PeoplSatsfaction, 0, 100) / 20f);
+        int flagsUp = Mathf.CeilToInt(Mathf.Clamp(ShownHappiness(side, party), 0, 100) / 20f);
         for (int i = 0; i < side.flags.Length; i++)
         {
             bool shouldShow = i < flagsUp;
@@ -699,22 +811,33 @@ public class WarTable : MonoBehaviour
         SyncActions(side, party);
     }
 
-    static void ScaleY(Transform target, float height, float dt)
-    {
-        Vector3 scale = target.localScale;
-        scale.y = Mathf.Lerp(scale.y, height, 1f - Mathf.Exp(-5f * dt));
-        target.localScale = scale;
-    }
 
+    // Fires break out at street level all around the capital when its people turn on it. Unhappier means more fires.
     void UpdateProtest(Side side, Party party)
     {
-        bool unrest = party.PeoplSatsfaction < 15;
-        if (unrest && side.protest == null)
-            side.protest = fx.Flame(side.capital + new Vector3(0.45f, 0.1f, -0.45f), null, 22f, 0.5f);
-        else if (!unrest && side.protest != null)
+        int happiness = ShownHappiness(side, party);
+        int wanted = happiness < UnrestBelow ? 4 + (UnrestBelow - happiness) / 5 : 0;
+        while (side.fires.Count > wanted)
         {
-            Destroy(side.protest.gameObject);
-            side.protest = null;
+            int last = side.fires.Count - 1;
+            Destroy(side.fires[last].transform.parent.gameObject);
+            side.fires.RemoveAt(last);
+        }
+
+        while (side.fires.Count < wanted)
+        {
+            int index = side.fires.Count;
+            float angle = index * 2.39996f;
+            float radius = 2f + (index % 3) * 0.5f;
+            Vector2 spot = Flat(side.capital) + new Vector2(Mathf.Cos(angle), Mathf.Sin(angle)) * radius;
+            Vector3 ground = board.TileTop(board.NearestTile(spot)) + Vector3.up * 0.05f;
+
+            var site = new GameObject("Riot").transform;
+            site.SetParent(transform, false);
+            site.position = ground;
+            ParticleSystem flame = fx.Flame(ground, site, 32f, 1.35f);
+            fx.Smoke(ground + Vector3.up * 0.5f, site, 6f, 1.1f, new Color(0.08f, 0.07f, 0.07f, 0.75f));
+            side.fires.Add(flame);
         }
     }
 
@@ -886,6 +1009,7 @@ public class WarTable : MonoBehaviour
 
         GameObject drone = InstantiateClean(art.drone, start);
         StandUprightFlat(drone, 1.4f);
+        TintDrone(drone, side.color);
         GameObject beacon = ProcMesh.Spawn("Beacon", ProcMesh.Ring(ProcMesh.Glow(side.color, 0.9f), 0.28f, 0.07f, 14), art.boardMaterial, drone.transform);
         beacon.transform.localPosition = Vector3.zero;
         beacon.transform.localScale = Vector3.one / Mathf.Max(drone.transform.localScale.x, 0.001f);
@@ -901,17 +1025,96 @@ public class WarTable : MonoBehaviour
         visual.onDone = () =>
         {
             fx.Burst(target, side.color + Color.white * 0.3f, 16, 0.2f, 1.5f, 0.6f);
-            orbiters.Add(new Orbiter
+            roamers.Add(new Roamer
             {
                 transform = drone.transform,
-                center = enemy.capital + Vector3.up * 2.2f,
-                radius = UnityEngine.Random.Range(1.3f, 2.4f),
-                speed = UnityEngine.Random.Range(0.5f, 0.9f),
-                angle = UnityEngine.Random.value * Mathf.PI * 2f,
-                bob = 0.12f,
+                overRed = enemy.isRed,
+                target = target,
+                speed = UnityEngine.Random.Range(1.6f, 2.4f),
+                phase = UnityEngine.Random.value * 10f,
             });
         };
         visual.onCancel = () => Destroy(drone);
+    }
+
+    // Paints the drone in its side's color, keeping some of its own shading.
+    static void TintDrone(GameObject drone, Color color)
+    {
+        // The camouflage texture is dropped so the team color reads clearly from the board camera.
+        Color tint = Color.Lerp(color, Color.white, 0.2f);
+        foreach (Renderer part in drone.GetComponentsInChildren<Renderer>())
+        {
+            if (part.name == "Beacon")
+                continue;
+            foreach (Material material in part.materials)
+            {
+                if (material.HasProperty("_BaseMap"))
+                    material.SetTexture("_BaseMap", null);
+                if (material.HasProperty("_MainTex"))
+                    material.SetTexture("_MainTex", null);
+                if (material.HasProperty("_BaseColor"))
+                    material.SetColor("_BaseColor", tint);
+                if (material.HasProperty("_Color"))
+                    material.SetColor("_Color", tint);
+            }
+        }
+    }
+
+    class Roamer
+    {
+        public Transform transform;
+        public bool overRed;
+        public Vector3 target;
+        public float speed;
+        public float phase;
+    }
+
+    readonly List<Roamer> roamers = new List<Roamer>();
+    const float DroneHeight = 2.2f;
+
+    // Spy drones fly from one random spot of the enemy's territory to the next, following the map as borders move.
+    void UpdateRoamers()
+    {
+        float dt = Time.unscaledDeltaTime;
+        foreach (Roamer roamer in roamers)
+        {
+            if (roamer.transform == null)
+                continue;
+
+            Vector3 position = roamer.transform.position;
+            Vector3 flat = roamer.target - position;
+            flat.y = 0f;
+            if (flat.magnitude < 0.3f)
+            {
+                roamer.target = RandomSpotOver(roamer.overRed, roamer.target);
+                continue;
+            }
+
+            Vector3 step = flat.normalized * Mathf.Min(roamer.speed * dt, flat.magnitude);
+            position += step;
+            position.y = Mathf.Lerp(position.y, roamer.target.y + Mathf.Sin(Time.unscaledTime * 2f + roamer.phase) * 0.15f, dt * 2f);
+            roamer.transform.position = position;
+            Quaternion facing = Quaternion.LookRotation(flat.normalized, Vector3.up);
+            roamer.transform.rotation = Quaternion.Slerp(roamer.transform.rotation, facing, dt * 3f);
+        }
+    }
+
+    // A random land tile currently held by the given side, a fair distance from where the drone is.
+    Vector3 RandomSpotOver(bool red, Vector3 from)
+    {
+        for (int attempt = 0; attempt < 40; attempt++)
+        {
+            int tile = UnityEngine.Random.Range(0, board.TileCount);
+            bool tileIsRed = board.ThresholdOf(tile) < board.Com;
+            if (tileIsRed != red)
+                continue;
+            Vector3 top = board.TileTop(tile);
+            if (attempt < 30 && (Flat(top) - Flat(from)).magnitude < 3f)
+                continue;
+            return top + Vector3.up * DroneHeight;
+        }
+
+        return from;
     }
 
     // Scales to a footprint without changing orientation, for things that fly level.
@@ -1076,9 +1279,11 @@ public class WarTable : MonoBehaviour
         float danger = Mathf.Clamp01(NukeMeterUpdater.nukeDanger / 100f);
         if (peaceStarted)
             danger = 0f;
-        float rise = Mathf.SmoothStep(0f, 1f, Mathf.InverseLerp(0.15f, 0.9f, danger));
-        RaiseMissiles(blue, rise);
-        RaiseMissiles(red, rise);
+        FillPool(blue, danger);
+        FillPool(red, danger);
+        poolLabel.text = Mathf.RoundToInt(danger * 100f) + "%";
+        poolLabel.transform.rotation = cameraRotation;
+        poolLabel.color = Color.Lerp(new Color(0.75f, 0.85f, 1f), new Color(1f, 0.3f, 0.2f), danger);
 
         float alarm = Mathf.InverseLerp(0.4f, 1f, danger);
         grading.saturation.Override(Mathf.Lerp(0f, -28f, alarm));
@@ -1097,29 +1302,35 @@ public class WarTable : MonoBehaviour
         }
     }
 
-    void RaiseMissiles(Side side, float rise)
+    void FillPool(Side side, float danger)
     {
         if (endOfWorld)
             return;
 
+        // Even 1% danger shows a nuke, so any risk at all is visible.
+        int shown = danger >= 0.005f ? Mathf.Max(1, Mathf.RoundToInt(danger * NukesPerSide)) : 0;
+        float dt = Time.unscaledDeltaTime;
         for (int i = 0; i < side.missiles.Count; i++)
         {
-            // Each silo opens a little after the last, so the threat visibly builds.
-            float stagger = Mathf.Clamp01(rise * side.missiles.Count - i);
-            Vector3 home = side.missileHomes[i];
-            Vector3 target = home + Vector3.down * Mathf.Lerp(MissileBuried, 0f, stagger);
+            bool visible = i < shown;
             Transform missile = side.missiles[i];
-            missile.position = Vector3.MoveTowards(missile.position, target, Time.unscaledDeltaTime * 1.5f);
+            Vector3 target = visible ? side.missileScales[i] : Vector3.zero;
+            missile.localScale = Vector3.MoveTowards(missile.localScale, target, dt * 4f * side.missileScales[i].magnitude);
+            Vector3 home = side.missileHomes[i];
+            float sink = visible ? 0f : 0.6f;
+            missile.position = Vector3.MoveTowards(missile.position, home + Vector3.down * sink, dt * 3f);
         }
     }
 
     IEnumerator EndOfTheWorld()
     {
-        for (int i = 0; i < SilosPerSide; i++)
+        for (int i = 0; i < NukesPerSide; i++)
         {
+            blue.missiles[i].localScale = blue.missileScales[i];
+            red.missiles[i].localScale = red.missileScales[i];
             StartCoroutine(FlyMissile(blue.missiles[i], red.capital + Random2D(3.5f)));
             StartCoroutine(FlyMissile(red.missiles[i], blue.capital + Random2D(3.5f)));
-            yield return new WaitForSecondsRealtime(0.28f);
+            yield return new WaitForSecondsRealtime(0.12f);
         }
 
         yield return new WaitForSecondsRealtime(1.1f);

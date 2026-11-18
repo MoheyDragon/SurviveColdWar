@@ -9,6 +9,7 @@ public class BoardArt : ScriptableObject
     public Material boardMaterial;
     public Material particleAlpha;
     public Material particleAdditive;
+    public Material iconMaterial;
     public GameObject[] factories;
     public GameObject[] blueCity;
     public GameObject[] redCity;

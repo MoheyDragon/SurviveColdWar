@@ -15,6 +15,9 @@ public class Country_Info : MonoBehaviour
     public void InfoClick()
     {
         Click.Post(gameObject);
+        // Opening the report closes any open action wheel and its details card.
+        country.ActionMenu.SetActive(false);
+        GameManager.Singleton.ShowInfo(false);
         if (!CountryManager.CountryInfo.activeSelf)
         {
                 if (gameObject.name == "ComCenterInfo")
@@ -43,8 +46,8 @@ public class Country_Info : MonoBehaviour
 
         foreach (Text text in CountryManager.InfoPresName)
             text.text = party.president.name;
-        CountryManager.InfoPresPower.text = party.president.Power.ToString();
-        CountryManager.InfoPresMoney.text = country.MoneyTranslate(party.president.Money);
+        CountryManager.InfoPresPower.text = party.PresidentPower.ToString();
+        CountryManager.InfoPresMoney.text = country.MoneyTranslate(party.PresidentMoney);
         CountryManager.InfoPresPeople.text = party.president.PeoplSatsfaction.ToString();
 
         foreach (Text text in CountryManager.InfoFacNumber)

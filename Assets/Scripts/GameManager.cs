@@ -99,8 +99,13 @@ public class GameManager : MonoBehaviour
         InterstitialAds.Singleton.ShowAd();
     }
     
+    public bool InfoVisible { get; private set; }
+
+    // Years since January 1947, counting months, for rules that change over the decades.
+    public float YearsElapsed => int.TryParse(Date.text, out int year) ? year - 1947 + monthCount / 12f : 0f;
     public void ShowInfo(bool enabled)
     {
+        InfoVisible = enabled;
         InfoCG.alpha=enabled ? 1 : 0;
         LanguageManager.Singlton.EnableButton(!enabled);
         InfoCG.interactable = enabled;

@@ -14,8 +14,27 @@ public class Tutorial : MonoBehaviour
     public GameObject TutWin, country_Info;
     public GameObject[] Date, Blue, UI, Nuke,speed,War,Greens,Research,Factory,ComCenter,Spy,Assassin,Arrows,CantRes,Crown;
     GameObject[] MapSector;
+    bool HoverLessonDone;
+    bool ReadingDone;
+    int voicedStep = -1;
+
+    // Plays the step's voice line the moment the right action wheel opens, so it is heard before the action is pressed.
+    void PlayLineWhenWheelOpens(int step, string actionName, Party party)
+    {
+        if (Level != step || voicedStep == step || !countryManager.ActionMenu.activeSelf || CountryManager.SelectedParty != party)
+            return;
+        foreach (HoverInfo action in countryManager.ActionMenu.GetComponentsInChildren<HoverInfo>(true))
+        {
+            if (action.name != actionName)
+                continue;
+            voicedStep = step;
+            action.PlayTutorialLine();
+        }
+    }
     bool DateLock, BlueLock, UILock, NukeLock,FactoryLock,ElectionLock, speedLock, YannLock,NextLock, WarLock;
     CountryManager countryManager;
+    // During the hover lesson the shield only shows its details; wars can be started once the lesson is over.
+    public static bool ActionsLocked => instance != null && instance.countryManager.IsTutorial && Level >= 13 && Level <= 15;
     public static bool FirstMonthLock, SecondMonthLock,FirstYear,ThreeWARS,TwoFactories, LongWait, ENDLOCK;
     private void Awake()
     {
@@ -46,6 +65,12 @@ public class Tutorial : MonoBehaviour
     }
     void Update()
     {
+        PlayLineWhenWheelOpens(13, "War", countryManager.Capitalism);
+        PlayLineWhenWheelOpens(23, "Factory", countryManager.Capitalism);
+        PlayLineWhenWheelOpens(36, "Spy", countryManager.Communism);
+        PlayLineWhenWheelOpens(38, "Research", countryManager.Capitalism);
+        PlayLineWhenWheelOpens(41, "Assassin", countryManager.Communism);
+
         if (Level == 3&&!DateLock)
             DateLock=ActivitatingReturn(Date);
         if (Level==4)
@@ -62,18 +87,29 @@ public class Tutorial : MonoBehaviour
             Next(false);
         if (Level == 8 && !SecondMonthLock)
             Next(false);
-        if (Level == 9 && !speedLock)
+        if (Level == 9)
+        {
+            Time.timeScale = 0;
+            NextActiviting(true);
+        }
+        if (Level == 10 && !ReadingDone)
+        {
+            ReadingDone = true;
+            NextActiviting(false);
+            Time.timeScale = 1;
+        }
+        if (Level == 10 && !speedLock)
             speedLock= ActivitatingReturn(speed);
-        if (Level == 9 && !FirstYear)
+        if (Level == 10 && !FirstYear)
         {
             Time.timeScale = 0;
             NextActiviting(true);
             DeActivitingArrows(speed, 1);
             Next(false);
         }
-        if (Level == 11 && !NukeLock)
+        if (Level == 12 && !NukeLock)
             NukeLock= ActivitatingReturn(Nuke);
-        if (Level == 12 && !BlueLock)
+        if (Level == 13 && !BlueLock)
         {
             MapSectorInterActable(false);
             DeActivitingArrows(Nuke, 1);
@@ -82,43 +118,57 @@ public class Tutorial : MonoBehaviour
             Time.timeScale = 0.0000000001f;
             Activiting(War);
         }
-        if (Level == 12 && countryManager.ActionMenu.activeSelf && !WarLock)
+        if (Level == 13 && countryManager.ActionMenu.activeSelf && !WarLock)
         {
             WarLock = true;
             DeActivitingArrows(Blue, 1);
             InterActable(Blue);
         }
-        if (Level == 13 && WarLock)
+        // Steps 13 and 14 teach the details card: hover (or hold) an action, then read what each value means.
+        if (Level == 14 && GameManager.Singleton.InfoVisible && GameManager.nameOfAction == "War")
+        {
+            Next(false);
+            NextActiviting(true);
+        }
+        if (Level == 15 && !GameManager.Singleton.InfoVisible)
+            GameManager.Singleton.ShowInfo(true);
+        if (Level == 16 && !HoverLessonDone)
+        {
+            HoverLessonDone = true;
+            NextActiviting(false);
+            GameManager.Singleton.ShowInfo(false);
+        }
+        if (Level == 16 && WarLock)
         {
             DeActivitingArrows(War, 1);
             WarLock = false;
         }
-        if (Level == 13 && countryManager.Capitalism.WarLevel == 3)
+        if (Level == 16 && countryManager.Capitalism.WarLevel == 3)
         {
             Next(false);
             InterActable(War);
             MapSectorInterActable(true);
         }
 
-        if (Level == 14 && !countryManager.ActionMenu.activeSelf)
+        if (Level == 17 && !countryManager.ActionMenu.activeSelf)
         {
             MapSectorInterActable(false);
             Next(false);
             InterActable(Blue);
             Time.timeScale = 1;
         }
-        if (Level == 15 && countryManager.Capitalism.WarNumber == 3)
+        if (Level == 18 && countryManager.Capitalism.WarNumber == 3)
         {
             Activiting(Greens);
             Next(false);
         }
-        if (Level == 16 && !ThreeWARS)
+        if (Level == 19 && !ThreeWARS)
         {
             Next(false);
             Time.timeScale = 0.000001f;
             InterActable(speed);
         }
-        if (Level == 17)
+        if (Level == 20)
         {
             country_Info.SetActive(false);
             InterActableGreen(false);
@@ -127,23 +177,23 @@ public class Tutorial : MonoBehaviour
             DeActivitingArrows(Greens, 2);
         }
 
-        if (Level == 17 && countryManager.ActionMenu.activeSelf)
+        if (Level == 20 && countryManager.ActionMenu.activeSelf)
         {
             Next(false);
             DeActivitingArrows(Blue, 1);
             InterActable(War);
         }
-        if (Level == 18)
+        if (Level == 21)
             Activiting(Research);
 
-        if (Level == 18 && GameManager.nameOfAction == "Research")
+        if (Level == 21 && GameManager.nameOfAction == "Research")
         {
             Next(false);
             GameManager.Info.transform.GetChild(21).GetComponent<Button>().interactable = false;
             GameManager.Info.transform.GetChild(22).GetComponent<Button>().interactable = true;
         }
 
-        if (Level == 19 && !WarLock)
+        if (Level == 22 && !WarLock)
         {
             WarLock = true;
             NextActiviting(true);
@@ -152,7 +202,7 @@ public class Tutorial : MonoBehaviour
             Activiting(CantRes);
         }
 
-        if (Level == 20 && !FactoryLock)
+        if (Level == 23 && !FactoryLock)
         {
             GameManager.Info.transform.GetChild(21).GetComponent<Button>().interactable = true;
             GameManager.Info.transform.GetChild(22).GetComponent<Button>().interactable = false;
@@ -162,12 +212,12 @@ public class Tutorial : MonoBehaviour
             LanguageManager.Singlton.EnableButton(false);
             NextActiviting(false);
         }
-        if (Level == 21 && countryManager.Capitalism.FactoryLevel < 3)
+        if (Level == 24 && countryManager.Capitalism.FactoryLevel < 3)
         {
             Time.timeScale = 0.000001f;
             InterActable(speed);
         }
-        if (Level == 21 && countryManager.Capitalism.FactoryLevel == 3 && FactoryLock)
+        if (Level == 24 && countryManager.Capitalism.FactoryLevel == 3 && FactoryLock)
         {
             FactoryLock = false;
             countryManager.ActionMenu.SetActive(false);
@@ -178,7 +228,7 @@ public class Tutorial : MonoBehaviour
             Time.timeScale = 1;
             InterActable(speed, true);
         }
-        if (Level == 21 && countryManager.Capitalism.FactoriesNumber == 2)
+        if (Level == 24 && countryManager.Capitalism.FactoriesNumber == 2)
         {
             Time.timeScale = 0.00000001f;
             countryManager.ActionMenu.SetActive(false);
@@ -188,18 +238,19 @@ public class Tutorial : MonoBehaviour
             Activiting(ComCenter);
             InterActable(ComCenter, true);
         }
-        if (Level == 22 && countryManager.ActionMenu.activeSelf)
+        if (Level == 25 && countryManager.ActionMenu.activeSelf)
         {
             Next(false);
             DeActivitingArrows(ComCenter, 1);
             Activiting(Crown);
         }
-        if (Level >= 22 && Level <= 33)
+        // Time crawls through these steps, but stands still while a voice line plays.
+        if (Level >= 25 && Level <= 38 && !HoverInfo.VoiceLinePlaying)
         {
             InterActable(speed);
             Time.timeScale = 0.01f;
         }
-        if (Level == 23 && countryManager.ELectionWindow.activeSelf && !ElectionLock)
+        if (Level == 26 && countryManager.ELectionWindow.activeSelf && !ElectionLock)
         {
             DeActivitingArrows(Crown, 1);
             InterActable(speed, true);
@@ -212,21 +263,21 @@ public class Tutorial : MonoBehaviour
             foreach (Button item in countryManager.ELectionWindow.GetComponentsInChildren<Button>())
                 item.interactable = false;
         }
-        if (Level == 25 && !YannLock)
+        if (Level == 30 && !YannLock)
         {
             InterActable(speed);
             NextActiviting(false);
             YannLock = true;
             countryManager.ELectionWindow.transform.GetChild(0).GetChild(7).GetComponent<Button>().interactable = true;
         }
-        if (Level == 25 && !countryManager.ELectionWindow.activeSelf)
+        if (Level == 30 && !countryManager.ELectionWindow.activeSelf)
         {
             speed[0].GetComponent<Button>().interactable = false;
             Time.timeScale = 0;
             Next(false);
             NextActiviting(true);
         }
-        if (Level == 28 && !NextLock)
+        if (Level == 33 && !NextLock)
         {
             speed[0].GetComponent<Button>().interactable = false;
             InterActableGreen(true);
@@ -234,34 +285,36 @@ public class Tutorial : MonoBehaviour
             NextLock = true;
         }
 
-        if (Level == 28 && CountryManager.CountryInfo.activeSelf && NextLock)
+        // Opening Red's report from the info building beside its capital moves on to reading it.
+        if (Level == 33 && NextLock && CountryManager.CountryInfo.activeSelf)
         {
             DeActivitingArrows(Greens, 2);
             InterActable(speed);
             NextLock = false;
             Next(false);
             NextActiviting(true);
-            Activiting(Arrows);
-            LanguageManager.Singlton.EnableButton(false);
         }
-        if (Level == 29 && !NextLock && CountryManager.CountryInfo.activeSelf)
+        if (Level == 34 && !NextLock && CountryManager.CountryInfo.activeSelf)
         {
             InterActableGreen(false);
             MapSectorInterActable(false);
         }
-        if (Level == 30)
+        if (Level == 35)
         {
             CountryManager.CountryInfo.SetActive(false);
             DeActivitingArrows(Arrows, 0);
             Activiting(Spy);
         }
-        if (Level == 31 && !NextLock)
+        if (Level == 36 && !NextLock)
         {
             InterActable(ComCenter, true);
             NextLock = true;
             NextActiviting(false);
         }
-        if (Level == 32 && NextLock)
+        // The spy line has played; sending the spy moves the tutorial on.
+        if (Level == 36 && NextLock && !HoverInfo.VoiceLinePlaying && System.Array.Exists(countryManager.Communism.Actions, action => action != null && action.name == "Spy"))
+            Next(false);
+        if (Level == 37 && NextLock)
         {
             speed[0].GetComponent<Button>().interactable = false;
             DeActivitingArrows(Spy, 1);
@@ -269,12 +322,12 @@ public class Tutorial : MonoBehaviour
             InterActable(ComCenter);
             NextLock = false;
         }
-        if(Level==32&&countryManager.Communism.Actions[0] != null)
+        if(Level==37&&countryManager.Communism.Actions[0] != null)
         {
             NextActiviting(true);
         }
 
-        if (Level == 33 && !NextLock)
+        if (Level == 38 && !NextLock)
         {
             NextLock = true;
             InterActable(Blue, true);
@@ -287,12 +340,11 @@ public class Tutorial : MonoBehaviour
             if (countryManager.Communism.Actions[0] == null)
                 countryManager.Communism.Actions[0] = new ActionFunction("Spy","زرع جاسوس", "Spy is in place","الجاسوس في موقعه", 500, 0, 12, 0, true);
             countryManager.Communism.Money += 50000000000;
-            countryManager.Communism.FactoriesTotalPower = -155;
         }
-        if (Level == 33 && NextLock && countryManager.Capitalism.Actions[0] != null)
+        if (Level == 38 && NextLock && countryManager.Capitalism.Actions[0] != null && !HoverInfo.VoiceLinePlaying)
         {
             if (countryManager.Capitalism.Actions[0].name != "Research")
-                countryManager.Capitalism.Actions[0] = new ActionFunction("Research", "تمويل بحث علمي", "Research Completed", "تم إنهاء البحث", 3000, 10, 24, 0, false);
+                countryManager.Capitalism.Actions[0] = new ActionFunction("Research", "تمويل بحث علمي", "Research Completed", "تم إنهاء البحث", 6000, 10, 24, 0, false);
             Next(false);
             NextLock = false;
             countryManager.ActionMenu.SetActive(false);
@@ -301,14 +353,14 @@ public class Tutorial : MonoBehaviour
             Time.timeScale = 1;
 
         }
-        if (Level == 34)
+        if (Level == 39)
         {
             InterActable(Blue);
             InterActable(ComCenter);
             InterActable(Research);
             NextLock = true;
         }
-        if (Level == 34 && !LongWait)
+        if (Level == 39 && !LongWait)
         {
 
             Time.timeScale = 0;
@@ -316,7 +368,7 @@ public class Tutorial : MonoBehaviour
             Activiting(Assassin);
             NextActiviting(true);
         }
-        if (Level == 36 && NextLock)
+        if (Level == 41 && NextLock)
         {
             InterActable(ComCenter, true);
             countryManager.Communism.PeoplSatsfaction = 75;
@@ -324,9 +376,12 @@ public class Tutorial : MonoBehaviour
             NextLock = false;
             NextActiviting(false);
         }
-        if (Level == 36 && YannLock && countryManager.Communism.Actions[0] != null)
+        // Speeds up the assassin the player sent. Only that one is replaced: Red's spy may still be in another slot.
+        int assassin = System.Array.FindIndex(countryManager.Communism.Actions, action => action != null && action.name == "Assassin");
+        if (Level == 41 && YannLock && assassin >= 0 && !HoverInfo.VoiceLinePlaying)
         {
-            countryManager.Communism.Actions[0] = new ActionFunction("Assassin", "عملية اغتيال", "Assassination completed","تمت عملية الاغتيال", 0, 0, 1, 0, false);
+            // Shortened in place: swapping in a new action made the board play the strike twice.
+            countryManager.Communism.Actions[assassin].time = 1;
             YannLock = false;
             Time.timeScale = 1;
             countryManager.ActionMenu.SetActive(false);
@@ -337,23 +392,26 @@ public class Tutorial : MonoBehaviour
             InterActable(speed, true);
             Next(false);
         }
-        if (Level == 37 && !ENDLOCK)
+        if (Level == 42 && !ENDLOCK)
         {
             Time.timeScale = 0;
             InterActable(speed);
             Next(false);
             NextActiviting(true);
         }
-        if (Level == 40)
+        if (Level == 44)
         {
             this.gameObject.GetComponent<CountryManager>().Music.Stop(gameObject);
             Time.timeScale = 1;
             SceneManager.LoadScene(2);
             Level = 0;
+            HoverLessonDone = false;
+            ReadingDone = false;
+            voicedStep = -1;
             speedLock = DateLock = BlueLock = UILock = NukeLock = FactoryLock = ElectionLock = YannLock = NextLock = WarLock = false;
             FirstMonthLock = SecondMonthLock = FirstYear = ThreeWARS = TwoFactories = LongWait = ENDLOCK = true;
         }
-        if (Level >= 7 && Level <= 13)
+        if (Level >= 7 && Level <= 16)
         {
             MapSectorInterActable(false);
         }

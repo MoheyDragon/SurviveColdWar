@@ -10,6 +10,13 @@ public class MassageWindow : MonoBehaviour
     public void Destroy(GameObject game)
     {
         ClickSound.Post(gameObject);
+        // The tutorial controls time itself, so closing the question puts back the speed it had.
+        if (GameManager.Canvas.GetComponent<CountryManager>().IsTutorial)
+        {
+            Time.timeScale = CountryManager.TimeBeforeExit;
+            UnityEngine.Object.Destroy(game);
+            return;
+        }
         Time.timeScale = 0.09f;
         StartCoroutine(Wait(game));
         

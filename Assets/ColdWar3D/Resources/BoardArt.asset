@@ -16,6 +16,7 @@ MonoBehaviour:
   boardMaterial: {fileID: 2100000, guid: e22b07700786dfe45beeaf0224997216, type: 2}
   particleAlpha: {fileID: 2100000, guid: 8088c645fc1dba8418503c3d27613ce3, type: 2}
   particleAdditive: {fileID: 2100000, guid: 8f02596cf7688b54c818a0a0c48b282e, type: 2}
+  iconMaterial: {fileID: 2100000, guid: 2e99ed74494678941b8e737a5eaf0ed0, type: 2}
   factories:
   - {fileID: 3931521358674859427, guid: c752f572d2f44d34986669f90df0f991, type: 3}
   - {fileID: 7794931095666149424, guid: a7d4e8e649537104fa282131228470f6, type: 3}
