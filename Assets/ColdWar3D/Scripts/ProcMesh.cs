@@ -96,18 +96,114 @@ public class ProcMesh
         return go;
     }
 
-    public static Mesh Tank(Color team)
+    // Four marks of tank, one per hidden power level: light tank, medium tank, heavy twin-gun tank, missile tank.
+    public static Mesh Tank(Color team, int mark = 0)
     {
         Color track = new Color(0.10f, 0.10f, 0.11f);
         Color dark = team * 0.7f;
         dark.a = 1f;
+        Color steel = new Color(0.32f, 0.34f, 0.37f);
         var m = new ProcMesh();
-        m.Box(new Vector3(-0.17f, 0.06f, 0f), new Vector3(0.11f, 0.12f, 0.56f), track);
-        m.Box(new Vector3(0.17f, 0.06f, 0f), new Vector3(0.11f, 0.12f, 0.56f), track);
-        m.Box(new Vector3(0f, 0.14f, 0f), new Vector3(0.30f, 0.12f, 0.50f), team);
-        m.Frustum(new Vector3(0f, 0.20f, -0.03f), 0.13f, 0.10f, 0.11f, 7, dark);
-        m.Box(new Vector3(0f, 0.25f, 0.21f), new Vector3(0.035f, 0.035f, 0.34f), track);
+        switch (mark)
+        {
+            case 0:
+                m.Box(new Vector3(-0.17f, 0.06f, 0f), new Vector3(0.11f, 0.12f, 0.56f), track);
+                m.Box(new Vector3(0.17f, 0.06f, 0f), new Vector3(0.11f, 0.12f, 0.56f), track);
+                m.Box(new Vector3(0f, 0.14f, 0f), new Vector3(0.30f, 0.12f, 0.50f), team);
+                m.Frustum(new Vector3(0f, 0.20f, -0.03f), 0.13f, 0.10f, 0.11f, 7, dark);
+                m.Box(new Vector3(0f, 0.25f, 0.21f), new Vector3(0.035f, 0.035f, 0.34f), track);
+                break;
+            case 1:
+                // Medium: longer hull with side skirts, a bigger turret and a long gun with a muzzle brake.
+                m.Box(new Vector3(-0.19f, 0.07f, 0f), new Vector3(0.12f, 0.14f, 0.66f), track);
+                m.Box(new Vector3(0.19f, 0.07f, 0f), new Vector3(0.12f, 0.14f, 0.66f), track);
+                m.Box(new Vector3(-0.25f, 0.11f, 0f), new Vector3(0.02f, 0.08f, 0.6f), dark);
+                m.Box(new Vector3(0.25f, 0.11f, 0f), new Vector3(0.02f, 0.08f, 0.6f), dark);
+                m.Box(new Vector3(0f, 0.16f, 0f), new Vector3(0.34f, 0.12f, 0.6f), team);
+                m.Box(new Vector3(0f, 0.25f, -0.04f), new Vector3(0.24f, 0.09f, 0.28f), dark);
+                m.Box(new Vector3(0f, 0.26f, 0.27f), new Vector3(0.04f, 0.04f, 0.46f), track);
+                m.Box(new Vector3(0f, 0.26f, 0.5f), new Vector3(0.07f, 0.06f, 0.06f), steel);
+                m.Box(new Vector3(0.07f, 0.31f, -0.1f), new Vector3(0.06f, 0.04f, 0.06f), steel);
+                break;
+            case 2:
+                // Heavy: wide tracks, a broad angled turret with two guns and a radio mast.
+                m.Box(new Vector3(-0.22f, 0.08f, 0f), new Vector3(0.14f, 0.16f, 0.72f), track);
+                m.Box(new Vector3(0.22f, 0.08f, 0f), new Vector3(0.14f, 0.16f, 0.72f), track);
+                m.Box(new Vector3(0f, 0.18f, 0f), new Vector3(0.40f, 0.14f, 0.66f), team);
+                m.Box(new Vector3(0f, 0.18f, 0.33f), new Vector3(0.40f, 0.04f, 0.04f), Glow(team, 0.6f));
+                m.Frustum(new Vector3(0f, 0.25f, -0.05f), 0.19f, 0.14f, 0.12f, 6, dark);
+                m.Box(new Vector3(-0.05f, 0.31f, 0.3f), new Vector3(0.035f, 0.035f, 0.5f), track);
+                m.Box(new Vector3(0.05f, 0.31f, 0.3f), new Vector3(0.035f, 0.035f, 0.5f), track);
+                m.Box(new Vector3(-0.1f, 0.45f, -0.18f), new Vector3(0.012f, 0.28f, 0.012f), steel);
+                m.Box(new Vector3(-0.1f, 0.6f, -0.18f), new Vector3(0.03f, 0.03f, 0.03f), Glow(team, 0.9f));
+                break;
+            default:
+                // Missile tank: heavy hull carrying a raised launcher with four glowing missile tips.
+                m.Box(new Vector3(-0.22f, 0.08f, 0f), new Vector3(0.14f, 0.16f, 0.76f), track);
+                m.Box(new Vector3(0.22f, 0.08f, 0f), new Vector3(0.14f, 0.16f, 0.76f), track);
+                m.Box(new Vector3(0f, 0.18f, 0f), new Vector3(0.42f, 0.14f, 0.7f), team);
+                m.Box(new Vector3(0f, 0.28f, 0.22f), new Vector3(0.3f, 0.08f, 0.2f), dark);
+                m.Box(new Vector3(0f, 0.36f, -0.12f), new Vector3(0.34f, 0.18f, 0.44f), dark);
+                for (int i = 0; i < 4; i++)
+                {
+                    float x = -0.12f + 0.08f * i;
+                    m.Box(new Vector3(x, 0.4f, -0.12f), new Vector3(0.05f, 0.05f, 0.46f), steel);
+                    m.Box(new Vector3(x, 0.4f, 0.13f), new Vector3(0.04f, 0.04f, 0.04f), Glow(new Color(1f, 0.35f, 0.15f), 0.9f));
+                }
+                break;
+        }
+
         return m.ToMesh("Tank");
+    }
+
+    // Four marks of warship along +z: patrol boat, destroyer, battleship, missile cruiser.
+    public static Mesh Ship(Color team, int mark = 0)
+    {
+        Color hull = new Color(0.30f, 0.32f, 0.36f);
+        Color deck = new Color(0.55f, 0.57f, 0.6f);
+        Color dark = new Color(0.16f, 0.17f, 0.19f);
+        Color white = new Color(0.86f, 0.87f, 0.9f);
+        float scale = 0.8f + 0.12f * Mathf.Clamp(mark, 0, 3);
+        float half = 0.5f * scale;
+        var m = new ProcMesh();
+        // Hull: a long body tapering in steps to the bow, with a team-colored stripe at the waterline.
+        m.Box(new Vector3(0f, 0.05f, -0.08f * scale), new Vector3(0.24f, 0.1f, 0.8f * scale), hull);
+        m.Box(new Vector3(0f, 0.05f, 0.4f * scale), new Vector3(0.16f, 0.1f, 0.18f * scale), hull);
+        m.Box(new Vector3(0f, 0.05f, 0.53f * scale), new Vector3(0.08f, 0.1f, 0.1f * scale), hull);
+        m.Box(new Vector3(0f, 0.012f, 0f), new Vector3(0.25f, 0.025f, 0.98f * scale), Glow(team, 0.45f));
+        m.Box(new Vector3(0f, 0.105f, -0.02f * scale), new Vector3(0.22f, 0.012f, 0.92f * scale), deck);
+        // Bridge and funnel amidships.
+        m.Box(new Vector3(0f, 0.16f, -0.05f * scale), new Vector3(0.14f, 0.1f, 0.2f * scale), white);
+        m.Box(new Vector3(0f, 0.23f, -0.02f * scale), new Vector3(0.1f, 0.05f, 0.1f * scale), white);
+        m.Frustum(new Vector3(0f, 0.11f, -0.22f * scale), 0.045f, 0.035f, 0.17f, 8, dark);
+
+        void Turret(float z, float facing)
+        {
+            m.Frustum(new Vector3(0f, 0.11f, z), 0.06f, 0.05f, 0.05f, 8, deck);
+            m.Box(new Vector3(-0.02f, 0.14f, z + facing * 0.09f), new Vector3(0.018f, 0.018f, 0.16f), dark);
+            m.Box(new Vector3(0.02f, 0.14f, z + facing * 0.09f), new Vector3(0.018f, 0.018f, 0.16f), dark);
+        }
+
+        Turret(half * 0.55f, 1f);
+        if (mark >= 1)
+            Turret(-half * 0.65f, -1f);
+        if (mark >= 2)
+        {
+            Turret(half * 0.32f, 1f);
+            m.Box(new Vector3(0f, 0.33f, -0.04f * scale), new Vector3(0.012f, 0.16f, 0.012f), dark);
+            m.Box(new Vector3(0f, 0.4f, -0.04f * scale), new Vector3(0.1f, 0.012f, 0.012f), dark);
+        }
+        if (mark >= 3)
+        {
+            // Missile cells behind the bridge, with glowing tips.
+            for (int i = 0; i < 4; i++)
+            {
+                m.Box(new Vector3(-0.045f + 0.03f * i, 0.135f, -0.36f * scale), new Vector3(0.022f, 0.05f, 0.06f), dark);
+                m.Box(new Vector3(-0.045f + 0.03f * i, 0.165f, -0.36f * scale), new Vector3(0.02f, 0.012f, 0.02f), Glow(new Color(1f, 0.35f, 0.15f), 0.9f));
+            }
+        }
+
+        return m.ToMesh("Ship");
     }
 
     public static Mesh Rocket(Color team)
@@ -123,14 +219,64 @@ public class ProcMesh
         return m.ToMesh("Rocket");
     }
 
-    public static Mesh Satellite(Color team)
+    // Three marks of satellite: a probe with two solar wings, a larger one with double wings and a big dish,
+    // and a station of stacked modules with four wings.
+    public static Mesh Satellite(Color team, int mark = 0)
     {
-        Color panel = new Color(0.10f, 0.22f, 0.45f);
+        Color cell = new Color(0.09f, 0.2f, 0.48f);
+        Color gold = new Color(0.86f, 0.7f, 0.3f);
+        Color white = new Color(0.88f, 0.89f, 0.92f);
+        Color strut = new Color(0.55f, 0.57f, 0.6f);
         var m = new ProcMesh();
-        m.Box(Vector3.zero, new Vector3(0.12f, 0.12f, 0.12f), new Color(0.85f, 0.82f, 0.60f));
-        m.Box(new Vector3(0.21f, 0f, 0f), new Vector3(0.28f, 0.015f, 0.12f), panel);
-        m.Box(new Vector3(-0.21f, 0f, 0f), new Vector3(0.28f, 0.015f, 0.12f), panel);
-        m.Box(new Vector3(0f, 0.09f, 0f), new Vector3(0.05f, 0.05f, 0.05f), Glow(team, 0.8f));
+
+        // A wing of solar cells along +x or -x (or +z/-z when alongZ), with thin gaps between the cells.
+        void Wing(float dir, bool alongZ, int cells, float y, float width)
+        {
+            float start = 0.12f, size = 0.085f, gap = 0.012f;
+            Vector3 axis = alongZ ? new Vector3(0f, 0f, dir) : new Vector3(dir, 0f, 0f);
+            Vector3 across = alongZ ? new Vector3(width, 0.012f, size) : new Vector3(size, 0.012f, width);
+            m.Box(axis * (start * 0.5f) + Vector3.up * y, alongZ ? new Vector3(0.015f, 0.015f, start) : new Vector3(start, 0.015f, 0.015f), strut);
+            for (int i = 0; i < cells; i++)
+                m.Box(axis * (start + size * 0.5f + i * (size + gap)) + Vector3.up * y, across, cell);
+        }
+
+        if (mark <= 0)
+        {
+            m.Frustum(new Vector3(0f, -0.08f, 0f), 0.065f, 0.065f, 0.16f, 10, gold);
+            Wing(1f, false, 3, 0f, 0.11f);
+            Wing(-1f, false, 3, 0f, 0.11f);
+            m.Frustum(new Vector3(0f, 0.08f, 0f), 0.015f, 0.07f, 0.04f, 12, white);
+            m.Box(new Vector3(0f, 0.15f, 0f), new Vector3(0.008f, 0.06f, 0.008f), strut);
+            m.Box(new Vector3(0f, 0.185f, 0f), new Vector3(0.025f, 0.025f, 0.025f), Glow(team, 0.9f));
+        }
+        else if (mark == 1)
+        {
+            m.Frustum(new Vector3(0f, -0.11f, 0f), 0.08f, 0.08f, 0.22f, 12, gold);
+            m.Frustum(new Vector3(0f, -0.13f, 0f), 0.06f, 0.08f, 0.02f, 12, white);
+            foreach (float dir in new[] { -1f, 1f })
+            {
+                Wing(dir, false, 4, 0.035f, 0.1f);
+                Wing(dir, false, 4, -0.035f, 0.1f);
+            }
+            m.Frustum(new Vector3(0f, 0.11f, 0f), 0.02f, 0.11f, 0.06f, 14, white);
+            m.Box(new Vector3(0f, 0.2f, 0f), new Vector3(0.01f, 0.08f, 0.01f), strut);
+            m.Box(new Vector3(0f, 0.245f, 0f), new Vector3(0.03f, 0.03f, 0.03f), Glow(team, 0.9f));
+        }
+        else
+        {
+            m.Frustum(new Vector3(0f, -0.2f, 0f), 0.07f, 0.07f, 0.14f, 12, white);
+            m.Frustum(new Vector3(0f, -0.06f, 0f), 0.1f, 0.1f, 0.1f, 12, gold);
+            m.Frustum(new Vector3(0f, 0.04f, 0f), 0.07f, 0.07f, 0.14f, 12, white);
+            m.Frustum(new Vector3(0f, -0.02f, 0f), 0.13f, 0.13f, 0.02f, 16, Glow(team, 0.6f));
+            foreach (float dir in new[] { -1f, 1f })
+            {
+                Wing(dir, false, 4, -0.01f, 0.12f);
+                Wing(dir, true, 3, 0.1f, 0.1f);
+            }
+            m.Frustum(new Vector3(0f, 0.18f, 0f), 0.02f, 0.12f, 0.06f, 14, white);
+            m.Box(new Vector3(0f, 0.27f, 0f), new Vector3(0.03f, 0.03f, 0.03f), Glow(team, 0.9f));
+        }
+
         return m.ToMesh("Satellite");
     }
 
@@ -159,6 +305,20 @@ public class ProcMesh
         return m.ToMesh("Tower");
     }
 
+    // A futuristic tower for the far end of the power scale: a tapering spire with glowing bands and a bright tip.
+    public static Mesh Spire(Color team)
+    {
+        Color body = Color.Lerp(team, Color.white, 0.35f);
+        Color glow = Glow(Color.Lerp(team, new Color(0.6f, 1f, 1f), 0.5f), 0.95f);
+        var m = new ProcMesh();
+        m.Frustum(Vector3.zero, 0.42f, 0.3f, 1.2f, 6, body, false);
+        m.Frustum(new Vector3(0f, 1.2f, 0f), 0.34f, 0.34f, 0.08f, 6, glow, false);
+        m.Frustum(new Vector3(0f, 1.28f, 0f), 0.3f, 0.16f, 1.3f, 6, body, false);
+        m.Frustum(new Vector3(0f, 2.58f, 0f), 0.2f, 0.2f, 0.07f, 6, glow, false);
+        m.Frustum(new Vector3(0f, 2.65f, 0f), 0.16f, 0.02f, 0.8f, 6, glow);
+        return m.ToMesh("Spire");
+    }
+
     public static Mesh Platform()
     {
         Color steel = new Color(0.16f, 0.18f, 0.22f);
@@ -172,6 +332,25 @@ public class ProcMesh
         m.Frustum(new Vector3(0f, -0.2f, 0f), 1f, 1f, 0.28f, 6, rim, false);
         m.Frustum(new Vector3(0f, 0.08f, 0f), 1f, 0.88f, 0.1f, 6, face);
         return m.ToMesh("Token");
+    }
+
+    // The same hex token, lengthened sideways: its left and right points move outward by `stretch`, so the bevels and
+    // proportions of the edges stay exactly as they are instead of being squashed.
+    public static Mesh WideToken(Color rim, Color face, float stretch)
+    {
+        Mesh mesh = Token(rim, face);
+        Vector3[] vertices = mesh.vertices;
+        for (int i = 0; i < vertices.Length; i++)
+        {
+            if (vertices[i].x > 0.01f)
+                vertices[i].x += stretch;
+            else if (vertices[i].x < -0.01f)
+                vertices[i].x -= stretch;
+        }
+        mesh.vertices = vertices;
+        mesh.RecalculateBounds();
+        mesh.name = "WideToken";
+        return mesh;
     }
 
     public static Mesh Glyph(string kind, Color color)
@@ -248,6 +427,30 @@ public class ProcMesh
         m.Box(new Vector3(0f, 0.25f, 0f), new Vector3(0.02f, 0.5f, 0.02f), pole);
         m.Box(new Vector3(0.09f, 0.42f, 0f), new Vector3(0.17f, 0.11f, 0.012f), Glow(team, 0.3f));
         return m.ToMesh("Flag");
+    }
+
+    // A long banner hanging from a gold rod, with a gold star and hem. It hangs down from the origin and faces +z.
+    public static Mesh Banner(Color team)
+    {
+        Color gold = new Color(0.95f, 0.74f, 0.24f);
+        var m = new ProcMesh();
+        m.Box(new Vector3(0f, 0f, 0.03f), new Vector3(0.22f, 0.03f, 0.03f), gold);
+        m.Box(new Vector3(0f, -0.47f, 0.02f), new Vector3(0.17f, 0.92f, 0.014f), Glow(team, 0.3f));
+        m.Box(new Vector3(0f, -0.915f, 0.03f), new Vector3(0.17f, 0.03f, 0.006f), gold);
+        var center = new Vector3(0f, -0.2f, 0.029f);
+        for (int k = 0; k < 5; k++)
+        {
+            float outer = (90f + 72f * k) * Mathf.Deg2Rad;
+            float before = outer - 36f * Mathf.Deg2Rad;
+            float after = outer + 36f * Mathf.Deg2Rad;
+            Vector3 tip = center + new Vector3(Mathf.Cos(outer), Mathf.Sin(outer), 0f) * 0.06f;
+            Vector3 a = center + new Vector3(Mathf.Cos(before), Mathf.Sin(before), 0f) * 0.024f;
+            Vector3 b = center + new Vector3(Mathf.Cos(after), Mathf.Sin(after), 0f) * 0.024f;
+            m.Tri(center, a, tip, gold).Tri(center, tip, a, gold);
+            m.Tri(center, tip, b, gold).Tri(center, b, tip, gold);
+        }
+
+        return m.ToMesh("Banner");
     }
 
     public static Mesh Ring(Color color, float radius, float width, int sides = 28)

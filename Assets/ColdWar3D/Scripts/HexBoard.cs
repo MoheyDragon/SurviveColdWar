@@ -265,7 +265,7 @@ public class HexBoard : MonoBehaviour
 
     void Update()
     {
-        float step = Time.unscaledDeltaTime / FlipSeconds;
+        float step = WarTable.WorldDelta / FlipSeconds;
         for (int n = animating.Count - 1; n >= 0; n--)
         {
             int i = animating[n];

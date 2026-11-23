@@ -22,7 +22,7 @@ public class NukeMeterUpdater : MonoBehaviour
     void Update()
     {
         // The tutorial has no lose menu, so reaching 100 there must not end the game.
-        if (nukeDanger > 99.99f&&!CountryManager.LoseLock&&!countryManager.IsTutorial)
+        if (nukeDanger > 99.99f&&!CountryManager.LoseLock&&!countryManager.IsTutorial&&!GameTuning.NoLose)
         {
             Time.timeScale = 0;
             fill.fillAmount = 1;

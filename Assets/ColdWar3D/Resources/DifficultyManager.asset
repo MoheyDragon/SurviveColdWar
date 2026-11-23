@@ -45,18 +45,21 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  crisisMonths: 12
-  crisisRatioFactor: 0.7
+  crisisMonths: 6
+  crisisRatioFactor: 0.8
   minimumRatio: 1.5
-  driftStart: 0.01
-  driftEnd: 0.04
+  driftStart: 0.005
+  driftEnd: 0.02
   chaosChanceStart: 0.01
   chaosChanceEnd: 0.2
-  crashLoss: {x: 20, y: 50}
-  armsRaceSwing: {x: 10, y: 35}
-  spiesLost: {x: 30, y: 40}
-  factoriesLost: {x: 20, y: 45}
-  warsLost: {x: 10, y: 40}
+  crashLoss: {x: 20, y: 35}
+  armsRaceSwing: {x: 5, y: 10}
+  spiesLost: {x: 10, y: 20}
+  factoriesLost: {x: 20, y: 35}
+  warsLost: {x: 10, y: 35}
+  warnBigEvents: 1
+  catchUpAboveDanger: 50
+  catchUpDiscount: 0.3
   presidentPowerPercent: {x: 0.5, y: 5}
   presidentMoneyPercent: {x: 0.2, y: 3}
   presidentHappiness: {x: -20, y: 20}
@@ -64,23 +67,23 @@ MonoBehaviour:
   unpopularBelow: 20
   unhappyMonthsBeforeUprising: 12
   uprisingChance: 0.08
-  vacancyMonths: {x: 6, y: 24}
+  vacancyMonths: {x: 6, y: 16}
   newLeaderHappiness: 40
-  warGain: 1
+  warGain: 0.5
   spyGain: 3
-  factoryGain: 0.3
-  researchGain: 25
+  factoryGain: 0.2
+  researchGain: 35
   agendaResearchShare: 0.5
-  warCost: 3
-  spyCost: 5
+  warCost: 4
+  spyCost: 10
   factoryCost: 2
-  researchCost: 10
+  researchCost: 25
   assassinCost: 0
   warCostPerUse: 0.1
   spyCostPerUse: 0.5
   factoryCostPerUse: 0.1
   researchCostPerUse: 0.2
-  risingMoneyCosts: 0
-  moneyCostBy1991: 4
+  risingPowerCosts: 1
+  powerCostBy1991: 4
   useOpportunities: 1
   actionsPerMonth: {x: 3, y: 4}

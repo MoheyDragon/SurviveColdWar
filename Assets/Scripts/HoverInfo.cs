@@ -124,7 +124,17 @@ public class HoverInfo : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         //            button.interactable = false;
     }
     static DifficultyManager Tuning => DifficultyManager.Current;
-    bool UsesPercent => manager != null && !manager.IsTutorial;
+    // The manager is found in Start, but a button that has never been shown hasn't run Start yet (presidents' agendas
+    // and the Test Panel use these buttons too), so it is looked up here as well.
+    bool UsesPercent
+    {
+        get
+        {
+            if (manager == null)
+                manager = CountryManager.instance;
+            return manager != null && !manager.IsTutorial;
+        }
+    }
 
     // Main game: a percentage of the side's own power, growing with each earlier use. Tutorial: the original amounts.
     public double PowerCost(Party party)
@@ -139,7 +149,12 @@ public class HoverInfo : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
             else if (name == "Research") { percent = d.researchCost; perUse = d.researchCostPerUse; uses = party.researchLevel; }
             else if (name == "Spy") { percent = d.spyCost; perUse = d.spyCostPerUse; uses = party.SpiesLevel; }
             else if (name == "Assassin") percent = d.assassinCost;
-            return Math.Round(party.Power * percent / 100.0 * (1.0 + perUse * Math.Max(0, uses)));
+            double era = d.risingPowerCosts ? Mathf.Lerp(1f, d.powerCostBy1991, d.Era) : 1.0;
+            double cost = party.Power * percent / 100.0 * (1.0 + perUse * Math.Max(0, uses)) * era;
+            // Quietly helps the side that is falling behind once war gets close, so a bad stretch can be recovered.
+            if (NukeMeterUpdater.nukeDanger > d.catchUpAboveDanger && CountryManager.instance.IsWeaker(party))
+                cost *= 1.0 - d.catchUpDiscount;
+            return Math.Round(cost);
         }
         return FixedPowerCost(party);
     }
@@ -157,13 +172,10 @@ public class HoverInfo : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
             return cost + cost * party.SpiesLevel;
         return cost;
     }
-    // Money costs stay fixed amounts. In the main game they can also rise over the decades.
+    // Money costs are fixed amounts.
     public float MoneyCost(Party party)
     {
-        float cost = FixedMoneyCost(party);
-        if (UsesPercent && Tuning.risingMoneyCosts)
-            cost *= Mathf.Lerp(1f, Tuning.moneyCostBy1991, Tuning.Era);
-        return cost;
+        return FixedMoneyCost(party);
     }
 
     float FixedMoneyCost(Party party)
@@ -266,16 +278,7 @@ public class HoverInfo : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     }
     public string MoneyTranslate(float mon)
     {
-        if (mon >= 1000000000000000)
-            return (Mathf.Round(mon * 10 / 1000000000000000) / 10).ToString() + " Q";
-        else if (mon >= 1000000000000)
-            return (Mathf.Round(mon * 10 / 1000000000000) / 10).ToString() + " T";
-        else if (mon >= 1000000000)
-            return (Mathf.Round(mon * 10 / 1000000000) / 10).ToString() + " B";
-        else if (mon >= 1000000)
-            return (Mathf.Round(mon * 10 / 1000000) / 10).ToString() + " M";
-        else
-            return (Mathf.Round(mon * 10 / 1000) / 10).ToString() + " K";
+        return CountryManager.instance.MoneyTranslate(mon);
     }
     bool quotePlaying;
     static float voiceLineEnds;

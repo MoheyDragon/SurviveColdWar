@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: d5c2f4ddc2835f342834e9e34f1da527
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 397790
+  packageName: Free Military Vehicle Pack
+  packageVersion: 1.0
+  assetPath: Assets/Dorschizo/Free Military Vehicles/Shader/Free Military Vehicles_Shader.shadergraph
+  uploadId: 966616

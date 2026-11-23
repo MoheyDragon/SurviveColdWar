@@ -6,18 +6,29 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 
-// A developer menu for tuning difficulty from inside the game, sized for a phone. It adds a "Difficulty" button to the
-// main menu that lists every value in the Difficulty Manager, each with a slider and a built-in numpad (the phone's own
-// keyboard never opens). Undo and Redo step through changes. Not meant for players: delete this one file to remove it.
+// The in-game difficulty settings, sized for a phone. It adds a "Difficulty" button to the main menu's button list that
+// opens every value in the Difficulty Manager, each with a slider and a built-in numpad (the phone's own keyboard never
+// opens). Undo and Redo step through changes. The button unlocks once the player has survived the Cold War (the same
+// rule as Endless mode); tapping the locked button 7 times quickly unlocks it on that device for good.
 // In the Editor it edits the Difficulty Manager asset directly. In a build, "Save" keeps the values on that device.
+// Everything lives in this one file: delete it to remove the feature completely.
 public class DifficultyMenu : MonoBehaviour
 {
     const string SaveKey = "DifficultyMenu.Saved";
+    // The settings this build shipped with, when the phone's values were saved. A new build with different
+    // settings replaces what was saved on the phone, so updates always bring their new values.
+    const string BaseKey = "DifficultyMenu.SavedOver";
+    static string buildBaseline;
     // Smaller design height = bigger controls on screen.
     const float DesignHeight = 420f;
     const float RowHeight = 46f;
     const float LabelWidth = 250f;
     const float ValueWidth = 110f;
+    const string UnlockKey = "DifficultyMenu.Unlocked";
+    const int SecretTaps = 7;
+    static readonly Color Gold = new Color(0.95f, 0.72f, 0.22f);
+    static readonly Color Panel = new Color(0.07f, 0.09f, 0.14f, 0.98f);
+    static readonly Color Row = new Color(0.12f, 0.15f, 0.22f, 1f);
 
     // One editable number on screen.
     class Entry
@@ -32,6 +43,7 @@ public class DifficultyMenu : MonoBehaviour
         public Action<bool> setFlag;
         public Action remove;
         public bool addPoint;
+        public string tip;
     }
 
     bool open;
@@ -53,16 +65,126 @@ public class DifficultyMenu : MonoBehaviour
     Entry editing;
     string typed = "";
 
-    GUIStyle label, header, title, value, button, bigButton, slider, thumb, padText;
+    GUIStyle label, tipStyle, header, title, value, button, bigButton, slider, thumb, padText, toastStyle;
+
+    // The main menu button and its locked state.
+    UnityEngine.UI.Button menuButton;
+    UnityEngine.UI.Text[] menuTexts;
+    int taps;
+    float tapWindowEnds;
+    string toast;
+    float toastEnds;
+
+    static bool Unlocked => PlayerPrefs.GetInt("EndlessMode", 0) == 1 || PlayerPrefs.GetInt(UnlockKey, 0) == 1;
+
+    void Start()
+    {
+        BuildMenuButton();
+    }
+
+    // A copy of the Credits button, placed just above Exit, so it looks like every other menu button.
+    void BuildMenuButton()
+    {
+        var manager = FindFirstObjectByType<MainMenuManager>(FindObjectsInactive.Include);
+        Transform buttons = manager != null ? manager.transform.Find("Buttons") : null;
+        Transform credits = buttons != null ? buttons.Find("Credits") : null;
+        if (credits == null)
+            return;
+
+        GameObject copy = Instantiate(credits.gameObject, buttons);
+        copy.name = "Difficulty";
+        Transform exit = buttons.Find("Exit");
+        if (exit != null)
+            copy.transform.SetSiblingIndex(exit.GetSiblingIndex());
+
+        menuButton = copy.GetComponent<UnityEngine.UI.Button>();
+        menuButton.onClick = new UnityEngine.UI.Button.ButtonClickedEvent();
+        menuButton.onClick.AddListener(OnMenuButton);
+        menuTexts = copy.GetComponentsInChildren<UnityEngine.UI.Text>(true);
+        foreach (UnityEngine.UI.Text text in menuTexts)
+        {
+            bool arabic = text.name == "Arabic";
+            text.text = arabic ? "الصعوبة" : "Difficulty";
+            var fixer = text.GetComponent<ArabicFixer>();
+            if (fixer != null)
+                fixer.fixedText = text.text;
+        }
+
+        // Six buttons share the space five had.
+        foreach (Transform child in buttons)
+        {
+            var rect = child as RectTransform;
+            if (rect != null)
+                rect.sizeDelta = new Vector2(rect.sizeDelta.x, rect.sizeDelta.y * 5f / 6f);
+        }
+    }
+
+    void Update()
+    {
+        if (menuButton == null)
+            return;
+        // Dimmed while locked; the copy is not part of the language system, so its two labels are switched here.
+        var image = menuButton.GetComponent<UnityEngine.UI.Image>();
+        if (image != null)
+            image.color = Unlocked ? Color.white : new Color(0.5f, 0.5f, 0.55f, 1f);
+        bool arabic = LanguageManager.Singlton != null && LanguageManager.Singlton.GetSelectedLanguag == Language.Arabic;
+        foreach (UnityEngine.UI.Text text in menuTexts)
+        {
+            if (text.name == "Arabic" && text.gameObject.activeSelf != arabic)
+                text.gameObject.SetActive(arabic);
+            else if (text.name == "English" && text.gameObject.activeSelf == arabic)
+                text.gameObject.SetActive(!arabic);
+        }
+    }
+
+    void OnMenuButton()
+    {
+        if (Unlocked)
+        {
+            Open();
+            return;
+        }
+
+        // Locked: a hint for players, and a hidden unlock for the developer (7 quick taps).
+        if (Time.unscaledTime > tapWindowEnds)
+            taps = 0;
+        taps++;
+        tapWindowEnds = Time.unscaledTime + 3f;
+        if (taps >= SecretTaps)
+        {
+            PlayerPrefs.SetInt(UnlockKey, 1);
+            PlayerPrefs.Save();
+            ShowToast("Difficulty settings unlocked", "تم فتح إعدادات الصعوبة");
+            return;
+        }
+        ShowToast("Survive the Cold War to unlock", "انجُ من الحرب الباردة لفتحها");
+    }
+
+    void ShowToast(string english, string arabic)
+    {
+        bool isArabic = LanguageManager.Singlton != null && LanguageManager.Singlton.GetSelectedLanguag == Language.Arabic;
+        toast = isArabic ? ArabicSupport.Fix(arabic, false, false) : english;
+        toastEnds = Time.unscaledTime + 2.5f;
+    }
 
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
     static void Install()
     {
+        buildBaseline = JsonUtility.ToJson(DifficultyManager.Current);
 #if !UNITY_EDITOR
-        // Builds start from the values saved on this device, if any.
+        // Builds start from the values saved on this device, unless this build ships different settings.
         string saved = PlayerPrefs.GetString(SaveKey, "");
         if (!string.IsNullOrEmpty(saved))
-            JsonUtility.FromJsonOverwrite(saved, DifficultyManager.Current);
+        {
+            if (PlayerPrefs.GetString(BaseKey, "") == buildBaseline)
+                JsonUtility.FromJsonOverwrite(saved, DifficultyManager.Current);
+            else
+            {
+                PlayerPrefs.DeleteKey(SaveKey);
+                PlayerPrefs.DeleteKey(BaseKey);
+                PlayerPrefs.Save();
+            }
+        }
 #endif
         SceneManager.sceneLoaded += (scene, mode) => SpawnInMenu();
         SpawnInMenu();
@@ -113,7 +235,11 @@ public class DifficultyMenu : MonoBehaviour
         DifficultyManager d = DifficultyManager.Current;
         foreach (FieldInfo field in typeof(DifficultyManager).GetFields(BindingFlags.Public | BindingFlags.Instance))
         {
+            // The catch-up help stays secret from players: it is tuned in the Inspector only.
+            if (field.Name.StartsWith("catchUp"))
+                continue;
             string head = field.GetCustomAttribute<HeaderAttribute>()?.header;
+            string tip = field.GetCustomAttribute<TooltipAttribute>()?.tooltip;
             var range = field.GetCustomAttribute<RangeAttribute>();
             string name = Nice(field.Name);
             object v = field.GetValue(d);
@@ -143,6 +269,8 @@ public class DifficultyMenu : MonoBehaviour
             }
             if (head != null && entries.Count > before)
                 entries[before].header = head;
+            if (tip != null && entries.Count > before)
+                entries[before].tip = tip;
         }
     }
 
@@ -282,15 +410,37 @@ public class DifficultyMenu : MonoBehaviour
     {
         if (label != null)
             return;
-        label = new GUIStyle(GUI.skin.label) { fontSize = 17, alignment = TextAnchor.MiddleLeft, wordWrap = true };
-        header = new GUIStyle(label) { fontSize = 19, fontStyle = FontStyle.Bold, normal = { textColor = new Color(0.95f, 0.75f, 0.3f) } };
-        title = new GUIStyle(label) { fontSize = 24, fontStyle = FontStyle.Bold };
-        button = new GUIStyle(GUI.skin.button) { fontSize = 18 };
-        bigButton = new GUIStyle(GUI.skin.button) { fontSize = 26, fontStyle = FontStyle.Bold };
-        value = new GUIStyle(GUI.skin.button) { fontSize = 19, fontStyle = FontStyle.Bold };
-        slider = new GUIStyle(GUI.skin.horizontalSlider) { fixedHeight = 22f, margin = new RectOffset(8, 8, 12, 12) };
-        thumb = new GUIStyle(GUI.skin.horizontalSliderThumb) { fixedHeight = 34f, fixedWidth = 34f };
-        padText = new GUIStyle(GUI.skin.box) { fontSize = 30, alignment = TextAnchor.MiddleRight, normal = { textColor = Color.white } };
+        label = new GUIStyle(GUI.skin.label) { fontSize = 17, fontStyle = FontStyle.Bold, alignment = TextAnchor.MiddleLeft, wordWrap = true, normal = { textColor = new Color(0.95f, 0.95f, 0.97f) } };
+        tipStyle = new GUIStyle(label) { fontSize = 12, fontStyle = FontStyle.Normal, alignment = TextAnchor.UpperLeft, normal = { textColor = new Color(0.65f, 0.7f, 0.8f) } };
+        header = new GUIStyle(label) { fontSize = 20, normal = { textColor = Gold } };
+        title = new GUIStyle(label) { fontSize = 26, normal = { textColor = Gold } };
+        button = Filled(18, new Color(0.2f, 0.25f, 0.36f), Color.white);
+        bigButton = Filled(26, new Color(0.2f, 0.25f, 0.36f), Color.white);
+        value = Filled(19, Gold, new Color(0.12f, 0.08f, 0.02f));
+        slider = new GUIStyle(GUI.skin.horizontalSlider) { fixedHeight = 10f, margin = new RectOffset(8, 8, 18, 18), normal = { background = Solid(new Color(0.25f, 0.3f, 0.42f)) } };
+        thumb = new GUIStyle(GUI.skin.horizontalSliderThumb) { fixedHeight = 34f, fixedWidth = 34f, normal = { background = Solid(Gold) }, hover = { background = Solid(Color.Lerp(Gold, Color.white, 0.3f)) }, active = { background = Solid(Color.white) } };
+        padText = new GUIStyle(GUI.skin.box) { fontSize = 30, alignment = TextAnchor.MiddleRight, normal = { textColor = Color.white, background = Solid(new Color(0.04f, 0.05f, 0.08f)) } };
+        toastStyle = new GUIStyle(label) { fontSize = 20, alignment = TextAnchor.MiddleCenter, normal = { textColor = Color.white, background = Solid(new Color(0.08f, 0.1f, 0.16f, 0.95f)) } };
+    }
+
+    static Texture2D Solid(Color color)
+    {
+        var texture = new Texture2D(1, 1) { hideFlags = HideFlags.HideAndDontSave };
+        texture.SetPixel(0, 0, color);
+        texture.Apply();
+        return texture;
+    }
+
+    static GUIStyle Filled(int size, Color fill, Color text)
+    {
+        return new GUIStyle(GUI.skin.button)
+        {
+            fontSize = size,
+            fontStyle = FontStyle.Bold,
+            normal = { background = Solid(fill), textColor = text },
+            hover = { background = Solid(Color.Lerp(fill, Color.white, 0.15f)), textColor = text },
+            active = { background = Solid(Color.Lerp(fill, Color.black, 0.2f)), textColor = text },
+        };
     }
 
     void OnGUI()
@@ -309,8 +459,8 @@ public class DifficultyMenu : MonoBehaviour
 
         if (!open)
         {
-            if (GUI.Button(new Rect(width - 170f, 8f, 160f, 44f), "Difficulty", button))
-                Open();
+            if (toast != null && Time.unscaledTime < toastEnds)
+                GUI.Label(new Rect(width * 0.5f - 230f, DesignHeight - 70f, 460f, 48f), toast, toastStyle);
             return;
         }
 
@@ -320,8 +470,10 @@ public class DifficultyMenu : MonoBehaviour
 
         var area = new Rect(8f, 8f, width - 16f, DesignHeight - 16f);
         Color tint = GUI.color;
-        GUI.color = new Color(0.05f, 0.06f, 0.09f, 0.97f);
+        GUI.color = Panel;
         GUI.DrawTexture(area, Texture2D.whiteTexture);
+        GUI.color = Gold;
+        GUI.DrawTexture(new Rect(area.x, area.y, area.width, 3f), Texture2D.whiteTexture);
         GUI.color = tint;
 
         GUI.enabled = editing == null;
@@ -386,7 +538,11 @@ public class DifficultyMenu : MonoBehaviour
             return;
         }
 
-        GUILayout.Label(entry.label, label, GUILayout.Width(LabelWidth), GUILayout.Height(RowHeight));
+        GUILayout.BeginVertical(GUILayout.Width(LabelWidth));
+        GUILayout.Label(entry.label, label, GUILayout.Width(LabelWidth), GUILayout.MinHeight(entry.tip != null ? 26f : RowHeight));
+        if (entry.tip != null)
+            GUILayout.Label(entry.tip, tipStyle, GUILayout.Width(LabelWidth));
+        GUILayout.EndVertical();
         if (entry.getFlag != null)
         {
             bool on = entry.getFlag();
@@ -520,6 +676,7 @@ public class DifficultyMenu : MonoBehaviour
                 Smooth(curve, curve.keys, true);
         }
         PlayerPrefs.SetString(SaveKey, JsonUtility.ToJson(d));
+        PlayerPrefs.SetString(BaseKey, buildBaseline);
         PlayerPrefs.Save();
 #if UNITY_EDITOR
         UnityEditor.EditorUtility.SetDirty(d);

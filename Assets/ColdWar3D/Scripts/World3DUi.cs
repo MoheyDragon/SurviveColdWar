@@ -9,8 +9,13 @@ using UnityEngine.UI;
 public class World3DUi : MonoBehaviour
 {
     const float Depth = 40f;
-    const float RingRadius = 3.5f;
-    const float RingTokenSize = 1.2f;
+    // The whole heads-up display is drawn this much bigger than its original design, for phone screens.
+    const float UiScale = 1.2f;
+    const float RingRadius = 3.5f * UiScale;
+    const float RingTokenSize = 1.2f * UiScale;
+    // The speed-up button is larger again and lengthened sideways, so it is easy to hit.
+    const float SpeedScale = 1.2f;
+    const float SpeedStretch = 0.9f;
     const int SlotCount = 3;
     static readonly Quaternion FaceCamera = Quaternion.Euler(-78f, 0f, 0f);
     static readonly Color Slate = new Color(0.10f, 0.12f, 0.17f);
@@ -47,6 +52,7 @@ public class World3DUi : MonoBehaviour
         public Plaque people;
         public Slot[] slots;
         public Transform queue;
+        public Plaque queueShake;
         public Plaque term;
         public Transform termFill;
         public MeshRenderer termRenderer;
@@ -75,6 +81,8 @@ public class World3DUi : MonoBehaviour
         public MeshRenderer iconRenderer;
         public MeshRenderer body;
         public Sprite shown;
+        // How much room the button takes along the bottom bar.
+        public float width = 2.1f;
     }
 
     class CandidateCard
@@ -445,6 +453,7 @@ public class World3DUi : MonoBehaviour
         label.fontSizeMin = 1.5f;
         label.fontSizeMax = height * 4.6f;
         label.rectTransform.sizeDelta = new Vector2(textWidth, height);
+        root.localScale = Vector3.one * UiScale;
         return new Plaque { root = root, label = label };
     }
 
@@ -472,6 +481,8 @@ public class World3DUi : MonoBehaviour
         hud.people = BuildPlaque("Happiness", null, 2.5f, 1.05f, rim, party.PeoplSatsfactionUI.transform.parent.GetComponent<Image>().sprite);
 
         hud.queue = AddRigObject("Queue");
+        hud.queue.localScale = Vector3.one * UiScale;
+        hud.queueShake = new Plaque { root = hud.queue };
         for (int i = 0; i < SlotCount; i++)
             hud.slots[i] = BuildSlot(hud.queue, i, rim);
 
@@ -555,8 +566,18 @@ public class World3DUi : MonoBehaviour
         }
 
         Token3D token = BuildToken(targetName, null, SlateRim, Slate, target.gameObject, out MeshRenderer body);
-        var entry = new DeckToken { token = token, body = body };
-        if (glyph != null)
+        var entry = new DeckToken { token = token, body = body, width = 2.1f * UiScale };
+        token.restScale = Vector3.one * UiScale;
+        if (glyph == "speed")
+        {
+            // A wide speed-up button: the lengthened hex body, a bigger symbol and a wider hit area.
+            body.GetComponent<MeshFilter>().sharedMesh = ProcMesh.WideToken(SlateRim, Slate, SpeedStretch);
+            token.GetComponent<BoxCollider>().size = new Vector3(2f + SpeedStretch * 2f, 0.4f, 1.9f);
+            token.restScale = Vector3.one * (UiScale * SpeedScale);
+            entry.width = (2.1f + SpeedStretch * 2f) * UiScale * SpeedScale;
+            AddMesh("Glyph", ProcMesh.Glyph(glyph, color), token.transform).transform.localScale = Vector3.one * 1.25f;
+        }
+        else if (glyph != null)
         {
             AddMesh("Glyph", ProcMesh.Glyph(glyph, color), token.transform);
         }
@@ -614,8 +635,16 @@ public class World3DUi : MonoBehaviour
         bool switching = ringParty != CountryManager.SelectedParty;
         ringOpen = Mathf.MoveTowards(ringOpen, open && !switching ? 1f : 0f, Time.unscaledDeltaTime * 7f);
         bool isRed = ringParty == country.Communism;
-        Vector3 center = ViewportToRig(cam.WorldToViewportPoint(table.CapitalTop(isRed)));
-        float margin = RingRadius + RingTokenSize + 0.2f;
+        // The ring circles the middle of the capitol and is wide enough to leave its upper half clear.
+        Bounds capitol = table.CapitolBounds(isRed);
+        Vector3 center = ViewportToRig(cam.WorldToViewportPoint(capitol.center + Vector3.up * capitol.extents.y * 0.1f));
+        Vector3 top = ViewportToRig(cam.WorldToViewportPoint(new Vector3(capitol.center.x, capitol.max.y, capitol.center.z)));
+        Vector3 side = ViewportToRig(cam.WorldToViewportPoint(capitol.center + cam.transform.right * Mathf.Max(capitol.extents.x, capitol.extents.z)));
+        float towerHalfWidth = Mathf.Abs(side.x - center.x);
+        // Close around the tower: the upper pair sits just clear of its sides, level with its upper half.
+        float towerHalfHeight = Mathf.Abs(top.y - center.y);
+        float radius = Mathf.Clamp((towerHalfWidth + RingTokenSize * 0.6f) / 0.7071f, RingRadius * 0.75f, Mathf.Max(RingRadius * 0.75f, towerHalfHeight));
+        float margin = radius + RingTokenSize + 0.2f;
         center.x = Mathf.Clamp(center.x, -HalfWidth + margin, HalfWidth - margin);
         center.y = Mathf.Clamp(center.y, -HalfHeight + margin, HalfHeight - margin - 1.2f);
 
@@ -638,8 +667,10 @@ public class World3DUi : MonoBehaviour
             if (!show)
                 continue;
 
-            float angle = Mathf.PI * 0.5f - slot++ * Mathf.PI * 2f / Mathf.Max(1, visibleCount);
-            Vector3 offset = new Vector3(Mathf.Cos(angle), Mathf.Sin(angle), 0f) * RingRadius * ringOpen;
+            // Evenly spaced, starting half a step to the side of straight up, so no token sits over the top of the tower.
+            float step = Mathf.PI * 2f / Mathf.Max(1, visibleCount);
+            float angle = Mathf.PI * 0.5f + step * 0.5f + slot++ * step;
+            Vector3 offset = new Vector3(Mathf.Cos(angle), Mathf.Sin(angle), 0f) * radius * ringOpen;
             entry.token.transform.localPosition = center + offset;
             entry.token.restScale = Vector3.one * (RingTokenSize * ringOpen);
 
@@ -1706,7 +1737,7 @@ public class World3DUi : MonoBehaviour
             case Refusal.Money: Shake(hud.money); break;
             case Refusal.People: Shake(hud.people); break;
             case Refusal.PresidentTooNew: Shake(hud.term); break;
-            case Refusal.QueueFull: Shake(hud.term); break;
+            case Refusal.QueueFull: Shake(hud.queueShake); break;
         }
     }
 
@@ -1725,14 +1756,14 @@ public class World3DUi : MonoBehaviour
             plaque.shake -= Time.unscaledDeltaTime;
             if (plaque.shake <= 0f)
             {
-                plaque.root.localScale = Vector3.one;
+                plaque.root.localScale = Vector3.one * UiScale;
                 plaque.root.localRotation = FaceCamera;
                 shaking.RemoveAt(i);
                 continue;
             }
 
             float wave = Mathf.Sin(plaque.shake * 30f);
-            plaque.root.localScale = Vector3.one * (1.25f + wave * 0.1f);
+            plaque.root.localScale = Vector3.one * (UiScale * (1.25f + wave * 0.1f));
             plaque.root.localRotation = FaceCamera * Quaternion.Euler(0f, wave * 7f, 0f);
         }
     }
@@ -1751,26 +1782,33 @@ public class World3DUi : MonoBehaviour
 
     void LayoutHud()
     {
-        float top = HalfHeight - 0.8f;
-        float left = -HalfWidth + 1.45f;
-        float right = HalfWidth - 1.45f;
-        const float step = 2.65f;
+        float top = HalfHeight - 0.8f * UiScale;
+        float left = -HalfWidth + 1.45f * UiScale;
+        float right = HalfWidth - 1.45f * UiScale;
+        const float step = 2.65f * UiScale;
 
         Place(blue, left, step, top);
         Place(red, right - step * 2f, step, top);
 
-        float bottom = -HalfHeight + 1.25f;
-        date.root.localPosition = LocalAt(HalfWidth - 2.1f, bottom);
-        float deckRight = HalfWidth - 4.8f;
-        float deckLeft = -HalfWidth + 1.25f;
-        int rightIndex = 0;
-        int leftIndex = 0;
+        float bottom = -HalfHeight + 1.25f * UiScale;
+        date.root.localPosition = LocalAt(HalfWidth - 2.1f * UiScale, bottom);
+        // Buttons line up from the date leftwards, and from the left edge rightwards, each taking its own width.
+        float rightEdge = HalfWidth - 3.75f * UiScale;
+        float leftEdge = -HalfWidth + 0.2f * UiScale;
         foreach (DeckToken entry in deck)
         {
+            if (!entry.token.gameObject.activeSelf)
+                continue;
             if (entry.spriteSource == null)
-                entry.token.transform.localPosition = LocalAt(deckRight - 2.1f * rightIndex++, bottom);
+            {
+                entry.token.transform.localPosition = LocalAt(rightEdge - entry.width * 0.5f, bottom);
+                rightEdge -= entry.width;
+            }
             else
-                entry.token.transform.localPosition = LocalAt(deckLeft + 2.1f * leftIndex++, bottom);
+            {
+                entry.token.transform.localPosition = LocalAt(leftEdge + entry.width * 0.5f, bottom);
+                leftEdge += entry.width;
+            }
         }
     }
 
@@ -1779,9 +1817,9 @@ public class World3DUi : MonoBehaviour
         hud.power.root.localPosition = LocalAt(x, top);
         hud.money.root.localPosition = LocalAt(x + step, top);
         hud.people.root.localPosition = LocalAt(x + step * 2f, top);
-        hud.queue.localPosition = LocalAt(x - 0.6f, top - 1.35f);
+        hud.queue.localPosition = LocalAt(x - 0.6f * UiScale, top - 1.35f * UiScale);
         // Below the action queue, so the two never overlap.
-        hud.term.root.localPosition = LocalAt(x + 0.75f, top - 2.55f);
+        hud.term.root.localPosition = LocalAt(x + 0.75f * UiScale, top - 2.55f * UiScale);
     }
 
     // ----- Per-frame state -----

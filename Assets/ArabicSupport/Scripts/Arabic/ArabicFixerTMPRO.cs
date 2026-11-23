@@ -98,7 +98,8 @@ public class ArabicFixerTMPRO : MonoBehaviour
                 string[] words = rtlParagraph[lineIndex].Split(' ');
                 System.Array.Reverse(words);
                 tmpTextComponent.text = string.Join(" ", words);
-                Canvas.ForceUpdateCanvases();
+                // Lay the text out now, even if it is hidden, so the line breaks below are never stale.
+                tmpTextComponent.ForceMeshUpdate(true, true);
                 for (int i = 0; i < tmpTextComponent.textInfo.lineCount; i++)
                 {
                     int startIndex = tmpTextComponent.textInfo.lineInfo[i].firstCharacterIndex;

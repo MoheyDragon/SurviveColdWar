@@ -106,10 +106,13 @@ public class GameManager : MonoBehaviour
     public void ShowInfo(bool enabled)
     {
         InfoVisible = enabled;
-        InfoCG.alpha=enabled ? 1 : 0;
+        // With the 3D board running, the 3D action card shows these details, so the old panel stays invisible.
+        // Setting it visible here, even for one frame, made it flash on a long press.
+        bool flat = enabled && !WarTable.IsRunning;
+        InfoCG.alpha = flat ? 1 : 0;
         LanguageManager.Singlton.EnableButton(!enabled);
         InfoCG.interactable = enabled;
-        InfoCG.blocksRaycasts = enabled; 
+        InfoCG.blocksRaycasts = flat;
     }
     public void LandsFill()
     {
@@ -168,6 +171,12 @@ public class GameManager : MonoBehaviour
         if (AccelLock)
             Accelrator();
         MonthEnded.Post(gameObject);
+        // A new month closes any open action wheel and its details card. The tutorial controls the wheel itself.
+        if (!country.IsTutorial && country.ActionMenu.activeSelf)
+        {
+            country.ActionMenu.SetActive(false);
+            ShowInfo(false);
+        }
         if (monthCount > months.Length - 2)
         {
             monthCount = 0;

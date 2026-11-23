@@ -100,12 +100,21 @@ public class ArabicFixer : MonoBehaviour
                 string[] words = rtlParagraph[lineIndex].Split(' ');
                 System.Array.Reverse(words);
                 textComponent.text = string.Join(" ", words);
-                Canvas.ForceUpdateCanvases();
-                for (int i = 0; i < textComponent.cachedTextGenerator.lines.Count; i++)
+                // Lay the line out here rather than trusting the last canvas update: right after the app returns from
+                // the background (or an ad), or while the text is hidden, that update can be stale, and reversing words
+                // with stale line breaks leaves the text flipped.
+                TextGenerator generator = textComponent.cachedTextGenerator;
+                generator.Populate(textComponent.text, textComponent.GetGenerationSettings(rectTransform.rect.size));
+                if (generator.lineCount == 0)
                 {
-                    int startIndex = textComponent.cachedTextGenerator.lines[i].startCharIdx;
-                    int endIndex = (i == textComponent.cachedTextGenerator.lines.Count - 1) ? textComponent.text.Length
-                        : textComponent.cachedTextGenerator.lines[i + 1].startCharIdx;
+                    finalText = finalText + rtlParagraph[lineIndex].Trim() + "\n";
+                    continue;
+                }
+                for (int i = 0; i < generator.lines.Count; i++)
+                {
+                    int startIndex = generator.lines[i].startCharIdx;
+                    int endIndex = (i == generator.lines.Count - 1) ? textComponent.text.Length
+                        : generator.lines[i + 1].startCharIdx;
                     int length = endIndex - startIndex;
 
                     string[] lineWords = textComponent.text.Substring(startIndex, length).Split(' ');

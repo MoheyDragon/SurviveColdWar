@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 public enum Refusal { Power, Money, People, QueueFull, PresidentTooNew }
-public enum ChaosKind { EconomicCrash, ArmsRace, Scandal, SpyCaught, FactoryDisaster, WarLost, Coup, MissileCrisis, Uprising, NewPresident }
+public enum ChaosKind { EconomicCrash, ArmsRace, Scandal, SpyCaught, FactoryDisaster, WarLost, Coup, MissileCrisis, Uprising, NewPresident, Warning }
 
 public class CountryManager : MonoBehaviour
 {
@@ -156,6 +156,7 @@ public class CountryManager : MonoBehaviour
         ActionMenu.SetActive(false);
         CountryInfo.SetActive(false);
         LoseLock = false;
+        PlayerPaused = false;
         CrisisMonthsLeft = 0;
         RollOpportunities();
         Lose.Stop(gameObject);
@@ -199,44 +200,44 @@ public class CountryManager : MonoBehaviour
     {
         double size = Math.Abs(power);
         string sign = power < 0 ? "-" : "";
-        if (size >= 1e15)
-            return sign + (Math.Round(size * 10 / 1e15) / 10).ToString() + " Q";
-        if (size >= 1e12)
-            return sign + (Math.Round(size * 10 / 1e12) / 10).ToString() + " T";
-        if (size >= 1e9)
-            return sign + (Math.Round(size * 10 / 1e9) / 10).ToString() + " B";
-        if (size >= 1e6)
-            return sign + (Math.Round(size * 10 / 1e6) / 10).ToString() + " M";
         if (size >= 1e3)
-            return sign + (Math.Round(size * 10 / 1e3) / 10).ToString() + " K";
+            return sign + Shorten(size);
         return sign + Math.Round(size).ToString();
+    }
+
+    // Number suffixes, each a thousand times the one before: K, M, B, T, Q (quadrillion), then Qi (quintillion),
+    // Sx, Sp, Oc, No, Dc and on up to Vg (10^63), so huge numbers stay short and readable.
+    public static readonly string[] NumberSuffixes =
+        { "K", "M", "B", "T", "Q", "Qi", "Sx", "Sp", "Oc", "No", "Dc", "Ud", "Dd", "Td", "Qad", "Qid", "Sxd", "Spd", "Ocd", "Nod", "Vg" };
+
+    // One decimal and a suffix, for numbers of a thousand or more ("1.4 K", "12.5 Qi").
+    public static string Shorten(double size)
+    {
+        int group = Mathf.Clamp((int)Math.Floor(Math.Log10(Math.Max(size, 1000.0)) / 3), 1, NumberSuffixes.Length);
+        double scaled = Math.Round(size * 10 / Math.Pow(1000, group)) / 10;
+        // Rounding up can reach 1000 of a unit; show it as 1 of the next one instead.
+        if (scaled >= 1000 && group < NumberSuffixes.Length)
+        {
+            group++;
+            scaled = Math.Round(size * 10 / Math.Pow(1000, group)) / 10;
+        }
+        return scaled.ToString() + " " + NumberSuffixes[group - 1];
     }
 
     public string MoneyTranslate(float mon)
     {
-        if (mon >= 1000000000000000)
-            return (Mathf.Round(mon * 10 / 1000000000000000) / 10).ToString() + " Q";
-        else if (mon >= 1000000000000)
-            return (Mathf.Round(mon * 10 / 1000000000000) / 10).ToString() + " T";
-        else if (mon >= 1000000000)
-            return (Mathf.Round(mon * 10 / 1000000000) / 10).ToString() + " B";
-        else if (mon >= 1000000)
-            return (Mathf.Round(mon * 10 / 1000000) / 10).ToString() + " M";
-        else
+        // Money keeps its old style below a million too: thousands, even small ones, read as "K".
+        if (mon < 1000000)
             return (Mathf.Round(mon * 10 / 1000) / 10).ToString() + " K";
+        return Shorten(mon);
     }
     public float ReverseMoneyTranslate(string mon)
     {
-        if (mon.Contains("Q"))
-            return (float.Parse(mon.Substring(0, mon.Length - 2)) * 1000000000000000);
-        else if (mon.Contains("T"))
-            return (float.Parse(mon.Substring(0, mon.Length - 2)) * 1000000000000);
-        else if (mon.Contains("B"))
-            return (float.Parse(mon.Substring(0, mon.Length - 2)) * 1000000000);
-        else if (mon.Contains("M"))
-            return (float.Parse(mon.Substring(0, mon.Length - 2)) * 1000000);
-        else
-            return (float.Parse(mon.Substring(0, mon.Length - 2)) * 1000);
+        int space = mon.LastIndexOf(' ');
+        string number = space > 0 ? mon.Substring(0, space) : mon;
+        string suffix = space > 0 ? mon.Substring(space + 1).Trim() : "";
+        int group = System.Array.IndexOf(NumberSuffixes, suffix) + 1;
+        return (float)(double.Parse(number) * Math.Pow(1000, Math.Max(group, 0)));
     }
     public void MonthInstansaite()
     {
@@ -312,17 +313,40 @@ public class CountryManager : MonoBehaviour
             return;
 
         DifficultyManager d = Tuning;
-        if (UnityEngine.Random.value > Mathf.Lerp(d.chaosChanceStart, d.chaosChanceEnd, d.Era))
-            return;
+        Party party;
+        ChaosKind kind;
+        if (pendingChaos.HasValue)
+        {
+            // A big event announced last month strikes now.
+            kind = pendingChaos.Value;
+            party = pendingParty;
+            pendingChaos = null;
+            if (kind == ChaosKind.Coup && party.Vacant)
+                return;
+        }
+        else
+        {
+            if (UnityEngine.Random.value > Mathf.Lerp(d.chaosChanceStart, d.chaosChanceEnd, d.Era))
+                return;
 
-        // Chaos always makes things worse: it strikes the weaker side, which widens the gap between the two.
-        Party party = WeakerSide();
-        var possible = new List<ChaosKind> { ChaosKind.EconomicCrash, ChaosKind.ArmsRace, ChaosKind.Scandal, ChaosKind.MissileCrisis };
-        if (party.SpiesNumber > 0) possible.Add(ChaosKind.SpyCaught);
-        if (party.FactoriesNumber > 0) possible.Add(ChaosKind.FactoryDisaster);
-        if (party.WarNumber > 0) possible.Add(ChaosKind.WarLost);
-        if (!party.Vacant) possible.Add(ChaosKind.Coup);
-        ChaosKind kind = possible[UnityEngine.Random.Range(0, possible.Count)];
+            // Chaos always makes things worse: it strikes the weaker side, which widens the gap between the two.
+            party = WeakerSide();
+            var possible = new List<ChaosKind> { ChaosKind.EconomicCrash, ChaosKind.ArmsRace, ChaosKind.Scandal, ChaosKind.MissileCrisis };
+            if (party.SpiesNumber > 0) possible.Add(ChaosKind.SpyCaught);
+            if (party.FactoriesNumber > 0) possible.Add(ChaosKind.FactoryDisaster);
+            if (party.WarNumber > 0) possible.Add(ChaosKind.WarLost);
+            if (!party.Vacant) possible.Add(ChaosKind.Coup);
+            kind = possible[UnityEngine.Random.Range(0, possible.Count)];
+
+            // Big events are announced a month ahead, so the player can prepare.
+            if (d.warnBigEvents && (kind == ChaosKind.MissileCrisis || kind == ChaosKind.Coup || kind == ChaosKind.EconomicCrash))
+            {
+                pendingChaos = kind;
+                pendingParty = party;
+                Warn(party, kind);
+                return;
+            }
+        }
 
         string en = SideName(party, false), ar = SideName(party, true);
         switch (kind)
@@ -407,6 +431,32 @@ public class CountryManager : MonoBehaviour
 
     static string SideName(Party party, bool arabic) => party != null && party.name == "Communism" ? (arabic ? "الحمر" : "Red") : (arabic ? "الزرق" : "Blue");
     static string Signed(int value) => (value > 0 ? "+" : "") + value;
+
+    ChaosKind? pendingChaos;
+    Party pendingParty;
+
+    void Warn(Party party, ChaosKind kind)
+    {
+        string en = SideName(party, false), ar = SideName(party, true);
+        switch (kind)
+        {
+            case ChaosKind.MissileCrisis:
+                Announce(null, ChaosKind.Warning, "Warning: tension is rising. A missile crisis is coming next month", "تحذير: التوتر يتصاعد. أزمة صواريخ قادمة الشهر المقبل");
+                break;
+            case ChaosKind.Coup:
+                Announce(party, ChaosKind.Warning, "Warning: " + en + "'s army is restless. A coup is coming next month", "تحذير: جيش " + ar + " مضطرب. انقلاب قادم الشهر المقبل");
+                break;
+            case ChaosKind.EconomicCrash:
+                Announce(party, ChaosKind.Warning, "Warning: " + en + "'s markets are shaking. A crash is coming next month", "تحذير: أسواق " + ar + " تهتز. انهيار اقتصادي قادم الشهر المقبل");
+                break;
+        }
+    }
+
+    public bool IsWeaker(Party party)
+    {
+        Party other = party == Communism ? Capitalism : Communism;
+        return party.Power < other.Power;
+    }
 
     // The side with less power; a coin toss when they are exactly equal.
     Party WeakerSide()
@@ -550,8 +600,7 @@ public class CountryManager : MonoBehaviour
             {
                 Pause.Post(gameObject);
                 InfoNotifaction(action, party);
-                Assassin.Stop(gameObject);
-                Assassin.Post(gameObject);
+                PlayLayered(Assassin);
                 GetEnemy(party).Power = (GetEnemy(party).Power / 10) * UnityEngine.Random.Range(3, 7);
                 party.RemoveAction(action);
             }
@@ -599,6 +648,7 @@ public class CountryManager : MonoBehaviour
             }
 
 
+            var finished = new List<ActionFunction>();
             foreach (ActionFunction action in party.Actions)
             {
                 if (action != null)
@@ -608,29 +658,54 @@ public class CountryManager : MonoBehaviour
                         action.time--;
                         if (action.time == 0)
                         {
-                            if (ElectionsLock && !NotificationLock)
-                            {
-                                NotificationIndex++;
-                                NotificationLock = true;
-                                StartCoroutine(MultiActions(party, action, NotificationIndex));
-                            }
-                            else
-                            {
-                                StartCoroutine(MultiActions(party, action, NotificationIndex));
-                            }
-
+                            finished.Add(action);
                             if (!action.Monthly)
                             {
                                 party.Power += action.PowerFor(party);
                                 party.Money += action.money;
                                 party.PeoplSatsfaction += action.peoplSatsfaction;
                             }
-
                         }
                     }
                 }
             }
+
+            // Everything that finished this month completes at once, so its queue slots are free straight away.
+            // Only the sounds are spread out, one after another (see PlayLayered).
+            foreach (ActionFunction action in finished)
+            {
+                InfoNotifaction(action, party);
+                CompleteMonthlyEffects(party, action);
+                party.RemoveAction(action);
+            }
+            if (finished.Count > 0)
+            {
+                party.sources();
+                party.ClampStats();
+            }
         }
+    }
+
+    // Sounds never cut each other off: each one starts a moment after the last, and they overlap.
+    const float SoundGap = 0.3f;
+    float nextSoundAt;
+
+    void PlayLayered(AK.Wwise.Event sound)
+    {
+        float now = Time.realtimeSinceStartup;
+        float delay = Mathf.Max(0f, nextSoundAt - now);
+        nextSoundAt = now + delay + SoundGap;
+        if (delay <= 0f)
+            sound.Post(gameObject);
+        else
+            StartCoroutine(PostLater(sound, delay));
+    }
+
+    IEnumerator PostLater(AK.Wwise.Event sound, float delay)
+    {
+        yield return new WaitForSecondsRealtime(delay);
+        if (!LoseLock)
+            sound.Post(gameObject);
     }
     public void Do()
     {
@@ -790,8 +865,7 @@ public class CountryManager : MonoBehaviour
         }
         if (action.done == "Factory Building Finished")
         {
-            Factory.Stop(gameObject);
-            Factory.Post(gameObject);
+            PlayLayered(Factory);
             party.FactoriesNumber++;
             if (action.percent) party.FactoriesPowerPercent += action.power; else party.FactoriesTotalPower += action.power;
             party.FactoriesTotalMoney += action.money;
@@ -799,20 +873,17 @@ public class CountryManager : MonoBehaviour
         }
         else if (action.done == "Research Completed")
         {
-            Research.Stop(gameObject);
-            Research.Post(gameObject);
+            PlayLayered(Research);
         }
         else if (action.done == "Spy is in place")
         {
-            Spy.Stop(gameObject);
-            Spy.Post(gameObject);
+            PlayLayered(Spy);
             party.SpiesNumber++;
             if (action.percent) party.SpiesPowerPercent += action.power; else party.SpiesTotalPower += action.power;
         }
         else if (action.done == "Proxy war started.")
         {
-            War.Stop(gameObject);
-            War.Post(gameObject);
+            PlayLayered(War);
             party.WarNumber++;
             if (action.percent) party.WarPowerPercent += action.power; else party.WarTotalPower += action.power;
             party.WarTotalMoney += action.money;
@@ -820,8 +891,7 @@ public class CountryManager : MonoBehaviour
         }
         else if (action.done == "Assassination completed")
         {
-            Assassin.Stop(gameObject);
-            Assassin.Post(gameObject);
+            PlayLayered(Assassin);
             GetEnemy(party).Power = (GetEnemy(party).Power / 10) * UnityEngine.Random.Range(3, 7);
         }
     }
@@ -1290,6 +1360,8 @@ public class CountryManager : MonoBehaviour
     {
         Resume.Post(gameObject);
     }
+    // True while the player has paused with the pause button. The 3D board freezes all its movement then.
+    public static bool PlayerPaused;
     public void PauseFunction()
     {
         if (Time.timeScale!=0)
@@ -1297,11 +1369,13 @@ public class CountryManager : MonoBehaviour
             Pause.Post(gameObject);
             TimeHold = Time.timeScale;
             Time.timeScale = 0;
+            PlayerPaused = true;
         }
         else
         {
             Resume.Post(gameObject);
             Time.timeScale = TimeHold;
+            PlayerPaused = false;
         }
             
         

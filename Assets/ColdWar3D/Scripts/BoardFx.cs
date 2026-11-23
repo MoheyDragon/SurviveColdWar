@@ -14,7 +14,7 @@ public class BoardFx
     {
         for (int i = expiring.Count - 1; i >= 0; i--)
         {
-            if (Time.unscaledTime < expiring[i].Key)
+            if (WarTable.WorldTime < expiring[i].Key)
                 continue;
 
             Object.Destroy(expiring[i].Value);
@@ -93,7 +93,7 @@ public class BoardFx
         fade.color = FadeOut();
         system.Play();
         system.Emit(count);
-        expiring.Add(new KeyValuePair<float, GameObject>(Time.unscaledTime + life + 0.2f, system.gameObject));
+        expiring.Add(new KeyValuePair<float, GameObject>(WarTable.WorldTime + life + 0.2f, system.gameObject));
     }
 
     public void Explosion(Vector3 position, float scale)

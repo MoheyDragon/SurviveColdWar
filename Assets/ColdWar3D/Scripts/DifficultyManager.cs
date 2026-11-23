@@ -27,7 +27,7 @@ public class DifficultyManager : ScriptableObject
 
     [Header("War limit: how many times stronger one side can be before nuclear war")]
     [Tooltip("Across: the year (1947 to 1991). Up: how many times stronger one side may be before nuclear war.\n" +
-             "Drag the points to reshape it, right-click to add or delete points. After the last point the limit stays at its final value (endless mode).")]
+             "Higher means more room before war; lower means a tighter, harder game. After the last year the limit stays at its final value (endless mode).")]
     public AnimationCurve warLimit = DefaultWarLimit();
 
     static AnimationCurve DefaultWarLimit()
@@ -64,7 +64,7 @@ public class DifficultyManager : ScriptableObject
     [Tooltip("How long a missile crisis lasts, in months.")]
     public int crisisMonths = 6;
     [Tooltip("The war limit is multiplied by this during a crisis (0.7 makes it 30% tighter).")]
-    [Range(0.1f, 1f)] public float crisisRatioFactor = 0.7f;
+    [Range(0.1f, 1f)] public float crisisRatioFactor = 0.8f;
     [Tooltip("The war limit never goes below this, even during a crisis.")]
     public float minimumRatio = 1.5f;
 
@@ -82,13 +82,22 @@ public class DifficultyManager : ScriptableObject
     [Tooltip("Economic crash: share of money lost, in percent.")]
     public Vector2Int crashLoss = new Vector2Int(50, 80);
     [Tooltip("Arms race: the stronger side gains, and the weaker side loses, a random amount in this range, in percent. Other events always strike the weaker side.")]
-    public Vector2Int armsRaceSwing = new Vector2Int(10, 35);
+    public Vector2Int armsRaceSwing = new Vector2Int(5, 10);
     [Tooltip("Spy network caught: share of spies lost, in percent.")]
     public Vector2Int spiesLost = new Vector2Int(30, 80);
     [Tooltip("Factory disaster: share of factories lost, in percent.")]
     public Vector2Int factoriesLost = new Vector2Int(20, 70);
     [Tooltip("Proxy war lost: share of wars lost, in percent.")]
     public Vector2Int warsLost = new Vector2Int(10, 40);
+
+    [Tooltip("When on, a missile crisis, a coup or an economic crash is announced one month before it strikes.")]
+    public bool warnBigEvents = true;
+
+    [Header("Catch-up (not shown to players)")]
+    [Tooltip("Above this danger, in percent, the weaker side's actions cost less power.")]
+    public float catchUpAboveDanger = 50f;
+    [Tooltip("How much cheaper the weaker side's power costs are then (0.3 = 30% cheaper).")]
+    [Range(0f, 1f)] public float catchUpDiscount = 0.3f;
 
     [Header("Presidents")]
     [Tooltip("A candidate's monthly power, as a percentage of the party's power at the election.")]
@@ -134,10 +143,12 @@ public class DifficultyManager : ScriptableObject
     public float factoryCostPerUse = 0.1f;
     public float researchCostPerUse = 0.2f;
 
-    [Header("Money costs rising over the decades")]
-    public bool risingMoneyCosts = true;
-    [Tooltip("Money costs are multiplied by this by 1991, growing steadily from 1x in 1947.")]
-    public float moneyCostBy1991 = 4f;
+    [Header("Power costs rising over the decades")]
+    [Tooltip("When on, every action's power cost grows over the decades, so late actions eat a bigger share of a side's power.")]
+    public bool risingPowerCosts = true;
+    [Tooltip("Power costs are multiplied by this by 1991, growing steadily from 1x in 1947. With 4, a war costing 3% of power in 1947 costs 12% by 1991.")]
+    [UnityEngine.Serialization.FormerlySerializedAs("moneyCostBy1991")]
+    public float powerCostBy1991 = 4f;
 
     [Header("Opportunities: only some actions are available each month")]
     public bool useOpportunities = true;
