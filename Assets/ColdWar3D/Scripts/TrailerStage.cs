@@ -53,7 +53,11 @@ public static class TrailerStage
     static IEnumerator RemoveLater(Party party, int slot, ActionFunction action, float after)
     {
         yield return new WaitForSecondsRealtime(after);
-        if (party.Actions[slot] == action) party.Actions[slot] = null;
+        if (party.Actions[slot] != action)
+            yield break;
+        // Completes it through the game's own code, so the counts (factories, wars, spies) match what the board shows.
+        typeof(CountryManager).GetMethod("CompleteAction", Any).Invoke(C, new object[] { party, action });
+        party.Actions[slot] = null;
     }
 
     // Trailer only: turns one election candidate into one who costs power, and shows it on the ballot.
@@ -111,6 +115,35 @@ public static class TrailerStage
     }
 
     public static void StopOrbit() => Helper.orbiter = null;
+
+    // Clicks a capital the way a player does: the pointer moves over it, presses and releases, so the capital squashes
+    // and springs back and its action ring opens.
+    public static string ClickCapital(bool red)
+    {
+        var table = Object.FindFirstObjectByType<WarTable>();
+        var token = table.CapitalRoot(red).GetComponent<Token3D>();
+        var data = new UnityEngine.EventSystems.PointerEventData(UnityEngine.EventSystems.EventSystem.current);
+        token.OnPointerEnter(data);
+        token.OnPointerDown(data);
+        token.OnPointerUp(data);
+        token.OnPointerClick(data);
+        Helper.StartCoroutine(AfterRoutine(0.6f, () => token.OnPointerExit(data)));
+        return "clicked " + (red ? "red" : "blue");
+    }
+
+    // Moves a parked tank column to a spot on the board (for framing a shot).
+    public static string ParkColumn(Vector3 spot, float heading)
+    {
+        Transform newest = null;
+        foreach (var t in Object.FindObjectsByType<Transform>(FindObjectsSortMode.None))
+            if (t.name == "TankColumn" && (newest == null || t.GetInstanceID() < newest.GetInstanceID()))
+                newest = t;
+        if (newest == null) return "no column";
+        var board = Object.FindFirstObjectByType<HexBoard>();
+        Vector3 top = board.TileTop(board.NearestTile(new Vector2(spot.x, spot.z)));
+        newest.SetPositionAndRotation(new Vector3(spot.x, top.y + 0.02f, spot.z), Quaternion.Euler(0f, heading, 0f));
+        return "parked at " + newest.position;
+    }
 
     // Runs an action after some game seconds, so it lines up with the recording (which runs on game time).
     public static string After(float seconds, System.Action action)

@@ -24,6 +24,10 @@ public class GameTuning : ScriptableObject
         }
     }
 
+    [Header("Time")]
+    [Tooltip("How many real seconds one month lasts at normal speed.")]
+    [Range(0.5f, 60f)] public float monthSeconds = 10f;
+
     [Header("Hidden levels (never shown to players; they change how units look)")]
     [Tooltip("How many zeros of power make one level. With 6: below 1M is level 1, 1M to 1T is level 2, 1T to 1Qi is level 3, and so on.")]
     [Range(1, 12)] public int zerosPerLevel = 6;
@@ -58,7 +62,7 @@ public class GameTuning : ScriptableObject
 
     [Header("Unit sizes on the board (length of each model)")]
     [Tooltip("Applies to new units.")]
-    [Range(0.2f, 2f)] public float tankSize = 0.6f;
+    [Range(0.2f, 2f)] public float tankSize = 0.45f;
     [Tooltip("Applies to new units.")]
     [Range(0.2f, 3f)] public float shipSize = 1.3f;
     [Tooltip("Applies to new units.")]

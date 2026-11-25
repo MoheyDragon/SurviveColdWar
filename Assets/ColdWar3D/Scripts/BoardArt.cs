@@ -24,4 +24,6 @@ public class BoardArt : ScriptableObject
     public Texture2D droneBlue, droneRed;
     // The rocket that stands on the launch pad during research.
     public GameObject researchRocket;
+    // The nuclear missiles: in the meter, in the launch, and in assassination strikes.
+    public GameObject nukeMissile;
 }

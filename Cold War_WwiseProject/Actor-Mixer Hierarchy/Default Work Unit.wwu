@@ -13,6 +13,128 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
+						<Sound Name="Chaos_Alarm" ID="{32771447-E1C4-4E86-A3BF-F818EA0C0D9F}" ShortID="447712782">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1CFA9AE5-8DFB-49F5-B267-1918980C13A0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06B755CA-58B3-4D41-BAD2-A70872D59A96}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="zapsplat_emergency_nuclear_power_station_meltdown_alarm_42849" ID="{EF8DBF02-2939-459C-BF55-216E4D02E3A3}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.6"/>
+										<Property Name="TrimEnd" Type="Real64" Value="3.0"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>zapsplat_emergency_nuclear_power_station_meltdown_alarm_42849.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="zapsplat_emergency_nuclear_power_station_meltdown_alarm_42849" ID="{EF8DBF02-2939-459C-BF55-216E4D02E3A3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Chaos_Explosion" ID="{0CE8D76E-638C-4471-9778-2CD4FA928653}" ShortID="523938499">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1CFA9AE5-8DFB-49F5-B267-1918980C13A0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06B755CA-58B3-4D41-BAD2-A70872D59A96}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="zapsplat_warfare_bomb_whizz_in_hit_close_by_explosion_med_002_48059" ID="{F8765C27-5C14-4989-A798-CB14DE569DDA}">
+									<Language>SFX</Language>
+									<AudioFile>zapsplat_warfare_bomb_whizz_in_hit_close_by_explosion_med_002_48059.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="zapsplat_warfare_bomb_whizz_in_hit_close_by_explosion_med_002_48059" ID="{F8765C27-5C14-4989-A798-CB14DE569DDA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Chaos_Crowd" ID="{46FC3960-0FA2-4D1A-8001-BEDE468EFBA9}" ShortID="151847156">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1CFA9AE5-8DFB-49F5-B267-1918980C13A0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06B755CA-58B3-4D41-BAD2-A70872D59A96}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Blastwave_FX_HumanCrowdStudio_S08HU.193" ID="{D45FDF73-FC13-41A3-BCB1-B1AABB3439A8}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.8"/>
+										<Property Name="TrimEnd" Type="Real64" Value="3.5"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Blastwave_FX_HumanCrowdStudio_S08HU.193.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Blastwave_FX_HumanCrowdStudio_S08HU.193" ID="{D45FDF73-FC13-41A3-BCB1-B1AABB3439A8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Chaos_Crash" ID="{6B74B736-A5D5-4AEF-99A6-C1EA48383FA0}" ShortID="981836553">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1CFA9AE5-8DFB-49F5-B267-1918980C13A0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06B755CA-58B3-4D41-BAD2-A70872D59A96}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="zapsplat_multimedia_alert_bright_warm_system_negative_error_001_57861" ID="{C9D66635-CDD0-475A-A3C7-B0F4D896CDE3}">
+									<Language>SFX</Language>
+									<AudioFile>zapsplat_multimedia_alert_bright_warm_system_negative_error_001_57861.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="zapsplat_multimedia_alert_bright_warm_system_negative_error_001_57861" ID="{C9D66635-CDD0-475A-A3C7-B0F4D896CDE3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Chaos_Shot" ID="{1EF41080-90AC-4ABD-A2B2-DE5064918046}" ShortID="201071364">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1CFA9AE5-8DFB-49F5-B267-1918980C13A0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06B755CA-58B3-4D41-BAD2-A70872D59A96}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="warfare_gun_cock_then_shoot" ID="{AFD283F4-2F7F-4805-83AD-A4A70154F907}">
+									<Language>SFX</Language>
+									<AudioFile>warfare_gun_cock_then_shoot.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="warfare_gun_cock_then_shoot" ID="{AFD283F4-2F7F-4805-83AD-A4A70154F907}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Chaos_Guns" ID="{FB6CEBA9-FE48-4ECA-8F20-CCA51047D3B1}" ShortID="725763863">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1CFA9AE5-8DFB-49F5-B267-1918980C13A0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06B755CA-58B3-4D41-BAD2-A70872D59A96}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="zapsplat_warfare_machine_gun_burst_short_61527" ID="{17F52C81-B505-41B4-9D9E-13CC5BE19522}">
+									<Language>SFX</Language>
+									<AudioFile>zapsplat_warfare_machine_gun_burst_short_61527.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="zapsplat_warfare_machine_gun_burst_short_61527" ID="{17F52C81-B505-41B4-9D9E-13CC5BE19522}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 						<Sound Name="Win" ID="{AEBB1090-F4B9-4FA2-97EB-4E91DE63B1AA}" ShortID="50739510">
 							<ReferenceList>
 								<Reference Name="Conversion">

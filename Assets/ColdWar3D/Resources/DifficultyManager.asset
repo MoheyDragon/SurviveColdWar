@@ -18,29 +18,38 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 1947
       value: 10
-      inSlope: -1.4
-      outSlope: -1.4
+      inSlope: -0.46153846
+      outSlope: -0.46153846
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 1965
-      value: 2
-      inSlope: -0.0738469
-      outSlope: -0.0738469
+      time: 1960
+      value: 4
+      inSlope: -0.26607144
+      outSlope: -0.26607144
       tangentMode: 0
       weightedMode: 0
-      inWeight: 1
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1975
+      value: 2.55
+      inSlope: -0.074193545
+      outSlope: -0.074193545
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
       outWeight: 0
     - serializedVersion: 3
       time: 1991
-      value: 1.2
-      inSlope: 0.008777169
-      outSlope: 0.008777169
+      value: 1.7
+      inSlope: -0.053124994
+      outSlope: -0.053124994
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.49076918
+      inWeight: 0
       outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
@@ -56,6 +65,7 @@ MonoBehaviour:
   armsRaceSwing: {x: 5, y: 10}
   spiesLost: {x: 10, y: 20}
   factoriesLost: {x: 20, y: 35}
+  assassinPowerLoss: {x: 20, y: 35}
   warsLost: {x: 10, y: 35}
   warnBigEvents: 1
   catchUpAboveDanger: 50
@@ -69,16 +79,18 @@ MonoBehaviour:
   uprisingChance: 0.08
   vacancyMonths: {x: 6, y: 16}
   newLeaderHappiness: 40
-  warGain: 0.5
-  spyGain: 3
-  factoryGain: 0.2
+  warGain: 0.3
+  spyGain: 1.5
+  factoryGain: 0.12
   researchGain: 35
   agendaResearchShare: 0.5
+  gainFalloff: 0.12
   warCost: 4
   spyCost: 10
   factoryCost: 2
   researchCost: 25
   assassinCost: 0
+  maxCostPercent: 60
   warCostPerUse: 0.1
   spyCostPerUse: 0.5
   factoryCostPerUse: 0.1

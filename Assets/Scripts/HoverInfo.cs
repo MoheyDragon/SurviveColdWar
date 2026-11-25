@@ -150,7 +150,7 @@ public class HoverInfo : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
             else if (name == "Spy") { percent = d.spyCost; perUse = d.spyCostPerUse; uses = party.SpiesLevel; }
             else if (name == "Assassin") percent = d.assassinCost;
             double era = d.risingPowerCosts ? Mathf.Lerp(1f, d.powerCostBy1991, d.Era) : 1.0;
-            double cost = party.Power * percent / 100.0 * (1.0 + perUse * Math.Max(0, uses)) * era;
+            double cost = party.Power * Math.Min(d.maxCostPercent, percent * (1.0 + perUse * Math.Max(0, uses)) * era) / 100.0;
             // Quietly helps the side that is falling behind once war gets close, so a bad stretch can be recovered.
             if (NukeMeterUpdater.nukeDanger > d.catchUpAboveDanger && CountryManager.instance.IsWeaker(party))
                 cost *= 1.0 - d.catchUpDiscount;
@@ -203,9 +203,10 @@ public class HoverInfo : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         if (UsesPercent)
         {
             DifficultyManager d = Tuning;
-            if (name == "Factory") return d.factoryGain;
-            if (name == "War") return d.warGain;
-            if (name == "Spy") return d.spyGain;
+            // Diminishing returns: each earlier one makes the next add a little less.
+            if (name == "Factory") return d.factoryGain / (1.0 + d.gainFalloff * Math.Max(0, party.FactoryLevel - 1));
+            if (name == "War") return d.warGain / (1.0 + d.gainFalloff * party.WarLevel);
+            if (name == "Spy") return d.spyGain / (1.0 + d.gainFalloff * party.SpiesLevel);
             if (name == "Research") return d.researchGain;
             return 0;
         }

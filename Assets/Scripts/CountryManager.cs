@@ -476,6 +476,28 @@ public class CountryManager : MonoBehaviour
     void Announce(Party party, ChaosKind kind, string english, string arabic)
     {
         ChaosStruck?.Invoke(party, kind, english, arabic);
+        string sound = ChaosSound(kind);
+        if (sound != null && !IsTutorial)
+            AkSoundEngine.PostEvent(sound, gameObject);
+    }
+
+    // The Wwise event each kind of event plays (all in the "Windows" sound bank).
+    static string ChaosSound(ChaosKind kind)
+    {
+        switch (kind)
+        {
+            case ChaosKind.EconomicCrash: return "Chaos_Crash";
+            case ChaosKind.ArmsRace: return "Chaos_Guns";
+            case ChaosKind.Scandal: return "Chaos_Crowd";
+            case ChaosKind.Uprising: return "Chaos_Crowd";
+            case ChaosKind.SpyCaught: return "Chaos_Shot";
+            case ChaosKind.Coup: return "Chaos_Shot";
+            case ChaosKind.FactoryDisaster: return "Chaos_Explosion";
+            case ChaosKind.WarLost: return "Chaos_Explosion";
+            case ChaosKind.MissileCrisis: return "Chaos_Alarm";
+            case ChaosKind.Warning: return "Chaos_Crash";
+            default: return null;
+        }
     }
 
     // ----- Vacant presidency -----
@@ -601,7 +623,7 @@ public class CountryManager : MonoBehaviour
                 Pause.Post(gameObject);
                 InfoNotifaction(action, party);
                 PlayLayered(Assassin);
-                GetEnemy(party).Power = (GetEnemy(party).Power / 10) * UnityEngine.Random.Range(3, 7);
+                GetEnemy(party).Power *= 1.0 - RandomIn(Tuning.assassinPowerLoss) / 100.0;
                 party.RemoveAction(action);
             }
         }
@@ -892,7 +914,7 @@ public class CountryManager : MonoBehaviour
         else if (action.done == "Assassination completed")
         {
             PlayLayered(Assassin);
-            GetEnemy(party).Power = (GetEnemy(party).Power / 10) * UnityEngine.Random.Range(3, 7);
+            GetEnemy(party).Power *= 1.0 - RandomIn(Tuning.assassinPowerLoss) / 100.0;
         }
     }
 

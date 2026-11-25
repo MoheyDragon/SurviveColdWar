@@ -71,7 +71,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 49a7f33e55aa2e4a9879f1d493d8572e
     GuidInternal: 
-    m_lastTime: -8584541058417354550
+    m_lastTime: -8584061105436189549
     List:
     - name: Windows
       guid: e0c0f17b81acb9449258d126c88638a4
@@ -90,7 +90,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 01436ad6b7743149b7abfeea16ca4ade
     GuidInternal: 
-    m_lastTime: -8584541058435556067
+    m_lastTime: -8584061105436189549
     List:
     - name: Assassin
       guid: 4e38bb7826635d4d9b8b9025cddd3615
@@ -104,6 +104,78 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 3.987747
       minDuration: 2.545186
+    - name: Chaos_Alarm
+      guid: 434dbee8eadaba45b3f44c2d6ec57b77
+      id: 2220967461
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Chaos_Alarm
+        ObjectType: 3
+      Path: Default Work Unit\Chaos_Alarm
+      maxAttenuation: 0
+      maxDuration: 3
+      minDuration: 3
+    - name: Chaos_Crash
+      guid: 620df24a810d1947a5cf96d4f84bdaee
+      id: 1320641559
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Chaos_Crash
+        ObjectType: 3
+      Path: Default Work Unit\Chaos_Crash
+      maxAttenuation: 0
+      maxDuration: 3.413979
+      minDuration: 3.413979
+    - name: Chaos_Crowd
+      guid: 349aabc2a0fdb14ca4fff4fd0bf48157
+      id: 1255105405
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Chaos_Crowd
+        ObjectType: 3
+      Path: Default Work Unit\Chaos_Crowd
+      maxAttenuation: 0
+      maxDuration: 3.5
+      minDuration: 3.5
+    - name: Chaos_Explosion
+      guid: c434ec619dd7dc429be4752667bcc5b9
+      id: 3351720423
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Chaos_Explosion
+        ObjectType: 3
+      Path: Default Work Unit\Chaos_Explosion
+      maxAttenuation: 0
+      maxDuration: 2.652417
+      minDuration: 2.652417
+    - name: Chaos_Guns
+      guid: 785609601625ad48a9452adad1dc10cc
+      id: 2742423075
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Chaos_Guns
+        ObjectType: 3
+      Path: Default Work Unit\Chaos_Guns
+      maxAttenuation: 0
+      maxDuration: 2.5335
+      minDuration: 2.5335
+    - name: Chaos_Shot
+      guid: ad37029498688c4fb524a48806d87fb4
+      id: 3213760782
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Chaos_Shot
+        ObjectType: 3
+      Path: Default Work Unit\Chaos_Shot
+      maxAttenuation: 0
+      maxDuration: 1.399854
+      minDuration: 1.399854
     - name: Click
       guid: 10c32c981e03324684f74e1c2e549d17
       id: 1584507803

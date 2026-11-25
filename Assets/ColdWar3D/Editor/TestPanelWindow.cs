@@ -250,6 +250,16 @@ public class TestPanelWindow : EditorWindow
         if (Button("1990")) JumpTo(1990);
         GUILayout.EndHorizontal();
 
+        Header("Month length");
+        float monthSeconds = EditorGUILayout.Slider(new GUIContent("Seconds per month", "Real seconds one month lasts at normal speed (the game's default is 10). Saved in Game Tuning."), GameTuning.Current.monthSeconds, 0.5f, 60f);
+        if (!Mathf.Approximately(monthSeconds, GameTuning.Current.monthSeconds))
+            SetMonthSeconds(monthSeconds);
+        GUILayout.BeginHorizontal();
+        foreach (float preset in new[] { 2f, 5f, 10f, 20f, 30f })
+            if (Button(preset + " s")) SetMonthSeconds(preset);
+        if (Button("Hold month")) typeof(GameManager).GetField("MonthCycle", Any).SetValue(Game, Time.time + 100000f);
+        GUILayout.EndHorizontal();
+
         Header("Game speed");
         float scale = EditorGUILayout.Slider("Time scale", Time.timeScale, 0f, 20f);
         if (!Mathf.Approximately(scale, Time.timeScale)) Time.timeScale = scale;
@@ -261,6 +271,15 @@ public class TestPanelWindow : EditorWindow
         GUILayout.BeginHorizontal();
         if (Button(MuteLabel())) ToggleMute();
         GUILayout.EndHorizontal();
+    }
+
+    // Changes the month length now and for the rest of the game (the current month restarts with the new length).
+    static void SetMonthSeconds(float seconds)
+    {
+        GameTuning.Current.monthSeconds = seconds;
+        EditorUtility.SetDirty(GameTuning.Current);
+        Game.mainMonthCycle = seconds;
+        typeof(GameManager).GetField("MonthCycle", Any).SetValue(Game, Time.time + seconds);
     }
 
     static bool muted;

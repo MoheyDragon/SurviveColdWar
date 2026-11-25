@@ -38,6 +38,8 @@ MonoBehaviour:
   missile: {fileID: 132654, guid: 3db888a07c8c1ae42b3ff9ff707231d0, type: 3}
   drone: {fileID: 6344612964349603796, guid: 6bb72f8fa50f23842a690a519e7fdd08, type: 3}
   tankModels:
+  - {fileID: 100000, guid: fd83e6cb9fb13014fbdfae82bc65d764, type: 3}
+  - {fileID: 100000, guid: 9f8ff89320a2df2499316a13f2f7d8c9, type: 3}
   - {fileID: 6952026138203898673, guid: 6b441493741d1ae4d894335cd379e602, type: 3}
   shipModels:
   - {fileID: 1307028158353980, guid: 09419625ea90e2f478b96ae476784b2c, type: 3}
@@ -49,4 +51,6 @@ MonoBehaviour:
   - {fileID: 1412742708598286, guid: 347040970b496ba4086308c48e34652b, type: 3}
   droneBlue: {fileID: 2800000, guid: 3ad9fc869363e2e49a5a9a4cdc32cd8c, type: 3}
   droneRed: {fileID: 2800000, guid: 3822fc78b5f96fa40a9d3c8590e41e86, type: 3}
-  researchRocket: {fileID: 176162, guid: 46653cd25062e554a983bd814016c05a, type: 3}
+  researchRocket: {fileID: 4087475655895904269, guid: 1b7174dd63776c74cabc15ee2b548c2a,
+    type: 3}
+  nukeMissile: {fileID: 176162, guid: 46653cd25062e554a983bd814016c05a, type: 3}

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Android" BasePlatform="Android" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>C:\Users\hopes\OneDrive\Documents\Unity\Cold War\Cold War_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\hopes\OneDrive\Documents\Unity\Cold War\Cold War_WwiseProject\.cache\Android\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\hopes\OneDrive\Documents\Unity\Cold War\Cold War_WwiseProject\GeneratedSoundBanks\Android\</SoundBanksRoot>
+		<ProjectRoot>C:\UnityProjects\Commercial\SurviveColdWar\Cold War_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\UnityProjects\Commercial\SurviveColdWar\Cold War_WwiseProject\.cache\Android\</SourceFilesRoot>
+		<SoundBanksRoot>C:\UnityProjects\Commercial\SurviveColdWar\Cold War_WwiseProject\GeneratedSoundBanks\Android\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\hopes\OneDrive\Documents\Unity\Cold War\Cold War_WwiseProject\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\UnityProjects\Commercial\SurviveColdWar\Cold War_WwiseProject\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="270908044" Language="SFX">
+		<SoundBank Id="270908044" Language="SFX" Hash="2781540460">
 			<ObjectPath>\SoundBanks\Default Work Unit\Windows</ObjectPath>
 			<ShortName>Windows</ShortName>
 			<Path>Windows.bnk</Path>
@@ -37,6 +37,54 @@
 						<File Id="803064229" Language="SFX">
 							<ShortName>smartsound_WEAPONS_BULLET_Small_Impact_Body_01.wav</ShortName>
 							<Path>SFX\smartsound_WEAPONS_BULLET_Small_Impact_Body_01_32321A80.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2220967461" Name="Chaos_Alarm" ObjectPath="\Events\Default Work Unit\Chaos_Alarm" DurationType="OneShot" DurationMin="3.000000" DurationMax="3.000000">
+					<IncludedMemoryFiles>
+						<File Id="654783734" Language="SFX">
+							<ShortName>zapsplat_emergency_nuclear_power_station_meltdown_alarm_42849.wav</ShortName>
+							<Path>SFX\zapsplat_emergency_nuclear_power_station_meltdown_alarm_42849_B758615A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1320641559" Name="Chaos_Crash" ObjectPath="\Events\Default Work Unit\Chaos_Crash" DurationType="OneShot" DurationMin="3.413979" DurationMax="3.413979">
+					<IncludedMemoryFiles>
+						<File Id="243572024" Language="SFX">
+							<ShortName>zapsplat_multimedia_alert_bright_warm_system_negative_error_001_57861.wav</ShortName>
+							<Path>SFX\zapsplat_multimedia_alert_bright_warm_system_negative_error_001_57861_D951AD54.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1255105405" Name="Chaos_Crowd" ObjectPath="\Events\Default Work Unit\Chaos_Crowd" DurationType="OneShot" DurationMin="3.500000" DurationMax="3.500000">
+					<IncludedMemoryFiles>
+						<File Id="208601405" Language="SFX">
+							<ShortName>Blastwave_FX_HumanCrowdStudio_S08HU.193.wav</ShortName>
+							<Path>SFX\Blastwave_FX_HumanCrowdStudio_S08HU.193_C543AEA9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3351720423" Name="Chaos_Explosion" ObjectPath="\Events\Default Work Unit\Chaos_Explosion" DurationType="OneShot" DurationMin="2.652417" DurationMax="2.652417">
+					<IncludedMemoryFiles>
+						<File Id="151387648" Language="SFX">
+							<ShortName>zapsplat_warfare_bomb_whizz_in_hit_close_by_explosion_med_002_48059.wav</ShortName>
+							<Path>SFX\zapsplat_warfare_bomb_whizz_in_hit_close_by_explosion_med_002_48059_D951AD54.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2742423075" Name="Chaos_Guns" ObjectPath="\Events\Default Work Unit\Chaos_Guns" DurationType="OneShot" DurationMin="2.533500" DurationMax="2.533500">
+					<IncludedMemoryFiles>
+						<File Id="85764390" Language="SFX">
+							<ShortName>zapsplat_warfare_machine_gun_burst_short_61527.wav</ShortName>
+							<Path>SFX\zapsplat_warfare_machine_gun_burst_short_61527_D951AD54.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3213760782" Name="Chaos_Shot" ObjectPath="\Events\Default Work Unit\Chaos_Shot" DurationType="OneShot" DurationMin="1.399854" DurationMax="1.399854">
+					<IncludedMemoryFiles>
+						<File Id="448665159" Language="SFX">
+							<ShortName>warfare_gun_cock_then_shoot.wav</ShortName>
+							<Path>SFX\warfare_gun_cock_then_shoot_D951AD54.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -127,8 +175,8 @@
 					<SwitchContainers>
 						<SwitchContainer SwitchValue="{E057A2A2-8086-4B61-AA55-762FC0973213}">
 							<Media>
-								<File Id="959822171"/>
 								<File Id="478462194"/>
+								<File Id="959822171"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{C3500A38-AA98-4E17-9BA5-3271E0497BF7}">
@@ -239,7 +287,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX">
+		<SoundBank Id="1355168291" Language="SFX" Hash="597612691">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>

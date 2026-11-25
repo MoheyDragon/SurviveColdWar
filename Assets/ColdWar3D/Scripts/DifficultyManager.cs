@@ -32,11 +32,10 @@ public class DifficultyManager : ScriptableObject
 
     static AnimationCurve DefaultWarLimit()
     {
-        // 25x in 1947, about 11x by 1957, 6x by 1967, 3.6x by 1977, 2.5x by 1985 and 2x by 1991.
+        // Tuned by long auto-play runs (Nov 2026): 10x in 1947, 4x by 1960, 2.55x by 1975 and 1.7x by 1991.
         var keys = new[]
         {
-            new Keyframe(1947f, 25f), new Keyframe(1957f, 11f), new Keyframe(1967f, 6f),
-            new Keyframe(1977f, 3.6f), new Keyframe(1985f, 2.5f), new Keyframe(1991f, 2f),
+            new Keyframe(1947f, 10f), new Keyframe(1960f, 4f), new Keyframe(1975f, 2.55f), new Keyframe(1991f, 1.7f),
         };
 
         // Smooth slopes through each point, so the line flows from one point to the next.
@@ -87,6 +86,8 @@ public class DifficultyManager : ScriptableObject
     public Vector2Int spiesLost = new Vector2Int(30, 80);
     [Tooltip("Factory disaster: share of factories lost, in percent.")]
     public Vector2Int factoriesLost = new Vector2Int(20, 70);
+    [Tooltip("An assassination knocks this share off the other side's power, in percent (a random amount in the range).")]
+    public Vector2Int assassinPowerLoss = new Vector2Int(20, 35);
     [Tooltip("Proxy war lost: share of wars lost, in percent.")]
     public Vector2Int warsLost = new Vector2Int(10, 40);
 
@@ -121,15 +122,18 @@ public class DifficultyManager : ScriptableObject
 
     [Header("Action power gains, as a percentage of the side's own power")]
     [Tooltip("Each proxy war adds this percentage every month.")]
-    public float warGain = 0.5f;
+    public float warGain = 0.3f;
     [Tooltip("Each spy adds this percentage every month.")]
-    public float spyGain = 1f;
+    public float spyGain = 1.5f;
     [Tooltip("Each factory adds this percentage every month.")]
-    public float factoryGain = 0.3f;
+    public float factoryGain = 0.12f;
     [Tooltip("Finished research adds this percentage once.")]
     public float researchGain = 25f;
     [Tooltip("A president's research is worth this share of a normal one.")]
     [Range(0f, 1f)] public float agendaResearchShare = 0.5f;
+
+    [Tooltip("Diminishing returns: each earlier factory, war or spy makes the next one add this much less (0.12 = the 10th adds about half as much as the first).")]
+    [Range(0f, 1f)] public float gainFalloff = 0.12f;
 
     [Header("Action power costs, as a percentage of the side's own power")]
     public float warCost = 3f;
@@ -137,6 +141,8 @@ public class DifficultyManager : ScriptableObject
     public float factoryCost = 2f;
     public float researchCost = 10f;
     public float assassinCost = 0f;
+    [Tooltip("No action ever costs more than this share of the side's power, in percent, however often it has been used.")]
+    [Range(10f, 100f)] public float maxCostPercent = 60f;
     [Tooltip("Each earlier use raises the power cost by this share of the base cost (0.1 = +10% per use).")]
     public float warCostPerUse = 0.1f;
     public float spyCostPerUse = 0.5f;

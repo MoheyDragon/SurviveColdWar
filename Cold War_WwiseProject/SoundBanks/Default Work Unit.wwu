@@ -27,6 +27,12 @@
 						<ObjectRef Name="ElectionEnd" ID="{8C59820C-9403-4E2F-A7A3-BBE64E45C7F8}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="MonthEnding" ID="{A684B1A1-8163-4E4F-BD94-3A8422942FA2}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music" ID="{6DBCB35F-7F5D-4E8A-883B-1DABE2E45B70}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Chaos_Alarm" ID="{E8BE4D43-DAEA-45BA-B3F4-4C2D6EC57B77}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Chaos_Explosion" ID="{61EC34C4-D79D-42DC-9BE4-752667BCC5B9}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Chaos_Crowd" ID="{C2AB9A34-FDA0-4CB1-A4FF-F4FD0BF48157}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Chaos_Crash" ID="{4AF20D62-0D81-4719-A5CF-96D4F84BDAEE}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Chaos_Shot" ID="{940237AD-6898-4F8C-B524-A48806D87FB4}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Chaos_Guns" ID="{60095678-2516-48AD-A945-2ADAD1DC10CC}" WorkUnitID="{D66A4301-74B7-4931-B7AB-FEEA16CA4ADE}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

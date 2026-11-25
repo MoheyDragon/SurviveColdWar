@@ -12,22 +12,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1471ca633dfcb43459e28eeeb81504f7, type: 3}
   m_Name: GameTuning
   m_EditorClassIdentifier: Assembly-CSharp::GameTuning
+  monthSeconds: 10
   zerosPerLevel: 6
   maxLevel: 5
   growthPerLevel: 0.1
   maxGrowth: 1.5
+  maxFactoriesShown: 0
+  maxWarsShown: 0
+  maxSpiesShown: 0
+  maxSatellitesShown: 0
   fleetChance: 0.4
-  shipsPerFleet: 2
+  shipsPerFleet: 1
   tanksPerColumn: 3
   tankGap: 0.9
+  tankSpread: 0.65
   shipGap: 2.6
   nukeMeterClearance: 1.2
-  tankSize: 0.6
+  tankSize: 0.45
   shipSize: 1.3
   satelliteSize: 0.4
+  rocketHeight: 2.2
   satelliteHeight: 0.78
   satelliteClearance: 0.45
   satelliteStepOut: 0.35
   satelliteStepUp: 0.4
+  satelliteHeightLayers: 4
   satelliteSpeed: 0.7
+  satelliteScale: 1
   droneHeightAboveCapital: 0.9

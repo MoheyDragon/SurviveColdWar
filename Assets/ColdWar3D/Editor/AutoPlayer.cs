@@ -16,6 +16,8 @@ public static class AutoPlayer
     public const int Horizon = 24;
 
     public static float SafeDanger = 0.45f;
+    // The assassination loss the projection assumes; ScoreMove tries both ends of the game's range and keeps the worse.
+    static double AssassinLoss = 55.0;
     public static int HappinessFloor = 30;
     public static int FactoryTarget = 4;
     public static float MaxSpend = 0.2f;
@@ -149,7 +151,7 @@ public static class AutoPlayer
     {
         month = Mathf.Max(1, month);
         if (name == "Assassin")
-            other.changes.Add(new Change { month = month, powerFactor = 0.45 });
+            other.changes.Add(new Change { month = month, powerFactor = 1.0 - AssassinLoss / 100.0 });
         else if (monthly)
             side.changes.Add(new Change { month = month, powerFactor = 1.0, rate = gainPercent / 100.0, happyRate = people });
         else
@@ -222,6 +224,8 @@ public static class AutoPlayer
 
     // ------------------------------------------------------------------ A month of decisions
 
+    static int month;
+
     public static string PlayMonth()
     {
         var notes = new StringBuilder();
@@ -240,7 +244,9 @@ public static class AutoPlayer
             Party bestParty = null;
             HoverInfo bestAction = null;
 
-            foreach (Party party in new[] { blueParty, redParty })
+            // Neither side always gets first pick: the order changes every month.
+            Party[] order = (month++ & 1) == 0 ? new[] { blueParty, redParty } : new[] { redParty, blueParty };
+            foreach (Party party in order)
             {
                 if (FreeSlot(party) < 0) continue;
                 Party other = party == blueParty ? redParty : blueParty;
@@ -292,6 +298,16 @@ public static class AutoPlayer
         if (t.name != "Research" && spent + cost > budget * (behind ? 2.0 : 1.0)) return "budget";
         // Factories first: wars and spies wait until the side has enough of them.
         if ((t.name == "War" || t.name == "Spy") && FactoriesIncludingQueued(party) < FactoryTarget) return "factories first";
+        // Happiness must hold: a war costs happiness every month, so one only starts when the side's monthly happiness
+        // (factories and president included) stays at zero or above with it.
+        if (t.name == "War")
+        {
+            int.TryParse(t.PeopleGain, out int warHappiness);
+            double monthly = party.FactoriesTotalpeople + party.WarTotalpeople + (party.president != null ? party.president.PeoplSatsfaction : 0);
+            foreach (ActionFunction queued in party.Actions)
+                if (queued != null && queued.Monthly) monthly += queued.peoplSatsfaction;
+            if (monthly + warHappiness < 0) return "happiness would fall";
+        }
         // An assassination only makes sense from behind.
         if (t.name == "Assassin" && party.Power >= other.Power) return "ahead";
         bool cooling = t.name == "Assassin" || t.name == "Research" && party.Power > other.Power;
@@ -302,6 +318,22 @@ public static class AutoPlayer
     static bool GainIsPercent(HoverInfo template) => !Country.IsTutorial;
 
     static double ScoreMove(Side blue, Side red, Party party, HoverInfo t)
+    {
+        if (t.name == "Assassin")
+        {
+            // The result is random: judge it by whichever end of the range turns out worse.
+            Vector2Int range = DifficultyManager.Current.assassinPowerLoss;
+            AssassinLoss = range.x;
+            double low = ScoreMoveOnce(blue, red, party, t);
+            AssassinLoss = range.y;
+            double high = ScoreMoveOnce(blue, red, party, t);
+            AssassinLoss = (range.x + range.y) * 0.5;
+            return Math.Min(low, high);
+        }
+        return ScoreMoveOnce(blue, red, party, t);
+    }
+
+    static double ScoreMoveOnce(Side blue, Side red, Party party, HoverInfo t)
     {
         Side b = blue.Copy(), r = red.Copy();
         Side me = party == Country.Capitalism ? b : r, them = party == Country.Capitalism ? r : b;
@@ -337,8 +369,10 @@ public static class AutoPlayer
         float limit = DifficultyManager.Current.WarLimitAt(YearsNow);
         double danger = Math.Abs(Math.Log(Math.Max(1.0, party.Power) / Math.Max(1.0, other.Power))) / Math.Log(Math.Max(1.01, limit));
         bool leader = party.Power > other.Power;
+        // Also: a side that is behind calls an election for the new president's instant actions and fresh power.
         bool wise = leader && danger > SafeDanger && party.president.Power > 0
                     || !leader && party.president.Power < 0
+                    || !leader && danger > SafeDanger * 0.5 && party.ElectionIndex > party.TempPresedncy * 2
                     || party.PeoplSatsfaction < HappinessFloor && party.president.PeoplSatsfaction < 0;
         if (!wise)
             return;

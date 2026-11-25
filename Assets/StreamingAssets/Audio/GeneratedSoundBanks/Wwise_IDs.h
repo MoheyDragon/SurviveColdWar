@@ -14,6 +14,12 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID ASSASSIN = 1486053686U;
+        static const AkUniqueID CHAOS_ALARM = 2220967461U;
+        static const AkUniqueID CHAOS_CRASH = 1320641559U;
+        static const AkUniqueID CHAOS_CROWD = 1255105405U;
+        static const AkUniqueID CHAOS_EXPLOSION = 3351720423U;
+        static const AkUniqueID CHAOS_GUNS = 2742423075U;
+        static const AkUniqueID CHAOS_SHOT = 3213760782U;
         static const AkUniqueID CLICK = 1584507803U;
         static const AkUniqueID ELECTIONEND = 4232587031U;
         static const AkUniqueID ELECTIONSTART = 626984708U;

@@ -75,7 +75,7 @@ public class GameManager : MonoBehaviour
             Date.gameObject.SetActive(false);
             Month.gameObject.SetActive(false);
         } 
-        mainMonthCycle = 10;
+        mainMonthCycle = GameTuning.Current.monthSeconds;
         MonthCycle = mainMonthCycle + Time.time;
         ShowInfo(false);
         MonthEndAccelerator.SetGlobalValue(-100);
@@ -213,7 +213,7 @@ public class GameManager : MonoBehaviour
     }
     public void NormalFix()
     {
-        mainMonthCycle = 10;
+        mainMonthCycle = GameTuning.Current.monthSeconds;
         MonthCycle = mainMonthCycle + Time.time;   
     }
     public void Accelrator()

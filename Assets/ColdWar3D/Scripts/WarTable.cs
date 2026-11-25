@@ -47,7 +47,7 @@ public static class WarTableBootstrap
 }
 
 // Reads game state and shows it on the board. It never writes back to the game.
-public class WarTable : MonoBehaviour
+public partial class WarTable : MonoBehaviour
 {
     // Tanks travel and park in an arrowhead: one in front, the others in pairs behind it to the left and right.
     static Vector3 ArrowSpot(int i)
@@ -618,7 +618,6 @@ public class WarTable : MonoBehaviour
         return mesh;
     }
 
-    readonly HashSet<int> seaClaimed = new HashSet<int>();
 
     // A unit that keeps its place while its model changes with the side's level.
     Transform UnitContainer(string kind, Side side, Transform parent)
@@ -647,12 +646,7 @@ public class WarTable : MonoBehaviour
         }
 
         GameObject model = Instantiate(prefab, unit, false);
-        foreach (Collider collider in model.GetComponentsInChildren<Collider>(true))
-            Destroy(collider);
-        foreach (Rigidbody body in model.GetComponentsInChildren<Rigidbody>(true))
-            Destroy(body);
-        foreach (MonoBehaviour script in model.GetComponentsInChildren<MonoBehaviour>(true))
-            Destroy(script);
+        CleanModel(model);
         model.transform.localPosition = Vector3.zero;
         model.transform.localRotation = Quaternion.identity;
 
@@ -669,6 +663,37 @@ public class WarTable : MonoBehaviour
         Vector3 lift = unit.position - new Vector3(bounds.center.x, kind == "Satellite" ? bounds.center.y : bounds.min.y, bounds.center.z);
         model.transform.position += lift;
         TintTeam(model, side.color, kind);
+    }
+
+    // Strips a pack model down to what the board shows: no physics, scripts, animation, lights or particle effects,
+    // and none of the hidden helper meshes some packs ship with (collision shapes, spare wheels, landing gear).
+    static readonly string[] HelperParts = { "_Collider", "IdlerWheel", "RoadWheel", "Sprocket", "SupportWheel", "_Sus_", "Idler_Arm", "TrackPiece", "Chassis", "Wheels" };
+
+    static void CleanModel(GameObject model)
+    {
+        foreach (Collider collider in model.GetComponentsInChildren<Collider>(true))
+            Destroy(collider);
+        foreach (Rigidbody body in model.GetComponentsInChildren<Rigidbody>(true))
+            Destroy(body);
+        foreach (MonoBehaviour script in model.GetComponentsInChildren<MonoBehaviour>(true))
+            Destroy(script);
+        foreach (Animator animator in model.GetComponentsInChildren<Animator>(true))
+            Destroy(animator);
+        foreach (Light light in model.GetComponentsInChildren<Light>(true))
+            Destroy(light);
+        foreach (ParticleSystem particles in model.GetComponentsInChildren<ParticleSystem>(true))
+            particles.gameObject.SetActive(false);
+        foreach (Renderer part in model.GetComponentsInChildren<Renderer>(true))
+        {
+            foreach (string helper in HelperParts)
+            {
+                if (part.name.Contains(helper))
+                {
+                    part.enabled = false;
+                    break;
+                }
+            }
+        }
     }
 
     // The turn that points a sideways model's nose along the unit's forward direction.
@@ -698,13 +723,15 @@ public class WarTable : MonoBehaviour
         foreach (Renderer part in model.GetComponentsInChildren<Renderer>())
         {
             Material[] materials = part.sharedMaterials;
-            bool whole = kind == "Tank" && (part.name.StartsWith("Ring") || part.name.StartsWith("MainGun"));
+            bool whole = kind == "Tank" && (part.name.StartsWith("Ring") || part.name.StartsWith("MainGun")
+                                            || part.name.Contains("Turret") || part.name.Contains("Cannon") || part.name.Contains("Barrel"));
             for (int i = 0; i < materials.Length; i++)
             {
                 if (materials[i] == null)
                     continue;
                 string name = materials[i].name;
-                if (whole || kind == "Ship" && name.StartsWith("Light Grey") || kind == "Satellite" && name.StartsWith("dish"))
+                if (whole || kind == "Ship" && name.StartsWith("Light Grey") || kind == "Satellite" && name.StartsWith("dish")
+                    || kind == "Rocket" && name.StartsWith("Shuttle_Wings_Spoiler"))
                     materials[i] = paint;
             }
             part.sharedMaterials = materials;
@@ -715,10 +742,12 @@ public class WarTable : MonoBehaviour
     // stay there. Only over water. False when there's no enemy coast left to reach.
     bool BuildNavalVisual(Side side, ActionVisual visual)
     {
-        List<Vector3> route = SeaRoute(side, out int destination);
-        if (route == null)
+        EnsureSeaDistance();
+        int destination = PickOffshore(side);
+        if (destination < 0)
             return false;
-        seaClaimed.Add(destination);
+        List<Vector3> route = OpenWaterRoute(destination, side.isRed ? 1 : 0, -1);
+        ReserveSea(destination, true);
 
         var fleet = new GameObject("Fleet").transform;
         fleet.SetParent(transform, false);
@@ -729,6 +758,8 @@ public class WarTable : MonoBehaviour
             ships[i].localScale = Vector3.one * 1.7f;
         }
         side.fleets.Add(fleet);
+        var war = new Deployment { side = side, root = fleet, units = ships, naval = true, sea = destination, site = SeaPoint(destination) };
+        deployments.Add(war);
 
         var along = new float[route.Count];
         for (int i = 1; i < route.Count; i++)
@@ -777,6 +808,9 @@ public class WarTable : MonoBehaviour
         visual.onDone = () =>
         {
             Place(1f, true);
+            // Parked along the coast, not pointing into it.
+            ships[0].rotation = AlongCoast(destination);
+            war.ready = true;
             Vector3 target = route[route.Count - 1];
             warSites.Add(target);
             fx.Explosion(target + Vector3.up * 0.2f, 1f);
@@ -785,7 +819,9 @@ public class WarTable : MonoBehaviour
         };
         visual.onCancel = () =>
         {
-            seaClaimed.Remove(destination);
+            ReserveSea(destination, false);
+            deployments.Remove(war);
+            side.fleets.Remove(fleet);
             Destroy(fleet.gameObject);
         };
         return true;
@@ -831,64 +867,6 @@ public class WarTable : MonoBehaviour
                 return board.ThresholdOf(land) < board.Com ? 1 : 0;
         }
         return -1;
-    }
-
-    List<Vector3> SeaRoute(Side side, out int destination)
-    {
-        EnsureSeaGrid();
-        destination = -1;
-        // A free sea tile off the enemy's coast, away from the capitals.
-        var options = new List<int>();
-        int enemy = side.isRed ? 0 : 1;
-        foreach (int sea in seaAt.Values)
-        {
-            if (seaClaimed.Contains(sea) || CoastOwner(sea) != enemy || OnBuildingGround(SeaPoint(sea), 1.5f))
-                continue;
-            options.Add(sea);
-        }
-        if (options.Count == 0)
-            return null;
-        destination = options[UnityEngine.Random.Range(0, options.Count)];
-
-        // Search back from there over water to the side's own coast.
-        int own = side.isRed ? 1 : 0;
-        var cameFrom = new Dictionary<int, int> { { destination, -1 } };
-        var steps = new Dictionary<int, int> { { destination, 0 } };
-        var queue = new Queue<int>();
-        queue.Enqueue(destination);
-        int start = -1, staging = destination, stagingSteps = 0;
-        while (queue.Count > 0 && start < 0)
-        {
-            int current = queue.Dequeue();
-            foreach (Vector2Int key in AroundKey(SeaPoint(current)))
-            {
-                if (!seaAt.TryGetValue(key, out int next) || cameFrom.ContainsKey(next))
-                    continue;
-                cameFrom[next] = current;
-                steps[next] = steps[current] + 1;
-                // Sail from the side's own coast, at least a short voyage away, so the fleet is seen crossing the water.
-                if (CoastOwner(next) == own && steps[next] >= 6)
-                {
-                    start = next;
-                    break;
-                }
-                if (steps[next] <= 10 && steps[next] > stagingSteps)
-                {
-                    staging = next;
-                    stagingSteps = steps[next];
-                }
-                queue.Enqueue(next);
-            }
-        }
-
-        if (start < 0)
-            start = staging;
-        var route = new List<Vector3>();
-        for (int t = start; t >= 0; t = cameFrom[t])
-            route.Add(SeaPoint(t));
-        if (route.Count == 1)
-            route.Insert(0, route[0] + Vector3.back * 0.5f);
-        return route;
     }
 
     // Factory models from small to large, two per mark.
@@ -958,25 +936,6 @@ public class WarTable : MonoBehaviour
     }
 
     // A tile deep inside the enemy's half of the map, so each side's tanks stand out against the other's color.
-    int ClaimEnemyTile(Side side)
-    {
-        var options = new List<int>();
-        for (int i = 0; i < board.TileCount; i++)
-        {
-            if (claimed.Contains(i) || OnBuildingGround(board.TileTop(i), 1.1f))
-                continue;
-            float threshold = board.ThresholdOf(i);
-            if (side.isRed ? threshold > 0.62f : threshold < 0.38f)
-                options.Add(i);
-        }
-
-        if (options.Count == 0)
-            return ClaimFront();
-        int tile = options[UnityEngine.Random.Range(0, options.Count)];
-        claimed.Add(tile);
-        return tile;
-    }
-
     // A small radio station beside the capital, with a floating "i" sign. Tapping it opens the country report.
     void BuildInfoCenter(Side side, Vector2 capitalPoint)
     {
@@ -1263,13 +1222,11 @@ public class WarTable : MonoBehaviour
             }
         }
 
-        Mesh nukeMesh = ProcMesh.Rocket(side.color);
         spots.Sort((a, b) => (Mathf.Abs(a.x) + Mathf.Abs(a.z) * 0.6f).CompareTo(Mathf.Abs(b.x) + Mathf.Abs(b.z) * 0.6f));
         for (int i = 0; i < PoolCapacity && i < spots.Count; i++)
         {
             Vector3 home = poolCenter + spots[i];
-            // Chunky procedural missiles read better at this size than the thin pack model.
-            Transform missile = ProcMesh.Spawn("Nuke", nukeMesh, art.boardMaterial, transform).transform;
+            Transform missile = NukeModel("Nuke", side.color);
             missile.position = home;
             missile.localScale = Vector3.one * 1.55f;
             side.missiles.Add(missile);
@@ -1279,6 +1236,33 @@ public class WarTable : MonoBehaviour
         }
     }
 
+
+    // A nuclear missile from the missile pack, standing nose up on the transform's origin, the same size as the old
+    // built-in shape (so the pool, launches and strikes keep their scales). Falls back to that shape.
+    static float nukeHeight = -1f, nukeBase;
+
+    Transform NukeModel(string name, Color color)
+    {
+        if (nukeHeight < 0f)
+        {
+            Bounds old = ProcMesh.Rocket(color).bounds;
+            nukeHeight = old.size.y;
+            nukeBase = old.min.y;
+        }
+        if (art.nukeMissile == null)
+            return ProcMesh.Spawn(name, ProcMesh.Rocket(color), art.boardMaterial, transform).transform;
+
+        var root = new GameObject(name).transform;
+        root.SetParent(transform, false);
+        GameObject model = Instantiate(art.nukeMissile, root, false);
+        CleanModel(model);
+        model.transform.localRotation = Quaternion.Euler(-90f, 0f, 0f);   // the missiles in the pack lie along +z
+        Bounds bounds = WorldBounds(model);
+        model.transform.localScale *= nukeHeight / Mathf.Max(0.001f, bounds.size.y);
+        bounds = WorldBounds(model);
+        model.transform.position += root.position + Vector3.up * nukeBase - new Vector3(bounds.center.x, bounds.min.y, bounds.center.z);
+        return root;
+    }
 
     GameObject InstantiateClean(GameObject prefab, Vector3 position)
     {
@@ -1308,13 +1292,16 @@ public class WarTable : MonoBehaviour
 
     static Bounds WorldBounds(GameObject go)
     {
-        Renderer[] renderers = go.GetComponentsInChildren<Renderer>();
-        if (renderers.Length == 0)
-            return new Bounds(go.transform.position, Vector3.zero);
-
-        Bounds bounds = renderers[0].bounds;
-        foreach (Renderer item in renderers)
-            bounds.Encapsulate(item.bounds);
+        // Only what is drawn counts: hidden helper meshes and particle effects are left out.
+        bool any = false;
+        Bounds bounds = new Bounds(go.transform.position, Vector3.zero);
+        foreach (Renderer item in go.GetComponentsInChildren<Renderer>())
+        {
+            if (!item.enabled || item is ParticleSystemRenderer)
+                continue;
+            if (!any) { bounds = item.bounds; any = true; }
+            else bounds.Encapsulate(item.bounds);
+        }
         return bounds;
     }
 
@@ -1359,6 +1346,21 @@ public class WarTable : MonoBehaviour
             }
         }
 
+        if (best < 0)
+        {
+            // Nothing fits the wish: the nearest free tile anywhere (the map has room for everything).
+            for (int i = 0; i < board.TileCount; i++)
+            {
+                if (claimed.Contains(i) || OnBuildingGround(board.TileTop(i), 0f))
+                    continue;
+                float distance = (Flat(board.TileTop(i)) - point).sqrMagnitude;
+                if (distance < bestDistance)
+                {
+                    bestDistance = distance;
+                    best = i;
+                }
+            }
+        }
         if (best < 0)
             best = board.NearestTile(point);
         claimed.Add(best);
@@ -1474,6 +1476,7 @@ public class WarTable : MonoBehaviour
         fx.Tick();
         UpdateOrbiters();
         UpdateRoamers();
+        UpdateUnits();
         UpdateCamera();
         BobInfoSign(blue);
         BobInfoSign(red);
@@ -1782,14 +1785,16 @@ public class WarTable : MonoBehaviour
         // Tanks drive into the enemy's land and stay there, so the number of wars each side runs shows at a glance.
         // They only ever travel over land: they roll out from the nearest land their side holds (or a staging point
         // a few tiles back) and follow the tiles to the target.
-        int tile = ClaimEnemyTile(side);
+        int tankCount = Mathf.Max(1, Tuning.tanksPerColumn);
+        foreach (int _ in LandNeighbours(0)) { }   // builds the land grid
+        int[] tiles = ColumnTiles(side, tankCount, Enemy(side).capital);
+        int tile = tiles[0];
         Vector3 target = board.TileTop(tile);
         List<Vector3> route = LandRoute(side, tile);
         Vector3 from = route[0];
 
         var column = new GameObject("TankColumn").transform;
         column.SetParent(transform, false);
-        int tankCount = Mathf.Max(1, Tuning.tanksPerColumn);
         for (int i = 0; i < tankCount; i++)
         {
             GameObject tank = UnitContainer("Tank", side, column).gameObject;
@@ -1804,9 +1809,23 @@ public class WarTable : MonoBehaviour
             along[i] = along[i - 1] + (Flat(route[i]) - Flat(route[i - 1])).magnitude;
         float length = Mathf.Max(0.001f, along[route.Count - 1]);
 
-        // Where a tank is when it has driven d along the route, and which way it faces.
-        (Vector3, Vector3) OnRoute(float d)
+        // Where a tank is when it has driven d along the route, and which way it faces. Past the end of the road each
+        // tank drives on to its own tile (the leader's is the end of the road), so they never bunch up.
+        (Vector3, Vector3) OnRoute(float d, int who = 0)
         {
+            if (d > length)
+            {
+                Vector3 end = route[route.Count - 1];
+                Vector3 home = board.TileTop(tiles[Mathf.Min(who, tiles.Length - 1)]);
+                float leg = (Flat(home) - Flat(end)).magnitude;
+                if (leg > 0.01f)
+                {
+                    Vector3 toHome = home - end;
+                    toHome.y = 0f;
+                    return (Vector3.Lerp(end, home, Mathf.Clamp01((d - length) / leg)) + Vector3.up * 0.1f, toHome);
+                }
+                d = length;
+            }
             d = Mathf.Clamp(d, 0f, length);
             int i = 1;
             while (i < route.Count - 1 && along[i] < d)
@@ -1827,26 +1846,50 @@ public class WarTable : MonoBehaviour
         for (int i = 0; i < tanks.Length; i++)
             formation[i] = tanks[i].localPosition;
 
-        // The arrowhead follows the road: each tank keeps its place behind and beside the leader, measured along the route.
+        // The arrowhead follows the road: each tank keeps its place behind and beside the leader, measured along the
+        // route. Where the ground beside the road is water (or a building), a wing tank pulls in behind the leader,
+        // so no tank ever drives over water.
         int rows = (tanks.Length) / 2;
+        float[] wing = new float[tanks.Length];
+        // In single file each tank keeps a full tank length behind the one ahead.
+        const float FileGap = 1.25f;
+        float lastLeg = 0f;
+        foreach (int home in tiles)
+            lastLeg = Mathf.Max(lastLeg, (Flat(board.TileTop(home)) - Flat(route[route.Count - 1])).magnitude);
         void PlaceOnRoute(float t)
         {
-            float lead = Mathf.Clamp01(t) * (length + Gap * rows);
+            float lead = Mathf.Clamp01(t) * (length + lastLeg + FileGap * (tanks.Length - 1));
             (Vector3 front, Vector3 frontHeading) = OnRoute(lead);
             column.position = front;
             for (int i = 0; i < tanks.Length; i++)
             {
                 Vector3 spot = formation[i];
-                (Vector3 position, Vector3 heading) = OnRoute(lead + spot.z);
+                // In formation each wing tank sits beside the road; when it can't, it takes its own place in the file.
+                // Whether the formation spot beside the road is land is judged at the formation spot itself (not where
+                // the tank is now), and the tank eases in and out of formation, so it never flickers between the two.
+                (Vector3 slot, Vector3 slotHeading) = OnRoute(lead + spot.z, i);
+                bool solid = true;
+                if (lead + spot.z <= length && slotHeading.sqrMagnitude > 0.0001f)
+                {
+                    Vector3 beside = slot + Vector3.Cross(Vector3.up, slotHeading.normalized) * spot.x;
+                    solid = IsLand(beside) && !OnBuildingGround(beside, 0.1f);
+                }
+                wing[i] = Mathf.MoveTowards(wing[i], solid ? 1f : 0f, WorldDelta * 2f);
+                float back = Mathf.Lerp(-FileGap * i, spot.z, wing[i]);
+                (Vector3 position, Vector3 heading) = OnRoute(lead + back, i);
                 if (heading.sqrMagnitude > 0.0001f)
                 {
                     Vector3 forward = heading.normalized;
-                    position += Vector3.Cross(Vector3.up, forward) * spot.x;
+                    if (lead + back <= length)
+                        position += Vector3.Cross(Vector3.up, forward) * spot.x * wing[i];
                     tanks[i].rotation = Quaternion.Slerp(tanks[i].rotation, Quaternion.LookRotation(forward), WorldDelta * 6f);
                 }
                 tanks[i].position = position;
             }
         }
+
+        var war = new Deployment { side = side, root = column, units = tanks, tiles = tiles, site = target };
+        deployments.Add(war);
 
         Vector3 firstHeading = route.Count > 1 ? route[1] - route[0] : target - from;
         firstHeading.y = 0f;
@@ -1862,12 +1905,9 @@ public class WarTable : MonoBehaviour
         };
         visual.onDone = () =>
         {
-            column.position = target + Vector3.up * 0.02f;
-            for (int i = 0; i < tanks.Length; i++)
-            {
-                tanks[i].localPosition = formation[i];
-                tanks[i].localRotation = Quaternion.identity;
-            }
+            // Each tank parks on its own tile.
+            ParkTanks(war);
+            war.ready = true;
             warSites.Add(target);
             fx.Explosion(target + Vector3.up * 0.3f, 1f);
             fx.Smoke(target + Vector3.up * 0.1f, null, 7f, 0.75f, new Color(0.1f, 0.09f, 0.09f, 0.75f));
@@ -1875,7 +1915,14 @@ public class WarTable : MonoBehaviour
             StartCoroutine(ExpandingRing(target + Vector3.up * 0.15f, side.color, 2.4f));
             shake = Mathf.Max(shake, 0.1f);
         };
-        visual.onCancel = () => Destroy(column.gameObject);
+        visual.onCancel = () =>
+        {
+            foreach (int t in war.tiles)
+                claimed.Remove(t);
+            deployments.Remove(war);
+            side.tankColumns.Remove(column);
+            Destroy(column.gameObject);
+        };
     }
 
     void BuildSpyVisual(Side side, ActionVisual visual)
@@ -1907,6 +1954,7 @@ public class WarTable : MonoBehaviour
             fx.Burst(target, side.color + Color.white * 0.3f, 16, 0.2f, 1.5f, 0.6f);
             roamers.Add(new Roamer
             {
+                side = side,
                 transform = drone.transform,
                 overRed = enemy.isRed,
                 target = target,
@@ -1940,6 +1988,7 @@ public class WarTable : MonoBehaviour
 
     class Roamer
     {
+        public Side side;
         public Transform transform;
         public bool overRed;
         public Vector3 target;
@@ -2007,7 +2056,7 @@ public class WarTable : MonoBehaviour
         go.transform.localScale *= width / footprint;
     }
 
-    // The research rocket: the missile pack's rocket standing nose up on the pad, with the old shape as a fallback.
+    // The research rocket: the space shuttle standing nose up on the pad, its wings in the side's color.
     GameObject ResearchRocket(Side side, Vector3 pad)
     {
         if (art.researchRocket == null)
@@ -2021,9 +2070,9 @@ public class WarTable : MonoBehaviour
         rocket.transform.SetParent(transform, false);
         rocket.transform.position = pad;
         GameObject model = Instantiate(art.researchRocket, rocket.transform, false);
-        foreach (Collider collider in model.GetComponentsInChildren<Collider>(true))
-            Destroy(collider);
-        model.transform.localRotation = Quaternion.Euler(-90f, 0f, 0f);   // the pack's rockets lie along +z
+        CleanModel(model);
+        model.transform.localRotation = Quaternion.Euler(-90f, 0f, 0f);   // the shuttle lies nose-forward along +z: stand it on its tail
+        TintTeam(model, side.color, "Rocket");
         Bounds bounds = WorldBounds(model);
         model.transform.localScale *= Tuning.rocketHeight / Mathf.Max(0.001f, bounds.size.y);
         bounds = WorldBounds(model);
@@ -2172,7 +2221,7 @@ public class WarTable : MonoBehaviour
 
     IEnumerator FlyStrike(Vector3 from, Vector3 to, Color color, float seconds, float blastScale)
     {
-        GameObject rocket = ProcMesh.Spawn("Strike", ProcMesh.Rocket(color), art.boardMaterial, transform);
+        GameObject rocket = NukeModel("Strike", color).gameObject;
         rocket.transform.localScale = Vector3.one * 1.2f;
         fx.Flame(from, rocket.transform, 30f, 0.3f);
 

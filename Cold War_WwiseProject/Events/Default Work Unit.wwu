@@ -502,6 +502,72 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Chaos_Alarm" ID="{E8BE4D43-DAEA-45BA-B3F4-4C2D6EC57B77}">
+					<ChildrenList>
+						<Action Name="" ID="{E392B997-61DB-47E7-BF64-4D896B7C2915}" ShortID="261973069">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chaos_Alarm" ID="{32771447-E1C4-4E86-A3BF-F818EA0C0D9F}" WorkUnitID="{9A13F2DB-ED19-4E58-9655-58B35438E29F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Chaos_Explosion" ID="{61EC34C4-D79D-42DC-9BE4-752667BCC5B9}">
+					<ChildrenList>
+						<Action Name="" ID="{D2DBB889-7212-4571-9DDB-FAA413A7E028}" ShortID="798935572">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chaos_Explosion" ID="{0CE8D76E-638C-4471-9778-2CD4FA928653}" WorkUnitID="{9A13F2DB-ED19-4E58-9655-58B35438E29F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Chaos_Crowd" ID="{C2AB9A34-FDA0-4CB1-A4FF-F4FD0BF48157}">
+					<ChildrenList>
+						<Action Name="" ID="{21E28A00-521B-4833-BC79-8434087CD984}" ShortID="177777868">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chaos_Crowd" ID="{46FC3960-0FA2-4D1A-8001-BEDE468EFBA9}" WorkUnitID="{9A13F2DB-ED19-4E58-9655-58B35438E29F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Chaos_Crash" ID="{4AF20D62-0D81-4719-A5CF-96D4F84BDAEE}">
+					<ChildrenList>
+						<Action Name="" ID="{8769C1F9-725A-400C-88A1-5849A2A703B2}" ShortID="675398922">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chaos_Crash" ID="{6B74B736-A5D5-4AEF-99A6-C1EA48383FA0}" WorkUnitID="{9A13F2DB-ED19-4E58-9655-58B35438E29F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Chaos_Shot" ID="{940237AD-6898-4F8C-B524-A48806D87FB4}">
+					<ChildrenList>
+						<Action Name="" ID="{BB51F15D-43C0-4425-9A39-5C7B6110DDB5}" ShortID="492655486">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chaos_Shot" ID="{1EF41080-90AC-4ABD-A2B2-DE5064918046}" WorkUnitID="{9A13F2DB-ED19-4E58-9655-58B35438E29F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Chaos_Guns" ID="{60095678-2516-48AD-A945-2ADAD1DC10CC}">
+					<ChildrenList>
+						<Action Name="" ID="{ECDC0C72-1D71-4518-8544-495A69CD2332}" ShortID="162275869">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chaos_Guns" ID="{FB6CEBA9-FE48-4ECA-8F20-CCA51047D3B1}" WorkUnitID="{9A13F2DB-ED19-4E58-9655-58B35438E29F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
